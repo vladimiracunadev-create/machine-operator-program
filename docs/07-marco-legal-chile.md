@@ -136,6 +136,34 @@ En el ambito portuario aplican ademas las normas de la Autoridad Maritima y del
 recinto portuario. El detalle de certificacion del operador y montaje de grua
 torre se indica en datos por reconfirmar.
 
+### 1.8 Ascensores (transporte vertical)
+
+Los ascensores de edificios se rigen por la **Ley 20.296** (instalacion,
+mantencion e inspeccion de ascensores y similares) y por la Ordenanza General de
+Urbanismo y Construcciones (OGUC). Exigen mantencion periodica por empresa
+competente y certificacion por un organismo autorizado; la fiscalizacion recae
+en las municipalidades (Direccion de Obras). Los plazos y detalles exactos se
+indican en datos por reconfirmar.
+
+### 1.9 Vehiculos de competicion (Formula 1)
+
+Un monoplaza de Formula 1 **no circula por via publica** ni requiere licencia de
+conducir comun: es un vehiculo de competicion regido por el **reglamento
+deportivo y tecnico de la FIA** (Federacion Internacional del Automovil) y su
+serie. En Chile, el automovilismo deportivo se organiza a traves de la
+federacion nacional del automovilismo. El enfoque del curso es tecnico y
+educativo, no normativo de transito.
+
+### 1.10 Vehiculos militares terrestres (tanques)
+
+Marco institucional publico e historico unicamente. Los carros de combate son
+material del **Ejercito de Chile**, dependiente del Ministerio de Defensa
+Nacional, en el marco de la **Ley 18.948** (Organica Constitucional de las
+Fuerzas Armadas). Se rigen por normativa militar y no por la Ley de Transito.
+Este repositorio se limita a historia publica y principios fisicos generales,
+sin tactica, sistemas de armas ni procedimientos operativos (ver
+`docs/04-seguridad-y-limites.md`).
+
 ---
 
 ## 2. Vehiculos maritimos
@@ -272,6 +300,12 @@ interno es de politica publica mas los tratados internacionales.
 - **Sistema Nacional Satelital (SNSat)**: programa liderado por la FACH para
   dotar a Chile de capacidades satelitales.
 
+El material espacial real (cohetes lanzadores, transbordadores y estaciones como
+la ISS) opera bajo la jurisdiccion del **Estado de lanzamiento** y su agencia
+espacial (por ejemplo NASA, ESA, Roscosmos, JAXA, CSA), dentro del marco de los
+tratados internacionales. La ISS se rige ademas por un **Acuerdo
+Intergubernamental** entre los paises socios.
+
 Tratados internacionales del espacio ultraterrestre ratificados por Chile
 (marco de UNOOSA):
 
@@ -309,6 +343,8 @@ exacta. Verificar en el texto vigente antes de tomarlos como definitivos.
 - **Maquinaria de izaje fija**: normas especificas de certificacion del operador de grua y de montaje de grua torre.
 - **Helicopteros**: confirmar edicion vigente de la DAN 61 aplicable a la licencia de helicoptero.
 - **Drones (RPAS)**: confirmar edicion vigente de la DAN 151 y los umbrales exactos de peso, altura y distancias.
+- **Ascensores**: plazos exactos de mantencion e inspeccion y organismos certificadores de la Ley 20.296.
+- **Formula 1 / competicion**: version vigente del reglamento FIA y organizacion nacional del automovilismo.
 
 ## 6. Como usar este marco en la simulacion
 

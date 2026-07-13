@@ -25,8 +25,11 @@
 
 - `vehiculos/motos` (documentado como ejemplo de referencia)
 - `vehiculos/automoviles`
+- `vehiculos/formula-1`
 - `vehiculos/buses`
 - `vehiculos/camiones`
+- `vehiculos/tanques`
+- `vehiculos/ascensores`
 - `vehiculos/tren-pasajeros`
 - `vehiculos/tren-alta-velocidad`
 - `vehiculos/tren-carga`
@@ -45,6 +48,9 @@
 - `vehiculos/aviones-combate`
 - `vehiculos/helicopteros`
 - `vehiculos/drones`
+- `vehiculos/cohetes`
+- `vehiculos/transbordadores`
+- `vehiculos/estacion-espacial`
 - `vehiculos/naves-espaciales`
 
 ## Naves de ficcion (seccion educativa)
@@ -58,6 +64,10 @@
 - `vehiculos-fantasticos/halcon-milenario`
 - `vehiculos-fantasticos/sdf-1`
 - `vehiculos-fantasticos/estrella-de-la-muerte`
+- `vehiculos-fantasticos/teletransportador`
+- `vehiculos-fantasticos/thunderbird-1`
+- `vehiculos-fantasticos/thunderbird-2`
+- `vehiculos-fantasticos/thunderbird-3`
 
 ## Plantillas
 

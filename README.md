@@ -7,8 +7,8 @@
 [![Validar documentacion](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/validar-documentacion.yml/badge.svg)](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/validar-documentacion.yml)
 [![Verificar enlaces](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/enlaces.yml/badge.svg)](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/enlaces.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![Vehiculos](https://img.shields.io/badge/vehiculos-23-blue)
-![Ficcion](https://img.shields.io/badge/naves%20de%20ficcion-8-purple)
+![Vehiculos](https://img.shields.io/badge/vehiculos-29-blue)
+![Ficcion](https://img.shields.io/badge/naves%20de%20ficcion-12-purple)
 ![Enfoque](https://img.shields.io/badge/enfoque-educativo%20y%20seguro-green)
 
 </div>
@@ -41,17 +41,18 @@ flowchart TD
     Veh --> Mar[⚓ Maritimos]
     Veh --> Aire[✈️ Aereos]
     Veh --> Espacio[🚀 Espaciales]
-    Tierra --> T1[🏍️ Motos · 🚗 Autos · 🚌 Buses · 🚛 Camiones]
-    Tierra --> T2[🏗️ Gruas · 🚜 Tractores · 🚧 Maquinaria]
-    Tierra --> T3[⚓ Grua portuaria · 🗼 Grua torre]
+    Tierra --> T1[🏍️ Motos · 🚗 Autos · 🏎️ F1 · 🚌 Buses · 🚛 Camiones]
+    Tierra --> T2[🏗️ Gruas · 🚜 Tractores · 🚧 Maquinaria · 🪖 Tanques]
+    Tierra --> T3[⚓ Grua portuaria · 🗼 Grua torre · 🛗 Ascensores]
     Riel --> R1[🚆 Pasajeros · 🚄 Alta velocidad · 🚂 Carga]
     Mar --> M1[🚢 Mercantes · ⛴️ Cruceros · 🛳️ Portaviones]
     Mar --> M2[🛡️ Acorazados · 🌊 Submarinos]
     Aire --> A1[🛩️ Avionetas · 🛫 Pasajeros · ✈️ Combate]
     Aire --> A2[🚁 Helicopteros · 🕹️ Drones]
-    Espacio --> E1[🚀 Naves espaciales]
+    Espacio --> E1[🚀 Naves · 🚀 Cohetes · 🛬 Transbordadores · 🛰️ ISS]
     Fic --> F1[🕰️ DeLorean · 🛸 Caza estelar · 🌌 Exploracion · 🐙 Nautilus]
     Fic --> F2[🤖 Transformable · 🦅 Halcon · 🏯 SDF-1 · 🌑 Estrella de la Muerte]
+    Fic --> F3[🌀 Teletransportador · ⚡ Thunderbird 1 · 📦 Thunderbird 2 · 🚀 Thunderbird 3]
 ```
 
 ---
@@ -67,13 +68,16 @@ Cada vehiculo es un curso con 9 modulos (ver
 | --- | --- | --- |
 | [🏍️ Motocicletas](vehiculos/motos/README.md) | Equilibrio, transmision y dinamica de dos ruedas. | Clase C |
 | [🚗 Automoviles](vehiculos/automoviles/README.md) | Direccion, motor, seguridad y transito. | Clase B |
+| [🏎️ Formula 1](vehiculos/formula-1/README.md) | Monoplaza de competicion: aerodinamica y rendimiento. | Reglamento FIA |
 | [🚌 Buses](vehiculos/buses/README.md) | Transporte de pasajeros y operacion profesional. | Clase A-3 |
 | [🚛 Camiones](vehiculos/camiones/README.md) | Transporte de carga, simples y articulados. | Clase A-4 / A-5 |
+| [🪖 Tanques](vehiculos/tanques/README.md) | Vehiculo militar oruga (marco publico e historico). | Ejercito (Ley 18.948) |
 | [🏗️ Gruas](vehiculos/gruas/README.md) | Maquinaria automotriz movil, izaje y estabilidad. | Clase D |
 | [🚜 Tractores](vehiculos/tractores/README.md) | Maquinaria agricola, toma de fuerza y aperos. | Clase D |
 | [🚧 Maquinaria de construccion](vehiculos/maquinaria-construccion/README.md) | Excavadoras, cargadores, bulldozers y movimiento de tierra. | Clase D |
 | [⚓ Grua portuaria](vehiculos/grua-portuaria/README.md) | Grua fija de puerto para contenedores y carga. | Operador certificado |
 | [🗼 Grua torre](vehiculos/grua-torre/README.md) | Grua fija de edificio para construccion en altura. | Operador certificado |
+| [🛗 Ascensores](vehiculos/ascensores/README.md) | Transporte vertical en edificios: seguridad y mantencion. | Ley 20.296 |
 
 ### 🚆 Ferroviarios
 
@@ -103,6 +107,9 @@ Cada vehiculo es un curso con 9 modulos (ver
 | [🕹️ Drones](vehiculos/drones/README.md) | Aeronaves pilotadas a distancia (RPAS), multirotor y ala fija. | DGAC / DAN 151 |
 | [✈️ Aviones de combate](vehiculos/aviones-combate/README.md) | Fisica del vuelo e historia (marco publico). | FACH |
 | [🚀 Naves espaciales](vehiculos/naves-espaciales/README.md) | Orbitas, propulsion y soporte vital. | Tratados UNOOSA |
+| [🚀 Cohetes](vehiculos/cohetes/README.md) | Lanzadores actuales: etapas, empuje y ascenso. | Estado de lanzamiento |
+| [🛬 Transbordadores](vehiculos/transbordadores/README.md) | Vehiculo espacial reutilizable con reentrada alada. | Estado de lanzamiento |
+| [🛰️ Estacion espacial (ISS)](vehiculos/estacion-espacial/README.md) | Laboratorio orbital: modulos, soporte vital y microgravedad. | Acuerdo internacional |
 
 ---
 
@@ -124,6 +131,10 @@ respectivos autores; ver el aviso en el
 | [🦅 Halcon Milenario](vehiculos-fantasticos/halcon-milenario/README.md) | Estilo "Star Wars" | Carguero rapido: empuje, masa y maniobra. |
 | [🏯 SDF-1](vehiculos-fantasticos/sdf-1/README.md) | Estilo "Robotech" | Nave-fortaleza gigante: escala y estructura. |
 | [🌑 Estrella de la Muerte](vehiculos-fantasticos/estrella-de-la-muerte/README.md) | Estilo "Star Wars" | Estacion del tamano de una luna: gravedad y energia. |
+| [🌀 Teletransportador](vehiculos-fantasticos/teletransportador/README.md) | Ciencia ficcion | Teletransportacion: informacion, energia y limites fisicos. |
+| [⚡ Thunderbird 1](vehiculos-fantasticos/thunderbird-1/README.md) | Estilo "Thunderbirds" | Vehiculo rapido de respuesta: VTOL y velocidad. |
+| [📦 Thunderbird 2](vehiculos-fantasticos/thunderbird-2/README.md) | Estilo "Thunderbirds" | Transporte pesado modular: capacidad de carga. |
+| [🚀 Thunderbird 3](vehiculos-fantasticos/thunderbird-3/README.md) | Estilo "Thunderbirds" | Cohete de rescate espacial: ascenso a orbita. |
 
 ---
 

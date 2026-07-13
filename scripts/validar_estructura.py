@@ -24,8 +24,11 @@ RAIZ = Path(__file__).resolve().parent.parent
 VEHICULOS = [
     "motos",
     "automoviles",
+    "formula-1",
     "buses",
     "camiones",
+    "tanques",
+    "ascensores",
     "tren-pasajeros",
     "tren-alta-velocidad",
     "tren-carga",
@@ -44,6 +47,9 @@ VEHICULOS = [
     "aviones-combate",
     "helicopteros",
     "drones",
+    "cohetes",
+    "transbordadores",
+    "estacion-espacial",
     "naves-espaciales",
 ]
 
@@ -57,6 +63,10 @@ FANTASTICOS = [
     "halcon-milenario",
     "sdf-1",
     "estrella-de-la-muerte",
+    "teletransportador",
+    "thunderbird-1",
+    "thunderbird-2",
+    "thunderbird-3",
 ]
 
 SECCIONES_VEHICULO = [

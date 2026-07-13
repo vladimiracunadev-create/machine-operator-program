@@ -9,7 +9,9 @@ y el proyecto usa [Versionado Semantico](https://semver.org/lang/es/).
 
 ### Anadido
 
-- Curso de 🕹️ drones (RPAS): aeronaves pilotadas a distancia, multirotor y ala fija, con marco DGAC / DAN 151. Total: 23 vehiculos reales.
+- Seis cursos reales mas: 🏎️ Formula 1 (reglamento FIA), 🪖 tanques (militar, marco publico), 🛗 ascensores (Ley 20.296), 🚀 cohetes lanzadores, 🛬 transbordadores y 🛰️ estacion espacial ISS. Total: 29 vehiculos reales.
+- Cuatro naves de ficcion mas: 🌀 teletransportador (ciencia ficcion) y la serie ⚡📦🚀 Thunderbird 1, 2 y 3 (analisis fisico educativo, contenido original con aviso de derechos). Total: 12 naves de ficcion.
+- Curso de 🕹️ drones (RPAS): aeronaves pilotadas a distancia, multirotor y ala fija, con marco DGAC / DAN 151.
 - Tres naves de ficcion mas: 🦅 Halcon Milenario, 🏯 SDF-1 y 🌑 Estrella de la Muerte (analisis fisico educativo, contenido original con aviso de derechos). Total: 8 naves de ficcion.
 - Seis cursos reales mas: 🚆 tren de pasajeros, 🚄 tren de alta velocidad y 🚂 tren de carga (ferroviarios); ⚓ grua portuaria y 🗼 grua torre (izaje fijo); 🚁 helicopteros (aereo).
 - Nueva seccion **naves de ficcion** (`vehiculos-fantasticos/`), educativa y separada de los vehiculos reales, con 5 cursos (DeLorean, caza estelar, nave de exploracion, Nautilus, caza transformable) y aviso de derechos de autor.

@@ -6,18 +6,21 @@ Este plan define el orden recomendado para completar el repositorio. La idea es 
 
 1. Motos
 2. Automoviles
-3. Buses
-4. Camiones
-5. Gruas
-6. Tractores
-7. Maquinaria de construccion
+3. Formula 1
+4. Buses
+5. Camiones
+6. Tanques (marco publico)
+7. Gruas
+8. Tractores
+9. Maquinaria de construccion
 
 Objetivo: dominar aceleracion, frenado, direccion, transmision, peso, estabilidad, normas de transito y ergonomia de mandos, desde el vehiculo mas simple hasta la maquinaria de carga y trabajo.
 
-Izaje fijo (extension de maquinaria):
+Izaje y transporte vertical (extension de maquinaria):
 
 1. Grua portuaria
 2. Grua torre
+3. Ascensores
 
 ## Fase 1b: ferroviario
 
@@ -49,7 +52,10 @@ Objetivo: estudiar sustentacion, superficies de control, instrumentos de vuelo, 
 
 ## Fase 4: espacio
 
-1. Naves espaciales
+1. Cohetes (lanzadores actuales)
+2. Transbordadores
+3. Estacion espacial (ISS)
+4. Naves espaciales
 
 Objetivo: documentar propulsion, orbitalidad, energia, soporte vital, acoplamiento simulado, navegacion espacial y diferencias entre ciencia realista y ficcion interactiva.
 

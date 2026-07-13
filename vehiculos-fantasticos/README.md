@@ -38,6 +38,10 @@ abre un issue y se ajustara.
 | [🦅 Halcon Milenario](halcon-milenario/README.md) | Estilo "Star Wars" | Carguero rapido: empuje, masa, maniobra y "hiperimpulso". |
 | [🏯 SDF-1](sdf-1/README.md) | Estilo "Robotech" | Nave-fortaleza gigante: escala, estructura y masa. |
 | [🌑 Estrella de la Muerte](estrella-de-la-muerte/README.md) | Estilo "Star Wars" | Estacion del tamano de una luna: gravedad, energia y calor. |
+| [🌀 Teletransportador](teletransportador/README.md) | Ciencia ficcion | Teletransportacion: informacion, energia y limites fisicos. |
+| [⚡ Thunderbird 1](thunderbird-1/README.md) | Estilo "Thunderbirds" | Vehiculo rapido de respuesta: VTOL y velocidad. |
+| [📦 Thunderbird 2](thunderbird-2/README.md) | Estilo "Thunderbirds" | Transporte pesado modular: capacidad de carga. |
+| [🚀 Thunderbird 3](thunderbird-3/README.md) | Estilo "Thunderbirds" | Cohete de rescate espacial: ascenso a orbita. |
 
 ---
 
