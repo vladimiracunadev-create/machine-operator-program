@@ -1,4 +1,17 @@
-# Historia: moto
+# 📜 Historia de la moto
+
+[🏠 Inicio](../../../README.md) · [🏍️ Curso: Motos](../README.md) · 📜 Historia
+
+```mermaid
+timeline
+    title Evolucion de la motocicleta
+    1885 : Primeros vehiculos motorizados de dos ruedas
+    1900-1920 : Produccion en serie temprana
+    1930-1945 : Uso intensivo y militar
+    1950-1970 : Expansion masiva y motos ligeras
+    1980-2000 : Electronica e inyeccion
+    2000-hoy : ABS, control de traccion y electricas
+```
 
 ## Origen
 
@@ -46,4 +59,8 @@ personas, con un fuerte foco actual en seguridad vial y electrificacion.
 ## Fuentes
 
 - Registrar aqui las fuentes publicas consultadas.
-- Enlazar cada fuente tambien en `manuales/fuentes.md`.
+- Enlazar cada fuente tambien en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+---
+
+[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Caracteristicas](../operacion/caracteristicas-moto.md)

@@ -1,4 +1,6 @@
-# Reglamentos: avion de combate (marco publico)
+# ⚖️ Reglamentos del avion de combate (marco publico)
+
+[🏠 Inicio](../../../README.md) · [✈️ Curso: Aviones de combate](../README.md) · ⚖️ Reglamentos
 
 Referencia educativa, historica e institucional. Solo informacion publica y
 general; sin tactica, sistemas de armas ni procedimientos operativos. Ver
@@ -31,3 +33,7 @@ general; sin tactica, sistemas de armas ni procedimientos operativos. Ver
 - Enfocar en fisica del vuelo, instrumentos e historia publica.
 - Distinguir claramente la simulacion educativa de la operacion real.
 - Registrar cada fuente publica en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+---
+
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-avion-combate.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-avion-combate.md)

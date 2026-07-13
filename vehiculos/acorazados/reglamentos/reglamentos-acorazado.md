@@ -1,4 +1,6 @@
-# Reglamentos: acorazado (marco publico)
+# ⚖️ Reglamentos: Acorazados (marco publico)
+
+[🏠 Inicio](../../../README.md) · [🛡️ Curso: Acorazados](../README.md) · ⚖️ Reglamentos
 
 Referencia educativa, historica e institucional. Este repositorio se limita a
 informacion publica y general; no incluye tactica, sistemas de armas ni
@@ -36,3 +38,7 @@ y el marco general en [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-le
 
 - Enfocar en historia, navegacion y principios de estabilidad.
 - Registrar cada fuente publica en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+---
+
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-acorazado.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-acorazado.md)

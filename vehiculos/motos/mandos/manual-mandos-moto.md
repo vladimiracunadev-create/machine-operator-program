@@ -1,4 +1,6 @@
-# Manual de mandos: moto
+# 🎛️ Mandos e instrumentos de la moto
+
+[🏠 Inicio](../../../README.md) · [🏍️ Curso: Motos](../README.md) · 🎛️ Mandos
 
 ## Vista general
 
@@ -62,3 +64,7 @@ tablero, hoy digital o mixto, se ubica al centro sobre la horquilla.
 - El corte de motor de emergencia debe ser accesible y reconocible.
 - La interfaz de simulacion deberia prevenir cambios de marcha sin embrague en
   los niveles de realismo mas altos.
+
+---
+
+[⬅️ Anterior: Sistemas mecanicos](../operacion/sistemas-mecanicos-moto.md) · [➡️ Siguiente: Principios y operacion](../operacion/principios-moto.md)

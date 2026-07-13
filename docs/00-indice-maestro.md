@@ -9,6 +9,7 @@
 - `docs/05-glosario-general.md`: vocabulario comun del repositorio.
 - `docs/06-plan-vehiculos.md`: orden recomendado para documentar vehiculo por vehiculo.
 - `docs/07-marco-legal-chile.md`: marco legal chileno e internacional por tipo de vehiculo.
+- `docs/08-guia-de-estilo-y-curso.md`: iconografia, estructura de curso y navegacion.
 
 ## Secciones generales
 

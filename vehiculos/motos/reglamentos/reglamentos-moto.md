@@ -1,4 +1,6 @@
-# Reglamentos: moto (Chile)
+# ⚖️ Reglamentos de la moto (Chile)
+
+[🏠 Inicio](../../../README.md) · [🏍️ Curso: Motos](../README.md) · ⚖️ Reglamentos
 
 Referencia educativa y de diseno de simulacion. Las normas reales cambian; para
 circular se deben consultar la autoridad de transito y la ley vigente. Marco
@@ -48,3 +50,7 @@ general en [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.m
 - Usar sanciones educativas (avisos) en vez de castigos frustrantes.
 - Ajustar los limites de velocidad al escenario.
 - Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+---
+
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-moto.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-moto.md)

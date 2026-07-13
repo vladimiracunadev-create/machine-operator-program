@@ -1,4 +1,6 @@
-# Reglamentos: portaviones (marco publico)
+# ⚖️ Reglamentos: Portaviones (marco publico)
+
+[🏠 Inicio](../../../README.md) · [🛳️ Curso: Portaviones](../README.md) · ⚖️ Reglamentos
 
 Referencia educativa, historica e institucional. Solo informacion publica y
 general; sin tactica, sistemas de armas ni procedimientos operativos. Ver
@@ -31,3 +33,7 @@ general; sin tactica, sistemas de armas ni procedimientos operativos. Ver
 
 - Enfocar en historia, coordinacion de cubierta y principios fisicos generales.
 - Registrar cada fuente publica en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+---
+
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-portaviones.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-portaviones.md)

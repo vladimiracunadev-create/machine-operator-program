@@ -1,4 +1,18 @@
-# Diseno de simulacion: moto
+# 🎮 Diseno de simulacion de la moto
+
+[🏠 Inicio](../../../README.md) · [🏍️ Curso: Motos](../README.md) · 🎮 Simulacion
+
+```mermaid
+stateDiagram-v2
+    [*] --> Apagado
+    Apagado --> Preparado: encender
+    Preparado --> EnMovimiento: soltar embrague + acelerar
+    EnMovimiento --> Preparado: detener
+    EnMovimiento --> Emergencia: riesgo o falla
+    Emergencia --> Preparado: orillar y controlar
+    Preparado --> Apagado: apagar
+    Apagado --> [*]
+```
 
 ## Objetivo de la simulacion
 
@@ -52,4 +66,8 @@ segura y progresiva.
 - [ ] Definir valores por defecto de cada variable por tipo de moto.
 - [ ] Prototipar el ciclo basico en un motor simple.
 - [ ] Ajustar el modelo de adherencia con lluvia.
-- [ ] Agregar fuentes tecnicas publicas a `manuales/fuentes.md`.
+- [ ] Agregar fuentes tecnicas publicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+---
+
+[⬅️ Anterior: Reglamentos](../reglamentos/reglamentos-moto.md) · [➡️ Siguiente: Recursos](../recursos/recursos-moto.md)

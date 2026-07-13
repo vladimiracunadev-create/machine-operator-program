@@ -1,4 +1,6 @@
-# Reglamentos: submarino (marco publico)
+# ⚖️ Reglamentos: Submarinos (marco publico)
+
+[🏠 Inicio](../../../README.md) · [🌊 Curso: Submarinos](../README.md) · ⚖️ Reglamentos
 
 Referencia educativa, historica e institucional. Solo informacion publica y
 general; sin tactica, sistemas de armas ni procedimientos operativos. Ver
@@ -32,3 +34,7 @@ general; sin tactica, sistemas de armas ni procedimientos operativos. Ver
 
 - Enfocar en fisica de flotabilidad y lastre, historia y seguridad.
 - Registrar cada fuente publica en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+---
+
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-submarino.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-submarino.md)

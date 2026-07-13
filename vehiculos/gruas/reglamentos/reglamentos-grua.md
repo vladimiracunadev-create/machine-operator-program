@@ -1,4 +1,6 @@
-# Reglamentos: grua (Chile)
+# ⚖️ Reglamentos de la grua (Chile)
+
+[🏠 Inicio](../../../README.md) · [🏗️ Curso: Gruas](../README.md) · ⚖️ Reglamentos
 
 Referencia educativa y de diseno de simulacion. Marco general en
 [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md).
@@ -45,3 +47,7 @@ Referencia educativa y de diseno de simulacion. Marco general en
 - El nucleo educativo es la estabilidad: momento de carga, radio y contrapeso.
 - Modelar el area de exclusion y la senalizacion.
 - Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+---
+
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-grua.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-grua.md)

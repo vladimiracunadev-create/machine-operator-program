@@ -1,4 +1,6 @@
-# Principios y operacion: moto
+# 🧪 Principios y operacion de la moto
+
+[🏠 Inicio](../../../README.md) · [🏍️ Curso: Motos](../README.md) · 🧪 Principios
 
 Documento general y educativo. No sustituye un curso de conduccion certificado
 ni el manual del fabricante. Describe como se opera una moto en simulacion y que
@@ -53,4 +55,8 @@ principios fisicos conviene representar.
 - **Nivel 3 (tecnico)**: sumar embrague, marchas, regimen del motor y frenada
   combinada.
 
-Ver `docs/03-niveles-de-realismo.md` para el detalle de cada nivel.
+Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
+
+---
+
+[⬅️ Anterior: Mandos](../mandos/manual-mandos-moto.md) · [➡️ Siguiente: Entornos de trabajo](entornos-moto.md)

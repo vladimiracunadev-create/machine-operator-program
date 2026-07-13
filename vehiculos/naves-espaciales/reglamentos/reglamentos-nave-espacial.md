@@ -1,4 +1,6 @@
-# Reglamentos: nave espacial (marco publico)
+# ⚖️ Reglamentos de la nave espacial (marco publico)
+
+[🏠 Inicio](../../../README.md) · [🚀 Curso: Naves espaciales](../README.md) · ⚖️ Reglamentos
 
 Referencia educativa e institucional. Marco general en
 [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md).
@@ -44,3 +46,7 @@ nacional, responsabilidad del Estado de lanzamiento y cooperacion internacional.
 - Enfocar en orbitalidad, propulsion y soporte vital.
 - Usar los tratados como marco narrativo y de reglas.
 - Registrar cada fuente publica en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+---
+
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-nave-espacial.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-nave-espacial.md)

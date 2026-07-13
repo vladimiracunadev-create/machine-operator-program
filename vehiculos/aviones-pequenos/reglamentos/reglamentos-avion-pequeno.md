@@ -1,4 +1,6 @@
-# Reglamentos: avion pequeno (Chile)
+# ⚖️ Reglamentos del avion pequeno (Chile)
+
+[🏠 Inicio](../../../README.md) · [🛩️ Curso: Aviones pequenos](../README.md) · ⚖️ Reglamentos
 
 Referencia educativa y de diseno de simulacion. Marco general en
 [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md).
@@ -45,3 +47,7 @@ Referencia educativa y de diseno de simulacion. Marco general en
 - El nucleo educativo son los instrumentos de vuelo y la navegacion aerea.
 - Modelar chequeos previos, plan de vuelo y comunicaciones basicas.
 - Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+---
+
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-avion-pequeno.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-avion-pequeno.md)

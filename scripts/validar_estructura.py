@@ -75,6 +75,7 @@ DOCUMENTOS_CLAVE = [
     "docs/05-glosario-general.md",
     "docs/06-plan-vehiculos.md",
     "docs/07-marco-legal-chile.md",
+    "docs/08-guia-de-estilo-y-curso.md",
     "plantillas/ficha-vehiculo.md",
     "plantillas/manual-mandos.md",
     "plantillas/reglamentos.md",
@@ -85,6 +86,9 @@ DOCUMENTOS_CLAVE = [
 
 # Enlaces Markdown en linea: captura el destino de [texto](destino).
 PATRON_ENLACE = re.compile(r"(?<!\!)\[[^\]]*\]\(([^)]+)\)")
+
+# Bloques de codigo cercados: sus enlaces son ejemplos, no se verifican.
+PATRON_CODIGO = re.compile(r"```.*?```", re.DOTALL)
 
 
 def existe(rel: str) -> bool:
@@ -121,6 +125,8 @@ def validar_enlaces(errores: list[str]) -> int:
         if rel_partes and rel_partes[0] in {".git", "node_modules", ".codex-docs-cache"}:
             continue
         texto = md.read_text(encoding="utf-8", errors="replace")
+        # Ignorar enlaces dentro de bloques de codigo (son ejemplos).
+        texto = PATRON_CODIGO.sub("", texto)
         for destino in PATRON_ENLACE.findall(texto):
             destino = destino.strip()
             # Ignorar externos, anclas puras, correos y protocolos.
