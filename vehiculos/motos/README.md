@@ -4,13 +4,18 @@
 
 Construir la base para simular motocicletas de forma educativa: equilibrio, aceleracion, frenado, embrague, cambios, inclinacion, adherencia y normas de circulacion.
 
-## Documentos a crear
+## Estado
 
-- `mandos/manual-mandos-moto.md`
-- `operacion/principios-moto.md`
-- `historia/historia-moto.md`
-- `reglamentos/reglamentos-moto.md`
-- `simulacion/diseno-simulador-moto.md`
+Vehiculo de referencia: documentacion base completa. Sirve como ejemplo del
+formato esperado para el resto de los vehiculos.
+
+## Documentos
+
+- [`mandos/manual-mandos-moto.md`](mandos/manual-mandos-moto.md)
+- [`operacion/principios-moto.md`](operacion/principios-moto.md)
+- [`historia/historia-moto.md`](historia/historia-moto.md)
+- [`reglamentos/reglamentos-moto.md`](reglamentos/reglamentos-moto.md)
+- [`simulacion/diseno-simulador-moto.md`](simulacion/diseno-simulador-moto.md)
 
 ## Mandos principales
 

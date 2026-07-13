@@ -1,0 +1,28 @@
+// Config de markdownlint-cli2 para multi-piloto-navegacion.
+// Aplicada por CI (.github/workflows/validar-documentacion.yml) y localmente.
+{
+  "config": {
+    // Solo marcar headings duplicados si estan bajo el mismo padre.
+    // Es lo idiomatico para Keep a Changelog (cada release repite "### Anadido")
+    // y para las fichas de vehiculo que repiten secciones equivalentes.
+    "MD024": { "siblings_only": true },
+
+    // MD013 (line-length) — desactivado: algunas tablas y bloques largos
+    // se mantienen en una linea a proposito para legibilidad en GitHub.
+    "MD013": false,
+
+    // MD033 (no-inline-html) — desactivado: el README usa <div>, <img> (badges)
+    // y <br> de forma intencional para el encabezado.
+    "MD033": false,
+
+    // MD041 (first-line-h1) — desactivado: el README abre con un bloque de
+    // badges centrado antes del primer heading.
+    "MD041": false
+  },
+  "ignores": [
+    "node_modules",
+    ".venv",
+    ".codex-docs-cache",
+    "manuales/pdf"
+  ]
+}

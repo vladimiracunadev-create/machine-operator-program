@@ -9,9 +9,19 @@
 - `docs/05-glosario-general.md`: vocabulario comun del repositorio.
 - `docs/06-plan-vehiculos.md`: orden recomendado para documentar vehiculo por vehiculo.
 
+## Secciones generales
+
+- `mandos/`: criterios comunes para describir mandos e instrumentos.
+- `manuales/`: biblioteca de fuentes publicas y su registro.
+- `historia/`: ejes para sintetizar la evolucion de cada maquina.
+- `reglamentos/`: normas, licencias y seguridad de referencia.
+- `operacion/`: fases y criterios generales de operacion en simulacion.
+- `recursos/`: esquemas, tablas, enlaces y glosarios de apoyo.
+- `simuladores/`: preparacion de los futuros juegos y simuladores.
+
 ## Vehiculos
 
-- `vehiculos/motos`
+- `vehiculos/motos` (documentado como ejemplo de referencia)
 - `vehiculos/automoviles`
 - `vehiculos/buses`
 - `vehiculos/gruas`
@@ -31,3 +41,12 @@
 - `plantillas/historia.md`
 - `plantillas/diseno-simulacion.md`
 - `plantillas/checklist-documentacion.md`
+
+## Colaboracion y gobierno
+
+- `CONTRIBUTING.md`: como aportar documentacion y validar cambios.
+- `CODE_OF_CONDUCT.md`: normas de convivencia del proyecto.
+- `CHANGELOG.md`: historial de cambios relevantes.
+- `LICENSE`: licencia MIT del repositorio.
+- `scripts/validar_estructura.py`: validador de estructura y enlaces internos.
+- `.github/workflows/validar-documentacion.yml`: validacion automatica en CI.

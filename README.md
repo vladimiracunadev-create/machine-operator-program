@@ -1,5 +1,8 @@
 # Repositorio Multisimulador de Mandos
 
+[![Validar documentacion](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/validar-documentacion.yml/badge.svg)](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/validar-documentacion.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Repositorio documental para construir, paso a paso, una biblioteca de mandos, principios de funcionamiento, historia, reglamentos, manuales y criterios de simulacion para distintos tipos de maquinas.
 
 El objetivo inicial no es crear juegos todavia. La prioridad es ordenar el conocimiento necesario para que, mas adelante, cada vehiculo pueda convertirse en una experiencia de simulacion coherente, educativa y segura.
@@ -67,8 +70,34 @@ Cada tipo de vehiculo tiene las mismas secciones:
 9. Revisar con fuentes confiables.
 10. Preparar el material para un futuro juego o simulador.
 
+## Validacion y calidad
+
+El repositorio se valida de forma automatica en cada cambio con el workflow
+[`validar-documentacion.yml`](.github/workflows/validar-documentacion.yml), que
+comprueba la estructura, los enlaces internos y el estilo de Markdown.
+
+Para validar en local antes de subir cambios:
+
+```bash
+# Estructura del repositorio y enlaces internos
+python scripts/validar_estructura.py
+
+# Estilo de Markdown (requiere Node)
+npx markdownlint-cli2 "**/*.md"
+```
+
+## Como contribuir
+
+Lee la [guia de contribucion](CONTRIBUTING.md) y el
+[codigo de conducta](CODE_OF_CONDUCT.md). El historial de cambios esta en
+[`CHANGELOG.md`](CHANGELOG.md) y el proyecto se distribuye bajo licencia
+[MIT](LICENSE).
+
 ## Estado del proyecto
 
-Estado actual: base documental creada.
+Estado actual: base documental creada y validada en CI. El vehiculo
+[`motos`](vehiculos/motos/README.md) esta documentado como ejemplo de referencia
+del formato esperado (mandos, operacion, historia, reglamentos y simulacion).
 
-Siguiente paso sugerido: comenzar por `motos`, porque permite explicar aceleracion, frenado, embrague, equilibrio, transmision, tablero y normas de circulacion con menor complejidad que aeronaves o buques.
+Siguiente paso sugerido: replicar ese nivel de detalle en `automoviles`, `buses`
+y `gruas`, siguiendo el orden de [`docs/06-plan-vehiculos.md`](docs/06-plan-vehiculos.md).
