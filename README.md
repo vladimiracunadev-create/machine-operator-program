@@ -86,6 +86,14 @@ python scripts/validar_estructura.py
 npx markdownlint-cli2 "**/*.md"
 ```
 
+## Marco legal
+
+El repositorio incluye un marco legal tecnico por tipo de vehiculo, centrado en
+la normativa chilena e internacional, en
+[`docs/07-marco-legal-chile.md`](docs/07-marco-legal-chile.md). Cada vehiculo
+civil tiene ademas su propio archivo de reglamentos con la ley aplicable
+(licencias, seguridad, documentos). Es material educativo, no asesoria legal.
+
 ## Como contribuir
 
 Lee la [guia de contribucion](CONTRIBUTING.md) y el

@@ -1,45 +1,50 @@
-# Reglamentos: moto
+# Reglamentos: moto (Chile)
 
-Referencia educativa y de diseno de simulacion. Las normas reales varian por
-pais y cambian con el tiempo. Para circular de verdad se deben consultar la
-autoridad de transito y la legislacion vigente de cada lugar.
+Referencia educativa y de diseno de simulacion. Las normas reales cambian; para
+circular se deben consultar la autoridad de transito y la ley vigente. Marco
+general en [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md).
 
 ## Ambito
 
-- Pais o region: generico (adaptar al pais objetivo).
-- Autoridad reguladora: autoridad de transito correspondiente.
+- Pais: Chile.
+- Ley base: Ley 18.290 (Ley de Transito).
+- Autoridad: CONASET, MTT, municipalidades (licencias) y Carabineros
+  (fiscalizacion).
 - Tipo de vehiculo: motocicleta de via publica.
-- Fecha de revision: pendiente por pais.
 
-## Requisitos generales
+## Licencia
 
-| Tema | Requisito tipico | Aplicacion en simulacion |
-| --- | --- | --- |
-| Licencia | Permiso especifico para moto | Modo licencia simulada por categoria. |
-| Seguridad | Casco homologado obligatorio | Penalizar o advertir si falta. |
-| Circulacion | Respetar senales y limites | Reglas de transito en el escenario. |
-| Iluminacion | Luces encendidas segun norma | Estado de luces en el tablero. |
-| Mantenimiento | Frenos, neumaticos y luces en regla | Chequeo previo simulado. |
+- Clase **C** (no profesional), Ley 18.290 Art. 12.
+- Edad minima: 18 anos (Art. 13).
+- La licencia habilita motocicletas, motonetas y bicimotos.
+
+## Requisitos y elementos de seguridad
+
+| Tema | Norma | Requisito | Aplicacion en simulacion |
+| --- | --- | --- | --- |
+| Casco | Ley 18.290, Art. 84 | Obligatorio para conductor y acompanante. | Advertir o bloquear el arranque sin casco. |
+| Luces | Ley 18.290 | Uso de luces segun norma. | Estado de luces en el tablero. |
+| Documentos | Ley 18.290 / Ley 18.490 | Padron, permiso de circulacion, revision tecnica, SOAP. | Chequeo previo simulado. |
+| Velocidad urbana | Ley 21.103 | 50 km/h general. | Limite del escenario urbano. |
+| Convivencia vial | Ley 21.088 | Distancia y respeto a usuarios vulnerables. | Reglas de trafico del escenario. |
 
 ## Reglas de seguridad
 
-- Usar siempre casco y proteccion adecuada.
-- Mantener distancia de seguridad y velocidad prudente.
-- Senalizar cada maniobra con anticipacion.
+- Usar siempre casco homologado y proteccion adecuada.
+- Encender luces y senalizar cada maniobra con anticipacion.
+- Mantener distancia y velocidad prudente.
 - Adaptar la conduccion a lluvia, viento o baja visibilidad.
 - No circular entre vehiculos de forma imprudente.
 
-## Restricciones comunes
+## Restricciones
 
-- Edad: minima segun categoria de licencia.
-- Licencia: por cilindrada o potencia en muchos paises.
-- Zonas permitidas: algunas vias restringen ciertas motos.
-- Condiciones ambientales: precaucion extra con piso mojado.
-- Pasajeros: solo si la moto y la norma lo permiten.
+- Edad minima 18 anos para licencia clase C.
+- Acompanante solo si la moto lo permite y con casco.
+- Zonas o vias con restricciones especificas segun senalizacion.
 
 ## Notas para simulacion
 
-- Representar el casco y la senalizacion como habitos correctos.
+- Representar casco y senalizacion como habitos correctos.
 - Usar sanciones educativas (avisos) en vez de castigos frustrantes.
-- Ajustar los limites de velocidad al escenario elegido.
-- Enlazar cada norma concreta a su fuente publica en `manuales/fuentes.md`.
+- Ajustar los limites de velocidad al escenario.
+- Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).

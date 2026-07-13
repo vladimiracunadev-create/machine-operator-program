@@ -74,6 +74,7 @@ DOCUMENTOS_CLAVE = [
     "docs/04-seguridad-y-limites.md",
     "docs/05-glosario-general.md",
     "docs/06-plan-vehiculos.md",
+    "docs/07-marco-legal-chile.md",
     "plantillas/ficha-vehiculo.md",
     "plantillas/manual-mandos.md",
     "plantillas/reglamentos.md",

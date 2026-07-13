@@ -1,0 +1,7 @@
+# Dominios o URLs que el verificador de enlaces (lychee) debe ignorar.
+# Una URL o expresion regular por linea. Se usa para sitios que bloquean bots
+# o que responden de forma intermitente, no para ocultar enlaces realmente rotos.
+
+# Los visores dinamicos de la Biblioteca del Congreso a veces no responden a
+# clientes automatizados aunque el enlace sea valido en el navegador.
+https://www.bcn.cl/leychile/.*

@@ -1,0 +1,17 @@
+# Normaliza fin de linea en todos los sistemas operativos. LF por defecto.
+# Elimina de raiz los avisos "LF will be replaced by CRLF" en Windows.
+* text=auto eol=lf
+
+# Scripts especificos de Windows conservan CRLF (mejor experiencia nativa).
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
+
+# Binarios: nunca alterar EOL.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.pdf  binary
+*.ico  binary
+*.svg  text eol=lf
