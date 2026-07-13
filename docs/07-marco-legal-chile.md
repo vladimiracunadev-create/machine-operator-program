@@ -111,6 +111,31 @@ danos materiales.
 - **Municipalidades**: licencias de conducir y permisos de circulacion.
 - **CMF**: supervisa el SOAP.
 
+### 1.6 Ferroviario
+
+El transporte por ferrocarril se rige por la **Ley General de Ferrocarriles** y la
+normativa del sector, con la **Empresa de los Ferrocarriles del Estado (EFE)** como
+operador estatal historico y el MTT en el rol regulador. La operacion cubre
+senalizacion, gestion de la via, pasos a nivel y habilitacion del personal de
+conduccion (maquinistas). Los numeros y fechas exactos de la ley y sus reglamentos
+se listan en datos por reconfirmar. Fuente institucional: <https://www.efe.cl>.
+
+### 1.7 Maquinaria de izaje fija (grua portuaria y grua torre)
+
+Las gruas fijas (de puerto y de edificio) no circulan por via publica, por lo que
+no requieren licencia de conducir. Se rigen por la **seguridad laboral**:
+
+- **Ley 16.744**: seguro social contra riesgos de accidentes del trabajo y
+  enfermedades profesionales.
+- **D.S. 594 (MINSAL)**: condiciones sanitarias y ambientales basicas en los
+  lugares de trabajo.
+- Operacion por personal **certificado/competente**, plan de izaje, tablas de
+  carga del fabricante, senalero (rigger) y area de exclusion.
+
+En el ambito portuario aplican ademas las normas de la Autoridad Maritima y del
+recinto portuario. El detalle de certificacion del operador y montaje de grua
+torre se indica en datos por reconfirmar.
+
 ---
 
 ## 2. Vehiculos maritimos
@@ -206,7 +231,16 @@ requiere licencia de **Piloto de Transporte de Linea Aerea (ATP)** ademas de las
 habilitaciones de tipo, y la operacion se rige por las normas DAN aplicables al
 transporte aereo comercial y por los Anexos del Convenio de Chicago.
 
-### 3.2 Aviones de combate
+### 3.2 Helicopteros
+
+Las aeronaves de ala rotatoria se rigen por el mismo marco que la aviacion civil:
+**Codigo Aeronautico (Ley 18.916)** y fiscalizacion de la **DGAC**. La licencia
+de piloto de helicoptero y sus habilitaciones estan reguladas por la
+reglamentacion **DAN 61** (licencias para pilotos y sus habilitaciones), con
+certificado medico aeronautico. Los usos incluyen rescate, transporte, trabajo
+aereo (extincion de incendios, carga externa) y servicios medicos.
+
+### 3.3 Aviones de combate
 
 Marco publico unicamente. Las aeronaves militares de la **Fuerza Aerea de Chile
 (FACH)** se rigen por normativa militar (marco de la Ley 18.948) y no por las
@@ -260,6 +294,9 @@ exacta. Verificar en el texto vigente antes de tomarlos como definitivos.
 - **Convenio de Responsabilidad (1972)**: ano exacto del D.S. 818 (1976 o 1977).
 - **Convenio de Registro (1975)**: numero y fecha del decreto promulgatorio.
 - **Ley espacial / Agencia Espacial**: estado de tramitacion del proyecto de ley.
+- **Ferroviario**: numero y fecha exactos de la Ley General de Ferrocarriles y sus reglamentos; regimen de habilitacion de maquinistas.
+- **Maquinaria de izaje fija**: normas especificas de certificacion del operador de grua y de montaje de grua torre.
+- **Helicopteros**: confirmar edicion vigente de la DAN 61 aplicable a la licencia de helicoptero.
 
 ## 6. Como usar este marco en la simulacion
 

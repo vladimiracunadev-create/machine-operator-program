@@ -14,6 +14,19 @@ Este plan define el orden recomendado para completar el repositorio. La idea es 
 
 Objetivo: dominar aceleracion, frenado, direccion, transmision, peso, estabilidad, normas de transito y ergonomia de mandos, desde el vehiculo mas simple hasta la maquinaria de carga y trabajo.
 
+Izaje fijo (extension de maquinaria):
+
+1. Grua portuaria
+2. Grua torre
+
+## Fase 1b: ferroviario
+
+1. Tren de pasajeros
+2. Tren de alta velocidad
+3. Tren de carga
+
+Objetivo: entender la traccion sobre rieles, el frenado de grandes masas, la senalizacion, el gobierno por via y las diferencias entre transporte de personas y de carga.
+
 ## Fase 2: navegacion maritima
 
 1. Barcos mercantes
@@ -28,7 +41,8 @@ Objetivo: documentar propulsion naval, gobierno por timon, navegacion, comunicac
 
 1. Aviones pequenos
 2. Aviones de pasajeros
-3. Aviones de combate
+3. Helicopteros
+4. Aviones de combate
 
 Objetivo: estudiar sustentacion, superficies de control, instrumentos de vuelo, navegacion aerea, reglas basicas y diferencias entre simulacion civil y militar.
 

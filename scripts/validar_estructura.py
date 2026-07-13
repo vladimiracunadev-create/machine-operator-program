@@ -26,7 +26,12 @@ VEHICULOS = [
     "automoviles",
     "buses",
     "camiones",
+    "tren-pasajeros",
+    "tren-alta-velocidad",
+    "tren-carga",
     "gruas",
+    "grua-portuaria",
+    "grua-torre",
     "tractores",
     "maquinaria-construccion",
     "barcos-mercantes",
@@ -37,7 +42,17 @@ VEHICULOS = [
     "aviones-pequenos",
     "aviones-pasajeros",
     "aviones-combate",
+    "helicopteros",
     "naves-espaciales",
+]
+
+# Naves de ficcion (seccion educativa aparte, en vehiculos-fantasticos/).
+FANTASTICOS = [
+    "delorean",
+    "caza-estelar",
+    "nave-exploracion",
+    "nautilus",
+    "caza-transformable",
 ]
 
 SECCIONES_VEHICULO = [
@@ -55,6 +70,7 @@ SECCIONES_GENERALES = [
     "docs",
     "plantillas",
     "vehiculos",
+    "vehiculos-fantasticos",
     "mandos",
     "manuales",
     "historia",
@@ -109,18 +125,19 @@ def validar_estructura(errores: list[str]) -> None:
         if not existe(doc):
             errores.append(f"Falta el documento clave: {doc}")
 
-    for vehiculo in VEHICULOS:
-        base = RAIZ / "vehiculos" / vehiculo
-        if not base.is_dir():
-            errores.append(f"Falta el vehiculo: vehiculos/{vehiculo}/")
-            continue
-        if not (base / "README.md").is_file():
-            errores.append(f"Falta README: vehiculos/{vehiculo}/README.md")
-        for seccion in SECCIONES_VEHICULO:
-            if not (base / seccion).is_dir():
-                errores.append(
-                    f"Falta la seccion: vehiculos/{vehiculo}/{seccion}/"
-                )
+    for raiz_rel, lista in (("vehiculos", VEHICULOS), ("vehiculos-fantasticos", FANTASTICOS)):
+        for vehiculo in lista:
+            base = RAIZ / raiz_rel / vehiculo
+            if not base.is_dir():
+                errores.append(f"Falta el vehiculo: {raiz_rel}/{vehiculo}/")
+                continue
+            if not (base / "README.md").is_file():
+                errores.append(f"Falta README: {raiz_rel}/{vehiculo}/README.md")
+            for seccion in SECCIONES_VEHICULO:
+                if not (base / seccion).is_dir():
+                    errores.append(
+                        f"Falta la seccion: {raiz_rel}/{vehiculo}/{seccion}/"
+                    )
 
 
 def validar_enlaces(errores: list[str]) -> int:
@@ -161,9 +178,14 @@ def main() -> int:
     vehiculos_ok = sum(
         1 for v in VEHICULOS if (RAIZ / "vehiculos" / v / "README.md").is_file()
     )
+    fantasticos_ok = sum(
+        1 for v in FANTASTICOS
+        if (RAIZ / "vehiculos-fantasticos" / v / "README.md").is_file()
+    )
 
     print("Validacion de estructura del multisimulador")
     print(f"  Vehiculos verificados : {vehiculos_ok}/{len(VEHICULOS)}")
+    print(f"  Naves de ficcion       : {fantasticos_ok}/{len(FANTASTICOS)}")
     print(f"  Secciones por vehiculo: {len(SECCIONES_VEHICULO)}")
     print(f"  Enlaces internos       : {enlaces}")
 

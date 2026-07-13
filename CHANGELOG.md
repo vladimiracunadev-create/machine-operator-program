@@ -9,7 +9,10 @@ y el proyecto usa [Versionado Semantico](https://semver.org/lang/es/).
 
 ### Anadido
 
-- Cinco cursos nuevos integrados por dominio: 🚛 camiones, 🚜 tractores y 🚧 maquinaria de construccion (terrestres), ⛴️ cruceros (maritimo de pasajeros) y 🛫 aviones de pasajeros (aviacion comercial). Total: 16 vehiculos.
+- Seis cursos reales mas: 🚆 tren de pasajeros, 🚄 tren de alta velocidad y 🚂 tren de carga (ferroviarios); ⚓ grua portuaria y 🗼 grua torre (izaje fijo); 🚁 helicopteros (aereo). Total: 22 vehiculos reales.
+- Nueva seccion **naves de ficcion** (`vehiculos-fantasticos/`), educativa y separada de los vehiculos reales, con 5 cursos (DeLorean, caza estelar, nave de exploracion, Nautilus, caza transformable) y aviso de derechos de autor.
+- Marco legal ampliado con ferroviario (Ley General de Ferrocarriles, EFE), maquinaria de izaje fija (Ley 16.744, D.S. 594) y helicopteros (DAN 61).
+- Cinco cursos nuevos integrados por dominio: 🚛 camiones, 🚜 tractores y 🚧 maquinaria de construccion (terrestres), ⛴️ cruceros (maritimo de pasajeros) y 🛫 aviones de pasajeros (aviacion comercial).
 - Cada vehiculo se documenta ahora como un **curso completo** de 9 modulos: portada con diagramas, historia, caracteristicas, sistemas mecanicos en profundidad, mandos, principios, entornos de trabajo, reglamentos y diseno de simulacion.
 - Guia de estilo y estructura de curso `docs/08-guia-de-estilo-y-curso.md`: iconografia, navegacion entre modulos y uso de diagramas Mermaid.
 - Diagramas Mermaid (flujos, estados, lineas de tiempo, mapas mentales) e iconografia consistente en todos los cursos.

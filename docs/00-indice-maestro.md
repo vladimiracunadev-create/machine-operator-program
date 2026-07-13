@@ -27,7 +27,12 @@
 - `vehiculos/automoviles`
 - `vehiculos/buses`
 - `vehiculos/camiones`
+- `vehiculos/tren-pasajeros`
+- `vehiculos/tren-alta-velocidad`
+- `vehiculos/tren-carga`
 - `vehiculos/gruas`
+- `vehiculos/grua-portuaria`
+- `vehiculos/grua-torre`
 - `vehiculos/tractores`
 - `vehiculos/maquinaria-construccion`
 - `vehiculos/barcos-mercantes`
@@ -38,7 +43,17 @@
 - `vehiculos/aviones-pequenos`
 - `vehiculos/aviones-pasajeros`
 - `vehiculos/aviones-combate`
+- `vehiculos/helicopteros`
 - `vehiculos/naves-espaciales`
+
+## Naves de ficcion (seccion educativa)
+
+- `vehiculos-fantasticos/` (catalogo y aviso de derechos)
+- `vehiculos-fantasticos/delorean`
+- `vehiculos-fantasticos/caza-estelar`
+- `vehiculos-fantasticos/nave-exploracion`
+- `vehiculos-fantasticos/nautilus`
+- `vehiculos-fantasticos/caza-transformable`
 
 ## Plantillas
 

@@ -7,7 +7,8 @@
 [![Validar documentacion](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/validar-documentacion.yml/badge.svg)](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/validar-documentacion.yml)
 [![Verificar enlaces](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/enlaces.yml/badge.svg)](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/enlaces.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![Vehiculos](https://img.shields.io/badge/vehiculos-16-blue)
+![Vehiculos](https://img.shields.io/badge/vehiculos-22-blue)
+![Ficcion](https://img.shields.io/badge/naves%20de%20ficcion-5-purple)
 ![Enfoque](https://img.shields.io/badge/enfoque-educativo%20y%20seguro-green)
 
 </div>
@@ -34,16 +35,21 @@ flowchart TD
     Repo --> Plant[🧩 plantillas/<br/>modelos reutilizables]
     Repo --> Veh[🚙 vehiculos/<br/>11 cursos]
     Repo --> Man[📚 manuales/<br/>fuentes publicas]
+    Repo --> Fic[🌌 vehiculos-fantasticos/<br/>naves de ficcion]
     Veh --> Tierra[🛞 Terrestres]
+    Veh --> Riel[🚆 Ferroviarios]
     Veh --> Mar[⚓ Maritimos]
     Veh --> Aire[✈️ Aereos]
     Veh --> Espacio[🚀 Espaciales]
     Tierra --> T1[🏍️ Motos · 🚗 Autos · 🚌 Buses · 🚛 Camiones]
     Tierra --> T2[🏗️ Gruas · 🚜 Tractores · 🚧 Maquinaria]
+    Tierra --> T3[⚓ Grua portuaria · 🗼 Grua torre]
+    Riel --> R1[🚆 Pasajeros · 🚄 Alta velocidad · 🚂 Carga]
     Mar --> M1[🚢 Mercantes · ⛴️ Cruceros · 🛳️ Portaviones]
     Mar --> M2[🛡️ Acorazados · 🌊 Submarinos]
-    Aire --> A1[🛩️ Avionetas · 🛫 Pasajeros · ✈️ Combate]
+    Aire --> A1[🛩️ Avionetas · 🛫 Pasajeros · ✈️ Combate · 🚁 Helicopteros]
     Espacio --> E1[🚀 Naves espaciales]
+    Fic --> F1[🕰️ DeLorean · 🛸 Caza estelar · 🌌 Exploracion · 🐙 Nautilus · 🤖 Transformable]
 ```
 
 ---
@@ -61,9 +67,19 @@ Cada vehiculo es un curso con 9 modulos (ver
 | [🚗 Automoviles](vehiculos/automoviles/README.md) | Direccion, motor, seguridad y transito. | Clase B |
 | [🚌 Buses](vehiculos/buses/README.md) | Transporte de pasajeros y operacion profesional. | Clase A-3 |
 | [🚛 Camiones](vehiculos/camiones/README.md) | Transporte de carga, simples y articulados. | Clase A-4 / A-5 |
-| [🏗️ Gruas](vehiculos/gruas/README.md) | Maquinaria automotriz, izaje y estabilidad. | Clase D |
+| [🏗️ Gruas](vehiculos/gruas/README.md) | Maquinaria automotriz movil, izaje y estabilidad. | Clase D |
 | [🚜 Tractores](vehiculos/tractores/README.md) | Maquinaria agricola, toma de fuerza y aperos. | Clase D |
 | [🚧 Maquinaria de construccion](vehiculos/maquinaria-construccion/README.md) | Excavadoras, cargadores, bulldozers y movimiento de tierra. | Clase D |
+| [⚓ Grua portuaria](vehiculos/grua-portuaria/README.md) | Grua fija de puerto para contenedores y carga. | Operador certificado |
+| [🗼 Grua torre](vehiculos/grua-torre/README.md) | Grua fija de edificio para construccion en altura. | Operador certificado |
+
+### 🚆 Ferroviarios
+
+| Curso | Descripcion | Marco |
+| --- | --- | --- |
+| [🚆 Tren de pasajeros](vehiculos/tren-pasajeros/README.md) | Transporte ferroviario de personas, urbano e interurbano. | Ferroviario (Chile) |
+| [🚄 Tren de alta velocidad](vehiculos/tren-alta-velocidad/README.md) | Trenes rapidos, aerodinamica y via dedicada. | Ferroviario |
+| [🚂 Tren de carga](vehiculos/tren-carga/README.md) | Transporte pesado de mercancias por ferrocarril. | Ferroviario |
 
 ### ⚓ Maritimos
 
@@ -81,8 +97,27 @@ Cada vehiculo es un curso con 9 modulos (ver
 | --- | --- | --- |
 | [🛩️ Aviones pequenos](vehiculos/aviones-pequenos/README.md) | Sustentacion, instrumentos y navegacion aerea. | DGAC / OACI |
 | [🛫 Aviones de pasajeros](vehiculos/aviones-pasajeros/README.md) | Aviacion comercial, sistemas y operacion de linea. | DGAC / ATP |
+| [🚁 Helicopteros](vehiculos/helicopteros/README.md) | Vuelo de ala rotatoria, rotor y maniobra. | DGAC / DAN 61 |
 | [✈️ Aviones de combate](vehiculos/aviones-combate/README.md) | Fisica del vuelo e historia (marco publico). | FACH |
 | [🚀 Naves espaciales](vehiculos/naves-espaciales/README.md) | Orbitas, propulsion y soporte vital. | Tratados UNOOSA |
+
+---
+
+### 🌌 Naves de ficcion (seccion educativa)
+
+Una seccion aparte y **claramente separada de los vehiculos reales** para explorar
+la ingenieria imaginaria de la ciencia ficcion: que principios fisicos reales
+evocan, cuales rompen y como se simularian. Son obras de ficcion de sus
+respectivos autores; ver el aviso en el
+[catalogo de naves de ficcion](vehiculos-fantasticos/README.md).
+
+| Nave | Inspiracion | Idea central |
+| --- | --- | --- |
+| [🕰️ DeLorean temporal](vehiculos-fantasticos/delorean/README.md) | "Volver al Futuro" | Viaje en el tiempo y energia. |
+| [🛸 Caza estelar](vehiculos-fantasticos/caza-estelar/README.md) | Estilo "Star Wars" | Combate espacial y maniobra. |
+| [🌌 Nave de exploracion](vehiculos-fantasticos/nave-exploracion/README.md) | Estilo "Star Trek" | Viaje interestelar y ciencia. |
+| [🐙 Nautilus](vehiculos-fantasticos/nautilus/README.md) | Julio Verne (dominio publico) | Submarino visionario del siglo XIX. |
+| [🤖 Caza transformable](vehiculos-fantasticos/caza-transformable/README.md) | Estilo "Robotech" | Aeronave que se transforma. |
 
 ---
 
