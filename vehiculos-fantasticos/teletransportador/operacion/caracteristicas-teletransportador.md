@@ -1,35 +1,35 @@
-# 📋 Caracteristicas del teletransportador
+# 📋 Características del teletransportador
 
-[🏠 Inicio](../../../README.md) · [🌀 Curso: Teletransportador](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🌀 Curso: Teletransportador](../README.md) · 📋 Características
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Que es un teletransportador generico, que rasgos lo definen en la ficcion y
-cuales tendrian sentido fisico real. Este modulo da el contexto antes de abrir
-la tecnologia por dentro en el Modulo 3.
+Que es un teletransportador genérico, que rasgos lo definen en la ficción y
+cuales tendrían sentido físico real. Este módulo da el contexto antes de abrir
+la tecnología por dentro en el Módulo 3.
 
 ---
 
-## 🧭 Definicion
+## 🧭 Definición
 
-Un teletransportador, en la ficcion generica, es un aparato que hace
+Un teletransportador, en la ficción genérica, es un aparato que hace
 desaparecer a un objeto o persona en un lugar y aparecer en otro casi al
 instante. Lo imaginamos como un mover directo del cuerpo. En este curso lo
-usamos como excusa para estudiar que significaria de verdad: medir el objeto,
-transmitir la informacion que lo describe y reconstruirlo en el destino.
+usamos como excusa para estudiar que significaría de verdad: medir el objeto,
+transmitir la información que lo describe y reconstruirlo en el destino.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧬 Características clave
 
-| Caracteristica | Como la muestra la ficcion | Lectura fisica real |
+| Característica | Como la muestra la ficción | Lectura física real |
 | --- | --- | --- |
-| Traslado instantaneo | El cuerpo aparece de inmediato lejos | Ningun dato puede ir mas rapido que la luz. |
-| Desaparicion limpia | El original se esfuma sin resto | Habria que medir y desarmar atomo por atomo. |
-| Reconstruccion perfecta | El cuerpo llega identico | Exige una cantidad astronomica de informacion. |
-| Gasto de energia discreto | Un simple destello | La equivalencia masa-energia implica energia colosal. |
-| Un solo tu al final | Solo aparece uno en el destino | Copiar el patron dejaria dos: el problema del duplicado. |
-| Continuidad de la persona | "Eres tu" quien llega | Filosofia abierta: original, copia o ambos. |
+| Traslado instantáneo | El cuerpo aparece de inmediato lejos | Ningún dato puede ir más rápido que la luz. |
+| Desaparición limpia | El original se esfuma sin resto | Habría que medir y desarmar átomo por átomo. |
+| Reconstrucción perfecta | El cuerpo llega idéntico | Exige una cantidad astronómica de información. |
+| Gasto de energía discreto | Un simple destello | La equivalencia masa-energia implica energía colosal. |
+| Un solo tú al final | Solo aparece uno en el destino | Copiar el patrón dejaria dos: el problema del duplicado. |
+| Continuidad de la persona | "Eres tu" quien llega | Filosofía abierta: original, copia o ambos. |
 
 ---
 
@@ -38,30 +38,30 @@ transmitir la informacion que lo describe y reconstruirlo en el destino.
 ```mermaid
 flowchart TD
     Tele[🌀 Teletransportador] --> Mueve[Transporte de materia]
-    Tele --> Copia[Copia y reconstruccion]
+    Tele --> Copia[Copia y reconstrucción]
     Tele --> Estado[Transferencia de estado]
-    Mueve --> Directo[Mueve los mismos atomos]
+    Mueve --> Directo[Mueve los mismos átomos]
     Copia --> Doble[Deja original y copia]
-    Estado --> Cuantico[Modelo de teleportacion cuantica]
+    Estado --> Cuantico[Modelo de teleportación cuántica]
 ```
 
-| Tipo | Idea de diseno | Compromiso fisico |
+| Tipo | Idea de diseño | Compromiso físico |
 | --- | --- | --- |
-| Transporte de materia | Mover los atomos mismos al destino | No hay mecanismo real para mover masa asi. |
-| Copia y reconstruccion | Escanear, transmitir y rearmar con materia local | Genera el problema del duplicado y datos enormes. |
-| Transferencia de estado | Llevar solo el estado a un cuerpo destino | Es lo unico real, pero mueve estado, no objetos. |
+| Transporte de materia | Mover los átomos mismos al destino | No hay mecanismo real para mover masa así. |
+| Copia y reconstrucción | Escanear, transmitir y rearmar con materia local | Genera el problema del duplicado y datos enormes. |
+| Transferencia de estado | Llevar solo el estado a un cuerpo destino | Es lo único real, pero mueve estado, no objetos. |
 
 ---
 
-## 🎯 Para que sirve en el relato
+## 🎯 Para qué sirve en el relato
 
 - Eliminar los tiempos muertos de viaje entre escenas.
-- Dar sensacion de tecnologia avanzada y casi magica.
-- Resolver situaciones imposibles con una salida rapida.
+- Dar sensación de tecnología avanzada y casi mágica.
+- Resolver situaciones imposibles con una salida rápida.
 
 En cambio, para este curso sirve como laboratorio: cada rasgo llamativo nos
-deja preguntar si seria posible y por que.
+deja preguntar si sería posible y por  qué.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-teletransportador.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-teletransportador.md)
+[⬅️ Anterior: Historia](../historia/historia-teletransportador.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-teletransportador.md)

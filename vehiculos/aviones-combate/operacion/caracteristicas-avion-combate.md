@@ -1,32 +1,32 @@
-# 📋 Caracteristicas funcionales del avion de combate
+# 📋 Características funcionales del avión de combate
 
-[🏠 Inicio](../../../README.md) · [✈️ Curso: Aviones de combate](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [✈️ Curso: Aviones de combate](../README.md) · 📋 Características
 
-Que es un avion de combate, que generaciones existen y que roles generales cumple,
-siempre en marco publico y divulgativo. Este modulo da el contexto antes de abrir
-los sistemas de la aeronave (Modulo 3).
-
----
-
-## 🧭 Definicion
-
-Un avion de combate es una aeronave militar de ala fija, propulsada por uno o mas
-motores a reaccion, disenada para volar a alta velocidad y con gran
-maniobrabilidad. Desde el enfoque publico de este curso interesa como vuela: su
-aerodinamica, su propulsion y su control, no sus sistemas de mision.
+Que es un avión de combate, que generaciones existen y que roles generales cumple,
+siempre en marco público y divulgativo. Este módulo da el contexto antes de abrir
+los sistemas de la aeronave (Módulo 3).
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧭 Definición
 
-| Caracteristica | Descripcion |
+Un avión de combate es una aeronave militar de ala fija, propulsada por uno o más
+motores a reacción, disenada para volar a alta velocidad y con gran
+maniobrabilidad. Desde el enfoque público de este curso interesa cómo vuela: su
+aerodinámica, su propulsión y su control, no sus sistemas de misión.
+
+---
+
+## 🧬 Características clave
+
+| Característica | Descripción |
 | --- | --- |
 | Alta velocidad | Muchos alcanzan o superan la velocidad del sonido. |
 | Gran maniobrabilidad | Cambian de actitud con rapidez; soportan cargas G altas. |
-| Relacion empuje/peso alta | El motor a reaccion entrega mucho empuje para su masa. |
+| Relación empuje/peso alta | El motor a reacción entrega mucho empuje para su masa. |
 | Estructura reforzada | Resiste las cargas de maniobra a alta velocidad. |
-| Aerodinamica avanzada | Alas en flecha o delta para el vuelo rapido. |
-| Control fino | Mandos electricos que ayudan a un vuelo estable. |
+| Aerodinámica avanzada | Alas en flecha o delta para el vuelo rápido. |
+| Control fino | Mandos eléctricos que ayudan a un vuelo estable. |
 
 ---
 
@@ -34,37 +34,37 @@ aerodinamica, su propulsion y su control, no sus sistemas de mision.
 
 ```mermaid
 flowchart TD
-    Caza[✈️ Avion de combate] --> Gen[Por generacion]
+    Caza[✈️ Avión de combate] --> Gen[Por generación]
     Caza --> Rol[Por rol general]
     Gen --> G1[Primeros reactores]
-    Gen --> G4[Mandos electricos]
-    Gen --> G5[Diseno furtivo]
+    Gen --> G4[Mandos eléctricos]
+    Gen --> G5[Diseño furtivo]
     Rol --> Multi[Multiproposito]
     Rol --> Inter[Interceptor]
     Rol --> Entren[Entrenador avanzado]
 ```
 
-| Categoria | Enfoque publico | Rasgo destacado |
+| Categoría | Enfoque público | Rasgo destacado |
 | --- | --- | --- |
-| Primeros reactores | Historico | Ala recta, velocidad subsonica alta. |
-| Generacion de mandos electricos | Tecnico general | Fly-by-wire y avionica avanzada. |
-| Diseno furtivo | Tecnico general | Formas que reducen la firma radar. |
-| Multiproposito | Rol general | Diseno flexible para varias misiones. |
+| Primeros reactores | Histórico | Ala recta, velocidad subsonica alta. |
+| Generación de mandos eléctricos | Técnico general | Fly-by-wire y avionica avanzada. |
+| Diseño furtivo | Técnico general | Formas que reducen la firma radar. |
+| Multiproposito | Rol general | Diseño flexible para varias misiones. |
 | Interceptor | Rol general | Optimizado para velocidad y ascenso. |
-| Entrenador avanzado | Formacion | Prepara pilotos con menor complejidad. |
+| Entrenador avanzado | Formación | Prepara pilotos con menor complejidad. |
 
 ---
 
-## 🎯 Para que se usa (enfoque general)
+## 🎯 Para qué se usa (enfoque general)
 
-- Formacion avanzada de pilotos militares (entrenadores).
-- Vigilancia y patrulla del espacio aereo nacional.
-- Demostraciones publicas y exhibiciones aereas.
-- Referencia tecnica para estudiar aerodinamica de alta velocidad.
-- Base historica para entender la evolucion de la aviacion.
+- Formación avanzada de pilotos militares (entrenadores).
+- Vigilancia y patrulla del espacio aéreo nacional.
+- Demostraciones públicas y exhibiciones aéreas.
+- Referencia técnica para estudiar aerodinámica de alta velocidad.
+- Base histórica para entender la evolución de la aviación.
 
-> Los usos operativos sensibles quedan fuera de este curso por diseno.
+> Los usos operativos sensibles quedan fuera de este curso por diseño.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-avion-combate.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-avion-combate.md)
+[⬅️ Anterior: Historia](../historia/historia-avion-combate.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-avion-combate.md)

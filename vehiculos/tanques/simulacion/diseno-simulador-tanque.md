@@ -1,8 +1,8 @@
-# 🎮 Diseno de simulacion del tanque (marco publico)
+# 🎮 Diseño de simulación del tanque (marco público)
 
-[🏠 Inicio](../../../README.md) · [🪖 Curso: Tanques](../README.md) · 🎮 Simulacion
+[🏠 Inicio](../../../README.md) · [🪖 Curso: Tanques](../README.md) · 🎮 Simulación
 
-Simulacion **solo de movilidad**, sin contenido sensible, en linea con
+Simulación **solo de movilidad**, sin contenido sensible, en línea con
 [`docs/04-seguridad-y-limites.md`](../../../docs/04-seguridad-y-limites.md).
 
 ```mermaid
@@ -17,60 +17,60 @@ stateDiagram-v2
     Apagado --> [*]
 ```
 
-## Objetivo de la simulacion
+## Objetivo de la simulación
 
-Que el usuario aprenda a mover un vehiculo de orugas: avanzar, frenar, girar por
-direccion diferencial, elegir la marcha y superar obstaculos, de forma segura y
+Que el usuario aprenda a mover un vehículo de orugas: avanzar, frenar, girar por
+dirección diferencial, elegir la marcha y superar obstáculos, de forma segura y
 progresiva. No se representan sistemas de combate.
 
 ## Nivel de realismo
 
 - Nivel elegido: se ofrece del 1 al 3 (ver `docs/03-niveles-de-realismo.md`).
-- Justificacion: el vehiculo de orugas ensena movilidad todo terreno y direccion
-  diferencial, distintas de un vehiculo de ruedas.
+- Justificación: el vehículo de orugas enseña movilidad todo terreno y dirección
+  diferencial, distintas de un vehículo de ruedas.
 
 ## Variables principales
 
 | Variable | Tipo | Rango | Afecta a | Comentarios |
 | --- | --- | --- | --- | --- |
-| Velocidad | numerica | 0-70 km/h | Movimiento | Central para todo. |
-| Marcha | discreta | N,1..n | Fuerza y velocidad | Segun transmision. |
-| Diferencia entre orugas | numerica | -1..1 | Radio de giro | Base de la direccion. |
-| Adherencia | numerica | 0-1 | Traccion y giro | Baja en barro o hielo. |
-| Presion sobre el suelo | numerica | derivada | Hundimiento | Depende de peso y superficie. |
-| Pendiente | numerica | grados | Fuerza necesaria | Sube la demanda de par. |
-| Combustible | numerica | 0-100% | Autonomia | Consumo por esfuerzo. |
-| Temperatura del motor | numerica | grados | Fiabilidad | Sube con carga. |
+| Velocidad | numérica | 0-70 km/h | Movimiento | Central para todo. |
+| Marcha | discreta | N,1..n | Fuerza y velocidad | Según transmisión. |
+| Diferencia entre orugas | numérica | -1..1 | Radio de giro | Base de la dirección. |
+| Adherencia | numérica | 0-1 | Tracción y giro | Baja en barro o hielo. |
+| Presión sobre el suelo | numérica | derivada | Hundimiento | Depende de peso y superficie. |
+| Pendiente | numérica | grados | Fuerza necesaria | Sube la demanda de par. |
+| Combustible | numérica | 0-100% | Autonomía | Consumo por esfuerzo. |
+| Temperatura del motor | numérica | grados | Fiabilidad | Sube con carga. |
 
-## Ciclo basico
+## Ciclo básico
 
 1. Leer entrada del usuario (acelerador, freno, giro, marcha).
-2. Actualizar estado del motor y la transmision.
-3. Calcular fuerzas: propulsion, resistencia del terreno y adherencia.
-4. Aplicar restricciones del entorno (superficie, pendiente, obstaculo).
-5. Actualizar velocidad, posicion y presion sobre el suelo.
-6. Refrescar instrumentos y retroalimentacion (sonido, vibracion, testigos).
+2. Actualizar estado del motor y la transmisión.
+3. Calcular fuerzas: propulsión, resistencia del terreno y adherencia.
+4. Aplicar restricciones del entorno (superficie, pendiente, obstáculo).
+5. Actualizar velocidad, posición y presión sobre el suelo.
+6. Refrescar instrumentos y retroalimentación (sonido, vibración, testigos).
 
 ## Modos de juego futuros
 
-- Tutorial guiado de conduccion y direccion diferencial.
-- Practica libre en terreno mixto.
-- Circuito de obstaculos (pendientes, zanjas, barro).
-- Desafios de movilidad y control fino.
+- Tutorial guiado de conducción y dirección diferencial.
+- Práctica libre en terreno mixto.
+- Circuito de obstáculos (pendientes, zanjas, barro).
+- Desafíos de movilidad y control fino.
 - Escenarios de clima adverso, sin contenido sensible.
 
 ## Elementos fuera de alcance
 
-- Cualquier sistema de armas, tactica o procedimiento operativo.
-- Blindaje ofensivo mas alla de la masa que influye en la movilidad.
-- Datos tecnicos sensibles o no publicos.
+- Cualquier sistema de armas, táctica o procedimiento operativo.
+- Blindaje ofensivo más allá de la masa que influye en la movilidad.
+- Datos técnicos sensibles o no públicos.
 
 ## Pendientes
 
 - [ ] Definir valores por defecto de movilidad por tipo de terreno.
-- [ ] Prototipar la direccion diferencial en un motor simple.
-- [ ] Ajustar el modelo de presion sobre el suelo.
-- [ ] Agregar fuentes publicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- [ ] Prototipar la dirección diferencial en un motor simple.
+- [ ] Ajustar el modelo de presión sobre el suelo.
+- [ ] Agregar fuentes públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 

@@ -1,11 +1,11 @@
-# Vehiculos
+# Vehículos
 
-Cada tipo de vehiculo tiene su propia carpeta y se documenta como un **curso**
+Cada tipo de vehículo tiene su propia carpeta y se documenta como un **curso**
 completo (ver [`docs/08-guia-de-estilo-y-curso.md`](../docs/08-guia-de-estilo-y-curso.md)),
-conservando la misma estructura interna para facilitar comparacion, crecimiento y
-futura simulacion.
+conservando la misma estructura interna para facilitar comparación, crecimiento y
+futura simulación.
 
-## Estructura comun
+## Estructura común
 
 ```text
 vehiculo/
@@ -31,7 +31,7 @@ Terrestres:
 - 🚜 [`tractores`](tractores/README.md)
 - 🚧 [`maquinaria-construccion`](maquinaria-construccion/README.md)
 
-Maritimos:
+Marítimos:
 
 - 🚢 [`barcos-mercantes`](barcos-mercantes/README.md)
 - ⛴️ [`cruceros`](cruceros/README.md)
@@ -39,7 +39,7 @@ Maritimos:
 - 🛳️ [`portaviones`](portaviones/README.md)
 - 🌊 [`submarinos`](submarinos/README.md)
 
-Aereos y espaciales:
+Aéreos y espaciales:
 
 - 🛩️ [`aviones-pequenos`](aviones-pequenos/README.md)
 - 🛫 [`aviones-pasajeros`](aviones-pasajeros/README.md)
@@ -48,12 +48,12 @@ Aereos y espaciales:
 
 ## Regla de trabajo
 
-Antes de crear un prototipo jugable, cada vehiculo debe tener al menos:
+Antes de crear un prototipo jugable, cada vehículo debe tener al menos:
 
 - ficha general;
 - manual de mandos;
 - principios de funcionamiento;
 - historia resumida;
 - reglamentos principales;
-- diseno de simulacion;
+- diseño de simulación;
 - fuentes registradas.

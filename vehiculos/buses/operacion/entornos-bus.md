@@ -2,8 +2,8 @@
 
 [🏠 Inicio](../../../README.md) · [🚌 Curso: Buses](../README.md) · 🌍 Entornos
 
-Donde opera un bus y como cambia la conduccion segun el entorno. Cada entorno
-implica reglas, riesgos y ajustes distintos, y en simulacion se traduce en
+Dónde opera un bus y cómo cambia la conducción según el entorno. Cada entorno
+implica reglas, riesgos y ajustes distintos, y en simulación se traduce en
 escenarios diferentes.
 
 ---
@@ -35,12 +35,12 @@ mindmap
       Piso resbaladizo
 ```
 
-| Entorno | Caracteristicas | Riesgos tipicos | Ajuste de conduccion |
+| Entorno | Características | Riesgos típicos | Ajuste de conducción |
 | --- | --- | --- | --- |
-| Urbano | Trafico, cruces, paradas frecuentes. | Peatones, ciclistas, puntos ciegos. | Baja velocidad, frenado suave, anticipacion. |
+| Urbano | Tráfico, cruces, paradas frecuentes. | Peatones, ciclistas, puntos ciegos. | Baja velocidad, frenado suave, anticipación. |
 | Interurbano | Velocidad sostenida, pendientes. | Fatiga, descensos largos, viento. | Retardador en bajadas, descansos, distancia. |
-| Corredor BRT | Via segregada, andenes a nivel. | Alta frecuencia, alineacion al anden. | Precision al anden, ritmo constante. |
-| Terminal | Maniobras lentas, darsenas. | Peatones muy cerca, barrido trasero. | Velocidad minima, vigilancia total, senas. |
+| Corredor BRT | Vía segregada, andenes a nivel. | Alta frecuencia, alineación al andén. | Precisión al andén, ritmo constante. |
+| Terminal | Maniobras lentas, darsenas. | Peatones muy cerca, barrido trasero. | Velocidad mínima, vigilancia total, señas. |
 | Lluvia / noche | Baja visibilidad y agarre. | Deslizamiento, no ver ni ser visto. | Luces, mayor distancia, frenado anticipado. |
 
 ---
@@ -48,21 +48,21 @@ mindmap
 ## 🌦️ Factores del entorno
 
 - **Clima**: lluvia y hielo reducen la adherencia de una gran masa; el viento
-  lateral afecta a la alta carroceria en carretera.
-- **Superficie**: asfalto, adoquin o pavimento mojado cambian el frenado.
-- **Trafico**: mas vehiculos, peatones y ciclistas, mas puntos ciegos y decisiones.
+  lateral afecta a la alta carrocería en carretera.
+- **Superficie**: asfalto, adoquín o pavimento mojado cambian el frenado.
+- **Tráfico**: más vehículos, peatones y ciclistas, más puntos ciegos y decisiones.
 - **Pendiente**: las bajadas largas exigen retardador y freno motor para no
   recalentar los frenos de servicio.
-- **Luz**: de noche o con niebla, la visibilidad del bus y de sus paradas es critica.
+- **Luz**: de noche o con niebla, la visibilidad del bus y de sus paradas es crítica.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
-Cada entorno es un escenario con su superficie, clima, trafico, pendientes y tipo
-de parada. Ver como se modela en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-bus.md).
+Cada entorno es un escenario con su superficie, clima, tráfico, pendientes y tipo
+de parada. Ver cómo se modela en el
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-bus.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-bus.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-bus.md)
+[⬅️ Anterior: Principios y operación](principios-bus.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-bus.md)

@@ -2,8 +2,8 @@
 
 [🏠 Inicio](../../../README.md) · [🛗 Curso: Ascensores](../README.md) · 🌍 Entornos
 
-Donde opera un ascensor y como cambia su uso segun el edificio. Cada entorno
-implica patrones de trafico, exigencias y normas distintas, y en simulacion se
+Dónde opera un ascensor y cómo cambia su uso según el edificio. Cada entorno
+implica patrones de tráfico, exigencias y normas distintas, y en simulación se
 traduce en escenarios diferentes.
 
 ---
@@ -31,31 +31,31 @@ mindmap
       Accesibilidad
 ```
 
-| Entorno | Caracteristicas | Exigencias tipicas | Ajuste de operacion |
+| Entorno | Características | Exigencias típicas | Ajuste de operación |
 | --- | --- | --- | --- |
-| Residencial | Trafico moderado, mudanzas. | Confort y bajo ruido. | Maniobra simple, cuidado con la carga. |
-| Oficinas | Picos de demanda diurnos. | Rapidez y reparto de trafico. | Maniobra colectiva optimizada. |
-| Hospital | Camillas, equipos, urgencias. | Cabina amplia, prioridad. | Modo de prioridad y nivelacion exacta. |
-| Comercial | Publico masivo, panoramicos. | Accesibilidad y estetica. | Alto flujo, senalizacion clara. |
-| Industrial | Carga pesada. | Robustez y capacidad. | Limites de carga estrictos. |
+| Residencial | Tráfico moderado, mudanzas. | Confort y bajo ruido. | Maniobra simple, cuidado con la carga. |
+| Oficinas | Picos de demanda diurnos. | Rapidez y reparto de tráfico. | Maniobra colectiva optimizada. |
+| Hospital | Camillas, equipos, urgencias. | Cabina amplia, prioridad. | Modo de prioridad y nivelación exacta. |
+| Comercial | Público masivo, panorámicos. | Accesibilidad y estética. | Alto flujo, señalización clara. |
+| Industrial | Carga pesada. | Robustez y capacidad. | Límites de carga estrictos. |
 
 ---
 
 ## 🌦️ Factores del entorno
 
-- **Trafico**: numero de personas y patron horario definen la maniobra.
-- **Altura del edificio**: mas pisos exige mas velocidad y mejor control.
-- **Tipo de carga**: personas, camillas o mercancia cambian cabina y limites.
+- **Tráfico**: número de personas y patrón horario definen la maniobra.
+- **Altura del edificio**: más pisos exige más velocidad y mejor control.
+- **Tipo de carga**: personas, camillas o mercancía cambian cabina y límites.
 - **Accesibilidad**: braille, voz y espacio para silla de ruedas.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
-Cada edificio es un escenario con su numero de pisos, patron de trafico y tipo de
-uso. Ver como se modela en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-ascensor.md).
+Cada edificio es un escenario con su número de pisos, patrón de tráfico y tipo de
+uso. Ver cómo se modela en el
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-ascensor.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-ascensor.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-ascensor.md)
+[⬅️ Anterior: Principios y operación](principios-ascensor.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-ascensor.md)

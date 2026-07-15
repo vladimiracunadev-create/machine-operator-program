@@ -1,67 +1,67 @@
-# 🧪 Principios y operacion del avion pequeno
+# 🧪 Principios y operación del avión pequeño
 
-[🏠 Inicio](../../../README.md) · [🛩️ Curso: Aviones pequenos](../README.md) · 🧪 Principios
+[🏠 Inicio](../../../README.md) · [🛩️ Curso: Aviones pequeños](../README.md) · 🧪 Principios
 
 Documento general y educativo. No sustituye una escuela de vuelo certificada ni
-el manual del fabricante. Describe como se opera un avion pequeno en simulacion y
-que principios fisicos conviene representar.
+el manual del fabricante. Describe cómo se opera un avión pequeño en simulación y
+que principios físicos conviene representar.
 
 ## Principios de funcionamiento
 
-- **Sustentacion**: el ala genera una fuerza hacia arriba al moverse por el aire;
-  crece con la velocidad y con el angulo de ataque, hasta la entrada en perdida.
-- **Peso**: la gravedad tira del avion hacia abajo; se equilibra con la sustentacion.
-- **Empuje**: la helice impulsa el avion hacia adelante; lo regula el acelerador.
-- **Resistencia**: el aire frena el avance; aumenta con la velocidad y la configuracion.
-- **Vuelo en tres ejes**: cabeceo, alabeo y guinada se coordinan para volar suave.
+- **Sustentación**: el ala genera una fuerza hacia arriba al moverse por el aire;
+  crece con la velocidad y con el ángulo de ataque, hasta la entrada en pérdida.
+- **Peso**: la gravedad tira del avión hacia abajo; se equilibra con la sustentación.
+- **Empuje**: la hélice impulsa el avión hacia adelante; lo regula el acelerador.
+- **Resistencia**: el aire frena el avance; aumenta con la velocidad y la configuración.
+- **Vuelo en tres ejes**: cabeceo, alabeo y guiñada se coordinan para volar suave.
 
 ## Las cuatro fuerzas del vuelo
 
 ```mermaid
 flowchart TD
-    Sust[⬆️ Sustentacion] --- Peso[⬇️ Peso]
+    Sust[⬆️ Sustentación] --- Peso[⬇️ Peso]
     Empuje[➡️ Empuje] --- Resist[⬅️ Resistencia]
     Sust -. equilibra .- Peso
     Empuje -. equilibra .- Resist
 ```
 
-En vuelo nivelado y estable, la sustentacion equilibra el peso y el empuje
-equilibra la resistencia. Cambiar una fuerza obliga a reajustar las demas.
+En vuelo nivelado y estable, la sustentación equilibra el peso y el empuje
+equilibra la resistencia. Cambiar una fuerza obliga a reajustar las demás.
 
-## Fases de operacion
+## Fases de operación
 
 | Fase | Que ocurre | Puntos clave |
 | --- | --- | --- |
-| Prevuelo | Inspeccion y checklist | Combustible, superficies, peso y balance, meteorologia. |
-| Rodaje | Mover el avion en tierra | Control con pedales y frenos, velocidad prudente. |
-| Despegue | Acelerar y elevarse | Velocidad de rotacion, flaps segun manual, ascenso. |
+| Prevuelo | Inspección y checklist | Combustible, superficies, peso y balance, meteorología. |
+| Rodaje | Mover el avión en tierra | Control con pedales y frenos, velocidad prudente. |
+| Despegue | Acelerar y elevarse | Velocidad de rotación, flaps según manual, ascenso. |
 | Ascenso | Ganar altitud | Potencia de ascenso, velocidad y rumbo estables. |
 | Crucero | Volar hacia el destino | Ajustar potencia y mezcla, navegar y comunicar. |
 | Descenso | Bajar de altitud | Reducir potencia, controlar velocidad y rumbo. |
-| Aproximacion | Alinear con la pista | Configurar flaps, velocidad de aproximacion estable. |
+| Aproximación | Alinear con la pista | Configurar flaps, velocidad de aproximación estable. |
 | Aterrizaje | Tomar tierra | Reducir potencia, redondear, tocar suave, frenar. |
 
-## Aproximacion y aterrizaje: idea general
+## Aproximación y aterrizaje: idea general
 
-1. Planificar el descenso con anticipacion, no de golpe.
-2. Configurar flaps y velocidad segun el manual.
+1. Planificar el descenso con anticipación, no de golpe.
+2. Configurar flaps y velocidad según el manual.
 3. Alinear con la pista y controlar la senda de planeo.
 4. Reducir potencia y hacer el redondeo (flare) cerca del suelo.
 5. Tocar suave sobre las ruedas principales y frenar con control.
 
-## Errores comunes que la simulacion puede ensenar a evitar
+## Errores comunes que la simulación puede enseñar a evitar
 
-- Volar demasiado lento y entrar en perdida cerca del suelo.
+- Volar demasiado lento y entrar en pérdida cerca del suelo.
 - Ignorar el peso y balance antes de despegar.
-- Descuidar la meteorologia y el viento cruzado.
+- Descuidar la meteorología y el viento cruzado.
 - No completar el checklist de cada fase.
-- Corregir el rumbo solo con alerones sin coordinar con el timon.
+- Corregir el rumbo solo con alerones sin coordinar con el timón.
 
-## Relacion con los niveles de realismo
+## Relación con los niveles de realismo
 
 - **Nivel 1 (educativo)**: despegar, volar nivelado, virar y aterrizar.
-- **Nivel 2 (simplificado)**: agregar sustentacion, resistencia y entrada en perdida.
-- **Nivel 3 (tecnico)**: sumar mezcla, compensador, viento cruzado y checklist.
+- **Nivel 2 (simplificado)**: agregar sustentación, resistencia y entrada en pérdida.
+- **Nivel 3 (técnico)**: sumar mezcla, compensador, viento cruzado y checklist.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
 

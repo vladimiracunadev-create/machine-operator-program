@@ -1,14 +1,14 @@
 ---
-name: Correccion o error
+name: Corrección o error
 about: Reportar un error de contenido, un enlace roto o un problema de estructura
 title: "[fix] "
-labels: correccion
+labels: corrección
 ---
 
-## Ubicacion
+## Ubicación
 
 <!-- Ruta del archivo y, si aplica, la linea o seccion. -->
 
 ## Problema
 
-## Correccion sugerida
+## Corrección sugerida

@@ -1,6 +1,6 @@
-# 🎮 Diseno de simulacion del barco mercante
+# 🎮 Diseño de simulación del barco mercante
 
-[🏠 Inicio](../../../README.md) · [🚢 Curso: Barcos mercantes](../README.md) · 🎮 Simulacion
+[🏠 Inicio](../../../README.md) · [🚢 Curso: Barcos mercantes](../README.md) · 🎮 Simulación
 
 ```mermaid
 stateDiagram-v2
@@ -16,52 +16,52 @@ stateDiagram-v2
     Atracado --> [*]
 ```
 
-## Objetivo de la simulacion
+## Objetivo de la simulación
 
 Que el usuario aprenda a gobernar un buque mercante respetando la inercia,
-manejar la propulsion y el timon, aplicar reglas basicas de navegacion (COLREG)
+manejar la propulsión y el timón, aplicar reglas básicas de navegación (COLREG)
 y realizar maniobras de puerto de forma segura y progresiva.
 
 ## Nivel de realismo
 
 - Nivel elegido: se ofrece del 1 al 3 (ver `docs/03-niveles-de-realismo.md`).
-- Justificacion: el buque agrega flotacion, inercia de grandes masas y reglas
-  maritimas, por lo que es un curso intermedio respecto de la moto.
+- Justificación: el buque agrega flotación, inercia de grandes masas y reglas
+  marítimas, por lo que es un curso intermedio respecto de la moto.
 
 ## Variables principales
 
 | Variable | Tipo | Rango | Afecta a | Comentarios |
 | --- | --- | --- | --- | --- |
-| Velocidad | numerica | 0-25 nudos | Avance y gobierno | El timon necesita flujo. |
-| Rumbo | numerica | 0-359 grados | Direccion | Cambia con retardo. |
-| Regimen de maquina | discreta | atras..avante toda | Empuje | Escalonado por telegrafo. |
-| Angulo de timon | numerica | -35..35 grados | Radio de giro | Limitado por diseno. |
-| Calado | numerica | segun carga | Riesgo de varada | Depende de carga y lastre. |
-| Estabilidad (GM) | numerica | positiva | Escora y seguridad | Depende de la estiba. |
+| Velocidad | numérica | 0-25 nudos | Avance y gobierno | El timón necesita flujo. |
+| Rumbo | numérica | 0-359 grados | Dirección | Cambia con retardo. |
+| Régimen de máquina | discreta | atrás..avante toda | Empuje | Escalonado por telégrafo. |
+| Ángulo de timón | numérica | -35..35 grados | Radio de giro | Limitado por diseño. |
+| Calado | numérica | según carga | Riesgo de varada | Depende de carga y lastre. |
+| Estabilidad (GM) | numérica | positiva | Escora y seguridad | Depende de la estiba. |
 | Viento y corriente | vectorial | variable | Deriva | Ajuste del entorno. |
-| Combustible | numerica | 0-100% | Autonomia | Consumo por regimen. |
+| Combustible | numérica | 0-100% | Autonomía | Consumo por régimen. |
 
-## Ciclo basico
+## Ciclo básico
 
-1. Leer entrada del usuario (timon, telegrafo, thruster, piloto automatico).
-2. Actualizar estado de la maquina y la posicion del timon.
+1. Leer entrada del usuario (timón, telégrafo, thruster, piloto automático).
+2. Actualizar estado de la máquina y la posición del timón.
 3. Calcular fuerzas: empuje, resistencia del agua, viento y corriente.
 4. Aplicar la inercia de la masa del buque al cambio de velocidad y rumbo.
-5. Actualizar posicion, rumbo, escora y calado.
+5. Actualizar posición, rumbo, escora y calado.
 6. Refrescar instrumentos (radar, GPS, ecosonda) y alarmas.
 
 ## Modos de juego futuros
 
-- Tutorial guiado del puente y el telegrafo.
-- Practica libre de maniobra en puerto.
-- Travesia costera respetando COLREG.
-- Desafios de atraque con viento y corriente.
+- Tutorial guiado del puente y el telégrafo.
+- Práctica libre de maniobra en puerto.
+- Travesía costera respetando COLREG.
+- Desafíos de atraque con viento y corriente.
 - Situaciones de baja visibilidad con radar, sin contenido sensible.
 
 ## Elementos fuera de alcance
 
 - Maniobras temerarias presentadas como recomendables.
-- Reproduccion de navegacion negligente como objetivo del juego.
+- Reproducción de navegación negligente como objetivo del juego.
 - Datos que permitan alterar sistemas reales de un buque.
 
 ## Pendientes
@@ -69,7 +69,7 @@ y realizar maniobras de puerto de forma segura y progresiva.
 - [ ] Definir valores por defecto de cada variable por tipo de buque.
 - [ ] Prototipar el modelo de inercia y gobierno.
 - [ ] Ajustar el efecto de viento y corriente en la deriva.
-- [ ] Agregar fuentes tecnicas publicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- [ ] Agregar fuentes técnicas públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 

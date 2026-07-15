@@ -1,26 +1,26 @@
-# 🧰 Recursos de la grua portuaria
+# 🧰 Recursos de la grúa portuaria
 
-[🏠 Inicio](../../../README.md) · [⚓ Curso: Grua portuaria](../README.md) · 🧰 Recursos
+[🏠 Inicio](../../../README.md) · [⚓ Curso: Grúa portuaria](../README.md) · 🧰 Recursos
 
-Glosario especifico, enlaces y diagramas de apoyo del curso de grua portuaria.
+Glosario específico, enlaces y diagramas de apoyo del curso de grúa portuaria.
 Amplia el [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
-| Ship-to-shore STS | Grua portico que descarga contenedores del buque al muelle. |
-| Portico | Estructura de acero en forma de marco que se apoya sobre los rieles. |
-| Boom | Pluma abatible del portico que se proyecta sobre el buque. |
+| Ship-to-shore STS | Grúa pórtico que descarga contenedores del buque al muelle. |
+| Pórtico | Estructura de acero en forma de marco que se apoya sobre los rieles. |
+| Boom | Pluma abatible del pórtico que se proyecta sobre el buque. |
 | Trolley | Carro que corre por la viga llevando el spreader y la cabina. |
-| Spreader | Marco telescopico con twist-locks que engancha el contenedor. |
+| Spreader | Marco telescópico con twist-locks que engancha el contenedor. |
 | Twist-lock | Perno giratorio que traba el contenedor por sus esquinas ISO. |
-| Gantry | Traslacion de todo el portico a lo largo del muelle sobre rieles. |
+| Gantry | Traslación de todo el pórtico a lo largo del muelle sobre rieles. |
 | Hoist | Cabrestante de izaje que sube y baja el spreader. |
 | Anti-sway | Sistema que reduce el balanceo de la carga colgada. |
-| TEU | Contenedor de 20 pies; unidad de medida del trafico. |
+| TEU | Contenedor de 20 pies; unidad de medida del tráfico. |
 | FEU | Contenedor de 40 pies; equivale a 2 TEU. |
 
 ---
@@ -42,11 +42,11 @@ flowchart LR
 
 - Marco legal: [⚖️ docs/07-marco-legal-chile.md](../../../docs/07-marco-legal-chile.md)
 - Registro de fuentes: [📚 manuales/fuentes.md](../../../manuales/fuentes.md)
-- Manuales de operacion y normas de izaje portuario: ver el registro de fuentes.
+- Manuales de operación y normas de izaje portuario: ver el registro de fuentes.
 
 Registrar cada recurso nuevo con su origen y licencia, siguiendo
 [`recursos/README.md`](../../../recursos/README.md).
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-grua-portuaria.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-grua-portuaria.md)

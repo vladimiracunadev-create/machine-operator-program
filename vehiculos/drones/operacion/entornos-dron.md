@@ -2,8 +2,8 @@
 
 [🏠 Inicio](../../../README.md) · [🕹️ Curso: Drones](../README.md) · 🌍 Entornos
 
-Donde opera un dron y como cambia el vuelo segun el entorno. Cada entorno implica
-reglas, riesgos y ajustes distintos, y en simulacion se traduce en escenarios
+Dónde opera un dron y cómo cambia el vuelo según el entorno. Cada entorno implica
+reglas, riesgos y ajustes distintos, y en simulación se traduce en escenarios
 diferentes.
 
 ---
@@ -35,42 +35,42 @@ mindmap
       Riesgo alto
 ```
 
-| Entorno | Caracteristicas | Riesgos tipicos | Ajuste de vuelo |
+| Entorno | Características | Riesgos típicos | Ajuste de vuelo |
 | --- | --- | --- | --- |
-| Urbano | Edificios, calles, publico. | Interferencia, personas, obstaculos. | Baja altura, margenes amplios, sin sobrevolar gente. |
-| Rural / agricola | Campos abiertos y amplios. | Viento, distancia larga. | Vuelo por franjas, vigilar bateria y enlace. |
-| Industrial | Torres, lineas, estructuras. | Metal que altera la brujula. | Inspeccion cercana, atento al GPS. |
-| Interiores | Sin GPS, espacio estrecho. | Choques, deriva sin posicion. | Modo estabilizado, control manual fino. |
-| Cerca de aeropuertos | Zona prohibida, trafico aereo. | Riesgo grave para la aviacion. | No volar; respetar la restriccion. |
+| Urbano | Edificios, calles, público. | Interferencia, personas, obstáculos. | Baja altura, margenes amplios, sin sobrevolar gente. |
+| Rural / agrícola | Campos abiertos y amplios. | Viento, distancia larga. | Vuelo por franjas, vigilar batería y enlace. |
+| Industrial | Torres, líneas, estructuras. | Metal que altera la brújula. | Inspección cercana, atento al GPS. |
+| Interiores | Sin GPS, espacio estrecho. | Choques, deriva sin posición. | Modo estabilizado, control manual fino. |
+| Cerca de aeropuertos | Zona prohibida, tráfico aéreo. | Riesgo grave para la aviación. | No volar; respetar la restricción. |
 
 ---
 
 ## 🌦️ Factores del entorno
 
-- **Viento**: empuja el dron y consume bateria al compensarlo; con rachas fuertes
+- **Viento**: empuja el dron y consume batería al compensarlo; con rachas fuertes
   puede superar el empuje disponible.
-- **GPS**: cerca de edificios, bajo techo o entre estructuras metalicas, la senal
-  se degrada y el dron pierde el mantenimiento de posicion.
-- **Interferencia**: otras radios, wifi o estructuras metalicas debilitan el
+- **GPS**: cerca de edificios, bajo techo o entre estructuras metálicas, la señal
+  se degrada y el dron pierde el mantenimiento de posición.
+- **Interferencia**: otras radios, wifi o estructuras metálicas debilitan el
   enlace de mando y de video.
-- **Temperatura**: el frio reduce el rendimiento de la bateria LiPo y la autonomia.
+- **Temperatura**: el frío reduce el rendimiento de la batería LiPo y la autonomía.
 
 ---
 
 ## 🚫 Zonas prohibidas
 
-Volar cerca de aeropuertos y sobre aglomeraciones de personas esta restringido por
-la seguridad aerea. En estos entornos la regla es no operar, no ajustar el vuelo.
-El detalle esta en el [Modulo 7: Reglamentos](../reglamentos/reglamentos-dron.md).
+Volar cerca de aeropuertos y sobre aglomeraciones de personas está restringido por
+la seguridad aérea. En estos entornos la regla es no operar, no ajustar el vuelo.
+El detalle está en el [Módulo 7: Reglamentos](../reglamentos/reglamentos-dron.md).
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
 Cada entorno es un escenario con su viento, calidad de GPS, interferencia y
-obstaculos. Ver como se modela en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-dron.md).
+obstáculos. Ver cómo se modela en el
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-dron.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-dron.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-dron.md)
+[⬅️ Anterior: Principios y operación](principios-dron.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-dron.md)

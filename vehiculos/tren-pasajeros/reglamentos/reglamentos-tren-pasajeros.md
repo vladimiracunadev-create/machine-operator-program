@@ -2,63 +2,63 @@
 
 [🏠 Inicio](../../../README.md) · [🚆 Curso: Tren de pasajeros](../README.md) · ⚖️ Reglamentos
 
-Referencia educativa y de diseno de simulacion. Las normas reales cambian; para
+Referencia educativa y de diseño de simulación. Las normas reales cambian; para
 operar se deben consultar la autoridad de transporte y la ley vigente. Marco
 general en [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md),
-seccion 1.6 (Ferroviario).
+sección 1.6 (Ferroviario).
 
-## Ambito
+## Ámbito
 
-- Pais: Chile.
-- Ley base: Ley General de Ferrocarriles (numero y fecha por confirmar).
-- Operador estatal historico: Empresa de los Ferrocarriles del Estado (EFE).
+- País: Chile.
+- Ley base: Ley General de Ferrocarriles (número y fecha por confirmar).
+- Operador estatal histórico: Empresa de los Ferrocarriles del Estado (EFE).
 - Autoridad reguladora: Ministerio de Transportes (MTT).
-- Tipo de vehiculo: tren de pasajeros sobre red ferroviaria.
+- Tipo de vehículo: tren de pasajeros sobre red ferroviaria.
 
-## Habilitacion del personal de conduccion
+## Habilitación del personal de conducción
 
-A diferencia de un vehiculo de via publica, el tren **no** se opera con una
-licencia de conducir comun. El personal de conduccion, el maquinista, requiere
-una **habilitacion o certificacion especifica del operador** ferroviario.
+A diferencia de un vehículo de vía pública, el tren **no** se opera con una
+licencia de conducir común. El personal de conducción, el maquinista, requiere
+una **habilitación o certificación específica del operador** ferroviario.
 
-- No aplica licencia de conducir de via publica (clases A, B o C).
-- La habilitacion la define el operador (EFE) segun su normativa interna.
-- El regimen exacto de habilitacion de maquinistas queda **por confirmar** en la
+- No aplica licencia de conducir de vía pública (clases A, B o C).
+- La habilitación la define el operador (EFE) según su normativa interna.
+- El régimen exacto de habilitación de maquinistas queda **por confirmar** en la
   fuente oficial.
 
 ## Requisitos y elementos de seguridad
 
-| Tema | Norma | Requisito | Aplicacion en simulacion |
+| Tema | Norma | Requisito | Aplicación en simulación |
 | --- | --- | --- | --- |
 | Marco ferroviario | Ley General de Ferrocarriles (por confirmar) | Base legal del transporte por ferrocarril. | Reglas generales del escenario. |
-| Habilitacion del maquinista | Certificacion del operador (por confirmar) | Personal de conduccion habilitado por EFE. | Requisito previo antes de operar. |
-| Senalizacion y ATP | Normativa del sector (por confirmar) | Respetar senales y limites del ATP. | Control de velocidad por senal. |
+| Habilitación del maquinista | Certificación del operador (por confirmar) | Personal de conducción habilitado por EFE. | Requisito previo antes de operar. |
+| Señalización y ATP | Normativa del sector (por confirmar) | Respetar señales y límites del ATP. | Control de velocidad por señal. |
 | Pasos a nivel | Normativa del sector (por confirmar) | Advertir y proteger cruces con carretera. | Escenarios de paso a nivel. |
-| Ancho de via | Estandar de la red (por confirmar) | Trocha compatible con el material. | Parametro fijo del escenario. |
+| Ancho de vía | Estandar de la red (por confirmar) | Trocha compatible con el material. | Parámetro fijo del escenario. |
 
 ## Reglas de seguridad
 
-- Operar solo con habilitacion vigente del operador.
-- Respetar en todo momento las senales de via y los limites del ATP.
+- Operar solo con habilitación vigente del operador.
+- Respetar en todo momento las señales de vía y los límites del ATP.
 - Advertir con el silbato en pasos a nivel y al aproximarse a andenes.
-- Verificar la presion de freno y el enclavamiento de puertas antes de arrancar.
+- Verificar la presión de freno y el enclavamiento de puertas antes de arrancar.
 - Comunicar por radio cualquier incidencia al puesto de control.
 
 ## Restricciones
 
-- Circulacion solo por vias autorizadas y segun el horario del servicio.
-- Velocidad limitada por la senalizacion y el ATP de cada tramo.
-- Distancias minimas entre trenes garantizadas por el bloqueo por tramos.
+- Circulación solo por vías autorizadas y según el horario del servicio.
+- Velocidad limitada por la señalización y el ATP de cada tramo.
+- Distancias mínimas entre trenes garantizadas por el bloqueo por tramos.
 
-## Notas para simulacion
+## Notas para simulación
 
-- Modelar senales, ATP, pasos a nivel y paradas en anden.
-- Representar la habilitacion del maquinista como requisito previo del escenario.
+- Modelar señales, ATP, pasos a nivel y paradas en andén.
+- Representar la habilitación del maquinista como requisito previo del escenario.
 - Usar sanciones educativas (avisos) en vez de castigos frustrantes.
 - Enlazar el marco a [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md)
-  seccion 1.6 y a los datos por reconfirmar. Fuente institucional: efe.cl.
+  sección 1.6 y a los datos por reconfirmar. Fuente institucional: efe.cl.
 - Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 
-[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-tren-pasajeros.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-tren-pasajeros.md)
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-tren-pasajeros.md) · [➡️ Siguiente: Diseño de simulación](../simulacion/diseno-simulador-tren-pasajeros.md)

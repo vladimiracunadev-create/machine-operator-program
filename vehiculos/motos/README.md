@@ -1,14 +1,14 @@
 # 🏍️ Curso: Motocicletas
 
-[🏠 Inicio](../../README.md) · [🚙 Catalogo de vehiculos](../README.md) · [🎓 Guia de curso](../../docs/08-guia-de-estilo-y-curso.md)
+[🏠 Inicio](../../README.md) · [🚙 Catálogo de vehículos](../README.md) · [🎓 Guía de curso](../../docs/08-guia-de-estilo-y-curso.md)
 
 > **Curso de referencia del repositorio.** Documenta la motocicleta de principio
-> a fin: historia, caracteristicas, mecanica en profundidad, mandos, fisica,
-> entornos, reglamentos chilenos y diseno de simulacion. Es el modelo que
-> siguen los demas vehiculos.
+> a fin: historia, características, mecánica en profundidad, mandos, física,
+> entornos, reglamentos chilenos y diseño de simulación. Es el modelo que
+> siguen los demás vehículos.
 
 ![Nivel](https://img.shields.io/badge/nivel-introductorio-green)
-![Modulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-9-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-Clase%20C-orange)
 
 ---
@@ -18,24 +18,24 @@
 Al terminar este curso deberias poder:
 
 - Explicar como una moto acelera, frena, gira y mantiene el equilibrio.
-- Identificar sus sistemas mecanicos y como se conectan.
-- Reconocer todos los mandos e instrumentos y su funcion.
-- Comprender la fisica de la conduccion (contramanillar, transferencia de peso).
+- Identificar sus sistemas mecánicos y cómo se conectan.
+- Reconocer todos los mandos e instrumentos y su función.
+- Comprender la física de la conducción (contramanillar, transferencia de peso).
 - Conocer los reglamentos chilenos aplicables (licencia, casco, seguridad).
 - Traducir todo lo anterior en variables de un simulador educativo.
 
 ---
 
-## 🗺️ Mapa del vehiculo
+## 🗺️ Mapa del vehículo
 
 ```mermaid
 flowchart TD
-    Combustible[⛽ Combustible / bateria] --> Motor[🔧 Motor]
+    Combustible[⛽ Combustible / batería] --> Motor[🔧 Motor]
     Motor --> Embrague[Embrague]
     Embrague --> Caja[Caja de cambios]
-    Caja --> Transmision[Transmision final]
+    Caja --> Transmision[Transmisión final]
     Transmision --> RuedaT[Rueda trasera]
-    Manillar[🎛️ Manillar] --> Direccion[Direccion]
+    Manillar[🎛️ Manillar] --> Direccion[Dirección]
     Direccion --> RuedaD[Rueda delantera]
     Manillar --> FrenoD[Freno delantero]
     Pedal[Pedal derecho] --> FrenoT[Freno trasero]
@@ -47,18 +47,18 @@ flowchart TD
 
 ---
 
-## 📚 Modulos del curso
+## 📚 Módulos del curso
 
-| # | Modulo | Contenido | Enlace |
+| # | Módulo | Contenido | Enlace |
 | :-: | --- | --- | --- |
-| 1 | 📜 Historia | Origen y evolucion de la moto, linea de tiempo. | [Abrir](historia/historia-moto.md) |
-| 2 | 📋 Caracteristicas | Que es, tipos de moto y para que sirve cada uno. | [Abrir](operacion/caracteristicas-moto.md) |
-| 3 | 🔧 Sistemas mecanicos | Motor, transmision, chasis, suspension, frenos, neumaticos. | [Abrir](operacion/sistemas-mecanicos-moto.md) |
+| 1 | 📜 Historia | Origen y evolución de la moto, línea de tiempo. | [Abrir](historia/historia-moto.md) |
+| 2 | 📋 Características | Que es, tipos de moto y para que sirve cada uno. | [Abrir](operacion/caracteristicas-moto.md) |
+| 3 | 🔧 Sistemas mecánicos | Motor, transmisión, chasis, suspensión, frenos, neumáticos. | [Abrir](operacion/sistemas-mecanicos-moto.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puesto de mando, controles y tablero. | [Abrir](mandos/manual-mandos-moto.md) |
-| 5 | 🧪 Principios y operacion | Fisica de la conduccion y fases de operacion. | [Abrir](operacion/principios-moto.md) |
+| 5 | 🧪 Principios y operación | Física de la conducción y fases de operación. | [Abrir](operacion/principios-moto.md) |
 | 6 | 🌍 Entornos de trabajo | Ciudad, carretera, todo terreno, reparto. | [Abrir](operacion/entornos-moto.md) |
 | 7 | ⚖️ Reglamentos | Ley chilena: licencia clase C, casco, seguridad. | [Abrir](reglamentos/reglamentos-moto.md) |
-| 8 | 🎮 Diseno de simulacion | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-moto.md) |
+| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-moto.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-moto.md) |
 
 ---
@@ -66,10 +66,10 @@ flowchart TD
 ## 🧩 Requisitos previos
 
 Ninguno. La moto es el punto de entrada recomendado porque permite explicar
-aceleracion, frenado, equilibrio y transmision con menor complejidad que un
-buque o una aeronave. Marco legal comun en
+aceleración, frenado, equilibrio y transmisión con menor complejidad que un
+buque o una aeronave. Marco legal común en
 [⚖️ docs/07-marco-legal-chile.md](../../docs/07-marco-legal-chile.md).
 
 ---
 
-[➡️ Empezar por el Modulo 1: Historia](historia/historia-moto.md)
+[➡️ Empezar por el Módulo 1: Historia](historia/historia-moto.md)

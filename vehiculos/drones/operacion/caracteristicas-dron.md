@@ -1,36 +1,36 @@
-# 📋 Caracteristicas funcionales del dron
+# 📋 Características funcionales del dron
 
-[🏠 Inicio](../../../README.md) · [🕹️ Curso: Drones](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🕹️ Curso: Drones](../README.md) · 📋 Características
 
-Que es un dron, que tipos existen y para que sirve cada uno. Este modulo da el
-contexto antes de abrir la mecanica (Modulo 3).
+Que es un dron, que tipos existen y para que sirve cada uno. Este módulo da el
+contexto antes de abrir la mecánica (Módulo 3).
 
 ---
 
-## 🧭 Definicion
+## 🧭 Definición
 
-Un dron es una **aeronave pilotada a distancia** (RPAS, por sus siglas en ingles
-para sistema de aeronave pilotada a distancia; tambien llamada UAV). No lleva
-piloto a bordo: se gobierna desde tierra con un radiocontrol y una estacion, y
-una controladora de vuelo estabiliza el aparato de forma automatica. El foco de
-este curso es el dron aereo multirotor, el mas comun en uso civil.
+Un dron es una **aeronave pilotada a distancia** (RPAS, por sus siglas en inglés
+para sistema de aeronave pilotada a distancia; también llamada UAV). No lleva
+piloto a bordo: se gobierna desde tierra con un radiocontrol y una estación, y
+una controladora de vuelo estabiliza el aparato de forma automática. El foco de
+este curso es el dron aéreo multirotor, el más común en uso civil.
 
-Aunque la palabra "dron" tambien se aplica a vehiculos no tripulados terrestres
-(UGV) y submarinos (ROV), este curso trata el dron aereo; los otros tipos se
+Aunque la palabra "dron" también se aplica a vehículos no tripulados terrestres
+(UGV) y submarinos (ROV), este curso trata el dron aéreo; los otros tipos se
 mencionan al final solo como contexto.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧬 Características clave
 
-| Caracteristica | Descripcion |
+| Característica | Descripción |
 | --- | --- |
-| Vuelo sin piloto a bordo | Se opera a distancia; el piloto ve desde tierra o por camara. |
-| Estabilizacion automatica | La controladora corrige la actitud varias veces por segundo. |
+| Vuelo sin piloto a bordo | Se opera a distancia; el piloto ve desde tierra o por cámara. |
+| Estabilización automática | La controladora corrige la actitud varias veces por segundo. |
 | Despegue y aterrizaje vertical | El multirotor no necesita pista. |
-| Vuelo estacionario | Puede mantenerse inmovil sobre un punto. |
-| Autonomia limitada | La bateria define minutos de vuelo, no horas. |
-| Carga util modular | Camara, sensores o deposito segun la mision. |
+| Vuelo estacionario | Puede mantenerse inmóvil sobre un punto. |
+| Autonomía limitada | La batería define minutos de vuelo, no horas. |
+| Carga útil modular | Cámara, sensores o depósito según la misión. |
 
 ---
 
@@ -38,40 +38,40 @@ mencionan al final solo como contexto.
 
 ```mermaid
 flowchart TD
-    Dron[🕹️ Dron] --> Aereo[Aereo RPAS]
+    Dron[🕹️ Dron] --> Aereo[Aéreo RPAS]
     Dron --> Otros[Otros medios]
     Aereo --> Multi[Multirotor]
     Aereo --> Ala[Ala fija]
-    Aereo --> VTOL[Hibrido VTOL]
+    Aereo --> VTOL[Híbrido VTOL]
     Multi --> Quad[Cuadricoptero]
-    Multi --> Hexa[Hexacoptero y mas]
+    Multi --> Hexa[Hexacoptero y más]
     Otros --> UGV[Terrestre UGV]
     Otros --> ROV[Submarino ROV]
 ```
 
-| Tipo | Uso tipico | Rasgo destacado |
+| Tipo | Uso típico | Rasgo destacado |
 | --- | --- | --- |
-| Multirotor | Fotografia, inspeccion, ocio | Vuelo estacionario y despegue vertical. |
+| Multirotor | Fotografía, inspección, ocio | Vuelo estacionario y despegue vertical. |
 | Ala fija | Mapeo y agricultura extensa | Gran alcance y eficiencia de vuelo. |
-| Hibrido VTOL | Mapeo de largo alcance | Despega vertical y cruza como ala fija. |
-| Terrestre UGV | Inspeccion y logistica en suelo | Rueda u oruga; no vuela. |
-| Submarino ROV | Inspeccion bajo el agua | Va conectado por cable al operador. |
+| Híbrido VTOL | Mapeo de largo alcance | Despega vertical y cruza como ala fija. |
+| Terrestre UGV | Inspección y logística en suelo | Rueda u oruga; no vuela. |
+| Submarino ROV | Inspección bajo el agua | Va conectado por cable al operador. |
 
-Los **UGV** y **ROV** se citan solo como contexto: comparten la idea de vehiculo
-no tripulado, pero su fisica y sus mandos son distintos y quedan fuera del foco
+Los **UGV** y **ROV** se citan solo como contexto: comparten la idea de vehículo
+no tripulado, pero su física y sus mandos son distintos y quedan fuera del foco
 de este curso.
 
 ---
 
-## 🎯 Para que se usa
+## 🎯 Para qué se usa
 
-- **Fotografia y cine**: tomas aereas estabilizadas.
-- **Agricultura**: mapeo de cultivos, fumigacion y siembra de precision.
-- **Inspeccion**: torres, lineas electricas, techos y estructuras.
-- **Mapeo**: fotogrametria y modelos 3D del terreno.
+- **Fotografía y cine**: tomas aéreas estabilizadas.
+- **Agricultura**: mapeo de cultivos, fumigación y siembra de precisión.
+- **Inspección**: torres, líneas eléctricas, techos y estructuras.
+- **Mapeo**: fotogrametría y modelos 3D del terreno.
 - **Reparto**: entrega de paquetes ligeros en pruebas y rutas cortas.
-- **Rescate**: busqueda de personas y evaluacion de zonas de riesgo.
+- **Rescate**: búsqueda de personas y evaluación de zonas de riesgo.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-dron.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-dron.md)
+[⬅️ Anterior: Historia](../historia/historia-dron.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-dron.md)

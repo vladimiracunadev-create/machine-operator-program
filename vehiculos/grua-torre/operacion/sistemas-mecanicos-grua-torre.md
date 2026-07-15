@@ -1,17 +1,17 @@
-# 🔧 Sistemas mecanicos de la grua torre
+# 🔧 Sistemas mecánicos de la grúa torre
 
-[🏠 Inicio](../../../README.md) · [🗼 Curso: Grua torre](../README.md) · 🔧 Sistemas mecanicos
+[🏠 Inicio](../../../README.md) · [🗼 Curso: Grúa torre](../README.md) · 🔧 Sistemas mecánicos
 
-Este modulo abre la grua torre por dentro y es el corazon del curso. Explica la
-mecanica del izaje en altura: como se sostiene el mastil, como se reparte el
-momento entre carga y contrapeso, y por que existe un limite de peso para cada
-posicion del carro. Es la base tecnica para entender los mandos (Modulo 4) y la
-fisica de la operacion (Modulo 5).
+Este módulo abre la grúa torre por dentro y es el corazón del curso. Explica la
+mecánica del izaje en altura: cómo se sostiene el mástil, como se reparte el
+momento entre carga y contrapeso, y por  qué existe un límite de peso para cada
+posición del carro. Es la base técnica para entender los mandos (Módulo 4) y la
+física de la operación (Módulo 5).
 
 ```mermaid
 flowchart TD
     subgraph Fija
-        Ba[Base y zapata] --> Ma[Mastil / torre]
+        Ba[Base y zapata] --> Ma[Mástil / torre]
     end
     subgraph Giratoria
         Co[Corona de giro] --> Pl[Pluma jib]
@@ -25,30 +25,30 @@ flowchart TD
     Ma --> Co
     Pl --> Ca
     LMI[Limitador de momento] -. vigila .-> Ca
-    An[Anemometro] -. vigila .-> Co
+    An[Anemómetro] -. vigila .-> Co
 ```
 
 ---
 
-## 1. 🗼 Mastil y base
+## 1. 🗼 Mástil y base
 
-El mastil o torre es la estructura vertical reticulada que sostiene todo el
-conjunto. Se ancla a una base o zapata de hormigon que transmite las cargas al
+El mástil o torre es la estructura vertical reticulada que sostiene todo el
+conjunto. Se ancla a una base o zapata de hormigón que transmite las cargas al
 terreno. La base es el punto de vuelco de referencia: toda la estabilidad se mide
 respecto a ella.
 
-| Elemento | Funcion |
+| Elemento | Función |
 | --- | --- |
-| Zapata / base | Ancla el mastil y reparte la carga al terreno. |
-| Tramos de mastil | Modulos reticulados que se apilan para dar altura. |
-| Arriostramiento | Anclajes o lazos que fijan el mastil al edificio. |
+| Zapata / base | Ancla el mástil y reparte la carga al terreno. |
+| Tramos de mástil | Módulos reticulados que se apilan para dar altura. |
+| Arriostramiento | Anclajes o lazos que fijan el mástil al edificio. |
 | Jaula de trepado | Permite crecer en altura intercalando tramos. |
 
-Reglas basicas:
+Reglas básicas:
 
-- El mastil **autoestable** se sostiene solo hasta una altura maxima segun su base.
+- El mástil **autoestable** se sostiene solo hasta una altura máxima según su base.
 - Por encima de esa altura se necesita **arriostramiento** al edificio para no volcar.
-- La base debe estar nivelada; una inclinacion pequena desplaza el centro de gravedad.
+- La base debe estar nivelada; una inclinación pequeña desplaza el centro de gravedad.
 
 ---
 
@@ -67,7 +67,7 @@ flowchart LR
     Carro --> Carga[Carga en el gancho]
 ```
 
-| Elemento | Funcion |
+| Elemento | Función |
 | --- | --- |
 | Pluma jib | Brazo horizontal por el que corre el carro. |
 | Contrapluma | Brazo opuesto que aloja el contrapeso y la maquinaria. |
@@ -75,7 +75,7 @@ flowchart LR
 | Tirantes | Cables o barras que sostienen la pluma desde la torre superior. |
 
 La pluma horizontal (hammerhead) usa un carro que se mueve por ella. La pluma
-abatible (luffing jib) cambia el radio subiendo o bajando toda la pluma, util en
+abatible (luffing jib) cambia el radio subiendo o bajando toda la pluma, útil en
 ciudad densa para no invadir el espacio de los vecinos.
 
 ---
@@ -92,15 +92,15 @@ flowchart TD
     Cable --> PoleaP[Poleas en la pluma]
     PoleaP --> Carro[Carro trolley]
     Carro --> Gancho[Gancho y carga]
-    CableD[Cable de distribucion] --> Carro
+    CableD[Cable de distribución] --> Carro
 ```
 
 - **Carro / trolley**: define el radio; alejarlo del eje reduce la capacidad.
 - **Cabrestante de izaje**: enrolla el cable que sube o baja el gancho.
-- **Cable de distribucion**: mueve el carro a lo largo de la pluma.
-- **Gancho**: sostiene la carga; puede llevar varias partes de linea.
+- **Cable de distribución**: mueve el carro a lo largo de la pluma.
+- **Gancho**: sostiene la carga; puede llevar varias partes de línea.
 
-La relacion clave: **acercar el carro al eje sube la capacidad**, porque reduce el
+La relación clave: **acercar el carro al eje sube la capacidad**, porque reduce el
 radio y con el el momento de carga.
 
 ---
@@ -108,14 +108,14 @@ radio y con el el momento de carga.
 ## 4. 🔄 Corona de giro (slewing)
 
 La corona de giro es el rodamiento que permite rotar toda la parte superior
-(pluma, contrapluma y contrapeso) sobre el mastil fijo. Un motor de giro la hace
+(pluma, contrapluma y contrapeso) sobre el mástil fijo. Un motor de giro la hace
 rotar despacio para no balancear la carga.
 
-| Elemento | Funcion |
+| Elemento | Función |
 | --- | --- |
 | Rodamiento de giro | Une la parte fija con la giratoria. |
 | Motor de giro | Rota la superestructura despacio y con control. |
-| Freno de giro | Fija la orientacion cuando se necesita. |
+| Freno de giro | Fija la orientación cuando se necesita. |
 | Veleta / weathervane | Fuera de servicio deja girar libre con el viento. |
 
 Fuera de servicio se libera el freno para que la pluma gire en **veleta**
@@ -126,7 +126,7 @@ sobre la estructura.
 
 ## 5. ⚖️ Momento de carga y estabilidad
 
-La estabilidad de la grua torre se explica con momentos, es decir, fuerza por
+La estabilidad de la grúa torre se explica con momentos, es decir, fuerza por
 distancia respecto al eje de la torre.
 
 ```mermaid
@@ -138,26 +138,26 @@ flowchart LR
 
 Las magnitudes clave:
 
-| Magnitud | Formula | Significado |
+| Magnitud | Fórmula | Significado |
 | --- | --- | --- |
-| Momento de la carga | Peso de carga x radio | Tiende a volcar la grua hacia la pluma. |
+| Momento de la carga | Peso de carga x radio | Tiende a volcar la grúa hacia la pluma. |
 | Momento del contrapeso | Contrapeso x brazo | Equilibra el lado de la contrapluma. |
-| Momento maximo | Valor de diseno de la grua | Limite que no se puede superar. |
-| Porcentaje de capacidad | Momento actual / momento maximo | Lo que muestra el limitador. |
+| Momento máximo | Valor de diseño de la grúa | Límite que no se puede superar. |
+| Porcentaje de capacidad | Momento actual / momento máximo | Lo que muestra el limitador. |
 
-### Por que al alejar el carro baja la capacidad
+### Por  qué al alejar el carro baja la capacidad
 
-El momento de la carga es **peso por radio**. La grua tiene un momento maximo de
-diseno que puede resistir. Si el radio aumenta, para no superar ese momento el
-peso debe disminuir en proporcion inversa:
+El momento de la carga es **peso por radio**. La grúa tiene un momento máximo de
+diseño que puede resistir. Si el radio aumenta, para no superar ese momento el
+peso debe disminuir en proporción inversa:
 
-- A radio 10 m un momento maximo de 100 t·m permite izar 10 t (10 x 10 = 100).
+- A radio 10 m un momento máximo de 100 t·m permite izar 10 t (10 x 10 = 100).
 - A radio 40 m ese mismo momento de 100 t·m solo permite izar 2.5 t (2.5 x 40 = 100).
 
 Por eso, al mover el carro hacia la punta de la pluma, la carga admisible siempre
-baja. La tabla de carga de la grua indica cuanto se puede izar en cada radio:
+baja. La tabla de carga de la grúa indica cuanto se puede izar en cada radio:
 
-| Radio (m) | Capacidad (t) | % del maximo |
+| Radio (m) | Capacidad (t) | % del máximo |
 | --- | --- | --- |
 | 10 | 10.0 | 100 |
 | 16 | 6.3 | 63 |
@@ -166,7 +166,7 @@ baja. La tabla de carga de la grua indica cuanto se puede izar en cada radio:
 | 40 | 2.5 | 25 |
 | 50 | 2.0 | 20 |
 
-Se lee asi: a 10 metros de radio la grua iza su carga nominal, pero a 50 metros
+Se lee así: a 10 metros de radio la grúa iza su carga nominal, pero a 50 metros
 solo admite 2 toneladas. El **contrapeso** de la contrapluma equilibra el lado de
 la carga sin necesidad de una base enorme.
 
@@ -174,39 +174,39 @@ la carga sin necesidad de una base enorme.
 
 ## 6. 🧗 Arriostramiento y trepado
 
-Para grandes alturas el mastil no se sostiene solo. Dos tecnicas lo permiten:
+Para grandes alturas el mástil no se sostiene solo. Dos técnicas lo permiten:
 
-| Tecnica | Como funciona |
+| Técnica | Como funciona |
 | --- | --- |
-| Arriostramiento | Lazos o anclajes fijan el mastil al edificio a intervalos. |
-| Trepado exterior | Una jaula de trepado externa sube la grua y se intercala un tramo. |
-| Trepado interior | La grua crece por el interior del edificio apoyandose en las losas. |
+| Arriostramiento | Lazos o anclajes fijan el mástil al edificio a intervalos. |
+| Trepado exterior | Una jaula de trepado externa sube la grúa y se intercala un tramo. |
+| Trepado interior | La grúa crece por el interior del edificio apoyandose en las losas. |
 
-El **trepado** (telescopado) es la operacion de crecer en altura. Con una jaula
-de trepado se abre el mastil, se introduce un tramo nuevo y se vuelve a cerrar.
-Es una maniobra critica que se hace durante el montaje y el desmontaje, con la
-grua en condicion controlada.
+El **trepado** (telescopado) es la operación de crecer en altura. Con una jaula
+de trepado se abre el mástil, se introduce un tramo nuevo y se vuelve a cerrar.
+Es una maniobra crítica que se hace durante el montaje y el desmontaje, con la
+grúa en condición controlada.
 
 ### Limitadores
 
-- **Limitador de carga**: impide izar mas peso del admisible por el sistema de cable.
-- **Limitador de momento**: impide superar el momento maximo (peso por radio).
-- **Finales de carrera**: detienen el carro y el gancho en sus posiciones limite.
+- **Limitador de carga**: impide izar más peso del admisible por el sistema de cable.
+- **Limitador de momento**: impide superar el momento máximo (peso por radio).
+- **Finales de carrera**: detienen el carro y el gancho en sus posiciones límite.
 
 ---
 
-## 🔁 Como se conecta todo
+## 🔁 Cómo se conecta todo
 
-1. La **base** ancla el **mastil** al terreno y fija el punto de referencia.
+1. La **base** ancla el **mástil** al terreno y fija el punto de referencia.
 2. La **corona de giro** deja rotar la **pluma**, la **contrapluma** y el **contrapeso**.
 3. El **carro** define el **radio** y el **cabrestante** sube o baja el gancho.
 4. El **contrapeso** equilibra el momento de la carga sobre el eje de la torre.
-5. La **tabla de carga** define el limite de peso para cada radio.
+5. La **tabla de carga** define el límite de peso para cada radio.
 6. Los **limitadores** vigilan la carga y el momento y cortan antes del vuelco.
 
-Con esto entendido, el [Modulo 4: Mandos](../mandos/manual-mandos-grua-torre.md)
+Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-grua-torre.md)
 muestra como el operador acciona cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Caracteristicas](caracteristicas-grua-torre.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-grua-torre.md)
+[⬅️ Anterior: Características](caracteristicas-grua-torre.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-grua-torre.md)

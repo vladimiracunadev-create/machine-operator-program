@@ -2,10 +2,10 @@
 
 [🏠 Inicio](../../../README.md) · [🐙 Curso: Nautilus](../README.md) · 🌍 Entornos
 
-> ⚖️ Material educativo original; el Nautilus de Julio Verne (1870) es de dominio publico; otros derechos pertenecen a sus titulares.
+> ⚖️ Material educativo original; el Nautilus de Julio Verne (1870) es de dominio público; otros derechos pertenecen a sus titulares.
 
-Donde opera el Nautilus y como cambia la fisica segun la profundidad. Cada
-franja del oceano tiene su presion, su luz y sus riesgos, y en simulacion se
+Dónde opera el Nautilus y cómo cambia la física según la profundidad. Cada
+franja del océano tiene su presión, su luz y sus riesgos, y en simulación se
 traduce en escenarios distintos.
 
 ---
@@ -33,37 +33,37 @@ mindmap
       Riesgo de choque
 ```
 
-| Entorno | Caracteristicas | Riesgos tipicos | Ajuste de operacion |
+| Entorno | Características | Riesgos típicos | Ajuste de operación |
 | --- | --- | --- | --- |
-| Superficie | Aire renovable, presion baja. | Oleaje, clima, ser visto. | Ventilar, cargar energia, navegar suave. |
-| Aguas medias | Poca luz, presion moderada. | Corrientes, desorientacion. | Flotabilidad neutra, rumbo estable. |
-| Gran profundidad | Oscuridad y presion muy alta. | Aplastamiento del casco. | No pasar la profundidad limite. |
-| Fondo oceanico | Relieve, fauna, sedimento. | Choque, quedar atrapado. | Velocidad baja, iluminacion, cautela. |
+| Superficie | Aire renovable, presión baja. | Oleaje, clima, ser visto. | Ventilar, cargar energía, navegar suave. |
+| Aguas medias | Poca luz, presión moderada. | Corrientes, desorientación. | Flotabilidad neutra, rumbo estable. |
+| Gran profundidad | Oscuridad y presión muy alta. | Aplastamiento del casco. | No pasar la profundidad límite. |
+| Fondo oceánico | Relieve, fauna, sedimento. | Choque, quedar atrapado. | Velocidad baja, iluminación, cautela. |
 
 ---
 
 ## 🌡️ Factores del entorno
 
-- **Presion**: aumenta de forma continua con la profundidad; es el factor que
+- **Presión**: aumenta de forma continua con la profundidad; es el factor que
   marca hasta donde puede bajar la nave.
-- **Luz**: se pierde rapido bajo la superficie; a partir de cierta profundidad
-  reina la oscuridad total y hace falta iluminacion propia.
-- **Temperatura**: el agua profunda es muy fria, lo que afecta a equipos y
-  tripulacion.
-- **Corrientes**: empujan la nave y complican mantener rumbo y posicion.
-- **Relieve del fondo**: montanas, fosas y cananos submarinos que hay que
+- **Luz**: se pierde rápido bajo la superficie; a partir de cierta profundidad
+  reina la oscuridad total y hace falta iluminación propia.
+- **Temperatura**: el agua profunda es muy fría, lo que afecta a equipos y
+  tripulación.
+- **Corrientes**: empujan la nave y complican mantener rumbo y posición.
+- **Relieve del fondo**: montañas, fosas y cananos submarinos que hay que
   esquivar cerca del lecho.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
-Cada entorno es un escenario con su presion, su luz y sus corrientes. La
-profundidad deja de ser un numero y se vuelve el eje del desafio: cuanto mas
-abajo, mas cerca del limite del casco y mas dependencia de la energia y el aire.
-Ver como se modela en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-nautilus.md).
+Cada entorno es un escenario con su presión, su luz y sus corrientes. La
+profundidad deja de ser un número y se vuelve el eje del desafío: cuanto más
+abajo, más cerca del límite del casco y más dependencia de la energía y el aire.
+Ver cómo se modela en el
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-nautilus.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-nautilus.md) · [➡️ Siguiente: Reglas del universo](../reglamentos/reglas-universo-nautilus.md)
+[⬅️ Anterior: Principios y operación](principios-nautilus.md) · [➡️ Siguiente: Reglas del universo](../reglamentos/reglas-universo-nautilus.md)

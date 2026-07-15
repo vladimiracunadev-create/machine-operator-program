@@ -1,32 +1,32 @@
-# 📋 Caracteristicas funcionales del crucero
+# 📋 Características funcionales del crucero
 
-[🏠 Inicio](../../../README.md) · [⛴️ Curso: Cruceros](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [⛴️ Curso: Cruceros](../README.md) · 📋 Características
 
-Que es un crucero, que tipos existen y para que sirve cada uno. Este modulo da el
-contexto antes de abrir la mecanica naval (Modulo 3).
+Que es un crucero, que tipos existen y para que sirve cada uno. Este módulo da el
+contexto antes de abrir la mecánica naval (Módulo 3).
 
 ---
 
-## 🧭 Definicion
+## 🧭 Definición
 
 Un crucero es un buque de pasaje destinado al transporte y alojamiento de
-personas por via maritima, casi siempre con fines turisticos. Flota por el
-principio de Arquimedes, avanza por el empuje de su propulsion y gobierna
-mediante el timon o los pods. A diferencia de un carguero, su carga son personas:
-la seguridad, el confort y la evacuacion condicionan todo su diseno.
+personas por vía marítima, casi siempre con fines turísticos. Flota por el
+principio de Arquímedes, avanza por el empuje de su propulsión y gobierna
+mediante el timón o los pods. A diferencia de un carguero, su carga son personas:
+la seguridad, el confort y la evacuación condicionan todo su diseño.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧬 Características clave
 
-| Caracteristica | Descripcion |
+| Característica | Descripción |
 | --- | --- |
-| Carga humana | Transporta miles de pasajeros y tripulacion; la seguridad de la vida es prioritaria. |
+| Carga humana | Transporta miles de pasajeros y tripulación; la seguridad de la vida es prioritaria. |
 | Gran volumen | Obra muerta muy alta con muchas cubiertas, sensible al viento. |
-| Servicios de hotel | Agua, energia, climatizacion y ocio para una poblacion flotante. |
-| Compartimentado | Mamparos estancos que permiten flotar aun con averias. |
+| Servicios de hotel | Agua, energía, climatización y ocio para una población flotante. |
+| Compartimentado | Mamparos estancos que permiten flotar aun con averías. |
 | Estabilidad y confort | Aletas estabilizadoras reducen el balance para el pasaje. |
-| Autonomia | Recorre largas rutas con multiples escalas sin repostar. |
+| Autonomía | Recorre largas rutas con múltiples escalas sin repostar. |
 
 ---
 
@@ -35,35 +35,35 @@ la seguridad, el confort y la evacuacion condicionan todo su diseno.
 ```mermaid
 flowchart TD
     Crucero[⛴️ Buque de pasaje] --> Transporte[Transporte]
-    Crucero --> Ocio[Ocio turistico]
+    Crucero --> Ocio[Ocio turístico]
     Crucero --> Especial[Especializados]
     Transporte --> Ferry[Ferry Ro-Ro]
-    Transporte --> Transatlantico[Transatlantico de linea]
-    Ocio --> Clasico[Crucero clasico]
+    Transporte --> Transatlantico[Transatlántico de línea]
+    Ocio --> Clasico[Crucero clásico]
     Ocio --> Mega[Megacrucero]
-    Especial --> Expedicion[Expedicion / polar]
+    Especial --> Expedicion[Expedición / polar]
     Especial --> Fluvial[Crucero fluvial]
 ```
 
-| Tipo | Uso tipico | Rasgo destacado |
+| Tipo | Uso típico | Rasgo destacado |
 | --- | --- | --- |
-| Ferry Ro-Ro | Rutas cortas costeras | Rampas de carga rodada y alta rotacion. |
-| Transatlantico de linea | Travesias oceanicas | Casco robusto para mar gruesa. |
-| Crucero clasico | Turismo por escalas | Equilibrio entre confort y tamano. |
-| Megacrucero | Turismo masivo | Miles de pasajeros y propulsion por pods. |
-| Crucero de expedicion | Zonas remotas y polares | Casco reforzado, capacidad reducida. |
+| Ferry Ro-Ro | Rutas cortas costeras | Rampas de carga rodada y alta rotación. |
+| Transatlántico de línea | Travesías oceánicas | Casco robusto para mar gruesa. |
+| Crucero clásico | Turismo por escalas | Equilibrio entre confort y tamaño. |
+| Megacrucero | Turismo masivo | Miles de pasajeros y propulsión por pods. |
+| Crucero de expedición | Zonas remotas y polares | Casco reforzado, capacidad reducida. |
 | Crucero fluvial | Rios navegables | Calado bajo y eslora limitada. |
 
 ---
 
-## 🎯 Para que se usa
+## 🎯 Para qué se usa
 
-- Turismo maritimo con escalas en varios puertos.
-- Transporte de pasajeros y vehiculos en rutas costeras (ferry).
-- Viajes de expedicion a zonas remotas y polares.
+- Turismo marítimo con escalas en varios puertos.
+- Transporte de pasajeros y vehículos en rutas costeras (ferry).
+- Viajes de expedición a zonas remotas y polares.
 - Eventos, hoteleria y ocio como ciudad flotante.
-- Conexion de islas y zonas sin acceso terrestre.
+- Conexión de islas y zonas sin acceso terrestre.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-crucero.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-crucero.md)
+[⬅️ Anterior: Historia](../historia/historia-crucero.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-crucero.md)

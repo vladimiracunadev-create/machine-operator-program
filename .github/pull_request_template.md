@@ -6,12 +6,12 @@
 
 ## Tipo de cambio
 
-- [ ] Nueva documentacion de vehiculo o seccion
-- [ ] Correccion de contenido, enlaces o estilo
+- [ ] Nueva documentación de vehículo o sección
+- [ ] Corrección de contenido, enlaces o estilo
 - [ ] Plantillas, scripts o CI
 - [ ] Otro (describir)
 
-## Lista de verificacion
+## Lista de verificación
 
 - [ ] Parti desde una plantilla de `plantillas/` cuando correspondia.
 - [ ] Registre las fuentes usadas en `manuales/fuentes.md`.

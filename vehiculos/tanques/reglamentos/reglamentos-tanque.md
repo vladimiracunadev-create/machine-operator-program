@@ -1,43 +1,43 @@
-# ⚖️ Reglamentos del tanque (marco publico)
+# ⚖️ Reglamentos del tanque (marco público)
 
 [🏠 Inicio](../../../README.md) · [🪖 Curso: Tanques](../README.md) · ⚖️ Reglamentos
 
-Referencia educativa, historica e institucional. Solo informacion publica y
-general; sin tactica, sistemas de armas ni procedimientos operativos. Ver
+Referencia educativa, histórica e institucional. Solo información pública y
+general; sin táctica, sistemas de armas ni procedimientos operativos. Ver
 [`docs/04-seguridad-y-limites.md`](../../../docs/04-seguridad-y-limites.md) y
-[`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md), seccion
+[`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md), sección
 1.10 (tanques).
 
-## Ambito
+## Ámbito
 
-- Tipo de vehiculo: carro de combate (vehiculo militar terrestre de orugas).
-- Marco institucional (Chile): Ejercito de Chile, dependiente del Ministerio de
-  Defensa Nacional, en el marco de la Ley 18.948 (Organica Constitucional de las
+- Tipo de vehículo: carro de combate (vehículo militar terrestre de orugas).
+- Marco institucional (Chile): Ejército de Chile, dependiente del Ministerio de
+  Defensa Nacional, en el marco de la Ley 18.948 (Orgánica Constitucional de las
   Fuerzas Armadas).
-- Los vehiculos militares se rigen por normativa militar y **no** por la Ley de
-  Transito ni por licencias civiles.
+- Los vehículos militares se rigen por normativa militar y **no** por la Ley de
+  Tránsito ni por licencias civiles.
 
-## Enfoque permitido en simulacion
+## Enfoque permitido en simulación
 
-- Historia publica y evolucion tecnica del vehiculo.
-- Fisica de la movilidad: orugas, suspension, presion sobre el suelo, potencia.
-- Conduccion todo terreno a nivel general educativo.
-- Marco institucional publico y diferencias con el ambito civil.
+- Historia pública y evolución técnica del vehículo.
+- Física de la movilidad: orugas, suspensión, presión sobre el suelo, potencia.
+- Conducción todo terreno a nivel general educativo.
+- Marco institucional público y diferencias con el ámbito civil.
 
 ## Restricciones de contenido
 
-- No documentar tactica, doctrina, armamento ni sistemas de combate reales.
-- No describir blindaje ofensivo mas alla de mencionarlo como masa.
-- No incluir informacion clasificada o restringida.
-- Mantener el enfoque historico, fisico y divulgativo.
+- No documentar táctica, doctrina, armamento ni sistemas de combate reales.
+- No describir blindaje ofensivo más allá de mencionarlo como masa.
+- No incluir información clasificada o restringida.
+- Mantener el enfoque histórico, físico y divulgativo.
 
-## Notas para simulacion
+## Notas para simulación
 
-- Enfocar en fisica de la movilidad e historia publica.
-- Distinguir claramente la simulacion educativa de la operacion real.
+- Enfocar en física de la movilidad e historia pública.
+- Distinguir claramente la simulación educativa de la operación real.
 - Marcar como fuera de alcance cualquier contenido sensible.
-- Registrar cada fuente publica en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- Registrar cada fuente pública en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 
-[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-tanque.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-tanque.md)
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-tanque.md) · [➡️ Siguiente: Diseño de simulación](../simulacion/diseno-simulador-tanque.md)

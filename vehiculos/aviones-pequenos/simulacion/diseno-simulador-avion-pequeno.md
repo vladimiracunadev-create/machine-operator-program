@@ -1,6 +1,6 @@
-# 🎮 Diseno de simulacion del avion pequeno
+# 🎮 Diseño de simulación del avión pequeño
 
-[🏠 Inicio](../../../README.md) · [🛩️ Curso: Aviones pequenos](../README.md) · 🎮 Simulacion
+[🏠 Inicio](../../../README.md) · [🛩️ Curso: Aviones pequeños](../README.md) · 🎮 Simulación
 
 ```mermaid
 stateDiagram-v2
@@ -15,60 +15,60 @@ stateDiagram-v2
     EnTierra --> [*]
 ```
 
-## Objetivo de la simulacion
+## Objetivo de la simulación
 
 Que el usuario aprenda a despegar, volar nivelado, virar coordinado, gestionar la
-altitud y aterrizar con seguridad, respetando el circuito de trafico y las reglas
-basicas del espacio aereo, de forma progresiva.
+altitud y aterrizar con seguridad, respetando el circuito de tráfico y las reglas
+básicas del espacio aéreo, de forma progresiva.
 
 ## Nivel de realismo
 
 - Nivel elegido: se ofrece del 1 al 3 (ver `docs/03-niveles-de-realismo.md`).
-- Justificacion: el avion pequeno agrega el vuelo en tres ejes y la meteorologia,
-  por lo que se recomienda tras dominar un vehiculo terrestre.
+- Justificación: el avión pequeño agrega el vuelo en tres ejes y la meteorología,
+  por lo que se recomienda tras dominar un vehículo terrestre.
 
 ## Variables principales
 
 | Variable | Tipo | Rango | Afecta a | Comentarios |
 | --- | --- | --- | --- | --- |
-| Velocidad (IAS) | numerica | 0-160 nudos | Sustentacion y control | Clave para evitar la perdida. |
-| Altitud | numerica | 0-15000 pies | Rendimiento y navegacion | Ligada a la presion local. |
-| Actitud (cabeceo/alabeo) | numerica | -60..60 grados | Trayectoria de vuelo | Referencia del horizonte artificial. |
-| Angulo de ataque | numerica | 0-18 grados | Sustentacion y perdida | Supera el limite y hay perdida. |
-| Potencia del motor | numerica | 0-100% | Empuje disponible | Regulada por el acelerador. |
-| Configuracion de flaps | discreta | 0..3 etapas | Sustentacion y resistencia | Para despegue y aterrizaje. |
-| Combustible | numerica | 0-100% | Autonomia | Incluye reserva obligatoria. |
-| Viento | vectorial | direccion + fuerza | Rumbo y aterrizaje | El cruzado exige correccion. |
+| Velocidad (IAS) | numérica | 0-160 nudos | Sustentación y control | Clave para evitar la pérdida. |
+| Altitud | numérica | 0-15000 pies | Rendimiento y navegación | Ligada a la presión local. |
+| Actitud (cabeceo/alabeo) | numérica | -60..60 grados | Trayectoria de vuelo | Referencia del horizonte artificial. |
+| Ángulo de ataque | numérica | 0-18 grados | Sustentación y pérdida | Supera el límite y hay pérdida. |
+| Potencia del motor | numérica | 0-100% | Empuje disponible | Regulada por el acelerador. |
+| Configuración de flaps | discreta | 0..3 etapas | Sustentación y resistencia | Para despegue y aterrizaje. |
+| Combustible | numérica | 0-100% | Autonomía | Incluye reserva obligatoria. |
+| Viento | vectorial | dirección + fuerza | Rumbo y aterrizaje | El cruzado exige corrección. |
 
-## Ciclo basico
+## Ciclo básico
 
 1. Leer entrada del usuario (yugo, pedales, potencia, flaps, trim).
-2. Actualizar estado del motor y la configuracion aerodinamica.
-3. Calcular fuerzas: sustentacion, peso, empuje y resistencia.
+2. Actualizar estado del motor y la configuración aerodinámica.
+3. Calcular fuerzas: sustentación, peso, empuje y resistencia.
 4. Aplicar el entorno (viento, densidad del aire, terreno).
-5. Actualizar velocidad, altitud, actitud y posicion.
-6. Refrescar instrumentos y retroalimentacion (sonido, alertas de perdida).
+5. Actualizar velocidad, altitud, actitud y posición.
+6. Refrescar instrumentos y retroalimentación (sonido, alertas de pérdida).
 
 ## Modos de juego futuros
 
 - Tutorial guiado de cabina y checklist.
-- Practica de circuito de trafico y aterrizajes.
-- Misiones de navegacion entre aerodromos.
-- Desafios de viento cruzado y meteorologia.
+- Práctica de circuito de tráfico y aterrizajes.
+- Misiones de navegación entre aeródromos.
+- Desafíos de viento cruzado y meteorología.
 - Situaciones de emergencia controladas (falla de motor) sin contenido sensible.
 
 ## Elementos fuera de alcance
 
 - Maniobras acrobaticas peligrosas presentadas como recomendables.
-- Reproduccion de vuelo temerario como objetivo del juego.
-- Datos tecnicos que permitan alterar sistemas reales de una aeronave.
+- Reproducción de vuelo temerario como objetivo del juego.
+- Datos técnicos que permitan alterar sistemas reales de una aeronave.
 
 ## Pendientes
 
-- [ ] Definir valores por defecto de cada variable por tipo de avion.
-- [ ] Prototipar el modelo de sustentacion y perdida.
+- [ ] Definir valores por defecto de cada variable por tipo de avión.
+- [ ] Prototipar el modelo de sustentación y pérdida.
 - [ ] Ajustar el modelo de viento cruzado en aterrizaje.
-- [ ] Agregar fuentes tecnicas publicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- [ ] Agregar fuentes técnicas públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 

@@ -1,15 +1,15 @@
 # 🛬 Curso: Transbordadores
 
-[🏠 Inicio](../../README.md) · [🚙 Catalogo de vehiculos](../README.md) · [🎓 Guia de curso](../../docs/08-guia-de-estilo-y-curso.md)
+[🏠 Inicio](../../README.md) · [🚙 Catálogo de vehículos](../README.md) · [🎓 Guía de curso](../../docs/08-guia-de-estilo-y-curso.md)
 
-> **Curso del vehiculo espacial reutilizable con reentrada alada.** Documenta el
-> transbordador de principio a fin: historia, caracteristicas, sistemas
-> (orbitador, propulsores, tanque externo, escudo termico), cabina y mandos,
-> fisica del planeo sin motor en la reentrada, entornos del vuelo, marco legal
-> internacional y diseno de simulacion. Enfoque **historico y de principios**.
+> **Curso del vehículo espacial reutilizable con reentrada alada.** Documenta el
+> transbordador de principio a fin: historia, características, sistemas
+> (orbitador, propulsores, tanque externo, escudo térmico), cabina y mandos,
+> física del planeo sin motor en la reentrada, entornos del vuelo, marco legal
+> internacional y diseño de simulación. Enfoque **histórico y de principios**.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Modulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-9-blue)
 ![Marco](https://img.shields.io/badge/marco-tratados%20espaciales-orange)
 
 ---
@@ -18,24 +18,24 @@
 
 Al terminar este curso deberias poder:
 
-- Explicar como despega, orbita y reingresa un transbordador reutilizable.
-- Identificar el orbitador, los propulsores, el tanque externo y el escudo termico.
-- Comprender por que la reentrada es un planeo sin motor y como se controla.
+- Explicar como despega, órbita y reingresa un transbordador reutilizable.
+- Identificar el orbitador, los propulsores, el tanque externo y el escudo térmico.
+- Comprender por  qué la reentrada es un planeo sin motor y cómo se controla.
 - Reconocer los mandos e instrumentos de la cabina del orbitador.
-- Entender el papel del escudo termico frente al calor de la reentrada.
+- Entender el papel del escudo térmico frente al calor de la reentrada.
 - Conocer el marco de tratados espaciales que aplica a la actividad espacial.
 - Traducir todo lo anterior en variables de un simulador educativo.
 
 ---
 
-## 🗺️ Mapa del vehiculo
+## 🗺️ Mapa del vehículo
 
 ```mermaid
 flowchart TD
     Tanque[⛽ Tanque externo] --> Motores[🔧 Motores del orbitador]
     Propulsores[Propulsores laterales] --> Empuje[Empuje de despegue]
     Motores --> Empuje
-    Empuje --> Orbita[🛰️ Orbita]
+    Empuje --> Orbita[🛰️ Órbita]
     Orbita --> Desorbita[Frenado con motor]
     Desorbita --> Reentrada[Reentrada con escudo]
     Reentrada --> Planeo[🛬 Planeo sin motor]
@@ -46,18 +46,18 @@ flowchart TD
 
 ---
 
-## 📚 Modulos del curso
+## 📚 Módulos del curso
 
-| # | Modulo | Contenido | Enlace |
+| # | Módulo | Contenido | Enlace |
 | :-: | --- | --- | --- |
-| 1 | 📜 Historia | Origen y evolucion del transbordador, linea de tiempo. | [Abrir](historia/historia-transbordador.md) |
-| 2 | 📋 Caracteristicas | Que es, sus partes y para que sirve. | [Abrir](operacion/caracteristicas-transbordador.md) |
-| 3 | 🔧 Sistemas mecanicos | Orbitador, propulsores, tanque externo, escudo termico. | [Abrir](operacion/sistemas-mecanicos-transbordador.md) |
+| 1 | 📜 Historia | Origen y evolución del transbordador, línea de tiempo. | [Abrir](historia/historia-transbordador.md) |
+| 2 | 📋 Características | Que es, sus partes y para que sirve. | [Abrir](operacion/caracteristicas-transbordador.md) |
+| 3 | 🔧 Sistemas mecánicos | Orbitador, propulsores, tanque externo, escudo térmico. | [Abrir](operacion/sistemas-mecanicos-transbordador.md) |
 | 4 | 🎛️ Mandos e instrumentos | Cabina del orbitador, controles y paneles. | [Abrir](mandos/manual-mandos-transbordador.md) |
-| 5 | 🧪 Principios y operacion | Reentrada, planeo sin motor y fases de la mision. | [Abrir](operacion/principios-transbordador.md) |
-| 6 | 🌍 Entornos de trabajo | Plataforma, ascenso, orbita y reentrada alada. | [Abrir](operacion/entornos-transbordador.md) |
+| 5 | 🧪 Principios y operación | Reentrada, planeo sin motor y fases de la misión. | [Abrir](operacion/principios-transbordador.md) |
+| 6 | 🌍 Entornos de trabajo | Plataforma, ascenso, órbita y reentrada alada. | [Abrir](operacion/entornos-transbordador.md) |
 | 7 | ⚖️ Reglamentos | Estado de lanzamiento y tratados espaciales. | [Abrir](reglamentos/reglamentos-transbordador.md) |
-| 8 | 🎮 Diseno de simulacion | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-transbordador.md) |
+| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-transbordador.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-transbordador.md) |
 
 ---
@@ -66,10 +66,10 @@ flowchart TD
 
 Se recomienda revisar antes el curso de [🚀 cohetes](../cohetes/README.md), que
 explica el despegue y el ascenso, y el de
-[🚀 naves espaciales](../naves-espaciales/README.md), que introduce la orbita. El
-transbordador combina un despegue de cohete con un aterrizaje de avion. Marco
-legal comun en [⚖️ docs/07-marco-legal-chile.md](../../docs/07-marco-legal-chile.md).
+[🚀 naves espaciales](../naves-espaciales/README.md), que introduce la órbita. El
+transbordador combina un despegue de cohete con un aterrizaje de avión. Marco
+legal común en [⚖️ docs/07-marco-legal-chile.md](../../docs/07-marco-legal-chile.md).
 
 ---
 
-[➡️ Empezar por el Modulo 1: Historia](historia/historia-transbordador.md)
+[➡️ Empezar por el Módulo 1: Historia](historia/historia-transbordador.md)

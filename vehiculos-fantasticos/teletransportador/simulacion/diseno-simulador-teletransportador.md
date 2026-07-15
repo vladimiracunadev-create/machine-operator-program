@@ -1,12 +1,12 @@
-# 🎮 Diseno de simulacion del teletransportador
+# 🎮 Diseño de simulación del teletransportador
 
-[🏠 Inicio](../../../README.md) · [🌀 Curso: Teletransportador](../README.md) · 🎮 Simulacion
+[🏠 Inicio](../../../README.md) · [🌀 Curso: Teletransportador](../README.md) · 🎮 Simulación
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
 Como modelar de forma educativa y divertida un teletransportador. La idea
-central es poder alternar entre la version espectacular de la ficcion y la
-version fiel a la fisica, para que el usuario compare ambas con el mismo aparato.
+central es poder alternar entre la versión espectacular de la ficción y la
+versión fiel a la física, para que el usuario compare ambas con el mismo aparato.
 
 ```mermaid
 stateDiagram-v2
@@ -22,69 +22,69 @@ stateDiagram-v2
     Espera --> [*]
 ```
 
-## Objetivo de la simulacion
+## Objetivo de la simulación
 
-Que el usuario comprenda, jugando, que el teletransporte moveria informacion y
-no materia, que reconstruir un cuerpo exigiria energia y datos colosales, y que
-copiar un patron plantea el problema del duplicado. El modo ficcion sirve para
+Que el usuario comprenda, jugando, que el teletransporte moveria información y
+no materia, que reconstruir un cuerpo exigiria energía y datos colosales, y que
+copiar un patrón plantea el problema del duplicado. El modo ficción sirve para
 engancharse; el modo ciencia, para aprender.
 
-## Modo ciencia o ficcion
+## Modo ciencia o ficción
 
-La variable mas importante del simulador es el **modo**:
+La variable más importante del simulador es el **modo**:
 
-- **Modo ficcion**: el cuerpo llega al instante, el original se esfuma limpio y
-  aparece un solo tu. Es comodo y familiar.
-- **Modo ciencia**: se aplican los limites reales de informacion, energia,
-  velocidad de la luz y no clonacion. Hay retardo, gasto colosal y dilema del
+- **Modo ficción**: el cuerpo llega al instante, el original se esfuma limpio y
+  aparece un solo tú. Es cómodo y familiar.
+- **Modo ciencia**: se aplican los límites reales de información, energía,
+  velocidad de la luz y no clonación. Hay retardo, gasto colosal y dilema del
   duplicado.
 
 Al cambiar de modo, la interfaz avisa que reglas se activan o desactivan, para
-que la comparacion sea explicita y educativa.
+que la comparación sea explícita y educativa.
 
 ## Variables principales
 
 | Variable | Tipo | Rango | Afecta a | Comentarios |
 | --- | --- | --- | --- | --- |
-| Modo | discreta | ciencia / ficcion | Todas las reglas | Interruptor central del aprendizaje. |
-| Volumen de datos | numerica | 0-enorme en bits | Tiempo del canal | En modo ficcion puede ignorarse. |
-| Distancia | numerica | 0-muy grande | Retardo del canal | En ciencia limita por la velocidad de la luz. |
-| Energia disponible | numerica | 0-100% | Viabilidad del proceso | En ciencia la exigencia es colosal. |
-| Materia local | numerica | 0-100% | Reconstruccion | Sin materia no hay rearmado. |
-| Integridad del patron | numerica | 0-100% | Exito del resultado | Errores arruinan el destino. |
+| Modo | discreta | ciencia / ficción | Todas las reglas | Interruptor central del aprendizaje. |
+| Volumen de datos | numérica | 0-enorme en bits | Tiempo del canal | En modo ficción puede ignorarse. |
+| Distancia | numérica | 0-muy grande | Retardo del canal | En ciencia limita por la velocidad de la luz. |
+| Energía disponible | numérica | 0-100% | Viabilidad del proceso | En ciencia la exigencia es colosal. |
+| Materia local | numérica | 0-100% | Reconstrucción | Sin materia no hay rearmado. |
+| Integridad del patrón | numérica | 0-100% | Éxito del resultado | Errores arruinan el destino. |
 | Modo de proceso | discreta | copia / transferencia | Problema del duplicado | Decide si queda una o dos. |
 | Estado del original | discreta | intacto / borrado | Identidad | Clave para el dilema del duplicado. |
 
-## Ciclo basico
+## Ciclo básico
 
-1. Leer entrada del usuario (origen, resolucion, canal, modo de proceso).
-2. Comprobar el modo activo (ciencia o ficcion).
-3. Calcular el volumen de datos segun la resolucion elegida.
-4. Aplicar reglas del modo: en ciencia, retardo por distancia y gasto de energia.
+1. Leer entrada del usuario (origen, resolución, canal, modo de proceso).
+2. Comprobar el modo activo (ciencia o ficción).
+3. Calcular el volumen de datos según la resolución elegida.
+4. Aplicar reglas del modo: en ciencia, retardo por distancia y gasto de energía.
 5. Aplicar el entorno: materia local disponible y ruido del canal.
-6. Actualizar integridad del patron, estado del original y resultado en destino.
-7. Refrescar instrumentos (datos, energia, integridad, estado del original).
+6. Actualizar integridad del patrón, estado del original y resultado en destino.
+7. Refrescar instrumentos (datos, energía, integridad, estado del original).
 
 ## Modos de juego futuros
 
-- Tutorial de informacion: ver que se transmite un patron, no un cuerpo.
-- Reto de energia: intentar un traslado y descubrir la escala colosal.
-- Comparador lado a lado: mismo envio en modo ciencia y en modo ficcion.
+- Tutorial de información: ver que se transmite un patrón, no un cuerpo.
+- Reto de energía: intentar un traslado y descubrir la escala colosal.
+- Comparador lado a lado: mismo envío en modo ciencia y en modo ficción.
 - Dilema del duplicado: elegir copiar o transferir y discutir la identidad.
-- Escenario de teleportacion cuantica con enlace y canal clasico.
+- Escenario de teleportación cuántica con enlace y canal clásico.
 
 ## Elementos fuera de alcance
 
-- Presentar la version de ficcion como si fuera fisica real sin avisarlo.
-- Mostrar la teleportacion cuantica como transporte de materia.
-- Cualquier contenido que confunda espectaculo con ciencia sin distinguirlos.
+- Presentar la versión de ficción como si fuera física real sin avisarlo.
+- Mostrar la teleportación cuántica como transporte de materia.
+- Cualquier contenido que confunda espectáculo con ciencia sin distinguirlos.
 
 ## Pendientes
 
 - [ ] Definir valores por defecto de cada variable por tipo de escenario.
-- [ ] Prototipar el ciclo basico con retardo del canal clasico.
-- [ ] Ajustar el modelo de energia colosal para que sea didactico.
-- [ ] Agregar fuentes de divulgacion a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- [ ] Prototipar el ciclo básico con retardo del canal clásico.
+- [ ] Ajustar el modelo de energía colosal para que sea didáctico.
+- [ ] Agregar fuentes de divulgación a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 

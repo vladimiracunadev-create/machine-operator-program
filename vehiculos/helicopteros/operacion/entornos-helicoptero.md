@@ -1,9 +1,9 @@
-# 🌍 Entornos de trabajo del helicoptero
+# 🌍 Entornos de trabajo del helicóptero
 
-[🏠 Inicio](../../../README.md) · [🚁 Curso: Helicopteros](../README.md) · 🌍 Entornos
+[🏠 Inicio](../../../README.md) · [🚁 Curso: Helicópteros](../README.md) · 🌍 Entornos
 
-Donde opera un helicoptero y como cambia el vuelo segun el entorno. Cada entorno
-implica reglas, riesgos y ajustes distintos, y en simulacion se traduce en
+Dónde opera un helicóptero y cómo cambia el vuelo según el entorno. Cada entorno
+implica reglas, riesgos y ajustes distintos, y en simulación se traduce en
 escenarios diferentes.
 
 ---
@@ -31,12 +31,12 @@ mindmap
       Terreno agreste
 ```
 
-| Entorno | Caracteristicas | Riesgos tipicos | Ajuste de vuelo |
+| Entorno | Características | Riesgos típicos | Ajuste de vuelo |
 | --- | --- | --- | --- |
-| Helipuerto | Superficie preparada y senalizada. | Trafico, obstaculos cercanos. | Aproximacion estandar, vigilar viento. |
-| Rescate en montana | Altura, espacio reducido. | Aire menos denso, turbulencia. | Mas potencia, margenes amplios. |
-| Rescate en mar | Sin referencias fijas, oleaje. | Desorientacion, spray de agua. | Estacionario preciso, uso de grua. |
-| Hospital | Azoteas y helipuertos elevados. | Espacio estrecho, publico cercano. | Aproximacion suave y controlada. |
+| Helipuerto | Superficie preparada y senalizada. | Tráfico, obstáculos cercanos. | Aproximación estandar, vigilar viento. |
+| Rescate en montaña | Altura, espacio reducido. | Aire menos denso, turbulencia. | Más potencia, margenes amplios. |
+| Rescate en mar | Sin referencias fijas, oleaje. | Desorientación, spray de agua. | Estacionario preciso, uso de grúa. |
+| Hospital | Azoteas y helipuertos elevados. | Espacio estrecho, público cercano. | Aproximación suave y controlada. |
 | Incendio forestal | Humo, calor, carga externa. | Baja visibilidad, aire caliente. | Vuelo con carga, rutas de escape. |
 
 ---
@@ -44,20 +44,20 @@ mindmap
 ## 🌦️ Factores del entorno
 
 - **Densidad del aire**: la altura y el calor reducen la densidad y con ella la
-  sustentacion; se necesita mas potencia.
-- **Viento y turbulencia**: afectan el estacionario y la aproximacion, sobre todo
-  cerca de obstaculos y en montana.
+  sustentación; se necesita más potencia.
+- **Viento y turbulencia**: afectan el estacionario y la aproximación, sobre todo
+  cerca de obstáculos y en montaña.
 - **Visibilidad**: humo, niebla o spray de mar dificultan mantener referencias.
-- **Espacio disponible**: azoteas y claros exigen precision y margenes de rotor.
+- **Espacio disponible**: azoteas y claros exigen precisión y margenes de rotor.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
 Cada entorno es un escenario con su superficie, clima, densidad del aire y
-obstaculos. Ver como se modela en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-helicoptero.md).
+obstáculos. Ver cómo se modela en el
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-helicoptero.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-helicoptero.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-helicoptero.md)
+[⬅️ Anterior: Principios y operación](principios-helicoptero.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-helicoptero.md)

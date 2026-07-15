@@ -1,29 +1,29 @@
 # Mandos generales
 
-Esta carpeta contiene criterios comunes para describir mandos de cualquier maquina.
+Esta carpeta contiene criterios comunes para describir mandos de cualquier máquina.
 
-## Clasificacion de mandos
+## Clasificación de mandos
 
 | Tipo | Ejemplos | Uso |
 | --- | --- | --- |
-| Direccion | volante, manillar, timon, baston | Cambiar rumbo, trayectoria o actitud. |
-| Potencia | acelerador, palanca de gases, throttle | Regular energia o empuje. |
+| Dirección | volante, manillar, timón, bastón | Cambiar rumbo, trayectoria o actitud. |
+| Potencia | acelerador, palanca de gases, throttle | Regular energía o empuje. |
 | Frenado | pedal, maneta, freno auxiliar | Reducir velocidad o detener. |
-| Configuracion | flaps, estabilizadores, lastre | Cambiar el estado fisico de la maquina. |
+| Configuración | flaps, estabilizadores, lastre | Cambiar el estado físico de la máquina. |
 | Seguridad | parada de emergencia, alarmas | Prevenir o responder a riesgos. |
-| Navegacion | radio, radar, GPS, cartas | Orientacion y seguimiento de ruta. |
-| Informacion | tablero, pantallas, indicadores | Mostrar estado al operador. |
+| Navegación | radio, radar, GPS, cartas | Orientación y seguimiento de ruta. |
+| Información | tablero, pantallas, indicadores | Mostrar estado al operador. |
 
 ## Campos obligatorios
 
 Cada mando documentado debe indicar:
 
 - nombre;
-- ubicacion;
+- ubicación;
 - tipo;
-- funcion;
-- entrada equivalente en simulacion;
+- función;
+- entrada equivalente en simulación;
 - resultado esperado;
 - errores comunes;
 - prioridad visual;
-- relacion con instrumentos.
+- relación con instrumentos.

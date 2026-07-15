@@ -1,4 +1,4 @@
-# 📜 Historia del camion
+# 📜 Historia del camión
 
 [🏠 Inicio](../../../README.md) · [🚛 Curso: Camiones](../README.md) · 📜 Historia
 
@@ -15,56 +15,56 @@ timeline
 
 ## Origen
 
-El camion nace del deseo de mover carga pesada sin depender de la traccion
+El camión nace del deseo de mover carga pesada sin depender de la tracción
 animal. Los primeros modelos, a finales del siglo XIX, montaron un motor de
-combustion sobre un chasis reforzado. El salto decisivo llego con el motor
-diesel en las decadas de 1920 y 1930, mas eficiente y con mucho par a bajas
+combustión sobre un chasis reforzado. El salto decisivo llegó con el motor
+diesel en las decadas de 1920 y 1930, más eficiente y con mucho par a bajas
 vueltas, ideal para arrastrar grandes masas.
 
-## Linea de tiempo
+## Línea de tiempo
 
 | Periodo | Hito | Importancia |
 | --- | --- | --- |
-| 1896 | Primer camion con motor de combustion | Prueba del concepto de carga motorizada. |
-| 1900-1920 | Camion de carga y neumaticos macizos | Reemplazo del carro tirado por animales. |
-| 1920-1940 | Motor diesel y neumaticos de aire | Eficiencia, par y mejor rodadura. |
-| 1940-1960 | Frenos neumaticos y tractocamiones | Frenado seguro de gran masa y articulacion. |
-| 1960-1990 | Turbo, cabina avanzada y logistica | Mas potencia y confort, transporte a escala. |
-| 1990-presente | Electronica, EGR y SCR, seguridad activa | Menos emisiones y frenado asistido. |
+| 1896 | Primer camión con motor de combustión | Prueba del concepto de carga motorizada. |
+| 1900-1920 | Camión de carga y neumáticos macizos | Reemplazo del carro tirado por animales. |
+| 1920-1940 | Motor diesel y neumáticos de aire | Eficiencia, par y mejor rodadura. |
+| 1940-1960 | Frenos neumáticos y tractocamiones | Frenado seguro de gran masa y articulación. |
+| 1960-1990 | Turbo, cabina avanzada y logística | Más potencia y confort, transporte a escala. |
+| 1990-presente | Electrónica, EGR y SCR, seguridad activa | Menos emisiones y frenado asistido. |
 
-## Evolucion tecnologica
+## Evolución tecnológica
 
-- **Propulsion**: del motor de gasolina al diesel turboalimentado de alto par.
-- **Frenado**: de frenos mecanicos a neumaticos con ABS, EBS y retarder.
-- **Estructura**: chasis de largueros mas resistentes y cabinas seguras.
-- **Transmision**: de cajas manuales de muchas marchas a cajas automatizadas.
-- **Emisiones**: recirculacion de gases EGR y reduccion catalitica SCR con AdBlue.
+- **Propulsión**: del motor de gasolina al diesel turboalimentado de alto par.
+- **Frenado**: de frenos mecánicos a neumáticos con ABS, EBS y retarder.
+- **Estructura**: chasis de largueros más resistentes y cabinas seguras.
+- **Transmisión**: de cajas manuales de muchas marchas a cajas automatizadas.
+- **Emisiones**: recirculación de gases EGR y reducción catalítica SCR con AdBlue.
 - **Seguridad**: control de estabilidad, aviso de cambio de carril, frenado de emergencia.
 
 ## Tipos representativos
 
-| Tipo | Uso tipico | Caracteristica destacada |
+| Tipo | Uso típico | Característica destacada |
 | --- | --- | --- |
-| Camion rigido liviano | Reparto urbano | Chasis simple, facil de maniobrar. |
-| Camion rigido pesado | Carga regional | Varios ejes, gran capacidad util. |
+| Camión rígido liviano | Reparto urbano | Chasis simple, fácil de maniobrar. |
+| Camión rígido pesado | Carga regional | Varios ejes, gran capacidad útil. |
 | Tractocamion | Larga distancia | Arrastra semirremolque con quinta rueda. |
-| Volquete / tolva | Aridos y mineria | Caja basculante para descarga. |
-| Cisterna | Liquidos y combustible | Estanque, centro de gravedad alto. |
-| Portacontenedores | Logistica intermodal | Chasis para contenedor normalizado. |
+| Volquete / tolva | Áridos y minería | Caja basculante para descarga. |
+| Cisterna | Líquidos y combustible | Estanque, centro de gravedad alto. |
+| Portacontenedores | Logística intermodal | Chasis para contenedor normalizado. |
 
-## Impacto economico y logistico
+## Impacto económico y logístico
 
-El camion es la columna vertebral del transporte de carga por tierra: mueve la
-mayor parte de las mercancias que llegan a fabricas, tiendas y hogares. Su
-evolucion esta ligada a la eficiencia de combustible, a la reduccion de
-emisiones y a la seguridad vial, porque su masa lo convierte en un vehiculo
-critico dentro del trafico mixto.
+El camión es la columna vertebral del transporte de carga por tierra: mueve la
+mayor parte de las mercancías que llegan a fabricas, tiendas y hogares. Su
+evolución está ligada a la eficiencia de combustible, a la reducción de
+emisiones y a la seguridad vial, porque su masa lo convierte en un vehículo
+crítico dentro del tráfico mixto.
 
 ## Fuentes
 
-- Registrar aqui las fuentes publicas consultadas.
-- Enlazar cada fuente tambien en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- Registrar aquí las fuentes públicas consultadas.
+- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 
-[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Caracteristicas](../operacion/caracteristicas-camion.md)
+[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Características](../operacion/caracteristicas-camion.md)

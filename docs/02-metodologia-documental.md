@@ -1,38 +1,38 @@
-# Metodologia documental
+# Metodología documental
 
-## Orden de investigacion
+## Orden de investigación
 
-1. Identificar el tipo de vehiculo.
+1. Identificar el tipo de vehículo.
 2. Definir variantes principales.
-3. Buscar fuentes publicas y confiables.
-4. Separar historia, teoria, mandos, reglamentos y simulacion.
+3. Buscar fuentes públicas y confiables.
+4. Separar historia, teoría, mandos, reglamentos y simulación.
 5. Redactar una ficha clara.
 6. Crear tablas de mandos e instrumentos.
-7. Crear listas de procedimientos de simulacion.
+7. Crear listas de procedimientos de simulación.
 8. Registrar dudas y temas pendientes.
 
 ## Tipos de fuente
 
-- Manuales de usuario publicos.
-- Manuales de formacion basica.
-- Reglamentos oficiales publicos.
-- Material academico.
-- Museos, bibliotecas y archivos historicos.
-- Fabricantes, cuando la informacion sea publica.
-- Comunidades de simulacion, solo como apoyo y no como fuente primaria.
+- Manuales de usuario públicos.
+- Manuales de formación básica.
+- Reglamentos oficiales públicos.
+- Material académico.
+- Museos, bibliotecas y archivos históricos.
+- Fabricantes, cuando la información sea pública.
+- Comunidades de simulación, solo como apoyo y no como fuente primaria.
 
-## Reglas de redaccion
+## Reglas de redacción
 
 - Escribir en lenguaje claro.
-- Diferenciar hechos, interpretaciones y decisiones de simulacion.
-- Citar la fuente cuando se use un dato especifico.
-- Evitar instrucciones reales de operacion peligrosa.
-- Mantener las secciones iguales en todos los vehiculos.
+- Diferenciar hechos, interpretaciones y decisiones de simulación.
+- Citar la fuente cuando se use un dato específico.
+- Evitar instrucciones reales de operación peligrosa.
+- Mantener las secciones iguales en todos los vehículos.
 - Usar tablas para mandos, instrumentos, variables y reglamentos.
 
 ## Criterios para avanzar
 
-Un vehiculo esta listo para pasar a fase de simulacion cuando tiene:
+Un vehículo está listo para pasar a fase de simulación cuando tiene:
 
 - ficha general completa;
 - mapa de mandos;
@@ -40,6 +40,6 @@ Un vehiculo esta listo para pasar a fase de simulacion cuando tiene:
 - historia resumida;
 - reglamentos principales;
 - riesgos y seguridad;
-- variables de simulacion;
-- bibliografia inicial;
+- variables de simulación;
+- bibliografía inicial;
 - lista de pendientes.

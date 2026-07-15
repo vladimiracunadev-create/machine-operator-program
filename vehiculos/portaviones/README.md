@@ -1,15 +1,15 @@
 # 🛳️ Curso: Portaviones
 
-[🏠 Inicio](../../README.md) · [🚙 Catalogo de vehiculos](../README.md) · [🎓 Guia de curso](../../docs/08-guia-de-estilo-y-curso.md)
+[🏠 Inicio](../../README.md) · [🚙 Catálogo de vehículos](../README.md) · [🎓 Guía de curso](../../docs/08-guia-de-estilo-y-curso.md)
 
-> **Curso divulgativo e historico.** Documenta el portaviones solo con
-> informacion publica: historia, caracteristicas generales, principios fisicos
-> de flotacion y estabilidad, cubierta de vuelo y hangar a nivel divulgativo,
-> puente educativo, entornos y marco publico. No incluye tactica, doctrina ni
+> **Curso divulgativo e histórico.** Documenta el portaviones solo con
+> información pública: historia, características generales, principios físicos
+> de flotación y estabilidad, cubierta de vuelo y hangar a nivel divulgativo,
+> puente educativo, entornos y marco público. No incluye táctica, doctrina ni
 > sistemas de armas. Ver [🦺 docs/04-seguridad-y-limites.md](../../docs/04-seguridad-y-limites.md).
 
 ![Nivel](https://img.shields.io/badge/nivel-divulgativo-green)
-![Modulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-9-blue)
 ![Marco](https://img.shields.io/badge/marco-historico%20publico-lightgrey)
 
 ---
@@ -19,57 +19,57 @@
 Al terminar este curso deberias poder:
 
 - Explicar como un buque muy grande flota, avanza y mantiene estabilidad.
-- Identificar sus sistemas generales (casco, propulsion, gobierno, cubierta).
+- Identificar sus sistemas generales (casco, propulsión, gobierno, cubierta).
 - Reconocer, a nivel divulgativo, la cubierta de vuelo y el hangar.
-- Comprender la fisica publica de flotacion, estabilidad y logistica de cubierta.
-- Conocer el marco institucional e internacional publico aplicable.
+- Comprender la física pública de flotación, estabilidad y logística de cubierta.
+- Conocer el marco institucional e internacional público aplicable.
 - Traducir todo lo anterior en variables de un simulador educativo responsable.
 
 ---
 
-## 🗺️ Mapa del vehiculo
+## 🗺️ Mapa del vehículo
 
 ```mermaid
 flowchart TD
-    Energia[⛽ Energia] --> Motor[🔧 Planta propulsora]
-    Motor --> Eje[Linea de ejes]
-    Eje --> Helice[Helices]
+    Energia[⛽ Energía] --> Motor[🔧 Planta propulsora]
+    Motor --> Eje[Línea de ejes]
+    Eje --> Helice[Hélices]
     Helice --> Empuje[Empuje]
-    Puente[🎛️ Puente / isla] --> Timon[Timon]
-    Timon --> Pala[Pala del timon]
+    Puente[🎛️ Puente / isla] --> Timon[Timón]
+    Timon --> Pala[Pala del timón]
     Pala --> Gobierno[Gobierno / rumbo]
-    Casco[🚢 Casco] --> Flotacion[Flotacion]
+    Casco[🚢 Casco] --> Flotacion[Flotación]
     Cubierta[🛫 Cubierta de vuelo] --> Hangar[Hangar]
-    Instrumentos[📊 Navegacion] -. informan .-> Tripulacion[🧍 Tripulacion]
+    Instrumentos[📊 Navegación] -. informan .-> Tripulacion[🧍 Tripulación]
     Tripulacion --> Puente
 ```
 
 ---
 
-## 📚 Modulos del curso
+## 📚 Módulos del curso
 
-| # | Modulo | Contenido | Enlace |
+| # | Módulo | Contenido | Enlace |
 | :-: | --- | --- | --- |
-| 1 | 📜 Historia | Origen y evolucion publica de la aviacion naval. | [Abrir](historia/historia-portaviones.md) |
-| 2 | 📋 Caracteristicas | Que es, tipos historicos y su papel general. | [Abrir](operacion/caracteristicas-portaviones.md) |
-| 3 | 🔧 Sistemas mecanicos | Casco, propulsion, gobierno, cubierta y hangar. | [Abrir](operacion/sistemas-mecanicos-portaviones.md) |
+| 1 | 📜 Historia | Origen y evolución pública de la aviación naval. | [Abrir](historia/historia-portaviones.md) |
+| 2 | 📋 Características | Que es, tipos históricos y su papel general. | [Abrir](operacion/caracteristicas-portaviones.md) |
+| 3 | 🔧 Sistemas mecánicos | Casco, propulsión, gobierno, cubierta y hangar. | [Abrir](operacion/sistemas-mecanicos-portaviones.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puente e isla, a nivel educativo. | [Abrir](mandos/manual-mandos-portaviones.md) |
-| 5 | 🧪 Principios y operacion | Fisica de flotacion, estabilidad y cubierta. | [Abrir](operacion/principios-portaviones.md) |
+| 5 | 🧪 Principios y operación | Física de flotación, estabilidad y cubierta. | [Abrir](operacion/principios-portaviones.md) |
 | 6 | 🌍 Entornos de trabajo | Puerto, costa, mar abierto y clima. | [Abrir](operacion/entornos-portaviones.md) |
-| 7 | ⚖️ Reglamentos | Marco publico institucional e internacional. | [Abrir](reglamentos/reglamentos-portaviones.md) |
-| 8 | 🎮 Diseno de simulacion | Variables, ciclo y modos de simulacion. | [Abrir](simulacion/diseno-simulador-portaviones.md) |
-| 9 | 🧰 Recursos | Glosario nautico, enlaces y diagramas. | [Abrir](recursos/recursos-portaviones.md) |
+| 7 | ⚖️ Reglamentos | Marco público institucional e internacional. | [Abrir](reglamentos/reglamentos-portaviones.md) |
+| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de simulación. | [Abrir](simulacion/diseno-simulador-portaviones.md) |
+| 9 | 🧰 Recursos | Glosario náutico, enlaces y diagramas. | [Abrir](recursos/recursos-portaviones.md) |
 
 ---
 
 ## 🧩 Requisitos previos
 
 Conviene haber visto antes el curso de
-[🚢 Barcos mercantes](../barcos-mercantes/README.md) para dominar flotacion,
+[🚢 Barcos mercantes](../barcos-mercantes/README.md) para dominar flotación,
 inercia y gobierno. El portaviones agrega la escala y la cubierta de vuelo,
-siempre desde un enfoque historico y publico. Limites en
+siempre desde un enfoque histórico y público. Límites en
 [🦺 docs/04-seguridad-y-limites.md](../../docs/04-seguridad-y-limites.md).
 
 ---
 
-[➡️ Empezar por el Modulo 1: Historia](historia/historia-portaviones.md)
+[➡️ Empezar por el Módulo 1: Historia](historia/historia-portaviones.md)

@@ -1,6 +1,6 @@
-# 📜 Historia del automovil
+# 📜 Historia del automóvil
 
-[🏠 Inicio](../../../README.md) · [🚗 Curso: Automoviles](../README.md) · 📜 Historia
+[🏠 Inicio](../../../README.md) · [🚗 Curso: Automóviles](../README.md) · 📜 Historia
 
 ```mermaid
 timeline
@@ -15,57 +15,57 @@ timeline
 
 ## Origen
 
-El automovil moderno nace a finales del siglo XIX cuando se monta un motor de
-combustion interna sobre un chasis con ruedas. El vehiculo de tres ruedas de Karl
-Benz (1886) suele citarse como el primer automovil practico. La idea era
-transportar personas y carga por caminos sin depender de la traccion animal.
+El automóvil moderno nace a finales del siglo XIX cuando se monta un motor de
+combustión interna sobre un chasis con ruedas. El vehículo de tres ruedas de Karl
+Benz (1886) suele citarse como el primer automóvil práctico. La idea era
+transportar personas y carga por caminos sin depender de la tracción animal.
 
-## Linea de tiempo
+## Línea de tiempo
 
 | Periodo | Hito | Importancia |
 | --- | --- | --- |
-| 1886 | Primer automovil con motor de combustion | Prueba del concepto de auto. |
-| 1908-1927 | Produccion en serie del Ford T | Precio accesible, movilidad masiva. |
-| 1930-1950 | Carrocerias cerradas y masificacion | El auto se vuelve familiar. |
+| 1886 | Primer automóvil con motor de combustión | Prueba del concepto de auto. |
+| 1908-1927 | Producción en serie del Ford T | Precio accesible, movilidad masiva. |
+| 1930-1950 | Carrocerías cerradas y masificación | El auto se vuelve familiar. |
 | 1950-1970 | Autopistas, confort y primeras normas | Foco en velocidad y comodidad. |
-| 1970-2000 | Inyeccion, catalizador y electronica | Menos consumo y emisiones. |
-| 2000-presente | ABS, airbag, hibridos y electricos | Mas seguridad y nuevas propulsiones. |
+| 1970-2000 | Inyección, catalizador y electrónica | Menos consumo y emisiones. |
+| 2000-presente | ABS, airbag, híbridos y eléctricos | Más seguridad y nuevas propulsiones. |
 
-## Evolucion tecnologica
+## Evolución tecnológica
 
 - **Materiales**: del acero pesado a aceros de alta resistencia, aluminio y
   compuestos que reducen peso y mejoran la seguridad.
-- **Propulsion**: del carburador a la inyeccion electronica, y de alli a hibridos
-  y motores electricos de bateria.
-- **Mandos**: de controles mecanicos duros a direccion y frenos asistidos, y hoy
-  a mandos electronicos y pantallas.
+- **Propulsión**: del carburador a la inyección electrónica, y de allí a híbridos
+  y motores eléctricos de batería.
+- **Mandos**: de controles mecánicos duros a dirección y frenos asistidos, y hoy
+  a mandos electrónicos y pantallas.
 - **Instrumentos**: de relojes analogicos a tableros digitales configurables.
-- **Seguridad**: cinturon, ABS, airbags, control de estabilidad y ayudas ADAS.
-- **Automatizacion**: cajas automaticas, asistentes de carril y frenado autonomo.
+- **Seguridad**: cinturón, ABS, airbags, control de estabilidad y ayudas ADAS.
+- **Automatización**: cajas automáticas, asistentes de carril y frenado autónomo.
 
 ## Tipos representativos
 
-| Tipo | Uso tipico | Caracteristica destacada |
+| Tipo | Uso típico | Característica destacada |
 | --- | --- | --- |
-| Ciudadano / hatchback | Ciudad y trayectos cortos | Compacto, facil de estacionar. |
+| Ciudadano / hatchback | Ciudad y trayectos cortos | Compacto, fácil de estacionar. |
 | Sedan | Uso familiar y trabajo | Maletero cerrado, comodidad. |
 | SUV / crossover | Mixto y familiar | Altura libre y espacio interior. |
 | Pickup / camioneta | Carga y trabajo | Zona de carga abierta, robustez. |
-| Deportivo | Placer de conduccion | Alta potencia, bajo y ligero. |
-| Electrico | Ciudad y viaje limpio | Cero emisiones locales, par inmediato. |
+| Deportivo | Placer de conducción | Alta potencia, bajo y ligero. |
+| Eléctrico | Ciudad y viaje limpio | Cero emisiones locales, par inmediato. |
 
-## Impacto social y economico
+## Impacto social y económico
 
-El automovil transformo las ciudades, el trabajo y el ocio: permitio vivir lejos
-del centro, movio la economia industrial y creo empleo en toda su cadena. Tambien
-trajo desafios de congestion, contaminacion y seguridad vial, que hoy impulsan la
-electrificacion, el transporte compartido y normas de trafico mas estrictas.
+El automóvil transformó las ciudades, el trabajo y el ocio: permitió vivir lejos
+del centro, movió la economía industrial y creó empleo en toda su cadena. También
+trajo desafíos de congestión, contaminación y seguridad vial, que hoy impulsan la
+electrificación, el transporte compartido y normas de tráfico más estrictas.
 
 ## Fuentes
 
-- Registrar aqui las fuentes publicas consultadas.
-- Enlazar cada fuente tambien en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- Registrar aquí las fuentes públicas consultadas.
+- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 
-[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Caracteristicas](../operacion/caracteristicas-automovil.md)
+[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Características](../operacion/caracteristicas-automovil.md)

@@ -17,49 +17,49 @@ timeline
 
 El portaviones nace cuando se logra operar aeronaves desde un buque. Los primeros
 despegues y aterrizajes sobre cubiertas dieron paso a buques con cubierta corrida
-disenados para ese fin. Este modulo trata solo la evolucion **historica y
-publica** del tipo de buque.
+disenados para ese fin. Este módulo trata solo la evolución **histórica y
+pública** del tipo de buque.
 
-## Linea de tiempo
+## Línea de tiempo
 
 | Periodo | Hito | Importancia |
 | --- | --- | --- |
 | 1910-1918 | Primeros despegues desde buques | Prueba del concepto. |
 | 1920-1930 | Cubierta corrida | Nace el portaviones moderno. |
-| 1939-1945 | Gran desarrollo | La aviacion naval gana protagonismo. |
-| 1950-1970 | Cubierta angulada, catapultas | Operacion mas segura y eficiente. |
-| 1970-2000 | Propulsion avanzada | Mayor autonomia y tamano. |
-| 2000-presente | Automatizacion | Nuevos disenos de dominio publico. |
+| 1939-1945 | Gran desarrollo | La aviación naval gana protagonismo. |
+| 1950-1970 | Cubierta angulada, catapultas | Operación más segura y eficiente. |
+| 1970-2000 | Propulsión avanzada | Mayor autonomía y tamaño. |
+| 2000-presente | Automatización | Nuevos diseños de dominio público. |
 
-## Evolucion tecnologica
+## Evolución tecnológica
 
-- **Cubierta**: de la cubierta recta a la angulada, mas segura para operar.
-- **Lanzamiento**: aparicion de catapultas y rampas de despegue.
-- **Recuperacion**: sistemas de frenado para el aterrizaje a bordo.
-- **Propulsion**: de las calderas a plantas de mayor autonomia.
+- **Cubierta**: de la cubierta recta a la angulada, más segura para operar.
+- **Lanzamiento**: aparición de catapultas y rampas de despegue.
+- **Recuperación**: sistemas de frenado para el aterrizaje a bordo.
+- **Propulsión**: de las calderas a plantas de mayor autonomía.
 - **Isla**: superestructura lateral que integra puente y control.
-- **Escala**: aumento del desplazamiento y de la tripulacion.
+- **Escala**: aumento del desplazamiento y de la tripulación.
 
 ## Tipos representativos
 
-| Tipo | Rasgo | Caracteristica destacada |
+| Tipo | Rasgo | Característica destacada |
 | --- | --- | --- |
-| Portaviones de escolta | Historico, menor tamano | Cubierta corta. |
-| Portaviones de flota | Gran tamano | Cubierta y hangar amplios. |
-| Cubierta angulada | Diseno moderno | Operacion mas segura. |
+| Portaviones de escolta | Histórico, menor tamaño | Cubierta corta. |
+| Portaviones de flota | Gran tamaño | Cubierta y hangar amplios. |
+| Cubierta angulada | Diseño moderno | Operación más segura. |
 | Buque museo | Actualidad | Uso patrimonial y educativo. |
 
-## Impacto historico y patrimonial
+## Impacto histórico y patrimonial
 
-El portaviones impulso enormes avances en aviacion, ingenieria naval y logistica.
+El portaviones impulso enormes avances en aviación, ingeniería naval y logística.
 Hoy varios se conservan como buques museo, con gran valor educativo sobre la
-historia de la aviacion naval.
+historia de la aviación naval.
 
 ## Fuentes
 
-- Registrar aqui las fuentes publicas consultadas.
-- Enlazar cada fuente tambien en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- Registrar aquí las fuentes públicas consultadas.
+- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 
-[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Caracteristicas](../operacion/caracteristicas-portaviones.md)
+[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Características](../operacion/caracteristicas-portaviones.md)

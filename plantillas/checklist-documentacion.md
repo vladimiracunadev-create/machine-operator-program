@@ -1,14 +1,14 @@
-# Checklist de documentacion
+# Checklist de documentación
 
-- [ ] Ficha de vehiculo creada.
-- [ ] Descripcion general completada.
+- [ ] Ficha de vehículo creada.
+- [ ] Descripción general completada.
 - [ ] Historia inicial escrita.
 - [ ] Mandos principales listados.
 - [ ] Instrumentos principales listados.
 - [ ] Principios de funcionamiento documentados.
 - [ ] Reglamentos principales identificados.
-- [ ] Riesgos y limites redactados.
-- [ ] Fuentes publicas agregadas.
+- [ ] Riesgos y límites redactados.
+- [ ] Fuentes públicas agregadas.
 - [ ] Nivel de realismo elegido.
-- [ ] Variables de simulacion definidas.
+- [ ] Variables de simulación definidas.
 - [ ] Pendientes registrados.

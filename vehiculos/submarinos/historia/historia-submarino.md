@@ -16,50 +16,50 @@ timeline
 ## Origen
 
 El submarino nace del deseo de navegar bajo el agua. Los primeros sumergibles
-experimentales usaban lastre y propulsion manual. Con el motor y la bateria se
-hizo practico. Este modulo trata solo la evolucion **historica y publica** del
+experimentales usaban lastre y propulsión manual. Con el motor y la batería se
+hizo práctico. Este módulo trata solo la evolución **histórica y pública** del
 tipo de buque.
 
-## Linea de tiempo
+## Línea de tiempo
 
 | Periodo | Hito | Importancia |
 | --- | --- | --- |
 | Siglo XVII-XVIII | Sumergibles experimentales | Prueba del concepto. |
-| 1800-1860 | Lastre y helice manual | Control basico de inmersion. |
-| 1900-1918 | Motor y bateria | Submarino practico. |
-| 1939-1945 | Gran desarrollo | Avances tecnicos importantes. |
-| 1950-1970 | Propulsion nuclear | Enorme autonomia sumergida. |
-| 1970-presente | Electronica y silenciamiento | Nuevos disenos de dominio publico. |
+| 1800-1860 | Lastre y hélice manual | Control básico de inmersión. |
+| 1900-1918 | Motor y batería | Submarino práctico. |
+| 1939-1945 | Gran desarrollo | Avances técnicos importantes. |
+| 1950-1970 | Propulsión nuclear | Enorme autonomía sumergida. |
+| 1970-presente | Electrónica y silenciamiento | Nuevos diseños de dominio público. |
 
-## Evolucion tecnologica
+## Evolución tecnológica
 
-- **Casco**: del casco simple al casco resistente a la presion.
+- **Casco**: del casco simple al casco resistente a la presión.
 - **Flotabilidad**: perfeccionamiento de los tanques de lastre.
-- **Propulsion**: de la helice manual al motor, la bateria y la energia nuclear.
-- **Soporte vital**: sistemas para renovar el aire y sostener a la tripulacion.
-- **Navegacion**: instrumentos para conocer profundidad, rumbo y presion.
-- **Autonomia**: de horas sumergido a semanas o meses.
+- **Propulsión**: de la hélice manual al motor, la batería y la energía nuclear.
+- **Soporte vital**: sistemas para renovar el aire y sostener a la tripulación.
+- **Navegación**: instrumentos para conocer profundidad, rumbo y presión.
+- **Autonomía**: de horas sumergido a semanas o meses.
 
 ## Tipos representativos
 
-| Tipo | Rasgo | Caracteristica destacada |
+| Tipo | Rasgo | Característica destacada |
 | --- | --- | --- |
-| Sumergible experimental | Historico | Lastre y propulsion manual. |
-| Submarino diesel-electrico | Clasico | Motor en superficie, bateria sumergido. |
-| Submarino de propulsion nuclear | Moderno | Gran autonomia sumergida. |
-| Sumergible de investigacion | Civil | Exploracion cientifica del oceano. |
+| Sumergible experimental | Histórico | Lastre y propulsión manual. |
+| Submarino diesel-electrico | Clásico | Motor en superficie, batería sumergido. |
+| Submarino de propulsión nuclear | Moderno | Gran autonomía sumergida. |
+| Sumergible de investigación | Civil | Exploración científica del océano. |
 
-## Impacto historico y cientifico
+## Impacto histórico y científico
 
-El submarino impulso avances en ingenieria de presion, soporte vital y
-propulsion. Los sumergibles civiles de investigacion permiten explorar las
-profundidades oceanicas, con gran valor cientifico y educativo.
+El submarino impulso avances en ingeniería de presión, soporte vital y
+propulsión. Los sumergibles civiles de investigación permiten explorar las
+profundidades oceánicas, con gran valor científico y educativo.
 
 ## Fuentes
 
-- Registrar aqui las fuentes publicas consultadas.
-- Enlazar cada fuente tambien en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- Registrar aquí las fuentes públicas consultadas.
+- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 
-[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Caracteristicas](../operacion/caracteristicas-submarino.md)
+[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Características](../operacion/caracteristicas-submarino.md)

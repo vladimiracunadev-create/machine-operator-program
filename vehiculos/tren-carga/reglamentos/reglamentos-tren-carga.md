@@ -2,66 +2,66 @@
 
 [🏠 Inicio](../../../README.md) · [🚂 Curso: Tren de carga](../README.md) · ⚖️ Reglamentos
 
-Referencia educativa y de diseno de simulacion. Las normas reales cambian; para
+Referencia educativa y de diseño de simulación. Las normas reales cambian; para
 operar se deben consultar la autoridad ferroviaria y la ley vigente. Marco general
-en [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md), seccion 1.6 (Ferroviario).
+en [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md), sección 1.6 (Ferroviario).
 
-## Ambito
+## Ámbito
 
-- Pais: Chile.
-- Ley base: Ley General de Ferrocarriles (numero y fecha por confirmar).
-- Autoridad: EFE como dueno de la infraestructura y operador estatal historico, y
+- País: Chile.
+- Ley base: Ley General de Ferrocarriles (número y fecha por confirmar).
+- Autoridad: EFE como dueño de la infraestructura y operador estatal histórico, y
   MTT en el rol regulador del sector.
-- Tipo de vehiculo: tren de carga sobre la red ferroviaria.
+- Tipo de vehículo: tren de carga sobre la red ferroviaria.
 
-## Habilitacion y certificacion del maquinista
+## Habilitación y certificación del maquinista
 
-El ferrocarril no usa una licencia de via publica como los vehiculos de carretera,
-porque no circula por caminos abiertos sino sobre una via ferrea controlada. En su
-lugar se exige la **habilitacion o certificacion de maquinista** (requisitos exactos
-por confirmar), otorgada segun la normativa del sector y del operador.
+El ferrocarril no usa una licencia de vía pública como los vehículos de carretera,
+porque no circula por caminos abiertos sino sobre una vía férrea controlada. En su
+lugar se exige la **habilitación o certificación de maquinista** (requisitos exactos
+por confirmar), otorgada según la normativa del sector y del operador.
 
-- No hay licencia de conducir de via publica para el tren.
-- El maquinista requiere habilitacion o certificacion especifica (por confirmar).
+- No hay licencia de conducir de vía pública para el tren.
+- El maquinista requiere habilitación o certificación específica (por confirmar).
 - Los operadores de carga privados que usan la red operan sobre la infraestructura
-  de EFE (regimen y nombres por confirmar).
+  de EFE (régimen y nombres por confirmar).
 
 ## Requisitos y elementos de seguridad
 
-| Tema | Norma | Requisito | Aplicacion en simulacion |
+| Tema | Norma | Requisito | Aplicación en simulación |
 | --- | --- | --- | --- |
-| Habilitacion de maquinista | Marco ferroviario (por confirmar) | Certificacion vigente para conducir. | Modo habilitacion antes de operar. |
-| Carga por eje | Marco ferroviario (por confirmar) | No exceder el peso por eje que admite la via. | Control de carga y reparto por eje. |
-| Senalizacion de via | Marco ferroviario (por confirmar) | Obedecer senales de circulacion y velocidad. | Reglas de senal en el escenario. |
-| Pasos a nivel | Marco ferroviario (por confirmar) | Bocina y prioridad segun la senalizacion. | Advertencia sonora obligatoria. |
-| Freno del tren | Marco ferroviario (por confirmar) | Tuberia de freno operativa en toda la composicion. | Chequeo previo simulado de freno. |
-| Ancho de via / trocha | Marco ferroviario (por confirmar) | Material compatible con la trocha de la ruta. | Coherencia de trocha en el escenario. |
+| Habilitación de maquinista | Marco ferroviario (por confirmar) | Certificación vigente para conducir. | Modo habilitación antes de operar. |
+| Carga por eje | Marco ferroviario (por confirmar) | No exceder el peso por eje que admite la vía. | Control de carga y reparto por eje. |
+| Señalización de vía | Marco ferroviario (por confirmar) | Obedecer señales de circulación y velocidad. | Reglas de señal en el escenario. |
+| Pasos a nivel | Marco ferroviario (por confirmar) | Bocina y prioridad según la señalización. | Advertencia sonora obligatoria. |
+| Freno del tren | Marco ferroviario (por confirmar) | Tubería de freno operativa en toda la composición. | Chequeo previo simulado de freno. |
+| Ancho de vía / trocha | Marco ferroviario (por confirmar) | Material compatible con la trocha de la ruta. | Coherencia de trocha en el escenario. |
 
 ## Reglas de seguridad
 
-- Verificar la presion de la tuberia de freno antes de mover el tren.
-- Respetar el peso por eje y el reparto de carga que admite la via.
-- Obedecer siempre la senalizacion y los limites de velocidad de la via.
-- Usar bocina y maxima atencion al aproximarse a un paso a nivel.
+- Verificar la presión de la tubería de freno antes de mover el tren.
+- Respetar el peso por eje y el reparto de carga que admite la vía.
+- Obedecer siempre la señalización y los límites de velocidad de la vía.
+- Usar bocina y máxima atención al aproximarse a un paso a nivel.
 - Anticipar la larga distancia de frenado por la gran masa del tren.
 
 ## Restricciones
 
-- Habilitacion o certificacion de maquinista vigente (por confirmar).
-- Circulacion sujeta a la senalizacion y a la gestion de la via.
-- Cargas o composiciones especiales requieren autorizacion del operador y de EFE
+- Habilitación o certificación de maquinista vigente (por confirmar).
+- Circulación sujeta a la señalización y a la gestión de la vía.
+- Cargas o composiciones especiales requieren autorización del operador y de EFE
   (por confirmar).
 
-## Notas para simulacion
+## Notas para simulación
 
-- El nucleo educativo es la gestion de masa: distancia de frenado, adherencia y
+- El núcleo educativo es la gestión de masa: distancia de frenado, adherencia y
   fuerzas longitudinales del tren.
 - Usar sanciones educativas (avisos) en vez de castigos frustrantes.
-- Modelar la baja presion de la tuberia de freno como condicion que impide circular.
-- Citar solo numeros de ley confirmados en `docs/07-marco-legal-chile.md`; el resto
+- Modelar la baja presión de la tubería de freno como condición que impide circular.
+- Citar solo números de ley confirmados en `docs/07-marco-legal-chile.md`; el resto
   se marca como por confirmar. Fuente institucional: efe.cl.
 - Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 
-[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-tren-carga.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-tren-carga.md)
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-tren-carga.md) · [➡️ Siguiente: Diseño de simulación](../simulacion/diseno-simulador-tren-carga.md)

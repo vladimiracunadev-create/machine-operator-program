@@ -1,69 +1,69 @@
-# 📋 Caracteristicas funcionales de la grua
+# 📋 Características funcionales de la grúa
 
-[🏠 Inicio](../../../README.md) · [🏗️ Curso: Gruas](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🏗️ Curso: Grúas](../README.md) · 📋 Características
 
-Que es una grua, que tipos existen y para que sirve cada uno. Este modulo da el
-contexto antes de abrir la mecanica y el izaje (Modulo 3).
+Que es una grúa, que tipos existen y para que sirve cada uno. Este módulo da el
+contexto antes de abrir la mecánica y el izaje (Módulo 3).
 
 ---
 
-## 🧭 Definicion
+## 🧭 Definición
 
-Una grua es una maquina de izaje que eleva, gira y traslada cargas mediante una
-pluma y un cabrestante. A diferencia de otros vehiculos, su desafio no es
+Una grúa es una máquina de izaje que eleva, gira y traslada cargas mediante una
+pluma y un cabrestante. A diferencia de otros vehículos, su desafío no es
 desplazarse, sino levantar pesos elevados manteniendo la estabilidad: toda la
-operacion gira en torno a no superar el momento de vuelco.
+operación gira en torno a no superar el momento de vuelco.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧬 Características clave
 
-| Caracteristica | Descripcion |
+| Característica | Descripción |
 | --- | --- |
-| Capacidad de izaje | Peso maximo que puede levantar, siempre segun radio y angulo. |
+| Capacidad de izaje | Peso máximo que puede levantar, siempre según radio y ángulo. |
 | Radio de trabajo | Distancia horizontal del eje de giro al gancho; a mayor radio, menor capacidad. |
-| Momento de carga | Producto de peso por radio; es el parametro critico de estabilidad. |
+| Momento de carga | Producto de peso por radio; es el parámetro crítico de estabilidad. |
 | Estabilizadores | Amplian la base de apoyo para resistir el vuelco. |
 | Contrapeso | Masa que equilibra el momento de la carga. |
-| Alcance y altura | Longitud de pluma que define hasta donde y cuan alto se iza. |
-| Giro (swing) | Rotacion de la superestructura para posicionar la carga. |
+| Alcance y altura | Longitud de pluma que define hasta dónde y cuán alto se iza. |
+| Giro (swing) | Rotación de la superestructura para posicionar la carga. |
 
 ---
 
-## 🗂️ Tipos de grua
+## 🗂️ Tipos de grúa
 
 ```mermaid
 flowchart TD
-    Grua[🏗️ Grua] --> Movil[Moviles]
+    Grua[🏗️ Grúa] --> Movil[Móviles]
     Grua --> Fija[Fijas]
     Grua --> Industrial[Industriales]
-    Movil --> Camion[Sobre camion]
+    Movil --> Camion[Sobre camión]
     Movil --> RT[Todo terreno RT]
     Movil --> Orugas[Sobre orugas]
     Movil --> Articulada[Articulada / pluma articulada]
     Fija --> Torre[Torre]
-    Industrial --> Puente[Puente grua]
+    Industrial --> Puente[Puente grúa]
 ```
 
-| Tipo | Uso tipico | Rasgo destacado |
+| Tipo | Uso típico | Rasgo destacado |
 | --- | --- | --- |
-| Movil sobre camion | Montaje itinerante en ciudad y obra | Circula por carretera, opera con estabilizadores. |
-| Todo terreno (RT) | Terreno irregular y compacto de obra | Traccion total, chasis unico, muy maniobrable. |
-| Sobre orugas | Grandes obras de larga duracion | Iza sin estabilizadores, se mueve con carga. |
-| Torre | Edificacion en altura | Fija, gran altura y alcance, pluma horizontal. |
-| Articulada / pluma articulada | Carga y descarga sobre camion | Pluma plegable de brazos, compacta al replegar. |
-| Puente grua | Naves y talleres industriales | Recorre un carril elevado, izaje vertical preciso. |
+| Móvil sobre camión | Montaje itinerante en ciudad y obra | Circula por carretera, opera con estabilizadores. |
+| Todo terreno (RT) | Terreno irregular y compacto de obra | Tracción total, chasis único, muy maniobrable. |
+| Sobre orugas | Grandes obras de larga duración | Iza sin estabilizadores, se mueve con carga. |
+| Torre | Edificación en altura | Fija, gran altura y alcance, pluma horizontal. |
+| Articulada / pluma articulada | Carga y descarga sobre camión | Pluma plegable de brazos, compacta al replegar. |
+| Puente grúa | Naves y talleres industriales | Recorre un carril elevado, izaje vertical preciso. |
 
 ---
 
-## 🎯 Para que se usa
+## 🎯 Para qué se usa
 
-- Montaje de estructuras y prefabricados en construccion.
+- Montaje de estructuras y prefabricados en construcción.
 - Carga y descarga de contenedores en puertos.
-- Instalacion de equipos pesados en industria y energia.
-- Rescate y remocion de vehiculos o escombros.
+- Instalación de equipos pesados en industria y energía.
+- Rescate y remoción de vehículos o escombros.
 - Movimiento de materiales dentro de naves industriales.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-grua.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-grua.md)
+[⬅️ Anterior: Historia](../historia/historia-grua.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-grua.md)

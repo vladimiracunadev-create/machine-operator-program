@@ -4,8 +4,8 @@
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Donde opera un transporte pesado modular y como cambia su comportamiento segun
-el entorno. Cada escenario implica reglas fisicas distintas, y en simulacion se
+Dónde opera un transporte pesado modular y cómo cambia su comportamiento según
+el entorno. Cada escenario implica reglas físicas distintas, y en simulación se
 traduce en condiciones diferentes de terreno, apoyo y espacio de maniobra.
 
 ---
@@ -33,12 +33,12 @@ mindmap
       Precision al posar
 ```
 
-| Entorno | Caracteristicas | Riesgos tipicos | Ajuste de maniobra |
+| Entorno | Características | Riesgos típicos | Ajuste de maniobra |
 | --- | --- | --- | --- |
-| Base de carga | Suelo firme y equipo de apoyo. | Anclar mal el modulo. | Verificar cierres antes de mover. |
-| Ruta de transporte | Vuelo largo con el modulo. | Viento lateral, quedar sin margen. | Vigilar empuje y consumo de combustible. |
+| Base de carga | Suelo firme y equipo de apoyo. | Anclar mal el módulo. | Verificar cierres antes de mover. |
+| Ruta de transporte | Vuelo largo con el módulo. | Viento lateral, quedar sin margen. | Vigilar empuje y consumo de combustible. |
 | Zona de descarga | Terreno posiblemente irregular. | Hundir un apoyo, volcar. | Repartir peso y elegir suelo firme. |
-| Espacio reducido | Obstaculos y poco margen. | Colisiones al maniobrar. | Movimientos lentos y precisos. |
+| Espacio reducido | Obstáculos y poco margen. | Colisiones al maniobrar. | Movimientos lentos y precisos. |
 
 ---
 
@@ -46,23 +46,23 @@ mindmap
 
 - **Terreno**: un suelo blando o inclinado puede hundir un apoyo o desequilibrar
   la carga; hay que elegir donde posarse.
-- **Viento**: con un modulo grande el viento lateral empuja mas, asi que el
-  vehiculo cargado responde peor a las rafagas.
+- **Viento**: con un módulo grande el viento lateral empuja más, así que el
+  vehículo cargado responde peor a las ráfagas.
 - **Espacio**: en una zona estrecha las maniobras deben ser lentas para no
-  golpear obstaculos con la carga.
+  golpear obstáculos con la carga.
 - **Apoyo**: al posarse, el peso pasa al tren de aterrizaje; el suelo debe
   aguantar la carga por cada punto de apoyo.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
 Cada entorno es un escenario con su tipo de terreno, viento y espacio de
 maniobra. El paso de una base preparada a una zona de descarga irregular cambia
-por completo el reto y es una gran leccion de fisica de carga. Ver como se
+por completo el reto y es una gran lección de física de carga. Ver cómo se
 modela en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-thunderbird-2.md).
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-thunderbird-2.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-thunderbird-2.md) · [➡️ Siguiente: Reglas del universo](../reglamentos/reglas-universo-thunderbird-2.md)
+[⬅️ Anterior: Principios y operación](principios-thunderbird-2.md) · [➡️ Siguiente: Reglas del universo](../reglamentos/reglas-universo-thunderbird-2.md)

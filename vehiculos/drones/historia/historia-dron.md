@@ -15,54 +15,54 @@ timeline
 
 ## Origen
 
-La idea de una aeronave sin piloto a bordo es antigua: comenzo con globos y
-blancos aereos controlados a distancia. El salto hacia el dron moderno llego
-cuando los sensores, los motores brushless y las baterias de litio se hicieron
-pequenos y economicos, permitiendo que una controladora estabilizara el vuelo de
-forma automatica.
+La idea de una aeronave sin piloto a bordo es antigua: comenzó con globos y
+blancos aéreos controlados a distancia. El salto hacia el dron moderno llegó
+cuando los sensores, los motores brushless y las baterías de litio se hicieron
+pequeños y económicos, permitiendo que una controladora estabilizara el vuelo de
+forma automática.
 
-## Linea de tiempo
+## Línea de tiempo
 
 | Periodo | Hito | Importancia |
 | --- | --- | --- |
 | 1849 | Globos no tripulados con carga | Primer uso de aeronave sin piloto. |
-| 1917-1918 | Aviones no tripulados de guerra | Prueba del concepto autonomo. |
-| 1930-1945 | Blancos aereos radiocontrolados | Impulsa el control por radio. |
-| 1980-2000 | RPAS militares de reconocimiento | Vuelo prolongado y camaras. |
-| 2006-2010 | Autopilotos y GPS accesibles | Estabilizacion automatica barata. |
+| 1917-1918 | Aviones no tripulados de guerra | Prueba del concepto autónomo. |
+| 1930-1945 | Blancos aéreos radiocontrolados | Impulsa el control por radio. |
+| 1980-2000 | RPAS militares de reconocimiento | Vuelo prolongado y cámaras. |
+| 2006-2010 | Autopilotos y GPS accesibles | Estabilización automática barata. |
 | 2010-presente | Multirotores civiles | Uso masivo civil y profesional. |
 
-## Evolucion tecnologica
+## Evolución tecnológica
 
-- **Estructura**: de fuselajes de avion a marcos multirotor ligeros de fibra.
-- **Propulsion**: de motores de explosion a motores brushless y helices de paso fijo.
-- **Energia**: de combustible a baterias LiPo de alta densidad.
-- **Control**: de radio manual a controladoras con IMU, GPS y estabilizacion.
-- **Sensores**: camaras estabilizadas por gimbal, barometros y sensores de obstaculos.
-- **Automatizacion**: waypoints, retorno automatico y planes de vuelo programados.
+- **Estructura**: de fuselajes de avión a marcos multirotor ligeros de fibra.
+- **Propulsión**: de motores de explosión a motores brushless y hélices de paso fijo.
+- **Energía**: de combustible a baterías LiPo de alta densidad.
+- **Control**: de radio manual a controladoras con IMU, GPS y estabilización.
+- **Sensores**: cámaras estabilizadas por gimbal, barómetros y sensores de obstáculos.
+- **Automatización**: waypoints, retorno automático y planes de vuelo programados.
 
 ## Tipos representativos
 
-| Tipo | Uso tipico | Caracteristica destacada |
+| Tipo | Uso típico | Característica destacada |
 | --- | --- | --- |
-| Multirotor de consumo | Fotografia y ocio | Facil de volar, estabilizacion automatica. |
-| Multirotor profesional | Inspeccion y cine | Camara estabilizada y mayor autonomia. |
+| Multirotor de consumo | Fotografía y ocio | Fácil de volar, estabilización automática. |
+| Multirotor profesional | Inspección y cine | Cámara estabilizada y mayor autonomía. |
 | Ala fija | Mapeo y agricultura | Gran alcance y eficiencia de vuelo. |
-| VTOL hibrido | Mapeo de largo alcance | Despega en vertical y vuela como ala fija. |
-| Agricola | Fumigacion y siembra | Deposito de carga y vuelo por franjas. |
+| VTOL híbrido | Mapeo de largo alcance | Despega en vertical y vuela como ala fija. |
+| Agrícola | Fumigación y siembra | Depósito de carga y vuelo por franjas. |
 
-## Impacto social y economico
+## Impacto social y económico
 
-El dron abarato tareas que antes exigian aviones o helicopteros tripulados:
-fotografia aerea, inspeccion de infraestructura, mapeo, agricultura de precision
-y, cada vez mas, reparto y apoyo en rescate. Su expansion obligo a crear marcos
-legales especificos para la seguridad aerea y la privacidad.
+El dron abarató tareas que antes exigian aviones o helicópteros tripulados:
+fotografía aérea, inspección de infraestructura, mapeo, agricultura de precisión
+y, cada vez más, reparto y apoyo en rescate. Su expansión obligo a crear marcos
+legales específicos para la seguridad aérea y la privacidad.
 
 ## Fuentes
 
-- Registrar aqui las fuentes publicas consultadas.
-- Enlazar cada fuente tambien en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- Registrar aquí las fuentes públicas consultadas.
+- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 
-[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Caracteristicas](../operacion/caracteristicas-dron.md)
+[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Características](../operacion/caracteristicas-dron.md)

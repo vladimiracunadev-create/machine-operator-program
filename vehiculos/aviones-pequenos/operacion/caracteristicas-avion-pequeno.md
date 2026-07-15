@@ -1,68 +1,68 @@
-# 📋 Caracteristicas funcionales del avion pequeno
+# 📋 Características funcionales del avión pequeño
 
-[🏠 Inicio](../../../README.md) · [🛩️ Curso: Aviones pequenos](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🛩️ Curso: Aviones pequeños](../README.md) · 📋 Características
 
-Que es un avion pequeno, que tipos existen y para que sirve cada uno. Este modulo
-da el contexto antes de abrir los sistemas de la aeronave (Modulo 3).
+Que es un avión pequeño, que tipos existen y para que sirve cada uno. Este módulo
+da el contexto antes de abrir los sistemas de la aeronave (Módulo 3).
 
 ---
 
-## 🧭 Definicion
+## 🧭 Definición
 
-Un avion pequeno es una aeronave de ala fija, mas pesada que el aire, propulsada
+Un avión pequeño es una aeronave de ala fija, más pesada que el aire, propulsada
 por uno o dos motores, disenada para transportar pocas personas o carga ligera.
-Vuela porque sus alas generan sustentacion al desplazarse por el aire, y el
-piloto lo controla en tres ejes: cabeceo, alabeo y guinada.
+Vuela porque sus alas generan sustentación al desplazarse por el aire, y el
+piloto lo controla en tres ejes: cabeceo, alabeo y guiñada.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧬 Características clave
 
-| Caracteristica | Descripcion |
+| Característica | Descripción |
 | --- | --- |
-| Vuelo en tres ejes | Se controla en cabeceo, alabeo y guinada a la vez. |
-| Sustentacion por ala | El ala fija produce el sosten; depende de la velocidad. |
-| Dependencia de la energia | Necesita velocidad y potencia para mantenerse en vuelo. |
+| Vuelo en tres ejes | Se controla en cabeceo, alabeo y guiñada a la vez. |
+| Sustentación por ala | El ala fija produce el sostén; depende de la velocidad. |
+| Dependencia de la energía | Necesita velocidad y potencia para mantenerse en vuelo. |
 | Sensibilidad al peso | El peso y balance afectan el rendimiento y la seguridad. |
-| Operacion tridimensional | Gestiona altitud ademas de rumbo y velocidad. |
-| Exposicion al clima | Viento, nubes y visibilidad condicionan el vuelo. |
+| Operación tridimensional | Gestiona altitud además de rumbo y velocidad. |
+| Exposición al clima | Viento, nubes y visibilidad condicionan el vuelo. |
 
 ---
 
-## 🗂️ Tipos de avion pequeno
+## 🗂️ Tipos de avión pequeño
 
 ```mermaid
 flowchart TD
-    Avion[🛩️ Avion pequeno] --> Deporte[Deporte y ocio]
-    Avion --> Instruccion[Instruccion]
-    Avion --> Trabajo[Trabajo aereo]
+    Avion[🛩️ Avión pequeño] --> Deporte[Deporte y ocio]
+    Avion --> Instruccion[Instrucción]
+    Avion --> Trabajo[Trabajo aéreo]
     Deporte --> Ultra[Ultraligero]
     Deporte --> LSA[Deportivo ligero]
     Instruccion --> Mono[Monomotor escuela]
     Trabajo --> Turismo[Turismo monomotor]
     Trabajo --> Bimotor[Bimotor ligero]
-    Trabajo --> Anfibio[Anfibio / hidroavion]
+    Trabajo --> Anfibio[Anfibio / hidroavión]
 ```
 
-| Tipo | Uso tipico | Rasgo destacado |
+| Tipo | Uso típico | Rasgo destacado |
 | --- | --- | --- |
-| Ultraligero | Deporte y ocio | Muy liviano, bajo costo de operacion. |
+| Ultraligero | Deporte y ocio | Muy liviano, bajo costo de operación. |
 | Deportivo ligero | Vuelo recreativo | Moderno, simple de pilotar. |
-| Monomotor de escuela | Instruccion de vuelo | Estable y perdonador para aprender. |
-| Turismo monomotor | Viaje personal | Cabina cerrada y buena autonomia. |
-| Bimotor ligero | Traslados y trabajo | Dos motores, mas potencia y redundancia. |
-| Anfibio / hidroavion | Zonas con agua | Opera desde lagos, rios y mar. |
+| Monomotor de escuela | Instrucción de vuelo | Estable y perdonador para aprender. |
+| Turismo monomotor | Viaje personal | Cabina cerrada y buena autonomía. |
+| Bimotor ligero | Traslados y trabajo | Dos motores, más potencia y redundancia. |
+| Anfibio / hidroavión | Zonas con agua | Opera desde lagos, rios y mar. |
 
 ---
 
-## 🎯 Para que se usa
+## 🎯 Para qué se usa
 
-- Instruccion y formacion de nuevos pilotos.
-- Viaje personal y conexion de zonas aisladas.
-- Trabajo aereo: fotografia, vigilancia, fumigacion agricola.
+- Instrucción y formación de nuevos pilotos.
+- Viaje personal y conexión de zonas aisladas.
+- Trabajo aéreo: fotografía, vigilancia, fumigación agrícola.
 - Deporte, turismo y vuelo recreativo.
 - Traslado sanitario y apoyo en emergencias.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-avion-pequeno.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-avion-pequeno.md)
+[⬅️ Anterior: Historia](../historia/historia-avion-pequeno.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-avion-pequeno.md)

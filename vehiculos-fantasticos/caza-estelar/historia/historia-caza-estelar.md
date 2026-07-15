@@ -4,10 +4,10 @@
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este modulo situa la idea del caza estelar dentro de la ciencia ficcion y la
+Este módulo situa la idea del caza estelar dentro de la ciencia ficción y la
 compara con la historia real del vuelo espacial. No describe una nave oficial:
-analiza el concepto generico de "caza estelar" que popularizo el estilo
-"Star Wars" y lo contrasta con lo que la ingenieria sabe hacer de verdad.
+analiza el concepto genérico de "caza estelar" que popularizo el estilo
+"Star Wars" y lo contrasta con lo que la ingeniería sabe hacer de verdad.
 
 ```mermaid
 timeline
@@ -22,47 +22,47 @@ timeline
 
 ## De donde viene la idea
 
-El caza estelar de la ficcion toma prestada la estetica del combate aereo de
-las guerras del siglo XX: naves agiles que giran, persiguen y disparan en
+El caza estelar de la ficción toma prestada la estética del combate aéreo de
+las guerras del siglo XX: naves ágiles que giran, persiguen y disparan en
 duelos cerrados. Es una imagen emocionante porque nuestro cerebro entiende
-muy bien como se mueve un avion en el aire. El problema es que el espacio no
-es aire, y ahi empieza lo interesante de este curso.
+muy bien como se mueve un avión en el aire. El problema es que el espacio no
+es aire, y ahí empieza lo interesante de este curso.
 
 ## Lo real frente a lo imaginado
 
-La historia real del vuelo espacial siguio otro camino. Las naves que salieron
-de la atmosfera no volaron como aviones: se movieron encendiendo motores en
+La historia real del vuelo espacial siguió otro camino. Las naves que salieron
+de la atmósfera no volaron como aviones: se movieron encendiendo motores en
 direcciones concretas y dejando que la inercia hiciera el resto. No hay alas
-que sirvan donde no hay aire, y no hay freno automatico al soltar el acelerador.
+que sirvan donde no hay aire, y no hay freno automático al soltar el acelerador.
 
 | Periodo | Hito de referencia | Importancia para el curso |
 | --- | --- | --- |
-| 1900-1930 | Formulacion de la ecuacion del cohete | Explica el limite de maniobra (delta-v). |
-| 1940-1960 | Vehiculos que superan la atmosfera | Confirma que sin aire cambian las reglas. |
+| 1900-1930 | Formulación de la ecuación del cohete | Explica el límite de maniobra (delta-v). |
+| 1940-1960 | Vehículos que superan la atmósfera | Confirma que sin aire cambian las reglas. |
 | 1960-1970 | Naves que se reorientan con propulsores | Base real de los propulsores de control. |
 | 1970-1980 | Auge del caza estelar en el cine | Fija la imagen popular del combate espacial. |
-| 1980-2000 | Estudio de mecanica orbital aplicada | Muestra como se maniobra de verdad. |
-| 2000-hoy | Divulgacion de fisica del espacio | Separa el espectaculo de la realidad. |
+| 1980-2000 | Estudio de mecánica orbital aplicada | Muestra cómo se maniobra de verdad. |
+| 2000-hoy | Divulgación de física del espacio | Separa el espectáculo de la realidad. |
 
-## Por que la ficcion eligio el dogfight
+## Por  qué la ficción eligió el dogfight
 
-Contar una historia con duelos cerrados es facil de seguir: hay persecucion,
-tension y giros dramaticos. Un combate espacial realista ocurriria a enormes
+Contar una historia con duelos cerrados es fácil de seguir: hay persecución,
+tensión y giros dramáticos. Un combate espacial realista ocurriria a enormes
 distancias, con maniobras lentas y sin ruido, lo que resulta menos vistoso en
-pantalla. La ficcion prioriza la emocion sobre la fisica, y eso es una
-decision artistica legitima que este curso respeta y analiza.
+pantalla. La ficción prioriza la emoción sobre la física, y eso es una
+decisión artística legítima que este curso respeta y analiza.
 
 ## Que aprenderemos de todo esto
 
-- Que conceptos de fisica real evoca la nave aunque los exagere.
-- Que licencias creativas rompen las leyes de Newton y por que.
-- Como seria un caza estelar si tuviera que obedecer la fisica de verdad.
+- Que conceptos de física real evoca la nave aunque los exagere.
+- Que licencias creativas rompen las leyes de Newton y por  qué.
+- Cómo sería un caza estelar si tuviera que obedecer la física de verdad.
 
 ## Fuentes
 
-- Registrar aqui las fuentes publicas de divulgacion consultadas.
-- Enlazar cada fuente tambien en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- Registrar aquí las fuentes públicas de divulgación consultadas.
+- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 
-[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Caracteristicas](../operacion/caracteristicas-caza-estelar.md)
+[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Características](../operacion/caracteristicas-caza-estelar.md)

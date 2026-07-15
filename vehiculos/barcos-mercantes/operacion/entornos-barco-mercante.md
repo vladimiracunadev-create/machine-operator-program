@@ -2,8 +2,8 @@
 
 [🏠 Inicio](../../../README.md) · [🚢 Curso: Barcos mercantes](../README.md) · 🌍 Entornos
 
-Donde opera un buque mercante y como cambia la navegacion segun el entorno. Cada
-entorno implica reglas, riesgos y ajustes distintos, y en simulacion se traduce
+Dónde opera un buque mercante y cómo cambia la navegación según el entorno. Cada
+entorno implica reglas, riesgos y ajustes distintos, y en simulación se traduce
 en escenarios diferentes.
 
 ---
@@ -31,13 +31,13 @@ mindmap
       Hielo y temporales
 ```
 
-| Entorno | Caracteristicas | Riesgos tipicos | Ajuste de navegacion |
+| Entorno | Características | Riesgos típicos | Ajuste de navegación |
 | --- | --- | --- | --- |
-| Puerto | Espacio estrecho, muelles. | Colision, mala maniobra. | Baja velocidad, thruster, practico. |
-| Costa | Aguas restringidas, trafico. | Varada, abordaje. | Vigilancia, ecosonda, COLREG. |
-| Canales / esclusas | Paso estrecho controlado. | Encallar, obstruir. | Velocidad minima, remolcadores. |
-| Mar abierto | Rutas largas, oleaje. | Temporales, fatiga. | Rumbo, guardias, meteorologia. |
-| Niebla / noche | Baja visibilidad. | No ser visto, abordaje. | Radar, luces, senales acusticas. |
+| Puerto | Espacio estrecho, muelles. | Colisión, mala maniobra. | Baja velocidad, thruster, práctico. |
+| Costa | Aguas restringidas, tráfico. | Varada, abordaje. | Vigilancia, ecosonda, COLREG. |
+| Canales / esclusas | Paso estrecho controlado. | Encallar, obstruir. | Velocidad mínima, remolcadores. |
+| Mar abierto | Rutas largas, oleaje. | Temporales, fatiga. | Rumbo, guardias, meteorología. |
+| Niebla / noche | Baja visibilidad. | No ser visto, abordaje. | Radar, luces, señales acústicas. |
 
 ---
 
@@ -45,18 +45,18 @@ mindmap
 
 - **Viento y mar**: el oleaje y el viento afectan rumbo, escora y confort.
 - **Corrientes y mareas**: modifican la trayectoria real y el calado disponible.
-- **Profundidad**: los bajos limitan las rutas segun el calado del buque.
-- **Trafico**: mas buques implica mas decisiones y aplicacion del COLREG.
-- **Visibilidad**: niebla y noche exigen radar, luces y senales.
+- **Profundidad**: los bajos limitan las rutas según el calado del buque.
+- **Tráfico**: más buques implica más decisiones y aplicación del COLREG.
+- **Visibilidad**: niebla y noche exigen radar, luces y señales.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
-Cada entorno es un escenario con su profundidad, clima, corriente y trafico. Ver
+Cada entorno es un escenario con su profundidad, clima, corriente y tráfico. Ver
 como se modela en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-barco-mercante.md).
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-barco-mercante.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-barco-mercante.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-barco-mercante.md)
+[⬅️ Anterior: Principios y operación](principios-barco-mercante.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-barco-mercante.md)

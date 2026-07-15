@@ -1,38 +1,38 @@
-# Vision del proyecto
+# Visión del proyecto
 
-El repositorio busca construir una base de conocimiento para un multisimulador de mandos. Cada maquina se estudia como una combinacion de:
+El repositorio busca construir una base de conocimiento para un multisimulador de mandos. Cada máquina se estudia como una combinación de:
 
-- controles fisicos;
+- controles físicos;
 - instrumentos;
 - principios de movimiento;
 - sistemas principales;
-- entorno de operacion;
+- entorno de operación;
 - historia;
 - reglamentos;
 - riesgos;
-- posibilidades de simulacion.
+- posibilidades de simulación.
 
 ## Objetivos
 
-1. Crear documentacion ordenada por tipo de vehiculo.
-2. Mantener una estructura comun entre todos los vehiculos.
-3. Separar conocimiento historico, tecnico, normativo y de simulacion.
-4. Preparar el terreno para futuros juegos de simulacion.
-5. Evitar mezclar informacion general con instrucciones reales sensibles.
+1. Crear documentación ordenada por tipo de vehículo.
+2. Mantener una estructura común entre todos los vehículos.
+3. Separar conocimiento histórico, técnico, normativo y de simulación.
+4. Preparar el terreno para futuros juegos de simulación.
+5. Evitar mezclar información general con instrucciones reales sensibles.
 
-## Filosofia
+## Filosofía
 
-El proyecto debe avanzar vehiculo por vehiculo. Cada carpeta debe poder leerse como un pequeno manual introductorio, pero tambien debe servir como base de diseno para un simulador.
+El proyecto debe avanzar vehículo por vehículo. Cada carpeta debe poder leerse como un pequeño manual introductorio, pero también debe servir como base de diseño para un simulador.
 
-La documentacion debe responder siempre estas preguntas:
+La documentación debe responder siempre estas preguntas:
 
-- Que es esta maquina?
-- Para que se usa?
-- Como evoluciono historicamente?
-- Que mandos tiene?
-- Que instrumentos necesita el operador?
-- Que principios fisicos o mecanicos gobiernan su movimiento?
-- Que reglas existen para usarla?
-- Que errores comunes deben evitarse?
-- Que partes se pueden simular?
-- Que nivel de realismo conviene?
+- ¿Qué es esta máquina?
+- ¿Para qué se usa?
+- ¿Cómo evolucionó históricamente?
+- ¿Qué mandos tiene?
+- ¿Qué instrumentos necesita el operador?
+- ¿Qué principios físicos o mecánicos gobiernan su movimiento?
+- ¿Qué reglas existen para usarla?
+- ¿Qué errores comunes deben evitarse?
+- ¿Qué partes se pueden simular?
+- ¿Qué nivel de realismo conviene?

@@ -2,68 +2,68 @@
 
 [🏠 Inicio](../../../README.md) · [🚄 Curso: Tren de alta velocidad](../README.md) · ⚖️ Reglamentos
 
-Referencia educativa y de diseno de simulacion. Las normas reales cambian; para
-operar se deben consultar la autoridad ferroviaria y la ley vigente. Chile aun no
-cuenta con alta velocidad comercial, por lo que este modulo trata el marco
+Referencia educativa y de diseño de simulación. Las normas reales cambian; para
+operar se deben consultar la autoridad ferroviaria y la ley vigente. Chile aún no
+cuenta con alta velocidad comercial, por lo que este módulo trata el marco
 ferroviario general y usa estandares internacionales como referencia. Marco
 general en [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md),
-seccion 1.6 (Ferroviario).
+sección 1.6 (Ferroviario).
 
-## Ambito
+## Ámbito
 
-- Pais: Chile.
-- Ley base: Ley General de Ferrocarriles (numero y fecha por confirmar).
+- País: Chile.
+- Ley base: Ley General de Ferrocarriles (número y fecha por confirmar).
 - Autoridad: MTT como regulador y EFE (Empresa de los Ferrocarriles del Estado)
-  como operador estatal historico.
-- Tipo de vehiculo: tren de alta velocidad sobre via dedicada.
-- No aplica licencia de via publica: la conduccion exige habilitacion o
-  certificacion de maquinista (por confirmar).
+  como operador estatal histórico.
+- Tipo de vehículo: tren de alta velocidad sobre vía dedicada.
+- No aplica licencia de vía pública: la conducción exige habilitación o
+  certificación de maquinista (por confirmar).
 
-## Habilitacion y certificacion del maquinista
+## Habilitación y certificación del maquinista
 
-- No existe una licencia de via publica como en los vehiculos de carretera.
-- La conduccion requiere **habilitacion o certificacion de maquinista**, con
-  formacion especifica del sistema; los requisitos exactos en Chile quedan por
+- No existe una licencia de vía pública como en los vehículos de carretera.
+- La conducción requiere **habilitación o certificación de maquinista**, con
+  formación específica del sistema; los requisitos exactos en Chile quedan por
   confirmar.
 - Como referencia se usan los **estandares internacionales de alta velocidad**,
-  incluida la senalizacion embarcada ETCS/ERTMS.
+  incluida la señalización embarcada ETCS/ERTMS.
 
 ## Requisitos y elementos de seguridad
 
-| Tema | Norma | Requisito | Aplicacion en simulacion |
+| Tema | Norma | Requisito | Aplicación en simulación |
 | --- | --- | --- | --- |
-| Habilitacion de maquinista | Marco ferroviario (por confirmar) | Certificacion especifica del sistema. | Modo habilitacion antes de conducir. |
-| Senalizacion en cabina | Estandar ETCS/ERTMS (referencia) | Respetar la velocidad objetivo del DMI. | Supervision y frenado automatico. |
-| Vigilante / hombre muerto | Reglamento de operacion (por confirmar) | Confirmar atencion de forma periodica. | Frenado si no se confirma. |
-| Via dedicada | Estandar de alta velocidad (referencia) | Sin pasos a nivel, curvas amplias. | Trazado del escenario sin cruces. |
-| Ancho de via | Trocha internacional (referencia) | Valor exacto para Chile por confirmar. | Parametro del escenario. |
-| Documentos de operacion | Marco ferroviario (por confirmar) | Autorizacion de circulacion del tren. | Chequeo previo simulado. |
+| Habilitación de maquinista | Marco ferroviario (por confirmar) | Certificación específica del sistema. | Modo habilitación antes de conducir. |
+| Señalización en cabina | Estandar ETCS/ERTMS (referencia) | Respetar la velocidad objetivo del DMI. | Supervisión y frenado automático. |
+| Vigilante / hombre muerto | Reglamento de operación (por confirmar) | Confirmar atención de forma periódica. | Frenado si no se confirma. |
+| Vía dedicada | Estandar de alta velocidad (referencia) | Sin pasos a nivel, curvas amplias. | Trazado del escenario sin cruces. |
+| Ancho de vía | Trocha internacional (referencia) | Valor exacto para Chile por confirmar. | Parámetro del escenario. |
+| Documentos de operación | Marco ferroviario (por confirmar) | Autorización de circulación del tren. | Chequeo previo simulado. |
 
 ## Reglas de seguridad
 
-- Respetar siempre la velocidad objetivo que muestra la senalizacion en cabina.
-- Confirmar el dispositivo de hombre muerto o vigilante de forma periodica.
-- Iniciar el frenado con la anticipacion que exige la enorme distancia de frenado.
+- Respetar siempre la velocidad objetivo que muestra la señalización en cabina.
+- Confirmar el dispositivo de hombre muerto o vigilante de forma periódica.
+- Iniciar el frenado con la anticipación que exige la enorme distancia de frenado.
 - Reducir la velocidad ante viento fuerte en viaductos o clima adverso.
-- No abrir puertas sin el enclavamiento y con el tren alineado al anden.
+- No abrir puertas sin el enclavamiento y con el tren alineado al andén.
 
 ## Restricciones
 
-- Conduccion solo por personal habilitado o certificado (por confirmar).
-- Circulacion sujeta a la asignacion de via y agujas del control de trafico.
-- Limites de velocidad segun el tramo, el clima y el estado de la catenaria.
+- Conducción solo por personal habilitado o certificado (por confirmar).
+- Circulación sujeta a la asignación de vía y agujas del control de tráfico.
+- Límites de velocidad según el tramo, el clima y el estado de la catenaria.
 
-## Notas para simulacion
+## Notas para simulación
 
-- El nucleo educativo es la gestion de la energia cinetica: distancia de frenado,
-  aerodinamica y respeto de la senal objetivo.
+- El núcleo educativo es la gestión de la energía cinética: distancia de frenado,
+  aerodinámica y respeto de la señal objetivo.
 - Usar sanciones educativas (avisos) en vez de castigos frustrantes.
-- Modelar la supervision ETCS como frenado automatico al exceder el limite.
-- Marcar como por confirmar los datos legales locales que aun no existen en Chile.
+- Modelar la supervisión ETCS como frenado automático al exceder el límite.
+- Marcar como por confirmar los datos legales locales que aún no existen en Chile.
 - Registrar cada norma usada en
   [`manuales/fuentes.md`](../../../manuales/fuentes.md). Fuente institucional:
   <https://www.efe.cl>.
 
 ---
 
-[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-tren-alta-velocidad.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-tren-alta-velocidad.md)
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-tren-alta-velocidad.md) · [➡️ Siguiente: Diseño de simulación](../simulacion/diseno-simulador-tren-alta-velocidad.md)

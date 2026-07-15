@@ -2,9 +2,9 @@
 
 [🏠 Inicio](../../../README.md) · [🚄 Curso: Tren de alta velocidad](../README.md) · 🌍 Entornos
 
-Donde opera un tren de alta velocidad y como cambia la conduccion segun el
+Dónde opera un tren de alta velocidad y cómo cambia la conducción según el
 entorno. Cada entorno implica reglas, riesgos y ajustes distintos, y en
-simulacion se traduce en escenarios diferentes.
+simulación se traduce en escenarios diferentes.
 
 ---
 
@@ -33,13 +33,13 @@ mindmap
       Nieve y hielo
 ```
 
-| Entorno | Caracteristicas | Riesgos tipicos | Ajuste de conduccion |
+| Entorno | Características | Riesgos típicos | Ajuste de conducción |
 | --- | --- | --- | --- |
-| Corredor de alta velocidad | Via dedicada, curvas amplias. | Objetos en la via, fallas de catenaria. | Velocidad sostenida, respetar el DMI. |
-| Tuneles largos | Cambios de presion, ruido. | Onda de presion, confort de oidos. | Velocidad y ventilacion adecuadas. |
+| Corredor de alta velocidad | Vía dedicada, curvas amplias. | Objetos en la vía, fallas de catenaria. | Velocidad sostenida, respetar el DMI. |
+| Túneles largos | Cambios de presión, ruido. | Onda de presión, confort de oidos. | Velocidad y ventilación adecuadas. |
 | Viaductos | Grandes vanos elevados. | Viento lateral, rachas. | Reducir velocidad con viento fuerte. |
-| Estaciones terminales | Andenes y agujas. | Mala alineacion, atrapamientos. | Frenado preciso, enclavamiento de puertas. |
-| Clima adverso | Viento, nieve, hielo. | Menor adherencia, catenaria helada. | Limites reducidos por condiciones. |
+| Estaciones terminales | Andenes y agujas. | Mala alineación, atrapamientos. | Frenado preciso, enclavamiento de puertas. |
+| Clima adverso | Viento, nieve, hielo. | Menor adherencia, catenaria helada. | Límites reducidos por condiciones. |
 
 ---
 
@@ -47,21 +47,21 @@ mindmap
 
 - **Clima**: el viento lateral en viaductos y la nieve o hielo en la catenaria
   obligan a reducir la velocidad.
-- **Infraestructura**: tuneles y viaductos imponen condiciones de presion y viento
+- **Infraestructura**: túneles y viaductos imponen condiciones de presión y viento
   que cambian la marcha.
-- **Trafico ferroviario**: el control asigna la via y las agujas; el tren no elige
+- **Tráfico ferroviario**: el control asigna la vía y las agujas; el tren no elige
   su ruta.
 - **Cruce de trenes**: al cruzarse dos trenes a alta velocidad se genera una onda
-  de presion que la aerodinamica debe absorber.
+  de presión que la aerodinámica debe absorber.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
-Cada entorno es un escenario con su via, clima y condiciones de infraestructura.
-Ver como se modela en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-tren-alta-velocidad.md).
+Cada entorno es un escenario con su vía, clima y condiciones de infraestructura.
+Ver cómo se modela en el
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-tren-alta-velocidad.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-tren-alta-velocidad.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-tren-alta-velocidad.md)
+[⬅️ Anterior: Principios y operación](principios-tren-alta-velocidad.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-tren-alta-velocidad.md)

@@ -1,42 +1,42 @@
-# 📋 Caracteristicas funcionales de la maquinaria de construccion
+# 📋 Características funcionales de la maquinaria de construcción
 
-[🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construccion](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construcción](../README.md) · 📋 Características
 
-Que es la maquinaria de construccion, que tipos existen y para que sirve cada
-uno. Este modulo da el contexto antes de abrir la mecanica (Modulo 3).
+Que es la maquinaria de construcción, que tipos existen y para que sirve cada
+uno. Este módulo da el contexto antes de abrir la mecánica (Módulo 3).
 
 ---
 
-## 🧭 Definicion
+## 🧭 Definición
 
-La maquinaria de construccion es un conjunto de maquinas automotrices disenadas
+La maquinaria de construcción es un conjunto de máquinas automotrices disenadas
 para mover, excavar, empujar, cargar y nivelar tierra y material. A diferencia de
-un vehiculo de transporte, su objetivo no es desplazarse sino **trabajar el
-terreno**. Casi toda usa hidraulica de alta presion para accionar brazos,
-cucharones y hojas, y se desplaza sobre orugas o neumaticos segun el terreno.
+un vehículo de transporte, su objetivo no es desplazarse sino **trabajar el
+terreno**. Casi toda usa hidráulica de alta presión para accionar brazos,
+cucharones y hojas, y se desplaza sobre orugas o neumáticos según el terreno.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧬 Características clave
 
-| Caracteristica | Descripcion |
+| Característica | Descripción |
 | --- | --- |
-| Hidraulica de trabajo | Cilindros y motores mueven las herramientas con gran fuerza. |
-| Herramienta de trabajo | Cucharon, hoja o pala segun la maquina y la labor. |
-| Orugas o neumaticos | Las orugas dan agarre y reparten peso; los neumaticos, velocidad. |
-| Estabilidad | La carga y el alcance pueden acercar la maquina al vuelco. |
-| Baja velocidad | Prioriza fuerza y control, no desplazamiento rapido. |
+| Hidráulica de trabajo | Cilindros y motores mueven las herramientas con gran fuerza. |
+| Herramienta de trabajo | Cucharón, hoja o pala según la máquina y la labor. |
+| Orugas o neumáticos | Las orugas dan agarre y reparten peso; los neumáticos, velocidad. |
+| Estabilidad | La carga y el alcance pueden acercar la máquina al vuelco. |
+| Baja velocidad | Prioriza fuerza y control, no desplazamiento rápido. |
 | Robustez | Estructura pesada para resistir esfuerzos y golpes. |
 
 ---
 
-## 🗂️ Tipos de maquina
+## 🗂️ Tipos de máquina
 
 ```mermaid
 flowchart TD
-    Maquina[🚧 Maquinaria] --> Excava[Excavacion]
+    Maquina[🚧 Maquinaria] --> Excava[Excavación]
     Maquina --> Carga[Carga]
-    Maquina --> Empuje[Empuje y nivelacion]
+    Maquina --> Empuje[Empuje y nivelación]
     Excava --> Excavadora[Excavadora]
     Excava --> Retro[Retroexcavadora]
     Carga --> Cargador[Cargador frontal]
@@ -45,25 +45,25 @@ flowchart TD
     Empuje --> Moto[Motoniveladora]
 ```
 
-| Tipo | Uso tipico | Rasgo destacado |
+| Tipo | Uso típico | Rasgo destacado |
 | --- | --- | --- |
-| Excavadora | Excavacion y zanjas | Brazo articulado, giro de 360 grados. |
-| Cargador frontal | Carga de material a camion | Cucharon frontal de gran volumen. |
+| Excavadora | Excavación y zanjas | Brazo articulado, giro de 360 grados. |
+| Cargador frontal | Carga de material a camión | Cucharón frontal de gran volumen. |
 | Bulldozer | Empuje y desmonte | Hoja empujadora, orugas de mucho agarre. |
-| Retroexcavadora | Obra mixta y urbana | Pala frontal y brazo excavador atras. |
-| Motoniveladora | Terminacion de caminos | Hoja central de angulo regulable. |
-| Minicargador | Espacios reducidos | Compacto, cambia de herramienta rapido. |
+| Retroexcavadora | Obra mixta y urbana | Pala frontal y brazo excavador atrás. |
+| Motoniveladora | Terminación de caminos | Hoja central de ángulo regulable. |
+| Minicargador | Espacios reducidos | Compacto, cambia de herramienta rápido. |
 
 ---
 
-## 🎯 Para que se usa
+## 🎯 Para qué se usa
 
-- Excavacion de zanjas, fundaciones y piscinas.
-- Carga de tierra, arido y mineral sobre camiones.
+- Excavación de zanjas, fundaciones y piscinas.
+- Carga de tierra, árido y mineral sobre camiones.
 - Empuje y desmonte de terreno para nivelar.
-- Terminacion y perfilado de caminos y explanadas.
-- Demolicion y manejo de escombros con herramientas especiales.
+- Terminación y perfilado de caminos y explanadas.
+- Demolición y manejo de escombros con herramientas especiales.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-maquinaria.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-maquinaria.md)
+[⬅️ Anterior: Historia](../historia/historia-maquinaria.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-maquinaria.md)

@@ -4,18 +4,18 @@
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este modulo describe un puesto de mando conceptual y original para la nave. No
-reproduce ningun tablero ni arte de la obra: propone controles utiles para
-ensenar los conceptos de fisica del curso y para alimentar un simulador.
+Este módulo describe un puesto de mando conceptual y original para la nave. No
+reproduce ningún tablero ni arte de la obra: propone controles útiles para
+enseñar los conceptos de física del curso y para alimentar un simulador.
 
 ---
 
 ## 🧭 Vista general del puesto de mando
 
-El puesto conceptual se divide en dos zonas. La **zona de conduccion** es la de
-cualquier coche: acelerador, freno y direccion. La **zona temporal** es
+El puesto conceptual se divide en dos zonas. La **zona de conducción** es la de
+cualquier coche: acelerador, freno y dirección. La **zona temporal** es
 ficticia y sirve para ilustrar los conceptos: un selector de fecha, un medidor
-de energia y un indicador de velocidad umbral.
+de energía y un indicador de velocidad umbral.
 
 ---
 
@@ -23,29 +23,29 @@ de energia y un indicador de velocidad umbral.
 
 ```mermaid
 flowchart TD
-    Puesto[🎛️ Puesto de mando] --> Conduccion[Zona de conduccion]
+    Puesto[🎛️ Puesto de mando] --> Conduccion[Zona de conducción]
     Puesto --> Temporal[Zona temporal ficticia]
     Conduccion --> Acel[Acelerador]
     Conduccion --> Freno[Freno]
-    Conduccion --> Dir[Direccion]
+    Conduccion --> Dir[Dirección]
     Temporal --> Fecha[Selector de fecha]
-    Temporal --> Carga[Carga de energia]
-    Temporal --> Activar[Boton de salto]
+    Temporal --> Carga[Carga de energía]
+    Temporal --> Activar[Botón de salto]
 ```
 
 ---
 
-## 🕹️ Controles y su funcion
+## 🕹️ Controles y su función
 
-| Zona | Control | Funcion | Base |
+| Zona | Control | Función | Base |
 | --- | --- | --- | --- |
-| Conduccion | Acelerador | Aumentar la velocidad del vehiculo | Real |
-| Conduccion | Freno | Reducir la velocidad | Real |
-| Conduccion | Direccion | Cambiar el rumbo | Real |
+| Conducción | Acelerador | Aumentar la velocidad del vehículo | Real |
+| Conducción | Freno | Reducir la velocidad | Real |
+| Conducción | Dirección | Cambiar el rumbo | Real |
 | Temporal | Selector de fecha | Elegir la fecha objetivo del salto | Ficticio |
-| Temporal | Carga de energia | Acumular la energia narrativa del salto | Ficticio |
-| Temporal | Boton de salto | Ejecutar el salto al llegar al umbral | Ficticio |
-| Temporal | Interruptor ciencia/ficcion | Alternar entre reglas reales y de guion | Educativo |
+| Temporal | Carga de energía | Acumular la energía narrativa del salto | Ficticio |
+| Temporal | Botón de salto | Ejecutar el salto al llegar al umbral | Ficticio |
+| Temporal | Interruptor ciencia/ficción | Alternar entre reglas reales y de guion | Educativo |
 
 ---
 
@@ -53,37 +53,37 @@ flowchart TD
 
 | Instrumento | Muestra | Unidad | Base |
 | --- | --- | --- | --- |
-| Velocimetro | Velocidad actual | km/h | Real |
-| Medidor de energia | Energia acumulada para el salto | fraccion | Ficticio |
-| Indicador de umbral | Cercania a la velocidad umbral | porcentaje | Ficticio |
+| Velocímetro | Velocidad actual | km/h | Real |
+| Medidor de energía | Energía acumulada para el salto | fracción | Ficticio |
+| Indicador de umbral | Cercanía a la velocidad umbral | porcentaje | Ficticio |
 | Pantalla de fecha | Fecha objetivo elegida | fecha | Ficticio |
 | Aviso de causalidad | Riesgo de paradoja en el destino | nivel | Educativo |
 
 ---
 
-## 🎮 Entradas de simulacion
+## 🎮 Entradas de simulación
 
-| Accion | Teclado | Controlador | Comentarios |
+| Acción | Teclado | Controlador | Comentarios |
 | --- | --- | --- | --- |
 | Acelerar | Flecha arriba | Gatillo derecho | Progresivo, sube la velocidad. |
 | Frenar | Flecha abajo | Gatillo izquierdo | Reduce la velocidad. |
 | Girar | Flechas izq/der | Stick izquierdo | Cambia el rumbo. |
-| Cargar energia | Tecla C | Boton superior | Solo activo en modo ficcion. |
-| Elegir fecha | Teclas mas/menos | Cruceta | Ajusta la fecha objetivo. |
-| Ejecutar salto | Barra espaciadora | Boton central | Requiere umbral y energia llena. |
-| Cambiar modo | Tecla M | Boton lateral | Alterna ciencia y ficcion. |
+| Cargar energía | Tecla C | Botón superior | Solo activo en modo ficción. |
+| Elegir fecha | Teclas más/menos | Cruceta | Ajusta la fecha objetivo. |
+| Ejecutar salto | Barra espaciadora | Botón central | Requiere umbral y energía llena. |
+| Cambiar modo | Tecla M | Botón lateral | Alterna ciencia y ficción. |
 
 ---
 
-## 🧠 Observaciones de diseno
+## 🧠 Observaciones de diseño
 
-- El velocimetro y el indicador de umbral deben verse siempre juntos, para que
-  el usuario relacione velocidad con la condicion del salto.
-- El interruptor ciencia/ficcion es la pieza educativa central: en modo ciencia
-  el boton de salto queda deshabilitado y se explica por que.
-- El aviso de causalidad no castiga; informa y abre la discusion sobre
-  paradojas, que se detalla en el Modulo 7.
+- El velocímetro y el indicador de umbral deben verse siempre juntos, para que
+  el usuario relacione velocidad con la condición del salto.
+- El interruptor ciencia/ficción es la pieza educativa central: en modo ciencia
+  el botón de salto queda deshabilitado y se explica por  qué.
+- El aviso de causalidad no castiga; informa y abre la discusión sobre
+  paradojas, que se detalla en el Módulo 7.
 
 ---
 
-[⬅️ Anterior: Sistemas mecanicos](../operacion/sistemas-mecanicos-delorean.md) · [➡️ Siguiente: Principios y operacion](../operacion/principios-delorean.md)
+[⬅️ Anterior: Sistemas mecánicos](../operacion/sistemas-mecanicos-delorean.md) · [➡️ Siguiente: Principios y operación](../operacion/principios-delorean.md)

@@ -1,40 +1,40 @@
-# 📋 Caracteristicas funcionales del avion de pasajeros
+# 📋 Características funcionales del avión de pasajeros
 
-[🏠 Inicio](../../../README.md) · [🛫 Curso: Aviones de pasajeros](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🛫 Curso: Aviones de pasajeros](../README.md) · 📋 Características
 
-Que es un avion de pasajeros, que tipos existen y para que sirve cada uno. Este
-modulo da el contexto antes de abrir los sistemas de la aeronave (Modulo 3).
+Que es un avión de pasajeros, que tipos existen y para que sirve cada uno. Este
+módulo da el contexto antes de abrir los sistemas de la aeronave (Módulo 3).
 
 ---
 
-## 🧭 Definicion
+## 🧭 Definición
 
-Un avion de pasajeros es una aeronave de ala fija, mas pesada que el aire,
+Un avión de pasajeros es una aeronave de ala fija, más pesada que el aire,
 propulsada por motores turbofan o turbohelice, disenada para transportar personas
-en operacion comercial. Vuela porque sus alas generan sustentacion, opera a gran
-altitud gracias a la cabina presurizada y es conducido por una tripulacion de
-vuelo bajo un marco de aviacion comercial estricto.
+en operación comercial. Vuela porque sus alas generan sustentación, opera a gran
+altitud gracias a la cabina presurizada y es conducido por una tripulación de
+vuelo bajo un marco de aviación comercial estricto.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧬 Características clave
 
-| Caracteristica | Descripcion |
+| Característica | Descripción |
 | --- | --- |
 | Carga humana | Transporta decenas o cientos de pasajeros; la seguridad es prioritaria. |
-| Cabina presurizada | Permite volar comodo a gran altitud con aire acondicionado. |
+| Cabina presurizada | Permite volar cómodo a gran altitud con aire acondicionado. |
 | Alta velocidad y altitud | Opera cerca de la velocidad del sonido a nivel de crucero elevado. |
-| Redundancia de sistemas | Hidraulica, electrica y avionica duplicadas para seguridad. |
-| Operacion en tripulacion | Comandante y copiloto reparten tareas y verificaciones. |
-| Marco comercial | Opera bajo certificado de operador aereo (AOC) y procedimientos. |
+| Redundancia de sistemas | Hidráulica, eléctrica y avionica duplicadas para seguridad. |
+| Operación en tripulación | Comandante y copiloto reparten tareas y verificaciones. |
+| Marco comercial | Opera bajo certificado de operador aéreo (AOC) y procedimientos. |
 
 ---
 
-## 🗂️ Tipos de avion de pasajeros
+## 🗂️ Tipos de avión de pasajeros
 
 ```mermaid
 flowchart TD
-    Avion[🛫 Avion de pasajeros] --> Regional[Regional]
+    Avion[🛫 Avión de pasajeros] --> Regional[Regional]
     Avion --> Comercial[Transporte comercial]
     Avion --> Derivado[Derivados]
     Regional --> Turbo[Turbohelice regional]
@@ -42,28 +42,28 @@ flowchart TD
     Comercial --> Estrecho[Fuselaje estrecho]
     Comercial --> Ancho[Fuselaje ancho]
     Derivado --> Carga[Carguero derivado]
-    Derivado --> Ejecutivo[Version ejecutiva]
+    Derivado --> Ejecutivo[Versión ejecutiva]
 ```
 
-| Tipo | Uso tipico | Rasgo destacado |
+| Tipo | Uso típico | Rasgo destacado |
 | --- | --- | --- |
 | Turbohelice regional | Rutas cortas y pistas modestas | Eficiente a baja altitud. |
 | Reactor regional | Conexiones de baja densidad | Menor capacidad, alcance corto. |
-| Fuselaje estrecho | Rutas cortas y medias | Un pasillo, muy versatil. |
+| Fuselaje estrecho | Rutas cortas y medias | Un pasillo, muy versátil. |
 | Fuselaje ancho | Rutas largas intercontinentales | Dos pasillos, gran alcance. |
 | Carguero derivado | Transporte de carga | Fuselaje de pasaje adaptado. |
-| Version ejecutiva | Vuelos corporativos | Cabina reconfigurada y mayor alcance. |
+| Versión ejecutiva | Vuelos corporativos | Cabina reconfigurada y mayor alcance. |
 
 ---
 
-## 🎯 Para que se usa
+## 🎯 Para qué se usa
 
-- Transporte comercial de pasajeros entre ciudades y paises.
-- Conexion de territorio largo y de geografia dificil (caso de Chile).
+- Transporte comercial de pasajeros entre ciudades y países.
+- Conexión de territorio largo y de geografía difícil (caso de Chile).
 - Rutas regionales de corto alcance hacia pistas menores.
 - Transporte de carga en versiones cargueras.
 - Vuelos corporativos y traslados especiales.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-avion-pasajeros.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-avion-pasajeros.md)
+[⬅️ Anterior: Historia](../historia/historia-avion-pasajeros.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-avion-pasajeros.md)

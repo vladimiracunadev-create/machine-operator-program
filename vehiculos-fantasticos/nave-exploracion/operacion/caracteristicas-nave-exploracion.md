@@ -1,18 +1,18 @@
-# 📋 Caracteristicas de la nave de exploracion
+# 📋 Características de la nave de exploración
 
-[🏠 Inicio](../../../README.md) · [🌌 Curso: Nave de exploracion](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🌌 Curso: Nave de exploración](../README.md) · 📋 Características
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Aqui describimos, con nuestras palabras, que seria una nave de exploracion
+Aquí describimos, con nuestras palabras, que sería una nave de exploración
 interestelar imaginaria: para que sirve, que partes tiene y que la diferencia
-de una nave de guerra o de carga. Todo es concepto generico inspirado en el
+de una nave de guerra o de carga. Todo es concepto genérico inspirado en el
 estilo "Star Trek", sin planos ni especificaciones oficiales.
 
 ## Que es y para que sirve
 
-Una nave de exploracion es una comunidad movil pensada para viajar lejos,
-estudiar lo que encuentra y sostener a su tripulacion durante mucho tiempo.
+Una nave de exploración es una comunidad móvil pensada para viajar lejos,
+estudiar lo que encuentra y sostener a su tripulación durante mucho tiempo.
 No busca conquistar: busca observar, medir, mapear y aprender. Por eso combina
 laboratorios, sensores, vivienda y motores de largo alcance.
 
@@ -20,10 +20,10 @@ laboratorios, sensores, vivienda y motores de largo alcance.
 
 ```mermaid
 flowchart TD
-    Nave[Nave de exploracion] --> Propulsion[Sistema de propulsion]
-    Nave --> Energia[Fuente de energia]
-    Nave --> Sensores[Sensores y observacion]
-    Nave --> Habitat[Habitat de la tripulacion]
+    Nave[Nave de exploración] --> Propulsion[Sistema de propulsión]
+    Nave --> Energia[Fuente de energía]
+    Nave --> Sensores[Sensores y observación]
+    Nave --> Habitat[Habitat de la tripulación]
     Nave --> Soporte[Soporte vital]
     Nave --> Puente[Puente de mando]
     Propulsion --> Subluminico[Motor subluminico real]
@@ -35,38 +35,38 @@ flowchart TD
 
 ## Perfil general
 
-| Rasgo | Descripcion conceptual | Base real o inventada |
+| Rasgo | Descripción conceptual | Base real o inventada |
 | --- | --- | --- |
-| Mision | Explorar, estudiar y mapear | Inspirada en sondas reales, ampliada. |
-| Autonomia | Muy larga, casi autosuficiente | Inventada a esa escala. |
-| Propulsion lenta | Motor de reaccion subluminico | Fisica real. |
-| Propulsion rapida | Impulso mas veloz que la luz | Inventado, sin base practica. |
-| Tripulacion | Comunidad estable a bordo | Inspirada en estaciones espaciales. |
-| Sensores | Detectan mundos y fenomenos lejanos | Real en concepto, exagerado en alcance. |
+| Misión | Explorar, estudiar y mapear | Inspirada en sondas reales, ampliada. |
+| Autonomía | Muy larga, casi autosuficiente | Inventada a esa escala. |
+| Propulsión lenta | Motor de reacción subluminico | Física real. |
+| Propulsión rápida | Impulso más veloz que la luz | Inventado, sin base práctica. |
+| Tripulación | Comunidad estable a bordo | Inspirada en estaciones espaciales. |
+| Sensores | Detectan mundos y fenómenos lejanos | Real en concepto, exagerado en alcance. |
 
-## Tipos imaginarios de mision
+## Tipos imaginarios de misión
 
-| Tipo | Objetivo | Que ensena de fisica real |
+| Tipo | Objetivo | Que enseña de física real |
 | --- | --- | --- |
-| Cartografia estelar | Mapear estrellas y rutas | Distancias en anios luz. |
-| Estudio planetario | Analizar mundos nuevos | Orbitas, atmosferas, gravedad. |
-| Primer contacto | Observar senales o vida | Escalas de tiempo y distancia. |
-| Rescate lejano | Ayudar a una nave varada | Limites de velocidad y energia. |
-| Investigacion pura | Medir fenomenos raros | Relatividad y energia. |
+| Cartografía estelar | Mapear estrellas y rutas | Distancias en años luz. |
+| Estudio planetario | Analizar mundos nuevos | Órbitas, atmósferas, gravedad. |
+| Primer contacto | Observar señales o vida | Escalas de tiempo y distancia. |
+| Rescate lejano | Ayudar a una nave varada | Límites de velocidad y energía. |
+| Investigación pura | Medir fenómenos raros | Relatividad y energía. |
 
 ## Que la hace especial
 
-- **Autosuficiencia**: debe producir energia, aire, agua y comida por su cuenta.
+- **Autosuficiencia**: debe producir energía, aire, agua y comida por su cuenta.
 - **Escala del viaje**: piensa en distancias que en la realidad tomarian siglos.
-- **Doble propulsion**: una parte creible y lenta, otra imaginaria y rapida.
-- **Foco cientifico**: mas laboratorio que arma.
-- **Vida a bordo**: es tambien un hogar, no solo una maquina.
+- **Doble propulsión**: una parte creíble y lenta, otra imaginaria y rápida.
+- **Foco científico**: más laboratorio que arma.
+- **Vida a bordo**: es también un hogar, no solo una máquina.
 
 ## Puente hacia los sistemas
 
-Con esta vision general, el siguiente modulo abre la nave por dentro y separa
-con cuidado la tecnologia imaginaria de la fisica que si conocemos.
+Con esta visión general, el siguiente módulo abre la nave por dentro y separa
+con cuidado la tecnología imaginaria de la física que si conocemos.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-nave-exploracion.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-nave-exploracion.md)
+[⬅️ Anterior: Historia](../historia/historia-nave-exploracion.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-nave-exploracion.md)

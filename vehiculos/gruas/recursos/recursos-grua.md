@@ -1,37 +1,37 @@
-# 🧰 Recursos de la grua
+# 🧰 Recursos de la grúa
 
-[🏠 Inicio](../../../README.md) · [🏗️ Curso: Gruas](../README.md) · 🧰 Recursos
+[🏠 Inicio](../../../README.md) · [🏗️ Curso: Grúas](../README.md) · 🧰 Recursos
 
-Glosario especifico, enlaces y diagramas de apoyo del curso de gruas. Amplia el
+Glosario específico, enlaces y diagramas de apoyo del curso de grúas. Amplia el
 [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
 | Momento de carga | Producto del peso por el radio; mide el efecto de vuelco. |
 | Radio de trabajo | Distancia horizontal del eje de giro al gancho. |
-| LMI | Indicador de momento de carga; vigila el limite y corta movimientos. |
-| Tabla de carga | Documento que define la capacidad segun radio, angulo y longitud. |
-| Reeving | Enhebrado del cable por las poleas; sus partes de linea reparten la carga. |
+| LMI | Indicador de momento de carga; vigila el límite y corta movimientos. |
+| Tabla de carga | Documento que define la capacidad según radio, ángulo y longitud. |
+| Reeving | Enhebrado del cable por las poleas; sus partes de línea reparten la carga. |
 | Outrigger | Estabilizador extensible que amplia la base de apoyo. |
 | Contrapeso | Masa trasera que equilibra el momento de la carga. |
 | Cuadrante de trabajo | Sector de giro donde la capacidad puede variar. |
-| Pluma telescopica | Pluma de secciones que se extienden por cilindros hidraulicos. |
-| Swing | Giro de la superestructura sobre el eje de la grua. |
+| Pluma telescópica | Pluma de secciones que se extienden por cilindros hidráulicos. |
+| Swing | Giro de la superestructura sobre el eje de la grúa. |
 | Momento resistente | Momento que se opone al vuelco, dado por peso y contrapeso. |
 | Factor de seguridad | Margen entre la carga de rotura del cable y la de trabajo. |
 
 ---
 
-## 🗺️ Diagrama de la relacion radio-capacidad
+## 🗺️ Diagrama de la relación radio-capacidad
 
 ```mermaid
 flowchart LR
     Radio[Aumenta el radio] --> Momento[Sube el momento de carga]
-    Momento --> Limite[Se acerca al momento maximo]
+    Momento --> Limite[Se acerca al momento máximo]
     Limite --> Capacidad[Baja la capacidad permitida]
     Capacidad --> LMI[El LMI avisa y corta]
 ```
@@ -49,4 +49,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-grua.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-grua.md)

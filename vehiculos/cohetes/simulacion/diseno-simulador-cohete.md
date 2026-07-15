@@ -1,9 +1,9 @@
-# 🎮 Diseno de simulacion del cohete
+# 🎮 Diseño de simulación del cohete
 
-[🏠 Inicio](../../../README.md) · [🚀 Curso: Cohetes](../README.md) · 🎮 Simulacion
+[🏠 Inicio](../../../README.md) · [🚀 Curso: Cohetes](../README.md) · 🎮 Simulación
 
-Simulacion educativa del lanzamiento y ascenso de un cohete. Modela con rigor la
-fisica del empuje, las etapas y la orbita, y anade el reto de recuperar el
+Simulación educativa del lanzamiento y ascenso de un cohete. Modela con rigor la
+física del empuje, las etapas y la órbita, y añade el reto de recuperar el
 propulsor reutilizable.
 
 ```mermaid
@@ -22,61 +22,61 @@ stateDiagram-v2
     EnTierra --> [*]
 ```
 
-## Objetivo de la simulacion
+## Objetivo de la simulación
 
-Que el usuario aprenda a preparar una cuenta atras, despegar con la relacion
+Que el usuario aprenda a preparar una cuenta atrás, despegar con la relación
 empuje-peso correcta, ascender con un giro gradual, separar etapas en el momento
-justo, alcanzar una orbita estable y, si el cohete lo permite, aterrizar el
+justo, alcanzar una órbita estable y, si el cohete lo permite, aterrizar el
 propulsor para reutilizarlo.
 
 ## Nivel de realismo
 
 - Nivel elegido: se ofrece del 1 al 3 (ver `docs/03-niveles-de-realismo.md`).
-- Justificacion: el lanzamiento es la fase mas exigente del vuelo espacial, por lo
-  que se recomienda como vehiculo avanzado.
+- Justificación: el lanzamiento es la fase más exigente del vuelo espacial, por lo
+  que se recomienda como vehículo avanzado.
 
 ## Variables principales
 
 | Variable | Tipo | Rango | Afecta a | Comentarios |
 | --- | --- | --- | --- | --- |
-| Empuje | numerica | 0-100 porciento | Aceleracion | Regulable en motor liquido. |
-| Masa total | numerica | baja al quemar | Relacion empuje-peso | Cae segun se gasta propelente. |
-| Propelente | numerica | 0-100 porciento | Delta-v y empuje | Limita el alcance. |
-| Altitud | numerica | 0-2000 km | Fase de vuelo | Sube durante el ascenso. |
-| Velocidad horizontal | numerica | 0-8 km/s | Insercion orbital | Clave para quedar en orbita. |
-| Angulo de ascenso | numerica | 0-90 grados | Trayectoria | Giro gradual a la horizontal. |
-| Estado de etapas | discreta | unida o separada | Estructura y masa | Marca cada separacion. |
-| Reserva de aterrizaje | numerica | 0-100 porciento | Retorno del propulsor | Propelente guardado para posar. |
+| Empuje | numérica | 0-100 porciento | Aceleración | Regulable en motor líquido. |
+| Masa total | numérica | baja al quemar | Relación empuje-peso | Cae según se gasta propelente. |
+| Propelente | numérica | 0-100 porciento | Delta-v y empuje | Limita el alcance. |
+| Altitud | numérica | 0-2000 km | Fase de vuelo | Sube durante el ascenso. |
+| Velocidad horizontal | numérica | 0-8 km/s | Inserción orbital | Clave para quedar en órbita. |
+| Ángulo de ascenso | numérica | 0-90 grados | Trayectoria | Giro gradual a la horizontal. |
+| Estado de etapas | discreta | unida o separada | Estructura y masa | Marca cada separación. |
+| Reserva de aterrizaje | numérica | 0-100 porciento | Retorno del propulsor | Propelente guardado para posar. |
 
-## Ciclo basico
+## Ciclo básico
 
-1. Leer entrada del usuario (empuje, angulo, separacion, retorno).
+1. Leer entrada del usuario (empuje, ángulo, separación, retorno).
 2. Actualizar masa, propelente y estado de etapas.
 3. Calcular fuerzas: empuje, gravedad y resistencia del aire.
-4. Aplicar el entorno (densidad del aire segun altitud, viento).
-5. Actualizar altitud, velocidad y orbita.
-6. Refrescar telemetria y alarmas (empuje, presion, propelente).
+4. Aplicar el entorno (densidad del aire según altitud, viento).
+5. Actualizar altitud, velocidad y órbita.
+6. Refrescar telemetría y alarmas (empuje, presión, propelente).
 
 ## Modos de juego futuros
 
-- Tutorial de cuenta atras y despegue.
-- Practica de ascenso y giro gravitatorio.
-- Desafios de separacion de etapas en el momento justo.
-- Misiones de insercion orbital con precision.
+- Tutorial de cuenta atrás y despegue.
+- Práctica de ascenso y giro gravitatorio.
+- Desafíos de separación de etapas en el momento justo.
+- Misiones de inserción orbital con precisión.
 - Reto de aterrizaje del propulsor reutilizable.
 
 ## Elementos fuera de alcance
 
-- Datos tecnicos sensibles de sistemas de lanzamiento reales o militares.
-- Detalles que permitan replicar armamento o propulsion clasificada.
-- Reproduccion de operaciones peligrosas como si fueran seguras.
+- Datos técnicos sensibles de sistemas de lanzamiento reales o militares.
+- Detalles que permitan replicar armamento o propulsión clasificada.
+- Reproducción de operaciones peligrosas como si fueran seguras.
 
 ## Pendientes
 
 - [ ] Definir valores por defecto de empuje y masa por tipo de cohete.
 - [ ] Prototipar el modelo de ascenso con giro gravitatorio.
 - [ ] Ajustar el modelo de aterrizaje del propulsor.
-- [ ] Agregar fuentes tecnicas publicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- [ ] Agregar fuentes técnicas públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 

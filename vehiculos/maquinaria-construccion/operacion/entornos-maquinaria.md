@@ -1,10 +1,10 @@
-# 🌍 Entornos de trabajo de la maquinaria de construccion
+# 🌍 Entornos de trabajo de la maquinaria de construcción
 
-[🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construccion](../README.md) · 🌍 Entornos
+[🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construcción](../README.md) · 🌍 Entornos
 
-Donde opera la maquinaria de construccion y como cambia la operacion segun el
+Dónde opera la maquinaria de construcción y cómo cambia la operación según el
 entorno. Cada entorno implica reglas, riesgos y ajustes distintos, y en
-simulacion se traduce en escenarios diferentes.
+simulación se traduce en escenarios diferentes.
 
 ---
 
@@ -31,12 +31,12 @@ mindmap
       Polvo
 ```
 
-| Entorno | Caracteristicas | Riesgos tipicos | Ajuste de operacion |
+| Entorno | Características | Riesgos típicos | Ajuste de operación |
 | --- | --- | --- | --- |
-| Obra civil | Zanjas, fundaciones, poco espacio. | Ductos ocultos, personas cerca. | Radio controlado, senaleros. |
-| Mineria a rajo | Grandes volumenes, equipos pesados. | Trafico de camiones, polvo. | Reglas de faena, distancia y radio. |
-| Vialidad | Movimiento de tierra y nivelacion. | Trafico vehicular, taludes. | Senalizacion, hoja y pendiente controladas. |
-| Demolicion | Escombros y estructuras. | Caida de material, polvo. | FOPS, riego, area despejada. |
+| Obra civil | Zanjas, fundaciones, poco espacio. | Ductos ocultos, personas cerca. | Radio controlado, señaleros. |
+| Minería a rajo | Grandes volumenes, equipos pesados. | Tráfico de camiones, polvo. | Reglas de faena, distancia y radio. |
+| Vialidad | Movimiento de tierra y nivelación. | Tráfico vehicular, taludes. | Señalización, hoja y pendiente controladas. |
+| Demolición | Escombros y estructuras. | Caída de material, polvo. | FOPS, riego, área despejada. |
 | Terreno blando / lluvia | Barro, suelo que cede. | Hundimiento, deslizamiento. | Orugas anchas, base firme, baja velocidad. |
 
 ---
@@ -46,18 +46,18 @@ mindmap
 - **Terreno**: firmeza, pendiente y humedad definen estabilidad y agarre.
 - **Espacio**: en obra urbana el radio de giro y los servicios enterrados limitan.
 - **Personas**: la faena suele tener trabajadores a pie; el radio de trabajo es
-  zona de exclusion.
-- **Clima**: lluvia, polvo y calor afectan visibilidad, suelo y la maquina.
-- **Otros equipos**: camiones y maquinas comparten la faena y deben coordinarse.
+  zona de exclusión.
+- **Clima**: lluvia, polvo y calor afectan visibilidad, suelo y la máquina.
+- **Otros equipos**: camiones y máquinas comparten la faena y deben coordinarse.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
 Cada entorno es un escenario con su terreno, espacio, clima y presencia de
-personas y equipos. Ver como se modela en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-maquinaria.md).
+personas y equipos. Ver cómo se modela en el
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-maquinaria.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-maquinaria.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-maquinaria.md)
+[⬅️ Anterior: Principios y operación](principios-maquinaria.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-maquinaria.md)

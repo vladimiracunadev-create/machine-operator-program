@@ -1,10 +1,10 @@
-# 🌍 Entornos de operacion del caza transformable
+# 🌍 Entornos de operación del caza transformable
 
 [🏠 Inicio](../../../README.md) · [🤖 Curso: Caza transformable](../README.md) · 🌍 Entornos
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Donde opera un caza transformable y como cada entorno favorece un modo distinto.
+Dónde opera un caza transformable y como cada entorno favorece un modo distinto.
 La riqueza del concepto es justamente que puede adaptarse: lo que en el aire pide
 velocidad, en el suelo pide destreza.
 
@@ -35,26 +35,26 @@ mindmap
 
 ---
 
-## Como cambia la operacion
+## Cómo cambia la operación
 
 | Entorno | Modo favorito | Reto principal | Ajuste de pilotaje |
 | --- | --- | --- | --- |
 | Aire | ✈️ Caza | Minimizar arrastre | Volar limpio y estable. |
 | Suelo | 🤖 Humanoide | Mantener equilibrio | Apoyo firme, pasos medidos. |
-| Espacio | ✈️ o 🤖 | Falta de aire | El modo casi no cambia la aerodinamica. |
-| Transicion | 🔀 Intermedio | Centro de masa movil | Transformar a baja velocidad. |
+| Espacio | ✈️ o 🤖 | Falta de aire | El modo casi no cambia la aerodinámica. |
+| Transición | 🔀 Intermedio | Centro de masa móvil | Transformar a baja velocidad. |
 
 ---
 
 ## 🌬️ El papel del aire
 
-En la atmosfera, el aire lo condiciona todo. En modo caza ayuda (genera
-sustentacion) pero tambien frena (arrastre). En modo humanoide solo estorba,
+En la atmósfera, el aire lo condiciona todo. En modo caza ayuda (genera
+sustentación) pero también frena (arrastre). En modo humanoide solo estorba,
 porque la forma no aprovecha el aire y si sufre su resistencia.
 
-En el espacio la situacion se invierte: sin aire no hay sustentacion ni arrastre,
-asi que la forma aerodinamica deja de importar. Alli lo que manda es la masa y la
-direccion del empuje, y los dos modos se comportan de forma parecida.
+En el espacio la situación se invierte: sin aire no hay sustentación ni arrastre,
+así que la forma aerodinámica deja de importar. Allí lo que manda es la masa y la
+dirección del empuje, y los dos modos se comportan de forma parecida.
 
 ---
 
@@ -66,12 +66,12 @@ que una persona al caminar. Un terreno irregular complica mucho esta tarea.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
 Cada entorno se convierte en un escenario con sus reglas: presencia o ausencia de
 aire, tipo de superficie y condiciones. Se detalla en el
-[Modulo 8: Simulacion](../simulacion/diseno-simulador-caza-transformable.md).
+[Módulo 8: Simulación](../simulacion/diseno-simulador-caza-transformable.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-caza-transformable.md) · [➡️ Siguiente: Reglas del universo](../reglamentos/reglas-universo-caza-transformable.md)
+[⬅️ Anterior: Principios y operación](principios-caza-transformable.md) · [➡️ Siguiente: Reglas del universo](../reglamentos/reglas-universo-caza-transformable.md)

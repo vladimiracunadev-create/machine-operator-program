@@ -4,9 +4,9 @@
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Donde opera un caza estelar y como cambia su comportamiento segun el entorno.
-Cada escenario implica reglas fisicas distintas, y en simulacion se traduce en
-condiciones diferentes de gravedad, atmosfera y obstaculos.
+Dónde opera un caza estelar y cómo cambia su comportamiento según el entorno.
+Cada escenario implica reglas físicas distintas, y en simulación se traduce en
+condiciones diferentes de gravedad, atmósfera y obstáculos.
 
 ---
 
@@ -33,11 +33,11 @@ mindmap
       Maniobras finas con RCS
 ```
 
-| Entorno | Caracteristicas | Riesgos tipicos | Ajuste de maniobra |
+| Entorno | Características | Riesgos típicos | Ajuste de maniobra |
 | --- | --- | --- | --- |
-| Vacio profundo | Sin aire ni rozamiento. | Perder orientacion, gastar delta-v. | Maniobras planificadas, ahorrar propelente. |
-| Orbita planetaria | Gravedad que curva la trayectoria. | Caer o escapar sin control. | Respetar mecanica orbital, encender en el momento justo. |
-| Reentrada atmosferica | Aparece aire y calor. | Recalentamiento, esfuerzo estructural. | Usar superficies aerodinamicas y frenar con el aire. |
+| Vacío profundo | Sin aire ni rozamiento. | Perder orientación, gastar delta-v. | Maniobras planificadas, ahorrar propelente. |
+| Órbita planetaria | Gravedad que curva la trayectoria. | Caer o escapar sin control. | Respetar mecánica orbital, encender en el momento justo. |
+| Reentrada atmosférica | Aparece aire y calor. | Recalentamiento, esfuerzo estructural. | Usar superficies aerodinámicas y frenar con el aire. |
 | Campo de escombros | Muchos objetos a gran velocidad. | Colisiones. | RCS finos, trayectoria despejada. |
 
 ---
@@ -46,22 +46,22 @@ mindmap
 
 - **Gravedad**: cerca de un planeta la trayectoria se curva; hay que tenerla en
   cuenta para no caer ni salir disparado.
-- **Atmosfera**: solo al entrar en una hay aire; ahi si aparecen sustentacion,
-  rozamiento y calor por friccion.
-- **Calor**: en el vacio el calor no se va por el aire; se acumula y se disipa
+- **Atmósfera**: solo al entrar en una hay aire; ahí si aparecen sustentación,
+  rozamiento y calor por fricción.
+- **Calor**: en el vacío el calor no se va por el aire; se acumula y se disipa
   lentamente por radiadores.
-- **Obstaculos**: en el vacio los objetos no frenan, asi que un pequeno choque
+- **Obstáculos**: en el vacío los objetos no frenan, así que un pequeño choque
   puede ser grave por la alta velocidad relativa.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
 Cada entorno es un escenario con su gravedad, presencia o ausencia de aire y
-densidad de obstaculos. El paso del vacio a una atmosfera cambia por completo
-las reglas y es una gran leccion de fisica. Ver como se modela en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-caza-estelar.md).
+densidad de obstáculos. El paso del vacío a una atmósfera cambia por completo
+las reglas y es una gran lección de física. Ver cómo se modela en el
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-caza-estelar.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-caza-estelar.md) · [➡️ Siguiente: Reglas del universo](../reglamentos/reglas-universo-caza-estelar.md)
+[⬅️ Anterior: Principios y operación](principios-caza-estelar.md) · [➡️ Siguiente: Reglas del universo](../reglamentos/reglas-universo-caza-estelar.md)

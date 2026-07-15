@@ -2,19 +2,19 @@
 
 [🏠 Inicio](../../../README.md) · [🚌 Curso: Buses](../README.md) · 🧰 Recursos
 
-Glosario especifico, enlaces y diagramas de apoyo del curso de buses. Amplia el
+Glosario específico, enlaces y diagramas de apoyo del curso de buses. Amplia el
 [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
-| Aforo | Numero maximo de pasajeros permitido, sentados y de pie. |
-| Sistema neumatico | Red de aire comprimido que acciona frenos, puertas y suspension. |
-| Calderin | Deposito que almacena el aire comprimido a presion. |
-| Retardador | Freno auxiliar sin friccion para descensos largos. |
+| Aforo | Número máximo de pasajeros permitido, sentados y de pie. |
+| Sistema neumático | Red de aire comprimido que acciona frenos, puertas y suspensión. |
+| Calderin | Depósito que almacena el aire comprimido a presión. |
+| Retardador | Freno auxiliar sin fricción para descensos largos. |
 | Freno de muelle | Freno de estacionamiento que se aplica al faltar aire. |
 | Arrodillamiento (kneeling) | Descenso del lado de la puerta para facilitar el ascenso. |
 | Piso bajo | Piso sin escalones a nivel de la acera, accesible. |
@@ -24,15 +24,15 @@ Glosario especifico, enlaces y diagramas de apoyo del curso de buses. Amplia el
 
 ---
 
-## 🗺️ Diagrama del sistema neumatico
+## 🗺️ Diagrama del sistema neumático
 
 ```mermaid
 flowchart LR
     Compresor[Compresor] --> Calderines[Calderines de aire]
     Calderines --> Frenos[Frenos de servicio]
-    Calderines --> Puertas[Puertas neumaticas]
-    Calderines --> Suspension[Suspension y kneeling]
-    Manometro[Manometro] -. vigila .-> Calderines
+    Calderines --> Puertas[Puertas neumáticas]
+    Calderines --> Suspension[Suspensión y kneeling]
+    Manometro[Manómetro] -. vigila .-> Calderines
 ```
 
 ---
@@ -41,7 +41,7 @@ flowchart LR
 
 - Marco legal: [⚖️ docs/07-marco-legal-chile.md](../../../docs/07-marco-legal-chile.md)
 - Registro de fuentes: [📚 manuales/fuentes.md](../../../manuales/fuentes.md)
-- Manuales oficiales del conductor (CONASET) y reglamento del transporte publico
+- Manuales oficiales del conductor (CONASET) y reglamento del transporte público
   (MTT): ver el registro de fuentes.
 
 Registrar cada recurso nuevo con su origen y licencia, siguiendo
@@ -49,4 +49,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-bus.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-bus.md)

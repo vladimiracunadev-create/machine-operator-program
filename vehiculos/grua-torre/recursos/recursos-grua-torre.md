@@ -1,24 +1,24 @@
-# 🧰 Recursos de la grua torre
+# 🧰 Recursos de la grúa torre
 
-[🏠 Inicio](../../../README.md) · [🗼 Curso: Grua torre](../README.md) · 🧰 Recursos
+[🏠 Inicio](../../../README.md) · [🗼 Curso: Grúa torre](../README.md) · 🧰 Recursos
 
-Glosario especifico, enlaces y diagramas de apoyo del curso de grua torre. Amplia
+Glosario específico, enlaces y diagramas de apoyo del curso de grúa torre. Amplia
 el [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
-| Mastil | Estructura vertical reticulada que sostiene la grua torre. |
+| Mástil | Estructura vertical reticulada que sostiene la grúa torre. |
 | Pluma jib | Brazo horizontal por el que corre el carro y del que cuelga la carga. |
 | Contrapluma | Brazo opuesto que aloja el contrapeso y la maquinaria. |
 | Contrapeso | Masa fija que equilibra el momento de la carga. |
 | Carro trolley | Elemento que corre por la pluma y varia el radio. |
 | Corona de giro | Rodamiento que permite rotar la parte superior. |
 | Momento de carga | Producto del peso por el radio; mide la tendencia al vuelco. |
-| Trepado | Maniobra de crecer en altura intercalando tramos de mastil. |
+| Trepado | Maniobra de crecer en altura intercalando tramos de mástil. |
 | Veleta | Giro libre de la pluma con el viento fuera de servicio. |
 
 ---
@@ -32,7 +32,7 @@ flowchart LR
     Contrapeso[Contrapeso x brazo] --> Resistente[Momento resistente]
     Pluma --> Eje[Eje de la torre]
     Resistente --> Eje
-    Eje --> Estable[Grua estable si se equilibran]
+    Eje --> Estable[Grúa estable si se equilibran]
 ```
 
 ---
@@ -48,4 +48,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-grua-torre.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-grua-torre.md)

@@ -1,16 +1,16 @@
 # Glosario general
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
-| Mando | Control usado por el operador para modificar el estado de la maquina. |
-| Instrumento | Indicador que muestra informacion al operador. |
+| Mando | Control usado por el operador para modificar el estado de la máquina. |
+| Instrumento | Indicador que muestra información al operador. |
 | Panel | Conjunto organizado de mandos e instrumentos. |
-| Procedimiento | Secuencia de acciones para lograr un resultado dentro de la simulacion. |
-| Sistema | Conjunto de componentes que cumplen una funcion. |
-| Propulsion | Sistema que genera movimiento. |
-| Frenado | Accion o sistema que reduce velocidad. |
-| Navegacion | Determinacion de posicion, rumbo y ruta. |
+| Procedimiento | Secuencia de acciones para lograr un resultado dentro de la simulación. |
+| Sistema | Conjunto de componentes que cumplen una función. |
+| Propulsión | Sistema que genera movimiento. |
+| Frenado | Acción o sistema que reduce velocidad. |
+| Navegación | Determinación de posición, rumbo y ruta. |
 | Estabilidad | Capacidad de mantener equilibrio o control. |
-| Simulacion | Representacion controlada de una maquina o proceso. |
+| Simulación | Representación controlada de una máquina o proceso. |
 | Realismo | Grado de fidelidad frente al comportamiento esperado. |
-| Ergonomia | Diseno de controles e informacion para facilitar su uso. |
+| Ergonomia | Diseño de controles e información para facilitar su uso. |

@@ -1,10 +1,10 @@
-# 🌍 Entornos de trabajo de la grua
+# 🌍 Entornos de trabajo de la grúa
 
-[🏠 Inicio](../../../README.md) · [🏗️ Curso: Gruas](../README.md) · 🌍 Entornos
+[🏠 Inicio](../../../README.md) · [🏗️ Curso: Grúas](../README.md) · 🌍 Entornos
 
-Donde opera una grua y como cambia el izaje segun el entorno. Cada entorno
-implica reglas, riesgos y ajustes distintos, y en simulacion se traduce en
-escenarios diferentes. El factor comun es siempre la estabilidad.
+Dónde opera una grúa y cómo cambia el izaje según el entorno. Cada entorno
+implica reglas, riesgos y ajustes distintos, y en simulación se traduce en
+escenarios diferentes. El factor común es siempre la estabilidad.
 
 ---
 
@@ -35,35 +35,35 @@ mindmap
       Nivelacion
 ```
 
-| Entorno | Caracteristicas | Riesgos tipicos | Ajuste de operacion |
+| Entorno | Características | Riesgos típicos | Ajuste de operación |
 | --- | --- | --- | --- |
-| Obra de construccion | Montaje, espacio reducido, varias maquinas. | Colisiones, personal en tierra, obstaculos. | Area de exclusion, senalero, radios controlados. |
-| Puerto | Contenedores, ritmo alto, cerca del agua. | Viento marino, cargas repetidas. | Vigilar anemometro, ciclos precisos. |
-| Industria / montaje | Equipos pesados, alta precision. | Espacio cerrado, izaje milimetrico. | Movimientos lentos, planificacion detallada. |
-| Rescate / via publica | Vehiculos, escombros, urgencia. | Trafico, terreno improvisado. | Estabilizar bien, delimitar la via. |
-| Terreno irregular | Suelo blando, pendientes. | Hundimiento de zapatas, desnivel. | Tacos de apoyo, nivelacion cuidadosa. |
+| Obra de construcción | Montaje, espacio reducido, varias máquinas. | Colisiones, personal en tierra, obstáculos. | Área de exclusión, señalero, radios controlados. |
+| Puerto | Contenedores, ritmo alto, cerca del agua. | Viento marino, cargas repetidas. | Vigilar anemómetro, ciclos precisos. |
+| Industria / montaje | Equipos pesados, alta precisión. | Espacio cerrado, izaje milimetrico. | Movimientos lentos, planificación detallada. |
+| Rescate / vía pública | Vehículos, escombros, urgencia. | Tráfico, terreno improvisado. | Estabilizar bien, delimitar la vía. |
+| Terreno irregular | Suelo blando, pendientes. | Hundimiento de zapatas, desnivel. | Tacos de apoyo, nivelación cuidadosa. |
 
 ---
 
 ## 🌦️ Factores del entorno
 
-- **Viento**: empuja carga y pluma, aumenta el balanceo y reduce el limite de
-  izaje; sobre cierto umbral la operacion se suspende.
-- **Suelo y capacidad portante**: el terreno debe resistir la presion de las
+- **Viento**: empuja carga y pluma, aumenta el balanceo y reduce el límite de
+  izaje; sobre cierto umbral la operación se suspende.
+- **Suelo y capacidad portante**: el terreno debe resistir la presión de las
   zapatas; un suelo blando puede ceder y perder la base.
-- **Obstaculos aereos y lineas electricas**: exigen distancias de seguridad; el
-  contacto con una linea de alta tension es un riesgo grave.
-- **Espacio de giro**: edificios, otras gruas y estructuras limitan el arco de la
+- **Obstáculos aéreos y líneas eléctricas**: exigen distancias de seguridad; el
+  contacto con una línea de alta tensión es un riesgo grave.
+- **Espacio de giro**: edificios, otras grúas y estructuras limitan el arco de la
   pluma y de la carga.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
-Cada entorno es un escenario con su terreno, viento, obstaculos y limites de
-espacio. Ver como se modela en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-grua.md).
+Cada entorno es un escenario con su terreno, viento, obstáculos y límites de
+espacio. Ver cómo se modela en el
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-grua.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-grua.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-grua.md)
+[⬅️ Anterior: Principios y operación](principios-grua.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-grua.md)

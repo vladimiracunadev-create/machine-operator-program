@@ -1,14 +1,14 @@
-# 🔧 Sistemas mecanicos del Nautilus
+# 🔧 Sistemas mecánicos del Nautilus
 
-[🏠 Inicio](../../../README.md) · [🐙 Curso: Nautilus](../README.md) · 🔧 Sistemas mecanicos
+[🏠 Inicio](../../../README.md) · [🐙 Curso: Nautilus](../README.md) · 🔧 Sistemas mecánicos
 
-> ⚖️ Material educativo original; el Nautilus de Julio Verne (1870) es de dominio publico; otros derechos pertenecen a sus titulares.
+> ⚖️ Material educativo original; el Nautilus de Julio Verne (1870) es de dominio público; otros derechos pertenecen a sus titulares.
 
-Este modulo abre el Nautilus por dentro. Explica cada sistema imaginado por
-Verne y lo compara con la fisica real del submarino moderno. La sorpresa es que
-gran parte de lo que la novela describio coincide con la ingenieria que se
-desarrollo despues. Es la base tecnica para entender los mandos (Modulo 4) y la
-fisica de operacion (Modulo 5).
+Este módulo abre el Nautilus por dentro. Explica cada sistema imaginado por
+Verne y lo compara con la física real del submarino moderno. La sorpresa es que
+gran parte de lo que la novela describio coincide con la ingeniería que se
+desarrollo después. Es la base técnica para entender los mandos (Módulo 4) y la
+física de operación (Módulo 5).
 
 ```mermaid
 flowchart LR
@@ -16,15 +16,15 @@ flowchart LR
         L[Tanques de lastre] --> B[Flotabilidad]
     end
     subgraph Estructura
-        C[Casco resistente] --- P[Resiste presion]
+        C[Casco resistente] --- P[Resiste presión]
     end
     subgraph Propulsion
-        E[Energia electrica] --> H[Helice]
+        E[Energía eléctrica] --> H[Hélice]
     end
     subgraph Vida
-        A[Renovacion de aire]
+        A[Renovación de aire]
     end
-    B --> Navega[Navegacion]
+    B --> Navega[Navegación]
     H --> Navega
     P --> Navega
     A --> Navega
@@ -34,18 +34,18 @@ flowchart LR
 
 ## 1. 🌊 Flotabilidad y tanques de lastre
 
-El corazon de cualquier submarino es el control de la flotabilidad. Aqui Verne
+El corazón de cualquier submarino es el control de la flotabilidad. Aquí Verne
 acerto de lleno.
 
-### Principio de Arquimedes
+### Principio de Arquímedes
 
 Todo cuerpo sumergido recibe un empuje hacia arriba igual al peso del agua que
 desplaza. Si el peso de la nave es **menor** que ese empuje, sube; si es
 **mayor**, baja; si son iguales, queda en equilibrio a media agua. Un submarino
-no cambia su volumen, asi que juega con su peso: para eso sirven los tanques de
+no cambia su volumen, así que juega con su peso: para eso sirven los tanques de
 lastre.
 
-### Como funcionan los tanques
+### Cómo funcionan los tanques
 
 ```mermaid
 flowchart TD
@@ -53,119 +53,119 @@ flowchart TD
     Vaciar --> Ligero[La nave pesa menos]
     Ligero --> Sube[Empuje mayor que peso: sube]
     Sumergir[Sumergir] --> Llenar[Dejar entrar agua]
-    Llenar --> Pesada[La nave pesa mas]
+    Llenar --> Pesada[La nave pesa más]
     Pesada --> Baja[Peso mayor que empuje: baja]
 ```
 
-- Para **sumergir**, se abren valvulas y el agua entra en los tanques: la nave
+- Para **sumergir**, se abren válvulas y el agua entra en los tanques: la nave
   gana peso y se hunde.
 - Para **emerger**, se inyecta aire comprimido que expulsa el agua: la nave
   pierde peso y sube.
 - Para navegar a **profundidad constante**, se busca la flotabilidad neutra y se
   ajusta con los timones de profundidad mientras la nave avanza.
 
-### Ficcion frente a realidad
+### Ficción frente a realidad
 
-| Tema | Lo que imagino Verne | Fisica e ingenieria real |
+| Tema | Lo que imagino Verne | Física e ingeniería real |
 | --- | --- | --- |
-| Sumergir y emerger | Llenar y vaciar depositos de agua | Identico: tanques de lastre reales. |
+| Sumergir y emerger | Llenar y vaciar depósitos de agua | Idéntico: tanques de lastre reales. |
 | Flotabilidad neutra | Equilibrar peso y empuje a media agua | Concepto central del submarinismo. |
 | Control fino | Ajuste de profundidad a voluntad | Se combina lastre y timones de buceo. |
 
 ---
 
-## 2. 🛡️ Casco y presion en profundidad
+## 2. 🛡️ Casco y presión en profundidad
 
-### Por que aumenta la presion
+### Por  qué aumenta la presión
 
-Cada metro de agua sobre la nave anade peso encima. Por eso la presion crece de
-forma continua con la profundidad: aproximadamente una atmosfera adicional cada
+Cada metro de agua sobre la nave añade peso encima. Por eso la presión crece de
+forma continua con la profundidad: aproximadamente una atmósfera adicional cada
 diez metros. A gran profundidad, el agua aprieta el casco con una fuerza
 enorme desde todas direcciones.
 
 ### El casco resistente
 
-Verne intuyo que la nave debia ser muy robusta para soportar esas
+Verne intuyo que la nave debía ser muy robusta para soportar esas
 profundidades, e imagino un casco fuerte, de metal, capaz de resistir ese
-abrazo del oceano. La ingenieria real confirma la idea: los submarinos usan un
-**casco de presion** de forma redondeada, casi cilindrica o esferica, porque
-esa geometria reparte la carga y evita puntos debiles.
+abrazo del océano. La ingeniería real confirma la idea: los submarinos usan un
+**casco de presión** de forma redondeada, casi cilíndrica o esférica, porque
+esa geometría reparte la carga y evita puntos débiles.
 
-| Tema | Lo que imagino Verne | Fisica e ingenieria real |
+| Tema | Lo que imagino Verne | Física e ingeniería real |
 | --- | --- | --- |
-| Presion con profundidad | La nave sufre mas cuanto mas baja | Sube cerca de 1 atmosfera cada 10 m. |
-| Casco fuerte de metal | Estructura robusta contra el agua | Casco de presion de acero o titanio. |
+| Presión con profundidad | La nave sufre más cuanto más baja | Sube cerca de 1 atmósfera cada 10 m. |
+| Casco fuerte de metal | Estructura robusta contra el agua | Casco de presión de acero o titanio. |
 | Forma de la nave | Cuerpo alargado y redondeado | Formas curvas reparten mejor la carga. |
-| Limite de profundidad | Profundidades extremas alcanzables | Existe una profundidad de aplastamiento. |
+| Límite de profundidad | Profundidades extremas alcanzables | Existe una profundidad de aplastamiento. |
 
-Aqui aparece una diferencia importante: la novela sugiere profundidades muy
+Aquí aparece una diferencia importante: la novela sugiere profundidades muy
 grandes con gran libertad, mientras que en la realidad cada casco tiene una
-**profundidad limite** mas alla de la cual la presion lo aplastaria.
+**profundidad límite** más allá de la cual la presión lo aplastaria.
 
 ---
 
-## 3. ⚡ Energia
+## 3. ⚡ Energía
 
 Verne fue especialmente visionario al elegir la **electricidad** como fuente de
-energia, en una epoca dominada por el vapor y el carbon. En la novela, la nave
-obtiene esa electricidad del propio mar, con ideas cercanas a las baterias que
+energía, en una época dominada por el vapor y el carbón. En la novela, la nave
+obtiene esa electricidad del propio mar, con ideas cercanas a las baterías que
 usan sodio y otros elementos presentes en el agua salada.
 
-| Tema | Lo que imagino Verne | Fisica e ingenieria real |
+| Tema | Lo que imagino Verne | Física e ingeniería real |
 | --- | --- | --- |
-| Energia electrica | Todo funciona con electricidad | Los submarinos modernos dependen de ella. |
-| Energia del mar | Extraer energia del agua salada | Existen baterias y celdas basadas en sodio. |
-| Sin repostar carbon | Autonomia sin puertos | Los reactores nucleares dan gran autonomia. |
-| Motor limpio y silencioso | Propulsion sin humo | El motor electrico es silencioso y limpio. |
+| Energía eléctrica | Todo funciona con electricidad | Los submarinos modernos dependen de ella. |
+| Energía del mar | Extraer energía del agua salada | Existen baterías y celdas basadas en sodio. |
+| Sin repostar carbón | Autonomía sin puertos | Los reactores nucleares dan gran autonomía. |
+| Motor limpio y silencioso | Propulsión sin humo | El motor eléctrico es silencioso y limpio. |
 
-La intuicion de fondo, una nave que no depende de quemar combustible en cada
-viaje, se cumplio decadas despues con la propulsion nuclear, aunque por un
-camino tecnico distinto al que describio la novela.
+La intuición de fondo, una nave que no depende de quemar combustible en cada
+viaje, se cumplio decadas después con la propulsión nuclear, aunque por un
+camino técnico distinto al que describio la novela.
 
 ---
 
-## 4. 🌀 Propulsion y navegacion
+## 4. 🌀 Propulsión y navegación
 
-- **Propulsion**: la energia electrica mueve una helice en la popa que empuja
+- **Propulsión**: la energía eléctrica mueve una hélice en la popa que empuja
   la nave hacia adelante. Es exactamente el esquema de un submarino real de
-  motor electrico.
-- **Direccion horizontal**: un timon vertical, como el de un barco, hace girar
+  motor eléctrico.
+- **Dirección horizontal**: un timón vertical, como el de un barco, hace girar
   la nave a babor o estribor.
-- **Direccion vertical**: timones de profundidad, unas aletas horizontales, que
+- **Dirección vertical**: timones de profundidad, unas aletas horizontales, que
   inclinan la nave hacia arriba o hacia abajo mientras avanza.
-- **Navegacion**: instrumentos para conocer rumbo, velocidad y profundidad, mas
-  observacion directa del entorno.
+- **Navegación**: instrumentos para conocer rumbo, velocidad y profundidad, más
+  observación directa del entorno.
 
 ---
 
-## 5. 💨 Soporte vital y renovacion del aire
+## 5. 💨 Soporte vital y renovación del aire
 
-El limite real de vivir bajo el agua no es la presion, sino el **aire
-respirable**. Las personas consumen oxigeno y producen dioxido de carbono, que
-se vuelve toxico si se acumula. Verne fue consciente de esto: en la novela la
-nave sube periodicamente a renovar el aire y almacena reservas para permanecer
+El límite real de vivir bajo el agua no es la presión, sino el **aire
+respirable**. Las personas consumen oxígeno y producen dioxido de carbono, que
+se vuelve tóxico si se acumula. Verne fue consciente de esto: en la novela la
+nave sube periódicamente a renovar el aire y almacena reservas para permanecer
 sumergida.
 
-| Tema | Lo que imagino Verne | Fisica e ingenieria real |
+| Tema | Lo que imagino Verne | Física e ingeniería real |
 | --- | --- | --- |
-| Consumo de oxigeno | El aire se agota con el tiempo | Cierto: hay que reponer oxigeno. |
+| Consumo de oxígeno | El aire se agota con el tiempo | Cierto: hay que reponer oxígeno. |
 | Aire viciado | El dioxido de carbono es un peligro | Debe retirarse para poder respirar. |
-| Reservas de aire | Guardar aire a presion a bordo | Se usan tanques y generadores de oxigeno. |
-| Subir a ventilar | Renovar el aire en superficie | Los submarinos clasicos lo hacian asi. |
+| Reservas de aire | Guardar aire a presión a bordo | Se usan tanques y generadores de oxígeno. |
+| Subir a ventilar | Renovar el aire en superficie | Los submarinos clásicos lo hacían así. |
 
 ---
 
-## 🔁 Como se conecta todo
+## 🔁 Cómo se conecta todo
 
 1. Los **tanques de lastre** deciden si la nave sube, baja o se queda.
-2. El **casco resistente** permite bajar sin ser aplastado por la presion.
-3. La **energia electrica** alimenta motores y sistemas de a bordo.
-4. La **helice y los timones** dan movimiento y rumbo.
+2. El **casco resistente** permite bajar sin ser aplastado por la presión.
+3. La **energía eléctrica** alimenta motores y sistemas de a bordo.
+4. La **hélice y los timones** dan movimiento y rumbo.
 5. El **soporte vital** mantiene el aire respirable y las reservas.
 
-Con esto claro, el [Modulo 4: Mandos](../mandos/manual-mandos-nautilus.md)
-muestra como la tripulacion opera cada uno de estos sistemas.
+Con esto claro, el [Módulo 4: Mandos](../mandos/manual-mandos-nautilus.md)
+muestra cómo la tripulación opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Caracteristicas](caracteristicas-nautilus.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-nautilus.md)
+[⬅️ Anterior: Características](caracteristicas-nautilus.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-nautilus.md)

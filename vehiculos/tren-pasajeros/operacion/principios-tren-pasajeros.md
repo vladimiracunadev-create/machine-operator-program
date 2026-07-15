@@ -1,57 +1,57 @@
-# 🧪 Principios y operacion del tren de pasajeros
+# 🧪 Principios y operación del tren de pasajeros
 
 [🏠 Inicio](../../../README.md) · [🚆 Curso: Tren de pasajeros](../README.md) · 🧪 Principios
 
-Documento general y educativo. No sustituye la formacion certificada del operador
-ferroviario ni los manuales del fabricante. Describe como se opera un tren en
-simulacion y que principios fisicos conviene representar.
+Documento general y educativo. No sustituye la formación certificada del operador
+ferroviario ni los manuales del fabricante. Describe cómo se opera un tren en
+simulación y que principios físicos conviene representar.
 
 ## Principios de funcionamiento
 
-- **Traccion**: los motores de traccion, alimentados por catenaria o por un grupo
+- **Tracción**: los motores de tracción, alimentados por catenaria o por un grupo
   diesel-generador, entregan par a los ejes motrices.
-- **Guia sobre rieles**: la rueda de pestana con perfil conico sigue el riel; el
-  tren no cambia de rumbo por voluntad del maquinista, la via lo guia.
+- **Guía sobre rieles**: la rueda de pestaña con perfil cónico sigue el riel; el
+  tren no cambia de rumbo por voluntad del maquinista, la vía lo guía.
 - **Adherencia**: el contacto acero-acero tiene bajo agarre, lo que limita la
-  fuerza de traccion y de freno antes de patinar o bloquear.
+  fuerza de tracción y de freno antes de patinar o bloquear.
 - **Gran masa**: la enorme inercia hace que el tren acelere y frene despacio, con
   distancias de frenado de cientos de metros.
-- **Control por senales**: la circulacion se ordena con senales de via y ATP; el
-  maquinista respeta la senal, no la vista libre del camino.
+- **Control por señales**: la circulación se ordena con señales de vía y ATP; el
+  maquinista respeta la señal, no la vista libre del camino.
 
-## Fases de operacion
+## Fases de operación
 
 | Fase | Que ocurre | Puntos clave |
 | --- | --- | --- |
-| Inspeccion previa | Revision basica | Presion de freno, puertas, luces, ATP. |
-| Puesta en servicio | Activar la cabina | Tension de linea, sentido de marcha, vigilante. |
-| Arranque | Iniciar la marcha | Traccion progresiva, vigilar patinaje y senal. |
-| Marcha | Circular con seguridad | Respetar limites, anticipar senales y andenes. |
-| Frenado | Reducir con anticipacion | Combinar freno dinamico y neumatico, cuidar la adherencia. |
-| Parada en anden | Detener en el punto exacto | Alinear puertas con el anden, freno suave. |
+| Inspección previa | Revisión básica | Presión de freno, puertas, luces, ATP. |
+| Puesta en servicio | Activar la cabina | Tensión de línea, sentido de marcha, vigilante. |
+| Arranque | Iniciar la marcha | Tracción progresiva, vigilar patinaje y señal. |
+| Marcha | Circular con seguridad | Respetar límites, anticipar señales y andenes. |
+| Frenado | Reducir con anticipación | Combinar freno dinámico y neumático, cuidar la adherencia. |
+| Parada en andén | Detener en el punto exacto | Alinear puertas con el andén, freno suave. |
 | Cierre | Dejar seguro | Puertas cerradas, freno aplicado, cabina apagada. |
 
 ## Frenado anticipado: idea general
 
-1. Identificar la senal o el anden objetivo con mucha antelacion.
-2. Comenzar a frenar mucho antes que un vehiculo de carretera.
-3. Usar primero el freno dinamico o regenerativo para cuidar las zapatas.
-4. Complementar con el freno neumatico segun la distancia restante.
+1. Identificar la señal o el andén objetivo con mucha antelación.
+2. Comenzar a frenar mucho antes que un vehículo de carretera.
+3. Usar primero el freno dinámico o regenerativo para cuidar las zapatas.
+4. Complementar con el freno neumático según la distancia restante.
 5. Ajustar la fuerza a la adherencia disponible para no bloquear ruedas.
 
-## Errores comunes que la simulacion puede ensenar a evitar
+## Errores comunes que la simulación puede enseñar a evitar
 
 - Frenar tarde, olvidando la gran masa y las distancias largas.
-- Aplicar demasiada traccion y provocar patinaje en riel humedo.
-- Ignorar la senal o el limite del ATP.
-- No alinear las puertas con el anden al detenerse.
-- Descuidar la presion de la tuberia de freno antes de arrancar.
+- Aplicar demasiada tracción y provocar patinaje en riel húmedo.
+- Ignorar la señal o el límite del ATP.
+- No alinear las puertas con el andén al detenerse.
+- Descuidar la presión de la tubería de freno antes de arrancar.
 
-## Relacion con los niveles de realismo
+## Relación con los niveles de realismo
 
-- **Nivel 1 (educativo)**: aplicar traccion, frenar y respetar senales.
+- **Nivel 1 (educativo)**: aplicar tracción, frenar y respetar señales.
 - **Nivel 2 (simplificado)**: agregar inercia, gran masa y distancia de frenado.
-- **Nivel 3 (tecnico)**: sumar adherencia variable, freno dinamico, ATP y arenado.
+- **Nivel 3 (técnico)**: sumar adherencia variable, freno dinámico, ATP y arenado.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
 

@@ -15,58 +15,58 @@ timeline
 
 ## Origen
 
-El tren de alta velocidad nace en Japon en 1964 con el Shinkansen, la primera
-linea disenada desde cero para circular a mas de 200 km/h con via dedicada y sin
-cruces a nivel. La idea era mover a muchos pasajeros entre grandes ciudades mas
-rapido que el automovil y compitiendo con el avion en distancias medias. Francia
-siguio con el TGV en 1981 y Espana con el AVE en 1992, consolidando el modelo en
-Europa. Chile aun no tiene alta velocidad comercial; los proyectos locales se
+El tren de alta velocidad nace en Japón en 1964 con el Shinkansen, la primera
+línea disenada desde cero para circular a más de 200 km/h con vía dedicada y sin
+cruces a nivel. La idea era mover a muchos pasajeros entre grandes ciudades más
+rápido que el automóvil y compitiendo con el avión en distancias medias. Francia
+siguió con el TGV en 1981 y España con el AVE en 1992, consolidando el modelo en
+Europa. Chile aún no tiene alta velocidad comercial; los proyectos locales se
 tratan como por confirmar.
 
-## Linea de tiempo
+## Línea de tiempo
 
 | Periodo | Hito | Importancia |
 | --- | --- | --- |
-| 1964 | Shinkansen Tokaido en Japon | Primera linea de alta velocidad del mundo. |
+| 1964 | Shinkansen Tokaido en Japón | Primera línea de alta velocidad del mundo. |
 | 1981 | TGV en Francia | Lleva la alta velocidad a Europa. |
-| 1992 | AVE Madrid a Sevilla en Espana | Alta velocidad en la peninsula iberica. |
-| 1990-2000 | Expansion por Europa y Asia | Redes en Alemania, Italia, Corea. |
+| 1992 | AVE Madrid a Sevilla en España | Alta velocidad en la península ibérica. |
+| 1990-2000 | Expansión por Europa y Asia | Redes en Alemania, Italia, Corea. |
 | 2008-presente | Gran red china | La mayor red de alta velocidad del mundo. |
-| Futuro | Maglev y nuevos corredores | Levitacion magnetica y records de velocidad. |
+| Futuro | Maglev y nuevos corredores | Levitación magnética y records de velocidad. |
 
-## Evolucion tecnologica
+## Evolución tecnológica
 
-- **Traccion**: de la locomotora en cabeza a la traccion distribuida en varios coches.
-- **Aerodinamica**: narices cada vez mas largas para reducir resistencia y ruido.
-- **Via**: lineas dedicadas con curvas amplias, peralte y sin pasos a nivel.
-- **Senalizacion**: paso de senales laterales a senalizacion en cabina ETCS/ERTMS.
-- **Frenado**: freno regenerativo, dinamico, neumatico y de corrientes de Foucault.
+- **Tracción**: de la locomotora en cabeza a la tracción distribuida en varios coches.
+- **Aerodinámica**: narices cada vez más largas para reducir resistencia y ruido.
+- **Vía**: líneas dedicadas con curvas amplias, peralte y sin pasos a nivel.
+- **Señalización**: paso de señales laterales a señalización en cabina ETCS/ERTMS.
+- **Frenado**: freno regenerativo, dinámico, neumático y de corrientes de Foucault.
 - **Materiales**: aluminio y compuestos ligeros para bajar masa y consumo.
 
 ## Tipos representativos
 
-| Tipo | Origen | Caracteristica destacada |
+| Tipo | Origen | Característica destacada |
 | --- | --- | --- |
-| Shinkansen | Japon | Traccion distribuida, alta frecuencia de servicio. |
-| TGV | Francia | Traccion concentrada con coches remolcados. |
-| AVE | Espana | Trocha internacional sobre red de trocha iberica. |
+| Shinkansen | Japón | Tracción distribuida, alta frecuencia de servicio. |
+| TGV | Francia | Tracción concentrada con coches remolcados. |
+| AVE | España | Trocha internacional sobre red de trocha ibérica. |
 | ICE | Alemania | Alta velocidad integrada a la red europea. |
 | CRH / CR | China | Mayor red mundial y grandes volumenes. |
-| Maglev | Varios | Levitacion magnetica, sin contacto rueda-riel. |
+| Maglev | Varios | Levitación magnética, sin contacto rueda-riel. |
 
-## Impacto social y economico
+## Impacto social y económico
 
-La alta velocidad transformo los viajes de media distancia, restando cuota al
-avion y al automovil entre ciudades separadas por algunos cientos de kilometros.
-Impulso el desarrollo regional al acercar ciudades, aunque exige gran inversion
-en infraestructura dedicada. Es un simbolo de modernizacion del transporte
-publico en varios paises.
+La alta velocidad transformó los viajes de media distancia, restando cuota al
+avión y al automóvil entre ciudades separadas por algunos cientos de kilómetros.
+Impulso el desarrollo regional al acercar ciudades, aunque exige gran inversión
+en infraestructura dedicada. Es un símbolo de modernización del transporte
+público en varios países.
 
 ## Fuentes
 
-- Registrar aqui las fuentes publicas consultadas.
-- Enlazar cada fuente tambien en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- Registrar aquí las fuentes públicas consultadas.
+- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 
-[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Caracteristicas](../operacion/caracteristicas-tren-alta-velocidad.md)
+[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Características](../operacion/caracteristicas-tren-alta-velocidad.md)

@@ -1,34 +1,34 @@
-# 📋 Caracteristicas del caza estelar
+# 📋 Características del caza estelar
 
-[🏠 Inicio](../../../README.md) · [🛸 Curso: Caza estelar](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🛸 Curso: Caza estelar](../README.md) · 📋 Características
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Que es un caza estelar generico, que rasgos lo definen en la ficcion y cuales
-tendrian sentido fisico real. Este modulo da el contexto antes de abrir la
-tecnologia por dentro en el Modulo 3.
+Que es un caza estelar genérico, que rasgos lo definen en la ficción y cuales
+tendrían sentido físico real. Este módulo da el contexto antes de abrir la
+tecnología por dentro en el Módulo 3.
 
 ---
 
-## 🧭 Definicion
+## 🧭 Definición
 
-Un caza estelar, en la ficcion estilo "Star Wars", es una nave pequena y
-maniobrable pensada para el combate en el espacio. La imaginamos veloz, agil y
-capaz de girar como un avion de caza. En este curso la usamos como excusa para
-estudiar como se moveria de verdad un vehiculo asi en el vacio.
+Un caza estelar, en la ficción estilo "Star Wars", es una nave pequeña y
+maniobrable pensada para el combate en el espacio. La imaginamos veloz, ágil y
+capaz de girar como un avión de caza. En este curso la usamos como excusa para
+estudiar cómo se moveria de verdad un vehículo así en el vacío.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧬 Características clave
 
-| Caracteristica | Como la muestra la ficcion | Lectura fisica real |
+| Característica | Como la muestra la ficción | Lectura física real |
 | --- | --- | --- |
-| Tamano compacto | Nave para uno o pocos tripulantes | Razonable: menos masa, menos energia para maniobrar. |
-| Agilidad | Giros cerrados tipo avion | En el vacio no hay aire que permita virar asi. |
+| Tamaño compacto | Nave para uno o pocos tripulantes | Razonable: menos masa, menos energía para maniobrar. |
+| Agilidad | Giros cerrados tipo avión | En el vacío no hay aire que permita virar así. |
 | Velocidad "de crucero" | Se frena al soltar el acelerador | Falso: sin rozamiento la nave sigue igual. |
-| Alas o aletas | Grandes superficies visibles | Inutiles sin atmosfera; solo estetica o radiadores. |
-| Armamento | Disparos con estela luminosa | La luz viajaria recta y no se veria el haz en el vacio. |
-| Propulsion | Un chorro brillante constante | Real solo mientras se gasta propelente. |
+| Alas o aletas | Grandes superficies visibles | Inutiles sin atmósfera; solo estética o radiadores. |
+| Armamento | Disparos con estela luminosa | La luz viajaria recta y no se veria el haz en el vacío. |
+| Propulsión | Un chorro brillante constante | Real solo mientras se gasta propelente. |
 
 ---
 
@@ -40,27 +40,27 @@ flowchart TD
     Caza --> Pesado[Caza pesado]
     Caza --> Apoyo[Nave de apoyo]
     Ligero --> Agil[Prioriza maniobra y RCS]
-    Pesado --> Blindaje[Mas masa y armamento]
-    Apoyo --> Autonomia[Mas propelente y alcance]
+    Pesado --> Blindaje[Más masa y armamento]
+    Apoyo --> Autonomia[Más propelente y alcance]
 ```
 
-| Tipo | Idea de diseno | Compromiso fisico |
+| Tipo | Idea de diseño | Compromiso físico |
 | --- | --- | --- |
-| Interceptor ligero | Poca masa, muchos propulsores de control | Reorienta rapido pero lleva poco propelente. |
-| Caza pesado | Mas blindaje y armamento | Mas masa exige mas empuje para el mismo cambio. |
-| Nave de apoyo | Gran deposito de propelente | Mayor autonomia de maniobra, menos agilidad. |
+| Interceptor ligero | Poca masa, muchos propulsores de control | Reorienta rápido pero lleva poco propelente. |
+| Caza pesado | Más blindaje y armamento | Más masa exige más empuje para el mismo cambio. |
+| Nave de apoyo | Gran depósito de propelente | Mayor autonomía de maniobra, menos agilidad. |
 
 ---
 
-## 🎯 Para que sirve en el relato
+## 🎯 Para qué sirve en el relato
 
-- Dar espectaculo con duelos rapidos y visuales.
-- Representar al piloto habil como heroe individual.
-- Simplificar el combate espacial a algo parecido al aereo.
+- Dar espectáculo con duelos rápidos y visuales.
+- Representar al piloto hábil como héroe individual.
+- Simplificar el combate espacial a algo parecido al aéreo.
 
 En cambio, para este curso sirve como laboratorio: cada rasgo llamativo nos
-deja preguntar si seria posible y por que.
+deja preguntar si sería posible y por  qué.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-caza-estelar.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-caza-estelar.md)
+[⬅️ Anterior: Historia](../historia/historia-caza-estelar.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-caza-estelar.md)

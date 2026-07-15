@@ -1,52 +1,52 @@
-# ⚖️ Reglamentos del automovil (Chile)
+# ⚖️ Reglamentos del automóvil (Chile)
 
-[🏠 Inicio](../../../README.md) · [🚗 Curso: Automoviles](../README.md) · ⚖️ Reglamentos
+[🏠 Inicio](../../../README.md) · [🚗 Curso: Automóviles](../README.md) · ⚖️ Reglamentos
 
-Referencia educativa y de diseno de simulacion. Marco general en
+Referencia educativa y de diseño de simulación. Marco general en
 [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md).
 
-## Ambito
+## Ámbito
 
-- Pais: Chile.
-- Ley base: Ley 18.290 (Ley de Transito).
+- País: Chile.
+- Ley base: Ley 18.290 (Ley de Tránsito).
 - Autoridad: CONASET, MTT, municipalidades, Carabineros.
-- Tipo de vehiculo: automovil o camioneta particular hasta 3.500 kg.
+- Tipo de vehículo: automóvil o camioneta particular hasta 3.500 kg.
 
 ## Licencia
 
 - Clase **B** (no profesional), Ley 18.290 Art. 12.
-- Edad minima: 18 anos (Art. 13).
-- Habilita vehiculos de 3 o mas ruedas, hasta 9 asientos o carga hasta 3.500 kg.
+- Edad mínima: 18 años (Art. 13).
+- Habilita vehículos de 3 o más ruedas, hasta 9 asientos o carga hasta 3.500 kg.
 
 ## Requisitos y elementos de seguridad
 
-| Tema | Norma | Requisito | Aplicacion en simulacion |
+| Tema | Norma | Requisito | Aplicación en simulación |
 | --- | --- | --- | --- |
-| Cinturon | Ley 18.290, Art. 79 | Obligatorio en asientos delanteros y traseros segun ano. | Exigir cinturon antes de partir. |
-| Retencion infantil | Ley 20.904 (Art. 75) | Silla para ninos hasta 8 anos; menores de 12 atras. | Escenario con pasajeros infantiles. |
-| Documentos | Ley 18.290 / Ley 18.490 | Padron, permiso de circulacion, revision tecnica, SOAP. | Chequeo previo simulado. |
-| Velocidad urbana | Ley 21.103 | 50 km/h general. | Limite del escenario urbano. |
+| Cinturón | Ley 18.290, Art. 79 | Obligatorio en asientos delanteros y traseros según año. | Exigir cinturón antes de partir. |
+| Retención infantil | Ley 20.904 (Art. 75) | Silla para ninos hasta 8 años; menores de 12 atrás. | Escenario con pasajeros infantiles. |
+| Documentos | Ley 18.290 / Ley 18.490 | Padrón, permiso de circulación, revisión técnica, SOAP. | Chequeo previo simulado. |
+| Velocidad urbana | Ley 21.103 | 50 km/h general. | Límite del escenario urbano. |
 | Alcohol | Ley 20.770 (Ley Emilia) | Sanciones por conducir bajo la influencia del alcohol. | Modo educativo sobre consecuencias. |
 
 ## Reglas de seguridad
 
-- Uso obligatorio de cinturon en todos los asientos ocupados.
-- Respetar senales, semaforos y prioridades de paso.
+- Uso obligatorio de cinturón en todos los asientos ocupados.
+- Respetar señales, semaforos y prioridades de paso.
 - Mantener distancia de seguimiento y velocidad prudente.
-- No usar el telefono mientras se conduce.
+- No usar el teléfono mientras se conduce.
 
 ## Restricciones
 
-- Edad minima 18 anos para licencia clase B.
-- Menores de 12 anos deben viajar en el asiento trasero.
-- Zonas con limites y restricciones segun senalizacion municipal.
+- Edad mínima 18 años para licencia clase B.
+- Menores de 12 años deben viajar en el asiento trasero.
+- Zonas con límites y restricciones según señalización municipal.
 
-## Notas para simulacion
+## Notas para simulación
 
-- Modelar cinturon, retencion infantil y respeto de senales.
+- Modelar cinturón, retención infantil y respeto de señales.
 - Usar avisos educativos ante infracciones.
 - Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 
-[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-automovil.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-automovil.md)
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-automovil.md) · [➡️ Siguiente: Diseño de simulación](../simulacion/diseno-simulador-automovil.md)

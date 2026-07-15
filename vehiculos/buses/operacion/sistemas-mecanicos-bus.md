@@ -1,23 +1,23 @@
-# 🔧 Sistemas mecanicos del bus
+# 🔧 Sistemas mecánicos del bus
 
-[🏠 Inicio](../../../README.md) · [🚌 Curso: Buses](../README.md) · 🔧 Sistemas mecanicos
+[🏠 Inicio](../../../README.md) · [🚌 Curso: Buses](../README.md) · 🔧 Sistemas mecánicos
 
-Este modulo abre el bus por dentro. Explica cada sistema, como funciona y como
-se conecta con los demas, con foco en el sistema neumatico, los frenos y las
-puertas. Es la base tecnica para entender los mandos (Modulo 4) y la operacion
-con pasajeros (Modulo 5).
+Este módulo abre el bus por dentro. Explica cada sistema, como funciona y como
+se conecta con los demás, con foco en el sistema neumático, los frenos y las
+puertas. Es la base técnica para entender los mandos (Módulo 4) y la operación
+con pasajeros (Módulo 5).
 
 ```mermaid
 flowchart LR
     subgraph Motriz
-        M[Motor trasero] --> Tr[Transmision automatica] --> Ret[Retardador] --> Eje[Eje trasero]
+        M[Motor trasero] --> Tr[Transmisión automática] --> Ret[Retardador] --> Eje[Eje trasero]
     end
     subgraph Neumatico
         Cmp[Compresor] --> Cal[Calderines] --> Aire[Red de aire]
     end
     subgraph Rodante
-        Ch[Chasis] --- Sus[Suspension neumatica]
-        Sus --- N[Neumaticos]
+        Ch[Chasis] --- Sus[Suspensión neumática]
+        Sus --- N[Neumáticos]
     end
     Aire --> Fr[Frenos de aire]
     Aire --> Pu[Puertas]
@@ -30,44 +30,44 @@ flowchart LR
 
 ## 1. ⚙️ Motor
 
-El motor transforma energia en movimiento de giro. En un bus suele ir en
-posicion **trasera**, lo que libera el piso para pasajeros y mejora el reparto
+El motor transforma energía en movimiento de giro. En un bus suele ir en
+posición **trasera**, lo que libera el piso para pasajeros y mejora el reparto
 de peso sobre el eje motriz.
 
-| Tipo de motor | Como funciona | Uso tipico |
+| Tipo de motor | Como funciona | Uso típico |
 | --- | --- | --- |
-| Diesel | Combustion por compresion, alto par. | El mas extendido, urbano e interurbano. |
-| Gas (GNC/GLP) | Combustion de gas, menos emisiones. | Flotas urbanas con red de recarga. |
-| Electrico | Motor alimentado por bateria, par inmediato. | Ciudad y BRT, cero emisiones locales. |
-| Hibrido | Combina diesel y electrico. | Recupera energia al frenar, ahorra en ciudad. |
+| Diesel | Combustión por compresión, alto par. | El más extendido, urbano e interurbano. |
+| Gas (GNC/GLP) | Combustión de gas, menos emisiones. | Flotas urbanas con red de recarga. |
+| Eléctrico | Motor alimentado por batería, par inmediato. | Ciudad y BRT, cero emisiones locales. |
+| Híbrido | Combina diesel y eléctrico. | Recupera energía al frenar, ahorra en ciudad. |
 
-| Parametro | Efecto en el bus |
+| Parámetro | Efecto en el bus |
 | --- | --- |
 | Cilindrada y cilindros | Par disponible para mover gran masa. |
 | Par (torque) | Fuerza de arranque con el bus cargado y en pendiente. |
 | Potencia (kW/CV) | Capacidad de mantener velocidad con carga. |
-| Posicion trasera | Mas espacio util y traccion sobre el eje trasero. |
+| Posición trasera | Más espacio útil y tracción sobre el eje trasero. |
 
 Sistemas de apoyo del motor:
 
-- **Alimentacion**: inyeccion electronica (common rail en diesel moderno).
-- **Refrigeracion**: por liquido con radiador de gran capacidad.
-- **Lubricacion**: aceite que reduce desgaste y disipa calor.
+- **Alimentación**: inyección electrónica (common raíl en diesel moderno).
+- **Refrigeración**: por líquido con radiador de gran capacidad.
+- **Lubricación**: aceite que reduce desgaste y disipa calor.
 - **Postratamiento**: filtros y SCR (AdBlue) para reducir emisiones.
 
 ---
 
-## 2. 🔗 Transmision
+## 2. 🔗 Transmisión
 
 Lleva la fuerza del motor al eje trasero y adapta fuerza y velocidad. En buses
-urbanos domina la **transmision automatica con convertidor de par**, que suaviza
+urbanos domina la **transmisión automática con convertidor de par**, que suaviza
 la marcha y evita el embrague manual con pasajeros de pie.
 
 ```mermaid
 flowchart LR
     Motor --> Convertidor[Convertidor de par]
-    Convertidor --> Caja[Caja automatica]
-    Caja --> Cardan[Arbol de transmision]
+    Convertidor --> Caja[Caja automática]
+    Caja --> Cardan[Árbol de transmisión]
     Cardan --> Diferencial[Diferencial]
     Diferencial --> Eje[Eje trasero]
     Retardador[Retardador] -. frena .-> Cardan
@@ -75,23 +75,23 @@ flowchart LR
 
 - **Convertidor de par**: acopla el motor a la caja mediante fluido, sin pedal
   de embrague; permite arrancar suave con carga.
-- **Caja automatica**: selecciona la relacion sin intervencion del conductor.
-- **Retardador**: freno auxiliar (hidraulico o electromagnetico) que frena sin
+- **Caja automática**: selecciona la relación sin intervención del conductor.
+- **Retardador**: freno auxiliar (hidráulico o electromagnético) que frena sin
   desgastar las zapatas; clave en pendientes largas.
-- **Transmision final**: arbol, diferencial y eje trasero entregan el giro.
+- **Transmisión final**: árbol, diferencial y eje trasero entregan el giro.
 
-| Elemento | Funcion | Ventaja operativa |
+| Elemento | Función | Ventaja operativa |
 | --- | --- | --- |
 | Convertidor de par | Acople fluido motor-caja | Arranque suave, sin embrague. |
-| Caja automatica | Cambia relaciones sola | Menos fatiga, marcha estable. |
-| Retardador | Frenado sin friccion | Protege frenos en bajadas largas. |
+| Caja automática | Cambia relaciones sola | Menos fatiga, marcha estable. |
+| Retardador | Frenado sin fricción | Protege frenos en bajadas largas. |
 
 ---
 
-## 3. 🎯 Direccion
+## 3. 🎯 Dirección
 
-Un bus usa **direccion asistida** (hidraulica o electrohidraulica) porque el
-esfuerzo para girar las ruedas de un vehiculo tan pesado seria inviable a mano.
+Un bus usa **dirección asistida** (hidráulica o electrohidraulica) porque el
+esfuerzo para girar las ruedas de un vehículo tan pesado sería inviable a mano.
 
 - **Asistencia**: una bomba multiplica la fuerza del conductor sobre el volante.
 - **Radio de giro**: amplio; el bus necesita mucho espacio para maniobrar.
@@ -102,15 +102,15 @@ esfuerzo para girar las ruedas de un vehiculo tan pesado seria inviable a mano.
 
 ## 4. 🛑 Frenos
 
-Convierten la energia de movimiento en calor. Por la gran masa, los buses usan
-**frenos neumaticos de aire** en vez de hidraulicos.
+Convierten la energía de movimiento en calor. Por la gran masa, los buses usan
+**frenos neumáticos de aire** en vez de hidráulicos.
 
 ```mermaid
 flowchart TD
-    Pedal[Pedal de freno] --> Valvula[Valvula de freno]
+    Pedal[Pedal de freno] --> Valvula[Válvula de freno]
     Calderin[Calderin de aire] --> Valvula
-    Valvula --> CamaraD[Camaras de freno delanteras]
-    Valvula --> CamaraT[Camaras de freno traseras]
+    Valvula --> CamaraD[Cámaras de freno delanteras]
+    Valvula --> CamaraT[Cámaras de freno traseras]
     CamaraD --> ZapataD[Zapatas / discos delanteros]
     CamaraT --> ZapataT[Zapatas / discos traseros]
     ABS[ABS / EBS] -. modula .-> ZapataD
@@ -119,80 +119,80 @@ flowchart TD
     FrenoMotor[Freno motor] -. complementa .-> Motor[Motor]
 ```
 
-| Sistema | Funcion | Nota |
+| Sistema | Función | Nota |
 | --- | --- | --- |
 | Freno de servicio | Frenado principal por aire. | Se acciona con el pedal. |
 | ABS | Evita bloqueo de ruedas. | Mantiene control en frenada fuerte. |
-| EBS | Frenado electronico repartido. | Distribuye la fuerza por eje. |
-| Freno motor | Retencion del motor al soltar acelerador. | Ahorra frenos en descensos. |
-| Retardador | Freno auxiliar sin friccion. | Ideal en pendientes largas. |
+| EBS | Frenado electrónico repartido. | Distribuye la fuerza por eje. |
+| Freno motor | Retención del motor al soltar acelerador. | Ahorra frenos en descensos. |
+| Retardador | Freno auxiliar sin fricción. | Ideal en pendientes largas. |
 | Freno de estacionamiento | Bloqueo por muelle (spring brake). | Se aplica al detener y sin aire. |
 
-Nota de seguridad: si el aire cae por debajo del minimo, el **freno de muelle**
-se aplica solo y detiene el bus; esto es un diseno a prueba de fallos.
+Nota de seguridad: si el aire cae por debajo del mínimo, el **freno de muelle**
+se aplica solo y detiene el bus; esto es un diseño a prueba de fallos.
 
 ---
 
-## 5. 🌊 Suspension
+## 5. 🌊 Suspensión
 
-Mantiene los neumaticos en contacto con el suelo y da confort a los pasajeros.
-Los buses modernos usan **suspension neumatica** (fuelles de aire).
+Mantiene los neumáticos en contacto con el suelo y da confort a los pasajeros.
+Los buses modernos usan **suspensión neumática** (fuelles de aire).
 
 - **Fuelles de aire**: reemplazan a los muelles metalicos y absorben el camino.
-- **Nivelacion**: mantiene la altura constante aunque cambie la carga.
-- **Arrodillamiento (kneeling)**: baja la carroceria del lado de la puerta para
-  facilitar el ascenso; usa el mismo aire de la suspension.
+- **Nivelación**: mantiene la altura constante aunque cambie la carga.
+- **Arrodillamiento (kneeling)**: baja la carrocería del lado de la puerta para
+  facilitar el ascenso; usa el mismo aire de la suspensión.
 
 ---
 
-## 6. 💨 Sistema neumatico
+## 6. 💨 Sistema neumático
 
-Es el corazon auxiliar del bus: el aire comprimido acciona frenos, puertas y
-suspension. Entenderlo es clave para operar el vehiculo.
+Es el corazón auxiliar del bus: el aire comprimido acciona frenos, puertas y
+suspensión. Entenderlo es clave para operar el vehículo.
 
 ```mermaid
 flowchart LR
     Motor[Motor] --> Compresor[Compresor de aire]
     Compresor --> Secador[Secador de aire]
-    Secador --> Calderines[Calderines / depositos]
+    Secador --> Calderines[Calderines / depósitos]
     Calderines --> Frenos[Frenos de aire]
-    Calderines --> Puertas[Puertas neumaticas]
-    Calderines --> Suspension[Suspension y kneeling]
-    Manometro[Manometro] -. vigila .-> Calderines
+    Calderines --> Puertas[Puertas neumáticas]
+    Calderines --> Suspension[Suspensión y kneeling]
+    Manometro[Manómetro] -. vigila .-> Calderines
 ```
 
-| Componente | Funcion |
+| Componente | Función |
 | --- | --- |
 | Compresor | Genera aire comprimido movido por el motor. |
-| Secador | Elimina humedad para evitar corrosion y hielo. |
-| Calderines | Depositos que almacenan el aire a presion. |
-| Valvulas | Reparten el aire a cada sistema. |
-| Manometro | Muestra la presion; avisa si es insuficiente. |
+| Secador | Elimina humedad para evitar corrosión y hielo. |
+| Calderines | Depósitos que almacenan el aire a presión. |
+| Válvulas | Reparten el aire a cada sistema. |
+| Manómetro | Muestra la presión; avisa si es insuficiente. |
 
-- **Presion tipica de trabajo**: del orden de 8 a 12 bar en los calderines.
-- **Presion minima**: por debajo de un umbral suena una alarma y no se debe
+- **Presión típica de trabajo**: del orden de 8 a 12 bar en los calderines.
+- **Presión mínima**: por debajo de un umbral suena una alarma y no se debe
   arrancar; los frenos de muelle pueden aplicarse.
-- **Regla operativa**: antes de mover el bus se espera a que la presion suba al
+- **Regla operativa**: antes de mover el bus se espera a que la presión suba al
   rango normal.
 
 ---
 
 ## 7. 🚪 Puertas
 
-Las puertas de pasajeros son **neumaticas**: el mismo aire comprimido las abre y
+Las puertas de pasajeros son **neumáticas**: el mismo aire comprimido las abre y
 cierra desde el puesto de mando.
 
 - **Accionamiento**: el conductor abre y cierra con un control dedicado.
-- **Sensores**: detectan obstaculos o personas y reabren para evitar atrapamientos.
+- **Sensores**: detectan obstáculos o personas y reabren para evitar atrapamientos.
 - **Enclavamiento**: con puertas abiertas el bus no debe poder avanzar (o limita
   la marcha), por seguridad de los pasajeros.
 
-| Elemento | Funcion |
+| Elemento | Función |
 | --- | --- |
-| Cilindro neumatico | Mueve la hoja de la puerta con aire. |
-| Sensor de borde | Reabre si detecta un obstaculo. |
+| Cilindro neumático | Mueve la hoja de la puerta con aire. |
+| Sensor de borde | Reabre si detecta un obstáculo. |
 | Enclavamiento de marcha | Impide avanzar con puertas abiertas. |
-| Boton de solicitud | El pasajero pide parada; avisa al conductor. |
+| Botón de solicitud | El pasajero pide parada; avisa al conductor. |
 
 ---
 
@@ -200,44 +200,44 @@ cierra desde el puesto de mando.
 
 El bus debe atender a todos los pasajeros, incluidos los de movilidad reducida.
 
-| Elemento | Funcion |
+| Elemento | Función |
 | --- | --- |
 | Piso bajo | Acceso a nivel de acera, sin escalones. |
 | Rampa | Despliega para sillas de ruedas y coches. |
-| Arrodillamiento | Baja el lado de la puerta para reducir el escalon. |
+| Arrodillamiento | Baja el lado de la puerta para reducir el escalón. |
 | Espacio reservado | Zona para silla de ruedas con anclaje. |
 | Aforo | Suma de plazas sentadas y de pie autorizadas. |
 | Asideros | Barras y correas para pasajeros de pie. |
 
-El **aforo** es el numero maximo de pasajeros permitido; superarlo compromete la
-seguridad y la dinamica de frenado.
+El **aforo** es el número máximo de pasajeros permitido; superarlo compromete la
+seguridad y la dinámica de frenado.
 
 ---
 
-## 9. ⚡ Sistema electrico
+## 9. ⚡ Sistema eléctrico
 
-Alimenta luces, tablero, puertas electronicas, validadores de pago y sistemas de
+Alimenta luces, tablero, puertas electrónicas, validadores de pago y sistemas de
 apoyo.
 
-- **Bateria** y alternador (o convertidores en electricos) dan la energia.
-- **24 voltios** es la tension habitual en buses, superior a los 12 V de un auto.
-- Alimenta iluminacion interior, letreros de ruta, camaras y comunicacion.
+- **Batería** y alternador (o convertidores en eléctricos) dan la energía.
+- **24 voltios** es la tensión habitual en buses, superior a los 12 V de un auto.
+- Alimenta iluminación interior, letreros de ruta, cámaras y comunicación.
 
 ---
 
-## 🔁 Como se conecta todo
+## 🔁 Cómo se conecta todo
 
 1. El **motor trasero** genera fuerza.
-2. La **transmision automatica** la adapta sin embrague manual.
+2. La **transmisión automática** la adapta sin embrague manual.
 3. El **eje trasero** entrega el movimiento a las ruedas.
 4. El **compresor** llena los **calderines** de aire comprimido.
-5. Ese aire acciona **frenos**, **puertas** y **suspension neumatica**.
+5. Ese aire acciona **frenos**, **puertas** y **suspensión neumática**.
 6. El **retardador** y el **freno motor** ayudan a frenar la gran masa.
-7. La **direccion asistida** permite girar; el conductor vigila el barrido trasero.
+7. La **dirección asistida** permite girar; el conductor vigila el barrido trasero.
 
-Con esto entendido, el [Modulo 4: Mandos](../mandos/manual-mandos-bus.md) muestra
+Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-bus.md) muestra
 como el conductor opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Caracteristicas](caracteristicas-bus.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-bus.md)
+[⬅️ Anterior: Características](caracteristicas-bus.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-bus.md)

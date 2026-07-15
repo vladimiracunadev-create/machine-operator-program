@@ -1,11 +1,11 @@
-# 🔧 Sistemas mecanicos del submarino
+# 🔧 Sistemas mecánicos del submarino
 
-[🏠 Inicio](../../../README.md) · [🌊 Curso: Submarinos](../README.md) · 🔧 Sistemas mecanicos
+[🏠 Inicio](../../../README.md) · [🌊 Curso: Submarinos](../README.md) · 🔧 Sistemas mecánicos
 
-Este modulo describe, **solo con fisica publica**, como flota, se sumerge, avanza
-y gobierna un submarino. No incluye sistemas de armas, tactica ni datos
-sensibles. Es la base para entender los mandos (Modulo 4) y la fisica de la
-inmersion (Modulo 5).
+Este módulo describe, **solo con física pública**, como flota, se sumerge, avanza
+y gobierna un submarino. No incluye sistemas de armas, táctica ni datos
+sensibles. Es la base para entender los mandos (Módulo 4) y la física de la
+inmersión (Módulo 5).
 
 ```mermaid
 flowchart LR
@@ -13,13 +13,13 @@ flowchart LR
         Ta[Tanques de lastre] --> Ag[Agua o aire]
     end
     subgraph Propulsion
-        M[Planta propulsora] --> Ej[Linea de ejes] --> H[Helice]
+        M[Planta propulsora] --> Ej[Línea de ejes] --> H[Hélice]
     end
     subgraph Gobierno
-        Ti[Timon] --> Pl[Planos de inmersion]
+        Ti[Timón] --> Pl[Planos de inmersión]
     end
     Ag --> Peso[Peso vs empuje]
-    Peso --> Inmersion[Inmersion o emersion]
+    Peso --> Inmersion[Inmersión o emersión]
     H --> Empuje[Avance]
     Pl --> Profundidad[Rumbo y profundidad]
 ```
@@ -31,7 +31,7 @@ flowchart LR
 El submarino controla su profundidad ajustando su peso frente al empuje del agua.
 
 - **Flotabilidad positiva**: pesa menos que el agua que desplaza; flota.
-- **Flotabilidad negativa**: pesa mas; se hunde.
+- **Flotabilidad negativa**: pesa más; se hunde.
 - **Flotabilidad neutra**: peso igual al empuje; se mantiene a una cota.
 - **Tanques de lastre**: se inundan con agua para sumergirse y se vacian con
   aire comprimido para emerger.
@@ -44,77 +44,77 @@ El submarino controla su profundidad ajustando su peso frente al empuje del agua
 
 ---
 
-## 2. 🧱 Casco resistente y presion
+## 2. 🧱 Casco resistente y presión
 
-El casco debe soportar la presion del agua, que aumenta con la profundidad.
+El casco debe soportar la presión del agua, que aumenta con la profundidad.
 
 ```mermaid
 flowchart TD
-    Profundidad[Mayor profundidad] --> Presion[Mayor presion del agua]
+    Profundidad[Mayor profundidad] --> Presion[Mayor presión del agua]
     Presion --> Casco[Casco resistente]
-    Casco --> Limite[Cota maxima segura]
+    Casco --> Limite[Cota máxima segura]
     Casco --> Seguridad[Integridad estructural]
 ```
 
-- **Casco resistente**: estructura interior que aguanta la presion.
-- **Casco exterior**: da forma hidrodinamica y aloja tanques de lastre.
-- **Presion con la profundidad**: cada 10 metros anade aproximadamente una
-  atmosfera; por eso existe una cota maxima segura de diseno.
+- **Casco resistente**: estructura interior que aguanta la presión.
+- **Casco exterior**: da forma hidrodinámica y aloja tanques de lastre.
+- **Presión con la profundidad**: cada 10 metros añade aproximadamente una
+  atmósfera; por eso existe una cota máxima segura de diseño.
 
 ---
 
-## 3. 🔧 Propulsion
+## 3. 🔧 Propulsión
 
-Convierte energia en empuje para avanzar sumergido o en superficie.
+Convierte energía en empuje para avanzar sumergido o en superficie.
 
-- **Planta propulsora**: diesel-electrica (motor y baterias) o nuclear segun el
+- **Planta propulsora**: diesel-electrica (motor y baterías) o nuclear según el
   tipo.
-- **Baterias**: permiten avanzar sumergido de forma silenciosa (en los
+- **Baterías**: permiten avanzar sumergido de forma silenciosa (en los
   convencionales).
-- **Linea de ejes y helice**: transmiten el giro y generan empuje.
+- **Línea de ejes y hélice**: transmiten el giro y generan empuje.
 
 ---
 
-## 4. ⚙️ Gobierno: timon y planos de inmersion
+## 4. ⚙️ Gobierno: timón y planos de inmersión
 
 El submarino gobierna en tres dimensiones.
 
-- **Timon vertical**: cambia el rumbo (izquierda/derecha).
-- **Planos de inmersion (horizontales)**: controlan el angulo y la profundidad
+- **Timón vertical**: cambia el rumbo (izquierda/derecha).
+- **Planos de inmersión (horizontales)**: controlan el ángulo y la profundidad
   al avanzar, complementando el lastre.
-- **Combinacion**: lastre para flotabilidad general, planos para ajuste fino en
+- **Combinación**: lastre para flotabilidad general, planos para ajuste fino en
   movimiento.
 
-| Mando | Eje | Funcion |
+| Mando | Eje | Función |
 | --- | --- | --- |
-| Timon vertical | Horizontal | Cambiar rumbo. |
+| Timón vertical | Horizontal | Cambiar rumbo. |
 | Planos de proa | Vertical | Ajuste fino de profundidad. |
-| Planos de popa | Vertical | Angulo de inmersion. |
+| Planos de popa | Vertical | Ángulo de inmersión. |
 | Lastre | Vertical | Flotabilidad general. |
 
 ---
 
-## 5. 🫁 Soporte vital y energia
+## 5. 🫁 Soporte vital y energía
 
-- **Soporte vital**: renueva el oxigeno y retira el dioxido de carbono para
-  sostener a la tripulacion.
-- **Energia**: baterias y planta propulsora alimentan todos los sistemas.
+- **Soporte vital**: renueva el oxígeno y retira el dioxido de carbono para
+  sostener a la tripulación.
+- **Energía**: baterías y planta propulsora alimentan todos los sistemas.
 - **Aire comprimido**: reserva para vaciar tanques y emerger.
 
 ---
 
-## 🔁 Como se conecta todo
+## 🔁 Cómo se conecta todo
 
 1. Los **tanques de lastre** fijan la flotabilidad (subir, bajar, mantener).
-2. El **casco resistente** soporta la presion a profundidad.
-3. La **planta propulsora** mueve la **helice** para avanzar.
-4. El **timon** y los **planos** controlan rumbo y profundidad.
+2. El **casco resistente** soporta la presión a profundidad.
+3. La **planta propulsora** mueve la **hélice** para avanzar.
+4. El **timón** y los **planos** controlan rumbo y profundidad.
 5. El **soporte vital** mantiene el aire respirable.
 
 Con esto entendido, el
-[Modulo 4: Mandos](../mandos/manual-mandos-submarino.md) describe, a nivel
+[Módulo 4: Mandos](../mandos/manual-mandos-submarino.md) describe, a nivel
 educativo, como se opera el puesto de control.
 
 ---
 
-[⬅️ Anterior: Caracteristicas](caracteristicas-submarino.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-submarino.md)
+[⬅️ Anterior: Características](caracteristicas-submarino.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-submarino.md)

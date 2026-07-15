@@ -1,25 +1,25 @@
-# Plan de documentacion por vehiculo
+# Plan de documentación por vehículo
 
-Este plan define el orden recomendado para completar el repositorio. La idea es avanzar desde maquinas simples y cotidianas hacia sistemas complejos, navales, aereos, militares y espaciales.
+Este plan define el orden recomendado para completar el repositorio. La idea es avanzar desde máquinas simples y cotidianas hacia sistemas complejos, navales, aéreos, militares y espaciales.
 
-## Fase 1: tierra basica
+## Fase 1: tierra básica
 
 1. Motos
-2. Automoviles
-3. Formula 1
+2. Automóviles
+3. Fórmula 1
 4. Buses
 5. Camiones
-6. Tanques (marco publico)
-7. Gruas
+6. Tanques (marco público)
+7. Grúas
 8. Tractores
-9. Maquinaria de construccion
+9. Maquinaria de construcción
 
-Objetivo: dominar aceleracion, frenado, direccion, transmision, peso, estabilidad, normas de transito y ergonomia de mandos, desde el vehiculo mas simple hasta la maquinaria de carga y trabajo.
+Objetivo: dominar aceleración, frenado, dirección, transmisión, peso, estabilidad, normas de tránsito y ergonomia de mandos, desde el vehículo más simple hasta la maquinaria de carga y trabajo.
 
-Izaje y transporte vertical (extension de maquinaria):
+Izaje y transporte vertical (extensión de maquinaria):
 
-1. Grua portuaria
-2. Grua torre
+1. Grúa portuaria
+2. Grúa torre
 3. Ascensores
 
 ## Fase 1b: ferroviario
@@ -28,9 +28,9 @@ Izaje y transporte vertical (extension de maquinaria):
 2. Tren de alta velocidad
 3. Tren de carga
 
-Objetivo: entender la traccion sobre rieles, el frenado de grandes masas, la senalizacion, el gobierno por via y las diferencias entre transporte de personas y de carga.
+Objetivo: entender la tracción sobre rieles, el frenado de grandes masas, la señalización, el gobierno por vía y las diferencias entre transporte de personas y de carga.
 
-## Fase 2: navegacion maritima
+## Fase 2: navegación marítima
 
 1. Barcos mercantes
 2. Cruceros
@@ -38,38 +38,38 @@ Objetivo: entender la traccion sobre rieles, el frenado de grandes masas, la sen
 4. Portaviones
 5. Submarinos
 
-Objetivo: documentar propulsion naval, gobierno por timon, navegacion, comunicaciones, tripulacion, seguridad, maniobras de puerto y representacion responsable de buques militares.
+Objetivo: documentar propulsión naval, gobierno por timón, navegación, comunicaciones, tripulación, seguridad, maniobras de puerto y representación responsable de buques militares.
 
-## Fase 3: aviacion
+## Fase 3: aviación
 
-1. Aviones pequenos
+1. Aviones pequeños
 2. Aviones de pasajeros
-3. Helicopteros
+3. Helicópteros
 4. Drones (RPAS)
 5. Aviones de combate
 
-Objetivo: estudiar sustentacion, superficies de control, instrumentos de vuelo, navegacion aerea, reglas basicas y diferencias entre simulacion civil y militar.
+Objetivo: estudiar sustentación, superficies de control, instrumentos de vuelo, navegación aérea, reglas básicas y diferencias entre simulación civil y militar.
 
 ## Fase 4: espacio
 
 1. Cohetes (lanzadores actuales)
 2. Transbordadores
-3. Estacion espacial (ISS)
+3. Estación espacial (ISS)
 4. Naves espaciales
 
-Objetivo: documentar propulsion, orbitalidad, energia, soporte vital, acoplamiento simulado, navegacion espacial y diferencias entre ciencia realista y ficcion interactiva.
+Objetivo: documentar propulsión, orbitalidad, energía, soporte vital, acoplamiento simulado, navegación espacial y diferencias entre ciencia realista y ficción interactiva.
 
-## Entregable minimo por vehiculo
+## Entregable mínimo por vehículo
 
-Cada vehiculo debe tener:
+Cada vehículo debe tener:
 
 - ficha general;
 - mapa de mandos;
 - tabla de instrumentos;
 - historia;
 - reglamentos;
-- principios fisicos;
-- procedimientos de simulacion;
-- riesgos y limites;
+- principios físicos;
+- procedimientos de simulación;
+- riesgos y límites;
 - fuentes;
 - ideas de futuro juego/simulador.

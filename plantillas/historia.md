@@ -2,32 +2,32 @@
 
 ## Origen
 
-Contexto de aparicion de la maquina.
+Contexto de aparición de la máquina.
 
-## Linea de tiempo
+## Línea de tiempo
 
 | Periodo | Hito | Importancia |
 | --- | --- | --- |
 | | | |
 
-## Evolucion tecnologica
+## Evolución tecnológica
 
 - Materiales:
-- Propulsion:
+- Propulsión:
 - Mandos:
 - Instrumentos:
 - Seguridad:
-- Automatizacion:
+- Automatización:
 
 ## Modelos o ejemplos representativos
 
-| Modelo | Periodo | Caracteristica destacada |
+| Modelo | Periodo | Característica destacada |
 | --- | --- | --- |
 | | | |
 
-## Impacto social, economico o militar
+## Impacto social, económico o militar
 
-Resumen del impacto de la maquina en su contexto.
+Resumen del impacto de la máquina en su contexto.
 
 ## Fuentes
 

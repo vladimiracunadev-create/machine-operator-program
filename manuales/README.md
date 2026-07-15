@@ -1,10 +1,10 @@
 # Biblioteca de manuales
 
-Carpeta para organizar manuales publicos, fichas tecnicas, documentos historicos y referencias permitidas.
+Carpeta para organizar manuales públicos, fichas técnicas, documentos históricos y referencias permitidas.
 
 ## Reglas
 
-- Guardar solo documentos publicos, autorizados o de dominio permitido.
+- Guardar solo documentos públicos, autorizados o de dominio permitido.
 - Registrar siempre la fuente original.
 - No incluir material clasificado, filtrado, restringido o sensible.
 - No usar manuales reales como sustituto de entrenamiento certificado.
@@ -30,15 +30,15 @@ manuales/
     naves-espaciales/
 ```
 
-## Registro minimo por PDF
+## Registro mínimo por PDF
 
 Cada PDF agregado debe registrarse en `manuales/fuentes.md` con:
 
 - nombre del archivo;
-- titulo del documento;
-- autor, institucion o fabricante;
+- título del documento;
+- autor, institución o fabricante;
 - URL o procedencia;
 - fecha de consulta;
-- tipo de licencia o condicion de uso;
-- vehiculo relacionado;
-- notas de uso para simulacion.
+- tipo de licencia o condición de uso;
+- vehículo relacionado;
+- notas de uso para simulación.

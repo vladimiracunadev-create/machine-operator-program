@@ -1,34 +1,34 @@
-# 📋 Caracteristicas del Halcon Milenario
+# 📋 Características del Halcón Milenario
 
-[🏠 Inicio](../../../README.md) · [🦅 Curso: Halcon Milenario](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🦅 Curso: Halcón Milenario](../README.md) · 📋 Características
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Que es un carguero rapido generico, que rasgos lo definen en la ficcion y cuales
-tendrian sentido fisico real. Este modulo da el contexto antes de abrir la
-tecnologia por dentro en el Modulo 3.
+Que es un carguero rápido genérico, que rasgos lo definen en la ficción y cuales
+tendrían sentido físico real. Este módulo da el contexto antes de abrir la
+tecnología por dentro en el Módulo 3.
 
 ---
 
-## 🧭 Definicion
+## 🧭 Definición
 
-Un carguero rapido, en la ficcion estilo "Star Wars", es una nave mediana
-pensada para transportar carga y tripulacion, pero modificada para correr y
-maniobrar mucho mas de lo normal. La imaginamos vieja, remendada y llena de
+Un carguero rápido, en la ficción estilo "Star Wars", es una nave mediana
+pensada para transportar carga y tripulación, pero modificada para correr y
+maniobrar mucho más de lo normal. La imaginamos vieja, remendada y llena de
 sorpresas bajo el capo. En este curso la usamos como excusa para estudiar como
-se moveria de verdad una nave asi cuando arrastra masa por el vacio.
+se moveria de verdad una nave así cuando arrastra masa por el vacío.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧬 Características clave
 
-| Caracteristica | Como la muestra la ficcion | Lectura fisica real |
+| Característica | Como la muestra la ficción | Lectura física real |
 | --- | --- | --- |
-| Tamano mediano | Bodega amplia y tripulacion reducida | Razonable: mas volumen exige mas estructura y masa. |
-| Velocidad excepcional | Corre mas que naves militares | En el vacio la clave es empuje frente a masa, no la forma. |
-| Motores sobredimensionados | Potencia enorme para su tamano | Plausible: mas empuje mejora la aceleracion. |
-| Carga variable | A veces vacia, a veces repleta | Real: cargada acelera menos, gasta mas propelente. |
-| Salto a la luz | Cruza la galaxia casi al instante | No fisico: rompe el limite de velocidad conocido. |
+| Tamaño mediano | Bodega amplia y tripulación reducida | Razonable: más volumen exige más estructura y masa. |
+| Velocidad excepcional | Corre más que naves militares | En el vacío la clave es empuje frente a masa, no la forma. |
+| Motores sobredimensionados | Potencia enorme para su tamaño | Plausible: más empuje mejora la aceleración. |
+| Carga variable | A veces vacía, a veces repleta | Real: cargada acelera menos, gasta más propelente. |
+| Salto a la luz | Cruza la galaxia casi al instante | No físico: rompe el límite de velocidad conocido. |
 | Aspecto remendado | Piezas de distintos origenes | Coherente con una nave veterana muy reparada. |
 
 ---
@@ -37,31 +37,31 @@ se moveria de verdad una nave asi cuando arrastra masa por el vacio.
 
 ```mermaid
 flowchart TD
-    Carguero[🦅 Carguero rapido] --> Ligero[Correo ligero]
+    Carguero[🦅 Carguero rápido] --> Ligero[Correo ligero]
     Carguero --> Mixto[Carguero mixto]
     Carguero --> Pesado[Carguero pesado]
-    Ligero --> Veloz[Poca carga, mucha aceleracion]
+    Ligero --> Veloz[Poca carga, mucha aceleración]
     Mixto --> Equilibrio[Carga y velocidad equilibradas]
     Pesado --> Volumen[Gran bodega, menos agilidad]
 ```
 
-| Tipo | Idea de diseno | Compromiso fisico |
+| Tipo | Idea de diseño | Compromiso físico |
 | --- | --- | --- |
-| Correo ligero | Poca masa, motores grandes | Acelera muy rapido pero lleva poca carga. |
-| Carguero mixto | Bodega media y motores potentes | Equilibrio entre carga util y maniobra. |
-| Carguero pesado | Bodega enorme | Mucha carga, pero menor aceleracion y mas propelente. |
+| Correo ligero | Poca masa, motores grandes | Acelera muy rápido pero lleva poca carga. |
+| Carguero mixto | Bodega media y motores potentes | Equilibrio entre carga útil y maniobra. |
+| Carguero pesado | Bodega enorme | Mucha carga, pero menor aceleración y más propelente. |
 
 ---
 
-## 🎯 Para que sirve en el relato
+## 🎯 Para qué sirve en el relato
 
-- Dar libertad al heroe: una nave propia para ir a cualquier parte.
-- Permitir fugas de ultimo momento gracias a su velocidad.
-- Representar el ingenio de reparar y mejorar una maquina veterana.
+- Dar libertad al héroe: una nave propia para ir a cualquier parte.
+- Permitir fugas de último momento gracias a su velocidad.
+- Representar el ingenio de reparar y mejorar una máquina veterana.
 
 En cambio, para este curso sirve como laboratorio: cada rasgo llamativo nos deja
-preguntar si seria posible y por que.
+preguntar si sería posible y por  qué.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-halcon-milenario.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-halcon-milenario.md)
+[⬅️ Anterior: Historia](../historia/historia-halcon-milenario.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-halcon-milenario.md)

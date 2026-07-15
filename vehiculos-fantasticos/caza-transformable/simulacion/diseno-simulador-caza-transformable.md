@@ -1,12 +1,12 @@
-# 🎮 Diseno de simulacion del caza transformable
+# 🎮 Diseño de simulación del caza transformable
 
-[🏠 Inicio](../../../README.md) · [🤖 Curso: Caza transformable](../README.md) · 🎮 Simulacion
+[🏠 Inicio](../../../README.md) · [🤖 Curso: Caza transformable](../README.md) · 🎮 Simulación
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este modulo traduce todo lo aprendido en un modelo de simulador educativo. El
-corazon del diseno es la maquina de estados: los tres modos y las transiciones
-entre ellos, con sus costos de tiempo y energia.
+Este módulo traduce todo lo aprendido en un modelo de simulador educativo. El
+corazón del diseño es la máquina de estados: los tres modos y las transiciones
+entre ellos, con sus costos de tiempo y energía.
 
 ```mermaid
 stateDiagram-v2
@@ -22,25 +22,25 @@ stateDiagram-v2
 
 ---
 
-## Objetivo de la simulacion
+## Objetivo de la simulación
 
-Que el usuario entienda, jugando, por que cada modo sirve para algo distinto:
+Que el usuario entienda, jugando, por  qué cada modo sirve para algo distinto:
 cruzar el cielo en modo caza, maniobrar en el intermedio y operar en el suelo en
 modo humanoide. Y sobre todo, que perciba que transformar tiene un costo.
 
 ---
 
-## Modo ciencia frente a modo ficcion
+## Modo ciencia frente a modo ficción
 
-El simulador ofrece dos formas de tratar la fisica, seleccionables con una
+El simulador ofrece dos formas de tratar la física, seleccionables con una
 variable de modo:
 
-- **Modo ciencia**: la transformacion tarda, consume energia y desplaza el centro
+- **Modo ciencia**: la transformación tarda, consume energía y desplaza el centro
   de masa. El humanoide vuela fatal por su arrastre. Es el modo realista.
-- **Modo ficcion**: la transformacion es casi instantanea y el humanoide vuela
-  sin penalizacion. Es el modo espectacular, fiel al estilo de la ficcion.
+- **Modo ficción**: la transformación es casi instantánea y el humanoide vuela
+  sin penalización. Es el modo espectacular, fiel al estilo de la ficción.
 
-Comparar ambos modos es en si mismo la mejor leccion del curso.
+Comparar ambos modos es en si mismo la mejor lección del curso.
 
 ---
 
@@ -48,34 +48,34 @@ Comparar ambos modos es en si mismo la mejor leccion del curso.
 
 | Variable | Tipo | Rango | Afecta a | Comentarios |
 | --- | --- | --- | --- | --- |
-| Modo actual | discreta | caza, intermedio, humanoide | Aerodinamica y control | Estado central. |
-| Modo ciencia/ficcion | discreta | ciencia, ficcion | Realismo del modelo | Cambia las reglas fisicas. |
-| Energia | numerica | 0-100% | Motores y transformacion | Transformar la consume. |
-| Progreso de cambio | numerica | 0-100% | Fase de transicion | Bloquea acciones a medias. |
-| Centro de masa | numerica | -1..1 | Estabilidad | Se desplaza al transformar. |
-| Velocidad | numerica | 0-100% | Arrastre y sustentacion | Limita cuando transformar. |
-| Carga estructural | numerica | 0-100% | Riesgo de dano | Sube al forzar el mecanismo. |
-| Arrastre | numerica | 0-100% | Consumo y velocidad | Muy alto en modo humanoide. |
+| Modo actual | discreta | caza, intermedio, humanoide | Aerodinámica y control | Estado central. |
+| Modo ciencia/ficción | discreta | ciencia, ficción | Realismo del modelo | Cambia las reglas físicas. |
+| Energía | numérica | 0-100% | Motores y transformación | Transformar la consume. |
+| Progreso de cambio | numérica | 0-100% | Fase de transición | Bloquea acciones a medias. |
+| Centro de masa | numérica | -1..1 | Estabilidad | Se desplaza al transformar. |
+| Velocidad | numérica | 0-100% | Arrastre y sustentación | Limita cuando transformar. |
+| Carga estructural | numérica | 0-100% | Riesgo de daño | Sube al forzar el mecanismo. |
+| Arrastre | numérica | 0-100% | Consumo y velocidad | Muy alto en modo humanoide. |
 
 ---
 
-## Ciclo basico
+## Ciclo básico
 
 1. Leer entradas del usuario (empuje, ejes de vuelo, cambio de modo).
-2. Actualizar el estado de transformacion segun el modo elegido.
-3. En modo ciencia, aplicar tiempo, energia y desplazamiento del centro de masa.
-4. Calcular fuerzas: empuje, arrastre y sustentacion segun el modo actual.
-5. Actualizar velocidad, actitud y posicion.
-6. Refrescar instrumentos: modo, energia, centro de masa y cargas.
+2. Actualizar el estado de transformación según el modo elegido.
+3. En modo ciencia, aplicar tiempo, energía y desplazamiento del centro de masa.
+4. Calcular fuerzas: empuje, arrastre y sustentación según el modo actual.
+5. Actualizar velocidad, actitud y posición.
+6. Refrescar instrumentos: modo, energía, centro de masa y cargas.
 
 ---
 
 ## Modos de juego futuros
 
 - Tutorial de las tres formas y sus transiciones.
-- Reto de cruzar una distancia gastando la minima energia.
-- Comparativa lado a lado de modo ciencia frente a modo ficcion.
-- Maniobras de aproximacion y contacto con el suelo.
+- Reto de cruzar una distancia gastando la mínima energía.
+- Comparativa lado a lado de modo ciencia frente a modo ficción.
+- Maniobras de aproximación y contacto con el suelo.
 
 ---
 
@@ -83,15 +83,15 @@ Comparar ambos modos es en si mismo la mejor leccion del curso.
 
 - Cualquier contenido que presente la violencia como objetivo del juego.
 - Datos que pretendan replicar sistemas de armas reales.
-- Escenas sensibles ajenas al proposito educativo.
+- Escenas sensibles ajenas al propósito educativo.
 
 ---
 
 ## Pendientes
 
-- [ ] Ajustar el costo energetico de cada transformacion.
-- [ ] Modelar el arrastre del modo humanoide con mas detalle.
-- [ ] Prototipar la maquina de estados en un motor simple.
+- [ ] Ajustar el costo energético de cada transformación.
+- [ ] Modelar el arrastre del modo humanoide con más detalle.
+- [ ] Prototipar la máquina de estados en un motor simple.
 
 ---
 

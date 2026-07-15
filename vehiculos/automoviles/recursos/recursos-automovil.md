@@ -1,25 +1,25 @@
-# 🧰 Recursos del automovil
+# 🧰 Recursos del automóvil
 
-[🏠 Inicio](../../../README.md) · [🚗 Curso: Automoviles](../README.md) · 🧰 Recursos
+[🏠 Inicio](../../../README.md) · [🚗 Curso: Automóviles](../README.md) · 🧰 Recursos
 
-Glosario especifico, enlaces y diagramas de apoyo del curso de automoviles.
+Glosario específico, enlaces y diagramas de apoyo del curso de automóviles.
 Amplia el [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
-| Traccion | Ruedas que reciben la fuerza del motor: delantera, trasera o integral. |
+| Tracción | Ruedas que reciben la fuerza del motor: delantera, trasera o integral. |
 | Diferencial | Mecanismo que permite a las ruedas de un eje girar a distinta velocidad. |
 | Subviraje | El auto no gira lo suficiente porque el eje delantero pierde agarre. |
-| Sobreviraje | La parte trasera se abre y el auto gira mas de lo deseado. |
+| Sobreviraje | La parte trasera se abre y el auto gira más de lo deseado. |
 | Transferencia de peso | Desplazamiento de la carga entre ruedas al frenar, acelerar o girar. |
 | ABS | Sistema que evita el bloqueo de las ruedas al frenar fuerte. |
 | ESC | Control de estabilidad que corrige derrapes con frenado selectivo. |
 | Cilindrada | Volumen total de los cilindros del motor, en litros o cc. |
-| Aquaplaning | Perdida de contacto del neumatico por una capa de agua. |
+| Aquaplaning | Pérdida de contacto del neumático por una capa de agua. |
 
 ---
 
@@ -27,7 +27,7 @@ Amplia el [glosario general](../../../docs/05-glosario-general.md).
 
 ```mermaid
 flowchart LR
-    Motor[Motor] --> Trans[Transmision]
+    Motor[Motor] --> Trans[Transmisión]
     Trans --> Dif[Diferencial]
     Dif --> Ruedas[Ruedas motrices]
     Ruedas --> Suelo[Adherencia con el suelo]
@@ -47,4 +47,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-automovil.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-automovil.md)

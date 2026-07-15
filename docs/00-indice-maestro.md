@@ -1,27 +1,27 @@
-# Indice maestro
+# Índice maestro
 
 ## Documentos generales
 
-- `docs/01-vision-del-proyecto.md`: vision, alcance y filosofia del multisimulador.
-- `docs/02-metodologia-documental.md`: como investigar y documentar cada maquina.
-- `docs/03-niveles-de-realismo.md`: niveles desde arcade educativo hasta simulacion avanzada.
-- `docs/04-seguridad-y-limites.md`: limites de seguridad, fuentes y uso responsable.
-- `docs/05-glosario-general.md`: vocabulario comun del repositorio.
-- `docs/06-plan-vehiculos.md`: orden recomendado para documentar vehiculo por vehiculo.
-- `docs/07-marco-legal-chile.md`: marco legal chileno e internacional por tipo de vehiculo.
-- `docs/08-guia-de-estilo-y-curso.md`: iconografia, estructura de curso y navegacion.
+- `docs/01-vision-del-proyecto.md`: visión, alcance y filosofía del multisimulador.
+- `docs/02-metodologia-documental.md`: cómo investigar y documentar cada máquina.
+- `docs/03-niveles-de-realismo.md`: niveles desde arcade educativo hasta simulación avanzada.
+- `docs/04-seguridad-y-limites.md`: límites de seguridad, fuentes y uso responsable.
+- `docs/05-glosario-general.md`: vocabulario común del repositorio.
+- `docs/06-plan-vehiculos.md`: orden recomendado para documentar vehículo por vehículo.
+- `docs/07-marco-legal-chile.md`: marco legal chileno e internacional por tipo de vehículo.
+- `docs/08-guia-de-estilo-y-curso.md`: iconografía, estructura de curso y navegación.
 
 ## Secciones generales
 
 - `mandos/`: criterios comunes para describir mandos e instrumentos.
-- `manuales/`: biblioteca de fuentes publicas y su registro.
-- `historia/`: ejes para sintetizar la evolucion de cada maquina.
+- `manuales/`: biblioteca de fuentes públicas y su registro.
+- `historia/`: ejes para sintetizar la evolución de cada máquina.
 - `reglamentos/`: normas, licencias y seguridad de referencia.
-- `operacion/`: fases y criterios generales de operacion en simulacion.
+- `operacion/`: fases y criterios generales de operación en simulación.
 - `recursos/`: esquemas, tablas, enlaces y glosarios de apoyo.
-- `simuladores/`: preparacion de los futuros juegos y simuladores.
+- `simuladores/`: preparación de los futuros juegos y simuladores.
 
-## Vehiculos
+## Vehículos
 
 - `vehiculos/motos` (documentado como ejemplo de referencia)
 - `vehiculos/automoviles`
@@ -53,9 +53,9 @@
 - `vehiculos/estacion-espacial`
 - `vehiculos/naves-espaciales`
 
-## Naves de ficcion (seccion educativa)
+## Naves de ficción (sección educativa)
 
-- `vehiculos-fantasticos/` (catalogo y aviso de derechos)
+- `vehiculos-fantasticos/` (catálogo y aviso de derechos)
 - `vehiculos-fantasticos/delorean`
 - `vehiculos-fantasticos/caza-estelar`
 - `vehiculos-fantasticos/nave-exploracion`
@@ -78,11 +78,11 @@
 - `plantillas/diseno-simulacion.md`
 - `plantillas/checklist-documentacion.md`
 
-## Colaboracion y gobierno
+## Colaboración y gobierno
 
-- `CONTRIBUTING.md`: como aportar documentacion y validar cambios.
+- `CONTRIBUTING.md`: cómo aportar documentación y validar cambios.
 - `CODE_OF_CONDUCT.md`: normas de convivencia del proyecto.
 - `CHANGELOG.md`: historial de cambios relevantes.
 - `LICENSE`: licencia MIT del repositorio.
 - `scripts/validar_estructura.py`: validador de estructura y enlaces internos.
-- `.github/workflows/validar-documentacion.yml`: validacion automatica en CI.
+- `.github/workflows/validar-documentacion.yml`: validación automática en CI.

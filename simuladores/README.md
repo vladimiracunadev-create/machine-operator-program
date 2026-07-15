@@ -1,28 +1,28 @@
 # Simuladores futuros
 
-Esta carpeta prepara el trabajo para juegos o simuladores que se construiran mas adelante.
+Esta carpeta prepara el trabajo para juegos o simuladores que se construiran más adelante.
 
 ## Estado actual
 
-El proyecto esta en fase documental. Todavia no se implementan juegos.
+El proyecto está en fase documental. Todavía no se implementan juegos.
 
-## Futuras lineas de simulacion
+## Futuras líneas de simulación
 
 - Simulador de moto.
-- Simulador de automovil.
+- Simulador de automóvil.
 - Simulador de bus urbano.
-- Simulador de grua.
+- Simulador de grúa.
 - Simulador de barco mercante.
-- Simulador naval historico.
+- Simulador naval histórico.
 - Simulador de submarino educativo.
-- Simulador de avion pequeno.
+- Simulador de avión pequeño.
 - Simulador aeroespacial.
 
-## Criterios de diseno
+## Criterios de diseño
 
-- Primero documentacion.
+- Primero documentación.
 - Luego prototipo simple.
 - Luego controles e instrumentos.
-- Luego fisica basica.
+- Luego física básica.
 - Luego misiones educativas.
 - Luego niveles de realismo.

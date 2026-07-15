@@ -1,19 +1,19 @@
 # Reglamentos
 
-## Ambito
+## Ámbito
 
-- Pais o region:
+- País o región:
 - Autoridad reguladora:
-- Tipo de vehiculo:
-- Fecha de revision:
+- Tipo de vehículo:
+- Fecha de revisión:
 
 ## Requisitos generales
 
-| Tema | Requisito | Fuente | Aplicacion en simulacion |
+| Tema | Requisito | Fuente | Aplicación en simulación |
 | --- | --- | --- | --- |
 | Licencia | | | |
 | Seguridad | | | |
-| Circulacion/navegacion/vuelo | | | |
+| Circulación/navegación/vuelo | | | |
 | Mantenimiento | | | |
 
 ## Reglas de seguridad
@@ -30,6 +30,6 @@
 - Condiciones ambientales:
 - Carga o pasajeros:
 
-## Notas para simulacion
+## Notas para simulación
 
-Que reglas deben representarse dentro del juego o simulador?
+¿Qué reglas deben representarse dentro del juego o simulador?

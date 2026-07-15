@@ -1,31 +1,31 @@
-# Ficha de vehiculo
+# Ficha de vehículo
 
-## Identificacion
+## Identificación
 
 - Nombre:
 - Tipo:
 - Variantes:
 - Uso principal:
 - Entorno:
-- Tripulacion u operador:
+- Tripulación u operador:
 - Nivel de riesgo:
 
-## Descripcion general
+## Descripción general
 
-Resumen claro de que es la maquina, para que sirve y que la diferencia de otras.
+Resumen claro de que es la máquina, para que sirve y que la diferencia de otras.
 
 ## Principios de funcionamiento
 
-- Propulsion:
-- Direccion:
-- Frenado o detencion:
+- Propulsión:
+- Dirección:
+- Frenado o detención:
 - Estabilidad:
-- Energia o combustible:
+- Energía o combustible:
 - Sensores o instrumentos:
 
 ## Mandos principales
 
-| Mando | Funcion | Entrada del usuario | Resultado esperado | Notas de simulacion |
+| Mando | Función | Entrada del usuario | Resultado esperado | Notas de simulación |
 | --- | --- | --- | --- | --- |
 | | | | | |
 
@@ -35,31 +35,31 @@ Resumen claro de que es la maquina, para que sirve y que la diferencia de otras.
 | --- | --- | --- | --- | --- |
 | | | | | |
 
-## Procedimientos de simulacion
+## Procedimientos de simulación
 
-1. Preparacion.
+1. Preparación.
 2. Inicio.
-3. Movimiento basico.
+3. Movimiento básico.
 4. Maniobras.
-5. Detencion.
+5. Detención.
 6. Apagado o cierre.
 
 ## Historia
 
-Resumen historico, hitos, cambios tecnologicos y usos destacados.
+Resumen histórico, hitos, cambios tecnologicos y usos destacados.
 
 ## Reglamentos
 
-Normas publicas relevantes, licencias, restricciones y reglas de seguridad.
+Normas públicas relevantes, licencias, restricciones y reglas de seguridad.
 
 ## Riesgos
 
-- Riesgos mecanicos:
+- Riesgos mecánicos:
 - Riesgos ambientales:
 - Riesgos humanos:
-- Riesgos de simulacion:
+- Riesgos de simulación:
 
-## Bibliografia y fuentes
+## Bibliografía y fuentes
 
 - Fuente 1:
 - Fuente 2:

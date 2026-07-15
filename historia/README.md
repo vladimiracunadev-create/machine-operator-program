@@ -1,28 +1,28 @@
 # Historia general
 
-Carpeta para sintetizar la evolucion de las maquinas incluidas en el multisimulador.
+Carpeta para sintetizar la evolución de las máquinas incluidas en el multisimulador.
 
 ## Objetivo
 
-Entender como cambiaron los mandos, sistemas, materiales, reglas y usos de cada vehiculo a lo largo del tiempo.
+Entender como cambiaron los mandos, sistemas, materiales, reglas y usos de cada vehículo a lo largo del tiempo.
 
-## Ejes de investigacion
+## Ejes de investigación
 
-- Origen de la maquina.
-- Evolucion de mandos e instrumentos.
-- Cambios en propulsion.
+- Origen de la máquina.
+- Evolución de mandos e instrumentos.
+- Cambios en propulsión.
 - Cambios de seguridad.
 - Impacto social, comercial, industrial o militar.
 - Modelos representativos.
-- Transicion hacia automatizacion.
+- Transición hacia automatización.
 
-## Relacion con simulacion
+## Relación con simulación
 
-La historia ayuda a definir epocas de juego:
+La historia ayuda a definir épocas de juego:
 
-- clasico;
+- clásico;
 - moderno;
 - futurista;
-- historico educativo;
-- simulacion tecnica actual;
-- ciencia ficcion plausible.
+- histórico educativo;
+- simulación técnica actual;
+- ciencia ficción plausible.

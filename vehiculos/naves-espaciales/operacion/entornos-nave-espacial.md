@@ -2,9 +2,9 @@
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Naves espaciales](../README.md) · 🌍 Entornos
 
-Donde opera una nave espacial y como cambian las condiciones segun el entorno.
-Cada entorno implica riesgos y ajustes distintos, y en simulacion se traduce en
-escenarios diferentes, siempre separando ciencia real de ficcion.
+Dónde opera una nave espacial y cómo cambian las condiciones según el entorno.
+Cada entorno implica riesgos y ajustes distintos, y en simulación se traduce en
+escenarios diferentes, siempre separando ciencia real de ficción.
 
 ---
 
@@ -31,31 +31,31 @@ mindmap
       Sin atmosfera respirable
 ```
 
-| Entorno | Caracteristicas | Riesgos tipicos | Ajuste de operacion |
+| Entorno | Características | Riesgos típicos | Ajuste de operación |
 | --- | --- | --- | --- |
-| Orbita baja | Microgravedad, orbita rapida. | Basura orbital, radiacion parcial. | Control de actitud, gestion de recursos. |
-| Espacio profundo | Grandes distancias, poca luz. | Retardo de comunicacion, radiacion. | Autonomia y planificacion de energia. |
-| Reentrada | Calor y frenado por el aire. | Sobrecalentamiento, mala orientacion. | Escudo termico al frente, angulo correcto. |
-| Superficie (Luna, Marte) | Gravedad menor, vacio o poca atmosfera. | Polvo, temperatura, sin aire. | Trajes, soporte vital, descenso controlado. |
-| Escenario de ficcion | Reglas inventadas. | Confundir con la realidad. | Marcar siempre como ficcion. |
+| Órbita baja | Microgravedad, órbita rápida. | Basura orbital, radiación parcial. | Control de actitud, gestión de recursos. |
+| Espacio profundo | Grandes distancias, poca luz. | Retardo de comunicación, radiación. | Autonomía y planificación de energía. |
+| Reentrada | Calor y frenado por el aire. | Sobrecalentamiento, mala orientación. | Escudo térmico al frente, ángulo correcto. |
+| Superficie (Luna, Marte) | Gravedad menor, vacío o poca atmósfera. | Polvo, temperatura, sin aire. | Trajes, soporte vital, descenso controlado. |
+| Escenario de ficción | Reglas inventadas. | Confundir con la realidad. | Marcar siempre como ficción. |
 
 ---
 
 ## 🌦️ Factores del entorno
 
-- **Vacio**: sin aire no hay sustentacion ni conveccion; el calor se maneja distinto.
-- **Temperatura**: mucho calor al Sol y mucho frio a la sombra.
-- **Radiacion**: fuera de la atmosfera aumenta y afecta a personas y equipos.
-- **Distancia**: cuanto mas lejos, mayor el retardo de las comunicaciones.
+- **Vacío**: sin aire no hay sustentación ni convección; el calor se maneja distinto.
+- **Temperatura**: mucho calor al Sol y mucho frío a la sombra.
+- **Radiación**: fuera de la atmósfera aumenta y afecta a personas y equipos.
+- **Distancia**: cuanto más lejos, mayor el retardo de las comunicaciones.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
-Cada entorno es un escenario con su gravedad, su radiacion y su regimen de orbita
-o reentrada. Ver como se modela en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-nave-espacial.md).
+Cada entorno es un escenario con su gravedad, su radiación y su régimen de órbita
+o reentrada. Ver cómo se modela en el
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-nave-espacial.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-nave-espacial.md)
+[⬅️ Anterior: Principios y operación](principios-nave-espacial.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-nave-espacial.md)

@@ -1,14 +1,14 @@
 # 🚆 Curso: Tren de pasajeros
 
-[🏠 Inicio](../../README.md) · [🚙 Catalogo de vehiculos](../README.md) · [🎓 Guia de curso](../../docs/08-guia-de-estilo-y-curso.md)
+[🏠 Inicio](../../README.md) · [🚙 Catálogo de vehículos](../README.md) · [🎓 Guía de curso](../../docs/08-guia-de-estilo-y-curso.md)
 
 > **Curso del tren de pasajeros.** Documenta el tren de principio a fin:
-> historia, caracteristicas, mecanica en profundidad, mandos de cabina, fisica
-> de la adherencia rueda-riel, entornos, marco ferroviario chileno y diseno de
-> simulacion. Sigue el modelo del curso de motos.
+> historia, características, mecánica en profundidad, mandos de cabina, física
+> de la adherencia rueda-riel, entornos, marco ferroviario chileno y diseño de
+> simulación. Sigue el modelo del curso de motos.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Modulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-9-blue)
 ![Marco Chile](https://img.shields.io/badge/marco-Ferroviario%20EFE-orange)
 
 ---
@@ -17,60 +17,60 @@
 
 Al terminar este curso deberias poder:
 
-- Explicar como un tren acelera, frena y se guia sobre los rieles.
-- Distinguir la traccion electrica de la traccion diesel-electrica.
-- Identificar los sistemas mecanicos del tren y como se conectan.
-- Reconocer los mandos del puesto del maquinista y su funcion.
+- Explicar como un tren acelera, frena y se guía sobre los rieles.
+- Distinguir la tracción eléctrica de la tracción diesel-electrica.
+- Identificar los sistemas mecánicos del tren y cómo se conectan.
+- Reconocer los mandos del puesto del maquinista y su función.
 - Comprender la adherencia rueda-riel, la gran masa y las distancias de frenado.
-- Conocer el marco ferroviario chileno (EFE, MTT, habilitacion del maquinista).
+- Conocer el marco ferroviario chileno (EFE, MTT, habilitación del maquinista).
 - Traducir todo lo anterior en variables de un simulador educativo.
 
 ---
 
-## 🗺️ Mapa del vehiculo
+## 🗺️ Mapa del vehículo
 
 ```mermaid
 flowchart TD
-    Catenaria[⚡ Catenaria o linea] --> Pantografo[Pantografo]
-    Pantografo --> Traccion[🔧 Equipo de traccion]
+    Catenaria[⚡ Catenaria o línea] --> Pantografo[Pantógrafo]
+    Pantografo --> Traccion[🔧 Equipo de tracción]
     Diesel[⛽ Motor diesel] --> Generador[Generador]
     Generador --> Traccion
-    Traccion --> Motores[Motores de traccion]
+    Traccion --> Motores[Motores de tracción]
     Motores --> Bogies[Bogies y ejes]
-    Bogies --> Ruedas[Ruedas de pestana]
+    Bogies --> Ruedas[Ruedas de pestaña]
     Ruedas --> Riel[Riel]
     Pupitre[🎛️ Pupitre de cabina] --> Traccion
     Pupitre --> Freno[🛑 Sistema de freno]
     Freno --> Ruedas
-    Senales[🚦 Senalizacion] -. informa .-> Maquinista[🧍 Maquinista]
+    Senales[🚦 Señalización] -. informa .-> Maquinista[🧍 Maquinista]
     Maquinista --> Pupitre
 ```
 
 ---
 
-## 📚 Modulos del curso
+## 📚 Módulos del curso
 
-| # | Modulo | Contenido | Enlace |
+| # | Módulo | Contenido | Enlace |
 | :-: | --- | --- | --- |
-| 1 | 📜 Historia | Del vapor a la electrificacion y los metros modernos. | [Abrir](historia/historia-tren-pasajeros.md) |
-| 2 | 📋 Caracteristicas | Que es un tren de pasajeros y sus tipos. | [Abrir](operacion/caracteristicas-tren-pasajeros.md) |
-| 3 | 🔧 Sistemas mecanicos | Traccion, bogies, adherencia, freno, senalizacion. | [Abrir](operacion/sistemas-mecanicos-tren-pasajeros.md) |
+| 1 | 📜 Historia | Del vapor a la electrificación y los metros modernos. | [Abrir](historia/historia-tren-pasajeros.md) |
+| 2 | 📋 Características | Que es un tren de pasajeros y sus tipos. | [Abrir](operacion/caracteristicas-tren-pasajeros.md) |
+| 3 | 🔧 Sistemas mecánicos | Tracción, bogies, adherencia, freno, señalización. | [Abrir](operacion/sistemas-mecanicos-tren-pasajeros.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puesto del maquinista, controles e indicadores. | [Abrir](mandos/manual-mandos-tren-pasajeros.md) |
-| 5 | 🧪 Principios y operacion | Adherencia, gran masa y fases de operacion. | [Abrir](operacion/principios-tren-pasajeros.md) |
-| 6 | 🌍 Entornos de trabajo | Metro, superficie, interurbano, tuneles, estaciones. | [Abrir](operacion/entornos-tren-pasajeros.md) |
-| 7 | ⚖️ Reglamentos | Marco ferroviario chileno: EFE, MTT, habilitacion. | [Abrir](reglamentos/reglamentos-tren-pasajeros.md) |
-| 8 | 🎮 Diseno de simulacion | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-tren-pasajeros.md) |
+| 5 | 🧪 Principios y operación | Adherencia, gran masa y fases de operación. | [Abrir](operacion/principios-tren-pasajeros.md) |
+| 6 | 🌍 Entornos de trabajo | Metro, superficie, interurbano, túneles, estaciones. | [Abrir](operacion/entornos-tren-pasajeros.md) |
+| 7 | ⚖️ Reglamentos | Marco ferroviario chileno: EFE, MTT, habilitación. | [Abrir](reglamentos/reglamentos-tren-pasajeros.md) |
+| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-tren-pasajeros.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-tren-pasajeros.md) |
 
 ---
 
 ## 🧩 Requisitos previos
 
-Conviene haber revisado antes un vehiculo terrestre mas simple como la moto o el
-bus, porque el tren comparte ideas de traccion y frenado pero agrega la guia
-sobre rieles, la gran masa y el control por senales. Marco legal comun en
+Conviene haber revisado antes un vehículo terrestre más simple como la moto o el
+bus, porque el tren comparte ideas de tracción y frenado pero agrega la guía
+sobre rieles, la gran masa y el control por señales. Marco legal común en
 [⚖️ docs/07-marco-legal-chile.md](../../docs/07-marco-legal-chile.md).
 
 ---
 
-[➡️ Empezar por el Modulo 1: Historia](historia/historia-tren-pasajeros.md)
+[➡️ Empezar por el Módulo 1: Historia](historia/historia-tren-pasajeros.md)

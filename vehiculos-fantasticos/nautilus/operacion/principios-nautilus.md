@@ -1,74 +1,74 @@
-# 🧪 Principios y operacion del Nautilus
+# 🧪 Principios y operación del Nautilus
 
 [🏠 Inicio](../../../README.md) · [🐙 Curso: Nautilus](../README.md) · 🧪 Principios
 
-> ⚖️ Material educativo original; el Nautilus de Julio Verne (1870) es de dominio publico; otros derechos pertenecen a sus titulares.
+> ⚖️ Material educativo original; el Nautilus de Julio Verne (1870) es de dominio público; otros derechos pertenecen a sus titulares.
 
-Documento educativo. Analiza que cosas del Nautilus son fisicamente posibles,
-cuales no, y por que. La gracia de esta nave es que Verne acerto en casi todo lo
-esencial del submarino, asi que sirve para separar la buena intuicion cientifica
+Documento educativo. Analiza que cosas del Nautilus son físicamente posibles,
+cuales no, y por  qué. La gracia de esta nave es que Verne acerto en casi todo lo
+esencial del submarino, así que sirve para separar la buena intuición científica
 de la licencia narrativa.
 
 ## Principios de funcionamiento
 
-- **Flotabilidad**: la nave sube o baja segun su peso frente al empuje de
-  Arquimedes. Los tanques de lastre cambian ese peso a voluntad.
-- **Presion**: crece con la profundidad, cerca de una atmosfera cada diez
+- **Flotabilidad**: la nave sube o baja según su peso frente al empuje de
+  Arquímedes. Los tanques de lastre cambian ese peso a voluntad.
+- **Presión**: crece con la profundidad, cerca de una atmósfera cada diez
   metros, y aprieta el casco desde todas direcciones.
-- **Estructura**: un casco redondeado y resistente reparte esa presion y evita
-  el aplastamiento hasta cierta profundidad limite.
-- **Energia**: una fuente electrica alimenta la propulsion y los sistemas de a
-  bordo, dando autonomia sin quemar combustible en cada viaje.
-- **Soporte vital**: el aire respirable es el recurso mas critico; hay que
-  reponer oxigeno y retirar el dioxido de carbono.
+- **Estructura**: un casco redondeado y resistente reparte esa presión y evita
+  el aplastamiento hasta cierta profundidad límite.
+- **Energía**: una fuente eléctrica alimenta la propulsión y los sistemas de a
+  bordo, dando autonomía sin quemar combustible en cada viaje.
+- **Soporte vital**: el aire respirable es el recurso más crítico; hay que
+  reponer oxígeno y retirar el dioxido de carbono.
 
-## Que si, que no y por que
+## Que si, que no y por  qué
 
-| Aspecto de la novela | Veredicto fisico | Por que |
+| Aspecto de la novela | Veredicto físico | Por  qué |
 | --- | --- | --- |
-| Sumergir con tanques de lastre | Posible | Es el metodo real de todo submarino. |
-| Casco resistente a la presion | Posible | Existe, con una profundidad limite. |
-| Energia electrica de a bordo | Posible | Los submarinos dependen de ella. |
-| Extraer energia del mar | Parcial | Hay baterias de sodio, pero con limites. |
-| Renovar el aire | Posible | Se repone oxigeno y se retira el CO2. |
-| Profundidades sin limite | No | Todo casco se aplasta a cierta presion. |
-| Autonomia casi ilimitada | Exagerado | La energia y el aire siempre se agotan. |
+| Sumergir con tanques de lastre | Posible | Es el método real de todo submarino. |
+| Casco resistente a la presión | Posible | Existe, con una profundidad límite. |
+| Energía eléctrica de a bordo | Posible | Los submarinos dependen de ella. |
+| Extraer energía del mar | Parcial | Hay baterías de sodio, pero con límites. |
+| Renovar el aire | Posible | Se repone oxígeno y se retira el CO2. |
+| Profundidades sin límite | No | Todo casco se aplasta a cierta presión. |
+| Autonomía casi ilimitada | Exagerado | La energía y el aire siempre se agotan. |
 
-## Ficcion frente a realidad
+## Ficción frente a realidad
 
-| Tema | Nautilus (ficcion) | Submarino real |
+| Tema | Nautilus (ficción) | Submarino real |
 | --- | --- | --- |
 | Sumergir y emerger | Tanques de lastre | Tanques de lastre. |
 | Rumbo y profundidad | Timones vertical y horizontales | Timones vertical y de buceo. |
-| Propulsion | Helice movida por electricidad | Helice movida por motor electrico. |
-| Fuente de energia | Electricidad del mar | Baterias, diesel o reactor nuclear. |
-| Limite de la inmersion | Sobre todo el aire | Presion del casco y aire disponible. |
+| Propulsión | Hélice movida por electricidad | Hélice movida por motor eléctrico. |
+| Fuente de energía | Electricidad del mar | Baterías, diesel o reactor nuclear. |
+| Límite de la inmersión | Sobre todo el aire | Presión del casco y aire disponible. |
 
-## Fases de operacion
+## Fases de operación
 
 | Fase | Que ocurre | Puntos clave |
 | --- | --- | --- |
-| Preparacion | Revision en superficie | Aire renovado, energia cargada, casco estanco. |
-| Inmersion | Ganar profundidad | Inundar lastre, controlar el descenso. |
+| Preparación | Revisión en superficie | Aire renovado, energía cargada, casco estanco. |
+| Inmersión | Ganar profundidad | Inundar lastre, controlar el descenso. |
 | Crucero sumergido | Navegar a media agua | Flotabilidad neutra, rumbo y velocidad. |
-| Observacion | Estudiar el entorno | Iluminacion, ventanas, instrumentos. |
+| Observación | Estudiar el entorno | Iluminación, ventanas, instrumentos. |
 | Ascenso | Volver a superficie | Purgar lastre, controlar la velocidad de subida. |
-| Ventilacion | Renovar el aire | Solo en superficie, reponer oxigeno. |
+| Ventilación | Renovar el aire | Solo en superficie, reponer oxígeno. |
 
-## Errores comunes que la simulacion puede ensenar a evitar
+## Errores comunes que la simulación puede enseñar a evitar
 
-- Bajar mas alla de la profundidad limite del casco.
-- Olvidar el nivel de aire durante una inmersion larga.
-- Ascender demasiado rapido al purgar todo el lastre de golpe.
+- Bajar más allá de la profundidad límite del casco.
+- Olvidar el nivel de aire durante una inmersión larga.
+- Ascender demasiado rápido al purgar todo el lastre de golpe.
 - Confundir flotabilidad neutra con estar detenido: la nave puede derivar.
-- Gastar toda la energia lejos de la superficie.
+- Gastar toda la energía lejos de la superficie.
 
-## Relacion con los niveles de realismo
+## Relación con los niveles de realismo
 
 - **Nivel 1 (educativo)**: sumergir, emerger, girar y vigilar la profundidad.
-- **Nivel 2 (simplificado)**: anadir presion creciente, limite de casco y
+- **Nivel 2 (simplificado)**: añadir presión creciente, límite de casco y
   consumo de aire.
-- **Nivel 3 (tecnico)**: sumar flotabilidad neutra fina, energia limitada y
+- **Nivel 3 (técnico)**: sumar flotabilidad neutra fina, energía limitada y
   velocidad de ascenso segura.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md)

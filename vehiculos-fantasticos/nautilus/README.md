@@ -1,18 +1,18 @@
 # 🐙 Curso: Nautilus
 
-[🏠 Inicio](../../README.md) · [🌌 Naves de ficcion](../README.md) · [🎓 Guia de curso](../../docs/08-guia-de-estilo-y-curso.md)
+[🏠 Inicio](../../README.md) · [🌌 Naves de ficción](../README.md) · [🎓 Guía de curso](../../docs/08-guia-de-estilo-y-curso.md)
 
-> ⚖️ Material educativo original; el Nautilus de Julio Verne (1870) es de dominio publico; otros derechos pertenecen a sus titulares.
+> ⚖️ Material educativo original; el Nautilus de Julio Verne (1870) es de dominio público; otros derechos pertenecen a sus titulares.
 
 ---
 
-> Curso de ficcion dedicado al **Nautilus**, el submarino que Julio Verne
-> imagino en 1870. Usamos esta nave visionaria para aprender fisica real:
-> flotabilidad, presion en profundidad, autonomia y soporte vital. Comparamos
-> lo que la novela acerto con la ingenieria submarina moderna.
+> Curso de ficción dedicado al **Nautilus**, el submarino que Julio Verne
+> imaginó en 1870. Usamos esta nave visionaria para aprender física real:
+> flotabilidad, presión en profundidad, autonomía y soporte vital. Comparamos
+> lo que la novela acerto con la ingeniería submarina moderna.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Modulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-9-blue)
 
 ---
 
@@ -20,12 +20,12 @@
 
 Al terminar este curso deberias poder:
 
-- Explicar el principio de Arquimedes y por que un casco de acero puede flotar.
+- Explicar el principio de Arquímedes y por  qué un casco de acero puede flotar.
 - Describir como los tanques de lastre permiten sumergir y emerger la nave.
-- Entender por que la presion crece con la profundidad y como afecta al casco.
-- Razonar sobre autonomia: energia, aire respirable y agua a bordo.
-- Distinguir que imagino Verne que hoy es real y que sigue siendo ficcion.
-- Traducir la flotabilidad y la presion en variables de un simulador educativo.
+- Entender por  qué la presión crece con la profundidad y como afecta al casco.
+- Razonar sobre autonomía: energía, aire respirable y agua a bordo.
+- Distinguir que imagino Verne que hoy es real y que sigue siendo ficción.
+- Traducir la flotabilidad y la presión en variables de un simulador educativo.
 
 ---
 
@@ -34,43 +34,43 @@ Al terminar este curso deberias poder:
 ```mermaid
 flowchart TD
     Nautilus[🐙 Nautilus] --> Flotabilidad[Flotabilidad]
-    Nautilus --> Presion[Presion en profundidad]
-    Nautilus --> Autonomia[Autonomia]
+    Nautilus --> Presion[Presión en profundidad]
+    Nautilus --> Autonomia[Autonomía]
     Flotabilidad --> Lastre[Tanques de lastre]
-    Flotabilidad --> Arquimedes[Principio de Arquimedes]
+    Flotabilidad --> Arquimedes[Principio de Arquímedes]
     Presion --> Casco[Resistencia del casco]
-    Presion --> Profundidad[Profundidad maxima]
-    Autonomia --> Energia[Fuente de energia]
+    Presion --> Profundidad[Profundidad máxima]
+    Autonomia --> Energia[Fuente de energía]
     Autonomia --> Aire[Soporte vital]
-    Autonomia --> Propulsion[Propulsion y navegacion]
+    Autonomia --> Propulsion[Propulsión y navegación]
 ```
 
 ---
 
-## 📚 Modulos del curso
+## 📚 Módulos del curso
 
-| # | Modulo | Contenido | Enlace |
+| # | Módulo | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | La novela de Verne, su contexto y la nave imaginada. | [Abrir](historia/historia-nautilus.md) |
-| 2 | 📋 Caracteristicas | Que es el Nautilus, forma, tamano y capacidades. | [Abrir](operacion/caracteristicas-nautilus.md) |
-| 3 | 🔧 Sistemas mecanicos | Tecnologia imaginada por Verne frente a la fisica real. | [Abrir](operacion/sistemas-mecanicos-nautilus.md) |
+| 2 | 📋 Características | Que es el Nautilus, forma, tamaño y capacidades. | [Abrir](operacion/caracteristicas-nautilus.md) |
+| 3 | 🔧 Sistemas mecánicos | Tecnología imaginada por Verne frente a la física real. | [Abrir](operacion/sistemas-mecanicos-nautilus.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puesto de mando, controles e instrumentos de a bordo. | [Abrir](mandos/manual-mandos-nautilus.md) |
-| 5 | 🧪 Principios y operacion | Que si, que no y por que, segun la fisica. | [Abrir](operacion/principios-nautilus.md) |
-| 6 | 🌍 Entornos | Superficie, aguas medias y grandes fondos oceanicos. | [Abrir](operacion/entornos-nautilus.md) |
+| 5 | 🧪 Principios y operación | Que si, que no y por  qué, según la física. | [Abrir](operacion/principios-nautilus.md) |
+| 6 | 🌍 Entornos | Superficie, aguas medias y grandes fondos oceánicos. | [Abrir](operacion/entornos-nautilus.md) |
 | 7 | ⚖️ Reglas del universo | Las leyes internas de la novela, no ley real. | [Abrir](reglamentos/reglas-universo-nautilus.md) |
-| 8 | 🎮 Diseno de simulacion | Variables, ciclo, estados y modo ciencia/ficcion. | [Abrir](simulacion/diseno-simulador-nautilus.md) |
+| 8 | 🎮 Diseño de simulación | Variables, ciclo, estados y modo ciencia/ficción. | [Abrir](simulacion/diseno-simulador-nautilus.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas de apoyo. | [Abrir](recursos/recursos-nautilus.md) |
 
 ---
 
 ## 🧩 Requisitos previos
 
-Ninguno. El Nautilus es un excelente caso para estudiar fisica de fluidos
-porque combina un concepto simple, la flotabilidad, con un desafio extremo, la
-presion de las profundidades. Conviene tener a mano el
+Ninguno. El Nautilus es un excelente caso para estudiar física de fluidos
+porque combina un concepto simple, la flotabilidad, con un desafío extremo, la
+presión de las profundidades. Conviene tener a mano el
 [🎓 nivel de realismo](../../docs/03-niveles-de-realismo.md) para graduar el
 detalle.
 
 ---
 
-[➡️ Empezar por el Modulo 1: Historia](historia/historia-nautilus.md)
+[➡️ Empezar por el Módulo 1: Historia](historia/historia-nautilus.md)

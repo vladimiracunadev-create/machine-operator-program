@@ -1,19 +1,19 @@
 # 🌀 Curso: Teletransportador
 
-[🏠 Inicio](../../README.md) · [🌌 Naves de ficcion](../README.md) · [🎓 Guia de curso](../../docs/08-guia-de-estilo-y-curso.md)
+[🏠 Inicio](../../README.md) · [🌌 Naves de ficción](../README.md) · [🎓 Guía de curso](../../docs/08-guia-de-estilo-y-curso.md)
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
 ---
 
-> Curso de analisis educativo de ciencia ficcion sobre el teletransportador,
-> ese aparato generico que "desmaterializa" a alguien en un sitio y lo hace
-> "aparecer" en otro. Lo usamos como excusa para estudiar la fisica real de la
-> informacion, la energia y el estado cuantico: que seria posible, que no y por
-> que la teletransportacion de las historias no es transporte de materia.
+> Curso de análisis educativo de ciencia ficción sobre el teletransportador,
+> ese aparato genérico que "desmaterializa" a alguien en un sitio y lo hace
+> "aparecer" en otro. Lo usamos como excusa para estudiar la física real de la
+> información, la energía y el estado cuántico: que sería posible, que no y por
+> que la teletransportación de las historias no es transporte de materia.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Modulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-9-blue)
 
 ---
 
@@ -21,55 +21,55 @@
 
 Al terminar este curso deberias poder:
 
-- Distinguir entre mover materia y mover la informacion que describe un objeto.
-- Estimar por que reconstruir un cuerpo exigiria energia y datos astronomicos.
-- Explicar el problema del duplicado: copiar un patron deja dos, no uno.
-- Entender que la teleportacion cuantica real transfiere estados, no objetos.
-- Razonar el teorema de no clonacion y el limite de la velocidad de la luz.
+- Distinguir entre mover materia y mover la información que describe un objeto.
+- Estimar por  qué reconstruir un cuerpo exigiria energía y datos astronómicos.
+- Explicar el problema del duplicado: copiar un patrón deja dos, no uno.
+- Entender que la teleportación cuántica real transfiere estados, no objetos.
+- Razonar el teorema de no clonación y el límite de la velocidad de la luz.
 - Traducir todo lo anterior a variables de un simulador educativo.
 
 ---
 
-## 🗺️ Mapa del vehiculo
+## 🗺️ Mapa del vehículo
 
 ```mermaid
 flowchart TD
-    Objeto[🧍 Objeto de origen] --> Escaner[🔬 Escaneo del patron]
-    Escaner --> Info[🧾 Informacion que lo describe]
-    Info --> Canal[📡 Canal de transmision]
-    Canal --> Recon[🏗️ Reconstruccion en destino]
-    Energia[🔋 Energia colosal] --> Escaner
+    Objeto[🧍 Objeto de origen] --> Escaner[🔬 Escaneo del patrón]
+    Escaner --> Info[🧾 Información que lo describe]
+    Info --> Canal[📡 Canal de transmisión]
+    Canal --> Recon[🏗️ Reconstrucción en destino]
+    Energia[🔋 Energía colosal] --> Escaner
     Energia --> Recon
-    Recon --> Copia[🧍 Patron reconstruido]
+    Recon --> Copia[🧍 Patrón reconstruido]
     Duda[❓ El original: se copia o se mueve] -. plantea .-> Recon
 ```
 
 ---
 
-## 📚 Modulos del curso
+## 📚 Módulos del curso
 
-| # | Modulo | Contenido | Enlace |
+| # | Módulo | Contenido | Enlace |
 | :-: | --- | --- | --- |
-| 1 | 📜 Historia | Contexto del teletransportador y de la fisica cuantica real. | [Abrir](historia/historia-teletransportador.md) |
-| 2 | 📋 Caracteristicas | Que es un teletransportador generico y para que sirve. | [Abrir](operacion/caracteristicas-teletransportador.md) |
-| 3 | 🔧 Sistemas mecanicos | Tecnologia imaginaria frente a la fisica real. | [Abrir](operacion/sistemas-mecanicos-teletransportador.md) |
+| 1 | 📜 Historia | Contexto del teletransportador y de la física cuántica real. | [Abrir](historia/historia-teletransportador.md) |
+| 2 | 📋 Características | Que es un teletransportador genérico y para que sirve. | [Abrir](operacion/caracteristicas-teletransportador.md) |
+| 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-teletransportador.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-teletransportador.md) |
-| 5 | 🧪 Principios y operacion | Informacion, energia y estado: que si, que no y por que. | [Abrir](operacion/principios-teletransportador.md) |
-| 6 | 🌍 Entornos | Donde y como se usaria el teletransporte. | [Abrir](operacion/entornos-teletransportador.md) |
-| 7 | ⚖️ Reglas del universo | Las leyes internas de la ficcion frente a la fisica. | [Abrir](reglamentos/reglas-universo-teletransportador.md) |
-| 8 | 🎮 Diseno de simulacion | Variables, ciclo y modo ciencia o ficcion. | [Abrir](simulacion/diseno-simulador-teletransportador.md) |
+| 5 | 🧪 Principios y operación | Información, energía y estado: que si, que no y por  qué. | [Abrir](operacion/principios-teletransportador.md) |
+| 6 | 🌍 Entornos | Donde y cómo se usaria el teletransporte. | [Abrir](operacion/entornos-teletransportador.md) |
+| 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-teletransportador.md) |
+| 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-teletransportador.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-teletransportador.md) |
 
 ---
 
 ## 🧩 Requisitos previos
 
-Ninguno formal. Ayuda tener nociones basicas de energia y de informacion, pero
+Ninguno formal. Ayuda tener nociones básicas de energía y de información, pero
 el curso las explica desde cero. La idea central es simple y potente: mover un
-objeto por teletransporte no seria mover su materia, sino medir, transmitir y
-reconstruir la enorme cantidad de informacion que lo describe, y eso choca con
-limites reales de energia, de datos y de la fisica cuantica.
+objeto por teletransporte no sería mover su materia, sino medir, transmitir y
+reconstruir la enorme cantidad de información que lo describe, y eso choca con
+límites reales de energía, de datos y de la física cuántica.
 
 ---
 
-[➡️ Empezar por el Modulo 1: Historia](historia/historia-teletransportador.md)
+[➡️ Empezar por el Módulo 1: Historia](historia/historia-teletransportador.md)

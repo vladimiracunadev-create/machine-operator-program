@@ -4,25 +4,25 @@
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Glosario especifico, diagrama de apoyo y enlaces internos del curso. Amplia el
-[glosario general](../../../docs/05-glosario-general.md) con los terminos de
-fisica que aparecen en esta nave.
+Glosario específico, diagrama de apoyo y enlaces internos del curso. Amplia el
+[glosario general](../../../docs/05-glosario-general.md) con los términos de
+física que aparecen en esta nave.
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
-| Energia cinetica | Energia asociada al movimiento; crece con el cuadrado de la velocidad. |
-| Potencia | Rapidez con la que se entrega energia; energia por unidad de tiempo. |
-| Velocidad umbral | Velocidad que la ficcion fija como disparador del salto; no tiene rol asi en la fisica real. |
-| Dilatacion temporal | Efecto real por el que un reloj en movimiento o cerca de gran masa avanza mas lento visto por otros. |
-| Futuro relativo | Consecuencia de la dilatacion: envejecer menos que quien queda en reposo. |
-| Curva temporal cerrada | Idea teorica exotica de una trayectoria que regresaria a su propio pasado. |
+| Energía cinética | Energía asociada al movimiento; crece con el cuadrado de la velocidad. |
+| Potencia | Rapidez con la que se entrega energía; energía por unidad de tiempo. |
+| Velocidad umbral | Velocidad que la ficción fija como disparador del salto; no tiene rol así en la física real. |
+| Dilatación temporal | Efecto real por el que un reloj en movimiento o cerca de gran masa avanza más lento visto por otros. |
+| Futuro relativo | Consecuencia de la dilatación: envejecer menos que quien queda en reposo. |
+| Curva temporal cerrada | Idea teórica exótica de una trayectoria que regresaria a su propio pasado. |
 | Causalidad | Principio de que las causas preceden a sus efectos. |
-| Paradoja del abuelo | Contradiccion clasica de impedir el propio origen al viajar al pasado. |
-| Autoconsistencia | Enfoque en el que ninguna accion del viajero puede contradecir la historia ya ocurrida. |
+| Paradoja del abuelo | Contradicción clásica de impedir el propio origen al viajar al pasado. |
+| Autoconsistencia | Enfoque en el que ninguna acción del viajero puede contradecir la historia ya ocurrida. |
 
 ---
 
@@ -30,9 +30,9 @@ fisica que aparecen en esta nave.
 
 ```mermaid
 flowchart LR
-    Energia[Energia y potencia] --> Umbral[Velocidad umbral]
-    Umbral --> Cinetica[Energia cinetica]
-    Cinetica --> Relatividad[Dilatacion temporal]
+    Energia[Energía y potencia] --> Umbral[Velocidad umbral]
+    Umbral --> Cinetica[Energía cinética]
+    Cinetica --> Relatividad[Dilatación temporal]
     Relatividad --> Futuro[Futuro relativo]
     Futuro --> Causalidad[Causalidad]
     Causalidad --> Paradojas[Paradojas del viaje al pasado]
@@ -43,18 +43,18 @@ flowchart LR
 ## 🔗 Enlaces internos
 
 - Portada del curso: [🕰️ Curso: DeLorean temporal](../README.md)
-- Catalogo de naves de ficcion: [🌌 Naves de ficcion](../../README.md)
+- Catálogo de naves de ficción: [🌌 Naves de ficción](../../README.md)
 - Glosario general del proyecto: [📖 docs/05-glosario-general.md](../../../docs/05-glosario-general.md)
 - Niveles de realismo: [📏 docs/03-niveles-de-realismo.md](../../../docs/03-niveles-de-realismo.md)
 
 ---
 
-## 📚 Fuentes de divulgacion
+## 📚 Fuentes de divulgación
 
-- Registrar aqui obras de divulgacion sobre relatividad y viaje en el tiempo.
-- Preferir material con licencia clara y de acceso publico.
-- Mantener siempre la separacion entre fisica real y ficcion.
+- Registrar aquí obras de divulgación sobre relatividad y viaje en el tiempo.
+- Preferir material con licencia clara y de acceso público.
+- Mantener siempre la separación entre física real y ficción.
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-delorean.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-delorean.md)

@@ -1,11 +1,11 @@
-# 🔧 Sistemas mecanicos del camion
+# 🔧 Sistemas mecánicos del camión
 
-[🏠 Inicio](../../../README.md) · [🚛 Curso: Camiones](../README.md) · 🔧 Sistemas mecanicos
+[🏠 Inicio](../../../README.md) · [🚛 Curso: Camiones](../README.md) · 🔧 Sistemas mecánicos
 
-Este modulo abre el camion por dentro y es el corazon del curso. Explica cada
-sistema, como funciona y como se conecta con los demas, con foco en el motor
-diesel, el frenado neumatico y la gestion del peso. Es la base tecnica para
-entender los mandos (Modulo 4) y la fisica de la conduccion con carga (Modulo 5).
+Este módulo abre el camión por dentro y es el corazón del curso. Explica cada
+sistema, como funciona y cómo se conecta con los demás, con foco en el motor
+diesel, el frenado neumático y la gestión del peso. Es la base técnica para
+entender los mandos (Módulo 4) y la física de la conducción con carga (Módulo 5).
 
 ```mermaid
 flowchart LR
@@ -29,166 +29,166 @@ flowchart LR
 
 ## 1. ⚙️ Motor diesel
 
-El corazon del camion es el **motor diesel**, elegido por su alto par a bajas
+El corazón del camión es el **motor diesel**, elegido por su alto par a bajas
 vueltas y su eficiencia de consumo, ambos clave para arrastrar gran masa.
 
 ### Ciclo diesel
 
-El diesel no usa bujia: comprime el aire hasta que se calienta y luego inyecta
+El diesel no usa bujía: comprime el aire hasta que se calienta y luego inyecta
 el combustible, que se enciende por la alta temperatura (encendido por
-compresion).
+compresión).
 
 ```mermaid
 flowchart LR
-    A[1. Admision, entra aire] --> B[2. Compresion, sube presion y calor]
-    B --> C[3. Inyeccion y combustion, empuje]
+    A[1. Admisión, entra aire] --> B[2. Compresión, sube presión y calor]
+    B --> C[3. Inyección y combustión, empuje]
     C --> D[4. Escape, salen gases]
     D --> A
 ```
 
-| Parametro | Efecto en el camion |
+| Parámetro | Efecto en el camión |
 | --- | --- |
-| Cilindrada | Mayor cilindrada da mas par para mover carga. |
+| Cilindrada | Mayor cilindrada da más par para mover carga. |
 | Par (torque) | Fuerza de arranque y de subida en pendiente cargado. |
 | Potencia (kW/CV) | Capacidad de mantener velocidad con carga completa. |
-| Regimen (rpm) | Zona economica de trabajo; el diesel gira bajo. |
+| Régimen (rpm) | Zona económica de trabajo; el diesel gira bajo. |
 | Turbo | Sobrealimenta aire y sube el par sin subir tanto el consumo. |
 
 ### Sistemas de apoyo del motor
 
-- **Alimentacion**: inyeccion electronica de alta presion (common rail).
-- **Sobrealimentacion**: turbocompresor movido por los gases de escape.
-- **Refrigeracion**: por liquido, con radiador de gran capacidad.
+- **Alimentación**: inyección electrónica de alta presión (common raíl).
+- **Sobrealimentación**: turbocompresor movido por los gases de escape.
+- **Refrigeración**: por líquido, con radiador de gran capacidad.
 - **Postratamiento**: EGR recircula gases y SCR con AdBlue reduce emisiones.
-- **Freno de motor**: valvula que usa la compresion para frenar sin desgaste.
+- **Freno de motor**: válvula que usa la compresión para frenar sin desgaste.
 
 ---
 
 ## 2. 🔗 Caja de cambios
 
-La transmision adapta el par del motor a la carga y a la pendiente. Un camion
-tiene muchas mas relaciones que un automovil porque debe arrancar con gran masa
-y mantener el motor en su zona economica.
+La transmisión adapta el par del motor a la carga y a la pendiente. Un camión
+tiene muchas más relaciones que un automóvil porque debe arrancar con gran masa
+y mantener el motor en su zona económica.
 
 ```mermaid
 flowchart LR
     Motor --> Embrague
     Embrague -->|conecta y desconecta| Caja[Caja de cambios]
-    Caja -->|relacion elegida| Cardan[Arbol de transmision]
+    Caja -->|relación elegida| Cardan[Árbol de transmisión]
     Cardan --> Diferencial
     Diferencial --> Ejes[Ejes motrices]
 ```
 
 | Tipo de caja | Como funciona | Ventaja |
 | --- | --- | --- |
-| Manual multimarcha | Muchas relaciones, a veces con gama alta y baja. | Control total, economica. |
-| Automatizada (AMT) | La electronica embraga y cambia por el conductor. | Menos fatiga, cambios optimos. |
-| Automatica con convertidor | Convertidor de par sin pedal de embrague. | Suave, comun en obra y distribucion. |
+| Manual multimarcha | Muchas relaciones, a veces con gama alta y baja. | Control total, económica. |
+| Automatizada (AMT) | La electrónica embraga y cambia por el conductor. | Menos fatiga, cambios óptimos. |
+| Automática con convertidor | Convertidor de par sin pedal de embrague. | Suave, común en obra y distribución. |
 
 - **Embrague**: conecta y desconecta el motor de la caja para arrancar y cambiar.
 - **Marchas cortas**: dan fuerza para arrancar cargado y subir pendientes.
 - **Marchas largas**: dan velocidad de crucero con bajo consumo.
-- **Gama alta / baja (splitter)**: duplica el numero de relaciones utiles.
+- **Gama alta / baja (splitter)**: duplica el número de relaciones útiles.
 - **Diferencial**: reparte el giro a las ruedas del eje y permite que giren a
   distinta velocidad en las curvas.
 
 ---
 
-## 3. 💨 Sistema neumatico
+## 3. 💨 Sistema neumático
 
-El aire comprimido acciona los frenos y otros sistemas. Es tan critico que sin
-presion suficiente el camion no debe moverse.
+El aire comprimido acciona los frenos y otros sistemas. Es tan crítico que sin
+presión suficiente el camión no debe moverse.
 
 ```mermaid
 flowchart LR
     Motor[Motor] --> Compresor[Compresor de aire]
     Compresor --> Secador[Secador de aire]
-    Secador --> Calderines[Calderines / depositos]
+    Secador --> Calderines[Calderines / depósitos]
     Calderines --> Servicio[Frenos de servicio]
     Calderines --> Estacion[Freno de estacionamiento]
-    Calderines --> Suspension[Suspension neumatica]
-    Manometro[Manometro] -. vigila .-> Calderines
+    Calderines --> Suspension[Suspensión neumática]
+    Manometro[Manómetro] -. vigila .-> Calderines
 ```
 
-| Componente | Funcion |
+| Componente | Función |
 | --- | --- |
 | Compresor | Genera aire comprimido movido por el motor. |
-| Secador | Elimina humedad para evitar corrosion y hielo. |
-| Calderines | Depositos que almacenan el aire a presion. |
-| Valvulas | Reparten el aire a cada circuito de freno. |
-| Manometro | Muestra la presion y avisa si es insuficiente. |
+| Secador | Elimina humedad para evitar corrosión y hielo. |
+| Calderines | Depósitos que almacenan el aire a presión. |
+| Válvulas | Reparten el aire a cada circuito de freno. |
+| Manómetro | Muestra la presión y avisa si es insuficiente. |
 
-- **Presion de trabajo**: del orden de 8 a 12 bar en los calderines.
-- **Presion minima**: bajo un umbral suena alarma y no se debe circular.
+- **Presión de trabajo**: del orden de 8 a 12 bar en los calderines.
+- **Presión mínima**: bajo un umbral suena alarma y no se debe circular.
 - **Circuitos separados**: el frenado se divide en circuitos para que una fuga
-  no deje el camion sin frenos.
+  no deje el camión sin frenos.
 
 ---
 
 ## 4. 🛑 Frenos
 
-Por su masa, el camion debe disipar mucha energia al frenar. Combina el freno
+Por su masa, el camión debe disipar mucha energía al frenar. Combina el freno
 de servicio con frenos auxiliares que ahorran las zapatas.
 
 ```mermaid
 flowchart TD
-    Pedal[Pedal de freno] --> Valvula[Valvula de freno]
+    Pedal[Pedal de freno] --> Valvula[Válvula de freno]
     Calderin[Calderin de aire] --> Valvula
-    Valvula --> CamaraD[Camaras delanteras]
-    Valvula --> CamaraT[Camaras traseras]
+    Valvula --> CamaraD[Cámaras delanteras]
+    Valvula --> CamaraT[Cámaras traseras]
     CamaraD --> FrenoD[Frenos delanteros]
     CamaraT --> FrenoT[Frenos traseros]
     ABS[ABS / EBS] -. modula .-> FrenoD
     ABS -. modula .-> FrenoT
     FrenoMotor[Freno de motor] -. complementa .-> Motor[Motor]
-    Retarder[Retarder] -. complementa .-> Transmision[Transmision]
+    Retarder[Retarder] -. complementa .-> Transmision[Transmisión]
 ```
 
-| Sistema | Funcion | Nota |
+| Sistema | Función | Nota |
 | --- | --- | --- |
 | Freno de servicio | Frenado principal por aire. | Se acciona con el pedal. |
-| ABS | Evita el bloqueo de las ruedas. | Mantiene el control y la direccion. |
-| EBS | Frenado electronico repartido por eje. | Distribuye segun carga real. |
-| Freno de motor | Retencion usando la compresion del diesel. | Ahorra frenos en descensos. |
-| Retarder | Freno auxiliar hidraulico o electromagnetico. | Ideal en pendientes largas. |
+| ABS | Evita el bloqueo de las ruedas. | Mantiene el control y la dirección. |
+| EBS | Frenado electrónico repartido por eje. | Distribuye según carga real. |
+| Freno de motor | Retención usando la compresión del diesel. | Ahorra frenos en descensos. |
+| Retarder | Freno auxiliar hidráulico o electromagnético. | Ideal en pendientes largas. |
 | Freno de estacionamiento | Bloqueo por muelle (spring brake). | Se aplica al detener y sin aire. |
 
-Nota de seguridad: si la presion de aire cae bajo el minimo, el **freno de
-muelle** se aplica solo y detiene el camion; es un diseno a prueba de fallos.
+Nota de seguridad: si la presión de aire cae bajo el mínimo, el **freno de
+muelle** se aplica solo y detiene el camión; es un diseño a prueba de fallos.
 
-### Por que el freno de motor y el retarder importan tanto
+### Por  qué el freno de motor y el retarder importan tanto
 
 En una bajada larga, usar solo el freno de servicio recalienta las zapatas y
-puede provocar **fading** (perdida de frenado por calor). El freno de motor y el
-retarder frenan sin friccion, manteniendo la velocidad controlada sin desgastar
+puede provocar **fading** (pérdida de frenado por calor). El freno de motor y el
+retarder frenan sin fricción, manteniendo la velocidad controlada sin desgastar
 ni recalentar el freno de servicio, que queda disponible para una emergencia.
 
 ---
 
 ## 5. ⚖️ Ejes, tara y peso bruto vehicular
 
-La capacidad de un camion no la fija solo el motor, sino cuanto peso admiten sus
+La capacidad de un camión no la fija solo el motor, sino cuanto peso admiten sus
 ejes y la ley. Tres conceptos ordenan todo:
 
 | Concepto | Que es | Importancia |
 | --- | --- | --- |
-| Tara | Peso del camion vacio. | Base para calcular la carga util. |
-| Carga util | Peso de la mercancia transportada. | Lo que genera el trabajo del camion. |
-| Peso bruto vehicular (PBV) | Tara + carga util. | Limite legal y de diseno del vehiculo. |
+| Tara | Peso del camión vacío. | Base para calcular la carga útil. |
+| Carga útil | Peso de la mercancía transportada. | Lo que genera el trabajo del camión. |
+| Peso bruto vehicular (PBV) | Tara + carga útil. | Límite legal y de diseño del vehículo. |
 
-- **Reparto por eje**: cada eje tiene un maximo de peso permitido. Al cargar se
-  distribuye la mercancia para no exceder ningun eje, aunque el total este dentro
-  del limite.
+- **Reparto por eje**: cada eje tiene un máximo de peso permitido. Al cargar se
+  distribuye la mercancía para no exceder ningún eje, aunque el total este dentro
+  del límite.
 - **Ejes motrices y de apoyo**: los motrices reciben la fuerza; los de apoyo (o
-  ejes elevables) solo soportan carga y pueden subirse cuando el camion va vacio.
-- **PBV y licencia**: el PBV determina la clase de licencia y define si el camion
-  es simple o requiere configuracion especial (ver Modulo 7).
+  ejes elevables) solo soportan carga y pueden subirse cuando el camión va vacío.
+- **PBV y licencia**: el PBV determina la clase de licencia y define si el camión
+  es simple o requiere configuración especial (ver Módulo 7).
 
 ---
 
-## 6. 🔗 Quinta rueda y articulacion
+## 6. 🔗 Quinta rueda y articulación
 
-En un camion articulado, el **tractocamion** (cabeza tractora) se une al
+En un camión articulado, el **tractocamion** (cabeza tractora) se une al
 **semirremolque** por la quinta rueda, un plato con un cierre que abraza el
 perno maestro (kingpin) del semirremolque.
 
@@ -200,23 +200,23 @@ flowchart LR
     Semi --> Ejes[Ejes del semirremolque]
 ```
 
-| Elemento | Funcion |
+| Elemento | Función |
 | --- | --- |
 | Quinta rueda | Plato de acople que soporta y articula la carga. |
 | Perno maestro | Punto de giro del semirremolque sobre el tracto. |
 | Mangueras de aire | Llevan el aire a los frenos del semirremolque. |
-| Conexion electrica | Alimenta luces y senales del semirremolque. |
+| Conexión eléctrica | Alimenta luces y señales del semirremolque. |
 
 - **Pivote**: al girar, el semirremolque pivota sobre el perno maestro; la parte
   trasera describe un arco menor que el tracto (efecto de recorte de curva).
 - **Tijera (jackknife)**: si las ruedas del tracto se bloquean, el semirremolque
-  puede empujar y plegar el conjunto en angulo; el ABS ayuda a evitarlo.
+  puede empujar y plegar el conjunto en ángulo; el ABS ayuda a evitarlo.
 - **Enganche seguro**: antes de mover se verifica el cierre del plato, las
-  mangueras de aire y la conexion electrica.
+  mangueras de aire y la conexión eléctrica.
 
 ---
 
-## 🔁 Como se conecta todo
+## 🔁 Cómo se conecta todo
 
 1. El **motor diesel** genera par elevado.
 2. El **embrague** y la **caja multimarcha** adaptan ese par a la carga.
@@ -226,9 +226,9 @@ flowchart LR
 6. El **freno de motor** y el **retarder** frenan sin desgaste en pendiente.
 7. En un articulado, la **quinta rueda** transmite el arrastre al semirremolque.
 
-Con esto entendido, el [Modulo 4: Mandos](../mandos/manual-mandos-camion.md)
+Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-camion.md)
 muestra como el conductor opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Caracteristicas](caracteristicas-camion.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-camion.md)
+[⬅️ Anterior: Características](caracteristicas-camion.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-camion.md)

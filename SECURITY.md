@@ -1,20 +1,20 @@
-# Politica de seguridad
+# Política de seguridad
 
 Este es un repositorio documental. No ejecuta servicios ni procesa datos de
-usuarios, por lo que su superficie de riesgo es acotada. Aun asi, cuidamos dos
+usuarios, por lo que su superficie de riesgo es acotada. Aun así, cuidamos dos
 aspectos: la integridad de la cadena de suministro del CI y el cumplimiento de
 las reglas de contenido del proyecto.
 
 ## Reportar un problema
 
 Si encuentras alguno de estos casos, abre un issue (o contacta al responsable
-del repositorio si prefieres discrecion):
+del repositorio si prefieres discreción):
 
 - Contenido que viole `docs/04-seguridad-y-limites.md` (material sensible,
-  procedimientos tacticos reales, informacion restringida).
+  procedimientos tacticos reales, información restringida).
 - Un enlace que apunte a material peligroso o no permitido.
 - Un problema en los workflows de GitHub Actions (permisos, acciones no
-  pineadas, inyeccion de comandos).
+  pineadas, inyección de comandos).
 - Datos personales publicados por error.
 
 ## Medidas de seguridad del repositorio
@@ -27,5 +27,5 @@ del repositorio si prefieres discrecion):
 
 ## Alcance
 
-Este proyecto no ofrece garantias de exactitud legal ni tecnica. Ver el aviso de
+Este proyecto no ofrece garantias de exactitud legal ni técnica. Ver el aviso de
 `docs/04-seguridad-y-limites.md` y `docs/07-marco-legal-chile.md`.

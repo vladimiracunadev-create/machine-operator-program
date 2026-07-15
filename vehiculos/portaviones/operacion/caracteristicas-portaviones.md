@@ -1,63 +1,63 @@
-# 📋 Caracteristicas funcionales del portaviones
+# 📋 Características funcionales del portaviones
 
-[🏠 Inicio](../../../README.md) · [🛳️ Curso: Portaviones](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🛳️ Curso: Portaviones](../README.md) · 📋 Características
 
-Que es un portaviones, que tipos historicos existieron y cual fue su papel
-general. Contexto publico antes de abrir la fisica naval (Modulo 3). No se
-documentan tactica ni sistemas de armas.
-
----
-
-## 🧭 Definicion
-
-Un portaviones es un buque de guerra cuya funcion es operar aeronaves desde una
-cubierta de vuelo. Como todo buque, flota por el principio de Arquimedes, avanza
-por el empuje de sus helices y gobierna con el timon. Su rasgo distintivo es la
-gran cubierta plana y el hangar, descritos aqui solo a nivel divulgativo.
+Que es un portaviones, que tipos históricos existieron y cual fue su papel
+general. Contexto público antes de abrir la física naval (Módulo 3). No se
+documentan táctica ni sistemas de armas.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧭 Definición
 
-| Caracteristica | Descripcion |
+Un portaviones es un buque de guerra cuya función es operar aeronaves desde una
+cubierta de vuelo. Como todo buque, flota por el principio de Arquímedes, avanza
+por el empuje de sus hélices y gobierna con el timón. Su rasgo distintivo es la
+gran cubierta plana y el hangar, descritos aquí solo a nivel divulgativo.
+
+---
+
+## 🧬 Características clave
+
+| Característica | Descripción |
 | --- | --- |
 | Cubierta de vuelo | Superficie plana para operar aeronaves. |
 | Hangar | Espacio interior para guardar y mantener aeronaves. |
-| Gran desplazamiento | Uno de los buques mas grandes; enorme inercia. |
+| Gran desplazamiento | Uno de los buques más grandes; enorme inercia. |
 | Isla | Superestructura lateral con el puente. |
 | Estabilidad | Cuidada por el peso alto de la cubierta y la isla. |
-| Autonomia | Disenado para largas travesias oceanicas. |
+| Autonomía | Disenado para largas travesías oceánicas. |
 
 ---
 
-## 🗂️ Tipos historicos
+## 🗂️ Tipos históricos
 
 ```mermaid
 flowchart TD
     Porta[🛳️ Portaviones] --> Escolta[De escolta]
     Porta --> Flota[De flota]
     Porta --> Moderno[Cubierta angulada]
-    Escolta --> Peque[Menor tamano historico]
+    Escolta --> Peque[Menor tamaño histórico]
     Flota --> Grande[Gran cubierta y hangar]
-    Moderno --> Seguro[Operacion mas segura]
+    Moderno --> Seguro[Operación más segura]
 ```
 
-| Tipo | Epoca | Rasgo destacado |
+| Tipo | Época | Rasgo destacado |
 | --- | --- | --- |
-| De escolta | Historico | Cubierta corta, menor tamano. |
-| De flota | Historico y moderno | Cubierta y hangar amplios. |
-| Cubierta angulada | Moderno | Operacion mas segura. |
+| De escolta | Histórico | Cubierta corta, menor tamaño. |
+| De flota | Histórico y moderno | Cubierta y hangar amplios. |
+| Cubierta angulada | Moderno | Operación más segura. |
 | Buque museo | Actualidad | Uso patrimonial y educativo. |
 
 ---
 
-## 🎯 Para que se uso
+## 🎯 Para qué se usó
 
-- Operar aeronaves desde el mar (contexto historico general).
-- Impulsar avances en aviacion, ingenieria naval y logistica.
+- Operar aeronaves desde el mar (contexto histórico general).
+- Impulsar avances en aviación, ingeniería naval y logística.
 - Hoy, valor patrimonial como buques museo.
-- En este repositorio: base para simulacion educativa de navegacion y cubierta.
+- En este repositorio: base para simulación educativa de navegación y cubierta.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-portaviones.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-portaviones.md)
+[⬅️ Anterior: Historia](../historia/historia-portaviones.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-portaviones.md)

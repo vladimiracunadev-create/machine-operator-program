@@ -4,37 +4,37 @@
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Glosario especifico, enlaces y diagramas de apoyo del curso de teletransportador.
+Glosario específico, enlaces y diagramas de apoyo del curso de teletransportador.
 Amplia el [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
-| Patron | Disposicion precisa de las particulas que describe a un objeto. |
-| Informacion | Datos necesarios para describir por completo el patron. |
-| Materia | Sustancia fisica del objeto; no se crea ni se destruye a voluntad. |
-| Masa-energia | Equivalencia que revela la energia colosal contenida en la masa. |
-| Escaneo | Medicion del patron del objeto de origen. |
-| Reconstruccion | Ensamblado de materia local segun la informacion recibida. |
-| Duplicado | Problema de que copiar un patron deja dos objetos iguales. |
-| Teleportacion cuantica | Transferencia de un estado cuantico, no de materia. |
-| Canal clasico | Via de comunicacion limitada por la velocidad de la luz. |
-| No clonacion | Teorema que prohibe copiar un estado cuantico desconocido. |
+| Patrón | Disposición precisa de las partículas que describe a un objeto. |
+| Información | Datos necesarios para describir por completo el patrón. |
+| Materia | Sustancia física del objeto; no se crea ni se destruye a voluntad. |
+| Masa-energia | Equivalencia que revela la energía colosal contenida en la masa. |
+| Escaneo | Medición del patrón del objeto de origen. |
+| Reconstrucción | Ensamblado de materia local según la información recibida. |
+| Duplicado | Problema de que copiar un patrón deja dos objetos iguales. |
+| Teleportación cuántica | Transferencia de un estado cuántico, no de materia. |
+| Canal clásico | Vía de comunicación limitada por la velocidad de la luz. |
+| No clonación | Teorema que prohibe copiar un estado cuántico desconocido. |
 
 ---
 
-## 🗺️ Diagrama: informacion frente a materia
+## 🗺️ Diagrama: información frente a materia
 
 ```mermaid
 flowchart LR
-    Objeto[Objeto de origen] --> Patron[Patron que lo describe]
-    Patron --> Datos[Informacion en bits]
+    Objeto[Objeto de origen] --> Patron[Patrón que lo describe]
+    Patron --> Datos[Información en bits]
     Datos --> Canal[Canal limitado por la luz]
-    Canal --> Destino[Reconstruccion con materia local]
-    Destino --> Idea[Se mueve informacion, no materia]
+    Canal --> Destino[Reconstrucción con materia local]
+    Destino --> Idea[Se mueve información, no materia]
 ```
 
 ---
@@ -42,14 +42,14 @@ flowchart LR
 ## 🔗 Enlaces y fuentes
 
 - Portada del curso: [🌀 Curso: Teletransportador](../README.md)
-- Catalogo de naves de ficcion: [🌌 Naves de ficcion](../../README.md)
+- Catálogo de naves de ficción: [🌌 Naves de ficción](../../README.md)
 - Glosario general: [📖 docs/05-glosario-general.md](../../../docs/05-glosario-general.md)
 - Niveles de realismo: [🎚️ docs/03-niveles-de-realismo.md](../../../docs/03-niveles-de-realismo.md)
 - Registro de fuentes: [📚 manuales/fuentes.md](../../../manuales/fuentes.md)
 
 Registrar cada recurso nuevo con su origen y licencia, respetando el aviso de
-derechos del catalogo de naves de ficcion.
+derechos del catálogo de naves de ficción.
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-teletransportador.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-teletransportador.md)

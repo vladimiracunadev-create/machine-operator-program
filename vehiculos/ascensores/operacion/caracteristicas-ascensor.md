@@ -1,31 +1,31 @@
-# 📋 Caracteristicas funcionales del ascensor
+# 📋 Características funcionales del ascensor
 
-[🏠 Inicio](../../../README.md) · [🛗 Curso: Ascensores](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🛗 Curso: Ascensores](../README.md) · 📋 Características
 
-Que es un ascensor, que tipos existen y para que sirve cada uno. Este modulo da
-el contexto antes de abrir la mecanica (Modulo 3).
+Que es un ascensor, que tipos existen y para que sirve cada uno. Este módulo da
+el contexto antes de abrir la mecánica (Módulo 3).
 
 ---
 
-## 🧭 Definicion
+## 🧭 Definición
 
-Un ascensor es una maquina de transporte vertical fija que mueve una cabina entre
-niveles de un edificio por un hueco guiado. No circula por via publica: se instala
-en un edificio y su prioridad es mover personas o carga de forma segura, comoda y
+Un ascensor es una máquina de transporte vertical fija que mueve una cabina entre
+niveles de un edificio por un hueco guiado. No circula por vía pública: se instala
+en un edificio y su prioridad es mover personas o carga de forma segura, cómoda y
 repetible.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧬 Características clave
 
-| Caracteristica | Descripcion |
+| Característica | Descripción |
 | --- | --- |
 | Equilibrio con contrapeso | El contrapeso compensa la cabina y reduce el esfuerzo del motor. |
-| Traccion por friccion | La polea mueve el cable por friccion, no por arrollamiento. |
+| Tracción por fricción | La polea mueve el cable por fricción, no por arrollamiento. |
 | Redundancia de seguridad | Freno del motor, freno de seguridad y gobernador de velocidad. |
-| Marcha guiada | Guias verticales mantienen la cabina alineada. |
-| Precision de parada | Se detiene nivelado con el piso para acceso seguro. |
-| Uso intensivo | Muchos ciclos al dia; exige fiabilidad y mantencion. |
+| Marcha guiada | Guías verticales mantienen la cabina alineada. |
+| Precisión de parada | Se detiene nivelado con el piso para acceso seguro. |
+| Uso intensivo | Muchos ciclos al día; exige fiabilidad y mantención. |
 
 ---
 
@@ -33,34 +33,34 @@ repetible.
 
 ```mermaid
 flowchart TD
-    Asc[🛗 Ascensor] --> Traccion[De traccion]
-    Asc --> Hidraulico[Hidraulico]
-    Traccion --> ConCuarto[Con cuarto de maquinas]
-    Traccion --> SinCuarto[Sin cuarto de maquinas]
-    Asc --> Uso[Segun uso]
+    Asc[🛗 Ascensor] --> Traccion[De tracción]
+    Asc --> Hidraulico[Hidráulico]
+    Traccion --> ConCuarto[Con cuarto de máquinas]
+    Traccion --> SinCuarto[Sin cuarto de máquinas]
+    Asc --> Uso[Según uso]
     Uso --> Pasajeros[Pasajeros]
     Uso --> Carga[Carga]
-    Uso --> Panoramico[Panoramico]
+    Uso --> Panoramico[Panorámico]
 ```
 
-| Tipo | Uso tipico | Rasgo destacado |
+| Tipo | Uso típico | Rasgo destacado |
 | --- | --- | --- |
-| Traccion con cuarto de maquinas | Edificios medios y altos | Motor y control en sala superior. |
-| Traccion sin cuarto de maquinas | Edificios residenciales | Motor compacto dentro del hueco. |
-| Hidraulico | Edificios bajos | Piston; sin contrapeso en altura. |
-| De pasajeros | Viviendas y oficinas | Confort y precision de parada. |
+| Tracción con cuarto de máquinas | Edificios medios y altos | Motor y control en sala superior. |
+| Tracción sin cuarto de máquinas | Edificios residenciales | Motor compacto dentro del hueco. |
+| Hidráulico | Edificios bajos | Pistón; sin contrapeso en altura. |
+| De pasajeros | Viviendas y oficinas | Confort y precisión de parada. |
 | De carga | Industria y bodegas | Cabina robusta y gran capacidad. |
-| Panoramico | Centros comerciales | Cabina con vista, foco estetico. |
+| Panorámico | Centros comerciales | Cabina con vista, foco estético. |
 
 ---
 
-## 🎯 Para que se usa
+## 🎯 Para qué se usa
 
-- Mover personas entre pisos de forma segura y comoda.
+- Mover personas entre pisos de forma segura y cómoda.
 - Dar accesibilidad a personas con movilidad reducida.
 - Transportar carga en edificios e industria.
 - Hacer viable la vida y el trabajo en altura.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-ascensor.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-ascensor.md)
+[⬅️ Anterior: Historia](../historia/historia-ascensor.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-ascensor.md)

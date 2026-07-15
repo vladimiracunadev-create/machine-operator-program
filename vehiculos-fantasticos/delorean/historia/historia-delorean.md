@@ -4,27 +4,27 @@
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este modulo situa la nave en su contexto cultural, con nuestras palabras y a
-nivel divulgativo. No reproducimos guiones, dialogos ni arte de la obra
-original: solo explicamos por que un vehiculo cotidiano convertido en maquina
-del tiempo se volvio un simbolo util para hablar de fisica.
+Este módulo situa la nave en su contexto cultural, con nuestras palabras y a
+nivel divulgativo. No reproducimos guiones, diálogos ni arte de la obra
+original: solo explicamos por  qué un vehículo cotidiano convertido en máquina
+del tiempo se volvió un símbolo útil para hablar de física.
 
 ---
 
 ## 🎬 Contexto de la obra
 
-La nave que estudiamos esta inspirada en la saga "Volver al Futuro", una comedia
-de aventuras que popularizo la idea de convertir un automovil comun en una
-maquina capaz de moverse por el tiempo. La eleccion de un coche de calle, en vez
-de una nave espacial futurista, hizo que el publico sintiera el viaje temporal
+La nave que estudiamos está inspirada en la saga "Volver al Futuro", una comedia
+de aventuras que popularizo la idea de convertir un automóvil común en una
+máquina capaz de moverse por el tiempo. La elección de un coche de calle, en vez
+de una nave espacial futurista, hizo que el público sintiera el viaje temporal
 como algo cercano y divertido.
 
 Nos interesa esa nave como recurso educativo: es una excusa amable para preguntar
-que dice la fisica real sobre la energia, la velocidad y el tiempo.
+que dice la física real sobre la energía, la velocidad y el tiempo.
 
 ---
 
-## 🕰️ Linea de tiempo divulgativa
+## 🕰️ Línea de tiempo divulgativa
 
 ```mermaid
 timeline
@@ -38,34 +38,34 @@ timeline
 
 ---
 
-## 🧭 Por que funciona como recurso educativo
+## 🧭 Por  qué funciona como recurso educativo
 
-| Elemento de la ficcion | Pregunta de fisica que despierta |
+| Elemento de la ficción | Pregunta de física que despierta |
 | --- | --- |
-| Alcanzar una velocidad concreta | Que es una velocidad umbral y por que la fisica real no la usa asi. |
-| Necesitar mucha energia | Cual es la diferencia entre energia y potencia. |
+| Alcanzar una velocidad concreta | Que es una velocidad umbral y por  qué la física real no la usa así. |
+| Necesitar mucha energía | Cual es la diferencia entre energía y potencia. |
 | Saltar a otra fecha | Se puede realmente retroceder en el tiempo. |
-| Evitar cambiar el pasado | Que es la causalidad y por que importa. |
-| Un vehiculo cotidiano | Como distinguimos ingenieria real de licencia narrativa. |
+| Evitar cambiar el pasado | Que es la causalidad y por  qué importa. |
+| Un vehículo cotidiano | Como distinguimos ingeniería real de licencia narrativa. |
 
 ---
 
 ## 🌍 Impacto cultural
 
 La nave ayudo a que millones de personas conversaran sobre el tiempo, las
-paradojas y la posibilidad de cambiar la historia personal. Ese interes es
-valioso: convierte un tema abstracto de fisica en algo emocionante. Nuestro
-trabajo en los siguientes modulos es aprovechar esa curiosidad y ordenarla con
+paradojas y la posibilidad de cambiar la historia personal. Ese interés es
+valioso: convierte un tema abstracto de física en algo emocionante. Nuestro
+trabajo en los siguientes módulos es aprovechar esa curiosidad y ordenarla con
 rigor, separando la parte real de la parte inventada.
 
 ---
 
-## 📌 Que veremos despues
+## 📌 Que veremos después
 
-- En **Caracteristicas** describimos los modos y rasgos de la nave.
-- En **Sistemas mecanicos** comparamos su tecnologia imaginaria con la fisica.
-- En **Principios** decidimos que seria posible y que no.
+- En **Características** describimos los modos y rasgos de la nave.
+- En **Sistemas mecánicos** comparamos su tecnología imaginaria con la física.
+- En **Principios** decidimos que sería posible y que no.
 
 ---
 
-[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Caracteristicas](../operacion/caracteristicas-delorean.md)
+[🎓 Portada del curso](../README.md) · [➡️ Siguiente: Características](../operacion/caracteristicas-delorean.md)

@@ -1,31 +1,31 @@
-# 📋 Caracteristicas funcionales de la nave espacial
+# 📋 Características funcionales de la nave espacial
 
-[🏠 Inicio](../../../README.md) · [🚀 Curso: Naves espaciales](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🚀 Curso: Naves espaciales](../README.md) · 📋 Características
 
-Que es una nave espacial, que tipos existen y para que sirve cada uno. Este modulo
-da el contexto antes de abrir los sistemas de la nave (Modulo 3), separando
-siempre ciencia real de ficcion.
-
----
-
-## 🧭 Definicion
-
-Una nave espacial es un vehiculo disenado para operar fuera de la atmosfera, donde
-no hay aire que sustente ni frene. Se mueve por la fisica del cohete y de la
-orbita: llega al espacio expulsando masa a gran velocidad y luego "cae" alrededor
-de la Tierra en caida libre continua, lo que llamamos estar en orbita.
+Que es una nave espacial, que tipos existen y para que sirve cada uno. Este módulo
+da el contexto antes de abrir los sistemas de la nave (Módulo 3), separando
+siempre ciencia real de ficción.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧭 Definición
 
-| Caracteristica | Descripcion |
+Una nave espacial es un vehículo disenado para operar fuera de la atmósfera, donde
+no hay aire que sustente ni frene. Se mueve por la física del cohete y de la
+órbita: llega al espacio expulsando masa a gran velocidad y luego "cae" alrededor
+de la Tierra en caída libre continua, lo que llamamos estar en órbita.
+
+---
+
+## 🧬 Características clave
+
+| Característica | Descripción |
 | --- | --- |
-| Propulsion por reaccion | Avanza expulsando masa, sin apoyarse en el aire. |
-| Vuelo orbital | En orbita cae de forma continua alrededor de la Tierra. |
-| Microgravedad | La tripulacion y los objetos "flotan" en caida libre. |
-| Vacio y temperatura extrema | Sin aire; frio a la sombra y calor al sol. |
-| Autonomia de recursos | Lleva su aire, agua y energia; no los toma del entorno. |
+| Propulsión por reacción | Avanza expulsando masa, sin apoyarse en el aire. |
+| Vuelo orbital | En órbita cae de forma continua alrededor de la Tierra. |
+| Microgravedad | La tripulación y los objetos "flotan" en caída libre. |
+| Vacío y temperatura extrema | Sin aire; frío a la sombra y calor al sol. |
+| Autonomía de recursos | Lleva su aire, agua y energía; no los toma del entorno. |
 | Presupuesto de delta-v | Cada maniobra gasta propelente limitado. |
 
 ---
@@ -38,31 +38,31 @@ flowchart TD
     Nave --> Tripuladas[Tripuladas]
     Nave --> NoTripuladas[No tripuladas]
     Lanzamiento --> Cohete[Cohete lanzador]
-    Tripuladas --> Capsula[Capsula tripulada]
-    Tripuladas --> Estacion[Estacion espacial]
-    NoTripuladas --> Satelite[Satelite]
+    Tripuladas --> Capsula[Cápsula tripulada]
+    Tripuladas --> Estacion[Estación espacial]
+    NoTripuladas --> Satelite[Satélite]
     NoTripuladas --> Sonda[Sonda interplanetaria]
 ```
 
-| Tipo | Uso tipico | Rasgo destacado |
+| Tipo | Uso típico | Rasgo destacado |
 | --- | --- | --- |
-| Cohete lanzador | Poner carga en orbita | Multiples etapas y gran empuje. |
-| Capsula tripulada | Llevar personas al espacio | Escudo termico para reentrar. |
-| Estacion espacial | Habitat en orbita | Soporte vital de larga duracion. |
-| Satelite | Comunicacion y observacion | Sin tripulacion, muy duradero. |
-| Sonda interplanetaria | Explorar otros mundos | Autonomia y antenas de largo alcance. |
-| Nave de ficcion | Escenario narrativo | Solo simulacion; marcada como ficcion. |
+| Cohete lanzador | Poner carga en órbita | Múltiples etapas y gran empuje. |
+| Cápsula tripulada | Llevar personas al espacio | Escudo térmico para reentrar. |
+| Estación espacial | Habitat en órbita | Soporte vital de larga duración. |
+| Satélite | Comunicación y observación | Sin tripulación, muy duradero. |
+| Sonda interplanetaria | Explorar otros mundos | Autonomía y antenas de largo alcance. |
+| Nave de ficción | Escenario narrativo | Solo simulación; marcada como ficción. |
 
 ---
 
-## 🎯 Para que se usa
+## 🎯 Para qué se usa
 
-- Comunicaciones, navegacion (GPS) y observacion de la Tierra.
-- Investigacion cientifica en microgravedad.
-- Exploracion de la Luna, planetas y cuerpos menores.
-- Transporte de tripulacion a estaciones en orbita.
-- Educacion y simulacion de vuelo espacial.
+- Comunicaciones, navegación (GPS) y observación de la Tierra.
+- Investigación científica en microgravedad.
+- Exploración de la Luna, planetas y cuerpos menores.
+- Transporte de tripulación a estaciones en órbita.
+- Educación y simulación de vuelo espacial.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-nave-espacial.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-nave-espacial.md)
+[⬅️ Anterior: Historia](../historia/historia-nave-espacial.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-nave-espacial.md)

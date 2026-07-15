@@ -2,23 +2,23 @@
 
 [🏠 Inicio](../../../README.md) · [🚜 Curso: Tractores](../README.md) · 🧰 Recursos
 
-Glosario especifico, enlaces y diagramas de apoyo del curso de tractores. Amplia
+Glosario específico, enlaces y diagramas de apoyo del curso de tractores. Amplia
 el [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
 | Toma de fuerza (PTO) | Eje que transmite la potencia del motor a un apero. |
-| Enganche de tres puntos | Triangulo de brazos que sujeta y controla un apero montado. |
-| Tercer punto | Brazo superior que fija el angulo del apero. |
-| Control de esfuerzo | Regulacion que sube el apero cuando aumenta la resistencia. |
+| Enganche de tres puntos | Triángulo de brazos que sujeta y controla un apero montado. |
+| Tercer punto | Brazo superior que fija el ángulo del apero. |
+| Control de esfuerzo | Regulación que sube el apero cuando aumenta la resistencia. |
 | Barra de tiro | Punto bajo de enganche para arrastrar cargas con seguridad. |
 | Lastre | Peso agregado que mejora el agarre y equilibra el apero. |
 | Patinaje | Diferencia entre el giro de la rueda y el avance real. |
-| Doble traccion | Sistema que tracciona tambien el eje delantero. |
+| Doble tracción | Sistema que tracciona también el eje delantero. |
 | ROPS | Estructura antivuelco que protege al operador. |
 | Bloqueo de diferencial | Mando que iguala el giro de ambas ruedas motrices. |
 
@@ -30,8 +30,8 @@ el [glosario general](../../../docs/05-glosario-general.md).
 flowchart LR
     Pendiente[Pendiente] --> CG[Centro de gravedad alto]
     CG --> Riesgo[Riesgo de vuelco]
-    Lastre[Lastre y via ancha] --> Estable[Mas estable]
-    Recta[Subir/bajar en linea recta] --> Estable
+    Lastre[Lastre y vía ancha] --> Estable[Más estable]
+    Recta[Subir/bajar en línea recta] --> Estable
     Riesgo --> Prudencia[Bajar velocidad, sin giros bruscos]
     Prudencia --> Estable
 ```
@@ -49,4 +49,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-tractor.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-tractor.md)

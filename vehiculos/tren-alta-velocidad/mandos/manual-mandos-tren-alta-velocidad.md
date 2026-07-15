@@ -5,21 +5,21 @@
 ## Vista general
 
 El puesto de mando de un tren de alta velocidad es la cabina del maquinista, en
-cabeza del tren. A diferencia de un vehiculo de carretera, no hay volante: la
-ruta la fija la via. El maquinista controla sobre todo la **traccion y el freno**
-mediante un manipulador, vigila la **pantalla de senalizacion en cabina** (DMI de
-ETCS) y confirma su atencion con el dispositivo de hombre muerto o vigilante.
+cabeza del tren. A diferencia de un vehículo de carretera, no hay volante: la
+ruta la fija la vía. El maquinista controla sobre todo la **tracción y el freno**
+mediante un manipulador, vigila la **pantalla de señalización en cabina** (DMI de
+ETCS) y confirma su atención con el dispositivo de hombre muerto o vigilante.
 
 ## Mapa de controles
 
-| Zona | Control | Tipo | Funcion | Prioridad | Comentarios |
+| Zona | Control | Tipo | Función | Prioridad | Comentarios |
 | --- | --- | --- | --- | --- | --- |
-| Pupitre central | Manipulador de traccion/freno | Palanca | Regular traccion y frenado | Alta | Controla la marcha sin volante. |
-| Pupitre | Freno de emergencia | Palanca / boton | Detencion maxima | Alta | Aplica todos los frenos disponibles. |
-| Piso o pupitre | Hombre muerto / vigilante | Pedal o boton | Confirmar atencion del maquinista | Alta | Si no se confirma, frena solo. |
-| Pupitre | Pantografo | Boton | Subir o bajar el pantografo | Alta | Necesario para tomar corriente. |
-| Pupitre | Puertas | Boton | Abrir y cerrar puertas en estacion | Media | Enclavamiento con la marcha. |
-| Pupitre | Bocina / silbato | Boton | Advertir | Media | Uso de seguridad en la via. |
+| Pupitre central | Manipulador de tracción/freno | Palanca | Regular tracción y frenado | Alta | Controla la marcha sin volante. |
+| Pupitre | Freno de emergencia | Palanca / botón | Detención máxima | Alta | Aplica todos los frenos disponibles. |
+| Piso o pupitre | Hombre muerto / vigilante | Pedal o botón | Confirmar atención del maquinista | Alta | Si no se confirma, frena solo. |
+| Pupitre | Pantógrafo | Botón | Subir o bajar el pantógrafo | Alta | Necesario para tomar corriente. |
+| Pupitre | Puertas | Botón | Abrir y cerrar puertas en estación | Media | Enclavamiento con la marcha. |
+| Pupitre | Bocina / silbato | Botón | Advertir | Media | Uso de seguridad en la vía. |
 | Pupitre | Radio de tren | Consola | Comunicar con control | Alta | Contacto con el puesto de control. |
 | Pupitre | Limpiaparabrisas y luces | Botones | Visibilidad | Media | Frontales y de gabarito. |
 
@@ -27,43 +27,43 @@ ETCS) y confirma su atencion con el dispositivo de hombre muerto o vigilante.
 
 | Instrumento | Mide o muestra | Unidad | Importancia | Notas |
 | --- | --- | --- | --- | --- |
-| Velocimetro | Velocidad real | km/h | Alta | Central para respetar limites. |
-| DMI de ETCS | Velocidad objetivo y limites | km/h | Alta | Pantalla de senalizacion en cabina. |
-| Tension de linea | Estado de la catenaria | kV | Alta | Avisa si falta tension. |
-| Esfuerzo de traccion/freno | Fuerza aplicada | porcentaje | Media | Muestra cuanto se pide al tren. |
-| Presion de freno | Estado del freno neumatico | bar | Alta | Clave para la frenada final. |
-| Testigos | Estado de sistemas | luz | Alta | Puertas, pantografo, freno, alarmas. |
+| Velocímetro | Velocidad real | km/h | Alta | Central para respetar límites. |
+| DMI de ETCS | Velocidad objetivo y límites | km/h | Alta | Pantalla de señalización en cabina. |
+| Tensión de línea | Estado de la catenaria | kV | Alta | Avisa si falta tensión. |
+| Esfuerzo de tracción/freno | Fuerza aplicada | porcentaje | Media | Muestra cuanto se pide al tren. |
+| Presión de freno | Estado del freno neumático | bar | Alta | Clave para la frenada final. |
+| Testigos | Estado de sistemas | luz | Alta | Puertas, pantógrafo, freno, alarmas. |
 
-## Entradas de simulacion
+## Entradas de simulación
 
-| Accion | Teclado | Controlador | Pantalla tactil | Comentarios |
+| Acción | Teclado | Controlador | Pantalla táctil | Comentarios |
 | --- | --- | --- | --- | --- |
-| Aplicar traccion | Flecha arriba | Gatillo derecho | Zona traccion | Progresivo, no on/off. |
+| Aplicar tracción | Flecha arriba | Gatillo derecho | Zona tracción | Progresivo, no on/off. |
 | Aplicar freno | Flecha abajo | Gatillo izquierdo | Zona freno | Modula la fuerza de frenado. |
-| Freno de emergencia | Barra espaciadora | Boton dedicado | Boton rojo | Aplica todos los frenos. |
-| Confirmar vigilante | Tecla V | Boton lateral | Boton vigilante | Evita el frenado automatico. |
-| Subir pantografo | Tecla P | Cruceta arriba | Boton pantografo | Necesario antes de traccionar. |
-| Abrir/cerrar puertas | Tecla O | Boton inferior | Boton puertas | Solo detenido en estacion. |
-| Bocina | Tecla B | Boton superior | Boton bocina | Advertencia en la via. |
+| Freno de emergencia | Barra espaciadora | Botón dedicado | Botón rojo | Aplica todos los frenos. |
+| Confirmar vigilante | Tecla V | Botón lateral | Botón vigilante | Evita el frenado automático. |
+| Subir pantógrafo | Tecla P | Cruceta arriba | Botón pantógrafo | Necesario antes de traccionar. |
+| Abrir/cerrar puertas | Tecla O | Botón inferior | Botón puertas | Solo detenido en estación. |
+| Bocina | Tecla B | Botón superior | Botón bocina | Advertencia en la vía. |
 
 ## Estados del sistema
 
-| Estado | Descripcion | Indicadores | Acciones disponibles |
+| Estado | Descripción | Indicadores | Acciones disponibles |
 | --- | --- | --- | --- |
-| Apagado | Tren sin energia | Pupitre off | Subir pantografo, encender. |
-| Preparado | Con tension, detenido | Tension de linea presente | Confirmar vigilante, aplicar traccion. |
-| En movimiento | Circulando | Velocimetro y DMI activos | Traccionar, frenar, respetar objetivo. |
+| Apagado | Tren sin energía | Pupitre off | Subir pantógrafo, encender. |
+| Preparado | Con tensión, detenido | Tensión de línea presente | Confirmar vigilante, aplicar tracción. |
+| En movimiento | Circulando | Velocímetro y DMI activos | Traccionar, frenar, respetar objetivo. |
 | Emergencia | Riesgo o falla | Testigos de alerta | Freno de emergencia, contactar control. |
 
 ## Observaciones ergonomicas
 
-- El velocimetro y el DMI deben verse siempre y sin ambiguedad.
-- El manipulador de traccion/freno debe distinguir con claridad ambas zonas.
+- El velocímetro y el DMI deben verse siempre y sin ambiguedad.
+- El manipulador de tracción/freno debe distinguir con claridad ambas zonas.
 - El dispositivo de hombre muerto no debe ser molesto pero si constante.
 - El freno de emergencia debe ser accesible y reconocible al instante.
-- La interfaz de simulacion deberia aplicar el frenado automatico si no se
+- La interfaz de simulación debería aplicar el frenado automático si no se
   confirma el vigilante o si se supera la velocidad objetivo del DMI.
 
 ---
 
-[⬅️ Anterior: Sistemas mecanicos](../operacion/sistemas-mecanicos-tren-alta-velocidad.md) · [➡️ Siguiente: Principios y operacion](../operacion/principios-tren-alta-velocidad.md)
+[⬅️ Anterior: Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-alta-velocidad.md) · [➡️ Siguiente: Principios y operación](../operacion/principios-tren-alta-velocidad.md)

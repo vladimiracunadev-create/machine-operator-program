@@ -2,8 +2,8 @@
 
 [🏠 Inicio](../../../README.md) · [🚜 Curso: Tractores](../README.md) · 🌍 Entornos
 
-Donde opera un tractor y como cambia la conduccion segun el entorno. Cada entorno
-implica reglas, riesgos y ajustes distintos, y en simulacion se traduce en
+Dónde opera un tractor y cómo cambia la conducción según el entorno. Cada entorno
+implica reglas, riesgos y ajustes distintos, y en simulación se traduce en
 escenarios diferentes.
 
 ---
@@ -31,32 +31,32 @@ mindmap
       Carga con pala
 ```
 
-| Entorno | Caracteristicas | Riesgos tipicos | Ajuste de conduccion |
+| Entorno | Características | Riesgos típicos | Ajuste de conducción |
 | --- | --- | --- | --- |
-| Campo llano | Labranza, siembra, cosecha. | Polvo, obstaculos ocultos. | Regimen de PTO estable, avance parejo. |
-| Pendiente | Terreno inclinado. | Vuelco lateral o hacia atras. | Subir en linea recta, baja velocidad. |
-| Suelo blando / barro | Poca firmeza, patinaje. | Empantanamiento, perdida de traccion. | Doble traccion, lastre, bloqueo de diferencial. |
-| Camino rural | Traslado entre predios. | Trafico mixto, baja visibilidad. | Frenos unidos, luces, apero trabado. |
-| Faena ganadera / forraje | Carga y transporte. | Atrapamiento con la PTO. | Protector de PTO, area despejada. |
+| Campo llano | Labranza, siembra, cosecha. | Polvo, obstáculos ocultos. | Régimen de PTO estable, avance parejo. |
+| Pendiente | Terreno inclinado. | Vuelco lateral o hacia atrás. | Subir en línea recta, baja velocidad. |
+| Suelo blando / barro | Poca firmeza, patinaje. | Empantanamiento, pérdida de tracción. | Doble tracción, lastre, bloqueo de diferencial. |
+| Camino rural | Traslado entre predios. | Tráfico mixto, baja visibilidad. | Frenos unidos, luces, apero trabado. |
+| Faena ganadera / forraje | Carga y transporte. | Atrapamiento con la PTO. | Protector de PTO, área despejada. |
 
 ---
 
 ## 🌦️ Factores del entorno
 
 - **Pendiente**: es el factor de riesgo principal por el vuelco del tractor.
-- **Humedad del suelo**: define el agarre; el barro exige lastre y doble traccion.
+- **Humedad del suelo**: define el agarre; el barro exige lastre y doble tracción.
 - **Tipo de labor**: labranza pide fuerza; transporte pide velocidad moderada.
-- **Trafico**: al circular por camino publico convive con otros vehiculos.
+- **Tráfico**: al circular por camino público convive con otros vehículos.
 - **Clima**: lluvia y polvo afectan visibilidad, agarre y confort.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
 Cada entorno es un escenario con su pendiente, tipo de suelo, labor y clima. Ver
 como se modela en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-tractor.md).
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-tractor.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-tractor.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-tractor.md)
+[⬅️ Anterior: Principios y operación](principios-tractor.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-tractor.md)

@@ -4,66 +4,66 @@
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-En un vehiculo real hablariamos de leyes de transito y normativas oficiales. Como
-esta nave es de ficcion, aqui describimos, con nuestras palabras, las "reglas
+En un vehículo real hablariamos de leyes de tránsito y normativas oficiales. Como
+esta nave es de ficción, aquí describimos, con nuestras palabras, las "reglas
 internas" que hacen coherente un universo con cazas transformables. No son ley
 real ni especificaciones oficiales: son convenciones narrativas plausibles que
 proponemos para razonar sobre el concepto.
 
-> 📌 Importante: nada de este modulo es normativa legal ni tecnica real. Son
-> reglas imaginarias de coherencia interna, utiles solo para el aprendizaje y la
-> simulacion.
+> 📌 Importante: nada de este módulo es normativa legal ni técnica real. Son
+> reglas imaginarias de coherencia interna, útiles solo para el aprendizaje y la
+> simulación.
 
 ---
 
 ## 🌐 Reglas internas propuestas
 
-### 1. La transformacion cuesta tiempo y energia
+### 1. La transformación cuesta tiempo y energía
 
 En un universo coherente, cambiar de modo no es gratis. Consume una reserva de
-energia y tarda unos segundos. Esto obliga al piloto a decidir con antelacion y
-da tension a la historia.
+energía y tarda unos segundos. Esto obliga al piloto a decidir con antelación y
+da tensión a la historia.
 
 ### 2. Cada modo tiene su terreno
 
 El modo caza domina el aire, el humanoide domina el suelo y el intermedio es solo
-transicion. Ningun modo es el mejor en todo, lo que mantiene interesantes las
+transición. Ningún modo es el mejor en todo, lo que mantiene interesantes las
 decisiones.
 
-### 3. La estructura tiene limites
+### 3. La estructura tiene límites
 
-Las juntas y los actuadores pueden sobrecargarse. Forzar una transformacion bajo
-esfuerzo extremo puede danar la maquina. Es el equivalente narrativo a respetar
+Las juntas y los actuadores pueden sobrecargarse. Forzar una transformación bajo
+esfuerzo extremo puede dañar la máquina. Es el equivalente narrativo a respetar
 las cargas estructurales.
 
 ### 4. El piloto sigue siendo humano
 
-La maquina amplifica al piloto pero no lo sustituye. Sus limites (reflejos,
+La máquina amplifica al piloto pero no lo sustituye. Sus límites (reflejos,
 resistencia) siguen contando, lo que mantiene la escala humana de la historia.
 
 ---
 
 ## Tabla de reglas y su motivo
 
-| Regla interna | Que impone | Para que sirve en la ficcion |
+| Regla interna | Que impone | Para que sirve en la ficción |
 | --- | --- | --- |
-| Transformar cuesta | Tiempo y energia limitados | Genera decisiones y tension. |
-| Cada modo su terreno | Ningun modo es universal | Da variedad tactica. |
-| Limite estructural | No abusar del mecanismo | Introduce riesgo y consecuencias. |
-| Piloto humano | Mantiene limites humanos | Conserva la identificacion. |
+| Transformar cuesta | Tiempo y energía limitados | Genera decisiones y tensión. |
+| Cada modo su terreno | Ningún modo es universal | Da variedad táctica. |
+| Límite estructural | No abusar del mecanismo | Introduce riesgo y consecuencias. |
+| Piloto humano | Mantiene límites humanos | Conserva la identificación. |
 
 ---
 
-## Por que estas reglas ayudan a aprender
+## Por  qué estas reglas ayudan a aprender
 
-Al fijar reglas coherentes, la ficcion se acerca a la fisica: si transformar
-cuesta energia y tiempo, el relato empieza a comportarse como un problema real de
-ingenieria. Ese es el puente entre la fantasia y el aprendizaje que buscamos en
-todo el catalogo.
+Al fijar reglas coherentes, la ficción se acerca a la física: si transformar
+cuesta energía y tiempo, el relato empieza a comportarse como un problema real de
+ingeniería. Ese es el puente entre la fantasía y el aprendizaje que buscamos en
+todo el catálogo.
 
-Puedes leer el marco general de esta seccion en el
-[aviso de derechos del catalogo](../../README.md).
+Puedes leer el marco general de esta sección en el
+[aviso de derechos del catálogo](../../README.md).
 
 ---
 
-[⬅️ Anterior: Entornos](../operacion/entornos-caza-transformable.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-caza-transformable.md)
+[⬅️ Anterior: Entornos](../operacion/entornos-caza-transformable.md) · [➡️ Siguiente: Diseño de simulación](../simulacion/diseno-simulador-caza-transformable.md)

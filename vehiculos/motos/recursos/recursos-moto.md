@@ -2,22 +2,22 @@
 
 [🏠 Inicio](../../../README.md) · [🏍️ Curso: Motos](../README.md) · 🧰 Recursos
 
-Glosario especifico, enlaces y diagramas de apoyo del curso de motos. Amplia el
+Glosario específico, enlaces y diagramas de apoyo del curso de motos. Amplia el
 [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
-| Contramanillar | Empujar el manillar hacia el lado contrario para iniciar la inclinacion en curva a velocidad. |
+| Contramanillar | Empujar el manillar hacia el lado contrario para iniciar la inclinación en curva a velocidad. |
 | Transferencia de peso | Desplazamiento de la carga entre ruedas al frenar o acelerar. |
 | Punto de amordace | Momento en que el embrague empieza a transmitir fuerza. |
-| Freno motor | Retencion que produce el motor al soltar el acelerador. |
-| Adherencia | Agarre disponible del neumatico antes de deslizar. |
+| Freno motor | Retención que produce el motor al soltar el acelerador. |
+| Adherencia | Agarre disponible del neumático antes de deslizar. |
 | Cilindrada | Volumen total de los cilindros del motor, en cc. |
-| Regimen | Velocidad de giro del motor, en rpm. |
+| Régimen | Velocidad de giro del motor, en rpm. |
 
 ---
 
@@ -28,7 +28,7 @@ flowchart LR
     Frenada[Frenada] --> Peso[Transferencia de peso adelante]
     Peso --> Delantero[Freno delantero: mayor capacidad]
     Peso --> Trasero[Freno trasero: estabiliza]
-    Delantero --> Control[Detencion controlada]
+    Delantero --> Control[Detención controlada]
     Trasero --> Control
 ```
 
@@ -45,4 +45,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-moto.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-moto.md)

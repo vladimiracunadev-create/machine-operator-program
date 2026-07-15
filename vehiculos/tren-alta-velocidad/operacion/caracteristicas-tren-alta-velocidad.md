@@ -1,68 +1,68 @@
-# 📋 Caracteristicas funcionales del tren de alta velocidad
+# 📋 Características funcionales del tren de alta velocidad
 
-[🏠 Inicio](../../../README.md) · [🚄 Curso: Tren de alta velocidad](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🚄 Curso: Tren de alta velocidad](../README.md) · 📋 Características
 
 Que es un tren de alta velocidad, que configuraciones existen y para que sirve
-cada una. Este modulo da el contexto antes de abrir la mecanica (Modulo 3).
+cada una. Este módulo da el contexto antes de abrir la mecánica (Módulo 3).
 
 ---
 
-## 🧭 Definicion
+## 🧭 Definición
 
 Un tren de alta velocidad es un tren disenado para circular por encima de unos
-250 km/h sobre una via dedicada, sin cruces a nivel y con curvas amplias. A esa
-velocidad la resistencia del aire domina, por lo que la aerodinamica y una via
-especial son tan importantes como la potencia. Guia sobre rieles, de modo que no
-tiene direccion libre: su ruta esta fijada por la via.
+250 km/h sobre una vía dedicada, sin cruces a nivel y con curvas amplias. A esa
+velocidad la resistencia del aire domina, por lo que la aerodinámica y una vía
+especial son tan importantes como la potencia. Guía sobre rieles, de modo que no
+tiene dirección libre: su ruta está fijada por la vía.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧬 Características clave
 
-| Caracteristica | Descripcion |
+| Característica | Descripción |
 | --- | --- |
-| Velocidad de servicio | Por encima de 250 km/h en via dedicada. |
-| Via dedicada | Sin pasos a nivel, con curvas amplias y peralte. |
-| Aerodinamica | Nariz alargada; la resistencia del aire domina a alta velocidad. |
-| Traccion distribuida | Motores repartidos en varios coches (EMU) en muchos disenos. |
-| Energia cinetica enorme | Gran masa por gran velocidad; distancias de frenado de kilometros. |
-| Senalizacion en cabina | ETCS/ERTMS; no hay senales laterales legibles a esa velocidad. |
-| Alimentacion electrica | Pantografo unico sobre catenaria de alta tension. |
+| Velocidad de servicio | Por encima de 250 km/h en vía dedicada. |
+| Vía dedicada | Sin pasos a nivel, con curvas amplias y peralte. |
+| Aerodinámica | Nariz alargada; la resistencia del aire domina a alta velocidad. |
+| Tracción distribuida | Motores repartidos en varios coches (EMU) en muchos diseños. |
+| Energía cinética enorme | Gran masa por gran velocidad; distancias de frenado de kilómetros. |
+| Señalización en cabina | ETCS/ERTMS; no hay señales laterales legibles a esa velocidad. |
+| Alimentación eléctrica | Pantógrafo único sobre catenaria de alta tensión. |
 
 ---
 
-## 🗂️ Tipos de configuracion
+## 🗂️ Tipos de configuración
 
 ```mermaid
 flowchart TD
-    Tren[🚄 Tren de alta velocidad] --> Traccion[Por traccion]
-    Tren --> Contacto[Por contacto con la via]
+    Tren[🚄 Tren de alta velocidad] --> Traccion[Por tracción]
+    Tren --> Contacto[Por contacto con la vía]
     Traccion --> Distribuida[Distribuida EMU]
     Traccion --> Concentrada[Concentrada con locomotora]
-    Contacto --> Rueda[Rueda-riel clasico]
-    Contacto --> Maglev[Levitacion magnetica]
+    Contacto --> Rueda[Rueda-riel clásico]
+    Contacto --> Maglev[Levitación magnética]
     Distribuida --> Shinkansen[Estilo Shinkansen]
     Concentrada --> TGV[Estilo TGV]
 ```
 
 | Tipo | Como se distingue | Rasgo destacado |
 | --- | --- | --- |
-| Traccion distribuida (EMU) | Motores en varios coches | Mejor adherencia y aceleracion repartida. |
-| Traccion concentrada | Locomotora en cabeza (y cola) | Coches remolcados sin motor. |
-| Rueda-riel | Contacto clasico rueda de pestana | Compatible con red convencional. |
-| Levitacion magnetica | Sin contacto fisico | Muy alta velocidad, via propia exclusiva. |
-| Ancho internacional | Trocha estandar | Referencia comun; valor para Chile por confirmar. |
+| Tracción distribuida (EMU) | Motores en varios coches | Mejor adherencia y aceleración repartida. |
+| Tracción concentrada | Locomotora en cabeza (y cola) | Coches remolcados sin motor. |
+| Rueda-riel | Contacto clásico rueda de pestaña | Compatible con red convencional. |
+| Levitación magnética | Sin contacto físico | Muy alta velocidad, vía propia exclusiva. |
+| Ancho internacional | Trocha estandar | Referencia común; valor para Chile por confirmar. |
 
 ---
 
-## 🎯 Para que se usa
+## 🎯 Para qué se usa
 
-- Unir grandes ciudades separadas por distancias medias de forma rapida.
-- Competir con el avion en trayectos de algunos cientos de kilometros.
+- Unir grandes ciudades separadas por distancias medias de forma rápida.
+- Competir con el avión en trayectos de algunos cientos de kilómetros.
 - Descongestionar corredores de transporte muy demandados.
-- Ofrecer transporte publico masivo con alta frecuencia y puntualidad.
-- Reducir el uso del automovil entre ciudades conectadas.
+- Ofrecer transporte público masivo con alta frecuencia y puntualidad.
+- Reducir el uso del automóvil entre ciudades conectadas.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-tren-alta-velocidad.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-tren-alta-velocidad.md)
+[⬅️ Anterior: Historia](../historia/historia-tren-alta-velocidad.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-tren-alta-velocidad.md)

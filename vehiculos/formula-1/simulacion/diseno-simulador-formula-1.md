@@ -1,6 +1,6 @@
-# 🎮 Diseno de simulacion de la Formula 1
+# 🎮 Diseño de simulación de la Fórmula 1
 
-[🏠 Inicio](../../../README.md) · [🏎️ Curso: Formula 1](../README.md) · 🎮 Simulacion
+[🏠 Inicio](../../../README.md) · [🏎️ Curso: Fórmula 1](../README.md) · 🎮 Simulación
 
 ```mermaid
 stateDiagram-v2
@@ -16,60 +16,60 @@ stateDiagram-v2
     Garaje --> [*]
 ```
 
-## Objetivo de la simulacion
+## Objetivo de la simulación
 
 Que el usuario aprenda a frenar tarde y recto, seguir la trazada, gestionar la
-energia ERS, cuidar los neumaticos y respetar las banderas, de forma segura y
+energía ERS, cuidar los neumáticos y respetar las banderas, de forma segura y
 progresiva.
 
 ## Nivel de realismo
 
 - Nivel elegido: se ofrece del 1 al 3 (ver `docs/03-niveles-de-realismo.md`).
-- Justificacion: el monoplaza es el vehiculo terrestre mas exigente del
-  repositorio; se recomienda dominar antes el curso de automoviles.
+- Justificación: el monoplaza es el vehículo terrestre más exigente del
+  repositorio; se recomienda dominar antes el curso de automóviles.
 
 ## Variables principales
 
 | Variable | Tipo | Rango | Afecta a | Comentarios |
 | --- | --- | --- | --- | --- |
-| Velocidad | numerica | 0-350 km/h | Movimiento y aerodinamica | Central para todo. |
-| Marcha | discreta | N,1..8 | Aceleracion y freno motor | Caja secuencial. |
-| Carga aerodinamica | numerica | baja-alta | Agarre en curva | Depende del reglaje. |
-| Energia ERS | numerica | 0-100% | Impulso disponible | Se gasta y recupera por vuelta. |
-| Adherencia | numerica | 0-1 | Freno, giro, aceleracion | Baja con lluvia y goma fria. |
-| Temperatura de gomas | numerica | rango en grados | Agarre | Ventana estrecha optima. |
-| Desgaste de gomas | numerica | 0-100% | Rendimiento y estrategia | Obliga a parar en boxes. |
-| Combustible | numerica | 0-100% | Peso y autonomia | Menos combustible, mas rapido. |
+| Velocidad | numérica | 0-350 km/h | Movimiento y aerodinámica | Central para todo. |
+| Marcha | discreta | N,1..8 | Aceleración y freno motor | Caja secuencial. |
+| Carga aerodinámica | numérica | baja-alta | Agarre en curva | Depende del reglaje. |
+| Energía ERS | numérica | 0-100% | Impulso disponible | Se gasta y recupera por vuelta. |
+| Adherencia | numérica | 0-1 | Freno, giro, aceleración | Baja con lluvia y goma fría. |
+| Temperatura de gomas | numérica | rango en grados | Agarre | Ventana estrecha óptima. |
+| Desgaste de gomas | numérica | 0-100% | Rendimiento y estrategia | Obliga a parar en boxes. |
+| Combustible | numérica | 0-100% | Peso y autonomía | Menos combustible, más rápido. |
 
-## Ciclo basico
+## Ciclo básico
 
-1. Leer entrada del usuario (acelerador, freno, marcha, direccion, DRS, ERS).
-2. Actualizar unidad de potencia y estado de energia.
-3. Calcular fuerzas: propulsion, frenada, carga aerodinamica y adherencia.
+1. Leer entrada del usuario (acelerador, freno, marcha, dirección, DRS, ERS).
+2. Actualizar unidad de potencia y estado de energía.
+3. Calcular fuerzas: propulsión, frenada, carga aerodinámica y adherencia.
 4. Aplicar restricciones del entorno (asfalto, clima, zonas DRS).
-5. Actualizar velocidad, posicion, temperatura y desgaste.
-6. Refrescar pantalla del volante y retroalimentacion (sonido, vibracion).
+5. Actualizar velocidad, posición, temperatura y desgaste.
+6. Refrescar pantalla del volante y retroalimentación (sonido, vibración).
 
 ## Modos de juego futuros
 
 - Tutorial guiado del volante y los pedales.
-- Practica libre para aprender la trazada.
+- Práctica libre para aprender la trazada.
 - Vuelta cronometrada con delta de referencia.
-- Gestion de energia y neumaticos en tandas largas.
+- Gestión de energía y neumáticos en tandas largas.
 - Escenarios de lluvia y coche de seguridad, sin contenido sensible.
 
 ## Elementos fuera de alcance
 
-- Presentar conduccion temeraria como objetivo del juego.
+- Presentar conducción temeraria como objetivo del juego.
 - Datos que permitan alterar sistemas reales de un monoplaza.
 - Reproducir accidentes de forma gratuita o sensacionalista.
 
 ## Pendientes
 
 - [ ] Definir valores por defecto de cada variable por tipo de circuito.
-- [ ] Prototipar el ciclo basico en un motor simple.
-- [ ] Ajustar el modelo de degradacion de neumaticos.
-- [ ] Agregar fuentes tecnicas publicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+- [ ] Prototipar el ciclo básico en un motor simple.
+- [ ] Ajustar el modelo de degradación de neumáticos.
+- [ ] Agregar fuentes técnicas públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 

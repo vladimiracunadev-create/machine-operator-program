@@ -1,30 +1,30 @@
-# 📋 Caracteristicas funcionales de la moto
+# 📋 Características funcionales de la moto
 
-[🏠 Inicio](../../../README.md) · [🏍️ Curso: Motos](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🏍️ Curso: Motos](../README.md) · 📋 Características
 
-Que es una moto, que tipos existen y para que sirve cada uno. Este modulo da el
-contexto antes de abrir la mecanica (Modulo 3).
-
----
-
-## 🧭 Definicion
-
-Una motocicleta es un vehiculo motorizado de dos ruedas en linea que se equilibra
-en movimiento. El piloto forma parte activa del equilibrio y de la direccion, a
-diferencia de un automovil donde va "dentro" del vehiculo.
+Que es una moto, que tipos existen y para que sirve cada uno. Este módulo da el
+contexto antes de abrir la mecánica (Módulo 3).
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧭 Definición
 
-| Caracteristica | Descripcion |
+Una motocicleta es un vehículo motorizado de dos ruedas en línea que se equilibra
+en movimiento. El piloto forma parte activa del equilibrio y de la dirección, a
+diferencia de un automóvil donde va "dentro" del vehículo.
+
+---
+
+## 🧬 Características clave
+
+| Característica | Descripción |
 | --- | --- |
-| Equilibrio dinamico | Se estabiliza al avanzar; a baja velocidad exige mas destreza. |
-| Relacion peso/potencia | Alta; acelera rapido para su tamano. |
-| Exposicion del piloto | Sin carroceria; la proteccion depende del equipo. |
-| Agilidad | Facil de mover en trafico y espacios estrechos. |
-| Eficiencia | Bajo consumo y facil estacionamiento. |
-| Inclinacion en curva | Gira apoyandose en la inclinacion, no solo en el manillar. |
+| Equilibrio dinámico | Se estabiliza al avanzar; a baja velocidad exige más destreza. |
+| Relación peso/potencia | Alta; acelera rápido para su tamaño. |
+| Exposición del piloto | Sin carrocería; la protección depende del equipo. |
+| Agilidad | Fácil de mover en tráfico y espacios estrechos. |
+| Eficiencia | Bajo consumo y fácil estacionamiento. |
+| Inclinación en curva | Gira apoyandose en la inclinación, no solo en el manillar. |
 
 ---
 
@@ -40,30 +40,30 @@ flowchart TD
     Calle --> Deportiva[Deportiva]
     Calle --> Crucero[Crucero / custom]
     Mixto --> Trail[Trail / adventure]
-    Especial --> Electrica[Electrica]
+    Especial --> Electrica[Eléctrica]
     Especial --> Reparto[Reparto / trabajo]
 ```
 
-| Tipo | Uso tipico | Rasgo destacado |
+| Tipo | Uso típico | Rasgo destacado |
 | --- | --- | --- |
-| Urbana / naked | Ciudad y trayectos cortos | Ligera, posicion erguida. |
-| Scooter | Movilidad urbana | Transmision automatica, plataforma. |
-| Deportiva | Carretera y circuito | Alta potencia, posicion agresiva. |
+| Urbana / naked | Ciudad y trayectos cortos | Ligera, posición erguida. |
+| Scooter | Movilidad urbana | Transmisión automática, plataforma. |
+| Deportiva | Carretera y circuito | Alta potencia, posición agresiva. |
 | Crucero / custom | Carretera relajada | Par a bajas vueltas, comodidad. |
-| Trail / adventure | Mixto y viaje | Versatil en varios terrenos. |
-| Electrica | Ciudad y reparto | Entrega inmediata, cero emisiones locales. |
+| Trail / adventure | Mixto y viaje | Versátil en varios terrenos. |
+| Eléctrica | Ciudad y reparto | Entrega inmediata, cero emisiones locales. |
 | Reparto / trabajo | Uso profesional urbano | Robusta, con portaequipajes. |
 
 ---
 
-## 🎯 Para que se usa
+## 🎯 Para qué se usa
 
-- Transporte personal economico y agil.
-- Reparto urbano y mensajeria.
+- Transporte personal económico y ágil.
+- Reparto urbano y mensajería.
 - Turismo y viajes de carretera.
-- Deporte y competicion.
-- Movilidad en zonas de trafico denso.
+- Deporte y competición.
+- Movilidad en zonas de tráfico denso.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-moto.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-moto.md)
+[⬅️ Anterior: Historia](../historia/historia-moto.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-moto.md)

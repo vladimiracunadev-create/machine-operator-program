@@ -1,28 +1,28 @@
-# 🔧 Sistemas mecanicos del automovil
+# 🔧 Sistemas mecánicos del automóvil
 
-[🏠 Inicio](../../../README.md) · [🚗 Curso: Automoviles](../README.md) · 🔧 Sistemas mecanicos
+[🏠 Inicio](../../../README.md) · [🚗 Curso: Automóviles](../README.md) · 🔧 Sistemas mecánicos
 
-Este modulo abre el automovil por dentro. Explica cada sistema, como funciona y
-como se conecta con los demas. Es la base tecnica para entender los mandos
-(Modulo 4) y la fisica de la conduccion (Modulo 5).
+Este módulo abre el automóvil por dentro. Explica cada sistema, como funciona y
+como se conecta con los demás. Es la base técnica para entender los mandos
+(Módulo 4) y la física de la conducción (Módulo 5).
 
 ```mermaid
 flowchart LR
     subgraph Motriz
-        M[Motor] --> Emb[Embrague / convertidor] --> Cx[Transmision] --> Dif[Diferencial]
+        M[Motor] --> Emb[Embrague / convertidor] --> Cx[Transmisión] --> Dif[Diferencial]
     end
     subgraph Rodante
-        Ch[Chasis / carroceria] --- Su[Suspension]
-        Su --- N[Neumaticos]
+        Ch[Chasis / carrocería] --- Su[Suspensión]
+        Su --- N[Neumáticos]
     end
     subgraph Control
-        Dir[Direccion]
+        Dir[Dirección]
         Fr[Frenos]
     end
     Dif --> N
     Dir --> N
     Fr --> N
-    Elec[Sistema electrico] -. alimenta .-> M
+    Elec[Sistema eléctrico] -. alimenta .-> M
     Elec -. asiste .-> Fr
 ```
 
@@ -30,53 +30,53 @@ flowchart LR
 
 ## 1. ⚙️ Motor
 
-El motor transforma energia (combustible o electricidad) en giro que impulsa las
-ruedas. El mas comun sigue siendo el motor de combustion interna de cuatro
+El motor transforma energía (combustible o electricidad) en giro que impulsa las
+ruedas. El más común sigue siendo el motor de combustión interna de cuatro
 tiempos.
 
 ### Motor de cuatro tiempos (4T)
 
-Completa el ciclo en cuatro carreras del piston:
+Completa el ciclo en cuatro carreras del pistón:
 
 ```mermaid
 flowchart LR
-    A[1. Admision<br/>entra mezcla] --> B[2. Compresion<br/>se comprime]
-    B --> C[3. Explosion<br/>combustion y fuerza]
+    A[1. Admisión<br/>entra mezcla] --> B[2. Compresión<br/>se comprime]
+    B --> C[3. Explosión<br/>combustión y fuerza]
     C --> D[4. Escape<br/>salen gases]
     D --> A
 ```
 
-| Parametro | Efecto en el automovil |
+| Parámetro | Efecto en el automóvil |
 | --- | --- |
-| Cilindrada (L / cc) | Mayor cilindrada, mas potencia y par potenciales. |
-| Numero de cilindros | Suavidad y caracter (3, 4, 6 u 8 cilindros). |
-| Regimen (rpm) | Zona de potencia; el tacometro lo muestra. |
+| Cilindrada (L / cc) | Mayor cilindrada, más potencia y par potenciales. |
+| Número de cilindros | Suavidad y carácter (3, 4, 6 u 8 cilindros). |
+| Régimen (rpm) | Zona de potencia; el tacómetro lo muestra. |
 | Par (torque, Nm) | Fuerza de empuje, clave para arrancar y remolcar. |
 | Potencia (kW / CV) | Trabajo por unidad de tiempo; ligada a velocidad punta. |
-| Alimentacion | Aspirado o turboalimentado (mas par con menor cilindrada). |
+| Alimentación | Aspirado o turboalimentado (más par con menor cilindrada). |
 
 ### Motor diesel
 
-Enciende la mezcla por compresion, sin bujia. Entrega mucho par a bajas vueltas,
-por eso es comun en camionetas, furgones y vehiculos de trabajo.
+Enciende la mezcla por compresión, sin bujía. Entrega mucho par a bajas vueltas,
+por eso es común en camionetas, furgones y vehículos de trabajo.
 
-### Motor electrico e hibrido
+### Motor eléctrico e híbrido
 
-Un motor electrico alimentado por bateria entrega par de forma inmediata y casi
-sin caja de cambios. El hibrido combina motor de combustion y electrico para
-bajar consumo. Cambian el mantenimiento, la autonomia y el modo de recarga.
+Un motor eléctrico alimentado por batería entrega par de forma inmediata y casi
+sin caja de cambios. El híbrido combina motor de combustión y eléctrico para
+bajar consumo. Cambian el mantenimiento, la autonomía y el modo de recarga.
 
 ### Sistemas de apoyo del motor
 
-- **Alimentacion**: inyeccion electronica de combustible y gestion por
+- **Alimentación**: inyección electrónica de combustible y gestión por
   computadora (ECU).
-- **Refrigeracion**: circuito de liquido con radiador y termostato.
-- **Lubricacion**: aceite a presion que reduce desgaste y disipa calor.
+- **Refrigeración**: circuito de líquido con radiador y termostato.
+- **Lubricación**: aceite a presión que reduce desgaste y disipa calor.
 - **Escape**: catalizador y filtros que reducen emisiones.
 
 ---
 
-## 2. 🔗 Transmision
+## 2. 🔗 Transmisión
 
 Lleva la fuerza del motor a las ruedas motrices y adapta fuerza y velocidad. El
 diferencial permite que las ruedas de un mismo eje giren a distinta velocidad al
@@ -86,132 +86,132 @@ tomar una curva.
 flowchart LR
     Motor --> Acople[Embrague / convertidor]
     Acople -->|conecta / desconecta| Caja[Caja de cambios]
-    Caja -->|relacion elegida| Final[Diferencial]
+    Caja -->|relación elegida| Final[Diferencial]
     Final --> RuedaI[Rueda motriz izq]
     Final --> RuedaD[Rueda motriz der]
 ```
 
-| Tipo de transmision | Como funciona | Ventaja | Desventaja |
+| Tipo de transmisión | Como funciona | Ventaja | Desventaja |
 | --- | --- | --- | --- |
-| Manual (MT) | El conductor embraga y elige la marcha. | Control directo, economica. | Exige tecnica y mas atencion. |
-| Automatica (AT) | Convertidor de par y cambios automaticos. | Comoda en ciudad. | Mas peso y coste. |
-| CVT | Variador continuo sin marchas fijas. | Suave y eficiente. | Sensacion "elastica". |
-| Doble embrague (DCT) | Dos embragues preseleccionan marchas. | Cambios muy rapidos. | Cara y compleja. |
+| Manual (MT) | El conductor embraga y elige la marcha. | Control directo, económica. | Exige técnica y más atención. |
+| Automática (AT) | Convertidor de par y cambios automáticos. | Cómoda en ciudad. | Más peso y coste. |
+| CVT | Variador continuo sin marchas fijas. | Suave y eficiente. | Sensación "elástica". |
+| Doble embrague (DCT) | Dos embragues preseleccionan marchas. | Cambios muy rápidos. | Cara y compleja. |
 
 - **Embrague**: en la caja manual conecta y desconecta el motor de la caja para
   arrancar y cambiar de marcha.
-- **Traccion**: puede ser delantera (FWD), trasera (RWD) o integral (AWD/4x4),
-  segun que ruedas reciben la fuerza.
+- **Tracción**: puede ser delantera (FWD), trasera (RWD) o integral (AWD/4x4),
+  según que ruedas reciben la fuerza.
 
 ---
 
-## 3. 🎯 Direccion
+## 3. 🎯 Dirección
 
-Convierte el giro del volante en el angulo de las ruedas delanteras.
+Convierte el giro del volante en el ángulo de las ruedas delanteras.
 
 ```mermaid
 flowchart LR
-    Volante --> Columna[Columna de direccion]
-    Columna --> Cremallera[Cremallera / pinon]
+    Volante --> Columna[Columna de dirección]
+    Columna --> Cremallera[Cremallera / piñón]
     Cremallera --> Rotulas[Rotulas]
     Rotulas --> RuedaI[Rueda delantera izq]
     Rotulas --> RuedaD[Rueda delantera der]
-    Asist[Asistencia electrica / hidraulica] -. reduce esfuerzo .-> Cremallera
+    Asist[Asistencia eléctrica / hidráulica] -. reduce esfuerzo .-> Cremallera
 ```
 
-- **Cremallera y pinon**: mecanismo mas comun; traduce el giro en desplazamiento
+- **Cremallera y piñón**: mecanismo más común; traduce el giro en desplazamiento
   lateral de las ruedas.
-- **Direccion asistida**: hidraulica o electrica (EPS); reduce el esfuerzo del
+- **Dirección asistida**: hidráulica o eléctrica (EPS); reduce el esfuerzo del
   conductor, sobre todo a baja velocidad.
 - **Subviraje**: el auto "sigue de largo" y no gira lo suficiente; las ruedas
   delanteras pierden agarre.
-- **Sobreviraje**: la parte trasera se abre y el auto gira mas de lo deseado; el
+- **Sobreviraje**: la parte trasera se abre y el auto gira más de lo deseado; el
   eje trasero pierde agarre.
 
 ---
 
 ## 4. 🛑 Frenos
 
-Convierten la energia de movimiento en calor para reducir la velocidad. Al frenar,
-el peso se transfiere hacia adelante, por eso los frenos delanteros trabajan mas.
+Convierten la energía de movimiento en calor para reducir la velocidad. Al frenar,
+el peso se transfiere hacia adelante, por eso los frenos delanteros trabajan más.
 
 ```mermaid
 flowchart TD
     Pedal[Pedal de freno] --> Servo[Servofreno]
     Servo --> Bomba[Bomba maestra]
-    Bomba --> Liquido[Liquido de frenos]
+    Bomba --> Liquido[Líquido de frenos]
     Liquido --> PinzaD[Frenos delanteros: disco]
     Liquido --> PinzaT[Frenos traseros: disco / tambor]
     ABS[ABS] -. evita bloqueo .-> PinzaD
     ABS -. evita bloqueo .-> PinzaT
 ```
 
-| Componente | Funcion | Nota |
+| Componente | Función | Nota |
 | --- | --- | --- |
-| Freno de disco | Pinza que aprieta un disco. | Mejor disipacion, comun al frente. |
-| Freno de tambor | Zapatas contra un tambor. | Economico, comun atras. |
-| ABS | Evita el bloqueo de las ruedas. | Mantiene la direccion al frenar fuerte. |
-| Reparto (EBD) | Distribuye la fuerza entre ejes. | Optimiza segun carga y adherencia. |
-| Freno de mano | Inmoviliza detenido. | Mecanico o electrico (EPB). |
+| Freno de disco | Pinza que aprieta un disco. | Mejor disipación, común al frente. |
+| Freno de tambor | Zapatas contra un tambor. | Económico, común atrás. |
+| ABS | Evita el bloqueo de las ruedas. | Mantiene la dirección al frenar fuerte. |
+| Reparto (EBD) | Distribuye la fuerza entre ejes. | Optimiza según carga y adherencia. |
+| Freno de mano | Inmoviliza detenido. | Mecánico o eléctrico (EPB). |
 
 La **distancia de frenado** crece con el cuadrado de la velocidad: al doble de
-velocidad, la distancia se cuadruplica. Depende tambien de la adherencia del
-neumatico y del estado del piso.
+velocidad, la distancia se cuadruplica. Depende también de la adherencia del
+neumático y del estado del piso.
 
 ---
 
-## 5. 🌊 Suspension
+## 5. 🌊 Suspensión
 
-Mantiene los neumaticos en contacto con el suelo, absorbe irregularidades y
+Mantiene los neumáticos en contacto con el suelo, absorbe irregularidades y
 controla la transferencia de peso.
 
-| Tipo | Donde se usa | Rasgo |
+| Tipo | Dónde se usa | Rasgo |
 | --- | --- | --- |
-| McPherson | Eje delantero de la mayoria | Simple, compacta, economica. |
-| Doble horquilla | Deportivos y gama alta | Mejor control del neumatico. |
-| Eje rigido | Camionetas y trabajo | Robusto, ideal con carga. |
+| McPherson | Eje delantero de la mayoría | Simple, compacta, económica. |
+| Doble horquilla | Deportivos y gama alta | Mejor control del neumático. |
+| Eje rígido | Camionetas y trabajo | Robusto, ideal con carga. |
 | Multibrazo | Traseras modernas | Buen equilibrio confort/agarre. |
 
 - **Resortes**: soportan el peso y absorben golpes.
 - **Amortiguadores**: controlan el rebote del resorte.
 - **Barra estabilizadora**: reduce el balanceo en curva.
 
-Sin buena suspension, la rueda "salta" y pierde adherencia, reduciendo el control
+Sin buena suspensión, la rueda "salta" y pierde adherencia, reduciendo el control
 al frenar y en curva.
 
 ---
 
-## 6. ⚡ Sistema electrico y ayudas
+## 6. ⚡ Sistema eléctrico y ayudas
 
-Alimenta el arranque, las luces, el confort y toda la electronica de seguridad.
+Alimenta el arranque, las luces, el confort y toda la electrónica de seguridad.
 
-| Componente | Funcion |
+| Componente | Función |
 | --- | --- |
-| Bateria | Almacena energia y arranca el motor. |
-| Alternador | Recarga la bateria con el motor en marcha. |
+| Batería | Almacena energía y arranca el motor. |
+| Alternador | Recarga la batería con el motor en marcha. |
 | Motor de arranque | Hace girar el motor para encenderlo. |
 | ECU | Computadora que gestiona motor y sistemas. |
-| Ayudas ADAS | Asistentes de carril, frenado autonomo, sensores. |
+| Ayudas ADAS | Asistentes de carril, frenado autónomo, sensores. |
 
-Las ayudas **ADAS** (control de estabilidad ESC, control de traccion TCS,
+Las ayudas **ADAS** (control de estabilidad ESC, control de tracción TCS,
 frenado de emergencia AEB, asistente de carril) usan sensores para intervenir
-cuando detectan perdida de control o riesgo de choque.
+cuando detectan pérdida de control o riesgo de choque.
 
 ---
 
-## 🔁 Como se conecta todo
+## 🔁 Cómo se conecta todo
 
 1. El **motor** genera fuerza a partir de combustible o electricidad.
-2. El **embrague/convertidor** y la **transmision** adaptan esa fuerza.
+2. El **embrague/convertidor** y la **transmisión** adaptan esa fuerza.
 3. El **diferencial** la reparte a las **ruedas motrices**.
-4. La **direccion** orienta las ruedas delanteras segun el volante.
-5. El **chasis**, la **suspension** y los **neumaticos** mantienen el contacto.
+4. La **dirección** orienta las ruedas delanteras según el volante.
+5. El **chasis**, la **suspensión** y los **neumáticos** mantienen el contacto.
 6. Los **frenos** devuelven el control reduciendo la velocidad.
-7. El **sistema electrico** alimenta y las **ayudas** supervisan todo.
+7. El **sistema eléctrico** alimenta y las **ayudas** supervisan todo.
 
-Con esto entendido, el [Modulo 4: Mandos](../mandos/manual-mandos-automovil.md)
+Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-automovil.md)
 muestra como el conductor opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Caracteristicas](caracteristicas-automovil.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-automovil.md)
+[⬅️ Anterior: Características](caracteristicas-automovil.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-automovil.md)

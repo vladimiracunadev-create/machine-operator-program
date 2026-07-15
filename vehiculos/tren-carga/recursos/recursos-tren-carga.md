@@ -2,36 +2,36 @@
 
 [🏠 Inicio](../../../README.md) · [🚂 Curso: Tren de carga](../README.md) · 🧰 Recursos
 
-Glosario especifico, enlaces y diagramas de apoyo del curso de tren de carga.
+Glosario específico, enlaces y diagramas de apoyo del curso de tren de carga.
 Amplia el [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
-| Bogie | Carro pivotante con ejes que soporta la locomotora o el vagon y sigue la via. |
-| Rueda de pestana | Rueda con reborde interior que guia el tren sobre el riel. |
+| Bogie | Carro pivotante con ejes que soporta la locomotora o el vagón y sigue la vía. |
+| Rueda de pestaña | Rueda con reborde interior que guía el tren sobre el riel. |
 | Adherencia rueda-riel | Agarre disponible del contacto acero-acero antes de patinar. |
 | Arenado | Lanzar arena sobre el riel para aumentar la adherencia. |
-| Tuberia de freno | Conducto de aire que recorre el tren y acciona el freno de cada vagon. |
-| Freno dinamico | Uso de los motores de traccion como generadores para frenar. |
+| Tubería de freno | Conducto de aire que recorre el tren y acciona el freno de cada vagón. |
+| Freno dinámico | Uso de los motores de tracción como generadores para frenar. |
 | Distributed power | Reparto de locomotoras a lo largo del tren para repartir el esfuerzo. |
-| Enganche AAR | Enganche automatico tipo cuchara que se acopla al juntar vagones. |
-| Peso por eje | Carga que cada eje transmite al riel; limita el tonelaje de la via. |
-| Trocha | Distancia entre los dos rieles de la via. |
+| Enganche AAR | Enganche automático tipo cuchara que se acopla al juntar vagones. |
+| Peso por eje | Carga que cada eje transmite al riel; limita el tonelaje de la vía. |
+| Trocha | Distancia entre los dos rieles de la vía. |
 
 ---
 
-## 🗺️ Diagrama de traccion diesel-electrica
+## 🗺️ Diagrama de tracción diesel-electrica
 
 ```mermaid
 flowchart LR
     Diesel[Motor diesel] --> Generador[Generador / alternador]
-    Generador --> Control[Control de traccion]
-    Control --> Motores[Motores de traccion]
-    Motores --> Ruedas[Ruedas de pestana]
+    Generador --> Control[Control de tracción]
+    Control --> Motores[Motores de tracción]
+    Motores --> Ruedas[Ruedas de pestaña]
     Ruedas --> Riel[Riel]
 ```
 
@@ -48,4 +48,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-tren-carga.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-tren-carga.md)

@@ -1,39 +1,39 @@
-# 🧰 Recursos de la maquinaria de construccion
+# 🧰 Recursos de la maquinaria de construcción
 
-[🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construccion](../README.md) · 🧰 Recursos
+[🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construcción](../README.md) · 🧰 Recursos
 
-Glosario especifico, enlaces y diagramas de apoyo del curso de maquinaria de
-construccion. Amplia el [glosario general](../../../docs/05-glosario-general.md).
+Glosario específico, enlaces y diagramas de apoyo del curso de maquinaria de
+construcción. Amplia el [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
-| Hidraulica de trabajo | Sistema de aceite a presion que mueve brazos, cucharones y hojas. |
+| Hidráulica de trabajo | Sistema de aceite a presión que mueve brazos, cucharones y hojas. |
 | Pluma (boom) | Primer tramo del brazo de una excavadora. |
-| Balancin (arm) | Segundo tramo del brazo que acerca y aleja el cucharon. |
-| Cucharon | Herramienta que recoge, corta y descarga material. |
+| Balancín (arm) | Segundo tramo del brazo que acerca y aleja el cucharón. |
+| Cucharón | Herramienta que recoge, corta y descarga material. |
 | Hoja empujadora | Placa que empuja y nivela el terreno. |
 | Escarificador (ripper) | Diente que rompe suelo duro antes de empujarlo. |
-| Traslacion | Movimiento de la maquina por giro de orugas o ruedas. |
-| Giro diferencial | Virar moviendo una oruga mas que la otra. |
+| Traslación | Movimiento de la máquina por giro de orugas o ruedas. |
+| Giro diferencial | Virar moviendo una oruga más que la otra. |
 | Momento de vuelco | Peso de la carga por su distancia al punto de vuelco. |
-| Zona de exclusion | Radio de trabajo que debe estar libre de personas. |
-| ROPS / FOPS | Estructuras que protegen del vuelco y de la caida de objetos. |
+| Zona de exclusión | Radio de trabajo que debe estar libre de personas. |
+| ROPS / FOPS | Estructuras que protegen del vuelco y de la caída de objetos. |
 
 ---
 
-## 🗺️ Diagrama del ciclo de excavacion
+## 🗺️ Diagrama del ciclo de excavación
 
 ```mermaid
 flowchart LR
-    Penetrar[Penetrar el terreno] --> Arrastrar[Arrastrar cerrando el balancin]
-    Arrastrar --> Llenar[Cerrar el cucharon]
+    Penetrar[Penetrar el terreno] --> Arrastrar[Arrastrar cerrando el balancín]
+    Arrastrar --> Llenar[Cerrar el cucharón]
     Llenar --> Levantar[Levantar la pluma]
-    Levantar --> Girar[Girar al camion]
-    Girar --> Descargar[Abrir el cucharon]
+    Levantar --> Girar[Girar al camión]
+    Girar --> Descargar[Abrir el cucharón]
     Descargar --> Penetrar
 ```
 
@@ -50,4 +50,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-maquinaria.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-maquinaria.md)

@@ -1,25 +1,25 @@
-# 🧰 Recursos del tanque (marco publico)
+# 🧰 Recursos del tanque (marco público)
 
 [🏠 Inicio](../../../README.md) · [🪖 Curso: Tanques](../README.md) · 🧰 Recursos
 
-Glosario especifico, enlaces y diagramas de apoyo del curso de tanques, **solo
-de movilidad e historia publica**. Amplia el
+Glosario específico, enlaces y diagramas de apoyo del curso de tanques, **solo
+de movilidad e historia pública**. Amplia el
 [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
 | Tren de rodaje | Conjunto de ruedas y cadena que permite avanzar sobre orugas. |
-| Oruga | Cadena continua que reparte el peso y da agarre en terreno dificil. |
+| Oruga | Cadena continua que reparte el peso y da agarre en terreno difícil. |
 | Rueda motriz | Rueda dentada que engrana y mueve la cadena. |
-| Rueda tensora | Mantiene la tension correcta de la oruga. |
-| Direccion diferencial | Giro logrado variando la velocidad de cada oruga. |
-| Presion sobre el suelo | Peso repartido por la superficie de las orugas. |
-| Relacion potencia/peso | Potencia del motor frente a la masa del vehiculo. |
-| Barra de torsion | Elemento de suspension que se retuerce como resorte. |
+| Rueda tensora | Mantiene la tensión correcta de la oruga. |
+| Dirección diferencial | Giro logrado variando la velocidad de cada oruga. |
+| Presión sobre el suelo | Peso repartido por la superficie de las orugas. |
+| Relación potencia/peso | Potencia del motor frente a la masa del vehículo. |
+| Barra de torsión | Elemento de suspensión que se retuerce como resorte. |
 
 ---
 
@@ -27,25 +27,25 @@ de movilidad e historia publica**. Amplia el
 
 ```mermaid
 flowchart LR
-    Motor[Motor] --> Trans[Transmision]
+    Motor[Motor] --> Trans[Transmisión]
     Trans --> Motriz[Rueda motriz]
     Motriz --> Oruga[Cadena de oruga]
-    Oruga --> Presion[Reparto de presion]
+    Oruga --> Presion[Reparto de presión]
     Presion --> Avance[Avance todo terreno]
-    Susp[Suspension] --> Oruga
+    Susp[Suspensión] --> Oruga
 ```
 
 ---
 
 ## 🔗 Enlaces y fuentes
 
-- Seguridad y limites: [🦺 docs/04-seguridad-y-limites.md](../../../docs/04-seguridad-y-limites.md)
+- Seguridad y límites: [🦺 docs/04-seguridad-y-limites.md](../../../docs/04-seguridad-y-limites.md)
 - Marco institucional: [⚖️ docs/07-marco-legal-chile.md](../../../docs/07-marco-legal-chile.md)
 - Registro de fuentes: [📚 manuales/fuentes.md](../../../manuales/fuentes.md)
 
 Registrar cada recurso nuevo con su origen y licencia, siguiendo
-[`recursos/README.md`](../../../recursos/README.md). Solo fuentes publicas.
+[`recursos/README.md`](../../../recursos/README.md). Solo fuentes públicas.
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-tanque.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-tanque.md)

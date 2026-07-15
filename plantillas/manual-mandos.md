@@ -2,17 +2,17 @@
 
 ## Vista general
 
-Descripcion del puesto de mando, cabina, puente, consola o panel.
+Descripción del puesto de mando, cabina, puente, consola o panel.
 
 ## Mapa de controles
 
-| Zona | Control | Tipo | Funcion | Prioridad | Comentarios |
+| Zona | Control | Tipo | Función | Prioridad | Comentarios |
 | --- | --- | --- | --- | --- | --- |
-| | | palanca/boton/pedal/rueda/pantalla | | alta/media/baja | |
+| | | palanca/botón/pedal/rueda/pantalla | | alta/media/baja | |
 
-## Entradas de simulacion
+## Entradas de simulación
 
-| Accion | Teclado | Controlador | Pantalla tactil | Comentarios |
+| Acción | Teclado | Controlador | Pantalla táctil | Comentarios |
 | --- | --- | --- | --- | --- |
 | Acelerar | | | | |
 | Frenar | | | | |
@@ -20,7 +20,7 @@ Descripcion del puesto de mando, cabina, puente, consola o panel.
 
 ## Estados del sistema
 
-| Estado | Descripcion | Indicadores | Acciones disponibles |
+| Estado | Descripción | Indicadores | Acciones disponibles |
 | --- | --- | --- | --- |
 | Apagado | | | |
 | Preparado | | | |
@@ -29,7 +29,7 @@ Descripcion del puesto de mando, cabina, puente, consola o panel.
 
 ## Observaciones ergonomicas
 
-- Que informacion debe verse siempre?
-- Que mandos deben estar cerca?
-- Que acciones deben requerir confirmacion?
-- Que errores del usuario debe prevenir la interfaz?
+- ¿Qué información debe verse siempre?
+- ¿Qué mandos deben estar cerca?
+- ¿Qué acciones deben requerir confirmación?
+- ¿Qué errores del usuario debe prevenir la interfaz?

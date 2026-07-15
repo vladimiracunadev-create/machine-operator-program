@@ -1,32 +1,32 @@
-# 📋 Caracteristicas funcionales del cohete
+# 📋 Características funcionales del cohete
 
-[🏠 Inicio](../../../README.md) · [🚀 Curso: Cohetes](../README.md) · 📋 Caracteristicas
+[🏠 Inicio](../../../README.md) · [🚀 Curso: Cohetes](../README.md) · 📋 Características
 
 Que es un cohete lanzador, que tipos existen y para que sirve cada uno. Este
-modulo da el contexto antes de abrir los sistemas del cohete (Modulo 3).
+módulo da el contexto antes de abrir los sistemas del cohete (Módulo 3).
 
 ---
 
-## 🧭 Definicion
+## 🧭 Definición
 
-Un cohete lanzador es un vehiculo que se impulsa expulsando gases a gran
+Un cohete lanzador es un vehículo que se impulsa expulsando gases a gran
 velocidad y que lleva su propio oxidante, por lo que funciona incluso sin aire.
-Su tarea es llevar una carga util desde la superficie hasta la velocidad y la
-altura necesarias para entrar en orbita, venciendo la gravedad y la atmosfera
-densa de los primeros kilometros.
+Su tarea es llevar una carga útil desde la superficie hasta la velocidad y la
+altura necesarias para entrar en órbita, venciendo la gravedad y la atmósfera
+densa de los primeros kilómetros.
 
 ---
 
-## 🧬 Caracteristicas clave
+## 🧬 Características clave
 
-| Caracteristica | Descripcion |
+| Característica | Descripción |
 | --- | --- |
-| Propulsion por reaccion | Avanza expulsando masa, sin apoyarse en el aire. |
-| Oxidante propio | Lleva su oxigeno, por eso quema en el vacio. |
-| Diseno por etapas | Suelta partes vacias para no cargar peso muerto. |
-| Relacion empuje-peso alta | Al despegar el empuje debe superar el peso. |
-| Presupuesto de delta-v | La energia total define hasta donde puede llegar. |
-| Reutilizacion parcial | Algunas etapas aterrizan y vuelven a volar. |
+| Propulsión por reacción | Avanza expulsando masa, sin apoyarse en el aire. |
+| Oxidante propio | Lleva su oxígeno, por eso quema en el vacío. |
+| Diseño por etapas | Suelta partes vacías para no cargar peso muerto. |
+| Relación empuje-peso alta | Al despegar el empuje debe superar el peso. |
+| Presupuesto de delta-v | La energía total define hasta donde puede llegar. |
+| Reutilización parcial | Algunas etapas aterrizan y vuelven a volar. |
 
 ---
 
@@ -34,37 +34,37 @@ densa de los primeros kilometros.
 
 ```mermaid
 flowchart TD
-    Cohete[🚀 Cohete lanzador] --> Carga[Por carga util]
+    Cohete[🚀 Cohete lanzador] --> Carga[Por carga útil]
     Cohete --> Propelente[Por propelente]
-    Cohete --> Reuso[Por reutilizacion]
+    Cohete --> Reuso[Por reutilización]
     Carga --> Ligero[Ligero]
     Carga --> Mediano[Mediano]
     Carga --> Pesado[Pesado]
-    Propelente --> Liquido[Motor liquido]
-    Propelente --> Solido[Motor solido]
+    Propelente --> Liquido[Motor líquido]
+    Propelente --> Solido[Motor sólido]
     Reuso --> Desechable[Desechable]
     Reuso --> Recuperable[Recuperable]
 ```
 
-| Tipo | Uso tipico | Rasgo destacado |
+| Tipo | Uso típico | Rasgo destacado |
 | --- | --- | --- |
-| Lanzador ligero | Satelites pequenos a orbita baja | Bajo costo por vuelo. |
-| Lanzador mediano | Satelites y capsulas tripuladas | Equilibrio carga y precio. |
-| Lanzador pesado | Grandes cargas o exploracion lejana | Mucho empuje, varias etapas. |
-| De motor liquido | Empuje regulable | Se puede apagar y reencender. |
-| De motor solido | Empuje muy alto de arranque | Simple, no se apaga a voluntad. |
+| Lanzador ligero | Satélites pequeños a órbita baja | Bajo costo por vuelo. |
+| Lanzador mediano | Satélites y cápsulas tripuladas | Equilibrio carga y precio. |
+| Lanzador pesado | Grandes cargas o exploración lejana | Mucho empuje, varias etapas. |
+| De motor líquido | Empuje regulable | Se puede apagar y reencender. |
+| De motor sólido | Empuje muy alto de arranque | Simple, no se apaga a voluntad. |
 | Recuperable | Bajar costo por vuelo | La primera etapa aterriza. |
 
 ---
 
-## 🎯 Para que se usa
+## 🎯 Para qué se usa
 
-- Poner satelites de comunicacion, navegacion y observacion en orbita.
-- Lanzar capsulas y carga hacia estaciones espaciales.
+- Poner satélites de comunicación, navegación y observación en órbita.
+- Lanzar cápsulas y carga hacia estaciones espaciales.
 - Enviar sondas a la Luna, planetas y cuerpos menores.
 - Realizar vuelos suborbitales de ciencia con cohetes sonda.
-- Educacion y simulacion de la fase de lanzamiento y ascenso.
+- Educación y simulación de la fase de lanzamiento y ascenso.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-cohete.md) · [➡️ Siguiente: Sistemas mecanicos](sistemas-mecanicos-cohete.md)
+[⬅️ Anterior: Historia](../historia/historia-cohete.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-cohete.md)

@@ -4,9 +4,9 @@
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Donde opera esta nave y que factores cambian su comportamiento. Como es un
-vehiculo doble, sus entornos tambien son dobles: los del mundo fisico cuando
-rueda y los "entornos temporales" imaginarios cuando salta. Todo es descripcion
+Dónde opera esta nave y que factores cambian su comportamiento. Como es un
+vehículo doble, sus entornos también son dobles: los del mundo físico cuando
+rueda y los "entornos temporales" imaginarios cuando salta. Todo es descripción
 original con fines educativos.
 
 ---
@@ -36,46 +36,46 @@ mindmap
 
 ---
 
-## 🌦️ Factores del entorno fisico
+## 🌦️ Factores del entorno físico
 
 - **Espacio disponible**: para alcanzar la velocidad umbral narrativa se
-  necesita una via larga y despejada, lo que ya plantea limites practicos.
+  necesita una vía larga y despejada, lo que ya plantea límites prácticos.
 - **Superficie y clima**: como cualquier coche, la adherencia y la visibilidad
-  afectan la conduccion real previa al salto.
+  afectan la conducción real previa al salto.
 - **Seguridad**: acelerar mucho en el mundo real implica riesgos ordinarios de
-  transito, que la simulacion trata con responsabilidad.
+  tránsito, que la simulación trata con responsabilidad.
 
 ---
 
 ## 🕰️ Factores del "entorno temporal" ficticio
 
-| Factor | Descripcion | Nota educativa |
+| Factor | Descripción | Nota educativa |
 | --- | --- | --- |
 | Fecha de origen | Momento desde el que parte el salto | Punto de referencia narrativo. |
 | Fecha de destino | Momento al que apunta el salto | En la realidad no es alcanzable hacia el pasado. |
-| Distancia temporal | Diferencia entre origen y destino | La ficcion la trata como ajustable a voluntad. |
-| Riesgo de paradoja | Posibilidad de alterar causas | Central en el Modulo 7. |
+| Distancia temporal | Diferencia entre origen y destino | La ficción la trata como ajustable a voluntad. |
+| Riesgo de paradoja | Posibilidad de alterar causas | Central en el Módulo 7. |
 
 ---
 
-## 🧭 Como cambia la operacion segun el entorno
+## 🧭 Cómo cambia la operación según el entorno
 
 | Entorno | Que domina | Ajuste principal |
 | --- | --- | --- |
-| Carretera real | Fisica de movimiento | Velocidad, frenado y seguridad. |
-| Preparacion del salto | Energia y umbral | Carga y cercania a la velocidad. |
-| Destino temporal | Causalidad | Analisis de posibles paradojas. |
+| Carretera real | Física de movimiento | Velocidad, frenado y seguridad. |
+| Preparación del salto | Energía y umbral | Carga y cercanía a la velocidad. |
+| Destino temporal | Causalidad | Análisis de posibles paradojas. |
 | Modo ciencia | Reglas reales | El salto queda deshabilitado. |
-| Modo ficcion | Reglas de guion | El salto se permite y se estudia. |
+| Modo ficción | Reglas de guion | El salto se permite y se estudia. |
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
-Cada entorno es un escenario configurable con su superficie, clima, energia
-disponible y modo activo. El diseno completo se detalla en el
-[Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-delorean.md).
+Cada entorno es un escenario configurable con su superficie, clima, energía
+disponible y modo activo. El diseño completo se detalla en el
+[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-delorean.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-delorean.md) · [➡️ Siguiente: Reglas del universo](../reglamentos/reglas-universo-delorean.md)
+[⬅️ Anterior: Principios y operación](principios-delorean.md) · [➡️ Siguiente: Reglas del universo](../reglamentos/reglas-universo-delorean.md)

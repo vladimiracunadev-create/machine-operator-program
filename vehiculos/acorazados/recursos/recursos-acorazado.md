@@ -2,24 +2,24 @@
 
 [🏠 Inicio](../../../README.md) · [🛡️ Curso: Acorazados](../README.md) · 🧰 Recursos
 
-Glosario nautico especifico, enlaces y diagramas de apoyo del curso de
-acorazados. Solo material publico e historico. Amplia el
+Glosario náutico específico, enlaces y diagramas de apoyo del curso de
+acorazados. Solo material público e histórico. Amplia el
 [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
 | Desplazamiento | Peso del agua que desplaza el buque; su peso total. |
-| Blindaje | Acero de proteccion del casco (tratado como masa estructural). |
-| Compartimentacion | Division del casco en zonas estancas por mamparos. |
-| Escora | Inclinacion transversal del buque. |
-| Contrainundacion | Igualar peso entre costados para corregir escora. |
+| Blindaje | Acero de protección del casco (tratado como masa estructural). |
+| Compartimentación | División del casco en zonas estancas por mamparos. |
+| Escora | Inclinación transversal del buque. |
+| Contrainundación | Igualar peso entre costados para corregir escora. |
 | Metacentro | Punto de referencia de la estabilidad transversal. |
 | Calado | Profundidad sumergida del casco. |
-| Nudo | Unidad de velocidad: una milla nautica por hora. |
+| Nudo | Unidad de velocidad: una milla náutica por hora. |
 | Babor / estribor | Costado izquierdo / derecho mirando a proa. |
 
 ---
@@ -39,14 +39,14 @@ flowchart LR
 
 ## 🔗 Enlaces y fuentes
 
-- Seguridad y limites: [🦺 docs/04-seguridad-y-limites.md](../../../docs/04-seguridad-y-limites.md)
+- Seguridad y límites: [🦺 docs/04-seguridad-y-limites.md](../../../docs/04-seguridad-y-limites.md)
 - Marco legal: [⚖️ docs/07-marco-legal-chile.md](../../../docs/07-marco-legal-chile.md)
 - Registro de fuentes: [📚 manuales/fuentes.md](../../../manuales/fuentes.md)
-- Buques museo y fuentes historicas publicas: ver el registro de fuentes.
+- Buques museo y fuentes históricas públicas: ver el registro de fuentes.
 
 Registrar cada recurso nuevo con su origen y licencia, siguiendo
 [`recursos/README.md`](../../../recursos/README.md).
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-acorazado.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-acorazado.md)

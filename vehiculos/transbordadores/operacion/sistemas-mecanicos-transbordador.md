@@ -1,10 +1,10 @@
-# 🔧 Sistemas mecanicos del transbordador
+# 🔧 Sistemas mecánicos del transbordador
 
-[🏠 Inicio](../../../README.md) · [🛬 Curso: Transbordadores](../README.md) · 🔧 Sistemas mecanicos
+[🏠 Inicio](../../../README.md) · [🛬 Curso: Transbordadores](../README.md) · 🔧 Sistemas mecánicos
 
-Este modulo abre el transbordador por dentro. Explica cada sistema, como funciona
-y como se conecta con los demas. Es la base tecnica para entender los mandos
-(Modulo 4) y la fisica del planeo (Modulo 5). Todo es **ciencia real**.
+Este módulo abre el transbordador por dentro. Explica cada sistema, como funciona
+y cómo se conecta con los demás. Es la base técnica para entender los mandos
+(Módulo 4) y la física del planeo (Módulo 5). Todo es **ciencia real**.
 
 ```mermaid
 flowchart LR
@@ -15,14 +15,14 @@ flowchart LR
     end
     subgraph Orbitador
         Cabina[Cabina]
-        Bahia[Bahia de carga]
+        Bahia[Bahía de carga]
         RCS[Propulsores RCS]
     end
     subgraph Reentrada
-        Escudo[Escudo termico]
+        Escudo[Escudo térmico]
         Alas[Alas y timones]
     end
-    EmpujeD --> Orbita[Orbita]
+    EmpujeD --> Orbita[Órbita]
     Orbita --> Escudo
     Escudo --> Alas
 ```
@@ -40,41 +40,41 @@ flowchart LR
     Motores --> Sube
     Sube --> Separa1[Se separan los propulsores]
     Separa1 --> Separa2[Se suelta el tanque externo]
-    Separa2 --> Orbita[Orbitador en orbita]
+    Separa2 --> Orbita[Orbitador en órbita]
 ```
 
-| Componente | Funcion |
+| Componente | Función |
 | --- | --- |
 | Propulsores laterales | Dan gran empuje en los primeros minutos, luego se separan. |
 | Tanque externo | Guarda el propelente que usan los motores del orbitador. |
 | Motores del orbitador | Queman el propelente del tanque durante el ascenso. |
-| Sistema de separacion | Suelta primero los propulsores y luego el tanque. |
+| Sistema de separación | Suelta primero los propulsores y luego el tanque. |
 
 ---
 
 ## 2. 🛰️ Orbitador
 
-Es la nave alada que lleva a la tripulacion y la carga, y la unica parte que
+Es la nave alada que lleva a la tripulación y la carga, y la única parte que
 regresa entera.
 
-| Subsistema | Funcion |
+| Subsistema | Función |
 | --- | --- |
-| Cabina | Puesto de la tripulacion, presurizado. |
-| Bahia de carga | Espacio con puertas para desplegar cargas. |
-| Brazo robotico | Manipula satelites y modulos en orbita. |
+| Cabina | Puesto de la tripulación, presurizado. |
+| Bahía de carga | Espacio con puertas para desplegar cargas. |
+| Brazo robotico | Manipula satélites y módulos en órbita. |
 | Propulsores RCS | Orientan y trasladan la nave en el espacio. |
-| Motores de maniobra | Cambian la orbita y frenan para desorbitar. |
+| Motores de maniobra | Cambian la órbita y frenan para desorbitar. |
 
 ---
 
-## 3. 🛡️ Escudo termico
+## 3. 🛡️ Escudo térmico
 
 Al reingresar, el aire frena la nave y genera un calor enorme. El escudo protege
 la estructura.
 
-- **Losetas ceramicas**: cubren las zonas mas calientes de la panza y las alas.
+- **Losetas ceramicas**: cubren las zonas más calientes de la panza y las alas.
 - **Mantas flexibles**: protegen zonas de calor moderado.
-- **Borde de ataque reforzado**: soporta las temperaturas mas altas.
+- **Borde de ataque reforzado**: soporta las temperaturas más altas.
 - **Regla clave**: la nave debe reingresar con el escudo por delante, no las alas.
 
 ---
@@ -85,45 +85,45 @@ En el regreso, el orbitador deja de ser nave y se comporta como planeador.
 
 ```mermaid
 flowchart LR
-    Aire[Aire cada vez mas denso] --> Alas[Alas generan sustentacion]
+    Aire[Aire cada vez más denso] --> Alas[Alas generan sustentación]
     Alas --> Planea[La nave planea sin motor]
-    Timon[Timon y elevones] --> Controla[Controla el rumbo y el descenso]
-    Planea --> Pista[Aproximacion a la pista]
+    Timon[Timón y elevones] --> Controla[Controla el rumbo y el descenso]
+    Planea --> Pista[Aproximación a la pista]
     Tren[Tren de aterrizaje] --> Toca[Toca y frena en pista]
 ```
 
-| Sistema | Funcion |
+| Sistema | Función |
 | --- | --- |
-| Alas | Generan sustentacion para planear en el aire denso. |
+| Alas | Generan sustentación para planear en el aire denso. |
 | Elevones | Superficies que combinan control de cabeceo y alabeo. |
-| Timon de direccion | Ayuda a orientar la nave y frenar en la pista. |
+| Timón de dirección | Ayuda a orientar la nave y frenar en la pista. |
 | Tren de aterrizaje | Se despliega para el toque final en pista. |
-| Paracaidas de frenado | Reduce la velocidad tras tocar tierra. |
+| Paracaídas de frenado | Reduce la velocidad tras tocar tierra. |
 
 ---
 
-## 5. 🔋 Energia y soporte vital
+## 5. 🔋 Energía y soporte vital
 
-Mientras trabaja en orbita, el orbitador debe mantener con vida a su tripulacion.
+Mientras trabaja en órbita, el orbitador debe mantener con vida a su tripulación.
 
 - **Pilas de combustible**: generan electricidad y agua como subproducto.
-- **Control de aire**: provee oxigeno y retira el dioxido de carbono.
-- **Control termico**: radiadores que expulsan el calor sobrante al espacio.
-- **Agua y residuos**: se gestionan para la duracion de la mision.
+- **Control de aire**: provee oxígeno y retira el dioxido de carbono.
+- **Control térmico**: radiadores que expulsan el calor sobrante al espacio.
+- **Agua y residuos**: se gestionan para la duración de la misión.
 
 ---
 
-## 🔁 Como se conecta todo
+## 🔁 Cómo se conecta todo
 
-1. El **grupo de despegue** lleva el orbitador a la orbita.
-2. El **orbitador** trabaja en el espacio con su cabina y su bahia de carga.
-3. El **escudo termico** protege a la nave al reingresar.
+1. El **grupo de despegue** lleva el orbitador a la órbita.
+2. El **orbitador** trabaja en el espacio con su cabina y su bahía de carga.
+3. El **escudo térmico** protege a la nave al reingresar.
 4. Las **alas y timones** convierten la reentrada en un planeo controlado.
-5. El **tren de aterrizaje** cierra la mision con un toque en pista.
+5. El **tren de aterrizaje** cierra la misión con un toque en pista.
 
-Con esto entendido, el [Modulo 4: Mandos](../mandos/manual-mandos-transbordador.md)
-muestra como la tripulacion opera estos sistemas.
+Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-transbordador.md)
+muestra cómo la tripulación opera estos sistemas.
 
 ---
 
-[⬅️ Anterior: Caracteristicas](caracteristicas-transbordador.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-transbordador.md)
+[⬅️ Anterior: Características](caracteristicas-transbordador.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-transbordador.md)

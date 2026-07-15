@@ -1,73 +1,73 @@
-# ⚖️ Reglamentos de la maquinaria de construccion (Chile)
+# ⚖️ Reglamentos de la maquinaria de construcción (Chile)
 
-[🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construccion](../README.md) · ⚖️ Reglamentos
+[🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construcción](../README.md) · ⚖️ Reglamentos
 
-Referencia educativa y de diseno de simulacion. Las normas reales cambian; para
-operar y circular se deben consultar la autoridad de transito y la ley vigente.
+Referencia educativa y de diseño de simulación. Las normas reales cambian; para
+operar y circular se deben consultar la autoridad de tránsito y la ley vigente.
 Marco general en
 [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md).
 
-## Ambito
+## Ámbito
 
-- Pais: Chile.
-- Ley base: Ley 18.290 (Ley de Transito) para la circulacion; normativa laboral y
-  de prevencion de riesgos para la operacion en faena.
-- Autoridad: MTT y municipalidades (transito y licencias); Carabineros
-  (fiscalizacion); Direccion del Trabajo y mutuales (seguridad laboral).
-- Tipo de vehiculo: maquinaria automotriz de construccion autopropulsada.
+- País: Chile.
+- Ley base: Ley 18.290 (Ley de Tránsito) para la circulación; normativa laboral y
+  de prevención de riesgos para la operación en faena.
+- Autoridad: MTT y municipalidades (tránsito y licencias); Carabineros
+  (fiscalización); Dirección del Trabajo y mutuales (seguridad laboral).
+- Tipo de vehículo: maquinaria automotriz de construcción autopropulsada.
 
 ## Licencia
 
 - Clase **D** (especial) para maquinaria automotriz, Ley 18.290 Art. 12.
 - La clase D habilita para operar cargadores, retroexcavadoras, excavadoras,
   bulldozer, motoniveladoras y maquinaria similar.
-- Edad minima: 18 anos (Art. 13).
-- El examen practico se rinde sobre el tipo de maquinaria a operar.
+- Edad mínima: 18 años (Art. 13).
+- El examen práctico se rinde sobre el tipo de maquinaria a operar.
 
 ## Requisitos y elementos de seguridad
 
-| Tema | Norma | Requisito | Aplicacion en simulacion |
+| Tema | Norma | Requisito | Aplicación en simulación |
 | --- | --- | --- | --- |
-| Licencia de maquinaria | Ley 18.290, Art. 12 | Clase D para operar la maquina. | Modo licencia por tipo de maquina. |
-| Estructura ROPS/FOPS | Normativa de prevencion laboral | Proteccion contra vuelco y caida de objetos. | Estado de la cabina y cinturon. |
-| Zona de exclusion | Normativa de prevencion | Radio de trabajo sin personas. | Modelo de radio y presencia de personas. |
-| Senalizacion de faena | Normativa laboral y de obra | Senaleros, barreras y alarmas. | Escenario de faena con senaleros. |
-| Circulacion en via publica | Ley 18.290 | Traslado con senalizacion y velocidad reducida. | Reglas de transito al trasladarse. |
-| Transporte de la maquina | Ley 18.290 y Vialidad | Traslado en camion cama baja si procede. | Escenario de traslado entre faenas. |
+| Licencia de maquinaria | Ley 18.290, Art. 12 | Clase D para operar la máquina. | Modo licencia por tipo de máquina. |
+| Estructura ROPS/FOPS | Normativa de prevención laboral | Protección contra vuelco y caída de objetos. | Estado de la cabina y cinturón. |
+| Zona de exclusión | Normativa de prevención | Radio de trabajo sin personas. | Modelo de radio y presencia de personas. |
+| Señalización de faena | Normativa laboral y de obra | Señaleros, barreras y alarmas. | Escenario de faena con señaleros. |
+| Circulación en vía pública | Ley 18.290 | Traslado con señalización y velocidad reducida. | Reglas de tránsito al trasladarse. |
+| Transporte de la máquina | Ley 18.290 y Vialidad | Traslado en camión cama baja si procede. | Escenario de traslado entre faenas. |
 
 ## Documentos obligatorios
 
 | Documento | Para que sirve |
 | --- | --- |
 | Licencia clase D | Habilita para operar maquinaria automotriz. |
-| Registro de operador | Respalda la capacitacion en la maquina especifica. |
-| Mantenimiento al dia | Acredita el estado seguro de la maquina. |
-| Permiso de circulacion y SOAP | Requeridos si la maquina circula por via publica. |
-| Plan de prevencion de la obra | Define las reglas de seguridad de la faena. |
+| Registro de operador | Respalda la capacitación en la máquina específica. |
+| Mantenimiento al día | Acredita el estado seguro de la máquina. |
+| Permiso de circulación y SOAP | Requeridos si la máquina circula por vía pública. |
+| Plan de prevención de la obra | Define las reglas de seguridad de la faena. |
 
 ## Reglas de seguridad
 
-- Operar siempre con la cabina ROPS/FOPS y el cinturon puesto.
-- Mantener el radio de trabajo como zona de exclusion sin personas.
-- Bloquear los mandos hidraulicos al subir o bajar de la cabina.
+- Operar siempre con la cabina ROPS/FOPS y el cinturón puesto.
+- Mantener el radio de trabajo como zona de exclusión sin personas.
+- Bloquear los mandos hidráulicos al subir o bajar de la cabina.
 - Trabajar sobre terreno nivelado y firme; vigilar taludes y el vuelco.
-- Usar bocina y alarma de retroceso y apoyarse en senaleros.
-- Coordinar el movimiento con camiones y otras maquinas de la faena.
+- Usar bocina y alarma de retroceso y apoyarse en señaleros.
+- Coordinar el movimiento con camiones y otras máquinas de la faena.
 
 ## Restricciones
 
 - Licencia especial clase D.
-- Operacion segun el manual del fabricante y los limites de la maquina.
-- Circulacion o traslado por via publica con senalizacion y autorizacion.
+- Operación según el manual del fabricante y los límites de la máquina.
+- Circulación o traslado por vía pública con señalización y autorización.
 
-## Notas para simulacion
+## Notas para simulación
 
-- El nucleo educativo es la estabilidad frente al vuelco y la zona de exclusion.
+- El núcleo educativo es la estabilidad frente al vuelco y la zona de exclusión.
 - Usar sanciones educativas (avisos) en vez de castigos frustrantes.
-- Modelar el radio de trabajo, la presencia de personas y el limite de vuelco.
+- Modelar el radio de trabajo, la presencia de personas y el límite de vuelco.
 - Registrar cada norma usada en
   [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---
 
-[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-maquinaria.md) · [➡️ Siguiente: Diseno de simulacion](../simulacion/diseno-simulador-maquinaria.md)
+[⬅️ Anterior: Entornos de trabajo](../operacion/entornos-maquinaria.md) · [➡️ Siguiente: Diseño de simulación](../simulacion/diseno-simulador-maquinaria.md)

@@ -2,24 +2,24 @@
 
 [🏠 Inicio](../../../README.md) · [🛗 Curso: Ascensores](../README.md) · 🧰 Recursos
 
-Glosario especifico, enlaces y diagramas de apoyo del curso de ascensores. Amplia
+Glosario específico, enlaces y diagramas de apoyo del curso de ascensores. Amplia
 el [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 📖 Glosario especifico
+## 📖 Glosario específico
 
-| Termino | Definicion |
+| Término | Definición |
 | --- | --- |
 | Contrapeso | Masa que equilibra la cabina para reducir el esfuerzo del motor. |
-| Polea de traccion | Rueda ranurada que mueve los cables por friccion. |
-| Cable de traccion | Cable de acero que sostiene y mueve cabina y contrapeso. |
+| Polea de tracción | Rueda ranurada que mueve los cables por fricción. |
+| Cable de tracción | Cable de acero que sostiene y mueve cabina y contrapeso. |
 | Gobernador de velocidad | Dispositivo que detecta un exceso de velocidad de descenso. |
-| Freno de seguridad | Sistema de cunas que muerde las guias y detiene la cabina. |
-| Guias | Rieles verticales que mantienen alineada la cabina. |
-| Nivelacion | Detencion de la cabina alineada con el piso. |
-| Maniobra colectiva | Logica que agrupa llamadas para optimizar viajes. |
-| Modo inspeccion | Operacion reservada al tecnico competente en mantencion. |
+| Freno de seguridad | Sistema de cunas que muerde las guías y detiene la cabina. |
+| Guías | Rieles verticales que mantienen alineada la cabina. |
+| Nivelación | Detención de la cabina alineada con el piso. |
+| Maniobra colectiva | Lógica que agrupa llamadas para optimizar viajes. |
+| Modo inspección | Operación reservada al técnico competente en mantención. |
 
 ---
 
@@ -27,13 +27,13 @@ el [glosario general](../../../docs/05-glosario-general.md).
 
 ```mermaid
 flowchart LR
-    Motor[Motor y reductor] --> Polea[Polea de traccion]
+    Motor[Motor y reductor] --> Polea[Polea de tracción]
     Polea --> Cable[Cables]
     Cable --> Cabina[Cabina]
     Cable --> Contrapeso[Contrapeso]
     Cabina --> Equilibrio[El motor mueve solo la diferencia]
     Contrapeso --> Equilibrio
-    Equilibrio --> Ahorro[Menor consumo de energia]
+    Equilibrio --> Ahorro[Menor consumo de energía]
 ```
 
 ---
@@ -49,4 +49,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseno de simulacion](../simulacion/diseno-simulador-ascensor.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-ascensor.md)

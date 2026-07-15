@@ -2,8 +2,8 @@
 
 [🏠 Inicio](../../../README.md) · [🚂 Curso: Tren de carga](../README.md) · 🌍 Entornos
 
-Donde opera un tren de carga y como cambia la operacion segun el entorno. Cada
-entorno implica reglas, riesgos y ajustes distintos, y en simulacion se traduce en
+Dónde opera un tren de carga y cómo cambia la operación según el entorno. Cada
+entorno implica reglas, riesgos y ajustes distintos, y en simulación se traduce en
 escenarios diferentes.
 
 ---
@@ -31,30 +31,30 @@ mindmap
       Pendientes
 ```
 
-| Entorno | Caracteristicas | Riesgos tipicos | Ajuste de operacion |
+| Entorno | Características | Riesgos típicos | Ajuste de operación |
 | --- | --- | --- | --- |
-| Corredor de carga | Larga distancia, trenes largos. | Fatiga, pasos a nivel. | Anticipacion, velocidad de crucero estable. |
-| Patio de maniobras | Armado y clasificacion de vagones. | Enganches, personal en via. | Baja velocidad, freno independiente. |
-| Terminal intermodal | Carga y descarga de contenedores. | Maniobras junto a gruas. | Coordinacion y paradas precisas. |
-| Ramal minero / industrial | Pendientes y gran tonelaje. | Descenso cargado, adherencia. | Freno dinamico, arenado, control de masa. |
-| Pendientes prolongadas | Subidas y bajadas largas. | Recalentamiento del freno, embalamiento. | Freno dinamico primero, gran anticipacion. |
+| Corredor de carga | Larga distancia, trenes largos. | Fatiga, pasos a nivel. | Anticipación, velocidad de crucero estable. |
+| Patio de maniobras | Armado y clasificación de vagones. | Enganches, personal en vía. | Baja velocidad, freno independiente. |
+| Terminal intermodal | Carga y descarga de contenedores. | Maniobras junto a grúas. | Coordinación y paradas precisas. |
+| Ramal minero / industrial | Pendientes y gran tonelaje. | Descenso cargado, adherencia. | Freno dinámico, arenado, control de masa. |
+| Pendientes prolongadas | Subidas y bajadas largas. | Recalentamiento del freno, embalamiento. | Freno dinámico primero, gran anticipación. |
 
 ---
 
 ## 🌦️ Factores del entorno
 
 - **Clima**: lluvia, hielo u hojas en el riel reducen la adherencia rueda-riel.
-- **Superficie de via**: estado del riel y de la trocha afecta el guiado y la velocidad.
-- **Pendiente**: la carga empuja en bajada y frena en subida; cambia la gestion de masa.
-- **Pasos a nivel**: cruces con caminos que exigen bocina y maxima atencion.
+- **Superficie de vía**: estado del riel y de la trocha afecta el guiado y la velocidad.
+- **Pendiente**: la carga empuja en bajada y frena en subida; cambia la gestión de masa.
+- **Pasos a nivel**: cruces con caminos que exigen bocina y máxima atención.
 
 ---
 
-## 🎮 Traduccion a simulacion
+## 🎮 Traducción a simulación
 
-Cada entorno es un escenario con su via, pendiente, clima y trafico ferroviario.
-Ver como se modela en el [Modulo 8: Diseno de simulacion](../simulacion/diseno-simulador-tren-carga.md).
+Cada entorno es un escenario con su vía, pendiente, clima y tráfico ferroviario.
+Ver cómo se modela en el [Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-tren-carga.md).
 
 ---
 
-[⬅️ Anterior: Principios y operacion](principios-tren-carga.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-tren-carga.md)
+[⬅️ Anterior: Principios y operación](principios-tren-carga.md) · [➡️ Siguiente: Reglamentos](../reglamentos/reglamentos-tren-carga.md)
