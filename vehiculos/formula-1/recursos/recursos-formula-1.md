@@ -48,4 +48,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-formula-1.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-formula-1.md) · [➡️ Siguiente: Ejercicios](../ejercicios/ejercicios-formula-1.md)

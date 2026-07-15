@@ -9,7 +9,7 @@
 > curso es la seguridad y la evacuación de miles de pasajeros.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Marco](https://img.shields.io/badge/marco-SOLAS%20%2F%20DIRECTEMAR-orange)
 
 ---
@@ -19,7 +19,7 @@
 Al terminar este curso deberías poder:
 
 - Explicar como un crucero flota, avanza, gobierna y se detiene con miles de personas a bordo.
-- Identificar sus sistemas (casco compartimentado, propulsión diesel-electrica, gobierno, hotel) y cómo se conectan.
+- Identificar sus sistemas (casco compartimentado, propulsión diesel-eléctrica, gobierno, hotel) y cómo se conectan.
 - Reconocer los mandos e instrumentos del puente y su función.
 - Comprender la física de la navegación de un gran buque de pasaje (flotación, inercia, estabilidad con superficie libre).
 - Conocer los reglamentos aplicables (SOLAS, STCW, MARPOL, COLREG, DIRECTEMAR) con énfasis en seguridad y evacuación.
@@ -55,13 +55,14 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del crucero, línea de tiempo. | [Abrir](historia/historia-crucero.md) |
 | 2 | 📋 Características | Que es, tipos de crucero y para que sirve cada uno. | [Abrir](operacion/caracteristicas-crucero.md) |
-| 3 | 🔧 Sistemas mecánicos | Casco, propulsión diesel-electrica, gobierno, hotel y seguridad. | [Abrir](operacion/sistemas-mecanicos-crucero.md) |
+| 3 | 🔧 Sistemas mecánicos | Casco, propulsión diesel-eléctrica, gobierno, hotel y seguridad. | [Abrir](operacion/sistemas-mecanicos-crucero.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puente de mando, controles e instrumentos de navegación. | [Abrir](mandos/manual-mandos-crucero.md) |
 | 5 | 🧪 Principios y operación | Física de flotación y gobierno, fases de navegación. | [Abrir](operacion/principios-crucero.md) |
 | 6 | 🌍 Entornos de trabajo | Puerto, costa, mar abierto y clima. | [Abrir](operacion/entornos-crucero.md) |
 | 7 | ⚖️ Reglamentos | SOLAS, STCW, MARPOL, COLREG y marco DIRECTEMAR. | [Abrir](reglamentos/reglamentos-crucero.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de simulación. | [Abrir](simulacion/diseno-simulador-crucero.md) |
 | 9 | 🧰 Recursos | Glosario náutico, enlaces y diagramas. | [Abrir](recursos/recursos-crucero.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-crucero.md) |
 
 ---
 

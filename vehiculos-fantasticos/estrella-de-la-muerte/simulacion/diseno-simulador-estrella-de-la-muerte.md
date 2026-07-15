@@ -52,7 +52,7 @@ que la comparación sea explícita y educativa.
 | Reparto de energía | numérica | por sistema | Prioridades | Soporte vital, propulsión, calor. |
 | Calor acumulado | numérica | 0-100% | Riesgo térmico | Se radia lento por la superficie. |
 | Gravedad propia | numérica | según masa | Interior habitable | Define el arriba y el abajo. |
-| Masa total | numérica | de escala lunar | Aceleración | La hace lentisima de mover. |
+| Masa total | numérica | de escala lunar | Aceleración | La hace lentísima de mover. |
 | Estado logístico | numérica | 0-100% | Habitabilidad | Comida, agua, aire y transporte. |
 | Calor externo | numérica | 0-alto | Disipación | Cerca de una estrella dificulta refrigerar. |
 
@@ -84,7 +84,7 @@ que la comparación sea explícita y educativa.
 ## Pendientes
 
 - [ ] Definir el reparto por defecto del presupuesto de energía.
-- [ ] Prototipar el ciclo energia-calor con conservación de la energía.
+- [ ] Prototipar el ciclo energía-calor con conservación de la energía.
 - [ ] Ajustar el modelo de disipación según la superficie y el calor externo.
 - [ ] Agregar fuentes de divulgación a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 

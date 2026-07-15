@@ -10,7 +10,7 @@
 > Espacial Internacional (ISS)**.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Marco](https://img.shields.io/badge/marco-acuerdo%20intergubernamental-orange)
 
 ---
@@ -59,6 +59,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Acuerdo intergubernamental y tratados espaciales. | [Abrir](reglamentos/reglamentos-estacion-espacial.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-estacion-espacial.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-estacion-espacial.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-estacion-espacial.md) |
 
 ---
 

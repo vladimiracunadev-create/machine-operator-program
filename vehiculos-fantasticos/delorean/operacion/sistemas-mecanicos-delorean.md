@@ -46,7 +46,7 @@ ideas que se confunden a menudo.
 
 Un pulso muy potente durante un instante puede entregar poca energía total; y una
 fuente modesta durante mucho tiempo puede entregar mucha energía. La ficción
-suele pedir ambas cosas a la vez: muchisima energía entregada en un instante.
+suele pedir ambas cosas a la vez: muchísima energía entregada en un instante.
 
 ### Energía cinética y velocidad umbral
 

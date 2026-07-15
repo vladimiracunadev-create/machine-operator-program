@@ -23,7 +23,7 @@ timeline
 
 ## Origen de la idea
 
-Mucho antes de que existieran cohetes reales, los escritores ya sonaban con
+Mucho antes de que existieran cohetes reales, los escritores ya soñaban con
 llegar a la Luna y a otros planetas. Al principio imaginaban canones enormes o
 máquinas fantasticas. Con el tiempo, a medida que la astronomía revelaba lo
 inmensas que son las distancias, la ficción necesito inventar motores capaces
@@ -44,7 +44,7 @@ de acortar viajes que, en la realidad, tomarían miles de años.
 
 Lo interesante es el ida y vuelta. La ficción tomo prestada la idea real de que
 la luz tiene una velocidad finita y que las estrellas están lejísimos. Para no
-aburrir al público con viajes eternos, invento un "impulso" capaz de superar la
+aburrir al público con viajes eternos, inventó un "impulso" capaz de superar la
 luz. Decadas después, algunos físicos jugaron con las ecuaciones de la
 relatividad general y propusieron ideas teóricas, como deformar el propio
 espacio, que suenan a ficción pero nacen de matematicas serias.

@@ -6,7 +6,7 @@
 
 Este módulo situa la idea de la estación del tamaño de una luna dentro de la
 ciencia ficción y la compara con la historia real de las estaciones espaciales.
-No describe una nave oficial: analiza el concepto genérico de "estacion-mundo"
+No describe una nave oficial: analiza el concepto genérico de "estación-mundo"
 que popularizo el estilo "Star Wars" y lo contrasta con lo que la ingeniería sabe
 hacer de verdad.
 
@@ -23,7 +23,7 @@ timeline
 
 ## De donde viene la idea
 
-La estacion-luna de la ficción nace del deseo de imaginar una construcción tan
+La estación-luna de la ficción nace del deseo de imaginar una construcción tan
 grande que se confunda con un cuerpo celeste: una base del tamaño de una luna,
 capaz de albergar a millones de personas y de concentrar un poder inmenso. Es una
 imagen sobrecogedora. El problema es que, a ese tamaño, la estructura deja de
@@ -35,7 +35,7 @@ reglas físicas, y ahí empieza lo interesante de este curso.
 La historia real de las estaciones espaciales siguió otro camino. Las estaciones
 que se han habitado son pequeñas comparadas con una luna y dependen por completo
 de suministros y de una gestión muy cuidadosa de energía, aire y calor. No existe
-la estacion-mundo gratis: alcanzar el tamaño de una luna trae consigo gravedad
+la estación-mundo gratis: alcanzar el tamaño de una luna trae consigo gravedad
 propia, un apetito de energía colosal y un problema serio para deshacerse del
 calor.
 
@@ -43,7 +43,7 @@ calor.
 | --- | --- | --- |
 | 1900-1930 | Conceptos teóricos de habitats espaciales | Primeras ideas de vivir en el espacio. |
 | 1960-1970 | Estaciones tripuladas pequeñas | Muestra la dependencia de suministros. |
-| 1970-1980 | Auge de la estacion-mundo en la ficción | Fija la imagen popular de la base gigante. |
+| 1970-1980 | Auge de la estación-mundo en la ficción | Fija la imagen popular de la base gigante. |
 | 1980-2000 | Estudios de ciclos cerrados | Explica el reto de la autonomía. |
 | 2000-2020 | Habitación continua en el espacio | Confirma la exigencia de energía y calor. |
 | 2020-hoy | Divulgación de límites físicos | Separa el espectáculo de la realidad. |
@@ -59,7 +59,7 @@ legítima que este curso respeta y analiza.
 
 - Que conceptos de física real evoca la estación aunque los exagere.
 - Por qué a esa escala aparecen gravedad propia, apetito de energía y calor.
-- Cómo sería una estacion-mundo si tuviera que respetar la física real.
+- Cómo sería una estación-mundo si tuviera que respetar la física real.
 
 ## Fuentes
 

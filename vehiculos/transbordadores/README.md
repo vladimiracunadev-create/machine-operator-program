@@ -9,7 +9,7 @@
 > internacional y diseño de simulación. Enfoque **histórico y de principios**.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Marco](https://img.shields.io/badge/marco-tratados%20espaciales-orange)
 
 ---
@@ -59,6 +59,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Estado de lanzamiento y tratados espaciales. | [Abrir](reglamentos/reglamentos-transbordador.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-transbordador.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-transbordador.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-transbordador.md) |
 
 ---
 

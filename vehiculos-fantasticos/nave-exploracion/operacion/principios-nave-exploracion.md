@@ -11,7 +11,7 @@ mover materia e información.
 
 ## 🌟 El límite de la luz
 
-La luz viaja a unos 300000 kilómetros por segundo. Parece rapidisimo, y lo es a
+La luz viaja a unos 300000 kilómetros por segundo. Parece rapidísimo, y lo es a
 escala humana, pero a escala estelar es lento. Además, cuanto más intentamos
 acelerar un objeto con masa hacia esa velocidad, más energía hace falta, y la
 energía necesaria tiende al infinito. Por eso ningún objeto con masa puede
@@ -20,7 +20,7 @@ alcanzar la velocidad de la luz, y mucho menos superarla de forma directa.
 ## 📏 Distancias interestelares
 
 Las estrellas están lejísimos. Medimos esas distancias en años luz: lo que la
-luz recorre en un anio. La estrella más cercana está a más de cuatro años luz.
+luz recorre en un año. La estrella más cercana está a más de cuatro años luz.
 Eso significa que, incluso viajando casi a la velocidad de la luz, un viaje de
 ida tomaría años. A velocidades realistas de hoy, tomaría decenas de miles de
 años.

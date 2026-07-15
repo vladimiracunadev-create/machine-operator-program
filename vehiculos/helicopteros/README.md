@@ -8,7 +8,7 @@
 > del curso de referencia del repositorio.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-DAN%2061-orange)
 
 ---
@@ -59,6 +59,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Ley chilena: Código Aeronáutico, DGAC, DAN 61, certificación. | [Abrir](reglamentos/reglamentos-helicoptero.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-helicoptero.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-helicoptero.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-helicoptero.md) |
 
 ---
 

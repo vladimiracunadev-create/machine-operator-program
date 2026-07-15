@@ -82,6 +82,7 @@ SECCIONES_VEHICULO = [
     "operacion",
     "simulacion",
     "recursos",
+    "ejercicios",
 ]
 
 # Secciones que todavia no se exige poblar. 'manuales/' guarda las fuentes

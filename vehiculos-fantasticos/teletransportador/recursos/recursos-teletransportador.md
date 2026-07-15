@@ -16,7 +16,7 @@ Amplia el [glosario general](../../../docs/05-glosario-general.md).
 | Patrón | Disposición precisa de las partículas que describe a un objeto. |
 | Información | Datos necesarios para describir por completo el patrón. |
 | Materia | Sustancia física del objeto; no se crea ni se destruye a voluntad. |
-| Masa-energia | Equivalencia que revela la energía colosal contenida en la masa. |
+| Masa-energía | Equivalencia que revela la energía colosal contenida en la masa. |
 | Escaneo | Medición del patrón del objeto de origen. |
 | Reconstrucción | Ensamblado de materia local según la información recibida. |
 | Duplicado | Problema de que copiar un patrón deja dos objetos iguales. |
@@ -52,4 +52,4 @@ derechos del catálogo de naves de ficción.
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-teletransportador.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-teletransportador.md) · [➡️ Siguiente: Ejercicios](../ejercicios/ejercicios-teletransportador.md)

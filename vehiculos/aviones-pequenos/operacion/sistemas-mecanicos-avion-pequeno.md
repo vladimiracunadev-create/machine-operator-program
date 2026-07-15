@@ -123,7 +123,7 @@ Informan al piloto y sostienen el vuelo cuando no hay referencias visuales.
 
 | Sistema | Función |
 | --- | --- |
-| Instrumentos de presión (Pitot-estatica) | Velocidad, altitud y velocidad vertical. |
+| Instrumentos de presión (Pitot-estática) | Velocidad, altitud y velocidad vertical. |
 | Instrumentos giroscópicos | Actitud, rumbo y viraje. |
 | Sistema eléctrico | Alimenta instrumentos, luces y radio. |
 | Avionica y radio | Comunicación y navegación (VOR, GPS). |

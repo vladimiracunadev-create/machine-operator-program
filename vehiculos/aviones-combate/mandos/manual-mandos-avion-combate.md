@@ -39,7 +39,7 @@ apoyado en instrumentos de pantalla y un HUD frontal.
 
 | Acción | Teclado | Controlador | Palanca de vuelo | Comentarios |
 | --- | --- | --- | --- | --- |
-| Cabecear | Flechas arriba/abajo | Stick eje Y | Adelante-atras | Sube o baja el morro. |
+| Cabecear | Flechas arriba/abajo | Stick eje Y | Adelante-atrás | Sube o baja el morro. |
 | Alabear | Flechas izq/der | Stick eje X | Giro lateral | Inclina las alas. |
 | Guiñar | Teclas Z / X | Gatillos / pedales | Pedales | Coordina el viraje. |
 | Empuje | Teclas F2 / F3 | Gatillo derecho | Throttle | Sube o baja el empuje. |

@@ -8,7 +8,7 @@
 > de simulación. Sigue la plantilla de oro del curso de motos.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-Clase%20A-orange)
 
 ---
@@ -61,6 +61,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Ley chilena: licencia clase A, aforo, jornada. | [Abrir](reglamentos/reglamentos-bus.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-bus.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-bus.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-bus.md) |
 
 ---
 

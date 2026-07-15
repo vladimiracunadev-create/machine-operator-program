@@ -49,4 +49,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-tractor.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-tractor.md) · [➡️ Siguiente: Ejercicios](../ejercicios/ejercicios-tractor.md)

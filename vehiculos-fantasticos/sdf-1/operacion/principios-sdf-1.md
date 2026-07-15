@@ -40,7 +40,7 @@ la escala no deja escapar fácilmente.
 
 ## Calor: fácil de generar, difícil de expulsar
 
-Una nave-ciudad genera muchisimo calor: motores, energía y miles de personas. En
+Una nave-ciudad genera muchísimo calor: motores, energía y miles de personas. En
 el vacío el calor solo sale por radiación, a través de la superficie. Pero la
 superficie crece con el cuadrado y el calor generado con el volumen, que crece
 con el cubo. Cuanto más grande es la nave, más le cuesta refrigerarse. Es la ley

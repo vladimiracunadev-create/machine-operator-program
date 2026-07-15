@@ -36,8 +36,8 @@ de los límites más duros y menos contados de cualquier estación gigante.
 ## Disipación de calor: el límite oculto
 
 La superficie de una esfera crece con el cuadrado de su tamaño, pero el volumen
-(y con el, casi todo lo que genera calor) crece con el cubo. Una estacion-mundo
-produce muchisimo calor por dentro y solo dispone de su superficie para radiarlo.
+(y con el, casi todo lo que genera calor) crece con el cubo. Una estación-mundo
+produce muchísimo calor por dentro y solo dispone de su superficie para radiarlo.
 Por eso, aunque la superficie sea enorme, puede no bastar. Refrigerar la estación
 sin cocerse por dentro es un reto tan serio como producir la energía.
 
@@ -57,10 +57,10 @@ problema de ingeniería.
 | Energía prácticamente infinita | Se puede producir mucha energía | Siempre hay un presupuesto que repartir. |
 | Un gran consumo sin coste | Se puede concentrar energía | Dejaría sin margen al resto de sistemas. |
 | El calor no es problema | El calor se puede radiar | La superficie no basta para tanto calor. |
-| Se mueve como una nave | Se puede empujar la estación | Su masa la hace lentisima de maniobrar. |
+| Se mueve como una nave | Se puede empujar la estación | Su masa la hace lentísima de maniobrar. |
 | Autonomía total | El reciclaje es posible | Sostener millones de personas es colosal. |
 
-## Cómo sería una estacion-mundo realista
+## Cómo sería una estación-mundo realista
 
 - Tendría gravedad propia y una estructura pensada para su propio peso.
 - Gestionaría la energía como un presupuesto, recortando donde hiciera falta.

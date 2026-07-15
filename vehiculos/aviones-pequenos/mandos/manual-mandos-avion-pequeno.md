@@ -14,7 +14,7 @@ estado del vuelo.
 
 | Zona | Control | Tipo | Función | Prioridad | Comentarios |
 | --- | --- | --- | --- | --- | --- |
-| Frente | Yugo o bastón | Volante / palanca | Cabeceo y alabeo | Alta | Adelante-atras cabecea; giro alabea. |
+| Frente | Yugo o bastón | Volante / palanca | Cabeceo y alabeo | Alta | Adelante-atrás cabecea; giro alabea. |
 | Piso | Pedales de timón | Pedales | Guiñada y coordinación | Alta | También accionan los frenos. |
 | Consola | Acelerador (throttle) | Palanca | Regular potencia del motor | Alta | Controla el empuje. |
 | Consola | Mezcla (mixture) | Palanca | Proporción aire-combustible | Alta | Se empobrece con la altitud. |
@@ -42,7 +42,7 @@ estado del vuelo.
 
 | Acción | Teclado | Controlador | Palanca de vuelo | Comentarios |
 | --- | --- | --- | --- | --- |
-| Cabecear | Flechas arriba/abajo | Stick eje Y | Adelante-atras | Sube o baja el morro. |
+| Cabecear | Flechas arriba/abajo | Stick eje Y | Adelante-atrás | Sube o baja el morro. |
 | Alabear | Flechas izq/der | Stick eje X | Giro lateral | Inclina las alas. |
 | Guiñar | Teclas Z / X | Gatillos / pedales | Pedales | Coordina el viraje. |
 | Potencia | Teclas F2 / F3 | Gatillo derecho | Throttle | Sube o baja el empuje. |

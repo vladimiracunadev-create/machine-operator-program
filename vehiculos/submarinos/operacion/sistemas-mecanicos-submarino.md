@@ -67,7 +67,7 @@ flowchart TD
 
 Convierte energía en empuje para avanzar sumergido o en superficie.
 
-- **Planta propulsora**: diesel-electrica (motor y baterías) o nuclear según el
+- **Planta propulsora**: diesel-eléctrica (motor y baterías) o nuclear según el
   tipo.
 - **Baterías**: permiten avanzar sumergido de forma silenciosa (en los
   convencionales).

@@ -47,4 +47,4 @@ ciencia real de material de ficción.
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md) · [➡️ Siguiente: Ejercicios](../ejercicios/ejercicios-nave-espacial.md)

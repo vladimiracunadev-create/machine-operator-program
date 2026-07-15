@@ -26,14 +26,14 @@ el ferrocarril se volvió la columna del transporte de materias primas.
 | --- | --- | --- |
 | 1825 | Primeros ferrocarriles de carga a vapor | Prueba del concepto de arrastre masivo. |
 | 1850-1900 | Expansión de redes y mercancías masivas | El tren mueve carbón, mineral y grano. |
-| 1920-1940 | Locomotoras diesel-electricas iniciales | Menos agua y carbón, más autonomía. |
-| 1950-1970 | Diesel-electrico y electrificación | Tracción más eficiente y potente. |
+| 1920-1940 | Locomotoras diesel-eléctricas iniciales | Menos agua y carbón, más autonomía. |
+| 1950-1970 | Diesel-eléctrico y electrificación | Tracción más eficiente y potente. |
 | 1980-2000 | Trenes unitarios largos y contenedores | Intermodalidad y economía de escala. |
 | 2000-presente | Distributed power y freno regenerativo | Trenes más largos y eficientes. |
 
 ## Evolución tecnológica
 
-- **Propulsión**: del vapor al diesel-electrico y a la tracción eléctrica por catenaria.
+- **Propulsión**: del vapor al diesel-eléctrico y a la tracción eléctrica por catenaria.
 - **Materiales**: de estructuras remachadas a bogies y bastidores soldados.
 - **Frenado**: del freno manual por vagón al freno neumático automático de todo el tren.
 - **Composición**: de trenes cortos a trenes unitarios largos con locomotoras remotas.
@@ -54,7 +54,7 @@ el ferrocarril se volvió la columna del transporte de materias primas.
 ## Impacto económico
 
 El ferrocarril de carga permitió mover grandes volumenes a bajo costo por
-tonelada-kilometro, sosteniendo la minería, la industria y la exportación. En
+tonelada-kilómetro, sosteniendo la minería, la industria y la exportación. En
 Chile, de forma general, el ferrocarril se ha ligado al transporte minero y
 forestal y a la conexión con puertos; los operadores de carga actuales que usan
 la red quedan por confirmar en sus nombres y participaciones.

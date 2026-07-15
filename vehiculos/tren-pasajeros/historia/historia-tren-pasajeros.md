@@ -27,13 +27,13 @@ con poca energía, lo que transforma el transporte terrestre.
 | 1825-1850 | Ferrocarril de vapor y primeras líneas | Nace el transporte guiado sobre rieles. |
 | 1850-1900 | Expansión de redes y estaciones | El tren conecta ciudades y puertos. |
 | 1900-1940 | Primeras electrificaciones urbanas | Tranvias y trenes eléctricos de cercanías. |
-| 1940-1970 | Locomotoras diesel-electricas | Reemplazan al vapor con más autonomía. |
+| 1940-1970 | Locomotoras diesel-eléctricas | Reemplazan al vapor con más autonomía. |
 | 1960-1990 | Metros y trenes eléctricos modernos | Alta capacidad urbana y suburbana. |
 | 1990-presente | Alta velocidad, EMU y ATP en cabina | Más velocidad, seguridad y eficiencia. |
 
 ## Evolución tecnológica
 
-- **Propulsión**: del vapor al diesel-electrico y a la tracción eléctrica pura.
+- **Propulsión**: del vapor al diesel-eléctrico y a la tracción eléctrica pura.
 - **Alimentación**: aparición de la catenaria, el pantógrafo y el tercer riel.
 - **Materiales**: de coches pesados de acero a cajas más ligeras y aerodinámicas.
 - **Frenado**: del freno de husillo al freno neumático, dinámico y regenerativo.

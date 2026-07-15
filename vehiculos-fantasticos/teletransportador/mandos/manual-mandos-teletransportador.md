@@ -29,9 +29,9 @@ diferencia con imaginar un simple botón de "enviar".
 
 | Instrumento | Muestra | Unidad | Importancia | Notas |
 | --- | --- | --- | --- | --- |
-| Volumen de datos | Información del patrón leído | bits | Alta | Crece muchisimo con el detalle. |
+| Volumen de datos | Información del patrón leído | bits | Alta | Crece muchísimo con el detalle. |
 | Progreso del canal | Fracción transmitida | porcentaje | Alta | Limitado por la velocidad de la luz. |
-| Energía acumulada | Energía usada en el proceso | julios | Alta | Escala colosal por masa-energia. |
+| Energía acumulada | Energía usada en el proceso | julios | Alta | Escala colosal por masa-energía. |
 | Integridad del patrón | Errores detectados | tasa | Alta | Un error sería grave en destino. |
 | Materia local | Reserva en el destino | porcentaje | Alta | Sin materia no hay reconstrucción. |
 | Estado del original | Intacto, medido o borrado | discreto | Alta | Clave para el problema del duplicado. |

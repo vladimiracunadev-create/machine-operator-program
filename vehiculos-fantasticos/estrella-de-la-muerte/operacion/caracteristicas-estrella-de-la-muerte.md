@@ -12,7 +12,7 @@ de abrir la tecnología por dentro en el Módulo 3.
 
 ## 🧭 Definición
 
-Una estacion-mundo, en la ficción estilo "Star Wars", es una construcción
+Una estación-mundo, en la ficción estilo "Star Wars", es una construcción
 esférica del tamaño de una luna pequeña, con millones de habitantes, hangares,
 ciudades interiores y una enorme concentración de energía. La imaginamos como una
 base capaz de moverse por el espacio. En este curso la usamos como excusa para

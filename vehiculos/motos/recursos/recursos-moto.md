@@ -45,4 +45,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-moto.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-moto.md) · [➡️ Siguiente: Ejercicios](../ejercicios/ejercicios-moto.md)

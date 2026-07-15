@@ -8,7 +8,7 @@
 > chileno y diseño de simulación. Es una grúa fija, no circula por vía pública.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Marco legal](https://img.shields.io/badge/marco-Izaje%20fijo%20Chile-orange)
 
 ---
@@ -58,6 +58,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Marco chileno: seguridad laboral e izaje fijo. | [Abrir](reglamentos/reglamentos-grua-torre.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-grua-torre.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-grua-torre.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-grua-torre.md) |
 
 ---
 

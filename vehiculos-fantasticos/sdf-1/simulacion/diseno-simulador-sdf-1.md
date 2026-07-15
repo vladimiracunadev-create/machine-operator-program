@@ -27,7 +27,7 @@ stateDiagram-v2
 ## Objetivo de la simulación
 
 Que el usuario comprenda, jugando, que agrandar una nave no es gratis: la ley del
-cubo-cuadrado dispara la masa, la maniobra se vuelve lentisima, la estructura
+cubo-cuadrado dispara la masa, la maniobra se vuelve lentísima, la estructura
 sufre y el calor cuesta expulsarse. El modo ficción sirve para engancharse; el
 modo ciencia, para aprender.
 

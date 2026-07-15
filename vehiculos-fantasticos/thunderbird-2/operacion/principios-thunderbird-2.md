@@ -45,7 +45,7 @@ carga útil. El buen diseño busca el equilibrio, no el máximo.
 | --- | --- | --- |
 | Carga enorme sin esfuerzo | Se puede llevar mucha carga con diseño | No sin un empuje y estructura proporcionales. |
 | Cambio de módulo instantáneo | El módulo intercambiable es real | No es instantáneo: anclar seguro lleva tiempo. |
-| Sube vertical siempre lleno | El despegue vertical es posible | No con cualquier carga: gasta muchisimo empuje. |
+| Sube vertical siempre lleno | El despegue vertical es posible | No con cualquier carga: gasta muchísimo empuje. |
 | Da igual donde va el módulo | La carga se puede colocar | No da igual: el centro de masa manda. |
 | Estructura ligera que carga todo | Materiales resistentes existen | No: más carga obliga a más estructura. |
 | Autonomía infinita cargado | Se puede tener buen alcance | Más carga y combustible reducen el alcance. |

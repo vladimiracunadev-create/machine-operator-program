@@ -12,7 +12,7 @@
 > lo que la novela acerto con la ingeniería submarina moderna.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 
 ---
 
@@ -60,6 +60,7 @@ flowchart TD
 | 7 | ⚖️ Reglas del universo | Las leyes internas de la novela, no ley real. | [Abrir](reglamentos/reglas-universo-nautilus.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo, estados y modo ciencia/ficción. | [Abrir](simulacion/diseno-simulador-nautilus.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas de apoyo. | [Abrir](recursos/recursos-nautilus.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-nautilus.md) |
 
 ---
 

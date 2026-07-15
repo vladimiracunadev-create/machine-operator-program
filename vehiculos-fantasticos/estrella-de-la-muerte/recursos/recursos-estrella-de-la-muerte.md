@@ -4,7 +4,7 @@
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Glosario específico, enlaces y diagramas de apoyo del curso de la estacion-mundo.
+Glosario específico, enlaces y diagramas de apoyo del curso de la estación-mundo.
 Amplia el [glosario general](../../../docs/05-glosario-general.md).
 
 ---
@@ -54,4 +54,4 @@ derechos del catálogo de naves de ficción.
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-estrella-de-la-muerte.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-estrella-de-la-muerte.md) · [➡️ Siguiente: Ejercicios](../ejercicios/ejercicios-estrella-de-la-muerte.md)

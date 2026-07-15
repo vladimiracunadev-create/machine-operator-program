@@ -11,7 +11,7 @@
 > ocurre en la ficción.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 
 ---
 
@@ -61,6 +61,7 @@ flowchart TD
 | 7 | ⚖️ Reglas del universo | Reglas internas de la ficción y aviso de que no es ley real. | [Abrir](reglamentos/reglas-universo-delorean.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia/ficción. | [Abrir](simulacion/diseno-simulador-delorean.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-delorean.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-delorean.md) |
 
 ---
 

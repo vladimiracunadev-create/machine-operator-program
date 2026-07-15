@@ -24,7 +24,7 @@ Amplia el [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 🗺️ Diagrama de tracción diesel-electrica
+## 🗺️ Diagrama de tracción diesel-eléctrica
 
 ```mermaid
 flowchart LR
@@ -48,4 +48,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-tren-carga.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-tren-carga.md) · [➡️ Siguiente: Ejercicios](../ejercicios/ejercicios-tren-carga.md)

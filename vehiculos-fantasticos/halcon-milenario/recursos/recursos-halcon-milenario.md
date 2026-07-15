@@ -52,4 +52,4 @@ derechos del catálogo de naves de ficción.
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-halcon-milenario.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-halcon-milenario.md) · [➡️ Siguiente: Ejercicios](../ejercicios/ejercicios-halcon-milenario.md)

@@ -30,9 +30,9 @@ flowchart LR
 
 ---
 
-## 1. ⚙️ Tracción diesel-electrica y eléctrica
+## 1. ⚙️ Tracción diesel-eléctrica y eléctrica
 
-La mayoría de las locomotoras de carga son **diesel-electricas**: el motor diesel
+La mayoría de las locomotoras de carga son **diesel-eléctricas**: el motor diesel
 no mueve las ruedas de forma directa, sino que arrastra un generador o alternador
 que produce electricidad para alimentar los **motores de tracción** montados en los
 bogies. Es, en la práctica, una central eléctrica móvil sobre rieles.
@@ -59,7 +59,7 @@ pero depende de la infraestructura electrificada de la vía.
 
 | Tracción | Fuente de energía | Ventaja | Limitación |
 | --- | --- | --- | --- |
-| Diesel-electrica | Combustible a bordo | Autónoma, va donde haya vía. | Emisiones y consumo. |
+| Diesel-eléctrica | Combustible a bordo | Autónoma, va donde haya vía. | Emisiones y consumo. |
 | Eléctrica por catenaria | Red eléctrica externa | Más potencia, sin emisión local. | Requiere línea electrificada. |
 
 ---

@@ -11,7 +11,7 @@ que principios físicos conviene representar.
 
 - **Propulsión**: los motores eléctricos, alimentados desde la catenaria, entregan
   esfuerzo de tracción a los ejes. El manipulador regula esa entrega.
-- **Energía cinética enorme**: la gran masa a gran velocidad acumula muchisima
+- **Energía cinética enorme**: la gran masa a gran velocidad acumula muchísima
   energía; frenar exige combinar varios sistemas y mucho espacio.
 - **Frenado de distancias de kilómetros**: no se detiene en metros; la frenada se
   planifica con mucha anticipación respecto a la señal objetivo.

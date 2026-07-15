@@ -9,7 +9,7 @@
 > núcleo normativo es la mantención e inspección.
 
 ![Nivel](https://img.shields.io/badge/nivel-introductorio-green)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Marco](https://img.shields.io/badge/marco-Ley%2020.296-orange)
 
 ---
@@ -59,6 +59,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Ley 20.296 y OGUC: mantención, inspección, certificación. | [Abrir](reglamentos/reglamentos-ascensor.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-ascensor.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-ascensor.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-ascensor.md) |
 
 ---
 

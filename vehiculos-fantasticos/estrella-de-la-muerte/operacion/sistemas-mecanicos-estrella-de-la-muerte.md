@@ -4,7 +4,7 @@
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo abre la estacion-mundo por dentro. Compara la tecnología imaginaria
+Este módulo abre la estación-mundo por dentro. Compara la tecnología imaginaria
 de la ficción con la física real que la haría funcionar (o que la desmiente). La
 regla del curso es clara: describimos conceptos con nuestras palabras, sin copiar
 planos ni especificaciones oficiales.
@@ -80,7 +80,7 @@ flowchart TD
 
 Casi toda la energía que usa la estación termina convertida en calor. Y en el
 vacío el calor solo se puede expulsar por radiación, a través de la superficie
-externa. Una estacion-mundo generaría una cantidad inmensa de calor por dentro,
+externa. Una estación-mundo generaría una cantidad inmensa de calor por dentro,
 pero su superficie, aunque grande, es limitada. Refrigerar semejante mole sin
 cocerse por dentro sería uno de sus mayores desafíos, y la ficción casi nunca lo
 menciona.
@@ -104,7 +104,7 @@ flowchart LR
 
 Mover algo del tamaño de una luna exige un empuje inimaginable. Como la
 aceleración es el empuje dividido por la masa, la estación se desplazaría muy
-despacio y cambiar su rumbo llevaría muchisimo tiempo. En la ficción se mueve casi
+despacio y cambiar su rumbo llevaría muchísimo tiempo. En la ficción se mueve casi
 como una nave; en la realidad, sería más parecido a mover un cuerpo celeste.
 
 | Sistema | En la ficción | En la realidad |

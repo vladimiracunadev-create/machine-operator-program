@@ -9,7 +9,7 @@
 > puntos y la estabilidad en pendiente.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-Clase%20D-orange)
 
 ---
@@ -60,6 +60,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Ley chilena: licencia clase D, seguridad agrícola. | [Abrir](reglamentos/reglamentos-tractor.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-tractor.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-tractor.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-tractor.md) |
 
 ---
 

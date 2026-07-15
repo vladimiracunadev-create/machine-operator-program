@@ -81,7 +81,7 @@ flowchart TD
 ## 3. 🎯 Guiado del ascenso
 
 En la ficción el cohete sube recto y ya está. En la realidad, subir recto todo el
-rato sería un error: para orbitar hace falta muchisima velocidad horizontal. Por
+rato sería un error: para orbitar hace falta muchísima velocidad horizontal. Por
 eso el cohete arranca casi vertical para salir del aire denso y luego se inclina
 poco a poco hasta empujar casi en horizontal. A esa maniobra suave se la suele
 llamar giro de inclinación, y la coordina la computadora de guiado.
@@ -114,7 +114,7 @@ despegue y pesar lo menos posible.
 
 ## 5. 🪂 Sistema de rescate y reentrada
 
-El rescate implica volver, y volver desde órbita libera muchisima energía. La
+El rescate implica volver, y volver desde órbita libera muchísima energía. La
 nave viaja tan rápido que, al rozar el aire, se calienta de forma extrema. La
 ficción muestra aterrizajes suaves e inmediatos; la física exige un escudo
 térmico, una trayectoria de frenado cuidadosa y a menudo paracaídas o motores

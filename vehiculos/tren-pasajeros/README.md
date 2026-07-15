@@ -8,7 +8,7 @@
 > simulación. Sigue el modelo del curso de motos.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Marco Chile](https://img.shields.io/badge/marco-Ferroviario%20EFE-orange)
 
 ---
@@ -18,7 +18,7 @@
 Al terminar este curso deberías poder:
 
 - Explicar como un tren acelera, frena y se guía sobre los rieles.
-- Distinguir la tracción eléctrica de la tracción diesel-electrica.
+- Distinguir la tracción eléctrica de la tracción diesel-eléctrica.
 - Identificar los sistemas mecánicos del tren y cómo se conectan.
 - Reconocer los mandos del puesto del maquinista y su función.
 - Comprender la adherencia rueda-riel, la gran masa y las distancias de frenado.
@@ -61,6 +61,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Marco ferroviario chileno: EFE, MTT, habilitación. | [Abrir](reglamentos/reglamentos-tren-pasajeros.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-tren-pasajeros.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-tren-pasajeros.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-tren-pasajeros.md) |
 
 ---
 

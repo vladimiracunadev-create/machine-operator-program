@@ -12,7 +12,7 @@
 > de energía, disipación de calor y la logística de una ciudad-mundo.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 
 ---
 
@@ -49,7 +49,7 @@ flowchart TD
 
 | # | Módulo | Contenido | Enlace |
 | :-: | --- | --- | --- |
-| 1 | 📜 Historia | Contexto de la estacion-luna de ficción y su idea. | [Abrir](historia/historia-estrella-de-la-muerte.md) |
+| 1 | 📜 Historia | Contexto de la estación-luna de ficción y su idea. | [Abrir](historia/historia-estrella-de-la-muerte.md) |
 | 2 | 📋 Características | Que es una estación del tamaño de una luna. | [Abrir](operacion/caracteristicas-estrella-de-la-muerte.md) |
 | 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-estrella-de-la-muerte.md) |
 | 4 | 🎛️ Mandos e instrumentos | Centro de control conceptual y consolas. | [Abrir](mandos/manual-mandos-estrella-de-la-muerte.md) |
@@ -58,6 +58,7 @@ flowchart TD
 | 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-estrella-de-la-muerte.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-estrella-de-la-muerte.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-estrella-de-la-muerte.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-estrella-de-la-muerte.md) |
 
 ---
 

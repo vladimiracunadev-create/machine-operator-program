@@ -8,7 +8,7 @@
 > marítimos chilenos e internacionales y diseño de simulación.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Marco](https://img.shields.io/badge/marco-OMI%20%2F%20DIRECTEMAR-orange)
 
 ---
@@ -59,6 +59,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | COLREG, SOLAS, MARPOL, STCW y marco DIRECTEMAR. | [Abrir](reglamentos/reglamentos-barco-mercante.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de simulación. | [Abrir](simulacion/diseno-simulador-barco-mercante.md) |
 | 9 | 🧰 Recursos | Glosario náutico, enlaces y diagramas. | [Abrir](recursos/recursos-barco-mercante.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-barco-mercante.md) |
 
 ---
 

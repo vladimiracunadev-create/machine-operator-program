@@ -9,7 +9,7 @@
 > frenos neumáticos y la gestión del peso bruto vehicular.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-Clase%20A--4%20%2F%20A--5-orange)
 
 ---
@@ -64,6 +64,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Ley chilena: licencia clase A-4 y A-5, pesos y seguridad. | [Abrir](reglamentos/reglamentos-camion.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-camion.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-camion.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-camion.md) |
 
 ---
 

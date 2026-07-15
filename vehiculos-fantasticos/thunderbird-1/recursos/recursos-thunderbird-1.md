@@ -52,4 +52,4 @@ derechos del catálogo de naves de ficción.
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-thunderbird-1.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-thunderbird-1.md) · [➡️ Siguiente: Ejercicios](../ejercicios/ejercicios-thunderbird-1.md)

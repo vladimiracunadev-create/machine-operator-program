@@ -13,7 +13,7 @@ Amplia el [glosario general](../../../docs/05-glosario-general.md).
 | --- | --- |
 | Obra muerta | Parte del casco sobre la línea de flotación; muy alta en cruceros. |
 | Pod azimutal | Unidad de propulsión bajo el casco que gira 360 grados y gobierna. |
-| Diesel-electrica | Planta en que motores diesel generan electricidad para propulsar. |
+| Diesel-eléctrica | Planta en que motores diesel generan electricidad para propulsar. |
 | Estabilizador | Aleta lateral retráctil que reduce el balance del buque. |
 | Compartimentado | División del casco en secciones estancas por mamparos. |
 | Muster | Ejercicio de reunión e instrucción de seguridad del pasaje. |
@@ -51,4 +51,4 @@ Registrar cada recurso nuevo con su origen y licencia, siguiendo
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-crucero.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-crucero.md) · [➡️ Siguiente: Ejercicios](../ejercicios/ejercicios-crucero.md)

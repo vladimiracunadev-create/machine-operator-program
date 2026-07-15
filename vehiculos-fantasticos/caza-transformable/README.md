@@ -12,7 +12,7 @@
 > claridad lo que sería realizable de lo que pertenece a la fantasía.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 
 ---
 
@@ -57,6 +57,7 @@ flowchart TD
 | 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción, no ley real. | [Abrir](reglamentos/reglas-universo-caza-transformable.md) |
 | 8 | 🎮 Simulación | Estados, transiciones y variables del simulador. | [Abrir](simulacion/diseno-simulador-caza-transformable.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-caza-transformable.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-caza-transformable.md) |
 
 ---
 

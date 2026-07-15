@@ -8,7 +8,7 @@
 > simulación. Sigue el mismo molde que el curso de motos.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Marco legal](https://img.shields.io/badge/marco-Ferroviario%20Chile-orange)
 
 ---
@@ -52,7 +52,7 @@ flowchart TD
 
 | # | Módulo | Contenido | Enlace |
 | :-: | --- | --- | --- |
-| 1 | 📜 Historia | Del vapor al diesel-electrico y trenes de mercancías modernos. | [Abrir](historia/historia-tren-carga.md) |
+| 1 | 📜 Historia | Del vapor al diesel-eléctrico y trenes de mercancías modernos. | [Abrir](historia/historia-tren-carga.md) |
 | 2 | 📋 Características | Que es, tipos de vagón y trenes unitarios o mixtos. | [Abrir](operacion/caracteristicas-tren-carga.md) |
 | 3 | 🔧 Sistemas mecánicos | Tracción, bogies, adherencia, frenado, composición y enganches. | [Abrir](operacion/sistemas-mecanicos-tren-carga.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puesto del maquinista, controles e indicadores. | [Abrir](mandos/manual-mandos-tren-carga.md) |
@@ -61,6 +61,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Marco ferroviario chileno: EFE, MTT y habilitación. | [Abrir](reglamentos/reglamentos-tren-carga.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-tren-carga.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-tren-carga.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-tren-carga.md) |
 
 ---
 

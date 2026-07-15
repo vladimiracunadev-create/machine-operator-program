@@ -147,6 +147,7 @@ Un curso de vehículo está "completo" cuando:
 - [ ] ⚖️ Reglamentos enlazados al marco legal.
 - [ ] 🎮 Diseño de simulación con variables.
 - [ ] 🧰 Recursos, glosario y fuentes registradas.
+- [ ] 🎯 Ejercicios y autoevaluación con las respuestas plegadas.
 - [ ] 🔗 Breadcrumb y navegación anterior/siguiente en cada módulo.
 
 ---

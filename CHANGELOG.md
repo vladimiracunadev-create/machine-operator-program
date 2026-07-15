@@ -7,11 +7,23 @@ y el proyecto usa [Versionado Semántico](https://semver.org/lang/es/).
 
 ## [No publicado]
 
+### Añadido
+
+- Módulo 10 de cada curso: **🎯 Ejercicios y autoevaluación**, con preguntas de
+  repaso, casos de operación y ejercicios de diseño de simulación. Las respuestas
+  van plegadas para que el intento preceda a la lectura, y cada una enlaza al
+  módulo que la cubre. En las naves de ficción la sección 2 pide separar la
+  física real de la licencia creativa, en vez de plantear casos de operación.
+- El validador exige la nueva sección `ejercicios/` en los 41 cursos.
+
 ### Corregido
 
 - Ortografía acentuada en los 443 documentos: el corpus estaba escrito sin tildes
   ni enes ("documentacion", "vehiculo", "diseno"). Las rutas, los identificadores
   y el código quedan intactos; los enlaces internos siguen resolviendo.
+- Tildes en las palabras compuestas con guion ("diesel-electrica",
+  "estacion-mundo"), que la primera pasada se había saltado junto con los slugs
+  de archivo.
 - Coherencia del README: el mapa del repositorio decía "11 cursos" cuando hay 29,
   y el estado del proyecto daba por incompletos 40 de los 41 cursos, que sí
   cumplen la checklist. Los badges de CI apuntaban al nombre anterior del

@@ -9,7 +9,7 @@
 > descarga buques portacontenedores desde el muelle.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Marco legal](https://img.shields.io/badge/marco-Izaje%20fijo%20Chile-orange)
 
 ---
@@ -58,6 +58,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Marco chileno: izaje fijo, Ley 16.744 y D.S. 594. | [Abrir](reglamentos/reglamentos-grua-portuaria.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo de descarga y modos de juego. | [Abrir](simulacion/diseno-simulador-grua-portuaria.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-grua-portuaria.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-grua-portuaria.md) |
 
 ---
 

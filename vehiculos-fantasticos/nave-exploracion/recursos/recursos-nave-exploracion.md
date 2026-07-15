@@ -12,7 +12,7 @@ y con foco en la física real detrás de la ficción.
 
 ```mermaid
 flowchart TD
-    C[Velocidad de la luz] --> AL[Anio luz]
+    C[Velocidad de la luz] --> AL[Año luz]
     AL --> Dist[Distancias interestelares]
     C --> Dil[Dilatación temporal]
     Dist --> Energia[Problema energético]
@@ -27,7 +27,7 @@ flowchart TD
 | Término | Definición breve |
 | --- | --- |
 | Velocidad de la luz | Límite máximo para mover materia e información; unos 300000 km/s. |
-| Anio luz | Distancia que la luz recorre en un anio; sirve para medir el espacio. |
+| Año luz | Distancia que la luz recorre en un año; sirve para medir el espacio. |
 | Distancia interestelar | Separación enorme entre estrellas, medida en años luz. |
 | Dilatación temporal | Efecto real por el que el tiempo pasa más lento a gran velocidad. |
 | Problema energético | Energía gigantesca que exige acelerar y frenar una nave grande. |
@@ -53,4 +53,4 @@ flowchart TD
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-nave-exploracion.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-nave-exploracion.md) · [➡️ Siguiente: Ejercicios](../ejercicios/ejercicios-nave-exploracion.md)

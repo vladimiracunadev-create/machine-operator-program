@@ -8,7 +8,7 @@
 > simulación. Sigue el modelo del curso de referencia del repositorio.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Marco Chile](https://img.shields.io/badge/marco-DAN%20151-orange)
 
 ---
@@ -57,6 +57,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Marco chileno: DGAC, DAN 151, registro y restricciones. | [Abrir](reglamentos/reglamentos-dron.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-dron.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-dron.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-dron.md) |
 
 ---
 

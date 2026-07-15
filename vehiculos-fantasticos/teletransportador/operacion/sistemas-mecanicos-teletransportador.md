@@ -92,7 +92,7 @@ flowchart TD
 | El cuerpo aparece formado | Habría que ensamblar cada partícula en su sitio. |
 | Materia surgida de la nada | La materia no se crea; saldria de una reserva local. |
 | Ensamblado sin error | La precisión exigida es extrema y sin margen. |
-| Rearmado inmediato | El proceso de colocar tantas partículas sería lentisimo. |
+| Rearmado inmediato | El proceso de colocar tantas partículas sería lentísimo. |
 
 ---
 
@@ -107,7 +107,7 @@ astronómicos, muy lejos de un destello discreto de la ficción.
 | --- | --- | --- |
 | Un destello y listo | Energía para reordenar materia | No físico: la energía implicada sería colosal. |
 | Aparato de mesa | Instalación de gran potencia | Improbable a esa escala energética. |
-| Gasto despreciable | Equivalencia masa-energia | La masa esconde energía inmensa. |
+| Gasto despreciable | Equivalencia masa-energía | La masa esconde energía inmensa. |
 
 ---
 

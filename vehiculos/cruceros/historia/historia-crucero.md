@@ -29,12 +29,12 @@ América. El viaje era un medio de transporte, no un fin en si mismo.
 | 1912 | Titanic y primer convenio SOLAS | La seguridad de la vida en el mar se vuelve norma. |
 | 1950-1970 | Auge del avión de línea | El transatlántico pierde su rol de transporte. |
 | 1970-2000 | Crucero de ocio moderno | El viaje pasa a ser el destino turístico. |
-| 2000-presente | Megabuques diesel-electricos | Pods, gran capacidad y servicios de hotel a gran escala. |
+| 2000-presente | Megabuques diesel-eléctricos | Pods, gran capacidad y servicios de hotel a gran escala. |
 
 ## Evolución tecnológica
 
 - **Casco**: del hierro remachado al acero soldado con compartimentado estanco.
-- **Propulsión**: de la máquina de vapor y ejes fijos a la planta diesel-electrica con pods azimutales.
+- **Propulsión**: de la máquina de vapor y ejes fijos a la planta diesel-eléctrica con pods azimutales.
 - **Seguridad**: de los botes insuficientes del Titanic a los sistemas SOLAS de evacuación para todos a bordo.
 - **Estabilidad**: aparición de aletas estabilizadoras activas para el confort del pasaje.
 - **Servicios**: de los camarotes básicos a ciudades flotantes con hoteleria, ocio y depuración de aguas.

@@ -34,7 +34,7 @@ flowchart LR
 Aquí está la clave del curso. Cuando agrandas una nave manteniendo su forma, su
 superficie crece con el cuadrado del tamaño, pero su volumen (y por tanto su
 masa) crece con el cubo. Si duplicas cada dimensión, la superficie se multiplica
-por cuatro, pero la masa por ocho. Por eso una nave gigante pesa muchisimo más de
+por cuatro, pero la masa por ocho. Por eso una nave gigante pesa muchísimo más de
 lo que "parece" a simple vista, y toda su estructura tiene que soportar ese peso.
 
 ```mermaid

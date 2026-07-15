@@ -49,7 +49,7 @@ flowchart TD
 | Metro / subterráneo | Ciudad, alta frecuencia | Tracción eléctrica, gran capacidad. |
 | Suburbano / cercanías | Periferia urbana | Paradas frecuentes, unidad múltiple. |
 | Tren-tram | Ciudad y vía férrea | Circula en calle y en línea de tren. |
-| Regional | Ciudades intermedias | EMU eléctrica o diesel-electrica. |
+| Regional | Ciudades intermedias | EMU eléctrica o diesel-eléctrica. |
 | Interurbano | Larga distancia | Locomotora que remolca coches. |
 
 ---

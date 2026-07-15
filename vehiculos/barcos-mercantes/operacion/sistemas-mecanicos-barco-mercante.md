@@ -59,7 +59,7 @@ flowchart LR
 ```
 
 - **Motor principal**: normalmente un motor diesel lento de gran tamaño acoplado
-  directo al eje, o una planta diesel-electrica.
+  directo al eje, o una planta diesel-eléctrica.
 - **Línea de ejes**: transmite el giro del motor a la hélice.
 - **Hélice**: al empujar agua hacia atrás, genera empuje hacia adelante
   (tercera ley de Newton). Puede ser de paso fijo o de paso variable.

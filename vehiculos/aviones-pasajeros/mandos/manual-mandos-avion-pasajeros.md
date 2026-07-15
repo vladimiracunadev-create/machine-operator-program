@@ -42,7 +42,7 @@ de gestión de vuelo, y la operación se conduce con listas de verificación.
 
 | Acción | Teclado | Controlador | Palanca de vuelo | Comentarios |
 | --- | --- | --- | --- | --- |
-| Cabecear | Flechas arriba/abajo | Stick eje Y | Adelante-atras | Sube o baja el morro. |
+| Cabecear | Flechas arriba/abajo | Stick eje Y | Adelante-atrás | Sube o baja el morro. |
 | Alabear | Flechas izq/der | Stick eje X | Giro lateral | Inclina las alas. |
 | Guiñar | Teclas Z / X | Gatillos / pedales | Pedales | Coordina el vuelo. |
 | Empuje | Teclas F2 / F3 | Gatillo derecho | Palancas de gases | Con autothrottle opcional. |

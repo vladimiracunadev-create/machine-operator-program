@@ -35,7 +35,7 @@ tripulación necesita una fuente enorme y estable.
 | Concepto | Ficción | Física real |
 | --- | --- | --- |
 | Cantidad de energía | Prácticamente ilimitada | Siempre finita y costosa. |
-| Antimateria | Combustible común y estable | Existe, pero se produce en cantidades minusculas. |
+| Antimateria | Combustible común y estable | Existe, pero se produce en cantidades minúsculas. |
 | Calor sobrante | Se ignora | Enorme; disiparlo en el vacío es difícil. |
 | Encendido rápido | Instantáneo | Requiere sistemas complejos y tiempo. |
 
@@ -55,7 +55,7 @@ flowchart LR
 
 - **Que respeta**: la ley de acción y reacción; nada aquí rompe la física.
 - **El problema**: acelerar una nave grande a una fracción de la luz exige
-  cantidades de energía y combustible descomunales, y llevaría muchisimo tiempo.
+  cantidades de energía y combustible descomunales, y llevaría muchísimo tiempo.
 - **Enseñanza**: lo lento y pesado es justo lo realista.
 
 ## 3. 🌌 Impulso superluminico imaginario

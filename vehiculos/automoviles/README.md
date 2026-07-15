@@ -8,7 +8,7 @@
 > plantilla de oro del curso de motocicletas.
 
 ![Nivel](https://img.shields.io/badge/nivel-introductorio-green)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-Clase%20B-orange)
 
 ---
@@ -60,6 +60,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Ley chilena: licencia clase B, cinturón, seguridad. | [Abrir](reglamentos/reglamentos-automovil.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-automovil.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-automovil.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-automovil.md) |
 
 ---
 

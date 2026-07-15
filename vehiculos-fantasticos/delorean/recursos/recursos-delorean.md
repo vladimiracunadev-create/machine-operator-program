@@ -57,4 +57,4 @@ flowchart LR
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-delorean.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-delorean.md) · [➡️ Siguiente: Ejercicios](../ejercicios/ejercicios-delorean.md)

@@ -9,7 +9,7 @@
 > [🦺 docs/04-seguridad-y-limites.md](../../docs/04-seguridad-y-limites.md).
 
 ![Nivel](https://img.shields.io/badge/nivel-divulgativo-green)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Marco](https://img.shields.io/badge/marco-publico%20e%20historico-lightgrey)
 
 ---
@@ -70,6 +70,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Marco institucional público (Ejército, Ley 18.948). | [Abrir](reglamentos/reglamentos-tanque.md) |
 | 8 | 🎮 Diseño de simulación | Variables de movilidad, ciclo y modos educativos. | [Abrir](simulacion/diseno-simulador-tanque.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-tanque.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-tanque.md) |
 
 ---
 

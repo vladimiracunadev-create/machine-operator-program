@@ -44,7 +44,7 @@ anti-par.
 | Acción | Teclado | Controlador | Palanca de vuelo | Comentarios |
 | --- | --- | --- | --- | --- |
 | Colectivo arriba/abajo | Teclas F2 / F3 | Gatillo izquierdo | Palanca de colectivo | Sube o baja la sustentación. |
-| Cíclico adelante/atrás | Flechas arriba/abajo | Stick eje Y | Adelante-atras | Avanza o retrocede. |
+| Cíclico adelante/atrás | Flechas arriba/abajo | Stick eje Y | Adelante-atrás | Avanza o retrocede. |
 | Cíclico izq/der | Flechas izq/der | Stick eje X | Giro lateral | Se desplaza de lado. |
 | Guiñada | Teclas Z / X | Pedales | Pedales | Gira la nariz; ajusta anti-par. |
 | Gas / potencia | Teclas + / - | Rueda | Puño del colectivo | Ajusta la potencia del motor. |

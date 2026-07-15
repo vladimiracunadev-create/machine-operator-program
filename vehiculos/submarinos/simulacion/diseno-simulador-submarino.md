@@ -68,7 +68,7 @@ sistemas de armas.
 
 - [ ] Definir valores por defecto por tipo de submarino.
 - [ ] Prototipar el modelo de flotabilidad y lastre.
-- [ ] Ajustar la relación presion-profundidad y la cota máxima.
+- [ ] Ajustar la relación presión-profundidad y la cota máxima.
 - [ ] Agregar fuentes públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
 ---

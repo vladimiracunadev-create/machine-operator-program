@@ -59,4 +59,4 @@ flowchart TD
 
 ---
 
-[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-caza-transformable.md)
+[🎓 Portada del curso](../README.md) · [⬅️ Anterior: Diseño de simulación](../simulacion/diseno-simulador-caza-transformable.md) · [➡️ Siguiente: Ejercicios](../ejercicios/ejercicios-caza-transformable.md)

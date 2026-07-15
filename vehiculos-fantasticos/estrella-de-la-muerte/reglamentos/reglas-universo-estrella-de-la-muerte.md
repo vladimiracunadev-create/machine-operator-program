@@ -13,7 +13,7 @@ es análisis original. Ver también el
 
 ## Que son las reglas del universo
 
-Son acuerdos narrativos: la ficción establece cómo funciona la estacion-mundo
+Son acuerdos narrativos: la ficción establece cómo funciona la estación-mundo
 para que el relato sea grandioso y fácil de seguir. Son coherentes dentro de la
 historia, pero no son leyes de la naturaleza. Distinguirlas de la física real es
 justo el objetivo educativo del curso.
@@ -25,7 +25,7 @@ justo el objetivo educativo del curso.
 | Energía prácticamente infinita | Poder abrumador | Habría un presupuesto de energía con límites. |
 | Un gran disparo sin coste | Impacto dramático | Concentrar tanta energía dejaría sin margen al resto. |
 | El calor nunca es problema | No distraer con detalles | Disiparlo sería un reto enorme por la escala. |
-| Maniobra con relativa soltura | Escenas dinámicas | Su masa la hace lentisima de mover. |
+| Maniobra con relativa soltura | Escenas dinámicas | Su masa la hace lentísima de mover. |
 | La estructura aguanta todo | Mantener el escenario | Soportar su propio peso sería muy exigente. |
 | Autonomía total garantizada | Servir de base segura | Sostener millones de personas es colosal. |
 
@@ -45,7 +45,7 @@ impresiona en pantalla y lo que ocurriría de verdad.
 - Mostrar en pantalla, al cambiar de modo, que regla se activó o se desactivó.
 
 De esta forma el usuario ve, lado a lado, la versión espectacular y la versión
-realista de la misma estacion-mundo.
+realista de la misma estación-mundo.
 
 ---
 

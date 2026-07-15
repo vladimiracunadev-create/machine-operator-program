@@ -45,7 +45,7 @@ tipo de buque.
 | Tipo | Rasgo | Característica destacada |
 | --- | --- | --- |
 | Sumergible experimental | Histórico | Lastre y propulsión manual. |
-| Submarino diesel-electrico | Clásico | Motor en superficie, batería sumergido. |
+| Submarino diesel-eléctrico | Clásico | Motor en superficie, batería sumergido. |
 | Submarino de propulsión nuclear | Moderno | Gran autonomía sumergida. |
 | Sumergible de investigación | Civil | Exploración científica del océano. |
 

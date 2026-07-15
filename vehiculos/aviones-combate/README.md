@@ -9,7 +9,7 @@
 > [🦺 docs/04-seguridad-y-limites.md](../../docs/04-seguridad-y-limites.md).
 
 ![Nivel](https://img.shields.io/badge/nivel-divulgativo-green)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Marco](https://img.shields.io/badge/marco-publico%20e%20historico-lightgrey)
 
 ---
@@ -69,6 +69,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Marco institucional público (FACH, defensa). | [Abrir](reglamentos/reglamentos-avion-combate.md) |
 | 8 | 🎮 Diseño de simulación | Variables de vuelo, ciclo y modos educativos. | [Abrir](simulacion/diseno-simulador-avion-combate.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-avion-combate.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-avion-combate.md) |
 
 ---
 

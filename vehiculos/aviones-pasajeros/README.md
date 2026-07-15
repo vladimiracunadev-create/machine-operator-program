@@ -9,7 +9,7 @@
 > comercial segura de una aeronave de transporte de pasajeros.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-ATP%20DGAC-orange)
 
 ---
@@ -64,6 +64,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Ley chilena: DGAC, licencia ATP, operación comercial. | [Abrir](reglamentos/reglamentos-avion-pasajeros.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-avion-pasajeros.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-avion-pasajeros.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-avion-pasajeros.md) |
 
 ---
 

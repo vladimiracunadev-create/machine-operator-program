@@ -48,7 +48,7 @@ flowchart TD
 | Tipo | Época | Rasgo destacado |
 | --- | --- | --- |
 | Experimental | Histórico | Lastre y propulsión manual. |
-| Diesel-electrico | Clásico | Motor en superficie, batería sumergido. |
+| Diesel-eléctrico | Clásico | Motor en superficie, batería sumergido. |
 | Propulsión nuclear | Moderno | Gran autonomía sumergida. |
 | Investigación civil | Actual | Exploración científica de profundidades. |
 

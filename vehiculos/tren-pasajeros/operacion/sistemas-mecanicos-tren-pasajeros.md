@@ -61,7 +61,7 @@ flowchart LR
 
 ---
 
-## 2. ⛽ Tracción diesel-electrica
+## 2. ⛽ Tracción diesel-eléctrica
 
 Cuando no hay catenaria, el tren genera su propia electricidad a bordo. El motor
 diesel no mueve las ruedas de forma directa: mueve un generador.

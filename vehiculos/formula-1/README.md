@@ -9,7 +9,7 @@
 > deportivo y técnico de la FIA, no por la ley de tránsito.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-9-blue)
+![Módulos](https://img.shields.io/badge/modulos-10-blue)
 ![Marco](https://img.shields.io/badge/marco-reglamento%20FIA-orange)
 
 ---
@@ -61,6 +61,7 @@ flowchart TD
 | 7 | ⚖️ Reglamentos | Reglamento deportivo y técnico de la FIA. | [Abrir](reglamentos/reglamentos-formula-1.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-formula-1.md) |
 | 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-formula-1.md) |
+| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-formula-1.md) |
 
 ---
 

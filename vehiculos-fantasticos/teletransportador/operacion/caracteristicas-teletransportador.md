@@ -27,7 +27,7 @@ transmitir la información que lo describe y reconstruirlo en el destino.
 | Traslado instantáneo | El cuerpo aparece de inmediato lejos | Ningún dato puede ir más rápido que la luz. |
 | Desaparición limpia | El original se esfuma sin resto | Habría que medir y desarmar átomo por átomo. |
 | Reconstrucción perfecta | El cuerpo llega idéntico | Exige una cantidad astronómica de información. |
-| Gasto de energía discreto | Un simple destello | La equivalencia masa-energia implica energía colosal. |
+| Gasto de energía discreto | Un simple destello | La equivalencia masa-energía implica energía colosal. |
 | Un solo tú al final | Solo aparece uno en el destino | Copiar el patrón dejaría dos: el problema del duplicado. |
 | Continuidad de la persona | "Eres tu" quien llega | Filosofía abierta: original, copia o ambos. |
 

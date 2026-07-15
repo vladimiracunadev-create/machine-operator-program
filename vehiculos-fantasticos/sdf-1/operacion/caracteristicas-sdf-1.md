@@ -49,7 +49,7 @@ flowchart TD
 | --- | --- | --- |
 | Nave-refugio | Mucho espacio interior | Gran volumen y masa; difícil de mover. |
 | Nave-astillero | Hangares y talleres | Estructura compleja y muy pesada. |
-| Nave-bastion | Blindaje y armamento | Aun más masa; empuje casi inviable. |
+| Nave-bastión | Blindaje y armamento | Aun más masa; empuje casi inviable. |
 
 ---
 

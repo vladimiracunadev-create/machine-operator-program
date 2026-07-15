@@ -52,7 +52,7 @@ su resistencia: debe seguir a flote aun con varios compartimentos inundados.
 
 ---
 
-## 2. ⚡ Propulsión diesel-electrica y pods
+## 2. ⚡ Propulsión diesel-eléctrica y pods
 
 El crucero moderno separa la generación de energía de la propulsión. Los
 generadores diesel producen electricidad, que alimenta motores eléctricos
@@ -72,7 +72,7 @@ flowchart LR
 - **Grupos generadores**: varios motores diesel mueven alternadores; se conectan
   y desconectan según la demanda de propulsión y de hotel.
 - **Cuadro eléctrico principal**: reparte la energía entre propulsión y servicios;
-  es el corazón de la planta diesel-electrica.
+  es el corazón de la planta diesel-eléctrica.
 - **Motores eléctricos**: convierten la electricidad en giro para los pods.
 - **Pods azimutales**: unidades bajo el casco que giran 360 grados; propulsan y
   gobiernan a la vez, y mejoran mucho la maniobra en puerto.

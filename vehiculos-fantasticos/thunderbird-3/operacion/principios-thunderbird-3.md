@@ -63,7 +63,7 @@ a órbita es tan caro y por qué las etapas son casi obligatorias.
 | Despegue instantáneo | El cohete si puede acelerar fuerte | El ascenso tarda minutos y gasta casi todo el propelente. |
 | Cohete de una sola pieza | Un cohete puede llevar todo junto | Sin soltar etapas es difícil llegar a órbita. |
 | Depósito pequeño y de sobra | El propelente da el empuje | El combustible es casi toda la masa del cohete. |
-| Regreso suave inmediato | Se puede volver a tierra | La reentrada libera muchisima energía y calor. |
+| Regreso suave inmediato | Se puede volver a tierra | La reentrada libera muchísima energía y calor. |
 | Subir siempre recto | Al inicio conviene ir vertical | Luego hay que inclinar para ganar velocidad lateral. |
 
 ## Cómo sería una misión realista
