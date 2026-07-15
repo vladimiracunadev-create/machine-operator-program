@@ -54,7 +54,7 @@ flowchart TD
 | 2 | 📋 Características | Que es un vehículo de respuesta rápida y para que sirve. | [Abrir](operacion/caracteristicas-thunderbird-1.md) |
 | 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-thunderbird-1.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-thunderbird-1.md) |
-| 5 | 🧪 Principios y operación | VTOL y empuje vectorizado: que si, que no y por  qué. | [Abrir](operacion/principios-thunderbird-1.md) |
+| 5 | 🧪 Principios y operación | VTOL y empuje vectorizado: que si, que no y por qué. | [Abrir](operacion/principios-thunderbird-1.md) |
 | 6 | 🌍 Entornos | Base, atmósfera y escenarios de respuesta rápida. | [Abrir](operacion/entornos-thunderbird-1.md) |
 | 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-thunderbird-1.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-thunderbird-1.md) |

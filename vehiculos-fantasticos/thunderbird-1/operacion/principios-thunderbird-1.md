@@ -6,7 +6,7 @@
 
 Documento educativo y de divulgación. Aquí está el corazón del curso: la física
 del despegue vertical, el empuje vectorizado y el compromiso entre velocidad y
-autonomía. Explica que si sería posible, que no, y sobre todo por  qué.
+autonomía. Explica que si sería posible, que no, y sobre todo por qué.
 
 ## La condición del vuelo vertical: empuje mayor que el peso
 

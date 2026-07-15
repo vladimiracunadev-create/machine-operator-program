@@ -46,7 +46,7 @@ podían recorrer después.
 | 1970-1990 | Toberas orientables del chorro | Base real del empuje vectorizado. |
 | 1990-hoy | Divulgación de física del vuelo | Separa el espectáculo de la realidad. |
 
-## Por  qué la ficción eligió la respuesta rápida
+## Por qué la ficción eligió la respuesta rápida
 
 Contar una historia de rescate con un vehículo que llega en minutos es emocionante:
 hay urgencia, cuenta atrás y una máquina que parece capaz de todo. Un vehículo
@@ -57,7 +57,7 @@ físico, y eso es una decisión artística legítima que este curso respeta y an
 ## Que aprenderemos de todo esto
 
 - Que conceptos de física real evoca la nave aunque los exagere.
-- Que licencias creativas ignoran el consumo y el peso, y por  qué.
+- Que licencias creativas ignoran el consumo y el peso, y por qué.
 - Cómo sería un vehículo de respuesta rápida si obedeciera la física de verdad.
 
 ## Fuentes

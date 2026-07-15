@@ -24,7 +24,7 @@ stateDiagram-v2
 
 ## Objetivo de la simulación
 
-Que el usuario entienda, jugando, por  qué cada modo sirve para algo distinto:
+Que el usuario entienda, jugando, por qué cada modo sirve para algo distinto:
 cruzar el cielo en modo caza, maniobrar en el intermedio y operar en el suelo en
 modo humanoide. Y sobre todo, que perciba que transformar tiene un costo.
 

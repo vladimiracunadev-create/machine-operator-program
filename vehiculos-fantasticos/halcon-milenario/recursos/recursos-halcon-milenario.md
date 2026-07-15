@@ -26,7 +26,7 @@ Amplia el [glosario general](../../../docs/05-glosario-general.md).
 
 ---
 
-## 🗺️ Diagrama: por  qué la carga pesa
+## 🗺️ Diagrama: por qué la carga pesa
 
 ```mermaid
 flowchart LR

@@ -8,7 +8,7 @@
 
 > Curso de análisis educativo de ciencia ficción inspirado en el estilo
 > "Star Wars". Estudiamos un caza estelar genérico para entender la física
-> real del movimiento en el vacío: por  qué el combate espacial de las
+> real del movimiento en el vacío: por qué el combate espacial de las
 > películas es dramático pero no físico, y cómo sería de verdad.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
@@ -21,7 +21,7 @@
 Al terminar este curso deberias poder:
 
 - Explicar las leyes de Newton aplicadas al vacío, sin aire ni rozamiento.
-- Entender por  qué no hay alas útiles ni virajes bancados fuera de una atmósfera.
+- Entender por qué no hay alas útiles ni virajes bancados fuera de una atmósfera.
 - Describir los propulsores de control de reacción (RCS) y la reorientación.
 - Razonar sobre conservación del momento, delta-v y presupuesto de maniobra.
 - Distinguir que evoca la ficción que sería real y que rompe la física.
@@ -55,7 +55,7 @@ flowchart TD
 | 2 | 📋 Características | Que es un caza estelar genérico y para que sirve. | [Abrir](operacion/caracteristicas-caza-estelar.md) |
 | 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-caza-estelar.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-caza-estelar.md) |
-| 5 | 🧪 Principios y operación | Newton en el vacío: que si, que no y por  qué. | [Abrir](operacion/principios-caza-estelar.md) |
+| 5 | 🧪 Principios y operación | Newton en el vacío: que si, que no y por qué. | [Abrir](operacion/principios-caza-estelar.md) |
 | 6 | 🌍 Entornos | El vacío, órbitas y campos de escombros. | [Abrir](operacion/entornos-caza-estelar.md) |
 | 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-caza-estelar.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-caza-estelar.md) |

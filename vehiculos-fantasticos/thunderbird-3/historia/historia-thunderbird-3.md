@@ -38,14 +38,14 @@ sobre todo, un problema de velocidad y de masa de combustible.
 
 | Periodo | Hito de referencia | Importancia para el curso |
 | --- | --- | --- |
-| 1900-1930 | Formulación de la ecuación del cohete | Explica por  qué el combustible crece de forma exponencial. |
+| 1900-1930 | Formulación de la ecuación del cohete | Explica por qué el combustible crece de forma exponencial. |
 | 1940-1950 | Cohetes que rozan el borde atmosférico | Muestra que subir alto no es orbitar. |
 | 1950-1960 | Cohetes de varias etapas en órbita | Confirma la ventaja de soltar masa vacía. |
 | 1960-1970 | Vuelos tripulados de ida y vuelta | Base real de un vehículo de rescate. |
 | 1960-1980 | Auge del cohete de rescate en pantalla | Fija la imagen popular del despegue instantáneo. |
 | 1980-hoy | Divulgación de mecánica del ascenso | Separa el espectáculo de la realidad. |
 
-## Por  qué la ficción eligió el despegue heroico
+## Por qué la ficción eligió el despegue heroico
 
 Contar una historia de rescate con un cohete listo al instante es fácil de
 seguir: hay urgencia, cuenta atrás y una salida espectacular. Un ascenso real
@@ -56,7 +56,7 @@ y eso es una decisión artística legítima que este curso respeta y analiza.
 ## Que aprenderemos de todo esto
 
 - Que conceptos de física real evoca el cohete aunque los exagere.
-- Que licencias creativas rompen las leyes de Newton y por  qué.
+- Que licencias creativas rompen las leyes de Newton y por qué.
 - Cómo sería un cohete de rescate si tuviera que obedecer la física de verdad.
 
 ## Fuentes

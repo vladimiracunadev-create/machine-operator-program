@@ -62,7 +62,7 @@ La física que hoy conocemos indica algo muy distinto:
 | --- | --- |
 | Una velocidad umbral dispara el viaje temporal | La velocidad no permite viajar al pasado. |
 | El pasado se puede visitar y cambiar | No hay mecanismo conocido para retroceder en el tiempo. |
-| Las paradojas se resuelven con una regla narrativa | Las paradojas indican por  qué el viaje al pasado es problemático. |
+| Las paradojas se resuelven con una regla narrativa | Las paradojas indican por qué el viaje al pasado es problemático. |
 | La energía suficiente basta para saltar de fecha | La energía no ofrece un camino conocido al pasado. |
 
 Estas convenciones son útiles para contar historias y para pensar, no para

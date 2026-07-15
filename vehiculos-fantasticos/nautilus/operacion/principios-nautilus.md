@@ -5,7 +5,7 @@
 > ⚖️ Material educativo original; el Nautilus de Julio Verne (1870) es de dominio público; otros derechos pertenecen a sus titulares.
 
 Documento educativo. Analiza que cosas del Nautilus son físicamente posibles,
-cuales no, y por  qué. La gracia de esta nave es que Verne acerto en casi todo lo
+cuales no, y por qué. La gracia de esta nave es que Verne acerto en casi todo lo
 esencial del submarino, así que sirve para separar la buena intuición científica
 de la licencia narrativa.
 
@@ -22,9 +22,9 @@ de la licencia narrativa.
 - **Soporte vital**: el aire respirable es el recurso más crítico; hay que
   reponer oxígeno y retirar el dioxido de carbono.
 
-## Que si, que no y por  qué
+## Que si, que no y por qué
 
-| Aspecto de la novela | Veredicto físico | Por  qué |
+| Aspecto de la novela | Veredicto físico | Por qué |
 | --- | --- | --- |
 | Sumergir con tanques de lastre | Posible | Es el método real de todo submarino. |
 | Casco resistente a la presión | Posible | Existe, con una profundidad límite. |

@@ -19,11 +19,11 @@
 
 Al terminar este curso deberias poder:
 
-- Explicar que es la energía cinética y por  qué alcanzar una velocidad umbral
+- Explicar que es la energía cinética y por qué alcanzar una velocidad umbral
   no basta para viajar en el tiempo en la física real.
-- Distinguir potencia de energía y estimar por  qué la escala requerida sería
+- Distinguir potencia de energía y estimar por qué la escala requerida sería
   enorme.
-- Describir la dilatación temporal de la relatividad y por  qué no equivale a
+- Describir la dilatación temporal de la relatividad y por qué no equivale a
   viajar al pasado.
 - Reconocer las curvas temporales cerradas como una idea teórica exótica.
 - Analizar la causalidad y las paradojas del viaje en el tiempo con tus
@@ -56,7 +56,7 @@ flowchart TD
 | 2 | 📋 Características | Que es la nave, sus modos y rasgos. | [Abrir](operacion/caracteristicas-delorean.md) |
 | 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria y física real que evoca o rompe. | [Abrir](operacion/sistemas-mecanicos-delorean.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-delorean.md) |
-| 5 | 🧪 Principios y operación | Que sería posible, que no y por  qué. | [Abrir](operacion/principios-delorean.md) |
+| 5 | 🧪 Principios y operación | Que sería posible, que no y por qué. | [Abrir](operacion/principios-delorean.md) |
 | 6 | 🌍 Entornos | Dónde opera y factores del entorno. | [Abrir](operacion/entornos-delorean.md) |
 | 7 | ⚖️ Reglas del universo | Reglas internas de la ficción y aviso de que no es ley real. | [Abrir](reglamentos/reglas-universo-delorean.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia/ficción. | [Abrir](simulacion/diseno-simulador-delorean.md) |

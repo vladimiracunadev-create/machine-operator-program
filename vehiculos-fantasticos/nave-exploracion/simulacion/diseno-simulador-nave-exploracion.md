@@ -24,7 +24,7 @@ stateDiagram-v2
 
 ## Objetivo de la simulación
 
-Que el usuario entienda, jugando, por  qué el viaje interestelar es tan difícil:
+Que el usuario entienda, jugando, por qué el viaje interestelar es tan difícil:
 cuanta energía cuesta acelerar, cuanto tiempo toman las distancias reales y como
 la dilatación temporal separa el reloj de a bordo del reloj de casa.
 
@@ -67,7 +67,7 @@ la dilatación temporal separa el reloj de a bordo del reloj de casa.
 
 ## Modos de juego futuros
 
-- Tutorial de física: sentir por  qué la luz es un límite.
+- Tutorial de física: sentir por qué la luz es un límite.
 - Reto energético: llegar a una estrella sin quedarse sin reactor.
 - Experimento de dilatación temporal: comparar los dos relojes al volver.
 - Misión de nave generacional: planear un viaje de siglos.

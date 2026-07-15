@@ -57,7 +57,7 @@ justo lo que un simulador debe modelar.
 ## Puente hacia los principios
 
 Ya sabemos que controles existen. El siguiente módulo explica que decisiones son
-físicamente posibles, cuales no y por  qué, comparando ficción y realidad.
+físicamente posibles, cuales no y por qué, comparando ficción y realidad.
 
 ---
 

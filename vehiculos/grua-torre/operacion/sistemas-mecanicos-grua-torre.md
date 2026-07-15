@@ -4,7 +4,7 @@
 
 Este módulo abre la grúa torre por dentro y es el corazón del curso. Explica la
 mecánica del izaje en altura: cómo se sostiene el mástil, como se reparte el
-momento entre carga y contrapeso, y por  qué existe un límite de peso para cada
+momento entre carga y contrapeso, y por qué existe un límite de peso para cada
 posición del carro. Es la base técnica para entender los mandos (Módulo 4) y la
 física de la operación (Módulo 5).
 
@@ -145,7 +145,7 @@ Las magnitudes clave:
 | Momento máximo | Valor de diseño de la grúa | Límite que no se puede superar. |
 | Porcentaje de capacidad | Momento actual / momento máximo | Lo que muestra el limitador. |
 
-### Por  qué al alejar el carro baja la capacidad
+### Por qué al alejar el carro baja la capacidad
 
 El momento de la carga es **peso por radio**. La grúa tiene un momento máximo de
 diseño que puede resistir. Si el radio aumenta, para no superar ese momento el

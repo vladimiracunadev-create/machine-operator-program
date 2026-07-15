@@ -46,7 +46,7 @@ su superficie, y eso obliga a repensar toda la estructura.
 | 1980-2000 | Materiales y estructuras ligeras | Explica cómo se pelea contra el peso propio. |
 | 2000-hoy | Divulgación de escala e ingeniería | Separa el espectáculo de la realidad. |
 
-## Por  qué la ficción eligió la nave gigante
+## Por qué la ficción eligió la nave gigante
 
 Una nave del tamaño de una ciudad es un escenario perfecto: dentro caben
 personajes, hogares, hangares y batallas. Sirve como refugio y como símbolo de
@@ -56,7 +56,7 @@ decisión artística legítima que este curso respeta y analiza.
 ## Que aprenderemos de todo esto
 
 - Que conceptos de física real evoca la nave aunque los exagere.
-- Por  qué la ley del cubo-cuadrado hace tan difíciles a los gigantes.
+- Por qué la ley del cubo-cuadrado hace tan difíciles a los gigantes.
 - Cómo sería una nave-fortaleza si tuviera que respetar la ingeniería real.
 
 ## Fuentes

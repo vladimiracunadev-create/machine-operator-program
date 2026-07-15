@@ -80,7 +80,7 @@ flowchart TD
 - El velocímetro y el indicador de umbral deben verse siempre juntos, para que
   el usuario relacione velocidad con la condición del salto.
 - El interruptor ciencia/ficción es la pieza educativa central: en modo ciencia
-  el botón de salto queda deshabilitado y se explica por  qué.
+  el botón de salto queda deshabilitado y se explica por qué.
 - El aviso de causalidad no castiga; informa y abre la discusión sobre
   paradojas, que se detalla en el Módulo 7.
 

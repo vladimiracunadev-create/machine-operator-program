@@ -52,7 +52,7 @@ suele pedir ambas cosas a la vez: muchisima energía entregada en un instante.
 
 La energía cinética de un cuerpo crece con el cuadrado de su velocidad: si
 duplicas la velocidad, la energía de movimiento se multiplica por cuatro. Esto
-explica por  qué ir más rápido cuesta cada vez más energía.
+explica por qué ir más rápido cuesta cada vez más energía.
 
 El punto clave educativo es este: en la física real, alcanzar cierta velocidad
 umbral solo te da más energía de movimiento y efectos relativistas, pero **no**

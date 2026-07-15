@@ -20,12 +20,12 @@
 
 Al terminar este curso deberias poder:
 
-- Explicar por  qué la velocidad de la luz es un límite y no un simple record.
+- Explicar por qué la velocidad de la luz es un límite y no un simple record.
 - Medir distancias interestelares en años luz y captar su escala real.
-- Entender la dilatación temporal: por  qué el tiempo pasa distinto a gran velocidad.
+- Entender la dilatación temporal: por qué el tiempo pasa distinto a gran velocidad.
 - Estimar la energía gigantesca que exige acelerar una nave grande.
 - Distinguir lo posible (naves generacionales lentas) de lo teórico (métrica de Alcubierre).
-- Comprender por  qué superar la luz romperia la causalidad.
+- Comprender por qué superar la luz romperia la causalidad.
 
 ---
 
@@ -54,7 +54,7 @@ flowchart TD
 | 2 | 📋 Características | Que es una nave de exploración imaginaria y para que sirve. | [Abrir](operacion/caracteristicas-nave-exploracion.md) |
 | 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-nave-exploracion.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puente de mando, controles y tablero. | [Abrir](mandos/manual-mandos-nave-exploracion.md) |
-| 5 | 🧪 Principios y operación | Que si, que no y por  qué, según la física. | [Abrir](operacion/principios-nave-exploracion.md) |
+| 5 | 🧪 Principios y operación | Que si, que no y por qué, según la física. | [Abrir](operacion/principios-nave-exploracion.md) |
 | 6 | 🌍 Entornos | El vacío, sistemas estelares y espacio profundo. | [Abrir](operacion/entornos-nave-exploracion.md) |
 | 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción, no leyes reales. | [Abrir](reglamentos/reglas-universo-nave-exploracion.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-nave-exploracion.md) |

@@ -31,7 +31,7 @@ abre un issue y se ajustara.
 | Nave | Inspiración | Idea central de aprendizaje |
 | --- | --- | --- |
 | [🕰️ DeLorean temporal](delorean/README.md) | "Volver al Futuro" | Energía, velocidad umbral y la paradoja del viaje en el tiempo. |
-| [🛸 Caza estelar](caza-estelar/README.md) | Estilo "Star Wars" | Maniobra en el vacío: por  qué el combate real no sería así. |
+| [🛸 Caza estelar](caza-estelar/README.md) | Estilo "Star Wars" | Maniobra en el vacío: por qué el combate real no sería así. |
 | [🌌 Nave de exploración](nave-exploracion/README.md) | Estilo "Star Trek" | Viaje interestelar, distancias y límites de la física. |
 | [🐙 Nautilus](nautilus/README.md) | Julio Verne (dominio público) | Submarino visionario: flotabilidad y autonomía. |
 | [🤖 Caza transformable](caza-transformable/README.md) | Estilo "Robotech" | Un vehículo, tres modos: aerodinámica y mecanismos. |
@@ -53,7 +53,7 @@ ficción:
 
 - 📜 **Historia**: contexto de la obra y su nave (a nivel divulgativo).
 - 🔧 **Sistemas**: la tecnología imaginaria y la física real que evoca o rompe.
-- 🧪 **Principios**: que sería posible, que no, y por  qué.
+- 🧪 **Principios**: que sería posible, que no, y por qué.
 - ⚖️ **Reglas del universo**: las "leyes" internas de la ficción (en vez de ley real).
 - 🎮 **Simulación**: cómo se modelaria de forma educativa y divertida.
 

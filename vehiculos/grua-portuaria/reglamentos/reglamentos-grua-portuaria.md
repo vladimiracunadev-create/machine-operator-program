@@ -22,7 +22,7 @@ en [`docs/07-marco-legal-chile.md`](../../../docs/07-marco-legal-chile.md), secc
 - La operación la realiza personal **certificado/competente**, con formación
   específica en el equipo.
 - Se trabaja con **plan de izaje**, **señalero (rigger)** y **área de exclusión**.
-- El detalle de certificación del operador esta **(por confirmar)** en el marco
+- El detalle de certificación del operador está **(por confirmar)** en el marco
   legal, sección 1.7.
 
 ## Requisitos y elementos de seguridad

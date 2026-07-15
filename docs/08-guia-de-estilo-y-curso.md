@@ -135,7 +135,7 @@ flowchart TD
 
 ## ✅ Checklist de curso profesional
 
-Un curso de vehículo esta "completo" cuando:
+Un curso de vehículo está "completo" cuando:
 
 - [ ] 🎓 Portada con diagrama y tabla de módulos enlazada.
 - [ ] 📜 Historia con línea de tiempo.

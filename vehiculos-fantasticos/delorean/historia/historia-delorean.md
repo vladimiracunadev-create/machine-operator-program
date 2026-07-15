@@ -6,7 +6,7 @@
 
 Este módulo situa la nave en su contexto cultural, con nuestras palabras y a
 nivel divulgativo. No reproducimos guiones, diálogos ni arte de la obra
-original: solo explicamos por  qué un vehículo cotidiano convertido en máquina
+original: solo explicamos por qué un vehículo cotidiano convertido en máquina
 del tiempo se volvió un símbolo útil para hablar de física.
 
 ---
@@ -38,14 +38,14 @@ timeline
 
 ---
 
-## 🧭 Por  qué funciona como recurso educativo
+## 🧭 Por qué funciona como recurso educativo
 
 | Elemento de la ficción | Pregunta de física que despierta |
 | --- | --- |
-| Alcanzar una velocidad concreta | Que es una velocidad umbral y por  qué la física real no la usa así. |
+| Alcanzar una velocidad concreta | Que es una velocidad umbral y por qué la física real no la usa así. |
 | Necesitar mucha energía | Cual es la diferencia entre energía y potencia. |
 | Saltar a otra fecha | Se puede realmente retroceder en el tiempo. |
-| Evitar cambiar el pasado | Que es la causalidad y por  qué importa. |
+| Evitar cambiar el pasado | Que es la causalidad y por qué importa. |
 | Un vehículo cotidiano | Como distinguimos ingeniería real de licencia narrativa. |
 
 ---

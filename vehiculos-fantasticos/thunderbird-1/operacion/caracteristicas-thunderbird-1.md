@@ -59,7 +59,7 @@ flowchart TD
 - Simplificar el vuelo a algo que parece no tener límites de combustible.
 
 En cambio, para este curso sirve como laboratorio: cada rasgo llamativo nos
-deja preguntar si sería posible y por  qué.
+deja preguntar si sería posible y por qué.
 
 ---
 

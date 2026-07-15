@@ -64,7 +64,7 @@ flowchart TD
 - Concentrar en un solo lugar una fuerza que parece invencible.
 
 En cambio, para este curso sirve como laboratorio: cada rasgo colosal nos deja
-preguntar si sería posible y por  qué.
+preguntar si sería posible y por qué.
 
 ---
 

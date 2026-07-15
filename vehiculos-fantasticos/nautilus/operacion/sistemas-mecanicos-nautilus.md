@@ -76,7 +76,7 @@ flowchart TD
 
 ## 2. 🛡️ Casco y presión en profundidad
 
-### Por  qué aumenta la presión
+### Por qué aumenta la presión
 
 Cada metro de agua sobre la nave añade peso encima. Por eso la presión crece de
 forma continua con la profundidad: aproximadamente una atmósfera adicional cada

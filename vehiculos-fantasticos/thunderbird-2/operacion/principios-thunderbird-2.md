@@ -5,8 +5,8 @@
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
 Documento educativo y de divulgación. Aquí está el corazón del curso: la física
-de llevar carga y por  qué un transporte pesado real no es tan fácil como en las
-películas. Explica que si sería posible, que no, y sobre todo por  qué.
+de llevar carga y por qué un transporte pesado real no es tan fácil como en las
+películas. Explica que si sería posible, que no, y sobre todo por qué.
 
 ## La fracción de carga útil
 

@@ -57,7 +57,7 @@ espacio, que suenan a ficción pero nacen de matematicas serias.
 - **Exploración pacífica**: el foco en descubrir, mapear y estudiar mundos.
 - **Diálogo con la ciencia**: ideas de ficción que empujan preguntas reales.
 
-## Por  qué sigue fascinando
+## Por qué sigue fascinando
 
 La nave de exploración representa un deseo humano muy antiguo: mirar el cielo y
 querer ir más allá. Aunque la física pone límites duros, imaginar esos viajes

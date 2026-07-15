@@ -60,7 +60,7 @@ flowchart TD
 - Resolver situaciones imposibles con una salida rápida.
 
 En cambio, para este curso sirve como laboratorio: cada rasgo llamativo nos
-deja preguntar si sería posible y por  qué.
+deja preguntar si sería posible y por qué.
 
 ---
 

@@ -4,10 +4,10 @@
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Documento educativo y de divulgación. Aquí está el corazón del curso: por  qué
-llegar al espacio exige velocidad orbital lateral, por  qué ayudan las etapas y
+Documento educativo y de divulgación. Aquí está el corazón del curso: por qué
+llegar al espacio exige velocidad orbital lateral, por qué ayudan las etapas y
 que dice la ecuación del cohete sobre el combustible. Explica que si sería
-posible, que no, y sobre todo por  qué.
+posible, que no, y sobre todo por qué.
 
 ## Llegar a órbita no es solo subir
 
@@ -31,7 +31,7 @@ que cuesta de verdad.
   rápido abajo desperdicia energía y castiga la estructura. Por eso se sube con
   cuidado hasta que el aire se hace fino y ya se puede acelerar de verdad.
 
-## Por  qué ayudan las etapas
+## Por qué ayudan las etapas
 
 Un cohete gasta su propelente muy deprisa, y los tanques que lo contenian quedan
 vacíos. Seguir cargando esos tanques vacíos significa acelerar peso muerto que no
@@ -52,8 +52,8 @@ proporcional, sino **exponencial**.
 - Cada kilo de estructura o carga obliga a llevar aún más propelente para moverlo.
 
 Por eso los cohetes reales son casi por completo combustible, con una fracción
-mínima de carga útil. La ecuación del cohete explica de un plumazo por  qué llegar
-a órbita es tan caro y por  qué las etapas son casi obligatorias.
+mínima de carga útil. La ecuación del cohete explica de un plumazo por qué llegar
+a órbita es tan caro y por qué las etapas son casi obligatorias.
 
 ## Que si y que no
 

@@ -156,7 +156,7 @@ flowchart TD
 Nota de seguridad: si la presión de aire cae bajo el mínimo, el **freno de
 muelle** se aplica solo y detiene el camión; es un diseño a prueba de fallos.
 
-### Por  qué el freno de motor y el retarder importan tanto
+### Por qué el freno de motor y el retarder importan tanto
 
 En una bajada larga, usar solo el freno de servicio recalienta las zapatas y
 puede provocar **fading** (pérdida de frenado por calor). El freno de motor y el

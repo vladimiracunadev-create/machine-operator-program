@@ -21,11 +21,11 @@
 Al terminar este curso deberias poder:
 
 - Explicar la aerodinámica básica de un caza: empuje, sustentación y estabilidad.
-- Razonar por  qué un cuerpo humanoide es aerodinamicamente pésimo en vuelo.
+- Razonar por qué un cuerpo humanoide es aerodinamicamente pésimo en vuelo.
 - Analizar cómo se desplaza el centro de masa al cambiar de forma.
 - Describir mecanismos, actuadores y grados de libertad de una transformación.
 - Comprender las cargas estructurales y el problema de la masa y las juntas.
-- Distinguir que partes serían realizables hoy y cuales no, y por  qué.
+- Distinguir que partes serían realizables hoy y cuales no, y por qué.
 - Traducir todo lo anterior en variables de un simulador educativo.
 
 ---
@@ -52,7 +52,7 @@ flowchart TD
 | 2 | 📋 Características | Que es, los tres modos y para que sirve cada uno. | [Abrir](operacion/caracteristicas-caza-transformable.md) |
 | 3 | 🔧 Sistemas mecánicos | Mecanismos de transformación frente a la física real. | [Abrir](operacion/sistemas-mecanicos-caza-transformable.md) |
 | 4 | 🎛️ Mandos | Puesto de mando, controles y cambio de modo. | [Abrir](mandos/manual-mandos-caza-transformable.md) |
-| 5 | 🧪 Principios | Que si, que no y por  qué; ficción frente a realidad. | [Abrir](operacion/principios-caza-transformable.md) |
+| 5 | 🧪 Principios | Que si, que no y por qué; ficción frente a realidad. | [Abrir](operacion/principios-caza-transformable.md) |
 | 6 | 🌍 Entornos | Aire, suelo y espacio; como cambia la operación. | [Abrir](operacion/entornos-caza-transformable.md) |
 | 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción, no ley real. | [Abrir](reglamentos/reglas-universo-caza-transformable.md) |
 | 8 | 🎮 Simulación | Estados, transiciones y variables del simulador. | [Abrir](simulacion/diseno-simulador-caza-transformable.md) |

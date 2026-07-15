@@ -8,7 +8,7 @@
 
 > Curso de análisis educativo de ciencia ficción inspirado en el estilo
 > "Star Wars". Estudiamos un carguero rápido genérico para entender la física
-> real de la relación empuje/masa, la maniobra en el vacío y por  qué el "salto
+> real de la relación empuje/masa, la maniobra en el vacío y por qué el "salto
 > al hiperespacio" rompe la física que conocemos hoy.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
@@ -20,11 +20,11 @@
 
 Al terminar este curso deberias poder:
 
-- Explicar la relación empuje/masa y por  qué decide la aceleración de una nave.
-- Entender que un carguero cargado acelera menos que uno vacío, y por  qué.
+- Explicar la relación empuje/masa y por qué decide la aceleración de una nave.
+- Entender que un carguero cargado acelera menos que uno vacío, y por qué.
 - Describir cómo se maniobra en el vacío con propulsión y propulsores de control.
 - Razonar sobre delta-v y el presupuesto de maniobra de un carguero.
-- Distinguir por  qué un "salto" instantáneo entre estrellas rompe la física real.
+- Distinguir por qué un "salto" instantáneo entre estrellas rompe la física real.
 - Traducir todo lo anterior a variables de un simulador educativo.
 
 ---
@@ -55,7 +55,7 @@ flowchart TD
 | 2 | 📋 Características | Que es un carguero rápido genérico y para que sirve. | [Abrir](operacion/caracteristicas-halcon-milenario.md) |
 | 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-halcon-milenario.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-halcon-milenario.md) |
-| 5 | 🧪 Principios y operación | Empuje, masa y maniobra: que si, que no y por  qué. | [Abrir](operacion/principios-halcon-milenario.md) |
+| 5 | 🧪 Principios y operación | Empuje, masa y maniobra: que si, que no y por qué. | [Abrir](operacion/principios-halcon-milenario.md) |
 | 6 | 🌍 Entornos | El vacío, órbitas, atmósferas y hangares. | [Abrir](operacion/entornos-halcon-milenario.md) |
 | 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-halcon-milenario.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-halcon-milenario.md) |

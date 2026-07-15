@@ -20,7 +20,7 @@ Al terminar este curso deberias poder:
 
 - Explicar como despega, órbita y reingresa un transbordador reutilizable.
 - Identificar el orbitador, los propulsores, el tanque externo y el escudo térmico.
-- Comprender por  qué la reentrada es un planeo sin motor y cómo se controla.
+- Comprender por qué la reentrada es un planeo sin motor y cómo se controla.
 - Reconocer los mandos e instrumentos de la cabina del orbitador.
 - Entender el papel del escudo térmico frente al calor de la reentrada.
 - Conocer el marco de tratados espaciales que aplica a la actividad espacial.

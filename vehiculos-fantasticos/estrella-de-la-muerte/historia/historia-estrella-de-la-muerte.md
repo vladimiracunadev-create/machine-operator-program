@@ -48,7 +48,7 @@ calor.
 | 2000-2020 | Habitación continua en el espacio | Confirma la exigencia de energía y calor. |
 | 2020-hoy | Divulgación de límites físicos | Separa el espectáculo de la realidad. |
 
-## Por  qué la ficción eligió la estación gigante
+## Por qué la ficción eligió la estación gigante
 
 Una estación del tamaño de una luna es un símbolo perfecto: transmite un poder
 que parece imposible de resistir y sirve de escenario colosal. La ficción
@@ -58,7 +58,7 @@ legítima que este curso respeta y analiza.
 ## Que aprenderemos de todo esto
 
 - Que conceptos de física real evoca la estación aunque los exagere.
-- Por  qué a esa escala aparecen gravedad propia, apetito de energía y calor.
+- Por qué a esa escala aparecen gravedad propia, apetito de energía y calor.
 - Cómo sería una estacion-mundo si tuviera que respetar la física real.
 
 ## Fuentes

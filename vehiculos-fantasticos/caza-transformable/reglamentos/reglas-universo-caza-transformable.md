@@ -54,7 +54,7 @@ resistencia) siguen contando, lo que mantiene la escala humana de la historia.
 
 ---
 
-## Por  qué estas reglas ayudan a aprender
+## Por qué estas reglas ayudan a aprender
 
 Al fijar reglas coherentes, la ficción se acerca a la física: si transformar
 cuesta energía y tiempo, el relato empieza a comportarse como un problema real de

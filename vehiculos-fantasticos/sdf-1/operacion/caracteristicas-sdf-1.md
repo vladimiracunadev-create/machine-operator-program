@@ -60,7 +60,7 @@ flowchart TD
 - Permitir historias dentro de la nave, como una ciudad en movimiento.
 
 En cambio, para este curso sirve como laboratorio: cada rasgo colosal nos deja
-preguntar si sería posible y por  qué.
+preguntar si sería posible y por qué.
 
 ---
 

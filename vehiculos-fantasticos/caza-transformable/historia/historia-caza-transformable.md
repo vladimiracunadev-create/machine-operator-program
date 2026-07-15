@@ -27,7 +27,7 @@ la del avión veloz que domina el cielo. Unirlas en un solo objeto que cambia de
 forma resultó atractiva porque promete lo mejor de ambos mundos: la velocidad de
 un caza y la versatilidad de un cuerpo con brazos y piernas.
 
-## Por  qué engancho tanto
+## Por qué engancho tanto
 
 - **Narrativa**: un vehículo que se transforma da giros dramáticos a la acción.
 - **Diseño**: el reto de "encajar" un avión dentro de un robot es memorable.
@@ -55,8 +55,8 @@ para aprender aerodinámica, mecanismos y estructuras.
 
 ## Que estudiaremos con este ejemplo
 
-- Cómo vuela un caza y por  qué su forma importa tanto.
-- Por  qué un humanoide en el aire es un mal proyecto aerodinámico.
+- Cómo vuela un caza y por qué su forma importa tanto.
+- Por qué un humanoide en el aire es un mal proyecto aerodinámico.
 - Como el centro de masa se mueve al reconfigurar la estructura.
 - Que actuadores y juntas harían falta y que problemas traen.
 

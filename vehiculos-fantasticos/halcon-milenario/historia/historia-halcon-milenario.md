@@ -47,7 +47,7 @@ más tiempo para alcanzar la misma velocidad.
 | 1980-2000 | Estudio de transferencias orbitales | Muestra cómo se viaja de verdad. |
 | 2000-hoy | Divulgación de física del espacio | Separa el espectáculo de la realidad. |
 
-## Por  qué la ficción eligió el carguero veloz
+## Por qué la ficción eligió el carguero veloz
 
 Un carguero destartalado pero rápido es un gran vehículo para contar historias:
 tiene personalidad, siempre parece a punto de fallar y permite fugas de último
@@ -59,8 +59,8 @@ este curso respeta y analiza.
 ## Que aprenderemos de todo esto
 
 - Que conceptos de física real evoca la nave aunque los exagere.
-- Por  qué la relación empuje/masa decide de verdad la aceleración.
-- Por  qué un "salto" instantáneo entre estrellas rompe las leyes conocidas.
+- Por qué la relación empuje/masa decide de verdad la aceleración.
+- Por qué un "salto" instantáneo entre estrellas rompe las leyes conocidas.
 
 ## Fuentes
 

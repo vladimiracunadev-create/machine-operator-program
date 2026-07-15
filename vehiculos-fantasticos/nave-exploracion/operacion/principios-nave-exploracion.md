@@ -5,7 +5,7 @@
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
 Este es el corazón físico del curso. Aquí separamos con claridad que sería
-posible, que no, y por  qué. La idea guía es un principio central de la
+posible, que no, y por qué. La idea guía es un principio central de la
 relatividad: la velocidad de la luz en el vacío es un límite absoluto para
 mover materia e información.
 
@@ -41,9 +41,9 @@ mucho tiempo. Y luego hay que frenar, lo que vuelve a duplicar el gasto. Este
 muro energético es la razón principal por la que el viaje interestelar rápido
 sigue siendo tan difícil.
 
-## Que si, que no y por  qué
+## Que si, que no y por qué
 
-| Situación | Posible | Por  qué |
+| Situación | Posible | Por qué |
 | --- | --- | --- |
 | Viajar a un pequeño porcentaje de la luz | Si, en teoría | Respeta la física; el reto es la energía. |
 | Acercarse mucho a la velocidad de la luz | Muy difícil | La energía requerida crece sin freno. |
@@ -68,7 +68,7 @@ siglos a velocidad modesta: nacen, viven y mueren varias generaciones a bordo,
 y solo los descendientes lejanos llegan al destino. Es lenta y exigente, pero no
 rompe ninguna ley física. Es la alternativa más honesta al viaje interestelar.
 
-## Por  qué superar la luz rompe la causalidad
+## Por qué superar la luz rompe la causalidad
 
 Hay una razón profunda para el límite. Según la relatividad, si algo viajara más
 rápido que la luz, distintos observadores podrían discrepar sobre el orden de

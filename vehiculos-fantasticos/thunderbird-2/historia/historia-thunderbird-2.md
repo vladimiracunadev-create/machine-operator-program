@@ -46,7 +46,7 @@ es real, aunque sin las cifras exageradas de la ficción.
 | 1970-2000 | Aviones de carga y portacontenedores | Ejemplos reales de carga útil enorme. |
 | 2000-hoy | Divulgación de logística y estructura | Separa el espectáculo de la realidad. |
 
-## Por  qué la ficción eligió el vehículo modular
+## Por qué la ficción eligió el vehículo modular
 
 Contar una historia con un vehículo que trae "justo lo necesario" es fácil de
 seguir: hay preparación, llegada y solución. Un transporte real necesitaria
@@ -57,7 +57,7 @@ decisión artística legítima que este curso respeta y analiza.
 ## Que aprenderemos de todo esto
 
 - Que conceptos de carga real evoca la nave aunque los exagere.
-- Que licencias creativas ignoran el peso y la estructura, y por  qué.
+- Que licencias creativas ignoran el peso y la estructura, y por qué.
 - Cómo sería un transporte modular si tuviera que obedecer la física de verdad.
 
 ## Fuentes

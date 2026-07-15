@@ -6,8 +6,8 @@
 
 Documento educativo y de divulgación. Aquí está el corazón del curso: la física
 de la información, la energía y el estado cuántico aplicada al teletransporte, y
-por  qué el traslado instantáneo de las historias no sería transporte de materia.
-Explica que si sería posible, que no, y sobre todo por  qué.
+por qué el traslado instantáneo de las historias no sería transporte de materia.
+Explica que si sería posible, que no, y sobre todo por qué.
 
 ## Información frente a materia
 
@@ -49,7 +49,7 @@ rápido que la luz.
 La física cuántica prohibe copiar un estado cuántico desconocido: es el teorema
 de no clonación. Por eso la teleportación cuántica no deja dos copias; al
 transferir el estado al destino, el estado del origen se destruye. Es una
-transferencia, no una duplicación. Este resultado también explica por  qué no se
+transferencia, no una duplicación. Este resultado también explica por qué no se
 puede fabricar un duplicado perfecto e independiente de un objeto cuántico.
 
 ## Que si y que no

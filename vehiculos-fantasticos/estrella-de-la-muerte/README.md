@@ -20,9 +20,9 @@
 
 Al terminar este curso deberias poder:
 
-- Explicar por  qué un cuerpo del tamaño de una luna tendría gravedad propia.
-- Entender que es un presupuesto de energía y por  qué limita lo que se puede hacer.
-- Describir por  qué disipar calor en el vacío es un reto a gran escala.
+- Explicar por qué un cuerpo del tamaño de una luna tendría gravedad propia.
+- Entender que es un presupuesto de energía y por qué limita lo que se puede hacer.
+- Describir por qué disipar calor en el vacío es un reto a gran escala.
 - Razonar sobre la logística de sostener a millones de personas en una estación.
 - Distinguir que evoca la ficción que sería real y que rompe la física.
 - Traducir todo lo anterior a variables de un simulador educativo.
@@ -53,7 +53,7 @@ flowchart TD
 | 2 | 📋 Características | Que es una estación del tamaño de una luna. | [Abrir](operacion/caracteristicas-estrella-de-la-muerte.md) |
 | 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-estrella-de-la-muerte.md) |
 | 4 | 🎛️ Mandos e instrumentos | Centro de control conceptual y consolas. | [Abrir](mandos/manual-mandos-estrella-de-la-muerte.md) |
-| 5 | 🧪 Principios y operación | Gravedad, energía y calor: que si, que no y por  qué. | [Abrir](operacion/principios-estrella-de-la-muerte.md) |
+| 5 | 🧪 Principios y operación | Gravedad, energía y calor: que si, que no y por qué. | [Abrir](operacion/principios-estrella-de-la-muerte.md) |
 | 6 | 🌍 Entornos | El vacío, órbitas y el entorno de un sistema estelar. | [Abrir](operacion/entornos-estrella-de-la-muerte.md) |
 | 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-estrella-de-la-muerte.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-estrella-de-la-muerte.md) |

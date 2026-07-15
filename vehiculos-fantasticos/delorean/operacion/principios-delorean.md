@@ -5,7 +5,7 @@
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
 Documento general y educativo. Aquí decidimos, concepto por concepto, que sería
-posible según la física que hoy conocemos, que no lo sería y por  qué. El objetivo
+posible según la física que hoy conocemos, que no lo sería y por qué. El objetivo
 no es negar la diversión de la ficción, sino entender donde termina la ciencia y
 empieza el guion.
 
@@ -28,7 +28,7 @@ empieza el guion.
 
 ## ✅ Que sería posible y que no
 
-| Concepto | Posible hoy | Por  qué |
+| Concepto | Posible hoy | Por qué |
 | --- | --- | --- |
 | Acelerar un vehículo | Si | Es física de movimiento ordinaria. |
 | Dilatación temporal medible | Si | Comprobada con relojes de precisión y partículas. |

@@ -26,7 +26,7 @@ solo un marco narrativo educativo.
 5. **La información viaja con retraso**: salvo el impulso, todo lo demás respeta
    que las señales tardan en llegar.
 
-## Por  qué sirven estas reglas
+## Por qué sirven estas reglas
 
 Un universo de ficción resulta creíble cuando respeta sus propias reglas. Si la
 nave pudiera hacer cualquier cosa sin coste, no habría tensión ni aprendizaje.

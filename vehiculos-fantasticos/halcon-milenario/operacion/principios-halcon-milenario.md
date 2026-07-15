@@ -5,9 +5,9 @@
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
 Documento educativo y de divulgación. Aquí está el corazón del curso: la
-relación entre empuje, masa y aceleración, y por  qué el "salto" instantáneo
+relación entre empuje, masa y aceleración, y por qué el "salto" instantáneo
 entre estrellas rompe la física que conocemos. Explica que si sería posible, que
-no, y sobre todo por  qué.
+no, y sobre todo por qué.
 
 ## Empuje, masa y aceleración
 
@@ -32,7 +32,7 @@ idea explica casi todo el comportamiento de un carguero:
 - **Tercera ley (acción y reacción)**: para moverse hay que expulsar masa hacia
   el otro lado. Sin propelente que lanzar, no hay empuje.
 
-## Por  qué la carga no viaja gratis
+## Por qué la carga no viaja gratis
 
 Cada tonelada extra en la bodega tiene dos costes. Primero, reduce la
 aceleración con los mismos motores. Segundo, para lograr el mismo cambio de
@@ -49,7 +49,7 @@ eso se llama delta-v. Cada maniobra y cada carga extra gastan parte de ese
 presupuesto. Cuando se agota, la nave ya no puede acelerar, frenar ni cambiar de
 rumbo, aunque le sobre energía eléctrica.
 
-## Por  qué el "salto a la luz" rompe la física
+## Por qué el "salto a la luz" rompe la física
 
 El hiperimpulso es la licencia más grande de la ficción. En la física que
 conocemos hoy, ningún objeto con masa puede alcanzar la velocidad de la luz:

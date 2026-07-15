@@ -60,7 +60,7 @@ flowchart TD
 - Representar el ingenio de reparar y mejorar una máquina veterana.
 
 En cambio, para este curso sirve como laboratorio: cada rasgo llamativo nos deja
-preguntar si sería posible y por  qué.
+preguntar si sería posible y por qué.
 
 ---
 

@@ -20,7 +20,7 @@ Al terminar este curso deberias poder:
 - Explicar como una grúa torre iza cargas en altura manteniendo el equilibrio.
 - Identificar sus sistemas mecánicos (mástil, pluma, contrapluma, carro, giro).
 - Reconocer todos los mandos e instrumentos y su función.
-- Comprender la física del momento de carga y por  qué el radio limita el peso.
+- Comprender la física del momento de carga y por qué el radio limita el peso.
 - Conocer el marco de seguridad laboral chileno aplicable al izaje fijo.
 - Traducir todo lo anterior en variables de un simulador educativo.
 

@@ -48,13 +48,13 @@ llegaria decadas después.
 - **Exploración científica**: el mar como objeto de estudio, no solo de combate.
 - **Renovación del aire**: conciencia de que respirar bajo el agua es el límite.
 
-## Por  qué sigue vigente
+## Por qué sigue vigente
 
 La nave de Verne popularizo la idea de que el ser humano podía habitar el
 océano profundo, no solo cruzarlo por la superficie. Inspiro a ingenieros e
 inventores reales y dio nombre a submarinos y vehículos posteriores. Para este
 curso es una herramienta ideal: cada capítulo de la novela sugiere un problema
-físico concreto, desde por  qué flota un casco de metal hasta cuanto aire cabe a
+físico concreto, desde por qué flota un casco de metal hasta cuanto aire cabe a
 bordo.
 
 ## Fuentes

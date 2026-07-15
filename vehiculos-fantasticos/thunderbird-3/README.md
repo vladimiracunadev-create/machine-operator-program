@@ -8,8 +8,8 @@
 
 > Curso de análisis educativo de ciencia ficción inspirado en el estilo
 > "Thunderbirds". Estudiamos un cohete de rescate genérico para entender la
-> física real del ascenso al espacio: por  qué llegar a órbita no es solo subir,
-> sino alcanzar una enorme velocidad lateral, y por  qué el combustible manda.
+> física real del ascenso al espacio: por qué llegar a órbita no es solo subir,
+> sino alcanzar una enorme velocidad lateral, y por qué el combustible manda.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
 ![Módulos](https://img.shields.io/badge/modulos-9-blue)
@@ -20,9 +20,9 @@
 
 Al terminar este curso deberias poder:
 
-- Explicar por  qué llegar al espacio exige velocidad orbital lateral, no solo altura.
+- Explicar por qué llegar al espacio exige velocidad orbital lateral, no solo altura.
 - Entender el papel de la gravedad y del aire durante el ascenso de un cohete.
-- Describir por  qué conviene soltar masa vacía con cohetes de varias etapas.
+- Describir por qué conviene soltar masa vacía con cohetes de varias etapas.
 - Razonar sobre la ecuación del cohete y el crecimiento exponencial del combustible.
 - Distinguir que evoca la ficción que sería real y que rompe la física.
 - Traducir todo lo anterior a variables de un simulador educativo.

@@ -20,9 +20,9 @@
 
 Al terminar este curso deberias poder:
 
-- Explicar el principio de Arquímedes y por  qué un casco de acero puede flotar.
+- Explicar el principio de Arquímedes y por qué un casco de acero puede flotar.
 - Describir como los tanques de lastre permiten sumergir y emerger la nave.
-- Entender por  qué la presión crece con la profundidad y como afecta al casco.
+- Entender por qué la presión crece con la profundidad y como afecta al casco.
 - Razonar sobre autonomía: energía, aire respirable y agua a bordo.
 - Distinguir que imagino Verne que hoy es real y que sigue siendo ficción.
 - Traducir la flotabilidad y la presión en variables de un simulador educativo.
@@ -55,7 +55,7 @@ flowchart TD
 | 2 | 📋 Características | Que es el Nautilus, forma, tamaño y capacidades. | [Abrir](operacion/caracteristicas-nautilus.md) |
 | 3 | 🔧 Sistemas mecánicos | Tecnología imaginada por Verne frente a la física real. | [Abrir](operacion/sistemas-mecanicos-nautilus.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puesto de mando, controles e instrumentos de a bordo. | [Abrir](mandos/manual-mandos-nautilus.md) |
-| 5 | 🧪 Principios y operación | Que si, que no y por  qué, según la física. | [Abrir](operacion/principios-nautilus.md) |
+| 5 | 🧪 Principios y operación | Que si, que no y por qué, según la física. | [Abrir](operacion/principios-nautilus.md) |
 | 6 | 🌍 Entornos | Superficie, aguas medias y grandes fondos oceánicos. | [Abrir](operacion/entornos-nautilus.md) |
 | 7 | ⚖️ Reglas del universo | Las leyes internas de la novela, no ley real. | [Abrir](reglamentos/reglas-universo-nautilus.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo, estados y modo ciencia/ficción. | [Abrir](simulacion/diseno-simulador-nautilus.md) |

@@ -9,7 +9,7 @@
 > Curso de análisis educativo de ciencia ficción inspirado en el estilo
 > "Robotech". Estudiamos una nave-fortaleza gigante genérica para entender la
 > física real de la escala: la ley del cubo-cuadrado, la estructura, la masa y
-> por  qué las naves enormes son un problema serio de ingeniería.
+> por qué las naves enormes son un problema serio de ingeniería.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
 ![Módulos](https://img.shields.io/badge/modulos-9-blue)
@@ -20,8 +20,8 @@
 
 Al terminar este curso deberias poder:
 
-- Explicar la ley del cubo-cuadrado y por  qué la escala cambia todo.
-- Entender por  qué la masa crece mucho más rápido que la superficie al agrandar.
+- Explicar la ley del cubo-cuadrado y por qué la escala cambia todo.
+- Entender por qué la masa crece mucho más rápido que la superficie al agrandar.
 - Describir los retos estructurales de una nave del tamaño de una ciudad.
 - Razonar sobre la energía y el empuje necesarios para mover tanta masa.
 - Distinguir que evoca la ficción que sería real y que rompe la ingeniería.
@@ -53,7 +53,7 @@ flowchart TD
 | 2 | 📋 Características | Que es una nave-fortaleza gigante y para que sirve. | [Abrir](operacion/caracteristicas-sdf-1.md) |
 | 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-sdf-1.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puente de mando conceptual y controles. | [Abrir](mandos/manual-mandos-sdf-1.md) |
-| 5 | 🧪 Principios y operación | La ley del cubo-cuadrado: que si, que no y por  qué. | [Abrir](operacion/principios-sdf-1.md) |
+| 5 | 🧪 Principios y operación | La ley del cubo-cuadrado: que si, que no y por qué. | [Abrir](operacion/principios-sdf-1.md) |
 | 6 | 🌍 Entornos | El vacío, órbitas, atmósferas y astilleros. | [Abrir](operacion/entornos-sdf-1.md) |
 | 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-sdf-1.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-sdf-1.md) |

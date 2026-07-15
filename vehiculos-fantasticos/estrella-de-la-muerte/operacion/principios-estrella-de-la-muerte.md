@@ -7,7 +7,7 @@
 Documento educativo y de divulgación. Aquí está el corazón del curso: la gravedad
 propia de un cuerpo del tamaño de una luna, el presupuesto de energía, la
 disipación de calor y la logística. Explica que si sería posible, que no, y sobre
-todo por  qué.
+todo por qué.
 
 ## Gravedad propia: cuando una nave se vuelve un mundo
 

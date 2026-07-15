@@ -46,7 +46,7 @@ estado, no materia, y por eso su nombre confunde a mucha gente.
 | 1990-2000 | Descripción de la teleportación cuántica | Aclara que se transfiere estado, no objeto. |
 | 2000-hoy | Experimentos de estados cuánticos | Confirman el límite: información, no materia. |
 
-## Por  qué la ficción eligió el teletransporte
+## Por qué la ficción eligió el teletransporte
 
 Contar una historia sin tiempos muertos de viaje es cómodo: el personaje
 aparece donde hace falta y la acción sigue. Además evoca lo maravilloso, lo

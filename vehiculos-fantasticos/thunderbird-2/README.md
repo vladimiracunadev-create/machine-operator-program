@@ -9,7 +9,7 @@
 > Curso de análisis educativo de ciencia ficción inspirado en el estilo
 > "Thunderbirds". Estudiamos un transporte pesado modular genérico para
 > entender la física real de llevar carga: cuanta masa útil puede mover un
-> vehículo, por  qué los módulos intercambiables son tan potentes y que precio
+> vehículo, por qué los módulos intercambiables son tan potentes y que precio
 > paga la estructura por sostener tanto peso.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)

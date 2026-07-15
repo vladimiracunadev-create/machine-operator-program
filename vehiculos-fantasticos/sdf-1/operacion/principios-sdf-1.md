@@ -5,8 +5,8 @@
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
 Documento educativo y de divulgación. Aquí está el corazón del curso: la ley del
-cubo-cuadrado y por  qué las naves gigantes son un problema de ingeniería real.
-Explica que si sería posible, que no, y sobre todo por  qué.
+cubo-cuadrado y por qué las naves gigantes son un problema de ingeniería real.
+Explica que si sería posible, que no, y sobre todo por qué.
 
 ## La ley del cubo-cuadrado
 
@@ -21,7 +21,7 @@ soporta depende del volumen, agrandar mucho un objeto hace que su propio peso
 supere lo que su estructura puede aguantar. Por eso no basta con "hacer lo mismo
 más grande": a cierta escala, la física se vuelve el enemigo.
 
-## Por  qué la masa lo cambia todo
+## Por qué la masa lo cambia todo
 
 - **Aceleración pequeña**: la aceleración es el empuje dividido por la masa. Una
   nave colosal, aunque tenga motores enormes, acelera muy despacio.

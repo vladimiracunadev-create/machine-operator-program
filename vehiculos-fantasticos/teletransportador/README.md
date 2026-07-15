@@ -22,7 +22,7 @@
 Al terminar este curso deberias poder:
 
 - Distinguir entre mover materia y mover la información que describe un objeto.
-- Estimar por  qué reconstruir un cuerpo exigiria energía y datos astronómicos.
+- Estimar por qué reconstruir un cuerpo exigiria energía y datos astronómicos.
 - Explicar el problema del duplicado: copiar un patrón deja dos, no uno.
 - Entender que la teleportación cuántica real transfiere estados, no objetos.
 - Razonar el teorema de no clonación y el límite de la velocidad de la luz.
@@ -54,7 +54,7 @@ flowchart TD
 | 2 | 📋 Características | Que es un teletransportador genérico y para que sirve. | [Abrir](operacion/caracteristicas-teletransportador.md) |
 | 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-teletransportador.md) |
 | 4 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-teletransportador.md) |
-| 5 | 🧪 Principios y operación | Información, energía y estado: que si, que no y por  qué. | [Abrir](operacion/principios-teletransportador.md) |
+| 5 | 🧪 Principios y operación | Información, energía y estado: que si, que no y por qué. | [Abrir](operacion/principios-teletransportador.md) |
 | 6 | 🌍 Entornos | Donde y cómo se usaria el teletransporte. | [Abrir](operacion/entornos-teletransportador.md) |
 | 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-teletransportador.md) |
 | 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-teletransportador.md) |

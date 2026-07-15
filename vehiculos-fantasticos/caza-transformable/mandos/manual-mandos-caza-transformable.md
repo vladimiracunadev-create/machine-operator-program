@@ -36,7 +36,7 @@ humanoide.
 
 ## Instrumentos del tablero
 
-| Instrumento | Que informa | Por  qué importa |
+| Instrumento | Que informa | Por qué importa |
 | --- | --- | --- |
 | Indicador de modo | Forma actual y transición | Evita cambiar de modo en mal momento. |
 | Horizonte artificial | Actitud respecto al suelo | Clave en modo caza e intermedio. |

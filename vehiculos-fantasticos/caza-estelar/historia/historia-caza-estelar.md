@@ -44,7 +44,7 @@ que sirvan donde no hay aire, y no hay freno automático al soltar el acelerador
 | 1980-2000 | Estudio de mecánica orbital aplicada | Muestra cómo se maniobra de verdad. |
 | 2000-hoy | Divulgación de física del espacio | Separa el espectáculo de la realidad. |
 
-## Por  qué la ficción eligió el dogfight
+## Por qué la ficción eligió el dogfight
 
 Contar una historia con duelos cerrados es fácil de seguir: hay persecución,
 tensión y giros dramáticos. Un combate espacial realista ocurriria a enormes
@@ -55,7 +55,7 @@ decisión artística legítima que este curso respeta y analiza.
 ## Que aprenderemos de todo esto
 
 - Que conceptos de física real evoca la nave aunque los exagere.
-- Que licencias creativas rompen las leyes de Newton y por  qué.
+- Que licencias creativas rompen las leyes de Newton y por qué.
 - Cómo sería un caza estelar si tuviera que obedecer la física de verdad.
 
 ## Fuentes

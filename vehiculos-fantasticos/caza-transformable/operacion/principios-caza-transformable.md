@@ -5,7 +5,7 @@
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
 Este módulo va al corazón del curso: que principios físicos serían posibles, que
-no, y por  qué. Usamos el concepto de caza transformable para entender
+no, y por qué. Usamos el concepto de caza transformable para entender
 aerodinámica, estabilidad y el costo real de cambiar de forma.
 
 ---
@@ -24,7 +24,7 @@ y coloca la sustentación donde toca para volar estable y maniobrar.
 
 ---
 
-## 🤖 Por  qué un humanoide es un mal avión
+## 🤖 Por qué un humanoide es un mal avión
 
 Aquí está la lección central. Un cuerpo humanoide caminando en la atmósfera es
 aerodinamicamente pésimo por varias razones:

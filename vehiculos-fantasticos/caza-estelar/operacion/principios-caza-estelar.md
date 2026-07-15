@@ -5,8 +5,8 @@
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
 Documento educativo y de divulgación. Aquí está el corazón del curso: las leyes
-de Newton aplicadas al vacío y por  qué el combate espacial real no se parece al
-de las películas. Explica que si sería posible, que no, y sobre todo por  qué.
+de Newton aplicadas al vacío y por qué el combate espacial real no se parece al
+de las películas. Explica que si sería posible, que no, y sobre todo por qué.
 
 ## Las leyes de Newton en el vacío
 
@@ -20,7 +20,7 @@ de las películas. Explica que si sería posible, que no, y sobre todo por  qué
   el otro lado. El motor lanza propelente atrás y la nave avanza. Sin masa que
   expulsar, no hay empuje.
 
-## Por  qué no hay virajes como un avión
+## Por qué no hay virajes como un avión
 
 Un avión gira porque sus alas empujan el aire y el aire lo empuja a el; además
 inclina el giro apoyandose en la atmósfera (viraje bancado). En el vacío no hay

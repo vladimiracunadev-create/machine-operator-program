@@ -4,7 +4,7 @@
 
 Este módulo abre la grúa por dentro y es el corazón del curso. Explica la
 mecánica del izaje: cómo se sostiene la carga, como se mantiene la estabilidad y
-por  qué existe un límite de peso para cada posición. Es la base técnica para
+por qué existe un límite de peso para cada posición. Es la base técnica para
 entender los mandos (Módulo 4) y la física de la operación (Módulo 5).
 
 ```mermaid
@@ -171,7 +171,7 @@ real el peso izado y el radio, calcula el momento y lo compara con el máximo de
 la tabla. Avisa al acercarse al límite y corta los movimientos que agravan la
 condición antes de llegar al vuelco.
 
-### Por  qué al aumentar el radio baja la capacidad
+### Por qué al aumentar el radio baja la capacidad
 
 El momento de vuelco es **peso por radio**. La grúa tiene un momento máximo que
 puede resistir (fijado por su contrapeso y su base). Si el radio aumenta, para no
