@@ -4,8 +4,8 @@
 
 **Una biblioteca de cursos técnicos para pilotar, conducir y navegar cualquier máquina.**
 
-[![Validar documentación](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/validar-documentacion.yml/badge.svg)](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/validar-documentacion.yml)
-[![Verificar enlaces](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/enlaces.yml/badge.svg)](https://github.com/vladimiracunadev-create/multi-piloto-navegacion/actions/workflows/enlaces.yml)
+[![Validar documentación](https://github.com/vladimiracunadev-create/machine-operator-program/actions/workflows/validar-documentacion.yml/badge.svg)](https://github.com/vladimiracunadev-create/machine-operator-program/actions/workflows/validar-documentacion.yml)
+[![Verificar enlaces](https://github.com/vladimiracunadev-create/machine-operator-program/actions/workflows/enlaces.yml/badge.svg)](https://github.com/vladimiracunadev-create/machine-operator-program/actions/workflows/enlaces.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Vehículos](https://img.shields.io/badge/vehiculos-29-blue)
 ![Ficción](https://img.shields.io/badge/naves%20de%20ficcion-12-purple)
@@ -33,9 +33,9 @@ coherente, educativa y segura.
 flowchart TD
     Repo[🎮 Multisimulador] --> Docs[📖 docs/<br/>visión, metodología, marco legal]
     Repo --> Plant[🧩 plantillas/<br/>modelos reutilizables]
-    Repo --> Veh[🚙 vehículos/<br/>11 cursos]
+    Repo --> Veh[🚙 vehículos/<br/>29 cursos]
     Repo --> Man[📚 manuales/<br/>fuentes públicas]
-    Repo --> Fic[🌌 vehiculos-fantasticos/<br/>naves de ficción]
+    Repo --> Fic[🌌 vehiculos-fantasticos/<br/>12 naves de ficción]
     Veh --> Tierra[🛞 Terrestres]
     Veh --> Riel[🚆 Ferroviarios]
     Veh --> Mar[⚓ Marítimos]
@@ -117,7 +117,7 @@ Cada vehículo es un curso con 9 módulos (ver
 
 Una sección aparte y **claramente separada de los vehículos reales** para explorar
 la ingeniería imaginaria de la ciencia ficción: que principios físicos reales
-evocan, cuales rompen y cómo se simularian. Son obras de ficción de sus
+evocan, cuales rompen y cómo se simularían. Son obras de ficción de sus
 respectivos autores; ver el aviso en el
 [catálogo de naves de ficción](vehiculos-fantasticos/README.md).
 
@@ -203,5 +203,10 @@ proyecto se distribuye bajo licencia [MIT](LICENSE).
 ## 📊 Estado del proyecto
 
 - ✅ Base documental, marco legal y CI en verde.
-- ✅ [🏍️ Motos](vehiculos/motos/README.md): **curso completo** de referencia (9 módulos con diagramas).
-- 🚧 Resto de vehículos: portada de curso, reglamentos y módulos base; en ampliación progresiva.
+- ✅ **Los 41 cursos están completos**: cada uno cumple la
+  [checklist de curso profesional](docs/08-guia-de-estilo-y-curso.md) con sus 9
+  módulos, diagramas, glosario y navegación.
+- 🎓 [🏍️ Motos](vehiculos/motos/README.md) sigue siendo el curso de referencia:
+  es el modelo a imitar al abrir uno nuevo.
+- 🚧 En ampliación: las carpetas `manuales/` de cada curso esperan el registro de
+  fuentes publicas, y no hay todavía ejercicios ni autoevaluación.

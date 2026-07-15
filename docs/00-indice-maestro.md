@@ -23,7 +23,7 @@
 
 ## Vehículos
 
-- `vehiculos/motos` (documentado como ejemplo de referencia)
+- `vehiculos/motos` (curso de referencia: el modelo a imitar al abrir uno nuevo)
 - `vehiculos/automoviles`
 - `vehiculos/formula-1`
 - `vehiculos/buses`

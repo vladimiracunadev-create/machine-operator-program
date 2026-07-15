@@ -7,6 +7,19 @@ y el proyecto usa [Versionado Semántico](https://semver.org/lang/es/).
 
 ## [No publicado]
 
+### Corregido
+
+- Ortografía acentuada en los 443 documentos: el corpus estaba escrito sin tildes
+  ni enes ("documentacion", "vehiculo", "diseno"). Las rutas, los identificadores
+  y el código quedan intactos; los enlaces internos siguen resolviendo.
+- Coherencia del README: el mapa del repositorio decía "11 cursos" cuando hay 29,
+  y el estado del proyecto daba por incompletos 40 de los 41 cursos, que sí
+  cumplen la checklist. Los badges de CI apuntaban al nombre anterior del
+  repositorio (`multi-piloto-navegacion`).
+- El validador de estructura solo comprobaba que existieran las carpetas de cada
+  sección, de modo que una sección vacía pasaba en verde; además la lista de
+  cursos estaba fijada en el código y no detectaba los que sobraban.
+
 ### Añadido
 
 - Seis cursos reales más: 🏎️ Fórmula 1 (reglamento FIA), 🪖 tanques (militar, marco público), 🛗 ascensores (Ley 20.296), 🚀 cohetes lanzadores, 🛬 transbordadores y 🛰️ estación espacial ISS. Total: 29 vehículos reales.

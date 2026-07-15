@@ -4,7 +4,12 @@
 Verifica, sin dependencias externas, que el repositorio documental mantenga su
 forma esperada:
 
-* cada tipo de vehiculo conserva su README y las 7 secciones comunes;
+* la lista de cursos del disco coincide con la esperada, en ambos sentidos: se
+  detecta tanto el curso que falta como el que sobra (un curso nuevo que nadie
+  anadio aqui quedaria fuera de toda validacion sin que el CI se entere);
+* cada curso conserva su README y las 7 secciones comunes, y cada seccion tiene
+  contenido: comprobar solo que exista la carpeta dejaba pasar en verde una
+  seccion vacia;
 * existen las secciones y documentos generales de referencia;
 * todo enlace Markdown interno apunta a un archivo o carpeta que existe.
 
@@ -79,6 +84,11 @@ SECCIONES_VEHICULO = [
     "recursos",
 ]
 
+# Secciones que todavia no se exige poblar. 'manuales/' guarda las fuentes
+# publicas de cada curso y esta pendiente en todos: si se exigiera aqui, el CI
+# quedaria rojo de forma permanente y dejaria de avisar de nada.
+SECCIONES_EN_ESPERA = {"manuales"}
+
 # Carpetas generales que deben existir en la raiz.
 SECCIONES_GENERALES = [
     "docs",
@@ -130,6 +140,23 @@ def existe(rel: str) -> bool:
     return (RAIZ / rel).exists()
 
 
+def cursos_en_disco(raiz_rel: str) -> set[str]:
+    base = RAIZ / raiz_rel
+    if not base.is_dir():
+        return set()
+    return {d.name for d in base.iterdir() if d.is_dir()}
+
+
+def seccion_tiene_contenido(seccion: Path) -> bool:
+    """Una seccion cuenta como poblada si trae algun documento o material.
+
+    El .gitkeep no basta: es justo el marcador de que la seccion sigue vacia.
+    """
+    return any(
+        f.is_file() and f.name != ".gitkeep" for f in seccion.rglob("*")
+    )
+
+
 def validar_estructura(errores: list[str]) -> None:
     for seccion in SECCIONES_GENERALES:
         if not (RAIZ / seccion).is_dir():
@@ -140,6 +167,15 @@ def validar_estructura(errores: list[str]) -> None:
             errores.append(f"Falta el documento clave: {doc}")
 
     for raiz_rel, lista in (("vehiculos", VEHICULOS), ("vehiculos-fantasticos", FANTASTICOS)):
+        esperados = set(lista)
+        en_disco = cursos_en_disco(raiz_rel)
+
+        for sobrante in sorted(en_disco - esperados):
+            errores.append(
+                f"Curso sin registrar en {Path(__file__).name}: "
+                f"{raiz_rel}/{sobrante}/ (anadelo a la lista para que se valide)"
+            )
+
         for vehiculo in lista:
             base = RAIZ / raiz_rel / vehiculo
             if not base.is_dir():
@@ -148,9 +184,14 @@ def validar_estructura(errores: list[str]) -> None:
             if not (base / "README.md").is_file():
                 errores.append(f"Falta README: {raiz_rel}/{vehiculo}/README.md")
             for seccion in SECCIONES_VEHICULO:
-                if not (base / seccion).is_dir():
+                ruta = base / seccion
+                if not ruta.is_dir():
                     errores.append(
                         f"Falta la seccion: {raiz_rel}/{vehiculo}/{seccion}/"
+                    )
+                elif seccion not in SECCIONES_EN_ESPERA and not seccion_tiene_contenido(ruta):
+                    errores.append(
+                        f"Seccion vacia: {raiz_rel}/{vehiculo}/{seccion}/"
                     )
 
 
@@ -197,10 +238,14 @@ def main() -> int:
         if (RAIZ / "vehiculos-fantasticos" / v / "README.md").is_file()
     )
 
+    exigidas = len(SECCIONES_VEHICULO) - len(SECCIONES_EN_ESPERA)
+
     print("Validacion de estructura del multisimulador")
-    print(f"  Vehiculos verificados : {vehiculos_ok}/{len(VEHICULOS)}")
+    print(f"  Vehiculos verificados  : {vehiculos_ok}/{len(VEHICULOS)}")
     print(f"  Naves de ficcion       : {fantasticos_ok}/{len(FANTASTICOS)}")
-    print(f"  Secciones por vehiculo: {len(SECCIONES_VEHICULO)}")
+    print(f"  Secciones por vehiculo : {len(SECCIONES_VEHICULO)}"
+          f" ({exigidas} con contenido exigido,"
+          f" {len(SECCIONES_EN_ESPERA)} en espera)")
     print(f"  Enlaces internos       : {enlaces}")
 
     if errores:
