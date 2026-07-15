@@ -138,6 +138,11 @@ márgenes, no los controles. Es coherente con los
 y se descubre que la altura no basta, y las diferencias de mando emergen a
 medida que el nivel sube.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-thunderbird-3.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-thunderbird-3.md)

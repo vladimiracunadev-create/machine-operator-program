@@ -123,6 +123,11 @@ idéntico en cualquiera de ellos. Las diferencias solo emergen en el nivel 2,
 cuando entra el contrapeso, y en el nivel 3, cuando entran el gobernador, el
 freno de seguridad y el modo inspección.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-ascensor.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-ascensor.md)

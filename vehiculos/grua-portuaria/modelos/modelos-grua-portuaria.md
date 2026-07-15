@@ -136,6 +136,11 @@ habilitación distinta del operador. El
 certificación como **(por confirmar)**, y mientras siga así, el simulador puede
 separar esquemas de control pero no afirmar qué acredita cada uno.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-grua-portuaria.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-portuaria.md)

@@ -116,6 +116,11 @@ tal como plantean los
 casi todos se comportan igual, y las diferencias emergen a medida que el nivel
 sube.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-grua-torre.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-torre.md)

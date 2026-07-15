@@ -171,6 +171,7 @@ De lo cotidiano a lo complejo. Detalle en
 | [🗓️ Plan de vehículos](docs/06-plan-vehiculos.md) | Orden recomendado. |
 | [⚖️ Marco legal (Chile)](docs/07-marco-legal-chile.md) | Normativa por tipo de vehículo. |
 | [🎓 Guía de estilo y curso](docs/08-guia-de-estilo-y-curso.md) | Iconografía, módulos y navegación. |
+| [⚖️ Carga, pasajeros y manejo](docs/09-carga-y-manejo.md) | Hasta qué punto la carga cambia el manejo, por dominio. |
 
 ---
 

@@ -135,6 +135,11 @@ distancia de la **DAN 151** siguen marcados como "(por confirmar)" en el
 [Módulo 8](../reglamentos/reglamentos-dron.md) y no se usan aquí para definir
 categorías de modelo.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-dron.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-dron.md)

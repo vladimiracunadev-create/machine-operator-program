@@ -124,6 +124,11 @@ el nivel 1 la tracción distribuida y la concentrada se comportan casi igual, y
 las diferencias emergen a medida que el nivel sube y la adherencia, la tensión de
 línea y la supervisión ETCS entran en el modelo.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-tren-alta-velocidad.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-alta-velocidad.md)

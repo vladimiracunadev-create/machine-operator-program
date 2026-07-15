@@ -133,6 +133,11 @@ reglas sin tocar los mandos. La escala está en los
 Módulo 6: en el nivel 1 basta despegar y notar que hace falta empuje, y solo al
 subir de nivel la transición y el crucero exigen su propio esquema.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-thunderbird-1.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-thunderbird-1.md)

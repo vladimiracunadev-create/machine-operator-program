@@ -10,6 +10,7 @@
 - `docs/06-plan-vehiculos.md`: orden recomendado para documentar vehículo por vehículo.
 - `docs/07-marco-legal-chile.md`: marco legal chileno e internacional por tipo de vehículo.
 - `docs/08-guia-de-estilo-y-curso.md`: iconografía, estructura de curso y navegación.
+- `docs/09-carga-y-manejo.md`: hasta qué punto la carga y los pasajeros cambian el manejo, dominio por dominio.
 
 ## Secciones generales
 

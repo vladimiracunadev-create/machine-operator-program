@@ -133,6 +133,11 @@ Conviene además el tono del [Módulo 1](../historia/historia-transbordador.md) 
 hablar de las lecciones de seguridad: la reentrada y el planeo no admiten
 reintento, y un simulador que insinúe lo contrario deja de ser educativo.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-transbordador.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-transbordador.md)

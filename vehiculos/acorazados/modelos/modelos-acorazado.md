@@ -115,6 +115,11 @@ el nivel 1, con rumbo, velocidad y flotación básica, un dreadnought y un
 acorazado tardío se comportan casi igual, y las diferencias de inercia y
 estabilidad solo emergen cuando el nivel sube al 2 y al 3.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-acorazado.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-acorazado.md)

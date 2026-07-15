@@ -124,6 +124,11 @@ Todo lo anterior se refiere a cómo vuela la aeronave y a cómo se representa es
 vuelo. Los sistemas de misión quedan fuera de este curso por diseño, y ninguna
 variante los introduce.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-avion-combate.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-combate.md)

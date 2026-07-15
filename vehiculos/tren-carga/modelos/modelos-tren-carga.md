@@ -128,6 +128,11 @@ sube. Los propios [Módulos 6](../operacion/principios-tren-carga.md) y
 longitudinales y el *distributed power* en el nivel 3, que es exactamente donde
 estos modelos dejan de ser el mismo tren.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-tren-carga.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md)

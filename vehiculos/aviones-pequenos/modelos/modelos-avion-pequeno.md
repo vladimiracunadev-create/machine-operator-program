@@ -129,6 +129,11 @@ el nivel sube. La variante de patín de cola es el caso intermedio: comparte
 mandos con el de escuela, pero solo se distingue de él si el simulador modela el
 rodaje como algo más que un traslado hasta la pista.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-avion-pequeno.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pequeno.md)

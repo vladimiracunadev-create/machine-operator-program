@@ -108,6 +108,11 @@ sumergir, emerger y mantener cota se parecen bastante en ambos, y las
 diferencias emergen a medida que el nivel sube y entran la gestión de aire, la
 batería y la cota máxima.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-submarino.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-submarino.md)

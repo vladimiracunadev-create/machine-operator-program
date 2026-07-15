@@ -129,6 +129,11 @@ sí caben en un mismo simulador ajustando rangos, tal como plantean los
 basta con notar que existen gravedad propia y un límite de energía, y las
 diferencias emergen a medida que el nivel sube.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-estrella-de-la-muerte.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-estrella-de-la-muerte.md)

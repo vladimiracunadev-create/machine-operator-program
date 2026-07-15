@@ -123,6 +123,7 @@ DOCUMENTOS_CLAVE = [
     "docs/06-plan-vehiculos.md",
     "docs/07-marco-legal-chile.md",
     "docs/08-guia-de-estilo-y-curso.md",
+    "docs/09-carga-y-manejo.md",
     "plantillas/ficha-vehiculo.md",
     "plantillas/manual-mandos.md",
     "plantillas/reglamentos.md",

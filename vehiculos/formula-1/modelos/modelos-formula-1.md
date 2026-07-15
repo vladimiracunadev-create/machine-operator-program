@@ -119,6 +119,11 @@ todos los reglajes se comportan casi igual, la carga aerodinámica y la
 adherencia aparecen en el nivel 2, y la gestión de energía ERS —lo único que
 separa de verdad al histórico del actual— no llega hasta el nivel 3.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-formula-1.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-formula-1.md)

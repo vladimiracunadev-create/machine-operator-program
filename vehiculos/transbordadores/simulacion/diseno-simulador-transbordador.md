@@ -43,12 +43,20 @@ completar un planeo sin motor hasta aterrizar en la pista en un solo intento.
 | Temperatura del escudo | numérica | 0-1600 grados | Estructura | Crítica en la reentrada. |
 | Energía de planeo | numérica | altura más velocidad | Alcance a la pista | Se administra sin motor. |
 | Estado de separaciones | discreta | pendiente o hecha | Masa y empuje | Propulsores y tanque. |
+| Masa en bahía | numérica | vacía a máxima | Ascenso, planeo y centrado | Se suelta en órbita: el regreso pesa menos que la ida. |
 | Tren de aterrizaje | discreta | recogido o desplegado | Aterrizaje | Se despliega antes del toque. |
+
+La **masa en bahía** es fácil de olvidar porque el resto del curso trata la bahía
+como algo que se abre y se opera, no como peso. Pero es peso: encarece el
+ascenso, desplaza el centro de masa y cambia el planeo, que se administra sin
+motor y por tanto no admite compensar con empuje. Y es una masa **viva**: la
+carga se suelta en órbita, así que el orbitador vuelve más ligero de lo que
+subió. Ver [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
 
 ## Ciclo básico
 
 1. Leer entrada del usuario (empuje, actitud, palanca, timón, tren).
-2. Actualizar propelente, energía y estado de separaciones.
+2. Actualizar propelente, energía, masa en bahía y estado de separaciones.
 3. Calcular la física según la fase (cohete, órbita o planeo).
 4. Aplicar el entorno (densidad del aire, viento, calor de reentrada).
 5. Actualizar altitud, velocidad, órbita y temperatura del escudo.

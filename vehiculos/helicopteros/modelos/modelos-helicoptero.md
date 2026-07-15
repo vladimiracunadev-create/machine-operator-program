@@ -119,6 +119,11 @@ nivel 1 casi todos se comportan igual, y las diferencias emergen a medida que el
 nivel sube. De hecho el par y el anti-par no entran hasta el nivel 2, así que
 antes de ese nivel el tándem y el convencional aún son la misma máquina.
 
+> ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
+> solo los números: cambia qué puede hacer el operador. La física común a todas las
+> máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
+> marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
 ---
 
 [⬅️ Anterior: Características](../operacion/caracteristicas-helicoptero.md) · [➡️ Siguiente: Sistemas mecánicos](../operacion/sistemas-mecanicos-helicoptero.md)
