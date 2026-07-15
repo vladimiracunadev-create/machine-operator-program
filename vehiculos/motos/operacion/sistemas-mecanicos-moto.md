@@ -3,8 +3,8 @@
 [🏠 Inicio](../../../README.md) · [🏍️ Curso: Motos](../README.md) · 🔧 Sistemas mecánicos
 
 Este módulo abre la moto por dentro. Explica cada sistema, como funciona y como
-se conecta con los demás. Es la base técnica para entender los mandos (Módulo 4)
-y la física de la conducción (Módulo 5).
+se conecta con los demás. Es la base técnica para entender los mandos (Módulo 5)
+y la física de la conducción (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -160,9 +160,9 @@ El único contacto con el suelo. Todo (acelerar, frenar, girar) pasa por ellos.
 5. Los **neumáticos** convierten todo en movimiento real.
 6. Los **frenos** devuelven el control reduciendo la velocidad.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-moto.md) muestra
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-moto.md) muestra
 como el piloto opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-moto.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-moto.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-moto.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-moto.md)

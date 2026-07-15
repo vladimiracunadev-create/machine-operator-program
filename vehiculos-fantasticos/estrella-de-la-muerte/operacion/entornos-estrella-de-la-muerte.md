@@ -61,7 +61,7 @@ Cada entorno es un escenario con su gravedad, su calor externo y su exigencia
 logística. Acercarse a una estrella o a un planeta cambia por completo el
 equilibrio de energía y calor, y es una gran lección sobre los límites de una
 estructura de escala planetaria. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-estrella-de-la-muerte.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-estrella-de-la-muerte.md).
 
 ---
 

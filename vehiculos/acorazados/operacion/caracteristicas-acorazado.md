@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🛡️ Curso: Acorazados](../README.md) · 📋 Características
 
 Que es un acorazado, que tipos históricos existieron y cual fue su papel general.
-Este módulo da el contexto público antes de abrir la física naval (Módulo 3). No
+Este módulo da el contexto público antes de abrir la física naval (Módulo 4). No
 se documentan táctica ni sistemas de armas.
 
 ---
@@ -62,4 +62,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-acorazado.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-acorazado.md)
+[⬅️ Anterior: Historia](../historia/historia-acorazado.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-acorazado.md)

@@ -58,7 +58,7 @@ mindmap
 
 Cada entorno es un escenario con su viento, su espacio y su personal en tierra.
 Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-grua-torre.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-grua-torre.md).
 
 ---
 

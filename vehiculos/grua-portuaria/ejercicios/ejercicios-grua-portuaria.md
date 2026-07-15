@@ -28,7 +28,7 @@ cada uno.
 - **Boom**: abate la pluma a vertical para liberar el gabarito del buque y la
   baja a horizontal para operar.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-portuaria.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-portuaria.md).
 
 </details>
 
@@ -97,7 +97,7 @@ Módulos 2 y 3:
 7. Los twist-locks liberan la caja y el spreader sube vacío.
 8. La grúa repite el ciclo con el siguiente contenedor.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-portuaria.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-portuaria.md).
 
 </details>
 
@@ -116,7 +116,7 @@ y las mutuales, y en el recinto portuario además la Autoridad Marítima
 certificado/competente, aunque el **detalle de la certificación del operador
 está (por confirmar)** en el marco legal, sección 1.7: el curso no lo resuelve.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-grua-portuaria.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-grua-portuaria.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -206,9 +206,9 @@ indicador ya marca peso con el spreader vacío colgando, el usuario **ve** que l
 grúa arrastra ese peso antes de tomar nada, y entiende solo por qué una caja que
 "cabe" en el límite puede no caber.
 
-Módulo 8:
+Módulo 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-grua-portuaria.md) y
-Módulo 4: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-grua-portuaria.md).
+Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-grua-portuaria.md).
 
 </details>
 
@@ -226,7 +226,7 @@ usuario sufra el balanceo antes de darle la herramienta que lo corrige. El
 anti-sway, los enclavamientos, la precisión de celda y el ciclo cronometrado
 llegan al final.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-grua-portuaria.md)
+Módulo 6: [🧪 Principios y operación](../operacion/principios-grua-portuaria.md)
 y los [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🏎️ Curso: Fórmula 1](../README.md) · 📋 Características
 
 Que es un monoplaza de Fórmula 1, que variantes existen y para que sirve cada
-una. Este módulo da el contexto antes de abrir la mecánica (Módulo 3).
+una. Este módulo da el contexto antes de abrir la mecánica (Módulo 4).
 
 ---
 
@@ -61,4 +61,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-formula-1.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-formula-1.md)
+[⬅️ Anterior: Historia](../historia/historia-formula-1.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-formula-1.md)

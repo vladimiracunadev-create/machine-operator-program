@@ -12,7 +12,7 @@
 > claridad lo que sería realizable de lo que pertenece a la fantasía.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 
 ---
 
@@ -50,14 +50,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen del concepto de caza transformable en la ficción. | [Abrir](historia/historia-caza-transformable.md) |
 | 2 | 📋 Características | Que es, los tres modos y para que sirve cada uno. | [Abrir](operacion/caracteristicas-caza-transformable.md) |
-| 3 | 🔧 Sistemas mecánicos | Mecanismos de transformación frente a la física real. | [Abrir](operacion/sistemas-mecanicos-caza-transformable.md) |
-| 4 | 🎛️ Mandos | Puesto de mando, controles y cambio de modo. | [Abrir](mandos/manual-mandos-caza-transformable.md) |
-| 5 | 🧪 Principios | Que si, que no y por qué; ficción frente a realidad. | [Abrir](operacion/principios-caza-transformable.md) |
-| 6 | 🌍 Entornos | Aire, suelo y espacio; como cambia la operación. | [Abrir](operacion/entornos-caza-transformable.md) |
-| 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción, no ley real. | [Abrir](reglamentos/reglas-universo-caza-transformable.md) |
-| 8 | 🎮 Simulación | Estados, transiciones y variables del simulador. | [Abrir](simulacion/diseno-simulador-caza-transformable.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-caza-transformable.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-caza-transformable.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-caza-transformable.md) |
+| 4 | 🔧 Sistemas mecánicos | Mecanismos de transformación frente a la física real. | [Abrir](operacion/sistemas-mecanicos-caza-transformable.md) |
+| 5 | 🎛️ Mandos | Puesto de mando, controles y cambio de modo. | [Abrir](mandos/manual-mandos-caza-transformable.md) |
+| 6 | 🧪 Principios | Que si, que no y por qué; ficción frente a realidad. | [Abrir](operacion/principios-caza-transformable.md) |
+| 7 | 🌍 Entornos | Aire, suelo y espacio; como cambia la operación. | [Abrir](operacion/entornos-caza-transformable.md) |
+| 8 | ⚖️ Reglas del universo | Las leyes internas de la ficción, no ley real. | [Abrir](reglamentos/reglas-universo-caza-transformable.md) |
+| 9 | 🎮 Simulación | Estados, transiciones y variables del simulador. | [Abrir](simulacion/diseno-simulador-caza-transformable.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-caza-transformable.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-caza-transformable.md) |
 
 ---
 

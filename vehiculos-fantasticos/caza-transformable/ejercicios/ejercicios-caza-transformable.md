@@ -32,7 +32,7 @@ aerodinámico** estables como timones o alerones.
 Por eso el modo humanoide solo tiene sentido en el suelo o en contacto con
 estructuras, no cruzando el cielo a gran velocidad.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-caza-transformable.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-caza-transformable.md).
 
 </details>
 
@@ -66,7 +66,7 @@ El precio es doble: **cada grado de libertad que añades resta rigidez y suma
 masa**. Cada junta es un punto donde la estructura es más débil y más pesada que
 una pieza continua.
 
-Módulo 3:
+Módulo 4:
 [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-caza-transformable.md).
 
 </details>
@@ -84,7 +84,7 @@ alas. **Nunca aprovechas todo a la vez.**
 A eso se suma que la misma pieza cambia de función: diseñar algo que sea buena
 ala **y** buena pierna es un compromiso que empeora ambas cosas.
 
-Módulo 3:
+Módulo 4:
 [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-caza-transformable.md).
 
 </details>
@@ -99,7 +99,7 @@ deja de importar. Allí lo que manda es la **masa** y la **dirección del empuje
 La ventaja del modo caza desaparece precisamente porque esa ventaja era
 aerodinámica.
 
-Módulo 6: [🌍 Entornos de operación](../operacion/entornos-caza-transformable.md).
+Módulo 7: [🌍 Entornos de operación](../operacion/entornos-caza-transformable.md).
 
 </details>
 
@@ -116,7 +116,7 @@ No son normativa porque no hay legislación ni especificación técnica de una n
 que no existe. Son **convenciones narrativas plausibles** que el curso propone
 para razonar sobre el concepto, útiles solo para el aprendizaje y la simulación.
 
-Módulo 7:
+Módulo 8:
 [⚖️ Reglas del universo](../reglamentos/reglas-universo-caza-transformable.md).
 
 </details>
@@ -196,7 +196,7 @@ mantenimiento, y los materiales actuales fatigan y ceden justo ahí. La lectura
 educativa del curso es que piezas sueltas del concepto existen o son plausibles,
 pero el conjunto completo, rápido y ligero pertenece por ahora a la ficción.
 
-Módulo 3:
+Módulo 4:
 [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-caza-transformable.md).
 
 </details>
@@ -220,7 +220,7 @@ trampa: **lo ve**. Con las mismas entradas y el mismo escenario, la diferencia d
 comportamiento es exactamente el tamaño de la licencia creativa. La física deja de
 ser una lista de reglas y pasa a ser algo medible.
 
-Módulo 8:
+Módulo 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-caza-transformable.md).
 
 </details>

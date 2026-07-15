@@ -62,7 +62,7 @@ Cada entorno es un escenario con su presión, su luz y sus corrientes. La
 profundidad deja de ser un número y se vuelve el eje del desafío: cuanto más
 abajo, más cerca del límite del casco y más dependencia de la energía y el aire.
 Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-nautilus.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-nautilus.md).
 
 ---
 

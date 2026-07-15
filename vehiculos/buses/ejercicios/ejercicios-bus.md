@@ -26,7 +26,7 @@ inercia exige una fuerza de frenado que el aire comprimido entrega mejor que un
 circuito hidráulico. El mismo aire acciona además las puertas y la suspensión,
 así que el sistema neumático sirve a varios sistemas a la vez.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-bus.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-bus.md).
 
 </details>
 
@@ -42,7 +42,7 @@ prueba de fallos porque el freno de estacionamiento se mantiene liberado
 frenado en vez de quedarse sin frenos. Por eso, antes de mover el bus, se espera
 a que la presión suba al rango normal.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-bus.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-bus.md).
 
 </details>
 
@@ -95,7 +95,7 @@ y [🌍 Entornos de trabajo](../operacion/entornos-bus.md).
 El orden importa: la suavidad se consigue frenando antes, no frenando menos al
 final.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-bus.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-bus.md).
 
 </details>
 
@@ -110,7 +110,7 @@ Licencia profesional: clase **A-3** para buses sin límite de asientos y clase
 mayor y experiencia previa con licencia clase B (Art. 13). Es decir, la clase
 depende de la capacidad del vehículo.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-bus.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-bus.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -136,7 +136,7 @@ El error de fondo es de anticipación: en un bus la primera herramienta de
 seguridad es mirar lejos y ajustar la velocidad con antelación, no reaccionar al
 final. Con la masa de un bus, la corrección tardía siempre sale cara.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-bus.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-bus.md).
 
 </details>
 
@@ -199,7 +199,7 @@ del pasaje que penalice las maniobras bruscas, de modo que el usuario **vea**
 que la misma frenada que era aceptable con el bus vacío desestabiliza a los de
 pie con el bus lleno, y que la distancia de detención se ha alargado.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-bus.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-bus.md).
 
 </details>
 
@@ -216,7 +216,7 @@ inercia de la masa, el barrido trasero y el aforo, que son los conceptos
 centrales del bus. La presión de aire, el retardador, el enclavamiento de
 puertas y la fatiga en jornada son detalle de sistema y llegan al final.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-bus.md) y los
+Módulo 6: [🧪 Principios y operación](../operacion/principios-bus.md) y los
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

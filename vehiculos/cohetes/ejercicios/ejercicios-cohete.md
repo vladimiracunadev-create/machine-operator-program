@@ -39,7 +39,7 @@ vuelta. Para quedar en órbita baja hay que avanzar de lado a unos 7,8 km/s
 (aproximado). Por eso el ascenso no es vertical: tras despegar se inclina poco a
 poco hacia la horizontal en un **giro gravitatorio**.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-cohete.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-cohete.md).
 
 </details>
 
@@ -87,7 +87,7 @@ una vez encendido. Por eso el líquido va en las etapas que necesitan control
 fino, incluido el aterrizaje del propulsor, y el sólido se usa como refuerzo de
 despegue.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-cohete.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-cohete.md).
 
 </details>
 
@@ -102,7 +102,7 @@ responde por daños ante la comunidad internacional. Chile no cuenta a la fecha
 con una ley espacial nacional integral: su marco interno es de política pública
 más los tratados.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-cohete.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-cohete.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -185,7 +185,7 @@ usuario **ve** que la masa cae de golpe y que la aceleración salta sin tocar el
 acelerador. El concepto se entiende por el salto del indicador, no por la
 fórmula.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-cohete.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-cohete.md).
 
 </details>
 
@@ -202,7 +202,7 @@ velocidad orbital, que son el núcleo conceptual. El retorno añade reserva de
 aterrizaje, encendidos de reentrada y rejillas de guiado: es una misión completa
 encima de la anterior y tapa lo que se quiere enseñar si llega antes.
 
-Módulo 5 y [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
+Módulo 6 y [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
 

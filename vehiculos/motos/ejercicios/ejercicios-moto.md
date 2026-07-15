@@ -25,7 +25,7 @@ más cargada y por tanto dispone de más adherencia para frenar sin bloquearse.
 La trasera, aligerada, se bloquea antes. Por eso usar solo el freno trasero en
 una detención fuerte es uno de los errores típicos.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-moto.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-moto.md).
 
 </details>
 
@@ -40,7 +40,7 @@ de rumbo viene sobre todo de inclinar la moto, y la inclinación se inicia con e
 **contramanillar**: se empuja el manillar hacia el lado contrario al que se
 quiere ir.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-moto.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-moto.md).
 
 </details>
 
@@ -53,7 +53,7 @@ Por el efecto giroscópico de las ruedas en giro y por la geometría de la
 dirección, que tiende a autoalinearla. A muy baja velocidad esos dos efectos casi
 desaparecen y el equilibrio depende del piloto.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-moto.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-moto.md).
 
 </details>
 
@@ -87,7 +87,7 @@ y [🧪 Principios](../operacion/principios-moto.md).
 El orden importa: frenar ya dentro de la curva consume la adherencia que
 sostiene la inclinación.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-moto.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-moto.md).
 
 </details>
 
@@ -99,7 +99,7 @@ de seguridad es obligatorio?
 
 Licencia **Clase C** (vehículos motorizados de dos o tres ruedas) y casco.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-moto.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-moto.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -153,7 +153,7 @@ presupuesto de agarre hay que estirar distancias, frenar antes y más suave, e
 inclinar menos, evitando pisar esas superficies justo mientras se frena o se
 tumba.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-moto.md).
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-moto.md).
 
 </details>
 
@@ -173,7 +173,7 @@ restante de cada neumático. Así el usuario **ve** que al frenar la barra
 delantera crece y la trasera se vacía, y entiende solo por qué el freno trasero
 bloquea antes.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-moto.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-moto.md).
 
 </details>
 

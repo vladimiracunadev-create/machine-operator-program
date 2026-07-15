@@ -9,7 +9,7 @@
 > con alta velocidad comercial.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Marco legal](https://img.shields.io/badge/marco-ferroviario-orange)
 
 ---
@@ -54,14 +54,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y expansión mundial de la alta velocidad, línea de tiempo. | [Abrir](historia/historia-tren-alta-velocidad.md) |
 | 2 | 📋 Características | Que es, tracción distribuida vs concentrada, tipos y usos. | [Abrir](operacion/caracteristicas-tren-alta-velocidad.md) |
-| 3 | 🔧 Sistemas mecánicos | Tracción eléctrica, bogies, frenado, aerodinámica, vía dedicada, señalización. | [Abrir](operacion/sistemas-mecanicos-tren-alta-velocidad.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puesto del maquinista, manipulador y pantalla de señalización. | [Abrir](mandos/manual-mandos-tren-alta-velocidad.md) |
-| 5 | 🧪 Principios y operación | Energía cinética, frenado en km y estabilidad a alta velocidad. | [Abrir](operacion/principios-tren-alta-velocidad.md) |
-| 6 | 🌍 Entornos de trabajo | Corredores de alta velocidad, túneles, viaductos, estaciones. | [Abrir](operacion/entornos-tren-alta-velocidad.md) |
-| 7 | ⚖️ Reglamentos | Marco ferroviario: Ley General de Ferrocarriles, EFE, MTT. | [Abrir](reglamentos/reglamentos-tren-alta-velocidad.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-tren-alta-velocidad.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-tren-alta-velocidad.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-tren-alta-velocidad.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-tren-alta-velocidad.md) |
+| 4 | 🔧 Sistemas mecánicos | Tracción eléctrica, bogies, frenado, aerodinámica, vía dedicada, señalización. | [Abrir](operacion/sistemas-mecanicos-tren-alta-velocidad.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puesto del maquinista, manipulador y pantalla de señalización. | [Abrir](mandos/manual-mandos-tren-alta-velocidad.md) |
+| 6 | 🧪 Principios y operación | Energía cinética, frenado en km y estabilidad a alta velocidad. | [Abrir](operacion/principios-tren-alta-velocidad.md) |
+| 7 | 🌍 Entornos de trabajo | Corredores de alta velocidad, túneles, viaductos, estaciones. | [Abrir](operacion/entornos-tren-alta-velocidad.md) |
+| 8 | ⚖️ Reglamentos | Marco ferroviario: Ley General de Ferrocarriles, EFE, MTT. | [Abrir](reglamentos/reglamentos-tren-alta-velocidad.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-tren-alta-velocidad.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-tren-alta-velocidad.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-tren-alta-velocidad.md) |
 
 ---
 

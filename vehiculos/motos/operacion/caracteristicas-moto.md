@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🏍️ Curso: Motos](../README.md) · 📋 Características
 
 Que es una moto, que tipos existen y para que sirve cada uno. Este módulo da el
-contexto antes de abrir la mecánica (Módulo 3).
+contexto antes de abrir la mecánica (Módulo 4).
 
 ---
 
@@ -66,4 +66,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-moto.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-moto.md)
+[⬅️ Anterior: Historia](../historia/historia-moto.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-moto.md)

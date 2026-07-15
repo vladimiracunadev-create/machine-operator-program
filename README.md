@@ -59,7 +59,7 @@ flowchart TD
 
 ## 📚 Catálogo de cursos
 
-Cada vehículo es un curso con 10 módulos, del primero al de ejercicios (ver
+Cada vehículo es un curso con 11 módulos, del primero al de ejercicios (ver
 [guía de curso](docs/08-guia-de-estilo-y-curso.md)).
 
 ### 🛞 Terrestres
@@ -204,7 +204,7 @@ proyecto se distribuye bajo licencia [MIT](LICENSE).
 
 - ✅ Base documental, marco legal y CI en verde.
 - ✅ **Los 41 cursos están completos**: cada uno cumple la
-  [checklist de curso profesional](docs/08-guia-de-estilo-y-curso.md) con sus 10
+  [checklist de curso profesional](docs/08-guia-de-estilo-y-curso.md) con sus 11
   módulos, diagramas, glosario, ejercicios y navegación.
 - 🎓 [🏍️ Motos](vehiculos/motos/README.md) sigue siendo el curso de referencia:
   es el modelo a imitar al abrir uno nuevo.

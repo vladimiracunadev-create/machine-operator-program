@@ -135,9 +135,9 @@ flowchart LR
 5. La **dilatación temporal** real existe, pero apunta al futuro relativo, no al
    pasado.
 
-Con esto claro, el [Módulo 4: Mandos](../mandos/manual-mandos-delorean.md) muestra
+Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-delorean.md) muestra
 como el usuario operaría estos sistemas en un tablero conceptual.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-delorean.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-delorean.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-delorean.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-delorean.md)

@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🚌 Curso: Buses](../README.md) · 📋 Características
 
 Que es un bus, que tipos existen y para que sirve cada uno. Este módulo da el
-contexto antes de abrir la mecánica (Módulo 3).
+contexto antes de abrir la mecánica (Módulo 4).
 
 ---
 
@@ -69,4 +69,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-bus.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-bus.md)
+[⬅️ Anterior: Historia](../historia/historia-bus.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-bus.md)

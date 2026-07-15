@@ -6,7 +6,7 @@
 
 Que es un carguero rápido genérico, que rasgos lo definen en la ficción y cuales
 tendrían sentido físico real. Este módulo da el contexto antes de abrir la
-tecnología por dentro en el Módulo 3.
+tecnología por dentro en el Módulo 4.
 
 ---
 
@@ -64,4 +64,4 @@ preguntar si sería posible y por qué.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-halcon-milenario.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-halcon-milenario.md)
+[⬅️ Anterior: Historia](../historia/historia-halcon-milenario.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-halcon-milenario.md)

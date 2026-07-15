@@ -136,9 +136,9 @@ Refrigerar un gigante es, otra vez, un problema de escala.
 4. La **energía y el soporte vital** mantienen viva a la nave-ciudad.
 5. El **calor** interno cuesta cada vez más de disipar al crecer la nave.
 
-Con esto claro, el [Módulo 4: Mandos](../mandos/manual-mandos-sdf-1.md)
+Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-sdf-1.md)
 muestra cómo se operaría una nave de este tamaño.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-sdf-1.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-sdf-1.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-sdf-1.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-sdf-1.md)

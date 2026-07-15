@@ -9,7 +9,7 @@
 > [🦺 docs/04-seguridad-y-limites.md](../../docs/04-seguridad-y-limites.md).
 
 ![Nivel](https://img.shields.io/badge/nivel-divulgativo-green)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Marco](https://img.shields.io/badge/marco-historico%20publico-lightgrey)
 
 ---
@@ -52,14 +52,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución pública del acorazado. | [Abrir](historia/historia-acorazado.md) |
 | 2 | 📋 Características | Que es, tipos históricos y su papel general. | [Abrir](operacion/caracteristicas-acorazado.md) |
-| 3 | 🔧 Sistemas mecánicos | Casco, blindaje, propulsión, gobierno y estabilidad. | [Abrir](operacion/sistemas-mecanicos-acorazado.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puente y navegación, a nivel educativo. | [Abrir](mandos/manual-mandos-acorazado.md) |
-| 5 | 🧪 Principios y operación | Física de flotación, blindaje y estabilidad. | [Abrir](operacion/principios-acorazado.md) |
-| 6 | 🌍 Entornos de trabajo | Puerto, costa, mar abierto y clima. | [Abrir](operacion/entornos-acorazado.md) |
-| 7 | ⚖️ Reglamentos | Marco público institucional e internacional. | [Abrir](reglamentos/reglamentos-acorazado.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de simulación. | [Abrir](simulacion/diseno-simulador-acorazado.md) |
-| 9 | 🧰 Recursos | Glosario náutico, enlaces y diagramas. | [Abrir](recursos/recursos-acorazado.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-acorazado.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-acorazado.md) |
+| 4 | 🔧 Sistemas mecánicos | Casco, blindaje, propulsión, gobierno y estabilidad. | [Abrir](operacion/sistemas-mecanicos-acorazado.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puente y navegación, a nivel educativo. | [Abrir](mandos/manual-mandos-acorazado.md) |
+| 6 | 🧪 Principios y operación | Física de flotación, blindaje y estabilidad. | [Abrir](operacion/principios-acorazado.md) |
+| 7 | 🌍 Entornos de trabajo | Puerto, costa, mar abierto y clima. | [Abrir](operacion/entornos-acorazado.md) |
+| 8 | ⚖️ Reglamentos | Marco público institucional e internacional. | [Abrir](reglamentos/reglamentos-acorazado.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de simulación. | [Abrir](simulacion/diseno-simulador-acorazado.md) |
+| 10 | 🧰 Recursos | Glosario náutico, enlaces y diagramas. | [Abrir](recursos/recursos-acorazado.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-acorazado.md) |
 
 ---
 

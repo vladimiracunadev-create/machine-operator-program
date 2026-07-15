@@ -28,7 +28,7 @@ hace falta, y la energía requerida tiende al infinito. No es un problema de
 motores mejores: es que igualar la luz exigiría energía infinita. Por eso ningún
 objeto con masa puede alcanzarla, y menos superarla moviéndose por el espacio.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-nave-exploracion.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-nave-exploracion.md).
 
 </details>
 
@@ -43,7 +43,7 @@ cercana esté a más de cuatro significa que, incluso viajando casi a la velocid
 de la luz, el viaje de ida tomaría años. A las velocidades realistas de hoy,
 tomaría decenas de miles de años. La escala, no la técnica, es el obstáculo.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-nave-exploracion.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-nave-exploracion.md).
 
 </details>
 
@@ -76,7 +76,7 @@ acelerar una nave grande a una fracción de la velocidad de la luz exige
 cantidades descomunales de energía y combustible, y llevaría muchísimo tiempo.
 La enseñanza del módulo es justamente esa: lo lento y pesado es lo realista.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nave-exploracion.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nave-exploracion.md).
 
 </details>
 
@@ -91,7 +91,7 @@ varias generaciones a bordo, y solo los descendientes lejanos llegan al destino.
 Es honesta porque no rompe ninguna ley física. Si no podemos ir rápido, queda ir
 despacio: renuncia a la velocidad, no a la coherencia.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-nave-exploracion.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-nave-exploracion.md).
 
 </details>
 
@@ -110,7 +110,7 @@ ejemplos con relaciones muy distintas:
 - **"Explorar antes que intervenir"**: no tiene ninguna base física. Es una
   norma ética inventada.
 
-Módulo 7: [⚖️ Reglas del universo](../reglamentos/reglas-universo-nave-exploracion.md).
+Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-nave-exploracion.md).
 
 </details>
 
@@ -214,7 +214,7 @@ mantiene el atractivo que trajo al usuario. La condición es que el interruptor
 sea visible: mezclar sin aviso lo inventado con lo científico está fuera de
 alcance.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nave-exploracion.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nave-exploracion.md).
 
 </details>
 

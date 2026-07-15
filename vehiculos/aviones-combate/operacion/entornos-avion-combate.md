@@ -54,7 +54,7 @@ mindmap
 
 Cada entorno es un escenario con su altitud, su clima y su régimen de velocidad,
 siempre en enfoque educativo. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-avion-combate.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-avion-combate.md).
 
 ---
 

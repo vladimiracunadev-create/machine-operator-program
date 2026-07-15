@@ -27,7 +27,7 @@ disposición precisa de sus partículas. Teletransportarlo no sería mover sus
 **materia local** en el destino. Por eso el problema central no es de propulsión
 sino de datos.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-teletransportador.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-teletransportador.md).
 
 </details>
 
@@ -58,7 +58,7 @@ verdadero. Si borra el original justo después de copiarlo, la pregunta cambia:
 quien aparece, ¿es la misma persona o una copia que cree serlo? No es un detalle
 técnico: toca la identidad y no tiene respuesta única.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-teletransportador.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-teletransportador.md).
 
 </details>
 
@@ -74,7 +74,7 @@ partículas y, además, un canal clásico de comunicación para enviar los datos
 la medición. Ese canal clásico está limitado por la velocidad de la luz, así que
 la teleportación cuántica no es instantánea.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-teletransportador.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-teletransportador.md).
 
 </details>
 
@@ -107,7 +107,7 @@ de la naturaleza. Que el cuerpo llegue al instante o que el original se esfume
 limpio son licencias creativas legítimas; la física real sigue mandando con la
 información, la energía, el límite de la velocidad de la luz y la no clonación.
 
-Módulo 7: [⚖️ Reglas del universo](../reglamentos/reglas-universo-teletransportador.md).
+Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-teletransportador.md).
 
 </details>
 

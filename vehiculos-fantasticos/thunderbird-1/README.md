@@ -12,7 +12,7 @@
 > vectorizado y el compromiso entre velocidad y autonomía.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 
 ---
 
@@ -52,14 +52,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Contexto de la nave de ficción y su idea de vuelo. | [Abrir](historia/historia-thunderbird-1.md) |
 | 2 | 📋 Características | Que es un vehículo de respuesta rápida y para que sirve. | [Abrir](operacion/caracteristicas-thunderbird-1.md) |
-| 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-thunderbird-1.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-thunderbird-1.md) |
-| 5 | 🧪 Principios y operación | VTOL y empuje vectorizado: que si, que no y por qué. | [Abrir](operacion/principios-thunderbird-1.md) |
-| 6 | 🌍 Entornos | Base, atmósfera y escenarios de respuesta rápida. | [Abrir](operacion/entornos-thunderbird-1.md) |
-| 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-thunderbird-1.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-thunderbird-1.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-thunderbird-1.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-thunderbird-1.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-thunderbird-1.md) |
+| 4 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-thunderbird-1.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-thunderbird-1.md) |
+| 6 | 🧪 Principios y operación | VTOL y empuje vectorizado: que si, que no y por qué. | [Abrir](operacion/principios-thunderbird-1.md) |
+| 7 | 🌍 Entornos | Base, atmósfera y escenarios de respuesta rápida. | [Abrir](operacion/entornos-thunderbird-1.md) |
+| 8 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-thunderbird-1.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-thunderbird-1.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-thunderbird-1.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-thunderbird-1.md) |
 
 ---
 

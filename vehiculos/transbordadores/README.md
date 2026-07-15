@@ -9,7 +9,7 @@
 > internacional y diseño de simulación. Enfoque **histórico y de principios**.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Marco](https://img.shields.io/badge/marco-tratados%20espaciales-orange)
 
 ---
@@ -52,14 +52,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del transbordador, línea de tiempo. | [Abrir](historia/historia-transbordador.md) |
 | 2 | 📋 Características | Que es, sus partes y para que sirve. | [Abrir](operacion/caracteristicas-transbordador.md) |
-| 3 | 🔧 Sistemas mecánicos | Orbitador, propulsores, tanque externo, escudo térmico. | [Abrir](operacion/sistemas-mecanicos-transbordador.md) |
-| 4 | 🎛️ Mandos e instrumentos | Cabina del orbitador, controles y paneles. | [Abrir](mandos/manual-mandos-transbordador.md) |
-| 5 | 🧪 Principios y operación | Reentrada, planeo sin motor y fases de la misión. | [Abrir](operacion/principios-transbordador.md) |
-| 6 | 🌍 Entornos de trabajo | Plataforma, ascenso, órbita y reentrada alada. | [Abrir](operacion/entornos-transbordador.md) |
-| 7 | ⚖️ Reglamentos | Estado de lanzamiento y tratados espaciales. | [Abrir](reglamentos/reglamentos-transbordador.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-transbordador.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-transbordador.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-transbordador.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-transbordador.md) |
+| 4 | 🔧 Sistemas mecánicos | Orbitador, propulsores, tanque externo, escudo térmico. | [Abrir](operacion/sistemas-mecanicos-transbordador.md) |
+| 5 | 🎛️ Mandos e instrumentos | Cabina del orbitador, controles y paneles. | [Abrir](mandos/manual-mandos-transbordador.md) |
+| 6 | 🧪 Principios y operación | Reentrada, planeo sin motor y fases de la misión. | [Abrir](operacion/principios-transbordador.md) |
+| 7 | 🌍 Entornos de trabajo | Plataforma, ascenso, órbita y reentrada alada. | [Abrir](operacion/entornos-transbordador.md) |
+| 8 | ⚖️ Reglamentos | Estado de lanzamiento y tratados espaciales. | [Abrir](reglamentos/reglamentos-transbordador.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-transbordador.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-transbordador.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-transbordador.md) |
 
 ---
 

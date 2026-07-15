@@ -24,7 +24,7 @@ Sustentación, peso, empuje y resistencia. En vuelo nivelado y estable la
 sustentación equilibra el peso y el empuje equilibra la resistencia. Cambiar una
 fuerza obliga a reajustar las demás.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-avion-pequeno.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-avion-pequeno.md).
 
 </details>
 
@@ -38,7 +38,7 @@ mando que lo acciona en cabina.
 - Eje lateral → **cabeceo** → timón de profundidad → yugo adelante o atrás.
 - Eje vertical → **guiñada** → timón de dirección → pedales.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pequeno.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pequeno.md).
 
 </details>
 
@@ -88,7 +88,7 @@ y [🎛️ Mandos e instrumentos](../mandos/manual-mandos-avion-pequeno.md).
 Cada fase tiene su checklist, y no completarlo es uno de los errores comunes que
 recoge el curso.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-avion-pequeno.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-avion-pequeno.md).
 
 </details>
 
@@ -104,7 +104,7 @@ edad mínima de 18 años, un mínimo de 40 horas de vuelo, exámenes teórico y
 práctico, y certificado médico aeronáutico. La ley base es la Ley 18.916 (Código
 Aeronáutico).
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-avion-pequeno.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-avion-pequeno.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -128,7 +128,7 @@ solo entonces reducir potencia y redondear.
 El anemómetro y el altímetro deben verse siempre, precisamente porque una
 corrección de trayectoria se paga en velocidad o en altitud.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-avion-pequeno.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-avion-pequeno.md).
 
 </details>
 
@@ -188,7 +188,7 @@ límite el ala deja de sostener.
 El ciclo básico ya contempla la retroalimentación con alertas de pérdida, que es
 la señal que cierra el aprendizaje.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-avion-pequeno.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-avion-pequeno.md).
 
 </details>
 

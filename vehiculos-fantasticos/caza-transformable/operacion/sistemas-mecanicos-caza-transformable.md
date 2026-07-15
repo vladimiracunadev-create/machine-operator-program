@@ -123,4 +123,4 @@ ficción.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-caza-transformable.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-caza-transformable.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-caza-transformable.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-caza-transformable.md)

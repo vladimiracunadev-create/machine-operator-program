@@ -136,9 +136,9 @@ para posarse.
 4. El **guiado** inclina la trayectoria para ganar velocidad lateral.
 5. El **sistema de reentrada** disipa la energía para regresar con seguridad.
 
-Con esto claro, el [Módulo 4: Mandos](../mandos/manual-mandos-thunderbird-3.md)
+Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-thunderbird-3.md)
 muestra cómo la tripulación operaría cada sistema.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-thunderbird-3.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-thunderbird-3.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-thunderbird-3.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-thunderbird-3.md)

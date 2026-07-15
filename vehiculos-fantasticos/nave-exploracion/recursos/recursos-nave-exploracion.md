@@ -45,10 +45,10 @@ flowchart TD
 
 ## 🧭 Cómo seguir
 
-- Repasar el [Módulo 5: Principios](../operacion/principios-nave-exploracion.md)
+- Repasar el [Módulo 6: Principios](../operacion/principios-nave-exploracion.md)
   para afianzar la física.
 - Probar mentalmente el modo ciencia del
-  [Módulo 8: Simulación](../simulacion/diseno-simulador-nave-exploracion.md).
+  [Módulo 9: Simulación](../simulacion/diseno-simulador-nave-exploracion.md).
 - Comparar esta nave con las demás del catálogo para ver que física evoca cada una.
 
 ---

@@ -69,4 +69,4 @@ con cuidado la tecnología imaginaria de la física que si conocemos.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-nave-exploracion.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-nave-exploracion.md)
+[⬅️ Anterior: Historia](../historia/historia-nave-exploracion.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-nave-exploracion.md)

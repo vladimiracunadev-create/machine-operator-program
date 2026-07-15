@@ -44,7 +44,7 @@ El ejemplo del curso: con un momento máximo de 150 t·m, a 3 m de radio se izan
 50 t (50 x 3 = 150), pero a 15 m ese mismo momento solo permite 10 t
 (10 x 15 = 150).
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua.md).
 
 </details>
 
@@ -62,7 +62,7 @@ Conviene recordar además que la tabla corresponde siempre a una configuración
 concreta (contrapeso, extensión de estabilizadores y largo de pluma): cambiar
 cualquiera de esos datos obliga a usar otra tabla.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua.md).
 
 </details>
 
@@ -101,7 +101,7 @@ una inclinación pequeña desplaza el centro de gravedad y reduce la capacidad, 
 el terreno debe soportar la presión de la zapata, porque si cede se pierde la
 base.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua.md).
 
 </details>
 
@@ -114,7 +114,7 @@ Licencia **Clase D** (especial) para maquinaria automotriz, según la Ley 18.290
 Art. 12. Edad mínima 18 años, y el examen práctico se rinde sobre la maquinaria
 específica a operar.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-grua.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-grua.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -228,7 +228,7 @@ radio, ángulo, tabla de carga y balanceo, que son el núcleo conceptual.
 El viento es un factor real e importante, pero se entiende cuando ya se entiende
 el radio: lo que hace es aumentar el radio efectivo y el balanceo.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-grua.md) y los
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-grua.md) y los
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

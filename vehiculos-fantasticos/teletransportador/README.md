@@ -13,7 +13,7 @@
 > que la teletransportación de las historias no es transporte de materia.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 
 ---
 
@@ -52,14 +52,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Contexto del teletransportador y de la física cuántica real. | [Abrir](historia/historia-teletransportador.md) |
 | 2 | 📋 Características | Que es un teletransportador genérico y para que sirve. | [Abrir](operacion/caracteristicas-teletransportador.md) |
-| 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-teletransportador.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-teletransportador.md) |
-| 5 | 🧪 Principios y operación | Información, energía y estado: que si, que no y por qué. | [Abrir](operacion/principios-teletransportador.md) |
-| 6 | 🌍 Entornos | Donde y cómo se usaría el teletransporte. | [Abrir](operacion/entornos-teletransportador.md) |
-| 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-teletransportador.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-teletransportador.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-teletransportador.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-teletransportador.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-teletransportador.md) |
+| 4 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-teletransportador.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-teletransportador.md) |
+| 6 | 🧪 Principios y operación | Información, energía y estado: que si, que no y por qué. | [Abrir](operacion/principios-teletransportador.md) |
+| 7 | 🌍 Entornos | Donde y cómo se usaría el teletransporte. | [Abrir](operacion/entornos-teletransportador.md) |
+| 8 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-teletransportador.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-teletransportador.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-teletransportador.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-teletransportador.md) |
 
 ---
 

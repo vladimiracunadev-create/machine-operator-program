@@ -54,7 +54,7 @@ Se cuadruplica: la distancia de frenado crece con el **cuadrado** de la
 velocidad. Además depende de la adherencia del neumático y del estado del piso,
 así que en mojado esa distancia se estira todavía más.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-automovil.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-automovil.md).
 
 </details>
 
@@ -68,7 +68,7 @@ curva la rueda exterior recorre más camino que la interior, y sin diferencial u
 de las dos tendría que arrastrar o patinar. Recibe la fuerza desde la transmisión
 y la reparte a las ruedas motrices.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-automovil.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-automovil.md).
 
 </details>
 
@@ -86,7 +86,7 @@ Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-automovil.
 El orden importa: frenar ya dentro de la curva es uno de los errores comunes que
 el curso señala, porque consume la adherencia que sostiene el giro.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-automovil.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-automovil.md).
 
 </details>
 
@@ -101,7 +101,7 @@ Licencia **Clase B** (no profesional), Ley 18.290 Art. 12, con edad mínima de
 hasta 3.500 kg. El cinturón de seguridad es obligatorio (Art. 79) en los asientos
 ocupados, y la simulación debería exigirlo antes de permitir la marcha.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-automovil.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-automovil.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -143,7 +143,7 @@ capa de agua que hace perder el contacto del neumático con el piso.
 El ajuste es encender luces, reducir la velocidad y aumentar la distancia de
 seguimiento.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-automovil.md).
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-automovil.md).
 
 </details>
 
@@ -183,7 +183,7 @@ quiere enseñar. El nivel 2 introduce inercia, transferencia de peso y límite d
 adherencia, que son los conceptos físicos centrales. El embrague, las marchas, el
 subviraje/sobreviraje y la frenada con ABS son detalle técnico y llegan al final.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-automovil.md)
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-automovil.md)
 y los [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
@@ -205,7 +205,7 @@ afectadas en el paso 4, cuando se aplican las restricciones del entorno (piso,
 pendiente, clima, tráfico). Mostrar esos valores en pantalla deja **ver** que el
 mismo giro que funciona en seco no alcanza en mojado.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-automovil.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-automovil.md).
 
 </details>
 

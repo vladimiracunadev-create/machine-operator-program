@@ -23,7 +23,7 @@ Porque desplaza un peso de agua igual al suyo: el empuje vertical del agua
 desplazada sostiene el casco. Es el principio de Arquímedes. No depende del
 material del casco sino del volumen de agua que desaloja.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-barco-mercante.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-barco-mercante.md).
 
 </details>
 
@@ -71,7 +71,7 @@ ejes** (transmite el giro y atraviesa el casco por la bocina) → **hélice**
 ley de Newton) → **empuje**. Entre motor y eje puede haber un reductor, que no
 siempre está presente.
 
-Módulo 3:
+Módulo 4:
 [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-barco-mercante.md).
 
 </details>
@@ -94,7 +94,7 @@ cierre.
 6. **Atraque**: amarrar en muelle con maniobra fina, thruster y cabos.
 7. **Cierre**: dejar segura la nave, máquina parada, amarre firme y guardias.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-barco-mercante.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-barco-mercante.md).
 
 </details>
 
@@ -110,7 +110,7 @@ La autoridad es **DIRECTEMAR** (DGTM y MM). La ley base es el **DL 2.222 de
 la OMI, que además aporta SOLAS (seguridad de la vida en el mar), MARPOL
 (prevención de la contaminación) y STCW (formación y guardia).
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-barco-mercante.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-barco-mercante.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -135,7 +135,7 @@ Lo correcto es reducir la velocidad **mucho antes** de la aproximación: toda
 maniobra se anticipa con minutos y millas de margen. La corrección de verdad
 ocurre en la fase de aproximación, no en la de atraque.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-barco-mercante.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-barco-mercante.md).
 
 </details>
 
@@ -194,7 +194,7 @@ velocidad y rumbo, así que basta con dejar ver ese desfase. El usuario ordena
 "parado" y **ve** que el buque sigue navegando: la simulación debe reflejar el
 retardo entre la orden y la respuesta.
 
-Módulo 8:
+Módulo 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-barco-mercante.md).
 
 </details>
@@ -213,7 +213,7 @@ son los conceptos centrales del buque. La estabilidad, el calado, las corrientes
 y la maniobra de puerto con thruster y remolcadores son el detalle fino y llegan
 al final.
 
-Módulo 8:
+Módulo 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-barco-mercante.md) y
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 

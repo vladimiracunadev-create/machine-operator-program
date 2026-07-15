@@ -26,7 +26,7 @@ esa potencia a **régimen constante** (540 o 1000 rpm normalizadas), independien
 de la velocidad de avance. Un vehículo de tiro solo arrastra; el tractor además
 **acciona** el implemento.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tractor.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tractor.md).
 
 </details>
 
@@ -40,7 +40,7 @@ punto) que sujeta el apero montado. Los brazos sostienen el apero y transmiten e
 tiro; el tercer punto fija su ángulo. La hidráulica sube y baja ese enganche
 mediante un cilindro, y con eso controla la **profundidad de trabajo**.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tractor.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tractor.md).
 
 </details>
 
@@ -86,7 +86,7 @@ esfuerzo** sube el apero cuando la resistencia del suelo aumenta, con lo que
 evita que el motor se ahogue y a la vez regula la tracción. Forzar el motor sin
 usar el control de esfuerzo es uno de los errores comunes que el curso señala.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tractor.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tractor.md).
 
 </details>
 
@@ -101,7 +101,7 @@ Habilita también para grúas, cargadores y retroexcavadoras. Los elementos
 centrales son la **estructura antivuelco (ROPS)** con el **cinturón** puesto
 dentro de ella, y el **protector de la PTO**.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-tractor.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-tractor.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -184,7 +184,7 @@ leerlo.
 El curso pide además avisos de vuelco al girar en pendiente y sanciones
 educativas en vez de castigos frustrantes.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tractor.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tractor.md).
 
 </details>
 

@@ -5,8 +5,8 @@
 Este módulo abre el tren de carga por dentro y es el corazón del curso. Explica
 cada sistema, como funciona y cómo se conecta con los demás, con foco en la
 tracción, la adherencia rueda-riel, el frenado de gran masa, la composición del
-tren y los enganches. Es la base técnica para entender los mandos (Módulo 4) y la
-física de la operación con carga (Módulo 5).
+tren y los enganches. Es la base técnica para entender los mandos (Módulo 5) y la
+física de la operación con carga (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -202,9 +202,9 @@ ejes sobre la vía y como está senalizada la circulación.
 6. El **freno neumático** actua en todo el tren; el **dinámico** ahorra zapatas.
 7. El **peso por eje** y la **vía** limitan cuanto tonelaje se puede mover.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-tren-carga.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-tren-carga.md)
 muestra como el maquinista opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-tren-carga.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-tren-carga.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-tren-carga.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-tren-carga.md)

@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🚢 Curso: Barcos mercantes](../README.md) · 📋 Características
 
 Que es un buque mercante, que tipos existen y para que sirve cada uno. Este
-módulo da el contexto antes de abrir la mecánica naval (Módulo 3).
+módulo da el contexto antes de abrir la mecánica naval (Módulo 4).
 
 ---
 
@@ -70,4 +70,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-barco-mercante.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-barco-mercante.md)
+[⬅️ Anterior: Historia](../historia/historia-barco-mercante.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-barco-mercante.md)

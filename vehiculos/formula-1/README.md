@@ -9,7 +9,7 @@
 > deportivo y técnico de la FIA, no por la ley de tránsito.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Marco](https://img.shields.io/badge/marco-reglamento%20FIA-orange)
 
 ---
@@ -54,14 +54,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución de la Fórmula 1, línea de tiempo. | [Abrir](historia/historia-formula-1.md) |
 | 2 | 📋 Características | Que es un monoplaza, tipos y para que sirve cada uno. | [Abrir](operacion/caracteristicas-formula-1.md) |
-| 3 | 🔧 Sistemas mecánicos | Unidad híbrida, aerodinámica, neumáticos, frenos, caja. | [Abrir](operacion/sistemas-mecanicos-formula-1.md) |
-| 4 | 🎛️ Mandos e instrumentos | Volante multifunción, pedales y telemetría. | [Abrir](mandos/manual-mandos-formula-1.md) |
-| 5 | 🧪 Principios y operación | Física del rendimiento y fases de una vuelta. | [Abrir](operacion/principios-formula-1.md) |
-| 6 | 🌍 Entornos de trabajo | Circuitos urbanos, permanentes y mixtos. | [Abrir](operacion/entornos-formula-1.md) |
-| 7 | ⚖️ Reglamentos | Reglamento deportivo y técnico de la FIA. | [Abrir](reglamentos/reglamentos-formula-1.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-formula-1.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-formula-1.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-formula-1.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-formula-1.md) |
+| 4 | 🔧 Sistemas mecánicos | Unidad híbrida, aerodinámica, neumáticos, frenos, caja. | [Abrir](operacion/sistemas-mecanicos-formula-1.md) |
+| 5 | 🎛️ Mandos e instrumentos | Volante multifunción, pedales y telemetría. | [Abrir](mandos/manual-mandos-formula-1.md) |
+| 6 | 🧪 Principios y operación | Física del rendimiento y fases de una vuelta. | [Abrir](operacion/principios-formula-1.md) |
+| 7 | 🌍 Entornos de trabajo | Circuitos urbanos, permanentes y mixtos. | [Abrir](operacion/entornos-formula-1.md) |
+| 8 | ⚖️ Reglamentos | Reglamento deportivo y técnico de la FIA. | [Abrir](reglamentos/reglamentos-formula-1.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-formula-1.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-formula-1.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-formula-1.md) |
 
 ---
 

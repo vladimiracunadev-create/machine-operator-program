@@ -4,7 +4,7 @@
 
 Este módulo abre el monoplaza por dentro. Explica cada sistema, como funciona y
 como se conecta con los demás. Es la base técnica para entender los mandos
-(Módulo 4) y la física del rendimiento (Módulo 5).
+(Módulo 5) y la física del rendimiento (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -162,9 +162,9 @@ Transmite la potencia a las ruedas traseras y adapta fuerza y velocidad.
 6. El **monocasco** y la **suspensión** mantienen la geometría y la seguridad.
 
 Con esto entendido, el
-[Módulo 4: Mandos](../mandos/manual-mandos-formula-1.md) muestra como el piloto
+[Módulo 5: Mandos](../mandos/manual-mandos-formula-1.md) muestra como el piloto
 opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-formula-1.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-formula-1.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-formula-1.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-formula-1.md)

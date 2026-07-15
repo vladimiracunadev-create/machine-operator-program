@@ -62,7 +62,7 @@ Cada entorno es un escenario con su densidad de aire, su altura y su espacio de
 maniobra. El paso de un despegue vertical con aire denso a un vuelo de crucero en
 altura cambia cuanto empuje hace falta y cuanto combustible se gasta, y es una
 gran lección de física. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-thunderbird-1.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-thunderbird-1.md).
 
 ---
 

@@ -4,7 +4,7 @@
 
 Este módulo abre el automóvil por dentro. Explica cada sistema, como funciona y
 como se conecta con los demás. Es la base técnica para entender los mandos
-(Módulo 4) y la física de la conducción (Módulo 5).
+(Módulo 5) y la física de la conducción (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -209,9 +209,9 @@ cuando detectan pérdida de control o riesgo de choque.
 6. Los **frenos** devuelven el control reduciendo la velocidad.
 7. El **sistema eléctrico** alimenta y las **ayudas** supervisan todo.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-automovil.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-automovil.md)
 muestra como el conductor opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-automovil.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-automovil.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-automovil.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-automovil.md)

@@ -54,7 +54,7 @@ mindmap
 
 Cada edificio es un escenario con su número de pisos, patrón de tráfico y tipo de
 uso. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-ascensor.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-ascensor.md).
 
 ---
 

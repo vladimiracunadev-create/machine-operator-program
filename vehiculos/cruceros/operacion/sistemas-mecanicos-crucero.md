@@ -3,8 +3,8 @@
 [🏠 Inicio](../../../README.md) · [⛴️ Curso: Cruceros](../README.md) · 🔧 Sistemas mecánicos
 
 Este módulo abre el crucero por dentro. Explica cada sistema, como funciona y como
-se conecta con los demás. Es la base técnica para entender los mandos (Módulo 4)
-y la física de la navegación (Módulo 5). En un buque de pasaje, la cadena de
+se conecta con los demás. Es la base técnica para entender los mandos (Módulo 5)
+y la física de la navegación (Módulo 6). En un buque de pasaje, la cadena de
 energía alimenta por igual a la propulsión y a la ciudad flotante que vive a bordo.
 
 ```mermaid
@@ -208,9 +208,9 @@ flowchart TD
 5. Los **servicios de hotel** sostienen la vida del pasaje.
 6. Los **sistemas de seguridad** permiten contener averías y evacuar a todos.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-crucero.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-crucero.md)
 muestra cómo la tripulación opera cada uno de estos sistemas desde el puente.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-crucero.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-crucero.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-crucero.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-crucero.md)

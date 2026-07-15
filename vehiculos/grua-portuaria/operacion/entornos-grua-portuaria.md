@@ -57,7 +57,7 @@ mindmap
 ## 🎮 Traducción a simulación
 
 Cada entorno es un escenario con su clima, jornada y flujo de camiones. Ver como
-se modela en el [Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-grua-portuaria.md).
+se modela en el [Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-grua-portuaria.md).
 
 ---
 

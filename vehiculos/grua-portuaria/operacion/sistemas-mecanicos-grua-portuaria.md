@@ -5,8 +5,8 @@
 Este módulo abre la grúa pórtico por dentro y es el corazón del curso. Explica
 como se sostiene la estructura sobre los rieles del muelle, como el trolley lleva
 el spreader hasta el contenedor y cómo se mueve cada eje del izaje. Es la base
-técnica para entender los mandos (Módulo 4) y los principios de operación
-(Módulo 5).
+técnica para entender los mandos (Módulo 5) y los principios de operación
+(Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -58,7 +58,7 @@ el equilibrio sobre el agua.
 ## 2. 🛤️ Traslación sobre rieles: gantry, trolley y boom
 
 La grúa tiene tres traslaciones principales, cada una en un eje distinto. Es útil
-distinguirlas porque los mandos (Módulo 4) las controlan por separado.
+distinguirlas porque los mandos (Módulo 5) las controlan por separado.
 
 ```mermaid
 flowchart TD
@@ -224,9 +224,9 @@ estos pasos:
 7. Los twist-locks liberan la caja y el spreader sube vacío.
 8. La grúa repite el ciclo con el siguiente contenedor.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-grua-portuaria.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-grua-portuaria.md)
 muestra como el operador acciona cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-grua-portuaria.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-grua-portuaria.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-grua-portuaria.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-grua-portuaria.md)

@@ -4,7 +4,7 @@
 
 Este módulo abre el ascensor por dentro. Explica cada sistema, como funciona y
 como se conecta con los demás. Es la base técnica para entender los mandos
-(Módulo 4) y la física del transporte vertical (Módulo 5).
+(Módulo 5) y la física del transporte vertical (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -142,9 +142,9 @@ flowchart TD
 6. El **controlador** y las **puertas** gestionan las llamadas y el acceso seguro.
 
 Con esto entendido, el
-[Módulo 4: Mandos](../mandos/manual-mandos-ascensor.md) muestra como el usuario y
+[Módulo 5: Mandos](../mandos/manual-mandos-ascensor.md) muestra como el usuario y
 el sistema operan estos elementos.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-ascensor.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-ascensor.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-ascensor.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-ascensor.md)

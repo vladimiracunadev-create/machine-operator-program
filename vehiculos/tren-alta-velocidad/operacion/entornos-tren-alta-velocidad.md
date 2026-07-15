@@ -60,7 +60,7 @@ mindmap
 
 Cada entorno es un escenario con su vía, clima y condiciones de infraestructura.
 Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-tren-alta-velocidad.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-tren-alta-velocidad.md).
 
 ---
 

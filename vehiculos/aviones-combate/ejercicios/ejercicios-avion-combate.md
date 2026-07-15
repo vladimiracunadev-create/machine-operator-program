@@ -26,7 +26,7 @@ esa masa expulsada impulsa el avión hacia adelante. El recorrido interno es tom
 de aire, compresor, cámara de combustión, turbina y tobera; el posquemador añade
 empuje extra quemando más combustible en la tobera.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-combate.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-combate.md).
 
 </details>
 
@@ -76,7 +76,7 @@ resiste hasta cierto punto, y el **fisiológico**, porque el piloto también tie
 un tope y por eso usa equipo especial. En la cabina se vigila con el
 acelerómetro, y en simulación se representa como un límite.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-avion-combate.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-avion-combate.md).
 
 </details>
 
@@ -91,7 +91,7 @@ sube la carga G. Se recupera con empuje, o cambiando altitud por velocidad.
 Volar suave la conserva, y quedar lento a baja altura es justamente uno de los
 errores que la simulación busca enseñar a evitar.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-avion-combate.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-avion-combate.md).
 
 </details>
 
@@ -106,7 +106,7 @@ dependiente del Ministerio de Defensa Nacional, bajo la Ley 18.948, y se rige
 por normativa militar; no le aplican las licencias civiles de la DGAC ni la
 matrícula civil del Código Aeronáutico.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-avion-combate.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-avion-combate.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -144,7 +144,7 @@ energía total se agota, y quedar lento a baja altura es uno de los errores
 comunes que el curso identifica. La lectura útil aquí es el acelerómetro junto a
 la velocidad: volar suave conserva energía y control.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-avion-combate.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-avion-combate.md).
 
 </details>
 
@@ -182,7 +182,7 @@ alerta de baja velocidad. Así el usuario **ve** que al cerrar la maniobra la
 aguja sube y la energía cae, y entiende solo por qué existen el límite
 estructural y el fisiológico.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-avion-combate.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-avion-combate.md).
 
 </details>
 

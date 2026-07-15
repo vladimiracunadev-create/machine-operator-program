@@ -9,7 +9,7 @@
 > comercial segura de una aeronave de transporte de pasajeros.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-ATP%20DGAC-orange)
 
 ---
@@ -57,14 +57,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del avión de pasajeros, línea de tiempo. | [Abrir](historia/historia-avion-pasajeros.md) |
 | 2 | 📋 Características | Que es, tipos de avión de pasajeros y para que sirve cada uno. | [Abrir](operacion/caracteristicas-avion-pasajeros.md) |
-| 3 | 🔧 Sistemas mecánicos | Fuselaje presurizado, alas, control, turbofan, sistemas y avionica. | [Abrir](operacion/sistemas-mecanicos-avion-pasajeros.md) |
-| 4 | 🎛️ Mandos e instrumentos | Cabina de vuelo, controles y avionica. | [Abrir](mandos/manual-mandos-avion-pasajeros.md) |
-| 5 | 🧪 Principios y operación | Física del vuelo y fases de operación comercial. | [Abrir](operacion/principios-avion-pasajeros.md) |
-| 6 | 🌍 Entornos de trabajo | Aeropuerto, espacio aéreo controlado y meteorología. | [Abrir](operacion/entornos-avion-pasajeros.md) |
-| 7 | ⚖️ Reglamentos | Ley chilena: DGAC, licencia ATP, operación comercial. | [Abrir](reglamentos/reglamentos-avion-pasajeros.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-avion-pasajeros.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-avion-pasajeros.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-avion-pasajeros.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-avion-pasajeros.md) |
+| 4 | 🔧 Sistemas mecánicos | Fuselaje presurizado, alas, control, turbofan, sistemas y avionica. | [Abrir](operacion/sistemas-mecanicos-avion-pasajeros.md) |
+| 5 | 🎛️ Mandos e instrumentos | Cabina de vuelo, controles y avionica. | [Abrir](mandos/manual-mandos-avion-pasajeros.md) |
+| 6 | 🧪 Principios y operación | Física del vuelo y fases de operación comercial. | [Abrir](operacion/principios-avion-pasajeros.md) |
+| 7 | 🌍 Entornos de trabajo | Aeropuerto, espacio aéreo controlado y meteorología. | [Abrir](operacion/entornos-avion-pasajeros.md) |
+| 8 | ⚖️ Reglamentos | Ley chilena: DGAC, licencia ATP, operación comercial. | [Abrir](reglamentos/reglamentos-avion-pasajeros.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-avion-pasajeros.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-avion-pasajeros.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-avion-pasajeros.md) |
 
 ---
 

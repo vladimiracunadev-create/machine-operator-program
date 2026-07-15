@@ -8,7 +8,7 @@
 > de simulación. Sigue la plantilla de oro del curso de motos.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-Clase%20A-orange)
 
 ---
@@ -54,14 +54,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del bus, línea de tiempo. | [Abrir](historia/historia-bus.md) |
 | 2 | 📋 Características | Que es, tipos de bus y para que sirve cada uno. | [Abrir](operacion/caracteristicas-bus.md) |
-| 3 | 🔧 Sistemas mecánicos | Motor, transmisión, frenos neumáticos, puertas, accesibilidad. | [Abrir](operacion/sistemas-mecanicos-bus.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puesto de mando, controles, puertas y tablero. | [Abrir](mandos/manual-mandos-bus.md) |
-| 5 | 🧪 Principios y operación | Masa, inercia, paradas y fases de operación. | [Abrir](operacion/principios-bus.md) |
-| 6 | 🌍 Entornos de trabajo | Urbano, interurbano, corredor BRT, terminal. | [Abrir](operacion/entornos-bus.md) |
-| 7 | ⚖️ Reglamentos | Ley chilena: licencia clase A, aforo, jornada. | [Abrir](reglamentos/reglamentos-bus.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-bus.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-bus.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-bus.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-bus.md) |
+| 4 | 🔧 Sistemas mecánicos | Motor, transmisión, frenos neumáticos, puertas, accesibilidad. | [Abrir](operacion/sistemas-mecanicos-bus.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puesto de mando, controles, puertas y tablero. | [Abrir](mandos/manual-mandos-bus.md) |
+| 6 | 🧪 Principios y operación | Masa, inercia, paradas y fases de operación. | [Abrir](operacion/principios-bus.md) |
+| 7 | 🌍 Entornos de trabajo | Urbano, interurbano, corredor BRT, terminal. | [Abrir](operacion/entornos-bus.md) |
+| 8 | ⚖️ Reglamentos | Ley chilena: licencia clase A, aforo, jornada. | [Abrir](reglamentos/reglamentos-bus.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-bus.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-bus.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-bus.md) |
 
 ---
 

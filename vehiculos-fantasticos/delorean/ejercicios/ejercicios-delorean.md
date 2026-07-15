@@ -47,7 +47,7 @@ entregar mucha.
 La ficción pide lo más exigente de ambas: muchísima energía entregada en un
 instante, lo que implica una potencia enorme.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-delorean.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-delorean.md).
 
 </details>
 
@@ -104,7 +104,7 @@ viajero puede contradecir lo que ya sucedió. El otro enfoque, el de la línea q
 sí se puede cambiar, acepta que el pasado se altera y el futuro se reescribe, y
 convive con la paradoja como amenaza narrativa.
 
-Módulo 7: [⚖️ Reglas del universo](../reglamentos/reglas-universo-delorean.md).
+Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-delorean.md).
 
 </details>
 
@@ -124,7 +124,7 @@ pasado, no hay mecanismo conocido para retroceder, y las paradojas no son un
 problema que se resuelva con una regla de guion, sino la señal de por qué el
 viaje al pasado es problemático.
 
-Módulo 7: [⚖️ Reglas del universo](../reglamentos/reglas-universo-delorean.md).
+Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-delorean.md).
 
 </details>
 
@@ -152,7 +152,7 @@ El error del argumento es confundir "a más velocidad pasan cosas relativistas"
 con "a más velocidad se accede al pasado". Lo primero es cierto y lo segundo no
 se sigue de lo primero.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-delorean.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-delorean.md).
 
 </details>
 
@@ -250,7 +250,7 @@ fijar primero. La dilatación llega cuando el usuario ya sabe qué modo está
 mirando. El nivel 3 (técnico) deja para el final lo más fino: modelar potencia
 frente a energía y comentar las curvas temporales cerradas como idea teórica.
 
-Módulo 5: [🧪 Principios](../operacion/principios-delorean.md) y
+Módulo 6: [🧪 Principios](../operacion/principios-delorean.md) y
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

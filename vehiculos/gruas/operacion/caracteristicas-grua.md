@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🏗️ Curso: Grúas](../README.md) · 📋 Características
 
 Que es una grúa, que tipos existen y para que sirve cada uno. Este módulo da el
-contexto antes de abrir la mecánica y el izaje (Módulo 3).
+contexto antes de abrir la mecánica y el izaje (Módulo 4).
 
 ---
 
@@ -66,4 +66,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-grua.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-grua.md)
+[⬅️ Anterior: Historia](../historia/historia-grua.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-grua.md)

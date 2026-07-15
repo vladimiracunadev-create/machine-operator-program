@@ -8,7 +8,7 @@
 > núcleo del curso es la estabilidad: momento de carga, radio y contrapeso.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-Clase%20D-orange)
 
 ---
@@ -53,14 +53,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución de la grúa, línea de tiempo. | [Abrir](historia/historia-grua.md) |
 | 2 | 📋 Características | Que es, tipos de grúa y para que sirve cada uno. | [Abrir](operacion/caracteristicas-grua.md) |
-| 3 | 🔧 Sistemas mecánicos | Pluma, cabrestante, estabilizadores, tablas de carga, hidráulica. | [Abrir](operacion/sistemas-mecanicos-grua.md) |
-| 4 | 🎛️ Mandos e instrumentos | Cabina, controles, joysticks, LMI y tablero. | [Abrir](mandos/manual-mandos-grua.md) |
-| 5 | 🧪 Principios y operación | Momento de carga, estabilidad y fases de izaje. | [Abrir](operacion/principios-grua.md) |
-| 6 | 🌍 Entornos de trabajo | Obra, puerto, industria, rescate y terreno irregular. | [Abrir](operacion/entornos-grua.md) |
-| 7 | ⚖️ Reglamentos | Ley chilena: licencia clase D, seguridad de izaje. | [Abrir](reglamentos/reglamentos-grua.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-grua.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-grua.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-grua.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-grua.md) |
+| 4 | 🔧 Sistemas mecánicos | Pluma, cabrestante, estabilizadores, tablas de carga, hidráulica. | [Abrir](operacion/sistemas-mecanicos-grua.md) |
+| 5 | 🎛️ Mandos e instrumentos | Cabina, controles, joysticks, LMI y tablero. | [Abrir](mandos/manual-mandos-grua.md) |
+| 6 | 🧪 Principios y operación | Momento de carga, estabilidad y fases de izaje. | [Abrir](operacion/principios-grua.md) |
+| 7 | 🌍 Entornos de trabajo | Obra, puerto, industria, rescate y terreno irregular. | [Abrir](operacion/entornos-grua.md) |
+| 8 | ⚖️ Reglamentos | Ley chilena: licencia clase D, seguridad de izaje. | [Abrir](reglamentos/reglamentos-grua.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-grua.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-grua.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-grua.md) |
 
 ---
 

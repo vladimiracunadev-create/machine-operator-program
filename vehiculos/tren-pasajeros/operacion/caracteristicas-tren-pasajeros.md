@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🚆 Curso: Tren de pasajeros](../README.md) · 📋 Características
 
 Que es un tren de pasajeros, que tipos existen y para que sirve cada uno. Este
-módulo da el contexto antes de abrir la mecánica (Módulo 3).
+módulo da el contexto antes de abrir la mecánica (Módulo 4).
 
 ---
 
@@ -64,4 +64,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-tren-pasajeros.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-tren-pasajeros.md)
+[⬅️ Anterior: Historia](../historia/historia-tren-pasajeros.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-tren-pasajeros.md)

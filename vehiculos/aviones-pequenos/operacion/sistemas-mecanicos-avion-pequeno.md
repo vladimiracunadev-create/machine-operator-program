@@ -3,8 +3,8 @@
 [🏠 Inicio](../../../README.md) · [🛩️ Curso: Aviones pequeños](../README.md) · 🔧 Sistemas mecánicos
 
 Este módulo abre el avión por dentro. Explica cada sistema, como funciona y como
-se conecta con los demás. Es la base técnica para entender los mandos (Módulo 4)
-y la física del vuelo (Módulo 5).
+se conecta con los demás. Es la base técnica para entender los mandos (Módulo 5)
+y la física del vuelo (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -140,9 +140,9 @@ Informan al piloto y sostienen el vuelo cuando no hay referencias visuales.
 5. El **tren de aterrizaje** sostiene el avión en tierra.
 6. Los **instrumentos** informan al piloto para volar con seguridad.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-avion-pequeno.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-avion-pequeno.md)
 muestra como el piloto opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-avion-pequeno.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-avion-pequeno.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-avion-pequeno.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-avion-pequeno.md)

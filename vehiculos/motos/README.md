@@ -8,7 +8,7 @@
 > siguen los demás vehículos.
 
 ![Nivel](https://img.shields.io/badge/nivel-introductorio-green)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-Clase%20C-orange)
 
 ---
@@ -53,14 +53,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución de la moto, línea de tiempo. | [Abrir](historia/historia-moto.md) |
 | 2 | 📋 Características | Que es, tipos de moto y para que sirve cada uno. | [Abrir](operacion/caracteristicas-moto.md) |
-| 3 | 🔧 Sistemas mecánicos | Motor, transmisión, chasis, suspensión, frenos, neumáticos. | [Abrir](operacion/sistemas-mecanicos-moto.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puesto de mando, controles y tablero. | [Abrir](mandos/manual-mandos-moto.md) |
-| 5 | 🧪 Principios y operación | Física de la conducción y fases de operación. | [Abrir](operacion/principios-moto.md) |
-| 6 | 🌍 Entornos de trabajo | Ciudad, carretera, todo terreno, reparto. | [Abrir](operacion/entornos-moto.md) |
-| 7 | ⚖️ Reglamentos | Ley chilena: licencia clase C, casco, seguridad. | [Abrir](reglamentos/reglamentos-moto.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-moto.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-moto.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-moto.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-moto.md) |
+| 4 | 🔧 Sistemas mecánicos | Motor, transmisión, chasis, suspensión, frenos, neumáticos. | [Abrir](operacion/sistemas-mecanicos-moto.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puesto de mando, controles y tablero. | [Abrir](mandos/manual-mandos-moto.md) |
+| 6 | 🧪 Principios y operación | Física de la conducción y fases de operación. | [Abrir](operacion/principios-moto.md) |
+| 7 | 🌍 Entornos de trabajo | Ciudad, carretera, todo terreno, reparto. | [Abrir](operacion/entornos-moto.md) |
+| 8 | ⚖️ Reglamentos | Ley chilena: licencia clase C, casco, seguridad. | [Abrir](reglamentos/reglamentos-moto.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-moto.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-moto.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-moto.md) |
 
 ---
 

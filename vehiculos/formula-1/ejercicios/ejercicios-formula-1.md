@@ -44,7 +44,7 @@ de la **frenada** y la devuelve como empuje; el MGU-H recupera **calor de los
 gases de escape** en el turbocompresor y además reduce el retardo del turbo. La
 batería guarda lo recuperado y entrega un impulso eléctrico extra por vuelta.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-formula-1.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-formula-1.md).
 
 </details>
 
@@ -59,7 +59,7 @@ todo (acelerar, frenar y girar) pasa por él. Fuera de la ventana baja la
 adherencia disponible y aparecen bloqueos y pérdidas de eje trasero. Lo mismo
 ocurre con los frenos de carbono, que también necesitan calor para frenar bien.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-formula-1.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-formula-1.md).
 
 </details>
 
@@ -77,7 +77,7 @@ Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-formula-1.
 El orden importa: frenar recto y soltar el freno de forma progresiva libera el
 agarre que hace falta para girar.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-formula-1.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-formula-1.md).
 
 </details>
 
@@ -110,7 +110,7 @@ un reglamento **deportivo** (cómo se compite) y uno **técnico** (cómo es el
 coche). No requiere licencia de conducir común, sino una **superlicencia
 deportiva** de la FIA.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-formula-1.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-formula-1.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md), sección 1.9.
 
 </details>
@@ -152,7 +152,7 @@ curvas lentas y cuidado de los frenos. En un circuito permanente, con
 escapatorias y curvas rápidas, el riesgo típico es otro: sobreexigir gomas y
 frenos buscando ritmo y trazada limpia.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-formula-1.md).
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-formula-1.md).
 
 </details>
 
@@ -189,7 +189,7 @@ tiempo respecto a una vuelta de referencia. Así el usuario **ve** que la barra
 se vacía al desplegar y se recupera al frenar, y relaciona por sí mismo el gasto
 con el tiempo ganado o perdido.
 
-Módulo 8:
+Módulo 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-formula-1.md).
 
 </details>
@@ -207,7 +207,7 @@ adherencia, que son los conceptos físicos centrales. La gestión de ERS, el
 reparto de frenada, las ventanas de temperatura y la estrategia de neumáticos
 son la capa técnica y llegan al final.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-formula-1.md) y
+Módulo 6: [🧪 Principios y operación](../operacion/principios-formula-1.md) y
 los [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

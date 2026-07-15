@@ -28,7 +28,7 @@ conjunto. Todo vehículo carga primero consigo mismo: estructura, motores y
 combustible. Al agrandarlo, su propia estructura pesa más y se come la parte que
 quedaba para carga útil. Por eso crecer sin más no mejora el resultado.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-thunderbird-2.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-thunderbird-2.md).
 
 </details>
 
@@ -95,7 +95,7 @@ propio bastidor y no queda margen para carga útil. El buen diseño busca el
 equilibrio, no el máximo. Es el punto que más cuesta del curso y el más
 importante.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-thunderbird-2.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-thunderbird-2.md).
 
 </details>
 
@@ -111,7 +111,7 @@ historia, pero no son leyes de la naturaleza. Corregirlas no es un reproche a la
 obra: es el objetivo educativo, aprender la diferencia entre lo que emociona en
 pantalla y lo que ocurriría de verdad.
 
-Módulo 7:
+Módulo 8:
 [⚖️ Reglas del universo](../reglamentos/reglas-universo-thunderbird-2.md).
 
 </details>
@@ -241,7 +241,7 @@ donde la lección empieza a morder. La fracción de carga útil y la gestión de
 estructura y apoyos son **nivel 3 (técnico)**: son la explicación del compromiso,
 y llegan cuando el usuario ya lo ha sentido.
 
-Módulo 8:
+Módulo 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-thunderbird-2.md) y
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 

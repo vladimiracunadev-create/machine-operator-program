@@ -101,9 +101,9 @@ reciclar aire y agua, controlar temperatura y proteger de la radiación.
 4. Los **sensores** informan al puente sobre el entorno.
 5. El **soporte vital** mantiene el habitat en condiciones.
 
-El [Módulo 4: Mandos](../mandos/manual-mandos-nave-exploracion.md) muestra como
+El [Módulo 5: Mandos](../mandos/manual-mandos-nave-exploracion.md) muestra como
 la tripulación opera todos estos sistemas desde el puente.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-nave-exploracion.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-nave-exploracion.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-nave-exploracion.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-nave-exploracion.md)

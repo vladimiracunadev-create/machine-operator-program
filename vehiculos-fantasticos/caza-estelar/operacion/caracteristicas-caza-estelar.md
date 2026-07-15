@@ -6,7 +6,7 @@
 
 Que es un caza estelar genérico, que rasgos lo definen en la ficción y cuales
 tendrían sentido físico real. Este módulo da el contexto antes de abrir la
-tecnología por dentro en el Módulo 3.
+tecnología por dentro en el Módulo 4.
 
 ---
 
@@ -63,4 +63,4 @@ deja preguntar si sería posible y por qué.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-caza-estelar.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-caza-estelar.md)
+[⬅️ Anterior: Historia](../historia/historia-caza-estelar.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-caza-estelar.md)

@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🕹️ Curso: Drones](../README.md) · 📋 Características
 
 Que es un dron, que tipos existen y para que sirve cada uno. Este módulo da el
-contexto antes de abrir la mecánica (Módulo 3).
+contexto antes de abrir la mecánica (Módulo 4).
 
 ---
 
@@ -74,4 +74,4 @@ de este curso.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-dron.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-dron.md)
+[⬅️ Anterior: Historia](../historia/historia-dron.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-dron.md)

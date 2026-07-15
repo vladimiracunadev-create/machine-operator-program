@@ -5,7 +5,7 @@
 Este módulo abre el camión por dentro y es el corazón del curso. Explica cada
 sistema, como funciona y cómo se conecta con los demás, con foco en el motor
 diesel, el frenado neumático y la gestión del peso. Es la base técnica para
-entender los mandos (Módulo 4) y la física de la conducción con carga (Módulo 5).
+entender los mandos (Módulo 5) y la física de la conducción con carga (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -182,7 +182,7 @@ ejes y la ley. Tres conceptos ordenan todo:
 - **Ejes motrices y de apoyo**: los motrices reciben la fuerza; los de apoyo (o
   ejes elevables) solo soportan carga y pueden subirse cuando el camión va vacío.
 - **PBV y licencia**: el PBV determina la clase de licencia y define si el camión
-  es simple o requiere configuración especial (ver Módulo 7).
+  es simple o requiere configuración especial (ver Módulo 8).
 
 ---
 
@@ -226,9 +226,9 @@ flowchart LR
 6. El **freno de motor** y el **retarder** frenan sin desgaste en pendiente.
 7. En un articulado, la **quinta rueda** transmite el arrastre al semirremolque.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-camion.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-camion.md)
 muestra como el conductor opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-camion.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-camion.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-camion.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-camion.md)

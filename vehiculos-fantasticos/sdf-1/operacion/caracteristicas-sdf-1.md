@@ -6,7 +6,7 @@
 
 Que es una nave-fortaleza gigante genérica, que rasgos la definen en la ficción
 y cuales tendrían sentido físico real. Este módulo da el contexto antes de abrir
-la tecnología por dentro en el Módulo 3.
+la tecnología por dentro en el Módulo 4.
 
 ---
 
@@ -64,4 +64,4 @@ preguntar si sería posible y por qué.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-sdf-1.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-sdf-1.md)
+[⬅️ Anterior: Historia](../historia/historia-sdf-1.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-sdf-1.md)

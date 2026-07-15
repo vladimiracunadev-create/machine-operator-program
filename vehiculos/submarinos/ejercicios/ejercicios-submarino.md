@@ -26,7 +26,7 @@ La relación entre su peso y el empuje del agua que desplaza (Arquímedes). Con
 sube o flota; con **flotabilidad negativa** (tanques con agua) pesa más y baja;
 con **flotabilidad neutra** peso y empuje se igualan y se mantiene a la cota.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-submarino.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-submarino.md).
 
 </details>
 
@@ -78,7 +78,7 @@ superficie.
 Y fuera de esa secuencia normal está la **emergencia**: falla o riesgo, con
 emersión de emergencia, achique y soporte vital.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-submarino.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-submarino.md).
 
 </details>
 
@@ -105,7 +105,7 @@ En **superficie** y **enarbolando su pabellón** (Art. 20). El submarino es un
 buque de guerra y se rige por normativa militar; en Chile, la Armada de Chile y
 la Ley 18.948, no la Ley de Navegación mercante.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-submarino.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-submarino.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -129,7 +129,7 @@ Lo razonable es corregir con los planos de inmersión mientras se ajusta el last
 para recuperar la neutralidad en la nueva densidad, vigilando el profundímetro y
 el manómetro para no acercarse a la cota máxima segura.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-submarino.md).
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-submarino.md).
 
 </details>
 
@@ -166,7 +166,7 @@ cota máxima segura. El margen vertical disponible se estrecha por abajo.
 El ajuste es navegar con sonda y mantener un margen de seguridad respecto del
 fondo, con la profundidad siempre visible.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-submarino.md).
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-submarino.md).
 
 </details>
 
@@ -190,7 +190,7 @@ una cota máxima.
 Así el usuario entiende solo la cadena lastre → peso vs empuje → inmersión, que es
 la que resume el diagrama de flotabilidad del curso.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-submarino.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-submarino.md).
 
 </details>
 

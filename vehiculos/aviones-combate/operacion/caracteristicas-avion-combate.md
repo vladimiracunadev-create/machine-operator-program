@@ -4,7 +4,7 @@
 
 Que es un avión de combate, que generaciones existen y que roles generales cumple,
 siempre en marco público y divulgativo. Este módulo da el contexto antes de abrir
-los sistemas de la aeronave (Módulo 3).
+los sistemas de la aeronave (Módulo 4).
 
 ---
 
@@ -67,4 +67,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-avion-combate.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-avion-combate.md)
+[⬅️ Anterior: Historia](../historia/historia-avion-combate.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-avion-combate.md)

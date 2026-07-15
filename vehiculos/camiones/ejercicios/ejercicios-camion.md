@@ -24,7 +24,7 @@ arrastrar gran masa. El diesel además no usa bujía: comprime el aire hasta que
 calienta e inyecta el combustible, que se enciende por la alta temperatura
 (encendido por compresión).
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-camion.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-camion.md).
 
 </details>
 
@@ -94,7 +94,7 @@ y [🎛️ Mandos e instrumentos](../mandos/manual-mandos-camion.md).
 El orden importa: cambiar de marcha ya dentro de la bajada es tarde, y confiar el
 descenso al freno de servicio es lo que lleva al fading.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-camion.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-camion.md).
 
 </details>
 
@@ -110,7 +110,7 @@ carga, simple o articulado, que además incluye la A-4. El tractocamion con
 semirremolque requiere **A-5**. Ambas según la Ley 18.290, Art. 12. La edad mínima
 es 18 años (Art. 13).
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-camion.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-camion.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -202,7 +202,7 @@ Complementa con el **reparto por eje** y la **adherencia**, que también afectan
 freno. En niveles de realismo, la inercia por masa y la distancia de frenado
 entran en el nivel 2.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-camion.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-camion.md).
 
 </details>
 
@@ -220,7 +220,7 @@ del camión. La caja multimarcha, el freno de motor y el retarder, la presión d
 aire, el reparto por eje y la articulación llegan al final.
 
 Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md) y el
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-camion.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-camion.md).
 
 </details>
 

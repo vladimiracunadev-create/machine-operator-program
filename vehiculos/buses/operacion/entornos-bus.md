@@ -61,7 +61,7 @@ mindmap
 
 Cada entorno es un escenario con su superficie, clima, tráfico, pendientes y tipo
 de parada. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-bus.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-bus.md).
 
 ---
 

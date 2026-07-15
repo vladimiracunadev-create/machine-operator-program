@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🛗 Curso: Ascensores](../README.md) · 📋 Características
 
 Que es un ascensor, que tipos existen y para que sirve cada uno. Este módulo da
-el contexto antes de abrir la mecánica (Módulo 3).
+el contexto antes de abrir la mecánica (Módulo 4).
 
 ---
 
@@ -63,4 +63,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-ascensor.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-ascensor.md)
+[⬅️ Anterior: Historia](../historia/historia-ascensor.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-ascensor.md)

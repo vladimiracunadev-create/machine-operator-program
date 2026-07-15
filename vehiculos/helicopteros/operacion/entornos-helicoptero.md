@@ -56,7 +56,7 @@ mindmap
 
 Cada entorno es un escenario con su superficie, clima, densidad del aire y
 obstáculos. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-helicoptero.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-helicoptero.md).
 
 ---
 

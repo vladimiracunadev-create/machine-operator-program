@@ -9,7 +9,7 @@
 > la ciencia real de la ciencia ficción.**
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Marco](https://img.shields.io/badge/marco-tratados%20espaciales-orange)
 
 ---
@@ -59,14 +59,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Historia de la exploración espacial, línea de tiempo. | [Abrir](historia/historia-nave-espacial.md) |
 | 2 | 📋 Características | Que es, tipos de nave y para que sirve cada uno. | [Abrir](operacion/caracteristicas-nave-espacial.md) |
-| 3 | 🔧 Sistemas mecánicos | Propulsión, etapas, soporte vital, energía, control de actitud. | [Abrir](operacion/sistemas-mecanicos-nave-espacial.md) |
-| 4 | 🎛️ Mandos e instrumentos | Cabina, controles y panel de la nave. | [Abrir](mandos/manual-mandos-nave-espacial.md) |
-| 5 | 🧪 Principios y operación | Física orbital y fases de la misión. | [Abrir](operacion/principios-nave-espacial.md) |
-| 6 | 🌍 Entornos de trabajo | Órbita baja, espacio profundo y reentrada. | [Abrir](operacion/entornos-nave-espacial.md) |
-| 7 | ⚖️ Reglamentos | Tratados espaciales y marco nacional. | [Abrir](reglamentos/reglamentos-nave-espacial.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-nave-espacial.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-nave-espacial.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-nave-espacial.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-nave-espacial.md) |
+| 4 | 🔧 Sistemas mecánicos | Propulsión, etapas, soporte vital, energía, control de actitud. | [Abrir](operacion/sistemas-mecanicos-nave-espacial.md) |
+| 5 | 🎛️ Mandos e instrumentos | Cabina, controles y panel de la nave. | [Abrir](mandos/manual-mandos-nave-espacial.md) |
+| 6 | 🧪 Principios y operación | Física orbital y fases de la misión. | [Abrir](operacion/principios-nave-espacial.md) |
+| 7 | 🌍 Entornos de trabajo | Órbita baja, espacio profundo y reentrada. | [Abrir](operacion/entornos-nave-espacial.md) |
+| 8 | ⚖️ Reglamentos | Tratados espaciales y marco nacional. | [Abrir](reglamentos/reglamentos-nave-espacial.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-nave-espacial.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-nave-espacial.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-nave-espacial.md) |
 
 ---
 

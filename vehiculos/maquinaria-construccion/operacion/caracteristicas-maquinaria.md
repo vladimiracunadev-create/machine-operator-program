@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construcción](../README.md) · 📋 Características
 
 Que es la maquinaria de construcción, que tipos existen y para que sirve cada
-uno. Este módulo da el contexto antes de abrir la mecánica (Módulo 3).
+uno. Este módulo da el contexto antes de abrir la mecánica (Módulo 4).
 
 ---
 
@@ -66,4 +66,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-maquinaria.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-maquinaria.md)
+[⬅️ Anterior: Historia](../historia/historia-maquinaria.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-maquinaria.md)

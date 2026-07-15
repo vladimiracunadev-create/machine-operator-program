@@ -9,7 +9,7 @@
 > frenos neumáticos y la gestión del peso bruto vehicular.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-Clase%20A--4%20%2F%20A--5-orange)
 
 ---
@@ -57,14 +57,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del camión, línea de tiempo. | [Abrir](historia/historia-camion.md) |
 | 2 | 📋 Características | Que es, tipos de camión y para que sirve cada uno. | [Abrir](operacion/caracteristicas-camion.md) |
-| 3 | 🔧 Sistemas mecánicos | Motor diesel, caja, frenos de aire, retarder, ejes, quinta rueda. | [Abrir](operacion/sistemas-mecanicos-camion.md) |
-| 4 | 🎛️ Mandos e instrumentos | Cabina, controles, retarder y tablero. | [Abrir](mandos/manual-mandos-camion.md) |
-| 5 | 🧪 Principios y operación | Masa, inercia, pendientes y fases de operación. | [Abrir](operacion/principios-camion.md) |
-| 6 | 🌍 Entornos de trabajo | Ruta, ciudad, montaña, minero y distribución. | [Abrir](operacion/entornos-camion.md) |
-| 7 | ⚖️ Reglamentos | Ley chilena: licencia clase A-4 y A-5, pesos y seguridad. | [Abrir](reglamentos/reglamentos-camion.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-camion.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-camion.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-camion.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-camion.md) |
+| 4 | 🔧 Sistemas mecánicos | Motor diesel, caja, frenos de aire, retarder, ejes, quinta rueda. | [Abrir](operacion/sistemas-mecanicos-camion.md) |
+| 5 | 🎛️ Mandos e instrumentos | Cabina, controles, retarder y tablero. | [Abrir](mandos/manual-mandos-camion.md) |
+| 6 | 🧪 Principios y operación | Masa, inercia, pendientes y fases de operación. | [Abrir](operacion/principios-camion.md) |
+| 7 | 🌍 Entornos de trabajo | Ruta, ciudad, montaña, minero y distribución. | [Abrir](operacion/entornos-camion.md) |
+| 8 | ⚖️ Reglamentos | Ley chilena: licencia clase A-4 y A-5, pesos y seguridad. | [Abrir](reglamentos/reglamentos-camion.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-camion.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-camion.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-camion.md) |
 
 ---
 

@@ -59,7 +59,7 @@ mindmap
 
 Cada entorno es un escenario con su nivel de radiación, gravedad y distancia a la
 ayuda más cercana. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-nave-exploracion.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-nave-exploracion.md).
 
 ---
 

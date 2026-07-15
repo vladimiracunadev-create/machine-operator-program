@@ -10,7 +10,7 @@
 > recuperación de propulsores reutilizables.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Marco](https://img.shields.io/badge/marco-tratados%20espaciales-orange)
 
 ---
@@ -53,14 +53,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del cohete, línea de tiempo. | [Abrir](historia/historia-cohete.md) |
 | 2 | 📋 Características | Que es, tipos de cohete y para que sirve cada uno. | [Abrir](operacion/caracteristicas-cohete.md) |
-| 3 | 🔧 Sistemas mecánicos | Motores, propelentes, etapas, estructura, avionica. | [Abrir](operacion/sistemas-mecanicos-cohete.md) |
-| 4 | 🎛️ Mandos e instrumentos | Control de misión, telemetría y cuenta atrás. | [Abrir](mandos/manual-mandos-cohete.md) |
-| 5 | 🧪 Principios y operación | Empuje, ecuación del cohete y fases de vuelo. | [Abrir](operacion/principios-cohete.md) |
-| 6 | 🌍 Entornos de trabajo | Plataforma, ascenso, órbita y retorno del propulsor. | [Abrir](operacion/entornos-cohete.md) |
-| 7 | ⚖️ Reglamentos | Estado de lanzamiento y tratados espaciales. | [Abrir](reglamentos/reglamentos-cohete.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-cohete.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-cohete.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-cohete.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-cohete.md) |
+| 4 | 🔧 Sistemas mecánicos | Motores, propelentes, etapas, estructura, avionica. | [Abrir](operacion/sistemas-mecanicos-cohete.md) |
+| 5 | 🎛️ Mandos e instrumentos | Control de misión, telemetría y cuenta atrás. | [Abrir](mandos/manual-mandos-cohete.md) |
+| 6 | 🧪 Principios y operación | Empuje, ecuación del cohete y fases de vuelo. | [Abrir](operacion/principios-cohete.md) |
+| 7 | 🌍 Entornos de trabajo | Plataforma, ascenso, órbita y retorno del propulsor. | [Abrir](operacion/entornos-cohete.md) |
+| 8 | ⚖️ Reglamentos | Estado de lanzamiento y tratados espaciales. | [Abrir](reglamentos/reglamentos-cohete.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-cohete.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-cohete.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-cohete.md) |
 
 ---
 

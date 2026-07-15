@@ -131,9 +131,9 @@ que evacuar para no dañar la estructura.
 4. La **computadora** equilibra empuje y toberas para un vuelo estable.
 5. Los **sensores** informan de altura, velocidad y entorno.
 
-Con esto claro, el [Módulo 4: Mandos](../mandos/manual-mandos-thunderbird-1.md)
+Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-thunderbird-1.md)
 muestra como el piloto operaría cada sistema.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-thunderbird-1.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-thunderbird-1.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-thunderbird-1.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-thunderbird-1.md)

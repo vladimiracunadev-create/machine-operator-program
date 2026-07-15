@@ -139,9 +139,9 @@ instrumentos.
 4. La **computadora** coordina todo respetando la conservación del momento.
 5. El **hiperimpulso** es la licencia creativa que rompe la física conocida.
 
-Con esto claro, el [Módulo 4: Mandos](../mandos/manual-mandos-halcon-milenario.md)
+Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-halcon-milenario.md)
 muestra como el piloto operaría cada sistema.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-halcon-milenario.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-halcon-milenario.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-halcon-milenario.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-halcon-milenario.md)

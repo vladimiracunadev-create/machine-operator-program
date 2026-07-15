@@ -5,7 +5,7 @@
 Este módulo abre la grúa por dentro y es el corazón del curso. Explica la
 mecánica del izaje: cómo se sostiene la carga, como se mantiene la estabilidad y
 por qué existe un límite de peso para cada posición. Es la base técnica para
-entender los mandos (Módulo 4) y la física de la operación (Módulo 5).
+entender los mandos (Módulo 5) y la física de la operación (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -231,9 +231,9 @@ desplaza el mando.
 5. La **tabla de carga** define el límite de peso para cada radio y ángulo.
 6. El **LMI** vigila el momento de carga y evita superar el punto de vuelco.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-grua.md) muestra
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-grua.md) muestra
 como el operador acciona cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-grua.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-grua.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-grua.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-grua.md)

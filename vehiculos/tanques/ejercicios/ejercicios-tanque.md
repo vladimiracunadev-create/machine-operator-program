@@ -27,7 +27,7 @@ gira hacia el lado más lento. Un giro suave reduce ligeramente una oruga
 respecto de la otra; un giro cerrado aumenta esa diferencia; y en el giro sobre
 el eje las orugas se mueven en sentido contrario, girando casi en el sitio.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tanque.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tanque.md).
 
 </details>
 
@@ -42,7 +42,7 @@ la superficie de contacto. La oruga apoya sobre una superficie mucho mayor que
 una rueda, así que a igual peso presiona menos y se hunde menos. Esa baja
 presión es lo que mantiene la movilidad en terreno blando.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tanque.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tanque.md).
 
 </details>
 
@@ -94,7 +94,7 @@ y [⚖️ Reglamentos](../reglamentos/reglamentos-tanque.md), junto a
 El ángulo importa: abordar un obstáculo de lado es uno de los errores típicos y
 puede descarrilar una oruga.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-tanque.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-tanque.md).
 
 </details>
 
@@ -109,7 +109,7 @@ institucional del Ejército de Chile, dependiente del Ministerio de Defensa
 Nacional, bajo la **Ley 18.948** (Orgánica Constitucional de las Fuerzas
 Armadas). **No** se les aplica la Ley de Tránsito ni las licencias civiles.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-tanque.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-tanque.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md), sección 1.10.
 
 </details>
@@ -174,7 +174,7 @@ velocidad; aquí el problema es llegar rápido a algo que no se vio. También
 conviene vigilar la temperatura y los niveles, porque el esfuerzo del motor
 crece.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-tanque.md).
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-tanque.md).
 
 </details>
 
@@ -195,7 +195,7 @@ no se orienta nada: una oruga baja y la otra no, y el vehículo se va hacia el
 lado más lento. Llevando la diferencia al extremo, las orugas se oponen y el
 giro ocurre casi sobre el eje.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tanque.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tanque.md).
 
 </details>
 
@@ -212,7 +212,7 @@ que son los conceptos físicos centrales de la movilidad. Las marchas, la relaci
 potencia/peso y la presión sobre el suelo son la capa de detalle y llegan al
 final.
 
-Módulo 5: [🧪 Principios](../operacion/principios-tanque.md) y los
+Módulo 6: [🧪 Principios](../operacion/principios-tanque.md) y los
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

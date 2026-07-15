@@ -9,7 +9,7 @@
 > puntos y la estabilidad en pendiente.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-Clase%20D-orange)
 
 ---
@@ -53,14 +53,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del tractor, línea de tiempo. | [Abrir](historia/historia-tractor.md) |
 | 2 | 📋 Características | Que es, tipos de tractor y para que sirve cada uno. | [Abrir](operacion/caracteristicas-tractor.md) |
-| 3 | 🔧 Sistemas mecánicos | Motor diesel, PTO, tres puntos, hidráulica, lastre. | [Abrir](operacion/sistemas-mecanicos-tractor.md) |
-| 4 | 🎛️ Mandos e instrumentos | Cabina, controles, mandos hidráulicos y tablero. | [Abrir](mandos/manual-mandos-tractor.md) |
-| 5 | 🧪 Principios y operación | Tracción, patinaje, estabilidad y fases de trabajo. | [Abrir](operacion/principios-tractor.md) |
-| 6 | 🌍 Entornos de trabajo | Campo, pendiente, camino rural y faena. | [Abrir](operacion/entornos-tractor.md) |
-| 7 | ⚖️ Reglamentos | Ley chilena: licencia clase D, seguridad agrícola. | [Abrir](reglamentos/reglamentos-tractor.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-tractor.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-tractor.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-tractor.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-tractor.md) |
+| 4 | 🔧 Sistemas mecánicos | Motor diesel, PTO, tres puntos, hidráulica, lastre. | [Abrir](operacion/sistemas-mecanicos-tractor.md) |
+| 5 | 🎛️ Mandos e instrumentos | Cabina, controles, mandos hidráulicos y tablero. | [Abrir](mandos/manual-mandos-tractor.md) |
+| 6 | 🧪 Principios y operación | Tracción, patinaje, estabilidad y fases de trabajo. | [Abrir](operacion/principios-tractor.md) |
+| 7 | 🌍 Entornos de trabajo | Campo, pendiente, camino rural y faena. | [Abrir](operacion/entornos-tractor.md) |
+| 8 | ⚖️ Reglamentos | Ley chilena: licencia clase D, seguridad agrícola. | [Abrir](reglamentos/reglamentos-tractor.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-tractor.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-tractor.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-tractor.md) |
 
 ---
 

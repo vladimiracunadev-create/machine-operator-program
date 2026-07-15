@@ -54,7 +54,7 @@ mindmap
 
 Cada entorno es un escenario con su superficie, pendiente y clima. Ver cómo se
 modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-tanque.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-tanque.md).
 
 ---
 

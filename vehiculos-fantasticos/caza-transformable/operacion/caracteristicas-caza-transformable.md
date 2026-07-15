@@ -69,4 +69,4 @@ de sistemas, es enorme en peso, mecanismos y estructura.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-caza-transformable.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-caza-transformable.md)
+[⬅️ Anterior: Historia](../historia/historia-caza-transformable.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-caza-transformable.md)

@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Naves espaciales](../README.md) · 📋 Características
 
 Que es una nave espacial, que tipos existen y para que sirve cada uno. Este módulo
-da el contexto antes de abrir los sistemas de la nave (Módulo 3), separando
+da el contexto antes de abrir los sistemas de la nave (Módulo 4), separando
 siempre ciencia real de ficción.
 
 ---
@@ -65,4 +65,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-nave-espacial.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-nave-espacial.md)
+[⬅️ Anterior: Historia](../historia/historia-nave-espacial.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-nave-espacial.md)

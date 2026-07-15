@@ -42,7 +42,7 @@ misma familia de motores que usa la tracción eléctrica pura; solo cambia de
 dónde viene la corriente. La ventaja es que no necesita catenaria y sirve en
 vías sin electrificar.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-pasajeros.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-pasajeros.md).
 
 </details>
 
@@ -60,7 +60,7 @@ demasiada tracción hace patinar, demasiado freno bloquea. La humedad, las hojas
 y la grasa lo reducen aún más; el arenado lo aumenta de forma puntual, y más
 peso por eje da más adherencia disponible.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-pasajeros.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-pasajeros.md).
 
 </details>
 
@@ -95,7 +95,7 @@ El orden importa: la gran masa obliga a decidir temprano, y el dinámico va
 primero porque ahorra desgaste de zapatas y, en su variante regenerativa,
 devuelve energía a la catenaria.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-tren-pasajeros.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-pasajeros.md).
 
 </details>
 
@@ -110,7 +110,7 @@ ferroviario, que define EFE según su normativa interna. El régimen exacto de
 habilitación de maquinistas queda por confirmar en la fuente oficial. La
 autoridad reguladora es el Ministerio de Transportes (MTT).
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-pasajeros.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-pasajeros.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md), sección 1.6.
 
 </details>
@@ -203,7 +203,7 @@ hasta la señal o el andén. Así el usuario **ve** que la marca de frenado pasa
 antes que el objetivo cuando decidió tarde, y entiende solo por qué hay que
 frenar mucho antes que en un vehículo de carretera.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tren-pasajeros.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tren-pasajeros.md).
 
 </details>
 
@@ -219,7 +219,7 @@ quiere enseñar. El nivel 2 introduce la inercia, la gran masa y la distancia de
 frenado, que son los conceptos físicos centrales del tren. La adherencia variable,
 el freno dinámico, el ATP y el arenado son el detalle técnico y llegan al final.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-tren-pasajeros.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-pasajeros.md).
 Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

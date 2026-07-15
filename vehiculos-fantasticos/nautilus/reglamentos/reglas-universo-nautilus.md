@@ -39,9 +39,9 @@ En el mundo real:
 - La navegación submarina real está sujeta a normas y tratados internacionales.
 
 Cuando la simulación quiera ser fiel a la física, debe seguir el
-[Módulo 5: Principios](../operacion/principios-nautilus.md); cuando quiera ser
+[Módulo 6: Principios](../operacion/principios-nautilus.md); cuando quiera ser
 fiel a la novela, puede seguir estas reglas del universo. El
-[Módulo 8: Simulación](../simulacion/diseno-simulador-nautilus.md) ofrece un
+[Módulo 9: Simulación](../simulacion/diseno-simulador-nautilus.md) ofrece un
 "modo ciencia/ficción" precisamente para elegir entre ambas.
 
 ---

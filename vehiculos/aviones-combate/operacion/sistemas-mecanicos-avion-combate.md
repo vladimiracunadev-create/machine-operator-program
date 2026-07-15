@@ -5,7 +5,7 @@
 Este módulo abre el avión por dentro **solo** en su física de vuelo y sus sistemas
 generales de aeronave: célula, alas, superficies de control y motor a reacción a
 nivel divulgativo. **No** trata sistemas de armas ni de misión. Es la base técnica
-para entender los mandos (Módulo 4) y la física del vuelo (Módulo 5).
+para entender los mandos (Módulo 5) y la física del vuelo (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -142,9 +142,9 @@ Informan al piloto y ayudan al control del vuelo.
 5. Los **sistemas generales** sostienen al piloto y al avión en altitud.
 6. Los **instrumentos** informan para volar con seguridad.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-avion-combate.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-avion-combate.md)
 muestra como el piloto opera estos sistemas generales.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-avion-combate.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-avion-combate.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-avion-combate.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-avion-combate.md)

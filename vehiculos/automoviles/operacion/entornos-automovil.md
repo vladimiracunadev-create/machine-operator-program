@@ -59,7 +59,7 @@ mindmap
 
 Cada entorno es un escenario con su superficie, clima, tráfico y pendiente. Ver
 como se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-automovil.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-automovil.md).
 
 ---
 

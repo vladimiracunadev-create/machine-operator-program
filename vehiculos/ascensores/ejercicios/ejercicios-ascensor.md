@@ -41,7 +41,7 @@ ranurada y aprovecha el agarre del cable en sus ranuras. El contrapeso no solo
 equilibra: su peso da la **tensión** que hace posible esa fricción. Sin tensión
 no hay agarre.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-ascensor.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-ascensor.md).
 
 </details>
 
@@ -58,7 +58,7 @@ vigila la velocidad y actúa si se excede la permitida en el descenso.
 
 Son sistemas **independientes**: esa redundancia es lo que evita la caída libre.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-ascensor.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-ascensor.md).
 
 </details>
 
@@ -77,7 +77,7 @@ hasta que se abre la puerta en el destino.
 6. **Frenado**: desaceleración y nivelación precisa.
 7. **Parada**: el freno del motor sostiene la cabina con la puerta abierta.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-ascensor.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-ascensor.md).
 
 </details>
 
@@ -108,7 +108,7 @@ personal competente de empresas autorizadas, la certificación la emite un
 organismo autorizado y la fiscalización recae en la municipalidad (Dirección de
 Obras). Los plazos exactos están por confirmar.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-ascensor.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-ascensor.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md), sección 1.8.
 
 </details>
@@ -133,7 +133,7 @@ Lo que corresponde es que salgan personas hasta que la alerta se apague. La
 carga máxima está indicada en la cabina y respetarla es una regla de seguridad,
 no una recomendación.
 
-Módulo 4: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-ascensor.md).
+Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-ascensor.md).
 
 </details>
 
@@ -171,7 +171,7 @@ En **hospital** el problema es la carga y la urgencia: camillas y equipos piden
 cabina amplia, modo de prioridad y una nivelación exacta, porque una cabina mal
 nivelada con el piso es un obstáculo real para una camilla.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-ascensor.md).
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-ascensor.md).
 
 </details>
 
@@ -193,7 +193,7 @@ Así el usuario **ve** que el indicador baja casi a cero cuando cabina y
 contrapeso se equilibran, y sube cuando la carga se aleja de ese punto: entiende
 solo que el motor mueve la diferencia, no todo el peso.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-ascensor.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-ascensor.md).
 
 </details>
 

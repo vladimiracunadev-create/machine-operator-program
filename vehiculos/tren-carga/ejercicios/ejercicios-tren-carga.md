@@ -26,7 +26,7 @@ sobre rieles. En la tracción eléctrica por catenaria no hay motor diesel: el
 pantógrafo toma corriente del cable aéreo y alimenta directamente los motores de
 tracción.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md).
 
 </details>
 
@@ -41,7 +41,7 @@ cuando sube. Una tubería con aire recorre todo el tren; al reducir la presión,
 cada vagón aplica su freno de forma automática y a la vez. Si el tren se parte,
 la presión cae sola y toda la composición frena sin que nadie intervenga.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md).
 
 </details>
 
@@ -57,7 +57,7 @@ adherencia limitada es la que restringe la fuerza de arranque y de frenado, así
 que el arenado permite aplicar más fuerza sin patinar, sobre todo al arrancar con
 gran tonelaje o con el riel húmedo.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md)
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md)
 y módulo 9: [🧰 Recursos](../recursos/recursos-tren-carga.md).
 
 </details>
@@ -74,7 +74,7 @@ son aplicar la tracción de forma **progresiva**, evitar mezclar tramos en tensi
 y en compresión a la vez, usar el freno dinámico para controlar la velocidad de
 forma suave, anticipar las pendientes y coordinar las locomotoras remotas.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-tren-carga.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-carga.md).
 
 </details>
 
@@ -88,7 +88,7 @@ en la locomotora y en los vagones. El **freno independiente** frena solo la
 locomotora, y por eso es útil en maniobras y en ajustes finos, como los del patio
 de maniobras.
 
-Módulo 4: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-tren-carga.md).
+Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-tren-carga.md).
 
 </details>
 
@@ -104,7 +104,7 @@ abiertos sino sobre una vía férrea controlada. En el marco chileno, EFE figura
 como dueño de la infraestructura y operador estatal histórico, y el MTT en el rol
 regulador del sector.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-carga.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-carga.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -129,7 +129,7 @@ tracción actúan como generadores y retienen el tren convirtiendo su movimiento
 electricidad, sin gastar zapatas. Sumado a eso, gran anticipación y arenado si la
 adherencia está comprometida.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-tren-carga.md) y
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-tren-carga.md) y
 módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md).
 
 </details>
@@ -150,7 +150,7 @@ enganches, que es exactamente la fuerza longitudinal que puede romperlos.
 La recomendación es tracción **progresiva**, arenado para subir la adherencia al
 arrancar, y vigilar el patinaje mientras se sube el esfuerzo.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-tren-carga.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-carga.md).
 
 </details>
 
@@ -169,7 +169,7 @@ Corresponde quedarse en la fase de carga de aire y esperar a que la presión
 llegue a toda la composición, revisando enganches y mangueras de aire como en la
 inspección previa. Solo con el aire cargado el tren pasa al estado de preparado.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-tren-carga.md) y
+Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-carga.md) y
 módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-carga.md).
 
 </details>
@@ -192,7 +192,7 @@ puede transmitir y las ruedas patinan. La interfaz debería advertir el patinaje
 sugerir arenado en los niveles de realismo más altos; al arenar, el indicador
 sube y el tren por fin avanza.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tren-carga.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tren-carga.md).
 
 </details>
 
@@ -209,7 +209,7 @@ introduce la inercia, la adherencia limitada y la distancia de frenado, que son
 los conceptos físicos centrales de la gestión de masa. Las fuerzas
 longitudinales, el distributed power y el freno dinámico llegan al final.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-tren-carga.md) y
+Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-carga.md) y
 los [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

@@ -61,7 +61,7 @@ Cada entorno es un escenario con su gravedad, presencia o ausencia de aire y
 estado de la bodega. Cargar o descargar entre misiones cambia por completo como
 responde la nave, y es una gran lección sobre la relación empuje/masa. Ver como
 se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-halcon-milenario.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-halcon-milenario.md).
 
 ---
 

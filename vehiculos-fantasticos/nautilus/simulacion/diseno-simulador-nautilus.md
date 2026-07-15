@@ -30,10 +30,10 @@ inmersión.
 La simulación incluye una variable central, el **modo ciencia/ficción**, que
 decide cómo se comporta la nave:
 
-- **Modo ciencia**: se aplica la física real del Módulo 5. El aire y la energía
+- **Modo ciencia**: se aplica la física real del Módulo 6. El aire y la energía
   se agotan, la presión crece con la profundidad y el casco tiene un límite de
   aplastamiento.
-- **Modo ficción**: se aplican las reglas del universo del Módulo 7. La
+- **Modo ficción**: se aplican las reglas del universo del Módulo 8. La
   autonomía es casi ilimitada y la nave puede alcanzar profundidades propias del
   relato, priorizando la aventura sobre el rigor.
 

@@ -6,7 +6,7 @@ Este módulo abre el vehículo por dentro **solo en su física de movilidad**:
 tren de rodaje de orugas, suspensión, motor y dirección. **No** trata armamento,
 blindaje ofensivo, táctica ni procedimientos, según
 [`docs/04-seguridad-y-limites.md`](../../../docs/04-seguridad-y-limites.md). Es
-la base para entender los mandos (Módulo 4) y la física (Módulo 5).
+la base para entender los mandos (Módulo 5) y la física (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -126,9 +126,9 @@ peso sobre una gran superficie de contacto.
 6. El **reparto de presión** permite avanzar sin hundirse.
 
 Con esto entendido, el
-[Módulo 4: Mandos](../mandos/manual-mandos-tanque.md) muestra el puesto de
+[Módulo 5: Mandos](../mandos/manual-mandos-tanque.md) muestra el puesto de
 conducción a nivel general educativo.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-tanque.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-tanque.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-tanque.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-tanque.md)

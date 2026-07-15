@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🚂 Curso: Tren de carga](../README.md) · 📋 Características
 
 Que es un tren de carga, que tipos de vagón existen y para que sirve cada
-composición. Este módulo da el contexto antes de abrir la mecánica (Módulo 3).
+composición. Este módulo da el contexto antes de abrir la mecánica (Módulo 4).
 
 ---
 
@@ -67,4 +67,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-tren-carga.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-tren-carga.md)
+[⬅️ Anterior: Historia](../historia/historia-tren-carga.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-tren-carga.md)

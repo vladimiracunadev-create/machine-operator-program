@@ -4,7 +4,7 @@
 
 Este módulo abre el helicóptero por dentro. Explica cada sistema, como funciona y
 como se conecta con los demás. Es la base técnica para entender los mandos
-(Módulo 4) y la física del vuelo (Módulo 5).
+(Módulo 5) y la física del vuelo (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -196,9 +196,9 @@ Dos fenómenos propios del ala rotatoria que todo piloto debe entender.
 5. El **rotor de cola** compensa el par y controla la guiñada con los **pedales**.
 6. La **autorrotación** protege el descenso si falta el motor.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-helicoptero.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-helicoptero.md)
 muestra como el piloto opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-helicoptero.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-helicoptero.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-helicoptero.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-helicoptero.md)

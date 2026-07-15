@@ -7,8 +7,8 @@
 Este módulo abre el Nautilus por dentro. Explica cada sistema imaginado por
 Verne y lo compara con la física real del submarino moderno. La sorpresa es que
 gran parte de lo que la novela describio coincide con la ingeniería que se
-desarrollo después. Es la base técnica para entender los mandos (Módulo 4) y la
-física de operación (Módulo 5).
+desarrollo después. Es la base técnica para entender los mandos (Módulo 5) y la
+física de operación (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -163,9 +163,9 @@ sumergida.
 4. La **hélice y los timones** dan movimiento y rumbo.
 5. El **soporte vital** mantiene el aire respirable y las reservas.
 
-Con esto claro, el [Módulo 4: Mandos](../mandos/manual-mandos-nautilus.md)
+Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-nautilus.md)
 muestra cómo la tripulación opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-nautilus.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-nautilus.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-nautilus.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-nautilus.md)

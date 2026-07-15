@@ -28,7 +28,7 @@ transmisión y su estado son críticos.
 Los **rotores en tándem** resuelven lo mismo de otra forma: sus dos rotores giran
 en sentidos opuestos y los pares se cancelan, así que no llevan rotor de cola.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-helicoptero.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-helicoptero.md).
 
 </details>
 
@@ -45,7 +45,7 @@ que inclina el disco rotor y traslada el helicóptero hacia donde se inclina.
 Los dos llegan a las palas a través del **plato cíclico**: el colectivo lo sube o
 baja en bloque, y el cíclico lo inclina.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-helicoptero.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-helicoptero.md).
 
 </details>
 
@@ -60,7 +60,7 @@ palas equilibra ese desnivel para que el vuelo sea estable.
 
 En vuelo estacionario no se da, porque todas las palas ven el mismo aire.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-helicoptero.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-helicoptero.md).
 
 </details>
 
@@ -95,7 +95,7 @@ qué hay que corregir de forma continua.
 Se corrige de forma continua porque los tres mandos **se influyen entre sí**: al
 subir colectivo aumenta el par, y ese par hay que compensarlo con pedal.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-helicoptero.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-helicoptero.md).
 
 </details>
 
@@ -110,7 +110,7 @@ La licencia de piloto de helicóptero y sus habilitaciones están reguladas por 
 médico aeronáutico**. Ambos los otorga la **Dirección General de Aeronáutica
 Civil (DGAC)**, bajo el marco de la Ley 18.916 (Código Aeronáutico).
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-helicoptero.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-helicoptero.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -155,7 +155,7 @@ Además se pierde una ayuda: el **efecto suelo**, que abarata el estacionario ce
 del terreno, no está disponible en un estacionario alto. Por eso la operación en
 montaña pide más potencia y márgenes amplios.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-helicoptero.md).
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-helicoptero.md).
 
 </details>
 
@@ -198,7 +198,7 @@ cancela.
 La interfaz debe mostrar cómo un mando afecta a los otros: es justamente lo que
 hace difícil al helicóptero.
 
-Módulo 8:
+Módulo 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-helicoptero.md).
 
 </details>

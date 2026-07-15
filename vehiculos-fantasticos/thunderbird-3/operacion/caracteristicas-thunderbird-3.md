@@ -6,7 +6,7 @@
 
 Que es un cohete de rescate genérico, que rasgos lo definen en la ficción y cuales
 tendrían sentido físico real. Este módulo da el contexto antes de abrir la
-tecnología por dentro en el Módulo 3.
+tecnología por dentro en el Módulo 4.
 
 ---
 
@@ -63,4 +63,4 @@ deja preguntar si sería posible y por qué.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-thunderbird-3.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-thunderbird-3.md)
+[⬅️ Anterior: Historia](../historia/historia-thunderbird-3.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-thunderbird-3.md)

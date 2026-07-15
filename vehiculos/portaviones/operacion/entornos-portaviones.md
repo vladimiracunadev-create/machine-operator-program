@@ -55,7 +55,7 @@ mindmap
 
 Cada entorno es un escenario con su profundidad, clima, viento y tráfico. Ver
 como se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-portaviones.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-portaviones.md).
 
 ---
 

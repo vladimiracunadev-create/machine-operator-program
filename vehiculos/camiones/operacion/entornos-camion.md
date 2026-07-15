@@ -55,7 +55,7 @@ mindmap
 
 Cada entorno es un escenario con su pendiente, superficie, clima y carga. Ver
 como se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-camion.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-camion.md).
 
 ---
 

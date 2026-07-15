@@ -12,7 +12,7 @@
 > al hiperespacio" rompe la física que conocemos hoy.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 
 ---
 
@@ -53,14 +53,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Contexto del carguero rápido de ficción y su idea de vuelo. | [Abrir](historia/historia-halcon-milenario.md) |
 | 2 | 📋 Características | Que es un carguero rápido genérico y para que sirve. | [Abrir](operacion/caracteristicas-halcon-milenario.md) |
-| 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-halcon-milenario.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-halcon-milenario.md) |
-| 5 | 🧪 Principios y operación | Empuje, masa y maniobra: que si, que no y por qué. | [Abrir](operacion/principios-halcon-milenario.md) |
-| 6 | 🌍 Entornos | El vacío, órbitas, atmósferas y hangares. | [Abrir](operacion/entornos-halcon-milenario.md) |
-| 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-halcon-milenario.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-halcon-milenario.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-halcon-milenario.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-halcon-milenario.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-halcon-milenario.md) |
+| 4 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-halcon-milenario.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-halcon-milenario.md) |
+| 6 | 🧪 Principios y operación | Empuje, masa y maniobra: que si, que no y por qué. | [Abrir](operacion/principios-halcon-milenario.md) |
+| 7 | 🌍 Entornos | El vacío, órbitas, atmósferas y hangares. | [Abrir](operacion/entornos-halcon-milenario.md) |
+| 8 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-halcon-milenario.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-halcon-milenario.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-halcon-milenario.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-halcon-milenario.md) |
 
 ---
 

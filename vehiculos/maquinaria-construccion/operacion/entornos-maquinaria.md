@@ -56,7 +56,7 @@ mindmap
 
 Cada entorno es un escenario con su terreno, espacio, clima y presencia de
 personas y equipos. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-maquinaria.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-maquinaria.md).
 
 ---
 

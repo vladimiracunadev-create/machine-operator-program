@@ -9,7 +9,7 @@
 > [🦺 docs/04-seguridad-y-limites.md](../../docs/04-seguridad-y-limites.md).
 
 ![Nivel](https://img.shields.io/badge/nivel-divulgativo-green)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Marco](https://img.shields.io/badge/marco-publico%20e%20historico-lightgrey)
 
 ---
@@ -62,14 +62,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Historia pública de la aviación militar, línea de tiempo. | [Abrir](historia/historia-avion-combate.md) |
 | 2 | 📋 Características | Que es, generaciones y roles generales de la aeronave. | [Abrir](operacion/caracteristicas-avion-combate.md) |
-| 3 | 🔧 Sistemas mecánicos | Célula, alas, superficies de control y motor a reacción. | [Abrir](operacion/sistemas-mecanicos-avion-combate.md) |
-| 4 | 🎛️ Mandos e instrumentos | Cabina, controles de vuelo y panel de instrumentos. | [Abrir](mandos/manual-mandos-avion-combate.md) |
-| 5 | 🧪 Principios y operación | Física del vuelo a reacción y fases generales. | [Abrir](operacion/principios-avion-combate.md) |
-| 6 | 🌍 Entornos de trabajo | Base aérea, espacio aéreo y meteorología. | [Abrir](operacion/entornos-avion-combate.md) |
-| 7 | ⚖️ Reglamentos | Marco institucional público (FACH, defensa). | [Abrir](reglamentos/reglamentos-avion-combate.md) |
-| 8 | 🎮 Diseño de simulación | Variables de vuelo, ciclo y modos educativos. | [Abrir](simulacion/diseno-simulador-avion-combate.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-avion-combate.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-avion-combate.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-avion-combate.md) |
+| 4 | 🔧 Sistemas mecánicos | Célula, alas, superficies de control y motor a reacción. | [Abrir](operacion/sistemas-mecanicos-avion-combate.md) |
+| 5 | 🎛️ Mandos e instrumentos | Cabina, controles de vuelo y panel de instrumentos. | [Abrir](mandos/manual-mandos-avion-combate.md) |
+| 6 | 🧪 Principios y operación | Física del vuelo a reacción y fases generales. | [Abrir](operacion/principios-avion-combate.md) |
+| 7 | 🌍 Entornos de trabajo | Base aérea, espacio aéreo y meteorología. | [Abrir](operacion/entornos-avion-combate.md) |
+| 8 | ⚖️ Reglamentos | Marco institucional público (FACH, defensa). | [Abrir](reglamentos/reglamentos-avion-combate.md) |
+| 9 | 🎮 Diseño de simulación | Variables de vuelo, ciclo y modos educativos. | [Abrir](simulacion/diseno-simulador-avion-combate.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-avion-combate.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-avion-combate.md) |
 
 ---
 

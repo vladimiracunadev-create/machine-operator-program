@@ -5,8 +5,8 @@
 Este módulo abre la grúa torre por dentro y es el corazón del curso. Explica la
 mecánica del izaje en altura: cómo se sostiene el mástil, como se reparte el
 momento entre carga y contrapeso, y por qué existe un límite de peso para cada
-posición del carro. Es la base técnica para entender los mandos (Módulo 4) y la
-física de la operación (Módulo 5).
+posición del carro. Es la base técnica para entender los mandos (Módulo 5) y la
+física de la operación (Módulo 6).
 
 ```mermaid
 flowchart TD
@@ -204,9 +204,9 @@ grúa en condición controlada.
 5. La **tabla de carga** define el límite de peso para cada radio.
 6. Los **limitadores** vigilan la carga y el momento y cortan antes del vuelco.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-grua-torre.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-grua-torre.md)
 muestra como el operador acciona cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-grua-torre.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-grua-torre.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-grua-torre.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-grua-torre.md)

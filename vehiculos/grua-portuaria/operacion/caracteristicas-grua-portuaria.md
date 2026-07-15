@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [⚓ Curso: Grúa portuaria](../README.md) · 📋 Características
 
 Que es una grúa portuaria, que tipos existen y para que sirve cada uno. Este
-módulo da el contexto antes de abrir la mecánica del pórtico (Módulo 3).
+módulo da el contexto antes de abrir la mecánica del pórtico (Módulo 4).
 
 ---
 
@@ -87,4 +87,4 @@ carga antes de izarla.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-grua-portuaria.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-grua-portuaria.md)
+[⬅️ Anterior: Historia](../historia/historia-grua-portuaria.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-grua-portuaria.md)

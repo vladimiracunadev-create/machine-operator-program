@@ -5,7 +5,7 @@
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
 Que es esta nave, que modos tiene y que rasgos la definen. Este módulo da el
-contexto antes de abrir su tecnología imaginaria en el Módulo 3. Todo lo que
+contexto antes de abrir su tecnología imaginaria en el Módulo 4. Todo lo que
 sigue es descripción original con fines educativos.
 
 ---
@@ -69,4 +69,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-delorean.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-delorean.md)
+[⬅️ Anterior: Historia](../historia/historia-delorean.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-delorean.md)

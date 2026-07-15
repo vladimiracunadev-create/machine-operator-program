@@ -5,7 +5,7 @@
 Este módulo abre el tren de alta velocidad por dentro. Explica cada sistema, como
 funciona y cómo se conecta con los demás, con foco en la tracción eléctrica de
 alta potencia, el frenado de gran masa, la aerodinámica y la vía dedicada. Es la
-base técnica para entender los mandos (Módulo 4) y la física (Módulo 5).
+base técnica para entender los mandos (Módulo 5) y la física (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -199,9 +199,9 @@ velocidad.
 6. El **frenado combinado** (regenerativo, dinámico, neumático y de Foucault) detiene la gran masa.
 7. La **señalización en cabina** ETCS/ERTMS informa y supervisa la velocidad objetivo.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-tren-alta-velocidad.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-tren-alta-velocidad.md)
 muestra como el maquinista opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-tren-alta-velocidad.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-tren-alta-velocidad.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-tren-alta-velocidad.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-tren-alta-velocidad.md)

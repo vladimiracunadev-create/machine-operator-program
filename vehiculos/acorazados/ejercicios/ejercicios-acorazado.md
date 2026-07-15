@@ -40,7 +40,7 @@ de gravedad y reduce la estabilidad. De ahí el compromiso de diseño: más
 protección implica más peso y menor velocidad o autonomía, y hay que cuidar
 donde va cada tonelada.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-acorazado.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-acorazado.md).
 
 </details>
 
@@ -90,7 +90,7 @@ Del módulo de mandos, por ejemplo:
 
 El rumbo, la velocidad y la escora deben verse en todo momento.
 
-Módulo 4: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-acorazado.md).
+Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-acorazado.md).
 
 </details>
 
@@ -107,7 +107,7 @@ la Armada de Chile, dependiente del Ministerio de Defensa Nacional, bajo la Ley
 derecho de paso inocente (Arts. 17 a 26) y el régimen e inmunidad de los buques
 de guerra (Arts. 29 a 32).
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-acorazado.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-acorazado.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -133,7 +133,7 @@ La corrección de verdad ocurrió antes: en la fase de aproximación se reduce l
 velocidad **con mucha antelación**. Toda maniobra se anticipa; subestimar la
 distancia de frenado es un error típico del curso.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-acorazado.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-acorazado.md).
 
 </details>
 
@@ -172,7 +172,7 @@ estabilidad, no mantener el ritmo de travesía. Es el entorno donde el centro de
 gravedad alto del blindaje se nota más: la escora deja de ser un número tranquilo
 en el inclinómetro y pasa a ser lo que se vigila.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-acorazado.md).
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-acorazado.md).
 
 </details>
 
@@ -212,7 +212,7 @@ enseñar. El nivel 2 introduce la inercia, la distancia de frenado y el viento,
 que son lo que de verdad define navegar una gran masa. La estabilidad, la escora,
 el lastre y la compartimentación son la capa fina y llegan al final.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-acorazado.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-acorazado.md).
 Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🌊 Curso: Submarinos](../README.md) · 📋 Características
 
 Que es un submarino, que tipos históricos existieron y cual fue su papel general.
-Contexto público antes de abrir la física de inmersión (Módulo 3). No se
+Contexto público antes de abrir la física de inmersión (Módulo 4). No se
 documentan táctica ni sistemas de armas.
 
 ---
@@ -63,4 +63,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-submarino.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-submarino.md)
+[⬅️ Anterior: Historia](../historia/historia-submarino.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-submarino.md)

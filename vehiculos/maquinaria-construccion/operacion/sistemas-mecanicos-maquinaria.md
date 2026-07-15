@@ -5,7 +5,7 @@
 Este módulo abre la máquina por dentro y es el corazón del curso. Explica cada
 sistema, como funciona y cómo se conecta con los demás, con foco en la hidráulica
 de trabajo, el movimiento de tierra y la estabilidad. Es la base técnica para
-entender los mandos (Módulo 4) y la física de la operación (Módulo 5).
+entender los mandos (Módulo 5) y la física de la operación (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -192,9 +192,9 @@ que la cabina cumple funciones de seguridad, no solo de confort.
 6. La cabina **ROPS/FOPS** protege al operador durante toda la faena.
 
 Con esto entendido, el
-[Módulo 4: Mandos](../mandos/manual-mandos-maquinaria.md) muestra como el
+[Módulo 5: Mandos](../mandos/manual-mandos-maquinaria.md) muestra como el
 operador acciona cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-maquinaria.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-maquinaria.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-maquinaria.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-maquinaria.md)

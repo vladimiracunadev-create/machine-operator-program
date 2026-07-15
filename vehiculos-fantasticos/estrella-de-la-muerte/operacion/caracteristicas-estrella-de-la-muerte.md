@@ -6,7 +6,7 @@
 
 Que es una estación del tamaño de una luna genérica, que rasgos la definen en la
 ficción y cuales tendrían sentido físico real. Este módulo da el contexto antes
-de abrir la tecnología por dentro en el Módulo 3.
+de abrir la tecnología por dentro en el Módulo 4.
 
 ---
 
@@ -68,4 +68,4 @@ preguntar si sería posible y por qué.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-estrella-de-la-muerte.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-estrella-de-la-muerte.md)
+[⬅️ Anterior: Historia](../historia/historia-estrella-de-la-muerte.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-estrella-de-la-muerte.md)

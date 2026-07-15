@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [⛴️ Curso: Cruceros](../README.md) · 📋 Características
 
 Que es un crucero, que tipos existen y para que sirve cada uno. Este módulo da el
-contexto antes de abrir la mecánica naval (Módulo 3).
+contexto antes de abrir la mecánica naval (Módulo 4).
 
 ---
 
@@ -66,4 +66,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-crucero.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-crucero.md)
+[⬅️ Anterior: Historia](../historia/historia-crucero.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-crucero.md)

@@ -4,7 +4,7 @@
 
 Este módulo abre el avión de pasajeros por dentro. Explica cada sistema, como
 funciona y cómo se conecta con los demás. Es la base técnica para entender los
-mandos (Módulo 4) y la física del vuelo (Módulo 5). Frente a un avión pequeño,
+mandos (Módulo 5) y la física del vuelo (Módulo 6). Frente a un avión pequeño,
 aquí aparecen la presurización, los motores turbofan y la redundancia de sistemas.
 
 ```mermaid
@@ -196,9 +196,9 @@ Informan a la tripulación y gestionan el vuelo cuando no hay referencias visual
 5. Los **sistemas hidráulico, eléctrico y neumático** mueven todo y mantienen la cabina.
 6. La **avionica** informa y asiste a la tripulación para volar con seguridad.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-avion-pasajeros.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-avion-pasajeros.md)
 muestra cómo la tripulación opera cada uno de estos sistemas desde la cabina de vuelo.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-avion-pasajeros.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-avion-pasajeros.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-avion-pasajeros.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-avion-pasajeros.md)

@@ -27,7 +27,7 @@ apagas el motor arriba y no llevas velocidad lateral, vuelves a caer al suelo.
 Orbitar es caer sin parar y fallar el suelo por ir muy rápido en horizontal:
 mientras caes, el planeta se curva bajo tus pies y nunca lo alcanzas.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-thunderbird-3.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-thunderbird-3.md).
 
 </details>
 
@@ -77,7 +77,7 @@ cohete. La consecuencia es dura: más delta-v no exige proporcionalmente más
 combustible, sino **exponencialmente** más. Por eso los cohetes reales son casi
 por completo propelente, con una fracción mínima de carga útil.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-thunderbird-3.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-thunderbird-3.md).
 
 </details>
 
@@ -95,7 +95,7 @@ Módulo 5: [🧪 Principios y operación](../operacion/principios-thunderbird-3.
 4. **Órbita**: sin aire útil, velocidad lateral enorme, caída continua alrededor
    del planeta.
 
-Módulo 6: [🌍 Entornos](../operacion/entornos-thunderbird-3.md).
+Módulo 7: [🌍 Entornos](../operacion/entornos-thunderbird-3.md).
 
 </details>
 
@@ -112,7 +112,7 @@ leyes de la naturaleza. El curso no las señala para criticar la obra, sino para
 aprender la diferencia entre lo que emociona en pantalla y lo que ocurriría de
 verdad.
 
-Módulo 7:
+Módulo 8:
 [⚖️ Reglas del universo](../reglamentos/reglas-universo-thunderbird-3.md).
 
 </details>

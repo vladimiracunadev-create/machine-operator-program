@@ -61,7 +61,7 @@ mindmap
 
 Volar cerca de aeropuertos y sobre aglomeraciones de personas está restringido por
 la seguridad aérea. En estos entornos la regla es no operar, no ajustar el vuelo.
-El detalle está en el [Módulo 7: Reglamentos](../reglamentos/reglamentos-dron.md).
+El detalle está en el [Módulo 8: Reglamentos](../reglamentos/reglamentos-dron.md).
 
 ---
 
@@ -69,7 +69,7 @@ El detalle está en el [Módulo 7: Reglamentos](../reglamentos/reglamentos-dron.
 
 Cada entorno es un escenario con su viento, calidad de GPS, interferencia y
 obstáculos. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-dron.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-dron.md).
 
 ---
 

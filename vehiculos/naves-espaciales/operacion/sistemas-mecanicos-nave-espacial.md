@@ -4,7 +4,7 @@
 
 Este módulo abre la nave por dentro. Explica cada sistema, como funciona y cómo se
 conecta con los demás, distinguiendo ciencia real de ficción. Es la base técnica
-para entender los mandos (Módulo 4) y la física orbital (Módulo 5).
+para entender los mandos (Módulo 5) y la física orbital (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -138,9 +138,9 @@ flowchart LR
 5. El **control de actitud** orienta la nave sin aire.
 6. El **escudo térmico** protege en la **reentrada**.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-nave-espacial.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-nave-espacial.md)
 muestra cómo la tripulación opera estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-nave-espacial.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-nave-espacial.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-nave-espacial.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-nave-espacial.md)

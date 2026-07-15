@@ -25,7 +25,7 @@ velocidad y vale la tercera ley de Newton, sin necesitar aire. Para quemar sin
 aire externo lleva su propio **oxidante** además del combustible. Un avión, en
 cambio, depende del aire de la atmósfera.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nave-espacial.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nave-espacial.md).
 
 </details>
 
@@ -41,7 +41,7 @@ superficie se curva a la misma tasa y nunca llega al suelo. Lo que se llama
 ausencia de gravedad. Creer lo contrario es uno de los errores comunes que el
 curso señala.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-nave-espacial.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-nave-espacial.md).
 
 </details>
 
@@ -71,8 +71,8 @@ Con el **control de actitud**, no con timones ni superficies aerodinámicas. Los
 **ruedas de reacción** giran masas internas para orientar sin gastar propelente.
 Los sensores de actitud (estrellas, Sol y giróscopos) indican la orientación.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nave-espacial.md)
-y Módulo 4: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-nave-espacial.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nave-espacial.md)
+y Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-nave-espacial.md).
 
 </details>
 
@@ -90,7 +90,7 @@ y Módulo 4: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-nave-espaci
 7. **Reentrada**: orientar el escudo y soportar el calor.
 8. **Aterrizaje o amerizaje**: paracaídas o descenso propulsado.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-nave-espacial.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-nave-espacial.md).
 
 </details>
 
@@ -108,7 +108,7 @@ política pública (Política Nacional Espacial, Decreto 30 del Ministerio de
 Ciencia, Tecnología, Conocimiento e Innovación) más el Sistema Nacional
 Satelital (SNSat), liderado por la FACH.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-nave-espacial.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-nave-espacial.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -133,7 +133,7 @@ que el curso quiere enseñar a evitar.
 Además, el momento importa tanto como la cantidad: dónde en la órbita se enciende
 el motor decide qué parte de la órbita cambia.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-nave-espacial.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-nave-espacial.md).
 
 </details>
 
@@ -198,7 +198,7 @@ física orbital con la gravedad siempre presente, y lo que cambia es la velocida
 Así el usuario **ve** que flotar y caer son lo mismo, y entiende solo por qué
 frenar equivale a reentrar.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md).
 
 </details>
 
@@ -217,7 +217,7 @@ la gestión de recursos son el detalle operativo y llegan al final.
 El acoplamiento, además, exige controles finos y una vista clara del objetivo:
 carga de manejo que solo tiene sentido cuando la mecánica orbital ya se entiende.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md)
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md)
 y [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

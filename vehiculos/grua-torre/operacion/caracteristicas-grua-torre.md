@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🗼 Curso: Grúa torre](../README.md) · 📋 Características
 
 Que es una grúa torre, que tipos existen y para que sirve cada uno. Este módulo
-da el contexto antes de abrir la mecánica del izaje (Módulo 3).
+da el contexto antes de abrir la mecánica del izaje (Módulo 4).
 
 ---
 
@@ -66,4 +66,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-grua-torre.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-grua-torre.md)
+[⬅️ Anterior: Historia](../historia/historia-grua-torre.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-grua-torre.md)

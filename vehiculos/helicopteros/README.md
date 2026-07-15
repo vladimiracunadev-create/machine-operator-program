@@ -8,7 +8,7 @@
 > del curso de referencia del repositorio.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-DAN%2061-orange)
 
 ---
@@ -52,14 +52,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del helicóptero, línea de tiempo. | [Abrir](historia/historia-helicoptero.md) |
 | 2 | 📋 Características | Que es, tipos de helicóptero y para que sirve cada uno. | [Abrir](operacion/caracteristicas-helicoptero.md) |
-| 3 | 🔧 Sistemas mecánicos | Rotor principal, rotor de cola, plato cíclico, transmisión, turbina. | [Abrir](operacion/sistemas-mecanicos-helicoptero.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puesto de mando, colectivo, cíclico, pedales y tablero. | [Abrir](mandos/manual-mandos-helicoptero.md) |
-| 5 | 🧪 Principios y operación | Física del vuelo de ala rotatoria y fases de operación. | [Abrir](operacion/principios-helicoptero.md) |
-| 6 | 🌍 Entornos de trabajo | Helipuertos, rescate, hospitales, incendios forestales. | [Abrir](operacion/entornos-helicoptero.md) |
-| 7 | ⚖️ Reglamentos | Ley chilena: Código Aeronáutico, DGAC, DAN 61, certificación. | [Abrir](reglamentos/reglamentos-helicoptero.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-helicoptero.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-helicoptero.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-helicoptero.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-helicoptero.md) |
+| 4 | 🔧 Sistemas mecánicos | Rotor principal, rotor de cola, plato cíclico, transmisión, turbina. | [Abrir](operacion/sistemas-mecanicos-helicoptero.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puesto de mando, colectivo, cíclico, pedales y tablero. | [Abrir](mandos/manual-mandos-helicoptero.md) |
+| 6 | 🧪 Principios y operación | Física del vuelo de ala rotatoria y fases de operación. | [Abrir](operacion/principios-helicoptero.md) |
+| 7 | 🌍 Entornos de trabajo | Helipuertos, rescate, hospitales, incendios forestales. | [Abrir](operacion/entornos-helicoptero.md) |
+| 8 | ⚖️ Reglamentos | Ley chilena: Código Aeronáutico, DGAC, DAN 61, certificación. | [Abrir](reglamentos/reglamentos-helicoptero.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-helicoptero.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-helicoptero.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-helicoptero.md) |
 
 ---
 

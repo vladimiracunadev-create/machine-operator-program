@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🚁 Curso: Helicópteros](../README.md) · 📋 Características
 
 Que es un helicóptero, que tipos existen y para que sirve cada uno. Este módulo
-da el contexto antes de abrir la mecánica (Módulo 3).
+da el contexto antes de abrir la mecánica (Módulo 4).
 
 ---
 
@@ -66,4 +66,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-helicoptero.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-helicoptero.md)
+[⬅️ Anterior: Historia](../historia/historia-helicoptero.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-helicoptero.md)

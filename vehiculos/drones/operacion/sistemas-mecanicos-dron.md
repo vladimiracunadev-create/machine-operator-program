@@ -3,8 +3,8 @@
 [🏠 Inicio](../../../README.md) · [🕹️ Curso: Drones](../README.md) · 🔧 Sistemas mecánicos
 
 Este módulo abre el dron por dentro. Explica cada sistema, como funciona y como
-se conecta con los demás. Es la base técnica para entender los mandos (Módulo 4)
-y la física del vuelo (Módulo 5). El foco es el multirotor, el tipo más común.
+se conecta con los demás. Es la base técnica para entender los mandos (Módulo 5)
+y la física del vuelo (Módulo 6). El foco es el multirotor, el tipo más común.
 
 ```mermaid
 flowchart LR
@@ -221,9 +221,9 @@ El **retorno a casa (RTH)** depende del GPS: guarda el punto de despegue como
 5. El **enlace de radio** trae las ordenes y devuelve la **telemetría** y el video.
 6. El **fail-safe** protege el vuelo si falla el enlace o baja la batería.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-dron.md) muestra
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-dron.md) muestra
 como el piloto opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-dron.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-dron.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-dron.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-dron.md)

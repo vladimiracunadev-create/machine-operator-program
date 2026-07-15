@@ -27,7 +27,7 @@ giro o los motores de traslación. La presión se transforma en fuerza: a mayor
 presión y área, más fuerza de excavación o empuje. El aceite vuelve al tanque
 pasando por el filtro, en circuito cerrado.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-maquinaria.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-maquinaria.md).
 
 </details>
 
@@ -119,7 +119,7 @@ y el examen práctico se rinde sobre el tipo de maquinaria a operar.
 La **ROPS** es la estructura que protege al operador si la máquina vuelca; la
 **FOPS** protege de la caída de objetos.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-maquinaria.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-maquinaria.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -145,7 +145,7 @@ Lo razonable es reposicionar la máquina sobre terreno nivelado y firme, a una
 distancia adecuada del camión y de la zanja, y trabajar con el alcance justo.
 La corrección real ocurrió antes: en el **posicionamiento**.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-maquinaria.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-maquinaria.md).
 
 </details>
 
@@ -213,7 +213,7 @@ El curso pide además advertir el acercamiento al límite de vuelco y la presenc
 de personas en el radio de giro, con avisos educativos en vez de castigos
 frustrantes.
 
-Módulo 8:
+Módulo 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-maquinaria.md).
 
 </details>

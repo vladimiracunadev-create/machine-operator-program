@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🛩️ Curso: Aviones pequeños](../README.md) · 📋 Características
 
 Que es un avión pequeño, que tipos existen y para que sirve cada uno. Este módulo
-da el contexto antes de abrir los sistemas de la aeronave (Módulo 3).
+da el contexto antes de abrir los sistemas de la aeronave (Módulo 4).
 
 ---
 
@@ -65,4 +65,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-avion-pequeno.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-avion-pequeno.md)
+[⬅️ Anterior: Historia](../historia/historia-avion-pequeno.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-avion-pequeno.md)

@@ -43,7 +43,7 @@ propia velocidad se suma a la del viento natural. Es un concepto físico públic
 útil para entender las operaciones de cubierta, y se mide a bordo con el
 **anemómetro**.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-portaviones.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-portaviones.md).
 El diagrama está en [🧰 Recursos](../recursos/recursos-portaviones.md).
 
 </details>
@@ -59,7 +59,7 @@ gravedad (G). Si G sube por encima del metacentro (M), hay riesgo de vuelco, y
 una escora excesiva es peligrosa en la propia cubierta. Se compensa con
 **lastre** —agua de ajuste de peso— y se vigila con el **inclinómetro**.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-portaviones.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-portaviones.md).
 
 </details>
 
@@ -106,7 +106,7 @@ mercante. En el plano internacional, el curso cita la **CONVEMAR**
 (D.S. RREE 1.393/1997), sobre paso inocente e inmunidad de buques de guerra
 (Arts. 17 a 32).
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-portaviones.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-portaviones.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -129,7 +129,7 @@ es uno de los errores comunes del módulo 5. Además, al reducir demasiado tarde
 llega a la maniobra sin margen y con poco gobierno, justo cuando hace falta
 gobierno fino.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-portaviones.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-portaviones.md).
 
 </details>
 
@@ -185,7 +185,7 @@ ordenado frente al real. Así **siente** el retardo entre orden y respuesta en v
 de leerlo. El ciclo básico ya lo contempla: aplicar la gran inercia al cambio de
 velocidad y rumbo antes de actualizar posición e instrumentos.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-portaviones.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-portaviones.md).
 
 </details>
 
@@ -202,7 +202,7 @@ físicos centrales de este vehículo. La estabilidad, la escora, el lastre y la
 logística de cubierta son la capa fina y llegan al final, cuando lo anterior ya
 se maneja.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-portaviones.md) y
+Módulo 6: [🧪 Principios y operación](../operacion/principios-portaviones.md) y
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

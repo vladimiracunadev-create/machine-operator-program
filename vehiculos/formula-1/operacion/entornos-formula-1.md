@@ -55,7 +55,7 @@ mindmap
 
 Cada circuito es un escenario con su trazado, asfalto, clima y zonas DRS. Ver
 como se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-formula-1.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-formula-1.md).
 
 ---
 

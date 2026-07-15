@@ -3,8 +3,8 @@
 [🏠 Inicio](../../../README.md) · [🚢 Curso: Barcos mercantes](../README.md) · 🔧 Sistemas mecánicos
 
 Este módulo abre el buque por dentro. Explica cada sistema, como funciona y como
-se conecta con los demás. Es la base técnica para entender los mandos (Módulo 4)
-y la física de la navegación (Módulo 5).
+se conecta con los demás. Es la base técnica para entender los mandos (Módulo 5)
+y la física de la navegación (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -140,9 +140,9 @@ cargar afecta directamente la estabilidad.
 6. Los **sistemas auxiliares** dan energía y seguridad.
 
 Con esto entendido, el
-[Módulo 4: Mandos](../mandos/manual-mandos-barco-mercante.md) muestra cómo la
+[Módulo 5: Mandos](../mandos/manual-mandos-barco-mercante.md) muestra cómo la
 tripulación opera cada uno de estos sistemas desde el puente.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-barco-mercante.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-barco-mercante.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-barco-mercante.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-barco-mercante.md)

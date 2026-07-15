@@ -56,7 +56,7 @@ mindmap
 
 Cada entorno es un escenario con su profundidad, densidad, corriente y estado de
 superficie. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-submarino.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-submarino.md).
 
 ---
 

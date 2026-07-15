@@ -5,7 +5,7 @@
 Este módulo describe, **solo con física pública y a nivel divulgativo**, como
 flota, avanza, gobierna y opera su cubierta un portaviones. No incluye sistemas
 de armas, táctica ni datos sensibles. Es la base para entender los mandos
-(Módulo 4) y la física de la navegación (Módulo 5).
+(Módulo 5) y la física de la navegación (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -114,9 +114,9 @@ logística y seguridad general, sin detalle operativo sensible.
 5. El **lastre** y la **compartimentación** cuidan la estabilidad.
 
 Con esto entendido, el
-[Módulo 4: Mandos](../mandos/manual-mandos-portaviones.md) describe, a nivel
+[Módulo 5: Mandos](../mandos/manual-mandos-portaviones.md) describe, a nivel
 educativo, como se navega el buque desde el puente.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-portaviones.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-portaviones.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-portaviones.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-portaviones.md)

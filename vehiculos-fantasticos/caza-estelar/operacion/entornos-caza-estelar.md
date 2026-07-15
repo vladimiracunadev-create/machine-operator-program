@@ -60,7 +60,7 @@ mindmap
 Cada entorno es un escenario con su gravedad, presencia o ausencia de aire y
 densidad de obstáculos. El paso del vacío a una atmósfera cambia por completo
 las reglas y es una gran lección de física. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-caza-estelar.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-caza-estelar.md).
 
 ---
 

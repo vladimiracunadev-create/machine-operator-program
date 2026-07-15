@@ -70,7 +70,7 @@ que una persona al caminar. Un terreno irregular complica mucho esta tarea.
 
 Cada entorno se convierte en un escenario con sus reglas: presencia o ausencia de
 aire, tipo de superficie y condiciones. Se detalla en el
-[Módulo 8: Simulación](../simulacion/diseno-simulador-caza-transformable.md).
+[Módulo 9: Simulación](../simulacion/diseno-simulador-caza-transformable.md).
 
 ---
 

@@ -4,7 +4,7 @@
 
 Este módulo abre el cohete por dentro. Explica cada sistema, como funciona y como
 se conecta con los demás. Es la base técnica para entender el control de misión
-(Módulo 4) y la física del empuje (Módulo 5). Todo es **ciencia real**.
+(Módulo 5) y la física del empuje (Módulo 6). Todo es **ciencia real**.
 
 ```mermaid
 flowchart LR
@@ -155,9 +155,9 @@ En un cohete reutilizable, la primera etapa regresa de forma controlada.
 4. El **guiado** corrige el rumbo todo el tiempo.
 5. La **recuperación** trae de vuelta el propulsor para reutilizarlo.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-cohete.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-cohete.md)
 muestra como el control de misión opera y vigila estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-cohete.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-cohete.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-cohete.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-cohete.md)

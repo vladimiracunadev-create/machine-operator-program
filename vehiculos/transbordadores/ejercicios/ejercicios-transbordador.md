@@ -39,7 +39,7 @@ el aire de forma controlada**. El roce con el aire cada vez más denso genera un
 calor enorme, y para sobrevivir hace falta el escudo por delante y un ángulo
 correcto: ni muy plano ni muy pronunciado.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-transbordador.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-transbordador.md).
 
 </details>
 
@@ -71,7 +71,7 @@ pista, y se administra: gastarla demasiado pronto significa quedar corto, y no
 hay forma de acelerar en el descenso final. De ahí que cada aterrizaje sea un
 único intento.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-transbordador.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-transbordador.md).
 
 </details>
 
@@ -104,7 +104,7 @@ Responsabilidad (1972)** cubre la responsabilidad por daños de objetos
 espaciales. Chile no cuenta a la fecha con una ley espacial nacional integral: el
 marco interno es de política pública más los tratados.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-transbordador.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-transbordador.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -147,7 +147,7 @@ El resultado se decidió antes, en cómo se administró la energía de altura y
 velocidad durante todo el descenso. Es uno de los errores comunes que el curso
 señala: pensar que se puede "acelerar" cuando ya no hay con qué.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-transbordador.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-transbordador.md).
 
 </details>
 
@@ -161,13 +161,13 @@ lista del curso sigue vivo hasta el último segundo?
 Queda **desplegar el tren de aterrizaje** antes del toque, usar timón y frenos
 en la pista, y el paracaídas de frenado para reducir la velocidad tras tocar
 tierra. El error que sigue vivo es olvidar el tren a tiempo: figura entre los
-errores comunes del Módulo 5, y por eso el tren es una variable discreta del
+errores comunes del Módulo 6, y por eso el tren es una variable discreta del
 simulador —recogido o desplegado— con su propia alarma.
 
 Los entornos de pista añaden lo suyo: viento cruzado y longitud de pista
 influyen en el aterrizaje.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-transbordador.md).
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-transbordador.md).
 
 </details>
 
@@ -187,7 +187,7 @@ se vacía a medida que se desciende, contrastado con lo que falta para llegar.
 Así el usuario **ve** que cada maniobra gasta un presupuesto que no se recarga, y
 entiende solo por qué quedar corto no tiene arreglo.
 
-Módulo 8:
+Módulo 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-transbordador.md).
 
 </details>

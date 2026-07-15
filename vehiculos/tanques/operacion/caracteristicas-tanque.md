@@ -4,7 +4,7 @@
 
 Que es un carro de combate como vehículo, que familias existen según su movilidad
 y para que sirve el tren de orugas. Solo enfoque público y divulgativo; sin
-armamento ni táctica. Este módulo da contexto antes de la mecánica (Módulo 3).
+armamento ni táctica. Este módulo da contexto antes de la mecánica (Módulo 4).
 
 ---
 
@@ -62,4 +62,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-tanque.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-tanque.md)
+[⬅️ Anterior: Historia](../historia/historia-tanque.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-tanque.md)

@@ -136,9 +136,9 @@ desconocido, así que una copia perfecta e independiente no es posible.
 4. La **energía** necesaria para todo el proceso sería colosal.
 5. El **duplicado** y la **no clonación** limitan que sea copia o traslado.
 
-Con esto claro, el [Módulo 4: Mandos](../mandos/manual-mandos-teletransportador.md)
+Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-teletransportador.md)
 muestra como el operador manejaría cada sistema.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-teletransportador.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-teletransportador.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-teletransportador.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-teletransportador.md)

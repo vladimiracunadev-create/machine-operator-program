@@ -43,7 +43,7 @@ motores eléctricos acoplados a los **pods** convierten esa electricidad en giro
 bajo el casco. El cuadro principal reparte entre propulsión y hotel; es el
 corazón de la planta.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-crucero.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-crucero.md).
 
 </details>
 
@@ -74,7 +74,7 @@ frenar o girar. La respuesta llega con retardo respecto de la orden, así que la
 velocidad se reduce mucho antes de la aproximación. Subestimar la distancia de
 frenado es uno de los errores comunes que el curso señala.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-crucero.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-crucero.md).
 
 </details>
 
@@ -109,7 +109,7 @@ uno.
 En Chile la ley base es el DL 2.222 de 1978 (Ley de Navegación) y la Autoridad
 Marítima es DIRECTEMAR.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-crucero.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-crucero.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -195,7 +195,7 @@ reales; el usuario **ve** que la orden ya cambió y el buque todavía no. Añadi
 una proyección de la trayectoria y de la distancia de frenado hace visible que la
 maniobra se decide millas antes.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-crucero.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-crucero.md).
 
 </details>
 

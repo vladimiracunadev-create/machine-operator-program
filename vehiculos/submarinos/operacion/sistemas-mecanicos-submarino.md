@@ -4,8 +4,8 @@
 
 Este módulo describe, **solo con física pública**, como flota, se sumerge, avanza
 y gobierna un submarino. No incluye sistemas de armas, táctica ni datos
-sensibles. Es la base para entender los mandos (Módulo 4) y la física de la
-inmersión (Módulo 5).
+sensibles. Es la base para entender los mandos (Módulo 5) y la física de la
+inmersión (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -112,9 +112,9 @@ El submarino gobierna en tres dimensiones.
 5. El **soporte vital** mantiene el aire respirable.
 
 Con esto entendido, el
-[Módulo 4: Mandos](../mandos/manual-mandos-submarino.md) describe, a nivel
+[Módulo 5: Mandos](../mandos/manual-mandos-submarino.md) describe, a nivel
 educativo, como se opera el puesto de control.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-submarino.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-submarino.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-submarino.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-submarino.md)

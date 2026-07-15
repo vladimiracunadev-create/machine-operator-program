@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🚄 Curso: Tren de alta velocidad](../README.md) · 📋 Características
 
 Que es un tren de alta velocidad, que configuraciones existen y para que sirve
-cada una. Este módulo da el contexto antes de abrir la mecánica (Módulo 3).
+cada una. Este módulo da el contexto antes de abrir la mecánica (Módulo 4).
 
 ---
 
@@ -65,4 +65,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-tren-alta-velocidad.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-tren-alta-velocidad.md)
+[⬅️ Anterior: Historia](../historia/historia-tren-alta-velocidad.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-tren-alta-velocidad.md)

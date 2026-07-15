@@ -12,7 +12,7 @@
 > relatividad y el enorme problema energético de viajar entre mundos.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 
 ---
 
@@ -52,14 +52,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Como la ficción imagino el viaje interestelar. | [Abrir](historia/historia-nave-exploracion.md) |
 | 2 | 📋 Características | Que es una nave de exploración imaginaria y para que sirve. | [Abrir](operacion/caracteristicas-nave-exploracion.md) |
-| 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-nave-exploracion.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puente de mando, controles y tablero. | [Abrir](mandos/manual-mandos-nave-exploracion.md) |
-| 5 | 🧪 Principios y operación | Que si, que no y por qué, según la física. | [Abrir](operacion/principios-nave-exploracion.md) |
-| 6 | 🌍 Entornos | El vacío, sistemas estelares y espacio profundo. | [Abrir](operacion/entornos-nave-exploracion.md) |
-| 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción, no leyes reales. | [Abrir](reglamentos/reglas-universo-nave-exploracion.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-nave-exploracion.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-nave-exploracion.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-nave-exploracion.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-nave-exploracion.md) |
+| 4 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-nave-exploracion.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puente de mando, controles y tablero. | [Abrir](mandos/manual-mandos-nave-exploracion.md) |
+| 6 | 🧪 Principios y operación | Que si, que no y por qué, según la física. | [Abrir](operacion/principios-nave-exploracion.md) |
+| 7 | 🌍 Entornos | El vacío, sistemas estelares y espacio profundo. | [Abrir](operacion/entornos-nave-exploracion.md) |
+| 8 | ⚖️ Reglas del universo | Las leyes internas de la ficción, no leyes reales. | [Abrir](reglamentos/reglas-universo-nave-exploracion.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-nave-exploracion.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-nave-exploracion.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-nave-exploracion.md) |
 
 ---
 

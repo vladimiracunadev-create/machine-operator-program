@@ -27,7 +27,7 @@ la masa por **ocho** (crece con el cubo, igual que el volumen). Esa asimetría e
 la ley del cubo-cuadrado y es el corazón del curso: agrandar no es "lo mismo
 pero más grande", porque la masa se dispara mucho más rápido que la superficie.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-sdf-1.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-sdf-1.md).
 
 </details>
 
@@ -110,7 +110,7 @@ naturaleza. Distinguirlas de la física real es el objetivo educativo del curso;
 señalarlas no es criticar la obra, sino aprender la diferencia entre lo que
 impresiona en pantalla y lo que ocurriría de verdad.
 
-Módulo 7: [⚖️ Reglas del universo](../reglamentos/reglas-universo-sdf-1.md).
+Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-sdf-1.md).
 
 </details>
 
@@ -202,7 +202,7 @@ tensión sube, y entiende solo por qué agrandar no es gratis. El modo de juego
 enseña lo mismo desde la experiencia: se ordena el mismo empuje y una responde y
 la otra apenas se mueve.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-sdf-1.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-sdf-1.md).
 
 </details>
 

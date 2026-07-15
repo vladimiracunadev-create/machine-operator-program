@@ -61,7 +61,7 @@ Cada entorno es un escenario con su tipo de terreno, viento y espacio de
 maniobra. El paso de una base preparada a una zona de descarga irregular cambia
 por completo el reto y es una gran lección de física de carga. Ver cómo se
 modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-thunderbird-2.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-thunderbird-2.md).
 
 ---
 

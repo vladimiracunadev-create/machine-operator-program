@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🛬 Curso: Transbordadores](../README.md) · 📋 Características
 
 Que es un transbordador, cuales son sus partes y para que sirve. Este módulo da el
-contexto antes de abrir los sistemas del vehículo (Módulo 3).
+contexto antes de abrir los sistemas del vehículo (Módulo 4).
 
 ---
 
@@ -64,4 +64,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-transbordador.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-transbordador.md)
+[⬅️ Anterior: Historia](../historia/historia-transbordador.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-transbordador.md)

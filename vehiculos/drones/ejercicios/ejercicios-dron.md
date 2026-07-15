@@ -25,7 +25,7 @@ de empuje: más empuje atrás y menos adelante inclina el dron y lo hace avanzar
 (cabeceo); más empuje de un lado que del otro lo desplaza de lado (alabeo). Subir
 o bajar el rpm de los cuatro rotores por igual produce ascenso o descenso.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-dron.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-dron.md).
 
 </details>
 
@@ -73,7 +73,7 @@ y [🧪 Principios](../operacion/principios-dron.md).
 Los dos sticks se coordinan de forma continua, y el modo de vuelo activo cambia
 cómo responden.
 
-Módulo 4: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-dron.md).
+Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-dron.md).
 
 </details>
 
@@ -92,7 +92,7 @@ Módulo 4: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-dron.md).
 El orden importa: armar sin satélites suficientes o sin revisar la zona traslada
 el problema al aire, donde ya no se puede resolver en tierra.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-dron.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-dron.md).
 
 </details>
 
@@ -109,7 +109,7 @@ condiciones de operación, dentro del Código Aeronáutico.
 Los umbrales concretos de peso, altura máxima y distancias dependen de la edición
 vigente y en el curso se marcan como "(por confirmar)".
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-dron.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-dron.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>

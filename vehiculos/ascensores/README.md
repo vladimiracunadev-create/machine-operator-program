@@ -9,7 +9,7 @@
 > núcleo normativo es la mantención e inspección.
 
 ![Nivel](https://img.shields.io/badge/nivel-introductorio-green)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Marco](https://img.shields.io/badge/marco-Ley%2020.296-orange)
 
 ---
@@ -52,14 +52,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del ascensor, línea de tiempo. | [Abrir](historia/historia-ascensor.md) |
 | 2 | 📋 Características | Que es, tipos de ascensor y para que sirve cada uno. | [Abrir](operacion/caracteristicas-ascensor.md) |
-| 3 | 🔧 Sistemas mecánicos | Cabina, contrapeso, cables, motor, guías y frenos. | [Abrir](operacion/sistemas-mecanicos-ascensor.md) |
-| 4 | 🎛️ Mandos e instrumentos | Botonera, control de llamadas e indicadores. | [Abrir](mandos/manual-mandos-ascensor.md) |
-| 5 | 🧪 Principios y operación | Física del transporte vertical y fases de un viaje. | [Abrir](operacion/principios-ascensor.md) |
-| 6 | 🌍 Entornos de trabajo | Edificios residenciales, oficinas, hospitales. | [Abrir](operacion/entornos-ascensor.md) |
-| 7 | ⚖️ Reglamentos | Ley 20.296 y OGUC: mantención, inspección, certificación. | [Abrir](reglamentos/reglamentos-ascensor.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-ascensor.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-ascensor.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-ascensor.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-ascensor.md) |
+| 4 | 🔧 Sistemas mecánicos | Cabina, contrapeso, cables, motor, guías y frenos. | [Abrir](operacion/sistemas-mecanicos-ascensor.md) |
+| 5 | 🎛️ Mandos e instrumentos | Botonera, control de llamadas e indicadores. | [Abrir](mandos/manual-mandos-ascensor.md) |
+| 6 | 🧪 Principios y operación | Física del transporte vertical y fases de un viaje. | [Abrir](operacion/principios-ascensor.md) |
+| 7 | 🌍 Entornos de trabajo | Edificios residenciales, oficinas, hospitales. | [Abrir](operacion/entornos-ascensor.md) |
+| 8 | ⚖️ Reglamentos | Ley 20.296 y OGUC: mantención, inspección, certificación. | [Abrir](reglamentos/reglamentos-ascensor.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-ascensor.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-ascensor.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-ascensor.md) |
 
 ---
 

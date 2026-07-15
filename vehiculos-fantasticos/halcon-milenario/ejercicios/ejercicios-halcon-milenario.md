@@ -28,7 +28,7 @@ dividido por la masa total de la nave más su carga. Más empuje acelera más;
 más masa acelera menos. Un carguero "rápido" sería aquel con motores muy
 grandes para su masa, no el que tenga mejor fama o mejor forma.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-halcon-milenario.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-halcon-milenario.md).
 
 </details>
 
@@ -43,7 +43,7 @@ así que frenar exige encender los motores en sentido contrario y gastar
 propelente. La ficción hace que la nave "frene al soltar el acelerador" porque
 da a las persecuciones un ritmo de coche, pero eso no ocurriría.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-halcon-milenario.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-halcon-milenario.md).
 
 </details>
 
@@ -59,7 +59,7 @@ tonelada de carga extra lo recorta. Cuando se agota, la nave ya no puede
 acelerar, frenar ni cambiar de rumbo, aunque le sobre energía eléctrica. Por eso
 el nivel del depósito por sí solo no dice qué maniobras quedan disponibles.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-halcon-milenario.md)
+Módulo 6: [🧪 Principios y operación](../operacion/principios-halcon-milenario.md)
 y módulo 9: [🧰 Recursos](../recursos/recursos-halcon-milenario.md).
 
 </details>
@@ -75,7 +75,7 @@ disponible que haya. La "planta de energía casi infinita" de la ficción es
 plausible como idea, pero no resuelve el problema real: la masa que se expulsa
 siempre se gasta.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-halcon-milenario.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-halcon-milenario.md).
 
 </details>
 
@@ -93,7 +93,7 @@ y la interfaz debe mostrar simultáneamente el indicador de orientación y el
 vector de velocidad. La masa total también debe estar siempre visible, porque es
 la que decide cuánto responde la nave.
 
-Módulo 4: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-halcon-milenario.md).
+Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-halcon-milenario.md).
 
 </details>
 
@@ -109,7 +109,7 @@ con la física real no para criticar la obra —son licencias creativas legítim
 sino para aprender la diferencia entre lo que emociona en pantalla y lo que
 ocurriría de verdad.
 
-Módulo 7: [⚖️ Reglas del universo](../reglamentos/reglas-universo-halcon-milenario.md).
+Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-halcon-milenario.md).
 
 </details>
 
@@ -158,7 +158,7 @@ principales y gastar delta-v. Además, con la bodega llena tanto iniciar el giro
 como detenerlo cuesta más. La maniobra realista es lenta y planificada con
 antelación, no brusca.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-halcon-milenario.md)
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-halcon-milenario.md)
 y módulo 7: [⚖️ Reglas del universo](../reglamentos/reglas-universo-halcon-milenario.md).
 
 </details>
@@ -206,7 +206,7 @@ más en cambiar de velocidad y que el presupuesto de maniobra se vacía antes.
 El ciclo básico ya lo soporta: calcula la masa total sumando nave más carga, y
 después la aceleración como empuje dividido por masa.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-halcon-milenario.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-halcon-milenario.md).
 
 </details>
 

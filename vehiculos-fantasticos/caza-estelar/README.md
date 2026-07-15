@@ -12,7 +12,7 @@
 > películas es dramático pero no físico, y cómo sería de verdad.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 
 ---
 
@@ -53,14 +53,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Contexto de la nave de ficción y su idea de vuelo. | [Abrir](historia/historia-caza-estelar.md) |
 | 2 | 📋 Características | Que es un caza estelar genérico y para que sirve. | [Abrir](operacion/caracteristicas-caza-estelar.md) |
-| 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-caza-estelar.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-caza-estelar.md) |
-| 5 | 🧪 Principios y operación | Newton en el vacío: que si, que no y por qué. | [Abrir](operacion/principios-caza-estelar.md) |
-| 6 | 🌍 Entornos | El vacío, órbitas y campos de escombros. | [Abrir](operacion/entornos-caza-estelar.md) |
-| 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-caza-estelar.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-caza-estelar.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-caza-estelar.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-caza-estelar.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-caza-estelar.md) |
+| 4 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-caza-estelar.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-caza-estelar.md) |
+| 6 | 🧪 Principios y operación | Newton en el vacío: que si, que no y por qué. | [Abrir](operacion/principios-caza-estelar.md) |
+| 7 | 🌍 Entornos | El vacío, órbitas y campos de escombros. | [Abrir](operacion/entornos-caza-estelar.md) |
+| 8 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-caza-estelar.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-caza-estelar.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-caza-estelar.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-caza-estelar.md) |
 
 ---
 

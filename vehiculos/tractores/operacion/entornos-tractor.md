@@ -55,7 +55,7 @@ mindmap
 
 Cada entorno es un escenario con su pendiente, tipo de suelo, labor y clima. Ver
 como se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-tractor.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-tractor.md).
 
 ---
 

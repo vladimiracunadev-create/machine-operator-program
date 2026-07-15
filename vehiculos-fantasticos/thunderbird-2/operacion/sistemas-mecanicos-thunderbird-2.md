@@ -130,9 +130,9 @@ impacto del contacto. Un apoyo insuficiente se hunde o se rompe.
 4. El **reparto de peso** mantiene el centro de masa en un punto estable.
 5. El **tren de aterrizaje** recibe toda la carga al posarse.
 
-Con esto claro, el [Módulo 4: Mandos](../mandos/manual-mandos-thunderbird-2.md)
+Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-thunderbird-2.md)
 muestra como el piloto operaría cada sistema.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-thunderbird-2.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-thunderbird-2.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-thunderbird-2.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-thunderbird-2.md)

@@ -140,6 +140,8 @@ Un curso de vehículo está "completo" cuando:
 - [ ] 🎓 Portada con diagrama y tabla de módulos enlazada.
 - [ ] 📜 Historia con línea de tiempo.
 - [ ] 📋 Características funcionales y tipos.
+- [ ] 🧩 Modelos y variantes: qué cambia en el manejo, en el mando y en el
+      simulador al pasar de un modelo a otro.
 - [ ] 🔧 Sistemas mecánicos con al menos un diagrama.
 - [ ] 🎛️ Mandos e instrumentos en tablas.
 - [ ] 🧪 Principios físicos y operación.

@@ -54,7 +54,7 @@ mindmap
 
 Cada fase es un escenario con su densidad de aire, su gravedad efectiva y su
 régimen de vuelo. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-cohete.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-cohete.md).
 
 ---
 

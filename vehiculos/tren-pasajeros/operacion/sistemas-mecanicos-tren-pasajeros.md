@@ -5,7 +5,7 @@
 Este módulo abre el tren por dentro. Explica cada sistema, como funciona y como
 se conecta con los demás, con foco en la tracción, la guía sobre rieles, la
 adherencia y el frenado de gran masa. Es la base técnica para entender los mandos
-(Módulo 4) y la operación con pasajeros (Módulo 5).
+(Módulo 5) y la operación con pasajeros (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -211,9 +211,9 @@ rieles. Define que trenes pueden circular por una red.
    **regenerativo**.
 7. La **señalización** y el **ATP** ordenan la circulación y protegen distancias.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-tren-pasajeros.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-tren-pasajeros.md)
 muestra como el maquinista opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-tren-pasajeros.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-tren-pasajeros.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-tren-pasajeros.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-tren-pasajeros.md)

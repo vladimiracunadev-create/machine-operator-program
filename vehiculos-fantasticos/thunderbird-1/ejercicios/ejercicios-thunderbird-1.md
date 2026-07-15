@@ -26,7 +26,7 @@ es mayor que uno, la nave acelera hacia arriba; si es igual a uno, flota sin
 subir ni bajar; si es menor que uno, no despega. Es la regla fundamental de todo
 vehículo VTOL.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-thunderbird-1.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-thunderbird-1.md).
 
 </details>
 
@@ -76,7 +76,7 @@ segundo, y el depósito es finito. Cada decisión es un compromiso: priorizar
 velocidad y vuelo estacionario gasta mucho y acorta el alcance; priorizar el
 alcance obliga a moderar el empuje y aprovechar las alas en crucero.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-thunderbird-1.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-thunderbird-1.md).
 
 </details>
 
@@ -94,7 +94,7 @@ velocidad y autonomía. Cuando el curso "corrige" a la ficción no critica la ob
 señala la diferencia entre lo que emociona en pantalla y lo que ocurriría de
 verdad.
 
-Módulo 7: [⚖️ Reglas del universo](../reglamentos/reglas-universo-thunderbird-1.md).
+Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-thunderbird-1.md).
 
 </details>
 
@@ -110,7 +110,7 @@ estrecha, el motor trabaja al límite y aparece el riesgo de perder altura. En
 aire denso ocurre lo contrario: las alas sostienen mejor y el motor puede
 aliviar el empuje.
 
-Módulo 6: [🌍 Entornos](../operacion/entornos-thunderbird-1.md).
+Módulo 7: [🌍 Entornos](../operacion/entornos-thunderbird-1.md).
 
 </details>
 

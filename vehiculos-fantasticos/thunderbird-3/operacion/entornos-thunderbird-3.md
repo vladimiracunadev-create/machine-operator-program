@@ -60,7 +60,7 @@ mindmap
 Cada tramo es un escenario con su gravedad, densidad de aire y objetivo de
 velocidad. El paso del aire denso al vacío de la órbita cambia por completo las
 reglas y es una gran lección de física. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-thunderbird-3.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-thunderbird-3.md).
 
 ---
 

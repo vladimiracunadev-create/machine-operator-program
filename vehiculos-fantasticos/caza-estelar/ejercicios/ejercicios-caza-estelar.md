@@ -26,7 +26,7 @@ rozamiento que la frenen, así que por la primera ley de Newton mantiene su
 velocidad indefinidamente. Frenar exige encender el motor en sentido contrario,
 y eso gasta propelente.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-caza-estelar.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-caza-estelar.md).
 
 </details>
 
@@ -41,7 +41,7 @@ en una dirección y mirar hacia atrás sin dejar de moverse igual. El rumbo solo
 empieza a cambiar cuando se enciende el motor principal en la nueva dirección,
 y eso lleva tiempo y propelente.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-caza-estelar.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-caza-estelar.md).
 
 </details>
 
@@ -56,7 +56,7 @@ opuestos la giran sobre su eje sin moverla de sitio), para **trasladarla** de
 lado sin cambiar su orientación, y para **frenar el giro**, porque una rotación
 no se detiene sola: hay que aplicar un impulso contrario.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-caza-estelar.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-caza-estelar.md).
 
 </details>
 
@@ -72,7 +72,7 @@ sobre energía eléctrica, sin masa que expulsar no hay empuje. Cada maniobra
 descuenta parte del presupuesto y, cuando se agota, la nave ya no puede
 acelerar, frenar ni cambiar de rumbo.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-caza-estelar.md)
+Módulo 6: [🧪 Principios y operación](../operacion/principios-caza-estelar.md)
 y módulo 9: [🧰 Recursos](../recursos/recursos-caza-estelar.md).
 
 </details>
@@ -89,7 +89,7 @@ porque en el vacío hacia dónde apunta la nave y hacia dónde se mueve son cosa
 distintas; en un avión el aire las mantiene acopladas. Por eso los instrumentos
 muestran a la vez el vector de velocidad y el indicador de orientación.
 
-Módulo 4: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-caza-estelar.md).
+Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-caza-estelar.md).
 
 </details>
 
@@ -105,7 +105,7 @@ en un campo de escombros no generan sustentación ni permiten virar. Si una
 superficie amplia tuviera una función útil fuera de la atmósfera sería disipar
 calor: en el vacío el calor no se va por el aire y hacen falta radiadores.
 
-Módulo 6: [🌍 Entornos](../operacion/entornos-caza-estelar.md) y módulo 3:
+Módulo 7: [🌍 Entornos](../operacion/entornos-caza-estelar.md) y módulo 3:
 [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-caza-estelar.md).
 
 </details>
@@ -130,7 +130,7 @@ es imposible, porque un avión gira apoyándose en el aire con sus alas (viraje
 bancado) y en el vacío no hay nada contra qué apoyarse. Ambas convenciones
 existen porque una persecución con ritmo de coche es fácil de seguir.
 
-Módulo 7: [⚖️ Reglas del universo](../reglamentos/reglas-universo-caza-estelar.md).
+Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-caza-estelar.md).
 
 </details>
 
@@ -197,7 +197,7 @@ cambiar de modo qué regla se activó o se desactivó.
 Lo que sí queda fuera de alcance es presentar la versión de ficción como si
 fuera física real sin avisarlo.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-caza-estelar.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-caza-estelar.md).
 
 </details>
 
@@ -217,7 +217,7 @@ El nivel 1 (educativo) ya basta para notar que la nave no frena sola, pero la
 conservación del momento y los RCS son el contenido del nivel 2 (simplificado).
 El delta-v, la masa y el calor esperan al nivel 3 (técnico).
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-caza-estelar.md)
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-caza-estelar.md)
 y los [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

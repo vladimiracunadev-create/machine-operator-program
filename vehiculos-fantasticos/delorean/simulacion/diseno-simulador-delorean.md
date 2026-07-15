@@ -58,7 +58,7 @@ abre el tiempo; en modo ficción explora las reglas del relato y sus paradojas.
 | Umbral alcanzado | lógica | falso/verdadero | Transición a EnUmbral | Marca la condición del salto. |
 | Modo ciencia/ficción | discreta | ciencia, ficción | Todas las reglas | Interruptor educativo clave. |
 | Fecha objetivo | fecha | ajustable | Destino del salto | Solo activa en ficción. |
-| Riesgo de paradoja | numérica | 0-1 | Aviso de causalidad | Abre el debate del Módulo 7. |
+| Riesgo de paradoja | numérica | 0-1 | Aviso de causalidad | Abre el debate del Módulo 8. |
 | Factor de dilatación | numérica | cerca de 1 | Reloj relativo | Se resalta en modo ciencia. |
 
 ---

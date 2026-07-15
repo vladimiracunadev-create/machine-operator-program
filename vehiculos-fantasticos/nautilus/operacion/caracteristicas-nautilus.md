@@ -5,7 +5,7 @@
 > ⚖️ Material educativo original; el Nautilus de Julio Verne (1870) es de dominio público; otros derechos pertenecen a sus titulares.
 
 Que es el Nautilus, que forma tiene y que sabe hacer. Este módulo da el
-contexto antes de abrir su mecánica en el Módulo 3.
+contexto antes de abrir su mecánica en el Módulo 4.
 
 ---
 
@@ -72,4 +72,4 @@ aire, energía y lastre, y necesita masa distribuida para mantenerse estable.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-nautilus.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-nautilus.md)
+[⬅️ Anterior: Historia](../historia/historia-nautilus.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-nautilus.md)

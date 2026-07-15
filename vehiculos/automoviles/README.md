@@ -8,7 +8,7 @@
 > plantilla de oro del curso de motocicletas.
 
 ![Nivel](https://img.shields.io/badge/nivel-introductorio-green)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-Clase%20B-orange)
 
 ---
@@ -53,14 +53,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del automóvil, línea de tiempo. | [Abrir](historia/historia-automovil.md) |
 | 2 | 📋 Características | Que es, tipos de automóvil y para que sirve cada uno. | [Abrir](operacion/caracteristicas-automovil.md) |
-| 3 | 🔧 Sistemas mecánicos | Motor, transmisión, dirección, frenos, suspensión, eléctrico. | [Abrir](operacion/sistemas-mecanicos-automovil.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puesto de conducción, controles y tablero. | [Abrir](mandos/manual-mandos-automovil.md) |
-| 5 | 🧪 Principios y operación | Física de la conducción y fases de operación. | [Abrir](operacion/principios-automovil.md) |
-| 6 | 🌍 Entornos de trabajo | Ciudad, carretera, autopista, montaña, lluvia. | [Abrir](operacion/entornos-automovil.md) |
-| 7 | ⚖️ Reglamentos | Ley chilena: licencia clase B, cinturón, seguridad. | [Abrir](reglamentos/reglamentos-automovil.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-automovil.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-automovil.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-automovil.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-automovil.md) |
+| 4 | 🔧 Sistemas mecánicos | Motor, transmisión, dirección, frenos, suspensión, eléctrico. | [Abrir](operacion/sistemas-mecanicos-automovil.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puesto de conducción, controles y tablero. | [Abrir](mandos/manual-mandos-automovil.md) |
+| 6 | 🧪 Principios y operación | Física de la conducción y fases de operación. | [Abrir](operacion/principios-automovil.md) |
+| 7 | 🌍 Entornos de trabajo | Ciudad, carretera, autopista, montaña, lluvia. | [Abrir](operacion/entornos-automovil.md) |
+| 8 | ⚖️ Reglamentos | Ley chilena: licencia clase B, cinturón, seguridad. | [Abrir](reglamentos/reglamentos-automovil.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-automovil.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-automovil.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-automovil.md) |
 
 ---
 

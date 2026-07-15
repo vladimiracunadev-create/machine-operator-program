@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🚜 Curso: Tractores](../README.md) · 📋 Características
 
 Que es un tractor, que tipos existen y para que sirve cada uno. Este módulo da el
-contexto antes de abrir la mecánica (Módulo 3).
+contexto antes de abrir la mecánica (Módulo 4).
 
 ---
 
@@ -64,4 +64,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-tractor.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-tractor.md)
+[⬅️ Anterior: Historia](../historia/historia-tractor.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-tractor.md)

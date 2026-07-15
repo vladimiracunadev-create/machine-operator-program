@@ -9,7 +9,7 @@
 > motos.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-PPL%20DGAC-orange)
 
 ---
@@ -54,14 +54,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución de la aviación general, línea de tiempo. | [Abrir](historia/historia-avion-pequeno.md) |
 | 2 | 📋 Características | Que es, tipos de avión pequeño y para que sirve cada uno. | [Abrir](operacion/caracteristicas-avion-pequeno.md) |
-| 3 | 🔧 Sistemas mecánicos | Célula, alas, superficies de control, motor, tren, instrumentos. | [Abrir](operacion/sistemas-mecanicos-avion-pequeno.md) |
-| 4 | 🎛️ Mandos e instrumentos | Cabina, controles de vuelo y panel de instrumentos. | [Abrir](mandos/manual-mandos-avion-pequeno.md) |
-| 5 | 🧪 Principios y operación | Física del vuelo y fases de operación. | [Abrir](operacion/principios-avion-pequeno.md) |
-| 6 | 🌍 Entornos de trabajo | Aeródromo, espacio aéreo y meteorología. | [Abrir](operacion/entornos-avion-pequeno.md) |
-| 7 | ⚖️ Reglamentos | Ley chilena: DGAC, licencia PPL, reglas de vuelo. | [Abrir](reglamentos/reglamentos-avion-pequeno.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-avion-pequeno.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-avion-pequeno.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-avion-pequeno.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-avion-pequeno.md) |
+| 4 | 🔧 Sistemas mecánicos | Célula, alas, superficies de control, motor, tren, instrumentos. | [Abrir](operacion/sistemas-mecanicos-avion-pequeno.md) |
+| 5 | 🎛️ Mandos e instrumentos | Cabina, controles de vuelo y panel de instrumentos. | [Abrir](mandos/manual-mandos-avion-pequeno.md) |
+| 6 | 🧪 Principios y operación | Física del vuelo y fases de operación. | [Abrir](operacion/principios-avion-pequeno.md) |
+| 7 | 🌍 Entornos de trabajo | Aeródromo, espacio aéreo y meteorología. | [Abrir](operacion/entornos-avion-pequeno.md) |
+| 8 | ⚖️ Reglamentos | Ley chilena: DGAC, licencia PPL, reglas de vuelo. | [Abrir](reglamentos/reglamentos-avion-pequeno.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-avion-pequeno.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-avion-pequeno.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-avion-pequeno.md) |
 
 ---
 

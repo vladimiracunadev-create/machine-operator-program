@@ -62,7 +62,7 @@ Cada entorno es un escenario con su gravedad, presencia o ausencia de aire y
 nivel de esfuerzos sobre la estructura. Pasar del vacío tranquilo a la cercanía
 de un planeta multiplica los retos y es una gran lección sobre escala e
 ingeniería. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-sdf-1.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-sdf-1.md).
 
 ---
 

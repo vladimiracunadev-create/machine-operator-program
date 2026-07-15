@@ -4,7 +4,7 @@
 
 Este módulo abre la estación por dentro. Explica cada sistema, como funciona y como
 se conecta con los demás. Es la base técnica para entender el centro de control
-(Módulo 4) y la física de la microgravedad (Módulo 5). Todo es **ciencia real**.
+(Módulo 5) y la física de la microgravedad (Módulo 6). Todo es **ciencia real**.
 
 ```mermaid
 flowchart LR
@@ -145,9 +145,9 @@ equipos, siempre con traje presurizado y sujeciones de seguridad.
 5. El **acoplamiento y las EVA** permiten reabastecer y mantener la estación.
 
 Con esto entendido, el
-[Módulo 4: Mandos](../mandos/manual-mandos-estacion-espacial.md) muestra como el
+[Módulo 5: Mandos](../mandos/manual-mandos-estacion-espacial.md) muestra como el
 centro de control y la tripulación operan estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-estacion-espacial.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-estacion-espacial.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-estacion-espacial.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-estacion-espacial.md)

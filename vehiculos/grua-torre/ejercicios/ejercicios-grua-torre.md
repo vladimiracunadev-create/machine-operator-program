@@ -26,7 +26,7 @@ proporción inversa: con un momento máximo de 100 t·m, a radio 10 m se pueden 
 10 t, pero a radio 40 m solo 2.5 t. La tabla de carga indica cuánto se admite en
 cada radio.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-torre.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-torre.md).
 
 </details>
 
@@ -94,7 +94,7 @@ cierre.
 6. **Descenso**: bajada lenta, guiar con el señalero.
 7. **Cierre**: gancho arriba, freno de giro liberado, veleta.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-grua-torre.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-grua-torre.md).
 
 </details>
 
@@ -110,7 +110,7 @@ laboral (Ley 16.744 y D.S. 594 del MINSAL). La opera personal
 fabricante, y con un señalero (rigger) coordinando desde tierra. Los detalles de
 certificación del operador están por confirmar.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-grua-torre.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-grua-torre.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -171,7 +171,7 @@ La secuencia razonable es bajar la carga y pasar a veleta, que es el estado de
 "viento alto" previsto: alarma del anemómetro, depositar y dejar girar libre. En
 esos entornos la pluma abatible reduce la invasión del espacio vecino.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-grua-torre.md).
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-grua-torre.md).
 
 </details>
 
@@ -209,7 +209,7 @@ nivel 2 agrega el momento de carga, el radio y el límite de viento, que son el
 núcleo educativo de la grúa torre. El péndulo es un refinamiento del control:
 llega cuando el usuario ya entiende por qué el radio manda.
 
-Módulo 5: [🧪 Principios](../operacion/principios-grua-torre.md) y los
+Módulo 6: [🧪 Principios](../operacion/principios-grua-torre.md) y los
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

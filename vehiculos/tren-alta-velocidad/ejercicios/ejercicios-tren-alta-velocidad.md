@@ -64,7 +64,7 @@ vía informan al equipo embarcado, que muestra la velocidad objetivo en la
 pantalla **DMI** del pupitre. Además el sistema supervisa: si el tren excede el
 límite, aplica el freno automáticamente.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-alta-velocidad.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-alta-velocidad.md).
 
 </details>
 
@@ -84,7 +84,7 @@ velocidad, sin desgaste; el **neumático** completa la detención final. Se comb
 porque la energía cinética es enorme y el freno de fricción solo no bastaría ni
 disiparía el calor con seguridad.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-alta-velocidad.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-alta-velocidad.md).
 
 </details>
 
@@ -103,7 +103,7 @@ El orden importa: la frenada se planifica respecto a la señal objetivo, no se
 improvisa al verla. Frenar tarde es el error típico, y si se ignora el objetivo
 del DMI la supervisión frena sola.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-tren-alta-velocidad.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-alta-velocidad.md).
 
 </details>
 
@@ -121,7 +121,7 @@ regulador y EFE como operador estatal histórico; para la operación se usan com
 referencia los estándares internacionales de alta velocidad, incluida la
 señalización embarcada ETCS/ERTMS.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-alta-velocidad.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-alta-velocidad.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md), sección 1.6.
 
 </details>
@@ -146,7 +146,7 @@ e iniciar la frenada con kilómetros de anticipación, apoyándose primero en el
 freno regenerativo y dinámico. Si se llega excedido, la supervisión ETCS aplica el
 freno automático: no es una ayuda, es la señal de que la planificación falló.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-tren-alta-velocidad.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-alta-velocidad.md).
 
 </details>
 
@@ -167,7 +167,7 @@ Ahí lo que se ajusta es la velocidad y la ventilación.
 
 Mismo tren, dos entornos, dos motivos distintos para moderar la marcha.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-tren-alta-velocidad.md).
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-tren-alta-velocidad.md).
 
 </details>
 
@@ -213,7 +213,7 @@ y supervisa la velocidad objetivo con frenado automático al excederla: la
 supervisión saltando es la retroalimentación de que se frenó tarde. Conviene que
 sea un aviso educativo y no un castigo frustrante.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tren-alta-velocidad.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tren-alta-velocidad.md).
 
 </details>
 

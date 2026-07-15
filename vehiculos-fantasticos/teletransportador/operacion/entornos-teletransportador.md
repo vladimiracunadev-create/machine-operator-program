@@ -61,7 +61,7 @@ Cada entorno es un escenario con su distancia, su reserva de materia y su
 presupuesto de energía. El paso de transferir estado a intentar reconstruir un
 cuerpo cambia por completo lo que es posible y es una gran lección de física.
 Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-teletransportador.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-teletransportador.md).
 
 ---
 

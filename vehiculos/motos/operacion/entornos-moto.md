@@ -54,7 +54,7 @@ mindmap
 ## 🎮 Traducción a simulación
 
 Cada entorno es un escenario con su superficie, clima y tráfico. Ver cómo se
-modela en el [Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-moto.md).
+modela en el [Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-moto.md).
 
 ---
 

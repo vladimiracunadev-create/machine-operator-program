@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🛳️ Curso: Portaviones](../README.md) · 📋 Características
 
 Que es un portaviones, que tipos históricos existieron y cual fue su papel
-general. Contexto público antes de abrir la física naval (Módulo 3). No se
+general. Contexto público antes de abrir la física naval (Módulo 4). No se
 documentan táctica ni sistemas de armas.
 
 ---
@@ -60,4 +60,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-portaviones.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-portaviones.md)
+[⬅️ Anterior: Historia](../historia/historia-portaviones.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-portaviones.md)

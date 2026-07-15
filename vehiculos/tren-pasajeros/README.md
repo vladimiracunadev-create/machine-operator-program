@@ -8,7 +8,7 @@
 > simulación. Sigue el modelo del curso de motos.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Marco Chile](https://img.shields.io/badge/marco-Ferroviario%20EFE-orange)
 
 ---
@@ -54,14 +54,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Del vapor a la electrificación y los metros modernos. | [Abrir](historia/historia-tren-pasajeros.md) |
 | 2 | 📋 Características | Que es un tren de pasajeros y sus tipos. | [Abrir](operacion/caracteristicas-tren-pasajeros.md) |
-| 3 | 🔧 Sistemas mecánicos | Tracción, bogies, adherencia, freno, señalización. | [Abrir](operacion/sistemas-mecanicos-tren-pasajeros.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puesto del maquinista, controles e indicadores. | [Abrir](mandos/manual-mandos-tren-pasajeros.md) |
-| 5 | 🧪 Principios y operación | Adherencia, gran masa y fases de operación. | [Abrir](operacion/principios-tren-pasajeros.md) |
-| 6 | 🌍 Entornos de trabajo | Metro, superficie, interurbano, túneles, estaciones. | [Abrir](operacion/entornos-tren-pasajeros.md) |
-| 7 | ⚖️ Reglamentos | Marco ferroviario chileno: EFE, MTT, habilitación. | [Abrir](reglamentos/reglamentos-tren-pasajeros.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-tren-pasajeros.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-tren-pasajeros.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-tren-pasajeros.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-tren-pasajeros.md) |
+| 4 | 🔧 Sistemas mecánicos | Tracción, bogies, adherencia, freno, señalización. | [Abrir](operacion/sistemas-mecanicos-tren-pasajeros.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puesto del maquinista, controles e indicadores. | [Abrir](mandos/manual-mandos-tren-pasajeros.md) |
+| 6 | 🧪 Principios y operación | Adherencia, gran masa y fases de operación. | [Abrir](operacion/principios-tren-pasajeros.md) |
+| 7 | 🌍 Entornos de trabajo | Metro, superficie, interurbano, túneles, estaciones. | [Abrir](operacion/entornos-tren-pasajeros.md) |
+| 8 | ⚖️ Reglamentos | Marco ferroviario chileno: EFE, MTT, habilitación. | [Abrir](reglamentos/reglamentos-tren-pasajeros.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-tren-pasajeros.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-tren-pasajeros.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-tren-pasajeros.md) |
 
 ---
 

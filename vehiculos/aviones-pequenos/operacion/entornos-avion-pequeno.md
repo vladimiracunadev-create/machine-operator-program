@@ -55,7 +55,7 @@ mindmap
 
 Cada entorno es un escenario con su tipo de espacio aéreo, su clima y su terreno.
 Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-avion-pequeno.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-avion-pequeno.md).
 
 ---
 

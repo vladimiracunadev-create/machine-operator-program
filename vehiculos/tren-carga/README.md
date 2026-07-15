@@ -8,7 +8,7 @@
 > simulación. Sigue el mismo molde que el curso de motos.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Marco legal](https://img.shields.io/badge/marco-Ferroviario%20Chile-orange)
 
 ---
@@ -54,14 +54,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Del vapor al diesel-eléctrico y trenes de mercancías modernos. | [Abrir](historia/historia-tren-carga.md) |
 | 2 | 📋 Características | Que es, tipos de vagón y trenes unitarios o mixtos. | [Abrir](operacion/caracteristicas-tren-carga.md) |
-| 3 | 🔧 Sistemas mecánicos | Tracción, bogies, adherencia, frenado, composición y enganches. | [Abrir](operacion/sistemas-mecanicos-tren-carga.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puesto del maquinista, controles e indicadores. | [Abrir](mandos/manual-mandos-tren-carga.md) |
-| 5 | 🧪 Principios y operación | Inercia, adherencia y fuerzas longitudinales del tren. | [Abrir](operacion/principios-tren-carga.md) |
-| 6 | 🌍 Entornos de trabajo | Corredores, patios, terminales intermodales y ramales. | [Abrir](operacion/entornos-tren-carga.md) |
-| 7 | ⚖️ Reglamentos | Marco ferroviario chileno: EFE, MTT y habilitación. | [Abrir](reglamentos/reglamentos-tren-carga.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-tren-carga.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-tren-carga.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-tren-carga.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-tren-carga.md) |
+| 4 | 🔧 Sistemas mecánicos | Tracción, bogies, adherencia, frenado, composición y enganches. | [Abrir](operacion/sistemas-mecanicos-tren-carga.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puesto del maquinista, controles e indicadores. | [Abrir](mandos/manual-mandos-tren-carga.md) |
+| 6 | 🧪 Principios y operación | Inercia, adherencia y fuerzas longitudinales del tren. | [Abrir](operacion/principios-tren-carga.md) |
+| 7 | 🌍 Entornos de trabajo | Corredores, patios, terminales intermodales y ramales. | [Abrir](operacion/entornos-tren-carga.md) |
+| 8 | ⚖️ Reglamentos | Marco ferroviario chileno: EFE, MTT y habilitación. | [Abrir](reglamentos/reglamentos-tren-carga.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-tren-carga.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-tren-carga.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-tren-carga.md) |
 
 ---
 

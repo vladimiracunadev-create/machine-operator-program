@@ -82,7 +82,7 @@ flowchart TD
 - El interruptor ciencia/ficción es la pieza educativa central: en modo ciencia
   el botón de salto queda deshabilitado y se explica por qué.
 - El aviso de causalidad no castiga; informa y abre la discusión sobre
-  paradojas, que se detalla en el Módulo 7.
+  paradojas, que se detalla en el Módulo 8.
 
 ---
 

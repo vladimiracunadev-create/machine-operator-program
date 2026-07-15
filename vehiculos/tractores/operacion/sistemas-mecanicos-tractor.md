@@ -5,7 +5,7 @@
 Este módulo abre el tractor por dentro y es el corazón del curso. Explica cada
 sistema, como funciona y cómo se conecta con los demás, con foco en la toma de
 fuerza, el enganche de tres puntos, la hidráulica y la estabilidad. Es la base
-técnica para entender los mandos (Módulo 4) y la física del trabajo (Módulo 5).
+técnica para entender los mandos (Módulo 5) y la física del trabajo (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -195,9 +195,9 @@ labor y cómo se transmite la fuerza.
 5. El **enganche** sube, baja y controla la profundidad del apero montado.
 6. El **lastre** y la conducción prudente mantienen la estabilidad en pendiente.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-tractor.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-tractor.md)
 muestra como el operador acciona cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-tractor.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-tractor.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-tractor.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-tractor.md)

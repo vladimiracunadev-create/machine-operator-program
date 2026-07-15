@@ -9,7 +9,7 @@
 > la hidráulica de trabajo, el movimiento de tierra y la estabilidad.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Licencia Chile](https://img.shields.io/badge/licencia-Clase%20D-orange)
 
 ---
@@ -54,14 +54,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución de la maquinaria, línea de tiempo. | [Abrir](historia/historia-maquinaria.md) |
 | 2 | 📋 Características | Que es, tipos de máquina y para que sirve cada uno. | [Abrir](operacion/caracteristicas-maquinaria.md) |
-| 3 | 🔧 Sistemas mecánicos | Hidráulica, movimiento de tierra, brazo, hoja, orugas, estabilidad. | [Abrir](operacion/sistemas-mecanicos-maquinaria.md) |
-| 4 | 🎛️ Mandos e instrumentos | Cabina, joysticks, pedales y tablero. | [Abrir](mandos/manual-mandos-maquinaria.md) |
-| 5 | 🧪 Principios y operación | Cargas, estabilidad y fases de trabajo. | [Abrir](operacion/principios-maquinaria.md) |
-| 6 | 🌍 Entornos de trabajo | Obra, minería, vialidad, demolición y zanjas. | [Abrir](operacion/entornos-maquinaria.md) |
-| 7 | ⚖️ Reglamentos | Ley chilena: licencia clase D, seguridad de faena. | [Abrir](reglamentos/reglamentos-maquinaria.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-maquinaria.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-maquinaria.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-maquinaria.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-maquinaria.md) |
+| 4 | 🔧 Sistemas mecánicos | Hidráulica, movimiento de tierra, brazo, hoja, orugas, estabilidad. | [Abrir](operacion/sistemas-mecanicos-maquinaria.md) |
+| 5 | 🎛️ Mandos e instrumentos | Cabina, joysticks, pedales y tablero. | [Abrir](mandos/manual-mandos-maquinaria.md) |
+| 6 | 🧪 Principios y operación | Cargas, estabilidad y fases de trabajo. | [Abrir](operacion/principios-maquinaria.md) |
+| 7 | 🌍 Entornos de trabajo | Obra, minería, vialidad, demolición y zanjas. | [Abrir](operacion/entornos-maquinaria.md) |
+| 8 | ⚖️ Reglamentos | Ley chilena: licencia clase D, seguridad de faena. | [Abrir](reglamentos/reglamentos-maquinaria.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-maquinaria.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-maquinaria.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-maquinaria.md) |
 
 ---
 

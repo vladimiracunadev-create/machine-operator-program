@@ -12,7 +12,7 @@
 > sino alcanzar una enorme velocidad lateral, y por qué el combustible manda.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 
 ---
 
@@ -54,14 +54,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Contexto de la nave de ficción y su idea de vuelo. | [Abrir](historia/historia-thunderbird-3.md) |
 | 2 | 📋 Características | Que es un cohete de rescate genérico y para que sirve. | [Abrir](operacion/caracteristicas-thunderbird-3.md) |
-| 3 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-thunderbird-3.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-thunderbird-3.md) |
-| 5 | 🧪 Principios y operación | Ascenso, etapas y ecuación del cohete: que si y que no. | [Abrir](operacion/principios-thunderbird-3.md) |
-| 6 | 🌍 Entornos | Rampa, atmósfera baja, atmósfera alta y órbita. | [Abrir](operacion/entornos-thunderbird-3.md) |
-| 7 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-thunderbird-3.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-thunderbird-3.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-thunderbird-3.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-thunderbird-3.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-thunderbird-3.md) |
+| 4 | 🔧 Sistemas mecánicos | Tecnología imaginaria frente a la física real. | [Abrir](operacion/sistemas-mecanicos-thunderbird-3.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puesto de mando conceptual y controles. | [Abrir](mandos/manual-mandos-thunderbird-3.md) |
+| 6 | 🧪 Principios y operación | Ascenso, etapas y ecuación del cohete: que si y que no. | [Abrir](operacion/principios-thunderbird-3.md) |
+| 7 | 🌍 Entornos | Rampa, atmósfera baja, atmósfera alta y órbita. | [Abrir](operacion/entornos-thunderbird-3.md) |
+| 8 | ⚖️ Reglas del universo | Las leyes internas de la ficción frente a la física. | [Abrir](reglamentos/reglas-universo-thunderbird-3.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modo ciencia o ficción. | [Abrir](simulacion/diseno-simulador-thunderbird-3.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-thunderbird-3.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-thunderbird-3.md) |
 
 ---
 

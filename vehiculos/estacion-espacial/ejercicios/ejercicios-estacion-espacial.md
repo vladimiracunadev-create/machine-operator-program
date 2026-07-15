@@ -28,7 +28,7 @@ estación en la misma órbita, y por eso parece flotar.
 Pensar que en órbita "no hay gravedad" es justamente uno de los errores comunes
 que el curso señala.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-estacion-espacial.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-estacion-espacial.md).
 
 </details>
 
@@ -58,7 +58,7 @@ paneles solares solo generan electricidad en la parte iluminada de la órbita; e
 la fase de sombra la estación vive de lo que las baterías guardaron. No es un
 respaldo ante fallas: es parte del ciclo normal, que se repite cada órbita.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-estacion-espacial.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-estacion-espacial.md).
 
 </details>
 
@@ -74,7 +74,7 @@ retira el CO2, genera oxígeno (a veces a partir del agua) y recupera agua del
 sudor, la humedad y la orina — para aprovechar al máximo lo que ya está a bordo
 y aumentar la autonomía.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-estacion-espacial.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-estacion-espacial.md).
 
 </details>
 
@@ -89,7 +89,7 @@ equipos y la tripulación, y los **radiadores** lo expulsan al espacio como
 radiación. El aislamiento reduce además el frío de la sombra y el calor del Sol.
 Importa porque sin control térmico los equipos se sobrecalientan o se congelan.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-estacion-espacial.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-estacion-espacial.md).
 
 </details>
 
@@ -105,7 +105,7 @@ registra**, es decir, cada módulo sigue siendo ante la ley un objeto espacial d
 país que lo registro, según el Convenio de Registro. A eso se suman los tratados
 espaciales del marco de UNOOSA.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-estacion-espacial.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-estacion-espacial.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md) sección 4.
 
 </details>
@@ -212,7 +212,7 @@ exigentes y llegan al final.
 Por eso mismo la estación se recomienda como vehículo avanzado: combina muchos
 sistemas a la vez y una física abstracta.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-estacion-espacial.md)
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-estacion-espacial.md)
 y [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>

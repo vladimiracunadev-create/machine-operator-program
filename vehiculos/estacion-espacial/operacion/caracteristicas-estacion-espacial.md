@@ -3,7 +3,7 @@
 [🏠 Inicio](../../../README.md) · [🛰️ Curso: Estación espacial (ISS)](../README.md) · 📋 Características
 
 Que es una estación espacial, cuales son sus partes y para que sirve. Este módulo
-da el contexto antes de abrir los sistemas de la estación (Módulo 3).
+da el contexto antes de abrir los sistemas de la estación (Módulo 4).
 
 ---
 
@@ -66,4 +66,4 @@ flowchart TD
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-estacion-espacial.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-estacion-espacial.md)
+[⬅️ Anterior: Historia](../historia/historia-estacion-espacial.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-estacion-espacial.md)

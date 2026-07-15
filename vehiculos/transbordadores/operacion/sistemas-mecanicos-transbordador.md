@@ -4,7 +4,7 @@
 
 Este módulo abre el transbordador por dentro. Explica cada sistema, como funciona
 y cómo se conecta con los demás. Es la base técnica para entender los mandos
-(Módulo 4) y la física del planeo (Módulo 5). Todo es **ciencia real**.
+(Módulo 5) y la física del planeo (Módulo 6). Todo es **ciencia real**.
 
 ```mermaid
 flowchart LR
@@ -121,9 +121,9 @@ Mientras trabaja en órbita, el orbitador debe mantener con vida a su tripulaci�
 4. Las **alas y timones** convierten la reentrada en un planeo controlado.
 5. El **tren de aterrizaje** cierra la misión con un toque en pista.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-transbordador.md)
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-transbordador.md)
 muestra cómo la tripulación opera estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-transbordador.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-transbordador.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-transbordador.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-transbordador.md)

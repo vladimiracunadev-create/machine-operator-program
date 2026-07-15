@@ -29,7 +29,7 @@ se mantiene constante, así que la nave juega con el otro lado de la balanza: lo
 tanques de lastre dejan entrar agua para pesar más y hundirse, o inyectan aire
 comprimido que expulsa esa agua para pesar menos y subir.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nautilus.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nautilus.md).
 
 </details>
 
@@ -45,7 +45,7 @@ vertical: la nave sigue avanzando con la hélice y puede derivar con las
 corrientes. Confundir ambas cosas es uno de los errores típicos que el curso
 señala.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-nautilus.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-nautilus.md).
 
 </details>
 
@@ -78,7 +78,7 @@ otro, y en la novela la nave sube periódicamente a la superficie a ventilar. La
 presión pone un techo a la profundidad, pero el aire pone un reloj a la
 inmersión completa.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nautilus.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nautilus.md).
 
 </details>
 
@@ -94,7 +94,7 @@ de que se está acercando la profundidad de aplastamiento del casco. El curso
 añade que el nivel de aire también debe estar visible, porque define la
 autonomía respirable.
 
-Módulo 4: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-nautilus.md).
+Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-nautilus.md).
 
 </details>
 
@@ -109,7 +109,7 @@ aventura funcione dentro del relato. En el mundo real ninguna fuente de energía
 es infinita, todo casco tiene profundidad límite, el aire es finito y la
 navegación submarina está sujeta a normas y tratados internacionales.
 
-Módulo 7: [⚖️ Reglas del universo](../reglamentos/reglas-universo-nautilus.md).
+Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-nautilus.md).
 
 </details>
 
@@ -193,10 +193,10 @@ cambia al activar cada modo y por qué existe esa opción?
 <details>
 <summary>Ver respuesta</summary>
 
-En **modo ciencia** se aplica la física del Módulo 5: el aire y la energía se
+En **modo ciencia** se aplica la física del Módulo 6: el aire y la energía se
 agotan, la presión crece con la profundidad y el casco tiene un límite de
 aplastamiento. En **modo ficción** se aplican las reglas del universo del
-Módulo 7: la autonomía es casi ilimitada y la nave alcanza las profundidades del
+Módulo 8: la autonomía es casi ilimitada y la nave alcanza las profundidades del
 relato, priorizando la aventura sobre el rigor.
 
 Existe porque el curso no quiere elegir por el usuario. La misma nave sirve para
@@ -204,7 +204,7 @@ enseñar flotabilidad y presión con rigor, o para recrear la novela; el modo
 convierte esa decisión en un interruptor explícito en vez de en una ambigüedad
 escondida en el modelo.
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nautilus.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nautilus.md).
 
 </details>
 

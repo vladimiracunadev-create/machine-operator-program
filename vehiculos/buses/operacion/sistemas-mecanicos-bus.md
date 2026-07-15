@@ -4,8 +4,8 @@
 
 Este módulo abre el bus por dentro. Explica cada sistema, como funciona y como
 se conecta con los demás, con foco en el sistema neumático, los frenos y las
-puertas. Es la base técnica para entender los mandos (Módulo 4) y la operación
-con pasajeros (Módulo 5).
+puertas. Es la base técnica para entender los mandos (Módulo 5) y la operación
+con pasajeros (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -235,9 +235,9 @@ apoyo.
 6. El **retardador** y el **freno motor** ayudan a frenar la gran masa.
 7. La **dirección asistida** permite girar; el conductor vigila el barrido trasero.
 
-Con esto entendido, el [Módulo 4: Mandos](../mandos/manual-mandos-bus.md) muestra
+Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-bus.md) muestra
 como el conductor opera cada uno de estos sistemas.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-bus.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-bus.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-bus.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-bus.md)

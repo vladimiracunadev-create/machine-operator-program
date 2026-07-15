@@ -132,9 +132,9 @@ para no recalentarse.
 4. La **computadora** coordina todo respetando la conservación del momento.
 5. Los **sensores** informan a gran distancia, no por la ventanilla.
 
-Con esto claro, el [Módulo 4: Mandos](../mandos/manual-mandos-caza-estelar.md)
+Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-caza-estelar.md)
 muestra como el piloto operaría cada sistema.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-caza-estelar.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-caza-estelar.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-caza-estelar.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-caza-estelar.md)

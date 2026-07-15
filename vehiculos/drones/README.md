@@ -8,7 +8,7 @@
 > simulación. Sigue el modelo del curso de referencia del repositorio.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Marco Chile](https://img.shields.io/badge/marco-DAN%20151-orange)
 
 ---
@@ -50,14 +50,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del dron, línea de tiempo. | [Abrir](historia/historia-dron.md) |
 | 2 | 📋 Características | Que es un RPAS, tipos de dron y para que sirve cada uno. | [Abrir](operacion/caracteristicas-dron.md) |
-| 3 | 🔧 Sistemas mecánicos | Motores, ESC, hélices, batería, controladora, radio y cámara. | [Abrir](operacion/sistemas-mecanicos-dron.md) |
-| 4 | 🎛️ Mandos e instrumentos | Radiocontrol, estación de tierra, sticks y telemetría. | [Abrir](mandos/manual-mandos-dron.md) |
-| 5 | 🧪 Principios y operación | Física del vuelo multirotor y fases de operación. | [Abrir](operacion/principios-dron.md) |
-| 6 | 🌍 Entornos de trabajo | Urbano, agrícola, industrial, interiores y zonas prohibidas. | [Abrir](operacion/entornos-dron.md) |
-| 7 | ⚖️ Reglamentos | Marco chileno: DGAC, DAN 151, registro y restricciones. | [Abrir](reglamentos/reglamentos-dron.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-dron.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-dron.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-dron.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-dron.md) |
+| 4 | 🔧 Sistemas mecánicos | Motores, ESC, hélices, batería, controladora, radio y cámara. | [Abrir](operacion/sistemas-mecanicos-dron.md) |
+| 5 | 🎛️ Mandos e instrumentos | Radiocontrol, estación de tierra, sticks y telemetría. | [Abrir](mandos/manual-mandos-dron.md) |
+| 6 | 🧪 Principios y operación | Física del vuelo multirotor y fases de operación. | [Abrir](operacion/principios-dron.md) |
+| 7 | 🌍 Entornos de trabajo | Urbano, agrícola, industrial, interiores y zonas prohibidas. | [Abrir](operacion/entornos-dron.md) |
+| 8 | ⚖️ Reglamentos | Marco chileno: DGAC, DAN 151, registro y restricciones. | [Abrir](reglamentos/reglamentos-dron.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de juego. | [Abrir](simulacion/diseno-simulador-dron.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas. | [Abrir](recursos/recursos-dron.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-dron.md) |
 
 ---
 

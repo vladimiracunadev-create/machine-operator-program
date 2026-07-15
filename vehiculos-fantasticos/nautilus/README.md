@@ -12,7 +12,7 @@
 > lo que la novela acerto con la ingeniería submarina moderna.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 
 ---
 
@@ -53,14 +53,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | La novela de Verne, su contexto y la nave imaginada. | [Abrir](historia/historia-nautilus.md) |
 | 2 | 📋 Características | Que es el Nautilus, forma, tamaño y capacidades. | [Abrir](operacion/caracteristicas-nautilus.md) |
-| 3 | 🔧 Sistemas mecánicos | Tecnología imaginada por Verne frente a la física real. | [Abrir](operacion/sistemas-mecanicos-nautilus.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puesto de mando, controles e instrumentos de a bordo. | [Abrir](mandos/manual-mandos-nautilus.md) |
-| 5 | 🧪 Principios y operación | Que si, que no y por qué, según la física. | [Abrir](operacion/principios-nautilus.md) |
-| 6 | 🌍 Entornos | Superficie, aguas medias y grandes fondos oceánicos. | [Abrir](operacion/entornos-nautilus.md) |
-| 7 | ⚖️ Reglas del universo | Las leyes internas de la novela, no ley real. | [Abrir](reglamentos/reglas-universo-nautilus.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo, estados y modo ciencia/ficción. | [Abrir](simulacion/diseno-simulador-nautilus.md) |
-| 9 | 🧰 Recursos | Glosario, enlaces y diagramas de apoyo. | [Abrir](recursos/recursos-nautilus.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-nautilus.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-nautilus.md) |
+| 4 | 🔧 Sistemas mecánicos | Tecnología imaginada por Verne frente a la física real. | [Abrir](operacion/sistemas-mecanicos-nautilus.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puesto de mando, controles e instrumentos de a bordo. | [Abrir](mandos/manual-mandos-nautilus.md) |
+| 6 | 🧪 Principios y operación | Que si, que no y por qué, según la física. | [Abrir](operacion/principios-nautilus.md) |
+| 7 | 🌍 Entornos | Superficie, aguas medias y grandes fondos oceánicos. | [Abrir](operacion/entornos-nautilus.md) |
+| 8 | ⚖️ Reglas del universo | Las leyes internas de la novela, no ley real. | [Abrir](reglamentos/reglas-universo-nautilus.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo, estados y modo ciencia/ficción. | [Abrir](simulacion/diseno-simulador-nautilus.md) |
+| 10 | 🧰 Recursos | Glosario, enlaces y diagramas de apoyo. | [Abrir](recursos/recursos-nautilus.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-nautilus.md) |
 
 ---
 

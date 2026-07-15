@@ -62,7 +62,7 @@ mindmap
 
 Cada entorno es un escenario con su terreno, viento, obstáculos y límites de
 espacio. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-grua.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-grua.md).
 
 ---
 

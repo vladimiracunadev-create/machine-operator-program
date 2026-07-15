@@ -80,6 +80,7 @@ SECCIONES_VEHICULO = [
     "historia",
     "reglamentos",
     "operacion",
+    "modelos",
     "simulacion",
     "recursos",
     "ejercicios",

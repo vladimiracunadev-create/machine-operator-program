@@ -140,9 +140,9 @@ mucha potencia que tenga.
 5. La **logística y el soporte vital** mantienen viva a la población.
 
 Con esto claro, el
-[Módulo 4: Mandos](../mandos/manual-mandos-estrella-de-la-muerte.md) muestra como
+[Módulo 5: Mandos](../mandos/manual-mandos-estrella-de-la-muerte.md) muestra como
 se operaría una estación de este tamaño.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-estrella-de-la-muerte.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-estrella-de-la-muerte.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-estrella-de-la-muerte.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-estrella-de-la-muerte.md)

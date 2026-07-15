@@ -25,7 +25,7 @@ Sustentación, peso, empuje y resistencia. En vuelo nivelado y estable la
 sustentación equilibra el peso y el empuje equilibra la resistencia. No son
 independientes: cambiar una fuerza obliga a reajustar las demás.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-avion-pasajeros.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-avion-pasajeros.md).
 
 </details>
 
@@ -40,7 +40,7 @@ queda corta de sustentación. Los **flaps** aumentan sustentación y resistencia
 para despegue y aterrizaje; los **slats**, en el borde de ataque, retrasan la
 entrada en pérdida a baja velocidad. Se despliegan por etapas según la fase.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pasajeros.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pasajeros.md).
 
 </details>
 
@@ -54,7 +54,7 @@ hace al turbofan eficiente y más silencioso. El compresor, la cámara de combus
 y la turbina existen para alimentar y mover ese fan; la turbina extrae energía
 para mover fan y compresor.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pasajeros.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pasajeros.md).
 
 </details>
 
@@ -90,7 +90,7 @@ La consecuencia: cada vuelo presuriza y despresuriza el fuselaje, y esos **ciclo
 de presurización** son un factor clave en la fatiga estructural y en las
 inspecciones. Ventanas y puertas son zonas críticas.
 
-Módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pasajeros.md).
+Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pasajeros.md).
 
 </details>
 
@@ -107,7 +107,7 @@ habilitación de tipo para el modelo y certificado médico aeronáutico vigente.
 La aerolínea opera bajo un **Certificado de Operador Aéreo (AOC)** emitido por la
 DGAC, con manual de operaciones y procedimientos aprobados.
 
-Módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-avion-pasajeros.md) y el
+Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-avion-pasajeros.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -132,7 +132,7 @@ La corrección de verdad ocurrió antes: el descenso se planifica con anticipaci
 según distancia y altitud, y los flaps y la velocidad se configuran por etapas
 según el procedimiento. Si no se llega estabilizado, lo razonable es no continuar.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-avion-pasajeros.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-avion-pasajeros.md).
 
 </details>
 
@@ -151,7 +151,7 @@ Además el calor y la altitud del aeropuerto afectan la densidad del aire y con 
 el rendimiento. En prevuelo esto toca combustible, meteorología y NOTAM, y la
 planificación del alternativo.
 
-Módulo 6: [🌍 Entornos de trabajo](../operacion/entornos-avion-pasajeros.md).
+Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-avion-pasajeros.md).
 
 </details>
 
@@ -195,7 +195,7 @@ Así el usuario **ve** dos altitudes a la vez: la del avión sube hacia el nivel
 crucero mientras la de cabina se mantiene baja. Cuando esa separación se pierde,
 entiende solo qué significa una despresurización, sin leerlo.
 
-Módulo 8:
+Módulo 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-avion-pasajeros.md).
 
 </details>

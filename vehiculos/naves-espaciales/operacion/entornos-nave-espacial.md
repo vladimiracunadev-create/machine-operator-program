@@ -54,7 +54,7 @@ mindmap
 
 Cada entorno es un escenario con su gravedad, su radiación y su régimen de órbita
 o reentrada. Ver cómo se modela en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md).
 
 ---
 

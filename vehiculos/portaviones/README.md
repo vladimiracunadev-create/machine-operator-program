@@ -9,7 +9,7 @@
 > sistemas de armas. Ver [🦺 docs/04-seguridad-y-limites.md](../../docs/04-seguridad-y-limites.md).
 
 ![Nivel](https://img.shields.io/badge/nivel-divulgativo-green)
-![Módulos](https://img.shields.io/badge/modulos-10-blue)
+![Módulos](https://img.shields.io/badge/modulos-11-blue)
 ![Marco](https://img.shields.io/badge/marco-historico%20publico-lightgrey)
 
 ---
@@ -52,14 +52,15 @@ flowchart TD
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución pública de la aviación naval. | [Abrir](historia/historia-portaviones.md) |
 | 2 | 📋 Características | Que es, tipos históricos y su papel general. | [Abrir](operacion/caracteristicas-portaviones.md) |
-| 3 | 🔧 Sistemas mecánicos | Casco, propulsión, gobierno, cubierta y hangar. | [Abrir](operacion/sistemas-mecanicos-portaviones.md) |
-| 4 | 🎛️ Mandos e instrumentos | Puente e isla, a nivel educativo. | [Abrir](mandos/manual-mandos-portaviones.md) |
-| 5 | 🧪 Principios y operación | Física de flotación, estabilidad y cubierta. | [Abrir](operacion/principios-portaviones.md) |
-| 6 | 🌍 Entornos de trabajo | Puerto, costa, mar abierto y clima. | [Abrir](operacion/entornos-portaviones.md) |
-| 7 | ⚖️ Reglamentos | Marco público institucional e internacional. | [Abrir](reglamentos/reglamentos-portaviones.md) |
-| 8 | 🎮 Diseño de simulación | Variables, ciclo y modos de simulación. | [Abrir](simulacion/diseno-simulador-portaviones.md) |
-| 9 | 🧰 Recursos | Glosario náutico, enlaces y diagramas. | [Abrir](recursos/recursos-portaviones.md) |
-| 10 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-portaviones.md) |
+| 3 | 🧩 Modelos y variantes | Que cambia entre modelos: manejo, mando y simulador. | [Abrir](modelos/modelos-portaviones.md) |
+| 4 | 🔧 Sistemas mecánicos | Casco, propulsión, gobierno, cubierta y hangar. | [Abrir](operacion/sistemas-mecanicos-portaviones.md) |
+| 5 | 🎛️ Mandos e instrumentos | Puente e isla, a nivel educativo. | [Abrir](mandos/manual-mandos-portaviones.md) |
+| 6 | 🧪 Principios y operación | Física de flotación, estabilidad y cubierta. | [Abrir](operacion/principios-portaviones.md) |
+| 7 | 🌍 Entornos de trabajo | Puerto, costa, mar abierto y clima. | [Abrir](operacion/entornos-portaviones.md) |
+| 8 | ⚖️ Reglamentos | Marco público institucional e internacional. | [Abrir](reglamentos/reglamentos-portaviones.md) |
+| 9 | 🎮 Diseño de simulación | Variables, ciclo y modos de simulación. | [Abrir](simulacion/diseno-simulador-portaviones.md) |
+| 10 | 🧰 Recursos | Glosario náutico, enlaces y diagramas. | [Abrir](recursos/recursos-portaviones.md) |
+| 11 | 🎯 Ejercicios | Autoevaluación con respuestas plegadas. | [Abrir](ejercicios/ejercicios-portaviones.md) |
 
 ---
 

@@ -53,7 +53,7 @@ mindmap
 ## 🎮 Traducción a simulación
 
 Cada entorno es un escenario con su vía, pendiente, clima y tráfico ferroviario.
-Ver cómo se modela en el [Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-tren-carga.md).
+Ver cómo se modela en el [Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-tren-carga.md).
 
 ---
 

@@ -4,8 +4,8 @@
 
 Este módulo describe, **solo con física pública**, como flota, avanza, gobierna y
 se mantiene estable un gran buque blindado. No incluye sistemas de armas,
-táctica ni datos sensibles. Es la base para entender los mandos (Módulo 4) y la
-física de la navegación (Módulo 5).
+táctica ni datos sensibles. Es la base para entender los mandos (Módulo 5) y la
+física de la navegación (Módulo 6).
 
 ```mermaid
 flowchart LR
@@ -114,9 +114,9 @@ La estabilidad depende del equilibrio entre peso, blindaje y lastre.
 5. Todo se opera de forma coordinada por la tripulación.
 
 Con esto entendido, el
-[Módulo 4: Mandos](../mandos/manual-mandos-acorazado.md) describe, a nivel
+[Módulo 5: Mandos](../mandos/manual-mandos-acorazado.md) describe, a nivel
 educativo, como se navega el buque desde el puente.
 
 ---
 
-[⬅️ Anterior: Características](caracteristicas-acorazado.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-acorazado.md)
+[⬅️ Anterior: Modelos y variantes](../modelos/modelos-acorazado.md) · [➡️ Siguiente: Mandos e instrumentos](../mandos/manual-mandos-acorazado.md)

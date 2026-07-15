@@ -54,7 +54,7 @@ mindmap
 | Fecha de origen | Momento desde el que parte el salto | Punto de referencia narrativo. |
 | Fecha de destino | Momento al que apunta el salto | En la realidad no es alcanzable hacia el pasado. |
 | Distancia temporal | Diferencia entre origen y destino | La ficción la trata como ajustable a voluntad. |
-| Riesgo de paradoja | Posibilidad de alterar causas | Central en el Módulo 7. |
+| Riesgo de paradoja | Posibilidad de alterar causas | Central en el Módulo 8. |
 
 ---
 
@@ -74,7 +74,7 @@ mindmap
 
 Cada entorno es un escenario configurable con su superficie, clima, energía
 disponible y modo activo. El diseño completo se detalla en el
-[Módulo 8: Diseño de simulación](../simulacion/diseno-simulador-delorean.md).
+[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-delorean.md).
 
 ---
 

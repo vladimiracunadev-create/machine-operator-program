@@ -6,7 +6,7 @@
 
 Que es un teletransportador genérico, que rasgos lo definen en la ficción y
 cuales tendrían sentido físico real. Este módulo da el contexto antes de abrir
-la tecnología por dentro en el Módulo 3.
+la tecnología por dentro en el Módulo 4.
 
 ---
 
@@ -64,4 +64,4 @@ deja preguntar si sería posible y por qué.
 
 ---
 
-[⬅️ Anterior: Historia](../historia/historia-teletransportador.md) · [➡️ Siguiente: Sistemas mecánicos](sistemas-mecanicos-teletransportador.md)
+[⬅️ Anterior: Historia](../historia/historia-teletransportador.md) · [➡️ Siguiente: Modelos y variantes](../modelos/modelos-teletransportador.md)

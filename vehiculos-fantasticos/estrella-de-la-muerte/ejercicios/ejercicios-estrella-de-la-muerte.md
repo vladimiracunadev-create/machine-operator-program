@@ -50,7 +50,7 @@ gran consumo compiten por la misma energía. La consecuencia es directa: no se
 puede alimentar todo a la vez sin límite, y un consumo enorme obliga a recortar en
 el resto.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-estrella-de-la-muerte.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-estrella-de-la-muerte.md).
 
 </details>
 
@@ -66,7 +66,7 @@ de su tamaño, pero el volumen —y con él casi todo lo que genera calor— cre
 el cubo. Por eso, aunque la superficie sea enorme, puede no bastar para evacuar el
 calor que se produce dentro.
 
-Módulo 5: [🧪 Principios y operación](../operacion/principios-estrella-de-la-muerte.md).
+Módulo 6: [🧪 Principios y operación](../operacion/principios-estrella-de-la-muerte.md).
 
 </details>
 
@@ -100,7 +100,7 @@ central es el **reparto de energía**, porque todos los sistemas compiten por el
 mismo presupuesto. Por eso ese indicador debe estar siempre visible, junto al de
 calor acumulado.
 
-Módulo 4: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-estrella-de-la-muerte.md).
+Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-estrella-de-la-muerte.md).
 
 </details>
 
@@ -117,7 +117,7 @@ creativas legítimas, pero **no** describen cómo funciona el universo. La físi
 real manda otra cosa: gravedad por masa propia, conservación de la energía,
 presupuesto de potencia y límite de disipación de calor.
 
-Módulo 7: [⚖️ Reglas del universo](../reglamentos/reglas-universo-estrella-de-la-muerte.md).
+Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-estrella-de-la-muerte.md).
 
 </details>
 
@@ -211,7 +211,7 @@ Así el usuario **ve** que la energía no se evapora: sube una barra porque baj�
 otra. Y descubre solo por qué subir consumos acaba llevando el estado de
 "Estable" a "Sobrecalentando".
 
-Módulo 8: [🎮 Diseño de simulación](../simulacion/diseno-simulador-estrella-de-la-muerte.md).
+Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-estrella-de-la-muerte.md).
 
 </details>
 
