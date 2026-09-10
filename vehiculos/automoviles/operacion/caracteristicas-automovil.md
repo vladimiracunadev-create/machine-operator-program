@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 2
+codigo: AUTOMOVILES-02
+curso: automoviles
+titulo: "Características funcionales del automóvil"
+modalidad: "teórica aplicada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: AUTOMOVILES-01
+competencia: "identificacion_funcional"
+resultados_aprendizaje:
+  - "Explicar definición, rasgos funcionales, tipos y usos con vocabulario propio de Automóviles."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Automóviles."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📋 Características funcionales del automóvil
 
 [🏠 Inicio](../../../README.md) · [🚗 Curso: Automóviles](../README.md) · 📋 Características
@@ -66,6 +86,22 @@ flowchart TD
 - Trabajo profesional (reparto, servicios, transporte).
 - Viajes de larga distancia por carretera.
 - Movilidad en zonas sin transporte público cercano.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Automóviles mediante los ejes «definición, rasgos funcionales, tipos y usos» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [CL-LEY-18290](https://www.bcn.cl/leychile/navegar?idNorma=29708): Ley de Tránsito 18.290, BCN Chile. Uso: marco legal chileno.
+- [CL-CONASET](https://www.conaset.cl/manuales/): Manuales para conductores, CONASET. Uso: formación vial y seguridad.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

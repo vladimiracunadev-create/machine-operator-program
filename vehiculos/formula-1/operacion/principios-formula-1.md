@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 6
+codigo: FORMULA1-06
+curso: formula-1
+titulo: "Principios y operación de la Fórmula 1"
+modalidad: "resolución de problemas"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: FORMULA1-05
+competencia: "razonamiento_operacional"
+resultados_aprendizaje:
+  - "Explicar principios físicos, fases de operación, decisiones y errores frecuentes con vocabulario propio de Fórmula 1."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Fórmula 1."
+evidencia: "Resolución argumentada de un escenario operacional."
+criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧪 Principios y operación de la Fórmula 1
 
 [🏠 Inicio](../../../README.md) · [🏎️ Curso: Fórmula 1](../README.md) · 🧪 Principios
@@ -55,6 +75,22 @@ monoplaza en simulación y que principios físicos conviene representar.
   ventanas de temperatura y estrategia de neumáticos.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Resuelve un escenario de Fórmula 1 explicando, paso a paso, cómo intervienen principios físicos, fases de operación, decisiones y errores frecuentes.
+- **Evidencia:** Resolución argumentada de un escenario operacional.
+- **Criterio de aprobación:** Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [FIA-F1-2026](https://www.fia.com/regulations/formula-1): Formula 1 Regulations, FIA. Uso: reglamento, arquitectura y seguridad de Fórmula 1.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

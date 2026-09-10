@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 3
+codigo: TELETRANSPOR-03
+curso: teletransportador
+titulo: "Modelos y variantes del teletransportador"
+modalidad: "comparativa guiada"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: TELETRANSPOR-02
+competencia: "seleccion_de_configuracion"
+resultados_aprendizaje:
+  - "Explicar manejo, arquitectura de mandos y variables de simulación con vocabulario propio de Teletransportador."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Teletransportador."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧩 Modelos y variantes del teletransportador
 
 [🏠 Inicio](../../../README.md) · [🌀 Curso: Teletransportador](../README.md) · 🧩 Modelos
@@ -125,6 +145,21 @@ proceso`, tal como plantean los
 [niveles de realismo](../../../docs/03-niveles-de-realismo.md): en el nivel 1
 basta con entender que se mueve información, y las diferencias emergen a medida
 que el nivel sube hasta modelar la no clonación en el nivel 3.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Teletransportador mediante los ejes «manejo, arquitectura de mandos y variables de simulación» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

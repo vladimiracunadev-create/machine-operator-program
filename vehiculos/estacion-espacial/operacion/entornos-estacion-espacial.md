@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 7
+codigo: ESTACIONESPA-07
+curso: estacion-espacial
+titulo: "Entornos de trabajo de la estación espacial"
+modalidad: "análisis de escenarios"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: ESTACIONESPA-06
+competencia: "adaptacion_al_entorno"
+resultados_aprendizaje:
+  - "Explicar entornos, factores ambientales, riesgos y respuesta de simulación con vocabulario propio de Estación espacial (ISS)."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Estación espacial (ISS)."
+evidencia: "Matriz entorno–cambio–riesgo–respuesta."
+criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🌍 Entornos de trabajo de la estación espacial
 
 [🏠 Inicio](../../../README.md) · [🛰️ Curso: Estación espacial (ISS)](../README.md) · 🌍 Entornos
@@ -57,6 +77,21 @@ mindmap
 Cada entorno es un escenario con su radiación, su ciclo de luz y su nivel de
 riesgo. Ver cómo se modela en el
 [Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-estacion-espacial.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Contrasta tres entornos de Estación espacial (ISS) a partir de entornos, factores ambientales, riesgos y respuesta de simulación y determina cómo cambian variables, percepción, riesgos y respuesta.
+- **Evidencia:** Matriz entorno–cambio–riesgo–respuesta.
+- **Criterio de aprobación:** Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-ISS](https://www.nasa.gov/reference/international-space-station/): International Space Station, NASA. Uso: módulos, órbita y soporte vital.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

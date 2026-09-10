@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 6
+codigo: COHETES-06
+curso: cohetes
+titulo: "Principios y operación del cohete"
+modalidad: "resolución de problemas"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: COHETES-05
+competencia: "razonamiento_operacional"
+resultados_aprendizaje:
+  - "Explicar principios físicos, fases de operación, decisiones y errores frecuentes con vocabulario propio de Cohetes."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Cohetes."
+evidencia: "Resolución argumentada de un escenario operacional."
+criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧪 Principios y operación del cohete
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Cohetes](../README.md) · 🧪 Principios
@@ -68,6 +88,21 @@ es ganar **velocidad horizontal** suficiente para entrar en órbita.
 - **Nivel 3 (técnico)**: sumar ecuación del cohete, giro gravitatorio y retorno del propulsor.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Resuelve un escenario de Cohetes explicando, paso a paso, cómo intervienen principios físicos, fases de operación, decisiones y errores frecuentes.
+- **Evidencia:** Resolución argumentada de un escenario operacional.
+- **Criterio de aprobación:** Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-ROCKETS](https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf): Rockets Educator Guide, NASA. Uso: propulsión, estabilidad y trayectoria.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

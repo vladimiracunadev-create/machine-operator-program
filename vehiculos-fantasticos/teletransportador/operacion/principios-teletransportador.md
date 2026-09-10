@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 6
+codigo: TELETRANSPOR-06
+curso: teletransportador
+titulo: "Principios y operación del teletransportador"
+modalidad: "resolución de problemas"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: TELETRANSPOR-05
+competencia: "razonamiento_operacional"
+resultados_aprendizaje:
+  - "Explicar principios físicos, fases de operación, decisiones y errores frecuentes con vocabulario propio de Teletransportador."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Teletransportador."
+evidencia: "Resolución argumentada de un escenario operacional."
+criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧪 Principios y operación del teletransportador
 
 [🏠 Inicio](../../../README.md) · [🌀 Curso: Teletransportador](../README.md) · 🧪 Principios
@@ -78,6 +98,21 @@ puede fabricar un duplicado perfecto e independiente de un objeto cuántico.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md)
 para el detalle de cada nivel.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Resuelve un escenario de Teletransportador explicando, paso a paso, cómo intervienen principios físicos, fases de operación, decisiones y errores frecuentes.
+- **Evidencia:** Resolución argumentada de un escenario operacional.
+- **Criterio de aprobación:** Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

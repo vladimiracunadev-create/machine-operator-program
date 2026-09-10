@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 2
+codigo: NAVEEXPLORAC-02
+curso: nave-exploracion
+titulo: "Características de la nave de exploración"
+modalidad: "teórica aplicada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: NAVEEXPLORAC-01
+competencia: "identificacion_funcional"
+resultados_aprendizaje:
+  - "Explicar definición, rasgos funcionales, tipos y usos con vocabulario propio de Nave de exploración."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Nave de exploración."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📋 Características de la nave de exploración
 
 [🏠 Inicio](../../../README.md) · [🌌 Curso: Nave de exploración](../README.md) · 📋 Características
@@ -66,6 +86,22 @@ flowchart TD
 
 Con esta visión general, el siguiente módulo abre la nave por dentro y separa
 con cuidado la tecnología imaginaria de la física que si conocemos.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Nave de exploración mediante los ejes «definición, rasgos funcionales, tipos y usos» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

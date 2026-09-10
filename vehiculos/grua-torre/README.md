@@ -8,7 +8,8 @@
 > chileno y diseño de simulación. Es una grúa fija, no circula por vía pública.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 ![Marco legal](https://img.shields.io/badge/marco-Izaje%20fijo%20Chile-orange)
 
 ---
@@ -45,9 +46,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución de la grúa torre, línea de tiempo. | [Abrir](historia/historia-grua-torre.md) |
 | 2 | 📋 Características | Que es, tipos de grúa torre y para que sirve cada uno. | [Abrir](operacion/caracteristicas-grua-torre.md) |
@@ -72,4 +73,4 @@ estructura fija de gran altura. Marco legal común en
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-grua-torre.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-grua-torre.md)

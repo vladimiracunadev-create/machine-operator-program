@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 10
+codigo: HALCONMILENA-10
+curso: halcon-milenario
+titulo: "Recursos del Halcón Milenario"
+modalidad: "taller documental"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: HALCONMILENA-09
+competencia: "alfabetizacion_tecnica"
+resultados_aprendizaje:
+  - "Explicar glosario, esquemas y trazabilidad de fuentes con vocabulario propio de Halcón Milenario."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Halcón Milenario."
+evidencia: "Glosario aplicado y ficha breve de trazabilidad."
+criterio_aprobacion: "Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧰 Recursos del Halcón Milenario
 
 [🏠 Inicio](../../../README.md) · [🦅 Curso: Halcón Milenario](../README.md) · 🧰 Recursos
@@ -49,6 +69,22 @@ flowchart LR
 
 Registrar cada recurso nuevo con su origen y licencia, respetando el aviso de
 derechos del catálogo de naves de ficción.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Selecciona términos de glosario, esquemas y trazabilidad de fuentes, explícalos en contexto de Halcón Milenario y verifica la procedencia de las fuentes utilizadas.
+- **Evidencia:** Glosario aplicado y ficha breve de trazabilidad.
+- **Criterio de aprobación:** Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARWARS-FALCON](https://www.starwars.com/databank/millennium-falcon): Millennium Falcon, Lucasfilm. Uso: canon narrativo del vehículo.
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

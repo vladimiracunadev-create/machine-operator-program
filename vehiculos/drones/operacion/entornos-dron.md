@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 7
+codigo: DRONES-07
+curso: drones
+titulo: "Entornos de trabajo del dron"
+modalidad: "análisis de escenarios"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: DRONES-06
+competencia: "adaptacion_al_entorno"
+resultados_aprendizaje:
+  - "Explicar entornos, factores ambientales, riesgos y respuesta de simulación con vocabulario propio de Drones."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Drones."
+evidencia: "Matriz entorno–cambio–riesgo–respuesta."
+criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🌍 Entornos de trabajo del dron
 
 [🏠 Inicio](../../../README.md) · [🕹️ Curso: Drones](../README.md) · 🌍 Entornos
@@ -70,6 +90,21 @@ El detalle está en el [Módulo 8: Reglamentos](../reglamentos/reglamentos-dron.
 Cada entorno es un escenario con su viento, calidad de GPS, interferencia y
 obstáculos. Ver cómo se modela en el
 [Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-dron.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Contrasta tres entornos de Drones a partir de entornos, factores ambientales, riesgos y respuesta de simulación y determina cómo cambian variables, percepción, riesgos y respuesta.
+- **Evidencia:** Matriz entorno–cambio–riesgo–respuesta.
+- **Criterio de aprobación:** Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-FAA-UAS](https://www.faa.gov/uas): Unmanned Aircraft Systems, FAA. Uso: operación y normativa RPAS.
+- [CL-DGAC](https://www.dgac.gob.cl/normativa/): Normativa aeronáutica, DGAC Chile. Uso: marco aeronáutico chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 2
+codigo: COHETES-02
+curso: cohetes
+titulo: "Características funcionales del cohete"
+modalidad: "teórica aplicada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: COHETES-01
+competencia: "identificacion_funcional"
+resultados_aprendizaje:
+  - "Explicar definición, rasgos funcionales, tipos y usos con vocabulario propio de Cohetes."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Cohetes."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📋 Características funcionales del cohete
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Cohetes](../README.md) · 📋 Características
@@ -64,6 +84,21 @@ flowchart TD
 - Enviar sondas a la Luna, planetas y cuerpos menores.
 - Realizar vuelos suborbitales de ciencia con cohetes sonda.
 - Educación y simulación de la fase de lanzamiento y ascenso.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Cohetes mediante los ejes «definición, rasgos funcionales, tipos y usos» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-ROCKETS](https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf): Rockets Educator Guide, NASA. Uso: propulsión, estabilidad y trayectoria.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

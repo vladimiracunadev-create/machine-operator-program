@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 10
+codigo: CAZAESTELAR-10
+curso: caza-estelar
+titulo: "Recursos del caza estelar"
+modalidad: "taller documental"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: CAZAESTELAR-09
+competencia: "alfabetizacion_tecnica"
+resultados_aprendizaje:
+  - "Explicar glosario, esquemas y trazabilidad de fuentes con vocabulario propio de Caza estelar."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Caza estelar."
+evidencia: "Glosario aplicado y ficha breve de trazabilidad."
+criterio_aprobacion: "Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧰 Recursos del caza estelar
 
 [🏠 Inicio](../../../README.md) · [🛸 Curso: Caza estelar](../README.md) · 🧰 Recursos
@@ -49,6 +69,21 @@ flowchart LR
 
 Registrar cada recurso nuevo con su origen y licencia, respetando el aviso de
 derechos del catálogo de naves de ficción.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Selecciona términos de glosario, esquemas y trazabilidad de fuentes, explícalos en contexto de Caza estelar y verifica la procedencia de las fuentes utilizadas.
+- **Evidencia:** Glosario aplicado y ficha breve de trazabilidad.
+- **Criterio de aprobación:** Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARWARS-DATABANK](https://www.starwars.com/databank): Star Wars Databank, Lucasfilm. Uso: canon narrativo y diseño visual.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

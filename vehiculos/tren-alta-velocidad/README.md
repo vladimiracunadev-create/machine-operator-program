@@ -9,7 +9,8 @@
 > con alta velocidad comercial.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 ![Marco legal](https://img.shields.io/badge/marco-ferroviario-orange)
 
 ---
@@ -48,9 +49,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y expansión mundial de la alta velocidad, línea de tiempo. | [Abrir](historia/historia-tren-alta-velocidad.md) |
 | 2 | 📋 Características | Que es, tracción distribuida vs concentrada, tipos y usos. | [Abrir](operacion/caracteristicas-tren-alta-velocidad.md) |
@@ -77,4 +78,4 @@ dedicada. Marco legal común en
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-tren-alta-velocidad.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-tren-alta-velocidad.md)

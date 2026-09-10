@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 3
+codigo: SUBMARINOS-03
+curso: submarinos
+titulo: "Modelos y variantes del submarino"
+modalidad: "comparativa guiada"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: SUBMARINOS-02
+competencia: "seleccion_de_configuracion"
+resultados_aprendizaje:
+  - "Explicar manejo, arquitectura de mandos y variables de simulación con vocabulario propio de Submarinos."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Submarinos."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧩 Modelos y variantes del submarino
 
 [🏠 Inicio](../../../README.md) · [🌊 Curso: Submarinos](../README.md) · 🧩 Modelos
@@ -112,6 +132,22 @@ batería y la cota máxima.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Submarinos mediante los ejes «manejo, arquitectura de mandos y variables de simulación» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-NHHC-SHIPS](https://www.history.navy.mil/browse-by-topic/ships.html): Ships, Naval History and Heritage Command. Uso: historia pública de buques militares.
+- [IMO-NAV](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx): Safety of Navigation, International Maritime Organization. Uso: navegación, SOLAS, COLREG y STCW.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

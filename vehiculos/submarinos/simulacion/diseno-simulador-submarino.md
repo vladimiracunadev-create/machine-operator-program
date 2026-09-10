@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 9
+codigo: SUBMARINOS-09
+curso: submarinos
+titulo: "Diseño de simulación del submarino"
+modalidad: "laboratorio de diseño"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: SUBMARINOS-08
+competencia: "modelado_de_simulacion"
+resultados_aprendizaje:
+  - "Explicar objetivo, variables, estados, ciclo y escenarios de simulación con vocabulario propio de Submarinos."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Submarinos."
+evidencia: "Ficha de escenario y diagrama de estados."
+criterio_aprobacion: "El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎮 Diseño de simulación del submarino
 
 [🏠 Inicio](../../../README.md) · [🌊 Curso: Submarinos](../README.md) · 🎮 Simulación
@@ -70,6 +90,22 @@ sistemas de armas.
 - [ ] Prototipar el modelo de flotabilidad y lastre.
 - [ ] Ajustar la relación presión-profundidad y la cota máxima.
 - [ ] Agregar fuentes públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Diseña un escenario educativo de Submarinos basado en objetivo, variables, estados, ciclo y escenarios de simulación, con entradas, estados, variables y criterio de cierre.
+- **Evidencia:** Ficha de escenario y diagrama de estados.
+- **Criterio de aprobación:** El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-NHHC-SHIPS](https://www.history.navy.mil/browse-by-topic/ships.html): Ships, Naval History and Heritage Command. Uso: historia pública de buques militares.
+- [IMO-NAV](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx): Safety of Navigation, International Maritime Organization. Uso: navegación, SOLAS, COLREG y STCW.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

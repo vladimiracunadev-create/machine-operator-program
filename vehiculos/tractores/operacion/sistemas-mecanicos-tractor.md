@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: TRACTORES-04
+curso: tractores
+titulo: "Sistemas mecánicos del tractor"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: TRACTORES-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Motor diesel, Toma de fuerza (PTO), Enganche de tres puntos e hidráulica y Transmisión y tracción con vocabulario propio de Tractores."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Tractores."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del tractor
 
 [🏠 Inicio](../../../README.md) · [🚜 Curso: Tractores](../README.md) · 🔧 Sistemas mecánicos
@@ -197,6 +217,21 @@ labor y cómo se transmite la fuerza.
 
 Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-tractor.md)
 muestra como el operador acciona cada uno de estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Tractores que conecte Motor diesel, Toma de fuerza (PTO), Enganche de tres puntos e hidráulica y Transmisión y tracción; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-AGRI](https://www.osha.gov/agricultural-operations/hazards): Agricultural Operations: Hazards and Controls, OSHA. Uso: tractores, aperos y riesgos agrícolas.
+- [CL-LEY-18290](https://www.bcn.cl/leychile/navegar?idNorma=29708): Ley de Tránsito 18.290, BCN Chile. Uso: marco legal chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

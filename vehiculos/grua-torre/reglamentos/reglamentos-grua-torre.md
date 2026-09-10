@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 8
+codigo: GRUATORRE-08
+curso: grua-torre
+titulo: "Reglamentos de la grúa torre (Chile)"
+modalidad: "estudio de casos"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: GRUATORRE-07
+competencia: "cumplimiento_y_seguridad"
+resultados_aprendizaje:
+  - "Explicar ámbito, requisitos, seguridad, restricciones y aplicación en simulación con vocabulario propio de Grúa torre."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Grúa torre."
+evidencia: "Ficha normativa con decisión y fuente trazable."
+criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # ⚖️ Reglamentos de la grúa torre (Chile)
 
 [🏠 Inicio](../../../README.md) · [🗼 Curso: Grúa torre](../README.md) · ⚖️ Reglamentos
@@ -57,6 +77,21 @@ sección 1.7 (Maquinaria de izaje fija).
 - Modelar el área de exclusión, el señalero y el límite de viento.
 - Marcar como "(por confirmar)" la certificación del operador y las reglas de montaje.
 - Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Analiza dos casos de Grúa torre; localiza la fuente aplicable y separa obligación real, buena práctica y regla de simulación.
+- **Evidencia:** Ficha normativa con decisión y fuente trazable.
+- **Criterio de aprobación:** Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-CRANES](https://www.osha.gov/cranes-derricks): Crane, Derrick and Hoist Safety, OSHA. Uso: izaje, riesgos y controles.
+- [OSHA-TOWER](https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.1435): 1926.1435 Tower Cranes, OSHA. Uso: requisitos específicos de grúas torre.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 7
+codigo: NAVESESPACIA-07
+curso: naves-espaciales
+titulo: "Entornos de trabajo de la nave espacial"
+modalidad: "análisis de escenarios"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: NAVESESPACIA-06
+competencia: "adaptacion_al_entorno"
+resultados_aprendizaje:
+  - "Explicar entornos, factores ambientales, riesgos y respuesta de simulación con vocabulario propio de Naves espaciales."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Naves espaciales."
+evidencia: "Matriz entorno–cambio–riesgo–respuesta."
+criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🌍 Entornos de trabajo de la nave espacial
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Naves espaciales](../README.md) · 🌍 Entornos
@@ -55,6 +75,21 @@ mindmap
 Cada entorno es un escenario con su gravedad, su radiación y su régimen de órbita
 o reentrada. Ver cómo se modela en el
 [Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Contrasta tres entornos de Naves espaciales a partir de entornos, factores ambientales, riesgos y respuesta de simulación y determina cómo cambian variables, percepción, riesgos y respuesta.
+- **Evidencia:** Matriz entorno–cambio–riesgo–respuesta.
+- **Criterio de aprobación:** Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

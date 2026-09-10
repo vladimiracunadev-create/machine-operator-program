@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 5
+codigo: THUNDERBIRD3-05
+curso: thunderbird-3
+titulo: "Mandos e instrumentos del Thunderbird 3"
+modalidad: "taller de simulación"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: THUNDERBIRD3-04
+competencia: "lectura_y_mando"
+resultados_aprendizaje:
+  - "Explicar controles, instrumentos, entradas y estados del sistema con vocabulario propio de Thunderbird 3."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Thunderbird 3."
+evidencia: "Mapa de mandos y resolución de dos estados del tablero."
+criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎛️ Mandos e instrumentos del Thunderbird 3
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Thunderbird 3](../README.md) · 🎛️ Mandos
@@ -65,6 +85,22 @@ inclinación de la trayectoria y el momento de soltar cada etapa. La clave no es
 - La separación de etapas debe pedir confirmación, porque es irreversible.
 - Conviene un modo de guiado automático para principiantes que reparta bien el
   empuje entre ganar altura y ganar velocidad lateral.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Recorre el puesto de mando simulado de Thunderbird 3: localiza los controles de controles, instrumentos, entradas y estados del sistema y asocia cada indicación con una decisión.
+- **Evidencia:** Mapa de mandos y resolución de dos estados del tablero.
+- **Criterio de aprobación:** Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [THUNDERBIRDS-OFFICIAL](https://www.thunderbirds.com/): Thunderbirds Vehicles, ITV. Uso: referencia oficial de vehículos de rescate.
+- [NASA-ROCKETS](https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf): Rockets Educator Guide, NASA. Uso: propulsión, estabilidad y trayectoria.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

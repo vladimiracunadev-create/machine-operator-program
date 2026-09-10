@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 8
+codigo: AUTOMOVILES-08
+curso: automoviles
+titulo: "Reglamentos del automóvil (Chile)"
+modalidad: "estudio de casos"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: AUTOMOVILES-07
+competencia: "cumplimiento_y_seguridad"
+resultados_aprendizaje:
+  - "Explicar ámbito, requisitos, seguridad, restricciones y aplicación en simulación con vocabulario propio de Automóviles."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Automóviles."
+evidencia: "Ficha normativa con decisión y fuente trazable."
+criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # ⚖️ Reglamentos del automóvil (Chile)
 
 [🏠 Inicio](../../../README.md) · [🚗 Curso: Automóviles](../README.md) · ⚖️ Reglamentos
@@ -46,6 +66,22 @@ Referencia educativa y de diseño de simulación. Marco general en
 - Modelar cinturón, retención infantil y respeto de señales.
 - Usar avisos educativos ante infracciones.
 - Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Analiza dos casos de Automóviles; localiza la fuente aplicable y separa obligación real, buena práctica y regla de simulación.
+- **Evidencia:** Ficha normativa con decisión y fuente trazable.
+- **Criterio de aprobación:** Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [CL-LEY-18290](https://www.bcn.cl/leychile/navegar?idNorma=29708): Ley de Tránsito 18.290, BCN Chile. Uso: marco legal chileno.
+- [CL-CONASET](https://www.conaset.cl/manuales/): Manuales para conductores, CONASET. Uso: formación vial y seguridad.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

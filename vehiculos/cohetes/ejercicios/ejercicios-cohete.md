@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 11
+codigo: COHETES-11
+curso: cohetes
+titulo: "Ejercicios y autoevaluación del cohete"
+modalidad: "evaluación auténtica"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: COHETES-10
+competencia: "integracion_de_competencias"
+resultados_aprendizaje:
+  - "Explicar comprensión, aplicación y transferencia a la simulación con vocabulario propio de Cohetes."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Cohetes."
+evidencia: "Respuestas justificadas y escenario final resuelto."
+criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎯 Ejercicios y autoevaluación del cohete
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Cohetes](../README.md) · 🎯 Ejercicios
@@ -220,6 +240,21 @@ Módulo 6 y [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.m
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Resuelve la autoevaluación de Cohetes y defiende una decisión en un escenario integrador sin consultar las respuestas.
+- **Evidencia:** Respuestas justificadas y escenario final resuelto.
+- **Criterio de aprobación:** Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-ROCKETS](https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf): Rockets Educator Guide, NASA. Uso: propulsión, estabilidad y trayectoria.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

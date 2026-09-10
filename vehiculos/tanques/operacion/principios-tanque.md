@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 6
+codigo: TANQUES-06
+curso: tanques
+titulo: "Principios y operación del tanque (marco público)"
+modalidad: "resolución de problemas"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: TANQUES-05
+competencia: "razonamiento_operacional"
+resultados_aprendizaje:
+  - "Explicar principios físicos, fases de operación, decisiones y errores frecuentes con vocabulario propio de Tanques."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Tanques."
+evidencia: "Resolución argumentada de un escenario operacional."
+criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧪 Principios y operación del tanque (marco público)
 
 [🏠 Inicio](../../../README.md) · [🪖 Curso: Tanques](../README.md) · 🧪 Principios
@@ -56,6 +76,22 @@ representar.
 - **Nivel 3 (técnico)**: sumar marchas, potencia/peso y presión sobre el suelo.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Resuelve un escenario de Tanques explicando, paso a paso, cómo intervienen principios físicos, fases de operación, decisiones y errores frecuentes.
+- **Evidencia:** Resolución argumentada de un escenario operacional.
+- **Criterio de aprobación:** Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [TANK-MUSEUM](https://tankmuseum.org/tank-nuts/tank-collection): Tank Collection, The Tank Museum. Uso: historia pública de vehículos blindados.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

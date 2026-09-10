@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 9
+codigo: TRANSBORDADO-09
+curso: transbordadores
+titulo: "Diseño de simulación del transbordador"
+modalidad: "laboratorio de diseño"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: TRANSBORDADO-08
+competencia: "modelado_de_simulacion"
+resultados_aprendizaje:
+  - "Explicar objetivo, variables, estados, ciclo y escenarios de simulación con vocabulario propio de Transbordadores."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Transbordadores."
+evidencia: "Ficha de escenario y diagrama de estados."
+criterio_aprobacion: "El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎮 Diseño de simulación del transbordador
 
 [🏠 Inicio](../../../README.md) · [🛬 Curso: Transbordadores](../README.md) · 🎮 Simulación
@@ -82,6 +102,22 @@ subió. Ver [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
 - [ ] Prototipar el modelo de planeo sin motor.
 - [ ] Ajustar el modelo de calor del escudo según ángulo y velocidad.
 - [ ] Agregar fuentes técnicas públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Diseña un escenario educativo de Transbordadores basado en objetivo, variables, estados, ciclo y escenarios de simulación, con entradas, estados, variables y criterio de cierre.
+- **Evidencia:** Ficha de escenario y diagrama de estados.
+- **Criterio de aprobación:** El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-SHUTTLE](https://www.nasa.gov/reference/the-space-shuttle/): The Space Shuttle, NASA. Uso: arquitectura y operación del transbordador.
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 10
+codigo: TELETRANSPOR-10
+curso: teletransportador
+titulo: "Recursos del teletransportador"
+modalidad: "taller documental"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: TELETRANSPOR-09
+competencia: "alfabetizacion_tecnica"
+resultados_aprendizaje:
+  - "Explicar glosario, esquemas y trazabilidad de fuentes con vocabulario propio de Teletransportador."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Teletransportador."
+evidencia: "Glosario aplicado y ficha breve de trazabilidad."
+criterio_aprobacion: "Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧰 Recursos del teletransportador
 
 [🏠 Inicio](../../../README.md) · [🌀 Curso: Teletransportador](../README.md) · 🧰 Recursos
@@ -49,6 +69,21 @@ flowchart LR
 
 Registrar cada recurso nuevo con su origen y licencia, respetando el aviso de
 derechos del catálogo de naves de ficción.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Selecciona términos de glosario, esquemas y trazabilidad de fuentes, explícalos en contexto de Teletransportador y verifica la procedencia de las fuentes utilizadas.
+- **Evidencia:** Glosario aplicado y ficha breve de trazabilidad.
+- **Criterio de aprobación:** Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 5
+codigo: TELETRANSPOR-05
+curso: teletransportador
+titulo: "Mandos e instrumentos del teletransportador"
+modalidad: "taller de simulación"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: TELETRANSPOR-04
+competencia: "lectura_y_mando"
+resultados_aprendizaje:
+  - "Explicar controles, instrumentos, entradas y estados del sistema con vocabulario propio de Teletransportador."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Teletransportador."
+evidencia: "Mapa de mandos y resolución de dos estados del tablero."
+criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎛️ Mandos e instrumentos del teletransportador
 
 [🏠 Inicio](../../../README.md) · [🌀 Curso: Teletransportador](../README.md) · 🎛️ Mandos
@@ -68,6 +88,21 @@ diferencia con imaginar un simple botón de "enviar".
   destino sin proteger el objeto de origen.
 - Conviene un modo de asistencia para principiantes que explique cada límite
   físico al activarse (datos, energía, no clonación).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Recorre el puesto de mando simulado de Teletransportador: localiza los controles de controles, instrumentos, entradas y estados del sistema y asocia cada indicación con una decisión.
+- **Evidencia:** Mapa de mandos y resolución de dos estados del tablero.
+- **Criterio de aprobación:** Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

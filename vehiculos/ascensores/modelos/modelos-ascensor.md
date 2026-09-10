@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 3
+codigo: ASCENSORES-03
+curso: ascensores
+titulo: "Modelos y variantes del ascensor"
+modalidad: "comparativa guiada"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: ASCENSORES-02
+competencia: "seleccion_de_configuracion"
+resultados_aprendizaje:
+  - "Explicar manejo, arquitectura de mandos y variables de simulación con vocabulario propio de Ascensores."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Ascensores."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧩 Modelos y variantes del ascensor
 
 [🏠 Inicio](../../../README.md) · [🛗 Curso: Ascensores](../README.md) · 🧩 Modelos
@@ -127,6 +147,21 @@ freno de seguridad y el modo inspección.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Ascensores mediante los ejes «manejo, arquitectura de mandos y variables de simulación» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-ELEVATORS](https://www.osha.gov/laws-regs/regulations/standardnumber/1917/1917.116): 1917.116 Elevators and Escalators, OSHA. Uso: inspección y riesgos de transporte vertical.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

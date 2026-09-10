@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 3
+codigo: COHETES-03
+curso: cohetes
+titulo: "Modelos y variantes del cohete"
+modalidad: "comparativa guiada"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: COHETES-02
+competencia: "seleccion_de_configuracion"
+resultados_aprendizaje:
+  - "Explicar manejo, arquitectura de mandos y variables de simulación con vocabulario propio de Cohetes."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Cohetes."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧩 Modelos y variantes del cohete
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Cohetes](../README.md) · 🧩 Modelos
@@ -114,6 +134,21 @@ el nivel sube; el retorno del propulsor, de hecho, solo aparece en el nivel 3.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Cohetes mediante los ejes «manejo, arquitectura de mandos y variables de simulación» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-ROCKETS](https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf): Rockets Educator Guide, NASA. Uso: propulsión, estabilidad y trayectoria.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

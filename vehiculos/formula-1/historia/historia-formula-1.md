@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 1
+codigo: FORMULA1-01
+curso: formula-1
+titulo: "Historia de la Fórmula 1"
+modalidad: "teórica dialogada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: ninguno
+competencia: "contexto_historico"
+resultados_aprendizaje:
+  - "Explicar origen, evolución tecnológica, variantes representativas e impacto con vocabulario propio de Fórmula 1."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Fórmula 1."
+evidencia: "Línea de tiempo comentada con cuatro hitos o más."
+criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📜 Historia de la Fórmula 1
 
 [🏠 Inicio](../../../README.md) · [🏎️ Curso: Fórmula 1](../README.md) · 📜 Historia
@@ -62,6 +82,22 @@ global, con equipos, fabricantes y circuitos en varios continentes.
 
 - Registrar aquí las fuentes públicas consultadas.
 - Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Construye una línea de tiempo de Fórmula 1 y explica cómo dos cambios históricos transformaron su función o su puesto de mando.
+- **Evidencia:** Línea de tiempo comentada con cuatro hitos o más.
+- **Criterio de aprobación:** Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [FIA-F1-2026](https://www.fia.com/regulations/formula-1): Formula 1 Regulations, FIA. Uso: reglamento, arquitectura y seguridad de Fórmula 1.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: ASCENSORES-04
+curso: ascensores
+titulo: "Sistemas mecánicos del ascensor"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: ASCENSORES-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Cabina y contrapeso, Cables y polea de tracción, Motor y reductor y Guías y amortiguadores con vocabulario propio de Ascensores."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Ascensores."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del ascensor
 
 [🏠 Inicio](../../../README.md) · [🛗 Curso: Ascensores](../README.md) · 🔧 Sistemas mecánicos
@@ -144,6 +164,21 @@ flowchart TD
 Con esto entendido, el
 [Módulo 5: Mandos](../mandos/manual-mandos-ascensor.md) muestra como el usuario y
 el sistema operan estos elementos.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Ascensores que conecte Cabina y contrapeso, Cables y polea de tracción, Motor y reductor y Guías y amortiguadores; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-ELEVATORS](https://www.osha.gov/laws-regs/regulations/standardnumber/1917/1917.116): 1917.116 Elevators and Escalators, OSHA. Uso: inspección y riesgos de transporte vertical.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

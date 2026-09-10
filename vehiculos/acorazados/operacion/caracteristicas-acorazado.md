@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 2
+codigo: ACORAZADOS-02
+curso: acorazados
+titulo: "Características funcionales del acorazado"
+modalidad: "teórica aplicada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: ACORAZADOS-01
+competencia: "identificacion_funcional"
+resultados_aprendizaje:
+  - "Explicar definición, rasgos funcionales, tipos y usos con vocabulario propio de Acorazados."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Acorazados."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📋 Características funcionales del acorazado
 
 [🏠 Inicio](../../../README.md) · [🛡️ Curso: Acorazados](../README.md) · 📋 Características
@@ -59,6 +79,21 @@ flowchart TD
 - Impulsar avances en metalurgia, propulsión e ingeniería naval.
 - Hoy, valor patrimonial como buques museo.
 - En este repositorio: base para simulación educativa de navegación.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Acorazados mediante los ejes «definición, rasgos funcionales, tipos y usos» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-NHHC-SHIPS](https://www.history.navy.mil/browse-by-topic/ships.html): Ships, Naval History and Heritage Command. Uso: historia pública de buques militares.
+- [IMO-NAV](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx): Safety of Navigation, International Maritime Organization. Uso: navegación, SOLAS, COLREG y STCW.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

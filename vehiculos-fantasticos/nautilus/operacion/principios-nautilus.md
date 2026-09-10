@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 6
+codigo: NAUTILUS-06
+curso: nautilus
+titulo: "Principios y operación del Nautilus"
+modalidad: "resolución de problemas"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: NAUTILUS-05
+competencia: "razonamiento_operacional"
+resultados_aprendizaje:
+  - "Explicar principios físicos, fases de operación, decisiones y errores frecuentes con vocabulario propio de Nautilus."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Nautilus."
+evidencia: "Resolución argumentada de un escenario operacional."
+criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧪 Principios y operación del Nautilus
 
 [🏠 Inicio](../../../README.md) · [🐙 Curso: Nautilus](../README.md) · 🧪 Principios
@@ -73,6 +93,22 @@ de la licencia narrativa.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md)
 para el detalle de cada nivel.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Resuelve un escenario de Nautilus explicando, paso a paso, cómo intervienen principios físicos, fases de operación, decisiones y errores frecuentes.
+- **Evidencia:** Resolución argumentada de un escenario operacional.
+- **Criterio de aprobación:** Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [GUTENBERG-20000](https://www.gutenberg.org/ebooks/164): Twenty Thousand Leagues under the Sea, Project Gutenberg. Uso: obra primaria en dominio público.
+- [IMO-NAV](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx): Safety of Navigation, International Maritime Organization. Uso: navegación, SOLAS, COLREG y STCW.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

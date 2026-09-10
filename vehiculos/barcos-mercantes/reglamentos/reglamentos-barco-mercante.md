@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 8
+codigo: BARCOSMERCAN-08
+curso: barcos-mercantes
+titulo: "Reglamentos: Barcos mercantes (Chile)"
+modalidad: "estudio de casos"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: BARCOSMERCAN-07
+competencia: "cumplimiento_y_seguridad"
+resultados_aprendizaje:
+  - "Explicar ámbito, requisitos, seguridad, restricciones y aplicación en simulación con vocabulario propio de Barcos mercantes."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Barcos mercantes."
+evidencia: "Ficha normativa con decisión y fuente trazable."
+criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # ⚖️ Reglamentos: Barcos mercantes (Chile)
 
 [🏠 Inicio](../../../README.md) · [🚢 Curso: Barcos mercantes](../README.md) · ⚖️ Reglamentos
@@ -48,6 +68,22 @@ Referencia educativa y de diseño de simulación. Marco general en
 - El núcleo educativo son las reglas COLREG y la navegación segura.
 - Modelar luces de navegación, prioridades y maniobras de puerto.
 - Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Analiza dos casos de Barcos mercantes; localiza la fuente aplicable y separa obligación real, buena práctica y regla de simulación.
+- **Evidencia:** Ficha normativa con decisión y fuente trazable.
+- **Criterio de aprobación:** Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [IMO-NAV](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx): Safety of Navigation, International Maritime Organization. Uso: navegación, SOLAS, COLREG y STCW.
+- [IMO-COLREG](https://www.imo.org/en/about/conventions/pages/colreg.aspx): Collision Regulations, International Maritime Organization. Uso: prevención de abordajes.
+- [CL-DIRECTEMAR](https://www.directemar.cl/directemar/marco-normativo): Marco normativo, DIRECTEMAR. Uso: marco marítimo chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

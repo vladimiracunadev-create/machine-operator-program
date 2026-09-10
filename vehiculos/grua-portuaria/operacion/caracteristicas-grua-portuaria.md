@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 2
+codigo: GRUAPORTUARI-02
+curso: grua-portuaria
+titulo: "Características funcionales de la grúa portuaria"
+modalidad: "teórica aplicada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: GRUAPORTUARI-01
+competencia: "identificacion_funcional"
+resultados_aprendizaje:
+  - "Explicar definición, rasgos funcionales, tipos y usos con vocabulario propio de Grúa portuaria."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Grúa portuaria."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📋 Características funcionales de la grúa portuaria
 
 [🏠 Inicio](../../../README.md) · [⚓ Curso: Grúa portuaria](../README.md) · 📋 Características
@@ -84,6 +104,22 @@ carga antes de izarla.
 - Alimentar el flujo de camiones y patio del terminal.
 - Sostener la productividad medida en contenedores por hora.
 - Mover carga estandarizada de forma segura y repetible.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Grúa portuaria mediante los ejes «definición, rasgos funcionales, tipos y usos» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-CRANES](https://www.osha.gov/cranes-derricks): Crane, Derrick and Hoist Safety, OSHA. Uso: izaje, riesgos y controles.
+- [IMO-NAV](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx): Safety of Navigation, International Maritime Organization. Uso: navegación, SOLAS, COLREG y STCW.
+- [CL-DIRECTEMAR](https://www.directemar.cl/directemar/marco-normativo): Marco normativo, DIRECTEMAR. Uso: marco marítimo chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

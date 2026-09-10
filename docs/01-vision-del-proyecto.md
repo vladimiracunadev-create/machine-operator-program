@@ -19,12 +19,16 @@ El repositorio busca construir una base de conocimiento para un multisimulador d
 3. Separar conocimiento histórico, técnico, normativo y de simulación.
 4. Preparar el terreno para futuros juegos de simulación.
 5. Evitar mezclar información general con instrucciones reales sensibles.
+6. Organizar cada máquina en once clases autónomas, evaluables y con fuentes.
+7. Distinguir curso estructurado, revisado, impartible y acreditado.
 
 ## Filosofía
 
 El proyecto debe avanzar vehículo por vehículo. Cada carpeta debe poder leerse como un pequeño manual introductorio, pero también debe servir como base de diseño para un simulador.
 
-La documentación debe responder siempre estas preguntas:
+Cada curso suma 12 horas y 15 minutos nominales. La duración sirve para diseñar
+una experiencia educativa; no equivale a horas acreditadas. La documentación y
+sus actividades deben responder siempre estas preguntas:
 
 - ¿Qué es esta máquina?
 - ¿Para qué se usa?

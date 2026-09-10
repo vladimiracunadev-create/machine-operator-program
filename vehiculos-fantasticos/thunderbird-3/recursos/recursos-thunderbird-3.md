@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 10
+codigo: THUNDERBIRD3-10
+curso: thunderbird-3
+titulo: "Recursos del Thunderbird 3"
+modalidad: "taller documental"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: THUNDERBIRD3-09
+competencia: "alfabetizacion_tecnica"
+resultados_aprendizaje:
+  - "Explicar glosario, esquemas y trazabilidad de fuentes con vocabulario propio de Thunderbird 3."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Thunderbird 3."
+evidencia: "Glosario aplicado y ficha breve de trazabilidad."
+criterio_aprobacion: "Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧰 Recursos del Thunderbird 3
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Thunderbird 3](../README.md) · 🧰 Recursos
@@ -49,6 +69,22 @@ flowchart LR
 
 Registrar cada recurso nuevo con su origen y licencia, respetando el aviso de
 derechos del catálogo de naves de ficción.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Selecciona términos de glosario, esquemas y trazabilidad de fuentes, explícalos en contexto de Thunderbird 3 y verifica la procedencia de las fuentes utilizadas.
+- **Evidencia:** Glosario aplicado y ficha breve de trazabilidad.
+- **Criterio de aprobación:** Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [THUNDERBIRDS-OFFICIAL](https://www.thunderbirds.com/): Thunderbirds Vehicles, ITV. Uso: referencia oficial de vehículos de rescate.
+- [NASA-ROCKETS](https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf): Rockets Educator Guide, NASA. Uso: propulsión, estabilidad y trayectoria.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 5
+codigo: TRENCARGA-05
+curso: tren-carga
+titulo: "Mandos e instrumentos del tren de carga"
+modalidad: "taller de simulación"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: TRENCARGA-04
+competencia: "lectura_y_mando"
+resultados_aprendizaje:
+  - "Explicar controles, instrumentos, entradas y estados del sistema con vocabulario propio de Tren de carga."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Tren de carga."
+evidencia: "Mapa de mandos y resolución de dos estados del tablero."
+criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎛️ Mandos e instrumentos del tren de carga
 
 [🏠 Inicio](../../../README.md) · [🚂 Curso: Tren de carga](../README.md) · 🎛️ Mandos
@@ -65,6 +85,21 @@ fuerza, freno y velocidad sobre una ruta senalizada.
 - El hombre muerto o vigilante debe ser accesible y su alarma reconocible.
 - La interfaz de simulación debería advertir el patinaje y sugerir arenado en los
   niveles de realismo más altos.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Recorre el puesto de mando simulado de Tren de carga: localiza los controles de controles, instrumentos, entradas y estados del sistema y asocia cada indicación con una decisión.
+- **Evidencia:** Mapa de mandos y resolución de dos estados del tablero.
+- **Criterio de aprobación:** Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-FRA-OPS](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0): Railroad Operating Practices, Federal Railroad Administration. Uso: operación, señalización y competencias ferroviarias.
+- [US-FRA-HF](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands): Human Factors: Tasks and Demands, Federal Railroad Administration. Uso: factores humanos y carga de trabajo.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

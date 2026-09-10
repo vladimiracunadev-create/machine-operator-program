@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 5
+codigo: HELICOPTEROS-05
+curso: helicopteros
+titulo: "Mandos e instrumentos del helicóptero"
+modalidad: "taller de simulación"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: HELICOPTEROS-04
+competencia: "lectura_y_mando"
+resultados_aprendizaje:
+  - "Explicar controles, instrumentos, entradas y estados del sistema con vocabulario propio de Helicópteros."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Helicópteros."
+evidencia: "Mapa de mandos y resolución de dos estados del tablero."
+criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎛️ Mandos e instrumentos del helicóptero
 
 [🏠 Inicio](../../../README.md) · [🚁 Curso: Helicópteros](../README.md) · 🎛️ Mandos
@@ -70,6 +90,22 @@ anti-par.
 - Al subir colectivo aumenta el par, por lo que suele acompanarse con pedal.
 - Los instrumentos de transmisión deben ser visibles y fácilmente reconocibles.
 - La interfaz de simulación debería guiar el uso de checklist en cada fase.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Recorre el puesto de mando simulado de Helicópteros: localiza los controles de controles, instrumentos, entradas y estados del sistema y asocia cada indicación con una decisión.
+- **Evidencia:** Mapa de mandos y resolución de dos estados del tablero.
+- **Criterio de aprobación:** Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-FAA-HELI](https://www.faa.gov/sites/faa.gov/files/helicopter_flying_handbook.pdf): Helicopter Flying Handbook, FAA. Uso: aerodinámica y control de helicópteros.
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [CL-DGAC](https://www.dgac.gob.cl/normativa/): Normativa aeronáutica, DGAC Chile. Uso: marco aeronáutico chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 9
+codigo: GRUAS-09
+curso: gruas
+titulo: "Diseño de simulación de la grúa"
+modalidad: "laboratorio de diseño"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: GRUAS-08
+competencia: "modelado_de_simulacion"
+resultados_aprendizaje:
+  - "Explicar objetivo, variables, estados, ciclo y escenarios de simulación con vocabulario propio de Grúas."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Grúas."
+evidencia: "Ficha de escenario y diagrama de estados."
+criterio_aprobacion: "El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎮 Diseño de simulación de la grúa
 
 [🏠 Inicio](../../../README.md) · [🏗️ Curso: Grúas](../README.md) · 🎮 Simulación
@@ -70,6 +90,21 @@ carga sin volcar ni balancearla, de forma progresiva.
 - [ ] Prototipar el cálculo de momento y el LMI en un motor simple.
 - [ ] Ajustar el modelo de viento y balanceo de la carga.
 - [ ] Agregar fuentes técnicas públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Diseña un escenario educativo de Grúas basado en objetivo, variables, estados, ciclo y escenarios de simulación, con entradas, estados, variables y criterio de cierre.
+- **Evidencia:** Ficha de escenario y diagrama de estados.
+- **Criterio de aprobación:** El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-CRANES](https://www.osha.gov/cranes-derricks): Crane, Derrick and Hoist Safety, OSHA. Uso: izaje, riesgos y controles.
+- [CL-LEY-18290](https://www.bcn.cl/leychile/navegar?idNorma=29708): Ley de Tránsito 18.290, BCN Chile. Uso: marco legal chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

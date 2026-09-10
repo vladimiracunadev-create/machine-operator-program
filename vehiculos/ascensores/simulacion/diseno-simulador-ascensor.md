@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 9
+codigo: ASCENSORES-09
+curso: ascensores
+titulo: "Diseño de simulación del ascensor"
+modalidad: "laboratorio de diseño"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: ASCENSORES-08
+competencia: "modelado_de_simulacion"
+resultados_aprendizaje:
+  - "Explicar objetivo, variables, estados, ciclo y escenarios de simulación con vocabulario propio de Ascensores."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Ascensores."
+evidencia: "Ficha de escenario y diagrama de estados."
+criterio_aprobacion: "El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎮 Diseño de simulación del ascensor
 
 [🏠 Inicio](../../../README.md) · [🛗 Curso: Ascensores](../README.md) · 🎮 Simulación
@@ -70,6 +90,21 @@ seguridad, de forma segura y progresiva.
 - [ ] Prototipar la maniobra colectiva en un motor simple.
 - [ ] Ajustar el perfil de velocidad y nivelación.
 - [ ] Agregar fuentes técnicas públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Diseña un escenario educativo de Ascensores basado en objetivo, variables, estados, ciclo y escenarios de simulación, con entradas, estados, variables y criterio de cierre.
+- **Evidencia:** Ficha de escenario y diagrama de estados.
+- **Criterio de aprobación:** El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-ELEVATORS](https://www.osha.gov/laws-regs/regulations/standardnumber/1917/1917.116): 1917.116 Elevators and Escalators, OSHA. Uso: inspección y riesgos de transporte vertical.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

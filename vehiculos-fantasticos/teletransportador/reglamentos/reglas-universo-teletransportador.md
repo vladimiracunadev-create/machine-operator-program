@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 8
+codigo: TELETRANSPOR-08
+curso: teletransportador
+titulo: "Reglas del universo del teletransportador"
+modalidad: "estudio de casos"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: TELETRANSPOR-07
+competencia: "cumplimiento_y_seguridad"
+resultados_aprendizaje:
+  - "Explicar ámbito, requisitos, seguridad, restricciones y aplicación en simulación con vocabulario propio de Teletransportador."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Teletransportador."
+evidencia: "Ficha normativa con decisión y fuente trazable."
+criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # ⚖️ Reglas del universo del teletransportador
 
 [🏠 Inicio](../../../README.md) · [🌀 Curso: Teletransportador](../README.md) · ⚖️ Reglas del universo
@@ -46,6 +66,21 @@ en pantalla y lo que ocurriría de verdad.
 
 De esta forma el usuario ve, lado a lado, la versión espectacular y la versión
 realista del mismo teletransportador.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Analiza dos casos de Teletransportador; localiza la fuente aplicable y separa obligación real, buena práctica y regla de simulación.
+- **Evidencia:** Ficha normativa con decisión y fuente trazable.
+- **Criterio de aprobación:** Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,5 +1,13 @@
 # Checklist de documentación
 
+- [ ] Las once clases existen y tienen números únicos del 1 al 11.
+- [ ] Cada clase declara duración, prerrequisito y competencia.
+- [ ] Los resultados de aprendizaje son observables y propios de la máquina.
+- [ ] La actividad exige razonar y no puede resolverse cambiando solo el nombre del vehículo.
+- [ ] La evidencia y el criterio de aprobación se pueden comprobar.
+- [ ] Cada clase muestra fuentes pertinentes.
+- [ ] `manuales/fuentes.md` identifica institución, uso y fecha de verificación.
+- [ ] Los esquemas aclaran sistemas, estados o decisiones complejas.
 - [ ] Ficha de vehículo creada.
 - [ ] Descripción general completada.
 - [ ] Historia inicial escrita.
@@ -12,3 +20,4 @@
 - [ ] Nivel de realismo elegido.
 - [ ] Variables de simulación definidas.
 - [ ] Pendientes registrados.
+- [ ] El estado diferencia estructura editorial de revisión experta o acreditación.

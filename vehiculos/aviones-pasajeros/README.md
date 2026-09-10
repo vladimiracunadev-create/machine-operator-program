@@ -9,7 +9,8 @@
 > comercial segura de una aeronave de transporte de pasajeros.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 ![Licencia Chile](https://img.shields.io/badge/licencia-ATP%20DGAC-orange)
 
 ---
@@ -51,9 +52,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del avión de pasajeros, línea de tiempo. | [Abrir](historia/historia-avion-pasajeros.md) |
 | 2 | 📋 Características | Que es, tipos de avión de pasajeros y para que sirve cada uno. | [Abrir](operacion/caracteristicas-avion-pasajeros.md) |
@@ -80,4 +81,4 @@ la aviación comercial. Marco legal común en
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-avion-pasajeros.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-avion-pasajeros.md)

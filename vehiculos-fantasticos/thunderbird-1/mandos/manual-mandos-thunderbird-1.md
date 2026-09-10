@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 5
+codigo: THUNDERBIRD1-05
+curso: thunderbird-1
+titulo: "Mandos e instrumentos de Thunderbird 1"
+modalidad: "taller de simulación"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: THUNDERBIRD1-04
+competencia: "lectura_y_mando"
+resultados_aprendizaje:
+  - "Explicar controles, instrumentos, entradas y estados del sistema con vocabulario propio de Thunderbird 1."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Thunderbird 1."
+evidencia: "Mapa de mandos y resolución de dos estados del tablero."
+criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎛️ Mandos e instrumentos de Thunderbird 1
 
 [🏠 Inicio](../../../README.md) · [⚡ Curso: Thunderbird 1](../README.md) · 🎛️ Mandos
@@ -66,6 +86,22 @@ gran diferencia con pilotar un avión normal, que solo se apoya en sus alas.
   hacer perder altura antes de ganar velocidad.
 - Conviene un modo de asistencia para principiantes que estabilice el vuelo
   estacionario y evite oscilaciones.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Recorre el puesto de mando simulado de Thunderbird 1: localiza los controles de controles, instrumentos, entradas y estados del sistema y asocia cada indicación con una decisión.
+- **Evidencia:** Mapa de mandos y resolución de dos estados del tablero.
+- **Criterio de aprobación:** Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [THUNDERBIRDS-OFFICIAL](https://www.thunderbirds.com/): Thunderbirds Vehicles, ITV. Uso: referencia oficial de vehículos de rescate.
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 7
+codigo: AUTOMOVILES-07
+curso: automoviles
+titulo: "Entornos de trabajo del automóvil"
+modalidad: "análisis de escenarios"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: AUTOMOVILES-06
+competencia: "adaptacion_al_entorno"
+resultados_aprendizaje:
+  - "Explicar entornos, factores ambientales, riesgos y respuesta de simulación con vocabulario propio de Automóviles."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Automóviles."
+evidencia: "Matriz entorno–cambio–riesgo–respuesta."
+criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🌍 Entornos de trabajo del automóvil
 
 [🏠 Inicio](../../../README.md) · [🚗 Curso: Automóviles](../README.md) · 🌍 Entornos
@@ -60,6 +80,22 @@ mindmap
 Cada entorno es un escenario con su superficie, clima, tráfico y pendiente. Ver
 como se modela en el
 [Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-automovil.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Contrasta tres entornos de Automóviles a partir de entornos, factores ambientales, riesgos y respuesta de simulación y determina cómo cambian variables, percepción, riesgos y respuesta.
+- **Evidencia:** Matriz entorno–cambio–riesgo–respuesta.
+- **Criterio de aprobación:** Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [CL-LEY-18290](https://www.bcn.cl/leychile/navegar?idNorma=29708): Ley de Tránsito 18.290, BCN Chile. Uso: marco legal chileno.
+- [CL-CONASET](https://www.conaset.cl/manuales/): Manuales para conductores, CONASET. Uso: formación vial y seguridad.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

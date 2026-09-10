@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 6
+codigo: CAZATRANSFOR-06
+curso: caza-transformable
+titulo: "Principios y operación del caza transformable"
+modalidad: "resolución de problemas"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: CAZATRANSFOR-05
+competencia: "razonamiento_operacional"
+resultados_aprendizaje:
+  - "Explicar principios físicos, fases de operación, decisiones y errores frecuentes con vocabulario propio de Caza transformable."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Caza transformable."
+evidencia: "Resolución argumentada de un escenario operacional."
+criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧪 Principios y operación del caza transformable
 
 [🏠 Inicio](../../../README.md) · [🤖 Curso: Caza transformable](../README.md) · 🧪 Principios
@@ -80,6 +100,22 @@ Cuanta física real incorporar es una decisión de diseño. Este curso se apoya 
 la escala descrita en [niveles de realismo](../../../docs/03-niveles-de-realismo.md):
 se puede simular la transformación como algo instantáneo y mágico, o modelar de
 verdad la energía, el tiempo y el desplazamiento del centro de masa.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Resuelve un escenario de Caza transformable explicando, paso a paso, cómo intervienen principios físicos, fases de operación, decisiones y errores frecuentes.
+- **Evidencia:** Resolución argumentada de un escenario operacional.
+- **Criterio de aprobación:** Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [ROBOTECH-OFFICIAL](https://robotech.com/): Robotech, Harmony Gold. Uso: referencia oficial del universo ficticio.
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

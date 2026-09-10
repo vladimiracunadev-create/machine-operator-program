@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 7
+codigo: CAZATRANSFOR-07
+curso: caza-transformable
+titulo: "Entornos de operación del caza transformable"
+modalidad: "análisis de escenarios"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: CAZATRANSFOR-06
+competencia: "adaptacion_al_entorno"
+resultados_aprendizaje:
+  - "Explicar entornos, factores ambientales, riesgos y respuesta de simulación con vocabulario propio de Caza transformable."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Caza transformable."
+evidencia: "Matriz entorno–cambio–riesgo–respuesta."
+criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🌍 Entornos de operación del caza transformable
 
 [🏠 Inicio](../../../README.md) · [🤖 Curso: Caza transformable](../README.md) · 🌍 Entornos
@@ -71,6 +91,22 @@ que una persona al caminar. Un terreno irregular complica mucho esta tarea.
 Cada entorno se convierte en un escenario con sus reglas: presencia o ausencia de
 aire, tipo de superficie y condiciones. Se detalla en el
 [Módulo 9: Simulación](../simulacion/diseno-simulador-caza-transformable.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Contrasta tres entornos de Caza transformable a partir de entornos, factores ambientales, riesgos y respuesta de simulación y determina cómo cambian variables, percepción, riesgos y respuesta.
+- **Evidencia:** Matriz entorno–cambio–riesgo–respuesta.
+- **Criterio de aprobación:** Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [ROBOTECH-OFFICIAL](https://robotech.com/): Robotech, Harmony Gold. Uso: referencia oficial del universo ficticio.
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

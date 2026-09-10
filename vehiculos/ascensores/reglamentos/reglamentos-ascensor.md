@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 8
+codigo: ASCENSORES-08
+curso: ascensores
+titulo: "Reglamentos del ascensor (Chile)"
+modalidad: "estudio de casos"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: ASCENSORES-07
+competencia: "cumplimiento_y_seguridad"
+resultados_aprendizaje:
+  - "Explicar ámbito, requisitos, seguridad, restricciones y aplicación en simulación con vocabulario propio de Ascensores."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Ascensores."
+evidencia: "Ficha normativa con decisión y fuente trazable."
+criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # ⚖️ Reglamentos del ascensor (Chile)
 
 [🏠 Inicio](../../../README.md) · [🛗 Curso: Ascensores](../README.md) · ⚖️ Reglamentos
@@ -60,6 +80,21 @@ requiere licencia de conducir. Marco general en
 - Modelar mantención, certificación y estado de servicio como parte del escenario.
 - Marcar como "(por confirmar)" los plazos exactos de mantención e inspección.
 - Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Analiza dos casos de Ascensores; localiza la fuente aplicable y separa obligación real, buena práctica y regla de simulación.
+- **Evidencia:** Ficha normativa con decisión y fuente trazable.
+- **Criterio de aprobación:** Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-ELEVATORS](https://www.osha.gov/laws-regs/regulations/standardnumber/1917/1917.116): 1917.116 Elevators and Escalators, OSHA. Uso: inspección y riesgos de transporte vertical.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

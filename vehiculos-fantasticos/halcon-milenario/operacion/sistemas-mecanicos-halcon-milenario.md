@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: HALCONMILENA-04
+curso: halcon-milenario
+titulo: "Sistemas mecánicos del Halcón Milenario"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: HALCONMILENA-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Fuente de energía, Motores principales y empuje frente a masa, Propulsores de control de reacción y El \"hiperimpulso\": la gran licencia creativa con vocabulario propio de Halcón Milenario."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Halcón Milenario."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del Halcón Milenario
 
 [🏠 Inicio](../../../README.md) · [🦅 Curso: Halcón Milenario](../README.md) · 🔧 Sistemas mecánicos
@@ -141,6 +161,22 @@ instrumentos.
 
 Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-halcon-milenario.md)
 muestra como el piloto operaría cada sistema.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Halcón Milenario que conecte Fuente de energía, Motores principales y empuje frente a masa, Propulsores de control de reacción y El "hiperimpulso": la gran licencia creativa; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARWARS-FALCON](https://www.starwars.com/databank/millennium-falcon): Millennium Falcon, Lucasfilm. Uso: canon narrativo del vehículo.
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

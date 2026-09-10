@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: AVIONESCOMBA-04
+curso: aviones-combate
+titulo: "Sistemas mecánicos del avión de combate"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: AVIONESCOMBA-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Célula y fuselaje, Alas y sustentación a alta velocidad, Superficies de control y Motor a reacción (divulgativo) con vocabulario propio de Aviones de combate."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Aviones de combate."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del avión de combate
 
 [🏠 Inicio](../../../README.md) · [✈️ Curso: Aviones de combate](../README.md) · 🔧 Sistemas mecánicos
@@ -144,6 +164,21 @@ Informan al piloto y ayudan al control del vuelo.
 
 Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-avion-combate.md)
 muestra como el piloto opera estos sistemas generales.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Aviones de combate que conecte Célula y fuselaje, Alas y sustentación a alta velocidad, Superficies de control y Motor a reacción (divulgativo); después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

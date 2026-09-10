@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 7
+codigo: NAVEEXPLORAC-07
+curso: nave-exploracion
+titulo: "Entornos de la nave de exploración"
+modalidad: "análisis de escenarios"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: NAVEEXPLORAC-06
+competencia: "adaptacion_al_entorno"
+resultados_aprendizaje:
+  - "Explicar entornos, factores ambientales, riesgos y respuesta de simulación con vocabulario propio de Nave de exploración."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Nave de exploración."
+evidencia: "Matriz entorno–cambio–riesgo–respuesta."
+criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🌍 Entornos de la nave de exploración
 
 [🏠 Inicio](../../../README.md) · [🌌 Curso: Nave de exploración](../README.md) · 🌍 Entornos
@@ -60,6 +80,22 @@ mindmap
 Cada entorno es un escenario con su nivel de radiación, gravedad y distancia a la
 ayuda más cercana. Ver cómo se modela en el
 [Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-nave-exploracion.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Contrasta tres entornos de Nave de exploración a partir de entornos, factores ambientales, riesgos y respuesta de simulación y determina cómo cambian variables, percepción, riesgos y respuesta.
+- **Evidencia:** Matriz entorno–cambio–riesgo–respuesta.
+- **Criterio de aprobación:** Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 8
+codigo: DRONES-08
+curso: drones
+titulo: "Reglamentos de los drones (Chile)"
+modalidad: "estudio de casos"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: DRONES-07
+competencia: "cumplimiento_y_seguridad"
+resultados_aprendizaje:
+  - "Explicar ámbito, requisitos, seguridad, restricciones y aplicación en simulación con vocabulario propio de Drones."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Drones."
+evidencia: "Ficha normativa con decisión y fuente trazable."
+criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # ⚖️ Reglamentos de los drones (Chile)
 
 [🏠 Inicio](../../../README.md) · [🕹️ Curso: Drones](../README.md) · ⚖️ Reglamentos
@@ -61,6 +81,21 @@ porque dependen de la edición vigente de la DAN 151; se marcan como
 - Marcar como "(por confirmar)" la edición vigente de la DAN 151 y sus umbrales.
   Fuente: <https://www.dgac.gob.cl>.
 - Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Analiza dos casos de Drones; localiza la fuente aplicable y separa obligación real, buena práctica y regla de simulación.
+- **Evidencia:** Ficha normativa con decisión y fuente trazable.
+- **Criterio de aprobación:** Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-FAA-UAS](https://www.faa.gov/uas): Unmanned Aircraft Systems, FAA. Uso: operación y normativa RPAS.
+- [CL-DGAC](https://www.dgac.gob.cl/normativa/): Normativa aeronáutica, DGAC Chile. Uso: marco aeronáutico chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

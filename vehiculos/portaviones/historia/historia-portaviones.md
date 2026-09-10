@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 1
+codigo: PORTAVIONES-01
+curso: portaviones
+titulo: "Historia del portaviones"
+modalidad: "teórica dialogada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: ninguno
+competencia: "contexto_historico"
+resultados_aprendizaje:
+  - "Explicar origen, evolución tecnológica, variantes representativas e impacto con vocabulario propio de Portaviones."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Portaviones."
+evidencia: "Línea de tiempo comentada con cuatro hitos o más."
+criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📜 Historia del portaviones
 
 [🏠 Inicio](../../../README.md) · [🛳️ Curso: Portaviones](../README.md) · 📜 Historia
@@ -59,6 +79,22 @@ historia de la aviación naval.
 
 - Registrar aquí las fuentes públicas consultadas.
 - Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Construye una línea de tiempo de Portaviones y explica cómo dos cambios históricos transformaron su función o su puesto de mando.
+- **Evidencia:** Línea de tiempo comentada con cuatro hitos o más.
+- **Criterio de aprobación:** Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-NHHC-SHIPS](https://www.history.navy.mil/browse-by-topic/ships.html): Ships, Naval History and Heritage Command. Uso: historia pública de buques militares.
+- [IMO-NAV](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx): Safety of Navigation, International Maritime Organization. Uso: navegación, SOLAS, COLREG y STCW.
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

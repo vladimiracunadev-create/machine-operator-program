@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: NAUTILUS-04
+curso: nautilus
+titulo: "Sistemas mecánicos del Nautilus"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: NAUTILUS-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Flotabilidad y tanques de lastre, Casco y presión en profundidad, Energía y Propulsión y navegación con vocabulario propio de Nautilus."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Nautilus."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del Nautilus
 
 [🏠 Inicio](../../../README.md) · [🐙 Curso: Nautilus](../README.md) · 🔧 Sistemas mecánicos
@@ -165,6 +185,22 @@ sumergida.
 
 Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-nautilus.md)
 muestra cómo la tripulación opera cada uno de estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Nautilus que conecte Flotabilidad y tanques de lastre, Casco y presión en profundidad, Energía y Propulsión y navegación; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [GUTENBERG-20000](https://www.gutenberg.org/ebooks/164): Twenty Thousand Leagues under the Sea, Project Gutenberg. Uso: obra primaria en dominio público.
+- [IMO-NAV](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx): Safety of Navigation, International Maritime Organization. Uso: navegación, SOLAS, COLREG y STCW.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

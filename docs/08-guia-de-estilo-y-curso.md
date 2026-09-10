@@ -2,7 +2,7 @@
 
 [⬅️ Volver al índice](00-indice-maestro.md) · [🏠 README](../README.md)
 
-Cada vehículo del repositorio se documenta como un **curso completo**: no es una
+Cada vehículo del repositorio se documenta como un **curso estructurado**: no es una
 ficha suelta, sino un itinerario de aprendizaje conectado que va de la historia a
 la simulación, pasando por la mecánica profunda, los mandos, los entornos de
 trabajo y los reglamentos. Esta guía define cómo se ve y cómo se conecta ese
@@ -19,13 +19,15 @@ vehículo pueda aprenderlo de principio a fin, con material interconectado.
 ```mermaid
 flowchart LR
     H[📜 Historia] --> C[📋 Características]
-    C --> S[🔧 Sistemas mecánicos]
+    C --> V[🧩 Modelos y variantes]
+    V --> S[🔧 Sistemas mecánicos]
     S --> M[🎛️ Mandos e instrumentos]
     M --> P[🧪 Principios y operación]
     P --> E[🌍 Entornos de trabajo]
     E --> R[⚖️ Reglamentos]
     R --> D[🎮 Diseño de simulación]
-    D --> X[🧰 Recursos y glosario]
+    D --> X[🧰 Taller de recursos]
+    X --> A[🎯 Evaluación integradora]
 ```
 
 ---
@@ -45,9 +47,9 @@ Iconos fijos para mantener una identidad visual consistente.
 | Barcos mercantes | 🚢 | Acorazados | 🛡️ |
 | Portaviones | 🛳️ | | |
 
-### Secciones y módulos
+### Secciones y clases
 
-| Módulo | Icono | Módulo | Icono |
+| Clase | Icono | Clase | Icono |
 | --- | :---: | --- | :---: |
 | Historia | 📜 | Entornos de trabajo | 🌍 |
 | Características funcionales | 📋 | Reglamentos | ⚖️ |
@@ -65,15 +67,18 @@ Dentro de `vehiculos/<vehiculo>/` cada curso usa estos archivos:
 ```text
 <vehiculo>/
   README.md                              # 🎓 Portada del curso (indice + diagrama)
-  historia/historia-<v>.md               # 📜 Modulo 1
-  operacion/caracteristicas-<v>.md       # 📋 Modulo 2
-  operacion/sistemas-mecanicos-<v>.md    # 🔧 Modulo 3
-  mandos/manual-mandos-<v>.md            # 🎛️ Modulo 4
-  operacion/principios-<v>.md            # 🧪 Modulo 5
-  operacion/entornos-<v>.md              # 🌍 Modulo 6
-  reglamentos/reglamentos-<v>.md         # ⚖️ Modulo 7
-  simulacion/diseno-simulador-<v>.md     # 🎮 Modulo 8
-  recursos/recursos-<v>.md               # 🧰 Modulo 9 (glosario + enlaces)
+  historia/historia-<v>.md               # 📜 Clase 1
+  operacion/caracteristicas-<v>.md       # 📋 Clase 2
+  modelos/modelos-<v>.md                 # 🧩 Clase 3
+  operacion/sistemas-mecanicos-<v>.md    # 🔧 Clase 4
+  mandos/manual-mandos-<v>.md            # 🎛️ Clase 5
+  operacion/principios-<v>.md            # 🧪 Clase 6
+  operacion/entornos-<v>.md              # 🌍 Clase 7
+  reglamentos/reglamentos-<v>.md         # ⚖️ Clase 8
+  simulacion/diseno-simulador-<v>.md     # 🎮 Clase 9
+  recursos/recursos-<v>.md               # 🧰 Clase 10 (taller)
+  ejercicios/ejercicios-<v>.md           # 🎯 Clase 11 (evaluación)
+  manuales/fuentes.md                    # 📚 Fuentes propias del curso
 ```
 
 ---
@@ -88,11 +93,11 @@ La documentación **profesional se conecta**. Reglas:
    [🏠 Inicio](../../../README.md) · [🏍️ Curso: Motos](../README.md) · 🔧 Sistemas mecanicos
    ```
 
-2. **Portada del curso** (`README.md` del vehículo): tabla de módulos con icono,
+2. **Portada del curso** (`README.md` del vehículo): tabla de clases con icono,
    enlace y una línea de descripción, más un diagrama Mermaid del vehículo o su
    itinerario.
 
-3. **Pie "Continuar"** al final de cada módulo, enlazando al anterior y al
+3. **Pie "Continuar"** al final de cada clase, enlazando al anterior y al
    siguiente:
 
    ```markdown
@@ -133,11 +138,37 @@ flowchart TD
 
 ---
 
-## ✅ Checklist de curso profesional
+## 🧑‍🏫 Contrato de una clase
 
-Un curso de vehículo está "completo" cuando:
+Cada documento lectivo empieza con metadatos que permiten comprobar su identidad,
+duración, nivel, prerrequisito, competencia, resultados, evidencia, criterio de
+aprobación, fuentes y fecha de revisión. El cuerpo termina con una actividad
+específica de la máquina y fuentes visibles. La forma es común; los contenidos,
+decisiones y esquemas no deben intercambiarse entre máquinas.
 
-- [ ] 🎓 Portada con diagrama y tabla de módulos enlazada.
+Una clase autónoma debe:
+
+- declarar qué aprenderá y cómo se demostrará;
+- explicar con claridad y profundidad proporcional al nivel;
+- emplear tablas o Mermaid cuando una relación sea más clara visualmente;
+- proponer una tarea que obligue a razonar, no a copiar frases;
+- citar fuentes pertinentes al contenido y distinguir jurisdicciones;
+- conservar los límites de seguridad y no fingir una habilitación real.
+
+## 📈 Niveles de madurez
+
+| Nivel | Significado |
+| --- | --- |
+| Estructurado | Tiene las once clases, metadatos, actividades, evaluación y fuentes. |
+| Revisado | Una persona con competencia temática verificó exactitud y alcance. |
+| Impartible | Fue probado con estudiantes y ajustado con evidencia de aprendizaje. |
+| Acreditado | Una institución competente lo reconoce; el repositorio no afirma este nivel. |
+
+## ✅ Checklist de curso estructurado
+
+Un curso alcanza el nivel **estructurado** cuando:
+
+- [ ] 🎓 Portada con diagrama y tabla de once clases enlazada.
 - [ ] 📜 Historia con línea de tiempo.
 - [ ] 📋 Características funcionales y tipos.
 - [ ] 🧩 Modelos y variantes: qué cambia en el manejo, en el mando y en el
@@ -150,7 +181,10 @@ Un curso de vehículo está "completo" cuando:
 - [ ] 🎮 Diseño de simulación con variables.
 - [ ] 🧰 Recursos, glosario y fuentes registradas.
 - [ ] 🎯 Ejercicios y autoevaluación con las respuestas plegadas.
-- [ ] 🔗 Breadcrumb y navegación anterior/siguiente en cada módulo.
+- [ ] 🧑‍🏫 Cada clase declara duración, prerrequisito, resultados y evidencia.
+- [ ] 📏 Cada clase tiene criterio de aprobación verificable.
+- [ ] 📚 Cada clase cita fuentes y el curso mantiene `manuales/fuentes.md`.
+- [ ] 🔗 Breadcrumb y navegación anterior/siguiente en cada clase.
 
 ---
 

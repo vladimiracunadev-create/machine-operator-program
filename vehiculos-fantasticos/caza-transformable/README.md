@@ -12,7 +12,8 @@
 > claridad lo que sería realizable de lo que pertenece a la fantasía.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 
 ---
 
@@ -44,9 +45,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen del concepto de caza transformable en la ficción. | [Abrir](historia/historia-caza-transformable.md) |
 | 2 | 📋 Características | Que es, los tres modos y para que sirve cada uno. | [Abrir](operacion/caracteristicas-caza-transformable.md) |
@@ -70,4 +71,4 @@ con enfoque divulgativo.
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-caza-transformable.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-caza-transformable.md)

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: DELOREAN-04
+curso: delorean
+titulo: "Sistemas mecánicos de la DeLorean temporal"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: DELOREAN-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Vista general de subsistemas, Energía y potencia, El núcleo de salto imaginario y Ficción frente a realidad con vocabulario propio de DeLorean temporal."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de DeLorean temporal."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos de la DeLorean temporal
 
 [🏠 Inicio](../../../README.md) · [🕰️ Curso: DeLorean temporal](../README.md) · 🔧 Sistemas mecánicos
@@ -137,6 +157,22 @@ flowchart LR
 
 Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-delorean.md) muestra
 como el usuario operaría estos sistemas en un tablero conceptual.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de DeLorean temporal que conecte Vista general de subsistemas, Energía y potencia, El núcleo de salto imaginario y Ficción frente a realidad; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [UNIVERSAL-BTTF](https://www.universalpicturesathome.com/movies/back-to-the-future): Back to the Future, Universal Pictures At Home. Uso: obra audiovisual primaria.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 10
+codigo: NAVESESPACIA-10
+curso: naves-espaciales
+titulo: "Recursos de la nave espacial"
+modalidad: "taller documental"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: NAVESESPACIA-09
+competencia: "alfabetizacion_tecnica"
+resultados_aprendizaje:
+  - "Explicar glosario, esquemas y trazabilidad de fuentes con vocabulario propio de Naves espaciales."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Naves espaciales."
+evidencia: "Glosario aplicado y ficha breve de trazabilidad."
+criterio_aprobacion: "Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧰 Recursos de la nave espacial
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Naves espaciales](../README.md) · 🧰 Recursos
@@ -44,6 +64,21 @@ flowchart LR
 Registrar cada recurso nuevo con su origen y licencia, siguiendo
 [`recursos/README.md`](../../../recursos/README.md). Distinguir siempre fuentes de
 ciencia real de material de ficción.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Selecciona términos de glosario, esquemas y trazabilidad de fuentes, explícalos en contexto de Naves espaciales y verifica la procedencia de las fuentes utilizadas.
+- **Evidencia:** Glosario aplicado y ficha breve de trazabilidad.
+- **Criterio de aprobación:** Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

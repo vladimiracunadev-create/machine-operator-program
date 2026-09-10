@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 9
+codigo: THUNDERBIRD3-09
+curso: thunderbird-3
+titulo: "Diseño de simulación del Thunderbird 3"
+modalidad: "laboratorio de diseño"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: THUNDERBIRD3-08
+competencia: "modelado_de_simulacion"
+resultados_aprendizaje:
+  - "Explicar objetivo, variables, estados, ciclo y escenarios de simulación con vocabulario propio de Thunderbird 3."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Thunderbird 3."
+evidencia: "Ficha de escenario y diagrama de estados."
+criterio_aprobacion: "El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎮 Diseño de simulación del Thunderbird 3
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Thunderbird 3](../README.md) · 🎮 Simulación
@@ -84,6 +104,22 @@ que la comparación sea explícita y educativa.
 - [ ] Prototipar el ciclo básico con gravedad y resistencia del aire.
 - [ ] Ajustar el descuento de propelente según la ecuación del cohete.
 - [ ] Agregar fuentes de divulgación a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Diseña un escenario educativo de Thunderbird 3 basado en objetivo, variables, estados, ciclo y escenarios de simulación, con entradas, estados, variables y criterio de cierre.
+- **Evidencia:** Ficha de escenario y diagrama de estados.
+- **Criterio de aprobación:** El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [THUNDERBIRDS-OFFICIAL](https://www.thunderbirds.com/): Thunderbirds Vehicles, ITV. Uso: referencia oficial de vehículos de rescate.
+- [NASA-ROCKETS](https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf): Rockets Educator Guide, NASA. Uso: propulsión, estabilidad y trayectoria.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

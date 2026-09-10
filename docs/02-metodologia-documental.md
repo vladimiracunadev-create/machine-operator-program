@@ -10,6 +10,8 @@
 6. Crear tablas de mandos e instrumentos.
 7. Crear listas de procedimientos de simulación.
 8. Registrar dudas y temas pendientes.
+9. Formular resultados observables, una actividad y su evidencia.
+10. Asociar las afirmaciones a fuentes visibles en cada clase.
 
 ## Tipos de fuente
 
@@ -28,6 +30,8 @@
 - Citar la fuente cuando se use un dato específico.
 - Evitar instrucciones reales de operación peligrosa.
 - Mantener las secciones iguales en todos los vehículos.
+- Mantener común el contrato pedagógico, no el contenido: cada actividad debe
+  depender de sistemas, decisiones y riesgos propios de la máquina.
 - Usar tablas para mandos, instrumentos, variables y reglamentos.
 
 ## Criterios para avanzar
@@ -43,3 +47,6 @@ Un vehículo está listo para pasar a fase de simulación cuando tiene:
 - variables de simulación;
 - bibliografía inicial;
 - lista de pendientes.
+- once clases con duración, prerrequisitos y criterios de aprobación;
+- registro de fuentes propio y referencias visibles en cada clase;
+- estado de madurez declarado sin confundir estructura con acreditación.

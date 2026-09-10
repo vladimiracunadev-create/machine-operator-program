@@ -9,14 +9,16 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Vehículos](https://img.shields.io/badge/vehiculos-29-blue)
 ![Ficción](https://img.shields.io/badge/naves%20de%20ficcion-12-purple)
+![Clases](https://img.shields.io/badge/clases-451-0b7285)
+![Duración](https://img.shields.io/badge/duracion-502.25%20h-5f3dc4)
 ![Enfoque](https://img.shields.io/badge/enfoque-educativo%20y%20seguro-green)
 
 </div>
 
 ---
 
-Cada tipo de máquina se documenta como un **curso completo e interconectado**:
-historia, características funcionales, mecánica en profundidad, mandos,
+Cada tipo de máquina se documenta como un **curso estructurado e interconectado**:
+historia, características funcionales, sistemas y mecánica, mandos,
 principios físicos, entornos de trabajo, reglamentos (con foco en la ley chilena)
 y diseño de simulación. La meta no es todavía crear juegos, sino ordenar el
 conocimiento para que cada vehículo pueda convertirse en una simulación
@@ -25,7 +27,7 @@ coherente, educativa y segura.
 ℹ️ **Aquí todavía no hay ningún simulador que puedas ejecutar.** Esto es la base
 documental que cualquiera de ellos necesitaría antes de existir. El proyecto se
 llamó "Multisimulador" durante su arranque, pero ese nombre prometía software
-funcionando, así que se renombró mientras el código no exista. El módulo 9 de
+funcionando, así que se renombró mientras el código no exista. La clase 9 de
 cada curso especifica el simulador; construirlo es el paso siguiente.
 
 > 🎓 **Empieza por el curso de referencia:** [🏍️ Motocicletas](vehiculos/motos/README.md)
@@ -65,7 +67,8 @@ flowchart TD
 
 ## 📚 Catálogo de cursos
 
-Cada vehículo es un curso con 11 módulos, del primero al de ejercicios (ver
+Cada vehículo es un curso con 11 clases, desde historia hasta la evaluación
+integradora. En total existen **451 clases** y **502,25 horas nominales** (ver
 [guía de curso](docs/08-guia-de-estilo-y-curso.md)).
 
 ### 🛞 Terrestres
@@ -170,8 +173,9 @@ De lo cotidiano a lo complejo. Detalle en
 | [📖 Glosario general](docs/05-glosario-general.md) | Vocabulario común. |
 | [🗓️ Plan de vehículos](docs/06-plan-vehiculos.md) | Orden recomendado. |
 | [⚖️ Marco legal (Chile)](docs/07-marco-legal-chile.md) | Normativa por tipo de vehículo. |
-| [🎓 Guía de estilo y curso](docs/08-guia-de-estilo-y-curso.md) | Iconografía, módulos y navegación. |
+| [🎓 Guía de estilo y curso](docs/08-guia-de-estilo-y-curso.md) | Clases, madurez y navegación. |
 | [⚖️ Carga, pasajeros y manejo](docs/09-carga-y-manejo.md) | Hasta qué punto la carga cambia el manejo, por dominio. |
+| [🧑‍🏫 Modelo pedagógico](docs/10-modelo-pedagogico.md) | Contrato de clase, duración, evaluación y fuentes. |
 
 ---
 
@@ -210,12 +214,12 @@ proyecto se distribuye bajo licencia [MIT](LICENSE).
 ## 📊 Estado del proyecto
 
 - ✅ Base documental, marco legal y CI en verde.
-- ✅ **Los 41 cursos están completos**: cada uno cumple la
-  [checklist de curso profesional](docs/08-guia-de-estilo-y-curso.md) con sus 11
-  módulos, diagramas, glosario, ejercicios y navegación.
+- ✅ **Los 41 cursos están estructurados pedagógicamente**: 451 clases con
+  duración, prerrequisitos, resultados de aprendizaje, actividad, evidencia,
+  criterio de aprobación, fuentes y navegación.
+- 🧑‍🔧 **La revisión experta continúa**: “estructurado” no significa acreditado
+  ni validado por un fabricante, una autoridad o un centro de formación.
 - 🎓 [🏍️ Motos](vehiculos/motos/README.md) sigue siendo el curso de referencia:
   es el modelo a imitar al abrir uno nuevo.
-- 📚 Las carpetas `manuales/` de cada curso están vacías a propósito: son el
-  depósito de PDF públicos que se vayan incorporando, y cada uno debe quedar
-  anotado en el [registro de fuentes](manuales/fuentes.md), que sí está poblado
-  con la normativa y los manuales oficiales que sostienen los cursos.
+- 📚 Cada carpeta `manuales/` tiene un registro propio de fuentes públicas; el
+  [registro general](manuales/fuentes.md) mantiene las referencias transversales.

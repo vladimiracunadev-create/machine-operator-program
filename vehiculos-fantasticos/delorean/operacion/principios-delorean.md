@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 6
+codigo: DELOREAN-06
+curso: delorean
+titulo: "Principios y operación de la DeLorean temporal"
+modalidad: "resolución de problemas"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: DELOREAN-05
+competencia: "razonamiento_operacional"
+resultados_aprendizaje:
+  - "Explicar principios físicos, fases de operación, decisiones y errores frecuentes con vocabulario propio de DeLorean temporal."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de DeLorean temporal."
+evidencia: "Resolución argumentada de un escenario operacional."
+criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧪 Principios y operación de la DeLorean temporal
 
 [🏠 Inicio](../../../README.md) · [🕰️ Curso: DeLorean temporal](../README.md) · 🧪 Principios
@@ -73,6 +93,22 @@ empieza el guion.
 
 Ver el detalle de cada nivel en
 [📏 docs/03-niveles-de-realismo.md](../../../docs/03-niveles-de-realismo.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Resuelve un escenario de DeLorean temporal explicando, paso a paso, cómo intervienen principios físicos, fases de operación, decisiones y errores frecuentes.
+- **Evidencia:** Resolución argumentada de un escenario operacional.
+- **Criterio de aprobación:** Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [UNIVERSAL-BTTF](https://www.universalpicturesathome.com/movies/back-to-the-future): Back to the Future, Universal Pictures At Home. Uso: obra audiovisual primaria.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

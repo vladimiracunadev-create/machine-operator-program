@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: COHETES-04
+curso: cohetes
+titulo: "Sistemas mecánicos del cohete"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: COHETES-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Motores y propulsión, Etapas y separación, Propelentes y tanques y Guiado y control de vuelo con vocabulario propio de Cohetes."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Cohetes."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del cohete
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Cohetes](../README.md) · 🔧 Sistemas mecánicos
@@ -157,6 +177,21 @@ En un cohete reutilizable, la primera etapa regresa de forma controlada.
 
 Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-cohete.md)
 muestra como el control de misión opera y vigila estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Cohetes que conecte Motores y propulsión, Etapas y separación, Propelentes y tanques y Guiado y control de vuelo; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-ROCKETS](https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf): Rockets Educator Guide, NASA. Uso: propulsión, estabilidad y trayectoria.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

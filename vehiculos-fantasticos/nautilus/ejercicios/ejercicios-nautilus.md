@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 11
+codigo: NAUTILUS-11
+curso: nautilus
+titulo: "Ejercicios y autoevaluación del Nautilus"
+modalidad: "evaluación auténtica"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: NAUTILUS-10
+competencia: "integracion_de_competencias"
+resultados_aprendizaje:
+  - "Explicar comprensión, aplicación y transferencia a la simulación con vocabulario propio de Nautilus."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Nautilus."
+evidencia: "Respuestas justificadas y escenario final resuelto."
+criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎯 Ejercicios y autoevaluación del Nautilus
 
 [🏠 Inicio](../../../README.md) · [🐙 Curso: Nautilus](../README.md) · 🎯 Ejercicios
@@ -242,6 +262,22 @@ y [🧰 Recursos](../recursos/recursos-nautilus.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Resuelve la autoevaluación de Nautilus y defiende una decisión en un escenario integrador sin consultar las respuestas.
+- **Evidencia:** Respuestas justificadas y escenario final resuelto.
+- **Criterio de aprobación:** Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [GUTENBERG-20000](https://www.gutenberg.org/ebooks/164): Twenty Thousand Leagues under the Sea, Project Gutenberg. Uso: obra primaria en dominio público.
+- [IMO-NAV](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx): Safety of Navigation, International Maritime Organization. Uso: navegación, SOLAS, COLREG y STCW.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

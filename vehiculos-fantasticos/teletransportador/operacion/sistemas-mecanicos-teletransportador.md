@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: TELETRANSPOR-04
+curso: teletransportador
+titulo: "Sistemas mecánicos del teletransportador"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: TELETRANSPOR-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Escaneo del patrón, Transmisión de la información, Reconstrucción en destino y Energía colosal con vocabulario propio de Teletransportador."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Teletransportador."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del teletransportador
 
 [🏠 Inicio](../../../README.md) · [🌀 Curso: Teletransportador](../README.md) · 🔧 Sistemas mecánicos
@@ -138,6 +158,21 @@ desconocido, así que una copia perfecta e independiente no es posible.
 
 Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-teletransportador.md)
 muestra como el operador manejaría cada sistema.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Teletransportador que conecte Escaneo del patrón, Transmisión de la información, Reconstrucción en destino y Energía colosal; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

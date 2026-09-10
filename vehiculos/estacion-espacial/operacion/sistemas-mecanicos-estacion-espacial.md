@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: ESTACIONESPA-04
+curso: estacion-espacial
+titulo: "Sistemas mecánicos de la estación espacial"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: ESTACIONESPA-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Módulos y estructura, Energía, Soporte vital de ciclo cerrado y Control térmico con vocabulario propio de Estación espacial (ISS)."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Estación espacial (ISS)."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos de la estación espacial
 
 [🏠 Inicio](../../../README.md) · [🛰️ Curso: Estación espacial (ISS)](../README.md) · 🔧 Sistemas mecánicos
@@ -147,6 +167,21 @@ equipos, siempre con traje presurizado y sujeciones de seguridad.
 Con esto entendido, el
 [Módulo 5: Mandos](../mandos/manual-mandos-estacion-espacial.md) muestra como el
 centro de control y la tripulación operan estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Estación espacial (ISS) que conecte Módulos y estructura, Energía, Soporte vital de ciclo cerrado y Control térmico; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-ISS](https://www.nasa.gov/reference/international-space-station/): International Space Station, NASA. Uso: módulos, órbita y soporte vital.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

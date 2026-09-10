@@ -2,7 +2,13 @@
 
 Registro curado de fuentes públicas. Las URLs de organismos oficiales son la
 base del marco legal en [`docs/07-marco-legal-chile.md`](../docs/07-marco-legal-chile.md).
-Fecha de consulta de las fuentes legales: 2026-07.
+Fecha de consulta de las fuentes legales: 2026-09-10.
+
+Cada uno de los 41 cursos mantiene además un registro en
+`vehiculos/<curso>/manuales/fuentes.md` o
+`vehiculos-fantasticos/<curso>/manuales/fuentes.md`. Esos registros alimentan
+las fuentes visibles de las 451 clases; este archivo conserva las referencias
+transversales del programa.
 
 ## Manuales oficiales del conductor (Chile, CONASET)
 

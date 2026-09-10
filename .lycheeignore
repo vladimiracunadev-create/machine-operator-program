@@ -13,3 +13,9 @@
 
 # MTT: el portal responde con timeout ante clientes automatizados.
 ^https://(www\.)?mtt\.gob\.cl/.*
+
+# Portales DOT de EE. UU.: responden 403 a comprobadores automáticos aunque las
+# páginas están disponibles en navegador y fueron verificadas manualmente.
+^https://railroads\.fra\.dot\.gov/.*
+^https://www\.fmcsa\.dot\.gov/.*
+^https://www\.nhtsa\.gov/.*

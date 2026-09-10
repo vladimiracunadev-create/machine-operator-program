@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 8
+codigo: CAZATRANSFOR-08
+curso: caza-transformable
+titulo: "Reglas del universo del caza transformable"
+modalidad: "estudio de casos"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: CAZATRANSFOR-07
+competencia: "cumplimiento_y_seguridad"
+resultados_aprendizaje:
+  - "Explicar ámbito, requisitos, seguridad, restricciones y aplicación en simulación con vocabulario propio de Caza transformable."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Caza transformable."
+evidencia: "Ficha normativa con decisión y fuente trazable."
+criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # ⚖️ Reglas del universo del caza transformable
 
 [🏠 Inicio](../../../README.md) · [🤖 Curso: Caza transformable](../README.md) · ⚖️ Reglas del universo
@@ -63,6 +83,22 @@ todo el catálogo.
 
 Puedes leer el marco general de esta sección en el
 [aviso de derechos del catálogo](../../README.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Analiza dos casos de Caza transformable; localiza la fuente aplicable y separa obligación real, buena práctica y regla de simulación.
+- **Evidencia:** Ficha normativa con decisión y fuente trazable.
+- **Criterio de aprobación:** Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [ROBOTECH-OFFICIAL](https://robotech.com/): Robotech, Harmony Gold. Uso: referencia oficial del universo ficticio.
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

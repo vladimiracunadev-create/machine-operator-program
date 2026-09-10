@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: TRANSBORDADO-04
+curso: transbordadores
+titulo: "Sistemas mecánicos del transbordador"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: TRANSBORDADO-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Grupo de despegue, Orbitador, Escudo térmico y Alas, timones y tren de aterrizaje con vocabulario propio de Transbordadores."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Transbordadores."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del transbordador
 
 [🏠 Inicio](../../../README.md) · [🛬 Curso: Transbordadores](../README.md) · 🔧 Sistemas mecánicos
@@ -123,6 +143,22 @@ Mientras trabaja en órbita, el orbitador debe mantener con vida a su tripulaci�
 
 Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-transbordador.md)
 muestra cómo la tripulación opera estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Transbordadores que conecte Grupo de despegue, Orbitador, Escudo térmico y Alas, timones y tren de aterrizaje; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-SHUTTLE](https://www.nasa.gov/reference/the-space-shuttle/): The Space Shuttle, NASA. Uso: arquitectura y operación del transbordador.
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

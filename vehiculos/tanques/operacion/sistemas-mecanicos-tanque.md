@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: TANQUES-04
+curso: tanques
+titulo: "Sistemas mecánicos del tanque (marco público)"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: TANQUES-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Tren de rodaje de orugas, Suspensión, Motor y cadena cinemática y Dirección diferencial con vocabulario propio de Tanques."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Tanques."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del tanque (marco público)
 
 [🏠 Inicio](../../../README.md) · [🪖 Curso: Tanques](../README.md) · 🔧 Sistemas mecánicos
@@ -128,6 +148,22 @@ peso sobre una gran superficie de contacto.
 Con esto entendido, el
 [Módulo 5: Mandos](../mandos/manual-mandos-tanque.md) muestra el puesto de
 conducción a nivel general educativo.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Tanques que conecte Tren de rodaje de orugas, Suspensión, Motor y cadena cinemática y Dirección diferencial; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [TANK-MUSEUM](https://tankmuseum.org/tank-nuts/tank-collection): Tank Collection, The Tank Museum. Uso: historia pública de vehículos blindados.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

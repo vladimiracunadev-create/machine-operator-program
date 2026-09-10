@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 2
+codigo: DRONES-02
+curso: drones
+titulo: "Características funcionales del dron"
+modalidad: "teórica aplicada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: DRONES-01
+competencia: "identificacion_funcional"
+resultados_aprendizaje:
+  - "Explicar definición, rasgos funcionales, tipos y usos con vocabulario propio de Drones."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Drones."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📋 Características funcionales del dron
 
 [🏠 Inicio](../../../README.md) · [🕹️ Curso: Drones](../README.md) · 📋 Características
@@ -71,6 +91,21 @@ de este curso.
 - **Mapeo**: fotogrametría y modelos 3D del terreno.
 - **Reparto**: entrega de paquetes ligeros en pruebas y rutas cortas.
 - **Rescate**: búsqueda de personas y evaluación de zonas de riesgo.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Drones mediante los ejes «definición, rasgos funcionales, tipos y usos» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-FAA-UAS](https://www.faa.gov/uas): Unmanned Aircraft Systems, FAA. Uso: operación y normativa RPAS.
+- [CL-DGAC](https://www.dgac.gob.cl/normativa/): Normativa aeronáutica, DGAC Chile. Uso: marco aeronáutico chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

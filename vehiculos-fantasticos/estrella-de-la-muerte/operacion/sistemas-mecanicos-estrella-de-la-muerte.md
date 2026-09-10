@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: ESTRELLADELA-04
+curso: estrella-de-la-muerte
+titulo: "Sistemas mecánicos de la Estrella de la Muerte"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: ESTRELLADELA-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Gravedad propia, Presupuesto de energía, Disipación de calor y Propulsión de una masa colosal con vocabulario propio de Estrella de la Muerte."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Estrella de la Muerte."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos de la Estrella de la Muerte
 
 [🏠 Inicio](../../../README.md) · [🌑 Curso: Estrella de la Muerte](../README.md) · 🔧 Sistemas mecánicos
@@ -142,6 +162,22 @@ mucha potencia que tenga.
 Con esto claro, el
 [Módulo 5: Mandos](../mandos/manual-mandos-estrella-de-la-muerte.md) muestra como
 se operaría una estación de este tamaño.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Estrella de la Muerte que conecte Gravedad propia, Presupuesto de energía, Disipación de calor y Propulsión de una masa colosal; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARWARS-DEATHSTAR](https://www.starwars.com/databank/death-star): Death Star, Lucasfilm. Uso: canon narrativo de la estación.
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

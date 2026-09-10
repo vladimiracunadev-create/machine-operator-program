@@ -8,7 +8,8 @@
 > simulación. Sigue el modelo del curso de referencia del repositorio.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 ![Marco Chile](https://img.shields.io/badge/marco-DAN%20151-orange)
 
 ---
@@ -44,9 +45,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del dron, línea de tiempo. | [Abrir](historia/historia-dron.md) |
 | 2 | 📋 Características | Que es un RPAS, tipos de dron y para que sirve cada uno. | [Abrir](operacion/caracteristicas-dron.md) |
@@ -72,4 +73,4 @@ estabiliza el aparato variando el régimen de cada rotor. Marco legal común en
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-dron.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-dron.md)

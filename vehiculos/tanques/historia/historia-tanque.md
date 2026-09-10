@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 1
+codigo: TANQUES-01
+curso: tanques
+titulo: "Historia del tanque (marco público)"
+modalidad: "teórica dialogada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: ninguno
+competencia: "contexto_historico"
+resultados_aprendizaje:
+  - "Explicar origen, evolución tecnológica, variantes representativas e impacto con vocabulario propio de Tanques."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Tanques."
+evidencia: "Línea de tiempo comentada con cuatro hitos o más."
+criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📜 Historia del tanque (marco público)
 
 [🏠 Inicio](../../../README.md) · [🪖 Curso: Tanques](../README.md) · 📜 Historia
@@ -54,6 +74,22 @@ con [`docs/04-seguridad-y-limites.md`](../../../docs/04-seguridad-y-limites.md).
 
 - Registrar aquí las fuentes públicas consultadas.
 - Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Construye una línea de tiempo de Tanques y explica cómo dos cambios históricos transformaron su función o su puesto de mando.
+- **Evidencia:** Línea de tiempo comentada con cuatro hitos o más.
+- **Criterio de aprobación:** Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [TANK-MUSEUM](https://tankmuseum.org/tank-nuts/tank-collection): Tank Collection, The Tank Museum. Uso: historia pública de vehículos blindados.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

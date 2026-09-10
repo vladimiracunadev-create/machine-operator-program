@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 7
+codigo: GRUATORRE-07
+curso: grua-torre
+titulo: "Entornos de trabajo de la grúa torre"
+modalidad: "análisis de escenarios"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: GRUATORRE-06
+competencia: "adaptacion_al_entorno"
+resultados_aprendizaje:
+  - "Explicar entornos, factores ambientales, riesgos y respuesta de simulación con vocabulario propio de Grúa torre."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Grúa torre."
+evidencia: "Matriz entorno–cambio–riesgo–respuesta."
+criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🌍 Entornos de trabajo de la grúa torre
 
 [🏠 Inicio](../../../README.md) · [🗼 Curso: Grúa torre](../README.md) · 🌍 Entornos
@@ -59,6 +79,21 @@ mindmap
 Cada entorno es un escenario con su viento, su espacio y su personal en tierra.
 Ver cómo se modela en el
 [Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-grua-torre.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Contrasta tres entornos de Grúa torre a partir de entornos, factores ambientales, riesgos y respuesta de simulación y determina cómo cambian variables, percepción, riesgos y respuesta.
+- **Evidencia:** Matriz entorno–cambio–riesgo–respuesta.
+- **Criterio de aprobación:** Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-CRANES](https://www.osha.gov/cranes-derricks): Crane, Derrick and Hoist Safety, OSHA. Uso: izaje, riesgos y controles.
+- [OSHA-TOWER](https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.1435): 1926.1435 Tower Cranes, OSHA. Uso: requisitos específicos de grúas torre.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

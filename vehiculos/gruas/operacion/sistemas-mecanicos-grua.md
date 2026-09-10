@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: GRUAS-04
+curso: gruas
+titulo: "Sistemas mecánicos de la grúa"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: GRUAS-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Pluma, Cabrestante y cable (winch), Estabilizadores (outriggers) y Tablas de carga (load chart) con vocabulario propio de Grúas."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Grúas."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos de la grúa
 
 [🏠 Inicio](../../../README.md) · [🏗️ Curso: Grúas](../README.md) · 🔧 Sistemas mecánicos
@@ -233,6 +253,21 @@ desplaza el mando.
 
 Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-grua.md) muestra
 como el operador acciona cada uno de estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Grúas que conecte Pluma, Cabrestante y cable (winch), Estabilizadores (outriggers) y Tablas de carga (load chart); después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-CRANES](https://www.osha.gov/cranes-derricks): Crane, Derrick and Hoist Safety, OSHA. Uso: izaje, riesgos y controles.
+- [CL-LEY-18290](https://www.bcn.cl/leychile/navegar?idNorma=29708): Ley de Tránsito 18.290, BCN Chile. Uso: marco legal chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

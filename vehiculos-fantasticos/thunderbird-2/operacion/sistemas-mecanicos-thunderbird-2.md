@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: THUNDERBIRD2-04
+curso: thunderbird-2
+titulo: "Sistemas mecánicos del Thunderbird 2"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: THUNDERBIRD2-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Estructura y bastidor, Sistema de anclaje de módulos, Propulsión para carga pesada y Reparto de peso y centro de masa con vocabulario propio de Thunderbird 2."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Thunderbird 2."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del Thunderbird 2
 
 [🏠 Inicio](../../../README.md) · [📦 Curso: Thunderbird 2](../README.md) · 🔧 Sistemas mecánicos
@@ -132,6 +152,22 @@ impacto del contacto. Un apoyo insuficiente se hunde o se rompe.
 
 Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-thunderbird-2.md)
 muestra como el piloto operaría cada sistema.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Thunderbird 2 que conecte Estructura y bastidor, Sistema de anclaje de módulos, Propulsión para carga pesada y Reparto de peso y centro de masa; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [THUNDERBIRDS-OFFICIAL](https://www.thunderbirds.com/): Thunderbirds Vehicles, ITV. Uso: referencia oficial de vehículos de rescate.
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 1
+codigo: TRENCARGA-01
+curso: tren-carga
+titulo: "Historia del tren de carga"
+modalidad: "teórica dialogada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: ninguno
+competencia: "contexto_historico"
+resultados_aprendizaje:
+  - "Explicar origen, evolución tecnológica, variantes representativas e impacto con vocabulario propio de Tren de carga."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Tren de carga."
+evidencia: "Línea de tiempo comentada con cuatro hitos o más."
+criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📜 Historia del tren de carga
 
 [🏠 Inicio](../../../README.md) · [🚂 Curso: Tren de carga](../README.md) · 📜 Historia
@@ -63,6 +83,21 @@ la red quedan por confirmar en sus nombres y participaciones.
 
 - Registrar aquí las fuentes públicas consultadas.
 - Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Construye una línea de tiempo de Tren de carga y explica cómo dos cambios históricos transformaron su función o su puesto de mando.
+- **Evidencia:** Línea de tiempo comentada con cuatro hitos o más.
+- **Criterio de aprobación:** Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-FRA-OPS](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0): Railroad Operating Practices, Federal Railroad Administration. Uso: operación, señalización y competencias ferroviarias.
+- [US-FRA-HF](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands): Human Factors: Tasks and Demands, Federal Railroad Administration. Uso: factores humanos y carga de trabajo.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

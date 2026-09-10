@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 1
+codigo: COHETES-01
+curso: cohetes
+titulo: "Historia del cohete"
+modalidad: "teórica dialogada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: ninguno
+competencia: "contexto_historico"
+resultados_aprendizaje:
+  - "Explicar origen, evolución tecnológica, variantes representativas e impacto con vocabulario propio de Cohetes."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Cohetes."
+evidencia: "Línea de tiempo comentada con cuatro hitos o más."
+criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📜 Historia del cohete
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Cohetes](../README.md) · 📜 Historia
@@ -64,6 +84,21 @@ cielos y satélites.
 
 - Registrar aquí las fuentes públicas consultadas.
 - Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Construye una línea de tiempo de Cohetes y explica cómo dos cambios históricos transformaron su función o su puesto de mando.
+- **Evidencia:** Línea de tiempo comentada con cuatro hitos o más.
+- **Criterio de aprobación:** Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-ROCKETS](https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf): Rockets Educator Guide, NASA. Uso: propulsión, estabilidad y trayectoria.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

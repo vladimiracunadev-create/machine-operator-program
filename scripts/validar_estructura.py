@@ -7,7 +7,7 @@ forma esperada:
 * la lista de cursos del disco coincide con la esperada, en ambos sentidos: se
   detecta tanto el curso que falta como el que sobra (un curso nuevo que nadie
   anadio aqui quedaria fuera de toda validacion sin que el CI se entere);
-* cada curso conserva su README y las 7 secciones comunes, y cada seccion tiene
+* cada curso conserva su README, sus secciones comunes y sus 11 clases, y cada seccion tiene
   contenido: comprobar solo que exista la carpeta dejaba pasar en verde una
   seccion vacia;
 * existen las secciones y documentos generales de referencia;
@@ -86,10 +86,44 @@ SECCIONES_VEHICULO = [
     "ejercicios",
 ]
 
-# Secciones que todavia no se exige poblar. 'manuales/' guarda las fuentes
-# publicas de cada curso y esta pendiente en todos: si se exigiera aqui, el CI
-# quedaria rojo de forma permanente y dejaria de avisar de nada.
-SECCIONES_EN_ESPERA = {"manuales"}
+# Todas las secciones, incluida `manuales/`, deben estar pobladas.
+SECCIONES_EN_ESPERA: set[str] = set()
+
+# Las once clases son artefactos concretos, no solo carpetas con cualquier
+# contenido. Los comodines absorben las diferencias de singular entre cursos.
+PATRONES_CLASE = [
+    "historia/*.md",
+    "operacion/caracteristicas-*.md",
+    "modelos/*.md",
+    "operacion/sistemas-mecanicos-*.md",
+    "mandos/*.md",
+    "operacion/principios-*.md",
+    "operacion/entornos-*.md",
+    "reglamentos/*.md",
+    "simulacion/*.md",
+    "recursos/*.md",
+    "ejercicios/*.md",
+]
+
+TOTAL_CLASES_ESPERADO = (len(VEHICULOS) + len(FANTASTICOS)) * len(PATRONES_CLASE)
+
+CAMPOS_CLASE = {
+    "tipo_documento",
+    "clase",
+    "codigo",
+    "curso",
+    "titulo",
+    "modalidad",
+    "duracion_minutos",
+    "nivel",
+    "prerrequisito",
+    "competencia",
+    "resultados_aprendizaje",
+    "evidencia",
+    "criterio_aprobacion",
+    "fuentes",
+    "ultima_revision",
+}
 
 # Carpetas generales que deben existir en la raiz.
 SECCIONES_GENERALES = [
@@ -124,12 +158,15 @@ DOCUMENTOS_CLAVE = [
     "docs/07-marco-legal-chile.md",
     "docs/08-guia-de-estilo-y-curso.md",
     "docs/09-carga-y-manejo.md",
+    "docs/10-modelo-pedagogico.md",
     "plantillas/ficha-vehiculo.md",
     "plantillas/manual-mandos.md",
     "plantillas/reglamentos.md",
     "plantillas/historia.md",
     "plantillas/diseno-simulacion.md",
     "plantillas/checklist-documentacion.md",
+    "plantillas/clase.md",
+    "plantillas/rubrica-clase.md",
 ]
 
 # Enlaces Markdown en linea: captura el destino de [texto](destino).
@@ -160,7 +197,88 @@ def seccion_tiene_contenido(seccion: Path) -> bool:
     )
 
 
-def validar_estructura(errores: list[str]) -> None:
+def leer_front_matter(ruta: Path) -> tuple[dict[str, str], str]:
+    texto = ruta.read_text(encoding="utf-8", errors="replace")
+    if not texto.startswith("---\n"):
+        return {}, texto
+    fin = texto.find("\n---\n", 4)
+    if fin == -1:
+        return {}, texto
+    cabecera = texto[4:fin]
+    campos: dict[str, str] = {}
+    resultados = 0
+    for linea in cabecera.splitlines():
+        if linea.startswith("  - "):
+            resultados += 1
+        if linea and not linea.startswith((" ", "-")) and ":" in linea:
+            clave, valor = linea.split(":", 1)
+            campos[clave.strip()] = valor.strip()
+    campos["_resultados"] = str(resultados)
+    return campos, texto[fin + 5:]
+
+
+def validar_clases(base: Path, curso: str, errores: list[str], codigos: set[str]) -> tuple[int, int]:
+    total = 0
+    minutos = 0
+    numeros: set[int] = set()
+    for esperado, patron in enumerate(PATRONES_CLASE, 1):
+        rutas = list(base.glob(patron))
+        if len(rutas) != 1:
+            errores.append(
+                f"{base.relative_to(RAIZ).as_posix()}: {patron} debe identificar una clase y encontró {len(rutas)}"
+            )
+            continue
+        ruta = rutas[0]
+        campos, texto = leer_front_matter(ruta)
+        faltantes = CAMPOS_CLASE - campos.keys()
+        if faltantes:
+            errores.append(
+                f"Metadatos incompletos en {ruta.relative_to(RAIZ).as_posix()}: {', '.join(sorted(faltantes))}"
+            )
+            continue
+        try:
+            numero = int(campos["clase"])
+            duracion = int(campos["duracion_minutos"])
+        except ValueError:
+            errores.append(f"Número o duración inválida en {ruta.relative_to(RAIZ).as_posix()}")
+            continue
+        if numero != esperado:
+            errores.append(
+                f"Clase fuera de secuencia en {ruta.relative_to(RAIZ).as_posix()}: {numero}, esperada {esperado}"
+            )
+        if numero in numeros:
+            errores.append(f"Clase duplicada {numero} en {base.relative_to(RAIZ).as_posix()}")
+        numeros.add(numero)
+        if duracion <= 0:
+            errores.append(f"Duración no positiva en {ruta.relative_to(RAIZ).as_posix()}")
+        if campos["tipo_documento"] != "clase" or campos["curso"] != curso:
+            errores.append(f"Identidad de clase incoherente en {ruta.relative_to(RAIZ).as_posix()}")
+        codigo = campos["codigo"]
+        if codigo in codigos:
+            errores.append(f"Código de clase duplicado: {codigo}")
+        codigos.add(codigo)
+        if int(campos["_resultados"]) < 2:
+            errores.append(f"Faltan dos resultados de aprendizaje en {ruta.relative_to(RAIZ).as_posix()}")
+        if "## 🎓 Cierre de clase" not in texto or "### Fuentes de esta clase" not in texto:
+            errores.append(f"Falta cierre pedagógico o fuentes en {ruta.relative_to(RAIZ).as_posix()}")
+        else:
+            bloque_fuentes = texto.split("### Fuentes de esta clase", 1)[1]
+            if len(re.findall(r"^- \[[^]]+\]\(https?://", bloque_fuentes, re.MULTILINE)) < 2:
+                errores.append(f"Hay menos de dos fuentes visibles en {ruta.relative_to(RAIZ).as_posix()}")
+        total += 1
+        minutos += duracion
+    fuente_curso = base / "manuales" / "fuentes.md"
+    if not fuente_curso.is_file() or "| ID | Fuente |" not in fuente_curso.read_text(encoding="utf-8", errors="replace"):
+        errores.append(f"Falta registro de fuentes del curso: {base.relative_to(RAIZ).as_posix()}")
+    elif len(re.findall(r"^\| `[^`]+` \| \[[^]]+\]\(https?://", fuente_curso.read_text(encoding="utf-8"), re.MULTILINE)) < 2:
+        errores.append(f"El registro tiene menos de dos fuentes: {base.relative_to(RAIZ).as_posix()}")
+    return total, minutos
+
+
+def validar_estructura(errores: list[str]) -> tuple[int, int]:
+    total_clases = 0
+    total_minutos = 0
+    codigos: set[str] = set()
     for seccion in SECCIONES_GENERALES:
         if not (RAIZ / seccion).is_dir():
             errores.append(f"Falta la carpeta general: {seccion}/")
@@ -196,6 +314,10 @@ def validar_estructura(errores: list[str]) -> None:
                     errores.append(
                         f"Seccion vacia: {raiz_rel}/{vehiculo}/{seccion}/"
                     )
+            clases, minutos = validar_clases(base, vehiculo, errores, codigos)
+            total_clases += clases
+            total_minutos += minutos
+    return total_clases, total_minutos
 
 
 def validar_caracteres(errores: list[str]) -> None:
@@ -254,7 +376,7 @@ def validar_enlaces(errores: list[str]) -> int:
 
 def main() -> int:
     errores: list[str] = []
-    validar_estructura(errores)
+    clases, minutos = validar_estructura(errores)
     validar_caracteres(errores)
     enlaces = validar_enlaces(errores)
 
@@ -275,6 +397,8 @@ def main() -> int:
           f" ({exigidas} con contenido exigido,"
           f" {len(SECCIONES_EN_ESPERA)} en espera)")
     print(f"  Enlaces internos       : {enlaces}")
+    print(f"  Clases verificadas     : {clases}/{TOTAL_CLASES_ESPERADO}")
+    print(f"  Duracion nominal       : {minutos / 60:.2f} horas")
 
     if errores:
         print(f"\nSe encontraron {len(errores)} problema(s):")

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 2
+codigo: NAVESESPACIA-02
+curso: naves-espaciales
+titulo: "Características funcionales de la nave espacial"
+modalidad: "teórica aplicada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: NAVESESPACIA-01
+competencia: "identificacion_funcional"
+resultados_aprendizaje:
+  - "Explicar definición, rasgos funcionales, tipos y usos con vocabulario propio de Naves espaciales."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Naves espaciales."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📋 Características funcionales de la nave espacial
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Naves espaciales](../README.md) · 📋 Características
@@ -62,6 +82,21 @@ flowchart TD
 - Exploración de la Luna, planetas y cuerpos menores.
 - Transporte de tripulación a estaciones en órbita.
 - Educación y simulación de vuelo espacial.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Naves espaciales mediante los ejes «definición, rasgos funcionales, tipos y usos» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

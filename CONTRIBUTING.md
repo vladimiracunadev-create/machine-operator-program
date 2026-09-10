@@ -32,9 +32,11 @@ sensibles, roles generales de tripulación y reglas de seguridad.
 ## Flujo de trabajo
 
 1. Crea una rama descriptiva, por ejemplo `docs/motos-mandos`.
-2. Parte siempre desde una plantilla de `plantillas/`.
+2. Parte desde `plantillas/clase.md` y adapta objetivos, actividad y evaluación
+   a la máquina; cambiar solo su nombre no es una contribución especializada.
 3. Escribe en español claro, siguiendo el estilo del repositorio.
-4. Registra las fuentes que uses en `manuales/fuentes.md`.
+4. Registra las fuentes transversales en `manuales/fuentes.md`, las específicas
+   en `vehiculos/<curso>/manuales/fuentes.md` y cítalas dentro de la clase.
 5. Valida en local antes de abrir el Pull Request (ver siguiente sección).
 6. Abre el Pull Request contra `main` y completa la plantilla.
 
@@ -61,7 +63,7 @@ errores, tu cambio debería pasar CI en verde.
 - Tablas para mandos, instrumentos y glosarios.
 - Bloques de código siempre con lenguaje (` ```text `, ` ```bash `).
 - Enlaces internos relativos a la raíz del repositorio.
-- Español neutro; el repositorio usa texto sin tildes por consistencia.
+- Español neutro, claro y correctamente acentuado.
 
 ## Código de conducta
 

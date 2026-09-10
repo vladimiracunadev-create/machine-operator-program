@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: SUBMARINOS-04
+curso: submarinos
+titulo: "Sistemas mecánicos del submarino"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: SUBMARINOS-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Flotabilidad y tanques de lastre, Casco resistente y presión, Propulsión y Gobierno: timón y planos de inmersión con vocabulario propio de Submarinos."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Submarinos."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del submarino
 
 [🏠 Inicio](../../../README.md) · [🌊 Curso: Submarinos](../README.md) · 🔧 Sistemas mecánicos
@@ -114,6 +134,22 @@ El submarino gobierna en tres dimensiones.
 Con esto entendido, el
 [Módulo 5: Mandos](../mandos/manual-mandos-submarino.md) describe, a nivel
 educativo, como se opera el puesto de control.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Submarinos que conecte Flotabilidad y tanques de lastre, Casco resistente y presión, Propulsión y Gobierno: timón y planos de inmersión; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-NHHC-SHIPS](https://www.history.navy.mil/browse-by-topic/ships.html): Ships, Naval History and Heritage Command. Uso: historia pública de buques militares.
+- [IMO-NAV](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx): Safety of Navigation, International Maritime Organization. Uso: navegación, SOLAS, COLREG y STCW.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

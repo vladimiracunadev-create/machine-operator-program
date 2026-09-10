@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 2
+codigo: NAUTILUS-02
+curso: nautilus
+titulo: "Características funcionales del Nautilus"
+modalidad: "teórica aplicada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: NAUTILUS-01
+competencia: "identificacion_funcional"
+resultados_aprendizaje:
+  - "Explicar definición, rasgos funcionales, tipos y usos con vocabulario propio de Nautilus."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Nautilus."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📋 Características funcionales del Nautilus
 
 [🏠 Inicio](../../../README.md) · [🐙 Curso: Nautilus](../README.md) · 📋 Características
@@ -69,6 +89,22 @@ aire, energía y lastre, y necesita masa distribuida para mantenerse estable.
 - Vivir de forma independiente, tomando del mar alimento y recursos.
 - Desplazarse por todos los océanos sin depender de puertos.
 - Estudiar la vida marina y los fenómenos del océano profundo.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Nautilus mediante los ejes «definición, rasgos funcionales, tipos y usos» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [GUTENBERG-20000](https://www.gutenberg.org/ebooks/164): Twenty Thousand Leagues under the Sea, Project Gutenberg. Uso: obra primaria en dominio público.
+- [IMO-NAV](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx): Safety of Navigation, International Maritime Organization. Uso: navegación, SOLAS, COLREG y STCW.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

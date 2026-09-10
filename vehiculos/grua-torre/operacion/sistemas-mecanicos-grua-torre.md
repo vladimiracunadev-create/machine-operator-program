@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: GRUATORRE-04
+curso: grua-torre
+titulo: "Sistemas mecánicos de la grúa torre"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: GRUATORRE-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Mástil y base, Pluma, contrapluma y contrapeso, Carro (trolley) y sistema de izaje y Corona de giro (slewing) con vocabulario propio de Grúa torre."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Grúa torre."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos de la grúa torre
 
 [🏠 Inicio](../../../README.md) · [🗼 Curso: Grúa torre](../README.md) · 🔧 Sistemas mecánicos
@@ -206,6 +226,21 @@ grúa en condición controlada.
 
 Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-grua-torre.md)
 muestra como el operador acciona cada uno de estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Grúa torre que conecte Mástil y base, Pluma, contrapluma y contrapeso, Carro (trolley) y sistema de izaje y Corona de giro (slewing); después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-CRANES](https://www.osha.gov/cranes-derricks): Crane, Derrick and Hoist Safety, OSHA. Uso: izaje, riesgos y controles.
+- [OSHA-TOWER](https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.1435): 1926.1435 Tower Cranes, OSHA. Uso: requisitos específicos de grúas torre.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

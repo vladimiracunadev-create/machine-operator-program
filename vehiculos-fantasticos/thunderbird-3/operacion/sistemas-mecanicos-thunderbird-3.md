@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: THUNDERBIRD3-04
+curso: thunderbird-3
+titulo: "Sistemas mecánicos del Thunderbird 3"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: THUNDERBIRD3-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Motores y propelente, Etapas y separación, Guiado del ascenso y Estructura y tanques con vocabulario propio de Thunderbird 3."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Thunderbird 3."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del Thunderbird 3
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Thunderbird 3](../README.md) · 🔧 Sistemas mecánicos
@@ -138,6 +158,22 @@ para posarse.
 
 Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-thunderbird-3.md)
 muestra cómo la tripulación operaría cada sistema.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Thunderbird 3 que conecte Motores y propelente, Etapas y separación, Guiado del ascenso y Estructura y tanques; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [THUNDERBIRDS-OFFICIAL](https://www.thunderbirds.com/): Thunderbirds Vehicles, ITV. Uso: referencia oficial de vehículos de rescate.
+- [NASA-ROCKETS](https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf): Rockets Educator Guide, NASA. Uso: propulsión, estabilidad y trayectoria.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

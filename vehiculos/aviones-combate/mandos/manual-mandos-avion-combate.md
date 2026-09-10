@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 5
+codigo: AVIONESCOMBA-05
+curso: aviones-combate
+titulo: "Mandos e instrumentos del avión de combate"
+modalidad: "taller de simulación"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: AVIONESCOMBA-04
+competencia: "lectura_y_mando"
+resultados_aprendizaje:
+  - "Explicar controles, instrumentos, entradas y estados del sistema con vocabulario propio de Aviones de combate."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Aviones de combate."
+evidencia: "Mapa de mandos y resolución de dos estados del tablero."
+criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎛️ Mandos e instrumentos del avión de combate
 
 [🏠 Inicio](../../../README.md) · [✈️ Curso: Aviones de combate](../README.md) · 🎛️ Mandos
@@ -65,6 +85,21 @@ apoyado en instrumentos de pantalla y un HUD frontal.
 - La palanca y los pedales deben responder de forma suave con fly-by-wire.
 - El corte de motor y el tren deben ser accesibles y reconocibles.
 - La interfaz de simulación enfatiza la física del vuelo, no sistemas sensibles.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Recorre el puesto de mando simulado de Aviones de combate: localiza los controles de controles, instrumentos, entradas y estados del sistema y asocia cada indicación con una decisión.
+- **Evidencia:** Mapa de mandos y resolución de dos estados del tablero.
+- **Criterio de aprobación:** Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

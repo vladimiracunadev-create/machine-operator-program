@@ -9,7 +9,8 @@
 > [🦺 docs/04-seguridad-y-limites.md](../../docs/04-seguridad-y-limites.md).
 
 ![Nivel](https://img.shields.io/badge/nivel-divulgativo-green)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 ![Marco](https://img.shields.io/badge/marco-publico%20e%20historico-lightgrey)
 
 ---
@@ -57,9 +58,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Historia pública del carro de combate, línea de tiempo. | [Abrir](historia/historia-tanque.md) |
 | 2 | 📋 Características | Que es, tipos generales y para que se usa. | [Abrir](operacion/caracteristicas-tanque.md) |
@@ -86,4 +87,4 @@ solo divulgativo. Marco legal común en
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-tanque.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-tanque.md)

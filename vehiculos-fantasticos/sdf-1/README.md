@@ -12,7 +12,8 @@
 > por qué las naves enormes son un problema serio de ingeniería.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 
 ---
 
@@ -45,9 +46,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Contexto de la nave-fortaleza de ficción y su idea. | [Abrir](historia/historia-sdf-1.md) |
 | 2 | 📋 Características | Que es una nave-fortaleza gigante y para que sirve. | [Abrir](operacion/caracteristicas-sdf-1.md) |
@@ -73,4 +74,4 @@ ingeniería enorme.
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-sdf-1.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-sdf-1.md)

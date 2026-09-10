@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 7
+codigo: THUNDERBIRD2-07
+curso: thunderbird-2
+titulo: "Entornos del Thunderbird 2"
+modalidad: "análisis de escenarios"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: THUNDERBIRD2-06
+competencia: "adaptacion_al_entorno"
+resultados_aprendizaje:
+  - "Explicar entornos, factores ambientales, riesgos y respuesta de simulación con vocabulario propio de Thunderbird 2."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Thunderbird 2."
+evidencia: "Matriz entorno–cambio–riesgo–respuesta."
+criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🌍 Entornos del Thunderbird 2
 
 [🏠 Inicio](../../../README.md) · [📦 Curso: Thunderbird 2](../README.md) · 🌍 Entornos
@@ -62,6 +82,22 @@ maniobra. El paso de una base preparada a una zona de descarga irregular cambia
 por completo el reto y es una gran lección de física de carga. Ver cómo se
 modela en el
 [Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-thunderbird-2.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Contrasta tres entornos de Thunderbird 2 a partir de entornos, factores ambientales, riesgos y respuesta de simulación y determina cómo cambian variables, percepción, riesgos y respuesta.
+- **Evidencia:** Matriz entorno–cambio–riesgo–respuesta.
+- **Criterio de aprobación:** Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [THUNDERBIRDS-OFFICIAL](https://www.thunderbirds.com/): Thunderbirds Vehicles, ITV. Uso: referencia oficial de vehículos de rescate.
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

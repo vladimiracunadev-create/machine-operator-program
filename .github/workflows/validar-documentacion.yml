@@ -51,6 +51,9 @@ jobs:
             echo "### Programa de Operacion y Simulacion de Maquinas"
             echo ""
             echo "- Vehiculos: **$(find vehiculos -mindepth 1 -maxdepth 1 -type d | wc -l)**"
+            echo "- Clases: **$(grep -R -h '^tipo_documento: clase$' vehiculos vehiculos-fantasticos | wc -l)**"
+            minutos=$(grep -R -h '^duracion_minutos: ' vehiculos vehiculos-fantasticos | awk '{ total += $2 } END { print total }')
+            echo "- Duracion nominal: **$((minutos / 60)) h $((minutos % 60)) min**"
             echo "- Documentos Markdown: **$(find . -name '*.md' -not -path './node_modules/*' | wc -l)**"
           } >> "$GITHUB_STEP_SUMMARY"
 

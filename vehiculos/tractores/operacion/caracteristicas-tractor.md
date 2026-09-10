@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 2
+codigo: TRACTORES-02
+curso: tractores
+titulo: "Características funcionales del tractor"
+modalidad: "teórica aplicada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: TRACTORES-01
+competencia: "identificacion_funcional"
+resultados_aprendizaje:
+  - "Explicar definición, rasgos funcionales, tipos y usos con vocabulario propio de Tractores."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Tractores."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📋 Características funcionales del tractor
 
 [🏠 Inicio](../../../README.md) · [🚜 Curso: Tractores](../README.md) · 📋 Características
@@ -61,6 +81,21 @@ flowchart TD
 - Cosecha y transporte de productos con remolque.
 - Trabajo con implementos: pala cargadora frontal, retro, cortadora.
 - Tareas fuera de la agricultura: mantenimiento de caminos, jardinería pesada.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Tractores mediante los ejes «definición, rasgos funcionales, tipos y usos» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-AGRI](https://www.osha.gov/agricultural-operations/hazards): Agricultural Operations: Hazards and Controls, OSHA. Uso: tractores, aperos y riesgos agrícolas.
+- [CL-LEY-18290](https://www.bcn.cl/leychile/navegar?idNorma=29708): Ley de Tránsito 18.290, BCN Chile. Uso: marco legal chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

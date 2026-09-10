@@ -13,7 +13,8 @@
 > paga la estructura por sostener tanto peso.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 
 ---
 
@@ -48,9 +49,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Contexto de la nave de ficción y su idea de carga. | [Abrir](historia/historia-thunderbird-2.md) |
 | 2 | 📋 Características | Que es un transporte pesado modular y para que sirve. | [Abrir](operacion/caracteristicas-thunderbird-2.md) |
@@ -75,4 +76,4 @@ estructura y energía necesitas para sostenerlo y moverlo.
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-thunderbird-2.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-thunderbird-2.md)

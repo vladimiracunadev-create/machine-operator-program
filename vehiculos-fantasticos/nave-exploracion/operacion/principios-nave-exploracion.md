@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 6
+codigo: NAVEEXPLORAC-06
+curso: nave-exploracion
+titulo: "Principios y operación de la nave de exploración"
+modalidad: "resolución de problemas"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: NAVEEXPLORAC-05
+competencia: "razonamiento_operacional"
+resultados_aprendizaje:
+  - "Explicar principios físicos, fases de operación, decisiones y errores frecuentes con vocabulario propio de Nave de exploración."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Nave de exploración."
+evidencia: "Resolución argumentada de un escenario operacional."
+criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🧪 Principios y operación de la nave de exploración
 
 [🏠 Inicio](../../../README.md) · [🌌 Curso: Nave de exploración](../README.md) · 🧪 Principios
@@ -81,6 +101,22 @@ incoherente, y por eso el límite de la luz protege el orden de causa y efecto.
 Este curso puede contarse con más ficción o más rigor. Para elegir cuanto realismo
 aplicar en explicaciones y simulaciones, ver
 [03-niveles-de-realismo.md](../../../docs/03-niveles-de-realismo.md).
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Resuelve un escenario de Nave de exploración explicando, paso a paso, cómo intervienen principios físicos, fases de operación, decisiones y errores frecuentes.
+- **Evidencia:** Resolución argumentada de un escenario operacional.
+- **Criterio de aprobación:** Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

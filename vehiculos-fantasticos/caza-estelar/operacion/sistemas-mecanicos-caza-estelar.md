@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: CAZAESTELAR-04
+curso: caza-estelar
+titulo: "Sistemas mecánicos del caza estelar"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: CAZAESTELAR-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Fuente de energía, Propulsión principal, Propulsores de control de reacción (RCS) y Computadora de vuelo y sensores con vocabulario propio de Caza estelar."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Caza estelar."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del caza estelar
 
 [🏠 Inicio](../../../README.md) · [🛸 Curso: Caza estelar](../README.md) · 🔧 Sistemas mecánicos
@@ -134,6 +154,21 @@ para no recalentarse.
 
 Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-caza-estelar.md)
 muestra como el piloto operaría cada sistema.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Caza estelar que conecte Fuente de energía, Propulsión principal, Propulsores de control de reacción (RCS) y Computadora de vuelo y sensores; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARWARS-DATABANK](https://www.starwars.com/databank): Star Wars Databank, Lucasfilm. Uso: canon narrativo y diseño visual.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

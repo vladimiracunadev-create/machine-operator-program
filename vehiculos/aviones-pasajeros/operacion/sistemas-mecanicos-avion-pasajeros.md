@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: AVIONESPASAJ-04
+curso: aviones-pasajeros
+titulo: "Sistemas mecánicos del avión de pasajeros"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: AVIONESPASAJ-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Célula y fuselaje presurizado, Alas y dispositivos hipersustentadores, Superficies de control y Motores turbofan con vocabulario propio de Aviones de pasajeros."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Aviones de pasajeros."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del avión de pasajeros
 
 [🏠 Inicio](../../../README.md) · [🛫 Curso: Aviones de pasajeros](../README.md) · 🔧 Sistemas mecánicos
@@ -198,6 +218,21 @@ Informan a la tripulación y gestionan el vuelo cuando no hay referencias visual
 
 Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-avion-pasajeros.md)
 muestra cómo la tripulación opera cada uno de estos sistemas desde la cabina de vuelo.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Aviones de pasajeros que conecte Célula y fuselaje presurizado, Alas y dispositivos hipersustentadores, Superficies de control y Motores turbofan; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [CL-DGAC](https://www.dgac.gob.cl/normativa/): Normativa aeronáutica, DGAC Chile. Uso: marco aeronáutico chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

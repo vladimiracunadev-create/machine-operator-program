@@ -8,7 +8,8 @@
 > simulación. Sigue el modelo del curso de motos.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 ![Marco Chile](https://img.shields.io/badge/marco-Ferroviario%20EFE-orange)
 
 ---
@@ -48,9 +49,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Del vapor a la electrificación y los metros modernos. | [Abrir](historia/historia-tren-pasajeros.md) |
 | 2 | 📋 Características | Que es un tren de pasajeros y sus tipos. | [Abrir](operacion/caracteristicas-tren-pasajeros.md) |
@@ -75,4 +76,4 @@ sobre rieles, la gran masa y el control por señales. Marco legal común en
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-tren-pasajeros.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-tren-pasajeros.md)

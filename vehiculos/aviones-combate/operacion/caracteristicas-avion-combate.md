@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 2
+codigo: AVIONESCOMBA-02
+curso: aviones-combate
+titulo: "Características funcionales del avión de combate"
+modalidad: "teórica aplicada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: AVIONESCOMBA-01
+competencia: "identificacion_funcional"
+resultados_aprendizaje:
+  - "Explicar definición, rasgos funcionales, tipos y usos con vocabulario propio de Aviones de combate."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Aviones de combate."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📋 Características funcionales del avión de combate
 
 [🏠 Inicio](../../../README.md) · [✈️ Curso: Aviones de combate](../README.md) · 📋 Características
@@ -64,6 +84,21 @@ flowchart TD
 - Base histórica para entender la evolución de la aviación.
 
 > Los usos operativos sensibles quedan fuera de este curso por diseño.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Aviones de combate mediante los ejes «definición, rasgos funcionales, tipos y usos» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

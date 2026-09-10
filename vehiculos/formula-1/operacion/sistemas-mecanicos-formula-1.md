@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: FORMULA1-04
+curso: formula-1
+titulo: "Sistemas mecánicos de la Fórmula 1"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: FORMULA1-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Unidad de potencia híbrida, Aerodinámica y carga aerodinámica, Neumáticos y Frenos de carbono con vocabulario propio de Fórmula 1."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Fórmula 1."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos de la Fórmula 1
 
 [🏠 Inicio](../../../README.md) · [🏎️ Curso: Fórmula 1](../README.md) · 🔧 Sistemas mecánicos
@@ -164,6 +184,22 @@ Transmite la potencia a las ruedas traseras y adapta fuerza y velocidad.
 Con esto entendido, el
 [Módulo 5: Mandos](../mandos/manual-mandos-formula-1.md) muestra como el piloto
 opera cada uno de estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Fórmula 1 que conecte Unidad de potencia híbrida, Aerodinámica y carga aerodinámica, Neumáticos y Frenos de carbono; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [FIA-F1-2026](https://www.fia.com/regulations/formula-1): Formula 1 Regulations, FIA. Uso: reglamento, arquitectura y seguridad de Fórmula 1.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 8
+codigo: ESTRELLADELA-08
+curso: estrella-de-la-muerte
+titulo: "Reglas del universo de la Estrella de la Muerte"
+modalidad: "estudio de casos"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: ESTRELLADELA-07
+competencia: "cumplimiento_y_seguridad"
+resultados_aprendizaje:
+  - "Explicar ámbito, requisitos, seguridad, restricciones y aplicación en simulación con vocabulario propio de Estrella de la Muerte."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Estrella de la Muerte."
+evidencia: "Ficha normativa con decisión y fuente trazable."
+criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # ⚖️ Reglas del universo de la Estrella de la Muerte
 
 [🏠 Inicio](../../../README.md) · [🌑 Curso: Estrella de la Muerte](../README.md) · ⚖️ Reglas del universo
@@ -46,6 +66,22 @@ impresiona en pantalla y lo que ocurriría de verdad.
 
 De esta forma el usuario ve, lado a lado, la versión espectacular y la versión
 realista de la misma estación-mundo.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Analiza dos casos de Estrella de la Muerte; localiza la fuente aplicable y separa obligación real, buena práctica y regla de simulación.
+- **Evidencia:** Ficha normativa con decisión y fuente trazable.
+- **Criterio de aprobación:** Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARWARS-DEATHSTAR](https://www.starwars.com/databank/death-star): Death Star, Lucasfilm. Uso: canon narrativo de la estación.
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

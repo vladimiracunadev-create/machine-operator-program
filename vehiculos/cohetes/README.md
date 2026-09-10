@@ -10,7 +10,8 @@
 > recuperación de propulsores reutilizables.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 ![Marco](https://img.shields.io/badge/marco-tratados%20espaciales-orange)
 
 ---
@@ -47,9 +48,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del cohete, línea de tiempo. | [Abrir](historia/historia-cohete.md) |
 | 2 | 📋 Características | Que es, tipos de cohete y para que sirve cada uno. | [Abrir](operacion/caracteristicas-cohete.md) |
@@ -75,4 +76,4 @@ lanzamiento y el ascenso hasta la órbita. Marco legal común en
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-cohete.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-cohete.md)

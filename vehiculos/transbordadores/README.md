@@ -9,7 +9,8 @@
 > internacional y diseño de simulación. Enfoque **histórico y de principios**.
 
 ![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 ![Marco](https://img.shields.io/badge/marco-tratados%20espaciales-orange)
 
 ---
@@ -46,9 +47,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del transbordador, línea de tiempo. | [Abrir](historia/historia-transbordador.md) |
 | 2 | 📋 Características | Que es, sus partes y para que sirve. | [Abrir](operacion/caracteristicas-transbordador.md) |
@@ -74,4 +75,4 @@ legal común en [⚖️ docs/07-marco-legal-chile.md](../../docs/07-marco-legal-
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-transbordador.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-transbordador.md)

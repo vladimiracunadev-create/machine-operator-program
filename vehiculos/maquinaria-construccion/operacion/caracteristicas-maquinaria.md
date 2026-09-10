@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 2
+codigo: MAQUINARIACO-02
+curso: maquinaria-construccion
+titulo: "Características funcionales de la maquinaria de construcción"
+modalidad: "teórica aplicada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: MAQUINARIACO-01
+competencia: "identificacion_funcional"
+resultados_aprendizaje:
+  - "Explicar definición, rasgos funcionales, tipos y usos con vocabulario propio de Maquinaria de construcción."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Maquinaria de construcción."
+evidencia: "Matriz comparativa y decisión justificada."
+criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📋 Características funcionales de la maquinaria de construcción
 
 [🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construcción](../README.md) · 📋 Características
@@ -63,6 +83,21 @@ flowchart TD
 - Empuje y desmonte de terreno para nivelar.
 - Terminación y perfilado de caminos y explanadas.
 - Demolición y manejo de escombros con herramientas especiales.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Compara variantes de Maquinaria de construcción mediante los ejes «definición, rasgos funcionales, tipos y usos» y elige una para un caso de uso razonado.
+- **Evidencia:** Matriz comparativa y decisión justificada.
+- **Criterio de aprobación:** La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-CONSTRUCTION](https://www.osha.gov/construction): Construction Industry, OSHA. Uso: maquinaria y seguridad de obra.
+- [OSHA-CRANES](https://www.osha.gov/cranes-derricks): Crane, Derrick and Hoist Safety, OSHA. Uso: izaje, riesgos y controles.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

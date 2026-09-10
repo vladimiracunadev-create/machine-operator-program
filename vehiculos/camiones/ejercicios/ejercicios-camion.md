@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 11
+codigo: CAMIONES-11
+curso: camiones
+titulo: "Ejercicios y autoevaluación del camión"
+modalidad: "evaluación auténtica"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: CAMIONES-10
+competencia: "integracion_de_competencias"
+resultados_aprendizaje:
+  - "Explicar comprensión, aplicación y transferencia a la simulación con vocabulario propio de Camiones."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Camiones."
+evidencia: "Respuestas justificadas y escenario final resuelto."
+criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎯 Ejercicios y autoevaluación del camión
 
 [🏠 Inicio](../../../README.md) · [🚛 Curso: Camiones](../README.md) · 🎯 Ejercicios
@@ -238,6 +258,22 @@ Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-camion.m
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Resuelve la autoevaluación de Camiones y defiende una decisión en un escenario integrador sin consultar las respuestas.
+- **Evidencia:** Respuestas justificadas y escenario final resuelto.
+- **Criterio de aprobación:** Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [CL-LEY-18290](https://www.bcn.cl/leychile/navegar?idNorma=29708): Ley de Tránsito 18.290, BCN Chile. Uso: marco legal chileno.
+- [US-FMCSA-CDL](https://www.fmcsa.dot.gov/registration/commercial-drivers-license/cdl-manual): Commercial Driver's License Manual, FMCSA. Uso: operación de buses y camiones.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

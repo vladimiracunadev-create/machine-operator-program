@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 8
+codigo: CAZAESTELAR-08
+curso: caza-estelar
+titulo: "Reglas del universo del caza estelar"
+modalidad: "estudio de casos"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: CAZAESTELAR-07
+competencia: "cumplimiento_y_seguridad"
+resultados_aprendizaje:
+  - "Explicar ámbito, requisitos, seguridad, restricciones y aplicación en simulación con vocabulario propio de Caza estelar."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Caza estelar."
+evidencia: "Ficha normativa con decisión y fuente trazable."
+criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # ⚖️ Reglas del universo del caza estelar
 
 [🏠 Inicio](../../../README.md) · [🛸 Curso: Caza estelar](../README.md) · ⚖️ Reglas del universo
@@ -45,6 +65,21 @@ diferencia entre lo que emociona en pantalla y lo que ocurriría de verdad.
 
 De esta forma el usuario ve, lado a lado, la versión espectacular y la versión
 realista del mismo caza estelar.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Analiza dos casos de Caza estelar; localiza la fuente aplicable y separa obligación real, buena práctica y regla de simulación.
+- **Evidencia:** Ficha normativa con decisión y fuente trazable.
+- **Criterio de aprobación:** Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARWARS-DATABANK](https://www.starwars.com/databank): Star Wars Databank, Lucasfilm. Uso: canon narrativo y diseño visual.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

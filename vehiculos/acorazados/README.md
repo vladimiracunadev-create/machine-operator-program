@@ -9,7 +9,8 @@
 > [🦺 docs/04-seguridad-y-limites.md](../../docs/04-seguridad-y-limites.md).
 
 ![Nivel](https://img.shields.io/badge/nivel-divulgativo-green)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 ![Marco](https://img.shields.io/badge/marco-historico%20publico-lightgrey)
 
 ---
@@ -46,9 +47,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución pública del acorazado. | [Abrir](historia/historia-acorazado.md) |
 | 2 | 📋 Características | Que es, tipos históricos y su papel general. | [Abrir](operacion/caracteristicas-acorazado.md) |
@@ -74,4 +75,4 @@ enfoque histórico y público. Límites en
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-acorazado.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-acorazado.md)

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: SDF1-04
+curso: sdf-1
+titulo: "Sistemas mecánicos del SDF-1"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: SDF1-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Escala: la ley del cubo-cuadrado, Estructura y esfuerzos, Propulsión a escala gigante y Energía y habitabilidad con vocabulario propio de SDF-1."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de SDF-1."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del SDF-1
 
 [🏠 Inicio](../../../README.md) · [🏯 Curso: SDF-1](../README.md) · 🔧 Sistemas mecánicos
@@ -138,6 +158,22 @@ Refrigerar un gigante es, otra vez, un problema de escala.
 
 Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-sdf-1.md)
 muestra cómo se operaría una nave de este tamaño.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de SDF-1 que conecte Escala: la ley del cubo-cuadrado, Estructura y esfuerzos, Propulsión a escala gigante y Energía y habitabilidad; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [ROBOTECH-OFFICIAL](https://robotech.com/): Robotech, Harmony Gold. Uso: referencia oficial del universo ficticio.
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

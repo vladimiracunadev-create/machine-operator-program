@@ -9,6 +9,13 @@ y el proyecto usa [Versionado Semántico](https://semver.org/lang/es/).
 
 ### Cambiado
 
+- Los 41 cursos pasan de módulos documentales a **451 clases trazables** (11 por
+  máquina, 502 h 15 min nominales). Cada clase declara duración, prerrequisito,
+  resultados, actividad, evidencia, criterio de aprobación y fuentes, sin
+  sustituir el contenido técnico propio de cada vehículo por texto genérico.
+- El estado “completo” se reemplaza por niveles de madurez: estructurado,
+  revisado, impartible y acreditado. El repositorio solo afirma el primero hasta
+  que exista revisión experta y prueba con estudiantes.
 - El proyecto pasa a llamarse **Programa de Operación y Simulación de Máquinas**.
   "Multisimulador" prometía software funcionando y hoy esto es una base
   documental: no hay ningún simulador ejecutable en el repositorio. El nombre es
@@ -38,6 +45,9 @@ y el proyecto usa [Versionado Semántico](https://semver.org/lang/es/).
 
 ### Añadido
 
+- Modelo pedagógico, plantilla de clase, rúbrica base y registros de fuentes por
+  curso. El validador comprueba ahora las 451 identidades de clase, metadatos,
+  secuencia, duración, cierre evaluable y fuentes visibles.
 - `docs/09-carga-y-manejo.md`: **hasta qué punto la carga y los pasajeros cambian el manejo**. La masa no hace una pregunta sino cuatro (sostener, girar, equilibrar, y si es fija o viva), y la segunda es la que la intuición se salta: la resistencia a girar crece con la masa por la distancia al cuadrado, así que importa más dónde va la carga que cuánto pesa. El documento recorre cómo se expresa el mismo principio en cada dominio —reparto por eje, altura metacéntrica, momento de carga, centrado, fracción de masa, contrapeso— y está enlazado desde los 37 cursos donde la carga es parte del oficio.
 - Variable `Masa en bahía` en el simulador de 🛬 transbordadores: el curso trataba la bahía de carga como algo que se abre y se opera, nunca como peso, pese a ser la razón de ser del vehículo. Encarece el ascenso, desplaza el centro de masa y cambia el planeo, que se administra sin motor.
 - Módulo 3 de cada curso: **🧩 Modelos y variantes**, la bisagra entre las características, los mandos y el diseño de simulación. Documenta qué cambia en el manejo al pasar de un modelo a otro, qué mando aparece o desaparece y qué variables del simulador se ven afectadas: un scooter no tiene embrague ni palanca de cambio, así que la variable `Marcha` del simulador no existe. En las naves de ficción el eje son los modos o configuraciones, que es donde su manejo cambia de verdad. Los módulos 3 a 10 pasan a numerarse del 4 al 11.

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 8
+codigo: NAVEEXPLORAC-08
+curso: nave-exploracion
+titulo: "Reglas del universo de la nave de exploración"
+modalidad: "estudio de casos"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: NAVEEXPLORAC-07
+competencia: "cumplimiento_y_seguridad"
+resultados_aprendizaje:
+  - "Explicar ámbito, requisitos, seguridad, restricciones y aplicación en simulación con vocabulario propio de Nave de exploración."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Nave de exploración."
+evidencia: "Ficha normativa con decisión y fuente trazable."
+criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # ⚖️ Reglas del universo de la nave de exploración
 
 [🏠 Inicio](../../../README.md) · [🌌 Curso: Nave de exploración](../README.md) · ⚖️ Reglas del universo
@@ -52,6 +72,22 @@ derechos y el porque de separar ficción y realidad, ver el
 
 Con estas reglas claras, el siguiente módulo muestra como convertirlas en
 variables y modos de un simulador educativo.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Analiza dos casos de Nave de exploración; localiza la fuente aplicable y separa obligación real, buena práctica y regla de simulación.
+- **Evidencia:** Ficha normativa con decisión y fuente trazable.
+- **Criterio de aprobación:** Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: CAZATRANSFOR-04
+curso: caza-transformable
+titulo: "Sistemas mecánicos del caza transformable"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: CAZATRANSFOR-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar La estructura que se reconfigura, Juntas, actuadores y grados de libertad, El centro de masa que se desplaza y El problema de la masa y las cargas con vocabulario propio de Caza transformable."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Caza transformable."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del caza transformable
 
 [🏠 Inicio](../../../README.md) · [🤖 Curso: Caza transformable](../README.md) · 🔧 Sistemas mecánicos
@@ -120,6 +140,22 @@ el peso de las alas. Nunca aprovechas todo a la vez.
 La lectura educativa es clara: piezas sueltas del concepto existen o son
 plausibles, pero el conjunto completo, rápido y ligero pertenece por ahora a la
 ficción.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Caza transformable que conecte La estructura que se reconfigura, Juntas, actuadores y grados de libertad, El centro de masa que se desplaza y El problema de la masa y las cargas; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [ROBOTECH-OFFICIAL](https://robotech.com/): Robotech, Harmony Gold. Uso: referencia oficial del universo ficticio.
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

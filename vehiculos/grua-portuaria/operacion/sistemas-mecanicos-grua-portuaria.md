@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: GRUAPORTUARI-04
+curso: grua-portuaria
+titulo: "Sistemas mecánicos de la grúa portuaria"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: GRUAPORTUARI-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Estructura del pórtico, Traslación sobre rieles: gantry, trolley y boom, Trolley y spreader y Cabrestantes: hoist, trolley y gantry con vocabulario propio de Grúa portuaria."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Grúa portuaria."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos de la grúa portuaria
 
 [🏠 Inicio](../../../README.md) · [⚓ Curso: Grúa portuaria](../README.md) · 🔧 Sistemas mecánicos
@@ -226,6 +246,22 @@ estos pasos:
 
 Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-grua-portuaria.md)
 muestra como el operador acciona cada uno de estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Grúa portuaria que conecte Estructura del pórtico, Traslación sobre rieles: gantry, trolley y boom, Trolley y spreader y Cabrestantes: hoist, trolley y gantry; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-CRANES](https://www.osha.gov/cranes-derricks): Crane, Derrick and Hoist Safety, OSHA. Uso: izaje, riesgos y controles.
+- [IMO-NAV](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx): Safety of Navigation, International Maritime Organization. Uso: navegación, SOLAS, COLREG y STCW.
+- [CL-DIRECTEMAR](https://www.directemar.cl/directemar/marco-normativo): Marco normativo, DIRECTEMAR. Uso: marco marítimo chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

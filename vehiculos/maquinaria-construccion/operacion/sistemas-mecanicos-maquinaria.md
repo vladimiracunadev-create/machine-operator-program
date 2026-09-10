@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: MAQUINARIACO-04
+curso: maquinaria-construccion
+titulo: "Sistemas mecánicos de la maquinaria de construcción"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: MAQUINARIACO-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Sistema hidráulico, Brazo y cucharón, Hoja empujadora y Orugas y neumáticos con vocabulario propio de Maquinaria de construcción."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Maquinaria de construcción."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos de la maquinaria de construcción
 
 [🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construcción](../README.md) · 🔧 Sistemas mecánicos
@@ -194,6 +214,21 @@ que la cabina cumple funciones de seguridad, no solo de confort.
 Con esto entendido, el
 [Módulo 5: Mandos](../mandos/manual-mandos-maquinaria.md) muestra como el
 operador acciona cada uno de estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Maquinaria de construcción que conecte Sistema hidráulico, Brazo y cucharón, Hoja empujadora y Orugas y neumáticos; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-CONSTRUCTION](https://www.osha.gov/construction): Construction Industry, OSHA. Uso: maquinaria y seguridad de obra.
+- [OSHA-CRANES](https://www.osha.gov/cranes-derricks): Crane, Derrick and Hoist Safety, OSHA. Uso: izaje, riesgos y controles.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -12,7 +12,8 @@
 > de energía, disipación de calor y la logística de una ciudad-mundo.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 
 ---
 
@@ -45,9 +46,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Contexto de la estación-luna de ficción y su idea. | [Abrir](historia/historia-estrella-de-la-muerte.md) |
 | 2 | 📋 Características | Que es una estación del tamaño de una luna. | [Abrir](operacion/caracteristicas-estrella-de-la-muerte.md) |
@@ -73,4 +74,4 @@ problema para deshacerse del calor.
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-estrella-de-la-muerte.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-estrella-de-la-muerte.md)

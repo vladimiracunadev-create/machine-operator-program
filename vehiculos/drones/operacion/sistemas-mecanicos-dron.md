@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: DRONES-04
+curso: drones
+titulo: "Sistemas mecánicos del dron"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: DRONES-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Motores brushless y ESC, Hélices y empuje, Control por variación de rpm y Batería LiPo y autonomía con vocabulario propio de Drones."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Drones."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del dron
 
 [🏠 Inicio](../../../README.md) · [🕹️ Curso: Drones](../README.md) · 🔧 Sistemas mecánicos
@@ -223,6 +243,21 @@ El **retorno a casa (RTH)** depende del GPS: guarda el punto de despegue como
 
 Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-dron.md) muestra
 como el piloto opera cada uno de estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Drones que conecte Motores brushless y ESC, Hélices y empuje, Control por variación de rpm y Batería LiPo y autonomía; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-FAA-UAS](https://www.faa.gov/uas): Unmanned Aircraft Systems, FAA. Uso: operación y normativa RPAS.
+- [CL-DGAC](https://www.dgac.gob.cl/normativa/): Normativa aeronáutica, DGAC Chile. Uso: marco aeronáutico chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

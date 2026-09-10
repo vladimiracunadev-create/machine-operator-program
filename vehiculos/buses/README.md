@@ -8,7 +8,8 @@
 > de simulación. Sigue la plantilla de oro del curso de motos.
 
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 ![Licencia Chile](https://img.shields.io/badge/licencia-Clase%20A-orange)
 
 ---
@@ -48,9 +49,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Origen y evolución del bus, línea de tiempo. | [Abrir](historia/historia-bus.md) |
 | 2 | 📋 Características | Que es, tipos de bus y para que sirve cada uno. | [Abrir](operacion/caracteristicas-bus.md) |
@@ -76,4 +77,4 @@ Marco legal común en
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-bus.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-bus.md)

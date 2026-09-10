@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: MOTOS-04
+curso: motos
+titulo: "Sistemas mecánicos de la moto"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: MOTOS-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Motor, Transmisión, Chasis y Suspensión con vocabulario propio de Motocicletas."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Motocicletas."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos de la moto
 
 [🏠 Inicio](../../../README.md) · [🏍️ Curso: Motos](../README.md) · 🔧 Sistemas mecánicos
@@ -162,6 +182,23 @@ El único contacto con el suelo. Todo (acelerar, frenar, girar) pasa por ellos.
 
 Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-moto.md) muestra
 como el piloto opera cada uno de estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Motocicletas que conecte Motor, Transmisión, Chasis y Suspensión; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [CL-LEY-18290](https://www.bcn.cl/leychile/navegar?idNorma=29708): Ley de Tránsito 18.290, BCN Chile. Uso: marco legal chileno.
+- [CL-CONASET](https://www.conaset.cl/manuales/): Manuales para conductores, CONASET. Uso: formación vial y seguridad.
+- [US-NHTSA-MOTO](https://www.nhtsa.gov/road-safety/motorcycles): Motorcycle Safety, NHTSA. Uso: riesgos, equipo y conducción segura.
+- [MSF-BRC](https://msf-usa.org/library/): Motorcycle Safety Foundation Library, MSF. Uso: formación inicial y ejercicios.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

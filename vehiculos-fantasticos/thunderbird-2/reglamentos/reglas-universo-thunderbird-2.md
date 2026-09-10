@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 8
+codigo: THUNDERBIRD2-08
+curso: thunderbird-2
+titulo: "Reglas del universo del Thunderbird 2"
+modalidad: "estudio de casos"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: THUNDERBIRD2-07
+competencia: "cumplimiento_y_seguridad"
+resultados_aprendizaje:
+  - "Explicar ámbito, requisitos, seguridad, restricciones y aplicación en simulación con vocabulario propio de Thunderbird 2."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Thunderbird 2."
+evidencia: "Ficha normativa con decisión y fuente trazable."
+criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # ⚖️ Reglas del universo del Thunderbird 2
 
 [🏠 Inicio](../../../README.md) · [📦 Curso: Thunderbird 2](../README.md) · ⚖️ Reglas del universo
@@ -45,6 +65,22 @@ la diferencia entre lo que emociona en pantalla y lo que ocurriría de verdad.
 
 De esta forma el usuario ve, lado a lado, la versión espectacular y la versión
 realista del mismo transporte modular.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Analiza dos casos de Thunderbird 2; localiza la fuente aplicable y separa obligación real, buena práctica y regla de simulación.
+- **Evidencia:** Ficha normativa con decisión y fuente trazable.
+- **Criterio de aprobación:** Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [THUNDERBIRDS-OFFICIAL](https://www.thunderbirds.com/): Thunderbirds Vehicles, ITV. Uso: referencia oficial de vehículos de rescate.
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

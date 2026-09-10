@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 5
+codigo: GRUAS-05
+curso: gruas
+titulo: "Mandos e instrumentos de la grúa"
+modalidad: "taller de simulación"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: GRUAS-04
+competencia: "lectura_y_mando"
+resultados_aprendizaje:
+  - "Explicar controles, instrumentos, entradas y estados del sistema con vocabulario propio de Grúas."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Grúas."
+evidencia: "Mapa de mandos y resolución de dos estados del tablero."
+criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎛️ Mandos e instrumentos de la grúa
 
 [🏠 Inicio](../../../README.md) · [🏗️ Curso: Grúas](../README.md) · 🎛️ Mandos
@@ -67,6 +87,21 @@ control del momento de carga.
 - La parada de emergencia debe ser grande, roja y accesible sin mirar.
 - En simulación conviene mostrar el radio y el porcentaje de capacidad de forma
   continua, para que el usuario relacione cada movimiento con la estabilidad.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Recorre el puesto de mando simulado de Grúas: localiza los controles de controles, instrumentos, entradas y estados del sistema y asocia cada indicación con una decisión.
+- **Evidencia:** Mapa de mandos y resolución de dos estados del tablero.
+- **Criterio de aprobación:** Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [OSHA-CRANES](https://www.osha.gov/cranes-derricks): Crane, Derrick and Hoist Safety, OSHA. Uso: izaje, riesgos y controles.
+- [CL-LEY-18290](https://www.bcn.cl/leychile/navegar?idNorma=29708): Ley de Tránsito 18.290, BCN Chile. Uso: marco legal chileno.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

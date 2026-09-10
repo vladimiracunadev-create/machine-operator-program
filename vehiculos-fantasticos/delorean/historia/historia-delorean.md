@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 1
+codigo: DELOREAN-01
+curso: delorean
+titulo: "Historia de la DeLorean temporal"
+modalidad: "teórica dialogada"
+duracion_minutos: 45
+nivel: introductorio
+prerrequisito: ninguno
+competencia: "contexto_historico"
+resultados_aprendizaje:
+  - "Explicar origen, evolución tecnológica, variantes representativas e impacto con vocabulario propio de DeLorean temporal."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de DeLorean temporal."
+evidencia: "Línea de tiempo comentada con cuatro hitos o más."
+criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 📜 Historia de la DeLorean temporal
 
 [🏠 Inicio](../../../README.md) · [🕰️ Curso: DeLorean temporal](../README.md) · 📜 Historia
@@ -65,6 +85,22 @@ rigor, separando la parte real de la parte inventada.
 - En **Características** describimos los modos y rasgos de la nave.
 - En **Sistemas mecánicos** comparamos su tecnología imaginaria con la física.
 - En **Principios** decidimos que sería posible y que no.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Construye una línea de tiempo de DeLorean temporal y explica cómo dos cambios históricos transformaron su función o su puesto de mando.
+- **Evidencia:** Línea de tiempo comentada con cuatro hitos o más.
+- **Criterio de aprobación:** Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [UNIVERSAL-BTTF](https://www.universalpicturesathome.com/movies/back-to-the-future): Back to the Future, Universal Pictures At Home. Uso: obra audiovisual primaria.
+- [US-NHTSA](https://www.nhtsa.gov/vehicle-safety): Vehicle Safety, NHTSA. Uso: seguridad de vehículos terrestres.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: NAVESESPACIA-04
+curso: naves-espaciales
+titulo: "Sistemas mecánicos de la nave espacial"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: NAVESESPACIA-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Propulsión cohete, Etapas y separación, Soporte vital y Energía con vocabulario propio de Naves espaciales."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Naves espaciales."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos de la nave espacial
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Naves espaciales](../README.md) · 🔧 Sistemas mecánicos
@@ -140,6 +160,21 @@ flowchart LR
 
 Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-nave-espacial.md)
 muestra cómo la tripulación opera estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Naves espaciales que conecte Propulsión cohete, Etapas y separación, Soporte vital y Energía; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

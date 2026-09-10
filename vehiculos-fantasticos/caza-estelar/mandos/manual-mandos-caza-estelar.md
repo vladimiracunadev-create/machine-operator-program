@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 5
+codigo: CAZAESTELAR-05
+curso: caza-estelar
+titulo: "Mandos e instrumentos del caza estelar"
+modalidad: "taller de simulación"
+duracion_minutos: 60
+nivel: introductorio
+prerrequisito: CAZAESTELAR-04
+competencia: "lectura_y_mando"
+resultados_aprendizaje:
+  - "Explicar controles, instrumentos, entradas y estados del sistema con vocabulario propio de Caza estelar."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Caza estelar."
+evidencia: "Mapa de mandos y resolución de dos estados del tablero."
+criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎛️ Mandos e instrumentos del caza estelar
 
 [🏠 Inicio](../../../README.md) · [🛸 Curso: Caza estelar](../README.md) · 🎛️ Mandos
@@ -65,6 +85,21 @@ es la gran diferencia con conducir un avión.
 - El freno de rotación debe ser evidente: la nave no deja de girar sola.
 - Conviene un modo de asistencia para principiantes que evite gastar propelente
   de forma innecesaria.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Recorre el puesto de mando simulado de Caza estelar: localiza los controles de controles, instrumentos, entradas y estados del sistema y asocia cada indicación con una decisión.
+- **Evidencia:** Mapa de mandos y resolución de dos estados del tablero.
+- **Criterio de aprobación:** Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [STARWARS-DATABANK](https://www.starwars.com/databank): Star Wars Databank, Lucasfilm. Uso: canon narrativo y diseño visual.
+- [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

@@ -12,7 +12,8 @@
 > al hiperespacio" rompe la física que conocemos hoy.
 
 ![Tipo](https://img.shields.io/badge/tipo-ficcion-purple)
-![Módulos](https://img.shields.io/badge/modulos-11-blue)
+![Clases](https://img.shields.io/badge/clases-11-blue)
+![Duración del curso](https://img.shields.io/badge/duracion-12h15-5f3dc4)
 
 ---
 
@@ -47,9 +48,9 @@ flowchart TD
 
 ---
 
-## 📚 Módulos del curso
+## 📚 Clases del curso
 
-| # | Módulo | Contenido | Enlace |
+| # | Clase | Contenido | Enlace |
 | :-: | --- | --- | --- |
 | 1 | 📜 Historia | Contexto del carguero rápido de ficción y su idea de vuelo. | [Abrir](historia/historia-halcon-milenario.md) |
 | 2 | 📋 Características | Que es un carguero rápido genérico y para que sirve. | [Abrir](operacion/caracteristicas-halcon-milenario.md) |
@@ -74,4 +75,4 @@ cuanta masa arrastra, y ninguna carga viaja gratis.
 
 ---
 
-[➡️ Empezar por el Módulo 1: Historia](historia/historia-halcon-milenario.md)
+[➡️ Empezar por la Clase 1: Historia](historia/historia-halcon-milenario.md)

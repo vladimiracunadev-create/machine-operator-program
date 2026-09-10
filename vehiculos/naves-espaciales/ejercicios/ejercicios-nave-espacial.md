@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 11
+codigo: NAVESESPACIA-11
+curso: naves-espaciales
+titulo: "Ejercicios y autoevaluación de la nave espacial"
+modalidad: "evaluación auténtica"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: NAVESESPACIA-10
+competencia: "integracion_de_competencias"
+resultados_aprendizaje:
+  - "Explicar comprensión, aplicación y transferencia a la simulación con vocabulario propio de Naves espaciales."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Naves espaciales."
+evidencia: "Respuestas justificadas y escenario final resuelto."
+criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🎯 Ejercicios y autoevaluación de la nave espacial
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Naves espaciales](../README.md) · 🎯 Ejercicios
@@ -237,6 +257,21 @@ y [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Resuelve la autoevaluación de Naves espaciales y defiende una decisión en un escenario integrador sin consultar las respuestas.
+- **Evidencia:** Respuestas justificadas y escenario final resuelto.
+- **Criterio de aprobación:** Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [NASA-SPACECRAFT](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/): Spaceships and Rockets, NASA. Uso: naves, sistemas y misiones.
+- [UNOOSA-TREATIES](https://www.unoosa.org/oosa/SpaceLaw/treaties.html): Space Law Treaties and Principles, UNOOSA. Uso: derecho espacial internacional.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

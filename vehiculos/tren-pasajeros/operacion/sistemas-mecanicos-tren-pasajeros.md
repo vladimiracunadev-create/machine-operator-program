@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: TRENPASAJERO-04
+curso: tren-pasajeros
+titulo: "Sistemas mecánicos del tren de pasajeros"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: TRENPASAJERO-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Tracción eléctrica, Tracción diesel-eléctrica, Bogies y ruedas de pestaña y Adherencia rueda-riel con vocabulario propio de Tren de pasajeros."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Tren de pasajeros."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del tren de pasajeros
 
 [🏠 Inicio](../../../README.md) · [🚆 Curso: Tren de pasajeros](../README.md) · 🔧 Sistemas mecánicos
@@ -213,6 +233,21 @@ rieles. Define que trenes pueden circular por una red.
 
 Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-tren-pasajeros.md)
 muestra como el maquinista opera cada uno de estos sistemas.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Tren de pasajeros que conecte Tracción eléctrica, Tracción diesel-eléctrica, Bogies y ruedas de pestaña y Adherencia rueda-riel; después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-FRA-OPS](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0): Railroad Operating Practices, Federal Railroad Administration. Uso: operación, señalización y competencias ferroviarias.
+- [US-FRA-HF](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands): Human Factors: Tasks and Demands, Federal Railroad Administration. Uso: factores humanos y carga de trabajo.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 

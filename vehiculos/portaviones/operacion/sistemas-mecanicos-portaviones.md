@@ -1,3 +1,23 @@
+---
+tipo_documento: clase
+clase: 4
+codigo: PORTAVIONES-04
+curso: portaviones
+titulo: "Sistemas mecánicos del portaviones"
+modalidad: "teórica aplicada"
+duracion_minutos: 90
+nivel: introductorio
+prerrequisito: PORTAVIONES-03
+competencia: "comprension_de_sistemas"
+resultados_aprendizaje:
+  - "Explicar Casco y flotación, Propulsión, Gobierno y timón y Cubierta de vuelo y hangar (nivel divulgativo) con vocabulario propio de Portaviones."
+  - "Aplicar esos conceptos a una decisión segura o a un escenario de simulación de Portaviones."
+evidencia: "Esquema con flujos de energía, materia o información anotados."
+criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
+fuentes: manuales/fuentes.md
+ultima_revision: 2026-09-10
+---
+
 # 🔧 Sistemas mecánicos del portaviones
 
 [🏠 Inicio](../../../README.md) · [🛳️ Curso: Portaviones](../README.md) · 🔧 Sistemas mecánicos
@@ -116,6 +136,22 @@ logística y seguridad general, sin detalle operativo sensible.
 Con esto entendido, el
 [Módulo 5: Mandos](../mandos/manual-mandos-portaviones.md) describe, a nivel
 educativo, como se navega el buque desde el puente.
+
+## 🎓 Cierre de clase
+
+- **Actividad:** Dibuja un esquema funcional de Portaviones que conecte Casco y flotación, Propulsión, Gobierno y timón y Cubierta de vuelo y hangar (nivel divulgativo); después predice el efecto de una falla simulada.
+- **Evidencia:** Esquema con flujos de energía, materia o información anotados.
+- **Criterio de aprobación:** Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente.
+- **Transferencia:** explica qué cambiaría al pasar a otra variante de esta máquina.
+
+### Fuentes de esta clase
+
+- [US-NHHC-SHIPS](https://www.history.navy.mil/browse-by-topic/ships.html): Ships, Naval History and Heritage Command. Uso: historia pública de buques militares.
+- [IMO-NAV](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx): Safety of Navigation, International Maritime Organization. Uso: navegación, SOLAS, COLREG y STCW.
+- [US-FAA-HANDBOOKS](https://www.faa.gov/regulations_policies/handbooks_manuals): Aviation Handbooks and Manuals, FAA. Uso: aerodinámica, sistemas y operación.
+
+> Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual
+> del fabricante, la formación certificada ni la habilitación exigida para operar equipos reales.
 
 ---
 
