@@ -19,3 +19,11 @@
 ^https://railroads\.fra\.dot\.gov/.*
 ^https://www\.fmcsa\.dot\.gov/.*
 ^https://www\.nhtsa\.gov/.*
+
+# OSHA rechaza con 403 al agente de lychee; las fichas y normas se conservan
+# como fuentes primarias y se revisan manualmente en navegador.
+^https://www\.osha\.gov/.*
+
+# Naval History and Heritage Command presenta una cadena TLS que rustls no
+# reconoce en GitHub Actions, aunque la pagina oficial abre correctamente.
+^https://www\.history\.navy\.mil/.*
