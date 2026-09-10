@@ -27,3 +27,7 @@
 # Naval History and Heritage Command presenta una cadena TLS que rustls no
 # reconoce en GitHub Actions, aunque la pagina oficial abre correctamente.
 ^https://www\.history\.navy\.mil/.*
+
+# FIA bloquea con 403 los comprobadores automatizados; el reglamento oficial
+# se mantiene como fuente primaria y se revisa manualmente.
+^https://www\.fia\.com/.*
