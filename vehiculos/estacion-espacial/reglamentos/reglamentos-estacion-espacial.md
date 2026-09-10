@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 8
 codigo: ESTACIONESPA-08
@@ -16,7 +16,7 @@ evidencia: "Ficha normativa con decisión y fuente trazable."
 criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # ⚖️ Reglamentos de la estación espacial (marco público)
 
@@ -85,6 +85,48 @@ jurisdicción por módulo y registro de cada objeto. El detalle chileno está en
 - Representar el reparto de tareas y recursos entre socios.
 - Usar avisos educativos en vez de castigos frustrantes.
 - Registrar cada fuente pública en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Ámbito, Acuerdo Intergubernamental de la ISS, Estado de lanzamiento y su agencia y Tratados internacionales (marco de UNOOSA)** a **interrumpir la cadena que podría producir degradación de soporte vital o energía por priorización tardía**?
+
+### Explicación razonada
+
+La regla de seguridad debe conectarse con un mecanismo de daño. El riesgo «degradación de soporte vital o energía por priorización tardía» se controla mediante límites, inspección, competencia y coordinación; cada medida corta una parte de la cadena causal. En una situación real prevalecen la autoridad aplicable y el manual vigente de Estación espacial (ISS).
+
+Esta clase se conecta con el resto del curso mediante **equilibrio continuo de energía, atmósfera, calor y orientación orbital**. El hilo de
+seguridad consiste en reconocer a tiempo **degradación de soporte vital o energía por priorización tardía** y poder justificar la decisión
+**aislar la falla y priorizar cargas esenciales antes de recuperar la misión**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **paneles solares → distribución eléctrica → soporte vital → módulos y tripulación**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [International Space Station](https://www.nasa.gov/reference/international-space-station/) aporta módulos, órbita y soporte vital;
+[Space Law Treaties and Principles](https://www.unoosa.org/oosa/SpaceLaw/treaties.html) se usa para derecho espacial internacional. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Describir el daño:** explica cómo se llegaría a **degradación de soporte vital o energía por priorización tardía** sin usar solo la palabra “peligro”.
+2. **Localizar controles:** asocia inspección, límite, competencia o coordinación con un punto de la cadena causal.
+3. **Consultar:** distingue qué afirma la fuente pública y qué debe verificarse en normativa y manual vigentes.
+4. **Resolver:** documenta por qué **aislar la falla y priorizar cargas esenciales antes de recuperar la misión** es una decisión preventiva y verificable.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mecanismo concreto conduce a **degradación de soporte vital o energía por priorización tardía**?
+2. ¿Qué barrera preventiva actúa antes del movimiento y cuál durante la operación?
+3. ¿Qué parte de la respuesta requiere consultar normativa o manual vigente?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

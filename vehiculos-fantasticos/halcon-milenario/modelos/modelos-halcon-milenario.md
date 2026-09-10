@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: HALCONMILENA-03
@@ -16,7 +16,7 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del Halcón Milenario
 
@@ -24,9 +24,9 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-El [Módulo 2](../operacion/caracteristicas-halcon-milenario.md) ya separó el
+El [Clase 2](../operacion/caracteristicas-halcon-milenario.md) ya separó el
 carguero rápido en tres tipos conceptuales: correo ligero, carguero mixto y
-carguero pesado. Este módulo responde a lo siguiente: **esos tres tipos no son
+carguero pesado. Esta clase responde a lo siguiente: **esos tres tipos no son
 la variante que de verdad cambia el simulador**. La variante que manda es cuánta
 masa lleva la bodega en cada momento.
 
@@ -40,13 +40,13 @@ masa lleva la bodega en cada momento.
 
 ## 🧭 Por qué la configuración decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-halcon-milenario.md) describe un puesto de
+El [Clase 5](../mandos/manual-mandos-halcon-milenario.md) describe un puesto de
 mando con aceleradores principales, palanca de traslación, palanca de
 orientación y un panel superior de **estado de carga**. El
-[Módulo 9](../simulacion/diseno-simulador-halcon-milenario.md) expone `Masa de
+[Clase 9](../simulacion/diseno-simulador-halcon-milenario.md) expone `Masa de
 carga` con rango `0-maxima bodega`. Los dos módulos describen la **misma** nave.
 
-Lo que separa un correo ligero de un carguero pesado, según el Módulo 2, es la
+Lo que separa un correo ligero de un carguero pesado, según el Clase 2, es la
 bodega frente a los motores: poca masa y motores grandes, o bodega enorme y
 menos agilidad. Pero eso es exactamente lo que ya hace la variable `Masa de
 carga` dentro de una sola nave. Un correo ligero es, en términos del simulador,
@@ -54,7 +54,7 @@ un carguero mixto con la bodega casi vacía. No hace falta un segundo esquema de
 control: hace falta mover un número.
 
 Lo que sí parte el simulador en dos es otra cosa, y el curso la nombra sin
-rodeos: el **modo** ciencia o ficción del Módulo 9, con el hiperimpulso dentro.
+rodeos: el **modo** ciencia o ficción del Clase 9, con el hiperimpulso dentro.
 Ahí no cambia un rango, cambia qué significan los mandos.
 
 ---
@@ -67,8 +67,8 @@ Ahí no cambia un rango, cambia qué significan los mandos.
 | Bodega parcial | La referencia del curso: el carguero mixto en ruta, con carga útil y maniobra equilibradas. |
 | Bodega llena | Misma potencia, mucha más masa: acelera menos, tarda más en detener la rotación y llega más justo de propelente. |
 | Carga variable en ruta | La masa cambia durante la partida al cargar o soltar bodega: la misma maniobra no responde igual al principio que al final. |
-| Correo ligero (Módulo 2) | Poca masa, motores grandes: se comporta como la bodega vacía de forma permanente. |
-| Carguero pesado (Módulo 2) | Bodega enorme: se comporta como la bodega llena incluso sin carga extra. |
+| Correo ligero (Clase 2) | Poca masa, motores grandes: se comporta como la bodega vacía de forma permanente. |
+| Carguero pesado (Clase 2) | Bodega enorme: se comporta como la bodega llena incluso sin carga extra. |
 | Modo ficción con hiperimpulso | La carga deja de pesar, la nave frena al soltar el acelerador y el salto está disponible. No es otra nave: es otra física. |
 
 ---
@@ -77,7 +77,7 @@ Ahí no cambia un rango, cambia qué significan los mandos.
 
 | Configuración | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Bodega vacía, parcial o llena | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Cambian los rangos y los tiempos de respuesta, no los controles. |
+| Bodega vacía, parcial o llena | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Cambian los rangos y los tiempos de respuesta, no los controles. |
 | Correo ligero, mixto o pesado | Ninguno: los tres comparten puesto de mando. | Son el mismo esquema con distinta bodega. |
 | Carga variable en ruta | **Asciende** el panel superior de estado de carga: deja de ser vigilancia y pasa a ser una decisión activa del piloto. | No es un mando nuevo, pero altera el resultado de todos los demás. |
 | Bodega llena | **Gana peso** el freno de rotación (barra espaciadora): hay que pedirlo antes porque cuesta más detener el giro. | El mismo control, con más anticipación. |
@@ -89,18 +89,18 @@ Ahí no cambia un rango, cambia qué significan los mandos.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-halcon-milenario.md):
+[Clase 9](../simulacion/diseno-simulador-halcon-milenario.md):
 
 | Configuración | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Bodega parcial | Ninguna: es el caso base. | El del Módulo 5. |
+| Bodega parcial | Ninguna: es el caso base. | El del Clase 5. |
 | Bodega vacía | `Masa de carga` cae a cero: la aceleración por `Empuje de motores` sube y `Delta-v restante` rinde al máximo. | El mismo. |
 | Bodega llena | `Masa de carga` se acerca al máximo de bodega: recorta la aceleración y `Delta-v restante` con el mismo propelente. | El mismo, más lento de responder. |
 | Carga variable en ruta | `Masa de carga` deja de fijarse al empezar y pasa a variar durante la partida, arrastrando consigo `Delta-v restante`. | El mismo. |
 | Correo ligero | `Masa de carga` ocupa solo la franja baja de su rango. | El mismo. |
 | Carguero pesado | `Masa de carga` ocupa la franja alta y `Calor acumulado` importa más por encendidos largos. | El mismo. |
 | Modo ficción | `Modo` pasa a `ficción`: `Masa de carga` se desacopla de la aceleración, `Vector de velocidad` deja de conservarse sin motor y `Delta-v restante` pierde sentido. | Otro: aceleradores tipo automóvil y secuencia de salto activa. |
-| Modo ciencia | `Modo` pasa a `ciencia`: se reactivan la relación empuje/masa, la conservación del momento y el límite de delta-v. `Gravedad del entorno` vuelve a curvar el rumbo. | El del Módulo 5, sin salto. |
+| Modo ciencia | `Modo` pasa a `ciencia`: se reactivan la relación empuje/masa, la conservación del momento y el límite de delta-v. `Gravedad del entorno` vuelve a curvar el rumbo. | El del Clase 5, sin salto. |
 
 ---
 
@@ -133,7 +133,7 @@ sugiere la palabra "modelo":
   esquema de control. Aparece una entrada que en vuelo real no existe (la
   secuencia de salto) y, sobre todo, los aceleradores principales dejan de
   cambiar la velocidad para pasar a fijarla. Es un modo de control distinto, no
-  una dificultad distinta. Por eso el Módulo 9 lo llama "interruptor central del
+  una dificultad distinta. Por eso el Clase 9 lo llama "interruptor central del
   aprendizaje" y la interfaz avisa al cruzarlo.
 
 - **La carga variable en ruta** frente a la carga fija obliga a que `Masa de
@@ -155,6 +155,48 @@ variante principal la decide lo que lleva dentro.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué la configuración decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar vuelo sublumínico frente a salto hiperespacial frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «vuelo sublumínico frente a salto hiperespacial» resuelven prioridades distintas. Una comparación profesional sigue la cadena reactor ficticio → hiperimpulsor → control de actitud → trayectoria: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **contraste entre prestaciones canónicas y un modelo consistente de energía, inercia y navegación**. El hilo de
+seguridad consiste en reconocer a tiempo **usar la velocidad narrativa como sustituto de decisiones y estados comprensibles** y poder justificar la decisión
+**hacer visibles prerrequisitos, fallas y consecuencias de cada modo de propulsión**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **reactor ficticio → hiperimpulsor → control de actitud → trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Millennium Falcon](https://www.starwars.com/databank/millennium-falcon) aporta canon narrativo del vehículo;
+[Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) se usa para naves, sistemas y misiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **escape ficticio con hiperimpulsor degradado**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **reactor ficticio** hasta **trayectoria**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **reactor ficticio → hiperimpulsor → control de actitud → trayectoria** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «escape ficticio con hiperimpulsor degradado» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

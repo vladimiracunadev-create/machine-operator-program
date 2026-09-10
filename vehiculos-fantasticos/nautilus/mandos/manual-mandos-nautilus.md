@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 5
 codigo: NAUTILUS-05
@@ -16,7 +16,7 @@ evidencia: "Mapa de mandos y resolución de dos estados del tablero."
 criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎛️ Mandos e instrumentos del Nautilus
 
@@ -87,6 +87,55 @@ exterior salvo por ventanas o instrumentos.
 - La purga de lastre de emergencia tiene que ser accesible y reconocible.
 - La interfaz debe dejar claro que ventilar el aire solo es posible en la
   superficie, no sumergido.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Vista general, Mapa de controles, Instrumentos principales y Entradas de simulación** a **interpretar mandos e indicaciones durante inmersión narrativa cerca de relieve submarino**?
+
+### Explicación razonada
+
+Un mando no se aprende memorizando su nombre, sino recorriendo el ciclo intención → acción → indicación → verificación. En Nautilus, el operador actúa sobre energía descrita en la obra o motor, observa la respuesta en hélice y confirma el efecto en casco y timones. Una indicación inesperada exige detener la secuencia mental, identificar el modo activo y evitar una segunda orden que agrave el estado.
+
+```mermaid
+flowchart LR
+    I["intención"] --> M["mando sobre energía descrita en la obra o motor"]
+    M --> R["respuesta de hélice"] --> E["efecto en casco y timones"]
+    E --> V["verificar indicación"] --> I
+```
+
+Esta clase se conecta con el resto del curso mediante **lectura doble: tecnología imaginada por Verne y principios reales de flotabilidad y presión**. El hilo de
+seguridad consiste en reconocer a tiempo **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real** y poder justificar la decisión
+**citar el canon y contrastar cada maniobra con física y navegación reales**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía descrita en la obra → motor → hélice → casco y timones**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Twenty Thousand Leagues under the Sea](https://www.gutenberg.org/ebooks/164) aporta obra primaria en dominio público;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Intención:** formula qué cambio se necesita durante **inmersión narrativa cerca de relieve submarino**.
+2. **Mando:** identifica el control que actúa sobre **energía descrita en la obra** o **motor** y el modo que debe estar activo.
+3. **Lectura:** localiza la indicación que confirma la respuesta de **hélice** y el efecto en **casco y timones**.
+4. **Verificación:** si la lectura no coincide, no acumules órdenes; estabiliza e investiga el estado.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mando inicia la respuesta y qué instrumento confirma que el modo correcto está activo?
+2. ¿Qué indicación temprana advertiría **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real**?
+3. ¿Qué secuencia usarías si la respuesta de **casco y timones** no coincide con la orden?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

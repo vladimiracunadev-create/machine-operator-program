@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: DELOREAN-02
@@ -16,7 +16,7 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características de la DeLorean temporal
 
@@ -24,8 +24,8 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Que es esta nave, que modos tiene y que rasgos la definen. Este módulo da el
-contexto antes de abrir su tecnología imaginaria en el Módulo 4. Todo lo que
+Que es esta nave, que modos tiene y que rasgos la definen. Esta clase da el
+contexto antes de abrir su tecnología imaginaria en el Clase 4. Todo lo que
 sigue es descripción original con fines educativos.
 
 ---
@@ -86,6 +86,48 @@ flowchart TD
 - Para practicar la distinción entre lo real y lo narrativo.
 - Como base de un simulador con un modo ciencia y un modo ficción.
 - Para introducir energía, relatividad y causalidad de forma amena.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Rasgos clave, Modos de la nave y Comparación de los dos modos** a **elegir una configuración adecuada para intento de alcanzar la condición temporal en una vía con espacio limitado**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En DeLorean temporal, la relación entre motor y alimentación ficticia, transmisión, ruedas y sistema temporal determina capacidad, respuesta y límites. Por eso «DeLorean de serie frente a máquina temporal ficticia» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «confundir canon con física real y omitir los riesgos ordinarios del automóvil».
+
+Esta clase se conecta con el resto del curso mediante **separación entre mecánica automotriz plausible y regla narrativa de velocidad y energía**. El hilo de
+seguridad consiste en reconocer a tiempo **confundir canon con física real y omitir los riesgos ordinarios del automóvil** y poder justificar la decisión
+**declarar qué regla pertenece al relato y modelar aparte movimiento, energía y seguridad reales**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor y alimentación ficticia → transmisión → ruedas → sistema temporal**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Back to the Future](https://www.universalpicturesathome.com/movies/back-to-the-future) aporta obra audiovisual primaria;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «intento de alcanzar la condición temporal en una vía con espacio limitado» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **DeLorean de serie frente a máquina temporal ficticia** usando esos requisitos y la cadena **motor y alimentación ficticia → transmisión → ruedas → sistema temporal**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **confundir canon con física real y omitir los riesgos ordinarios del automóvil**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **sistema temporal** condiciona primero el caso «intento de alcanzar la condición temporal en una vía con espacio limitado»?
+2. ¿Qué requisito descartaría una de las alternativas **DeLorean de serie frente a máquina temporal ficticia**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

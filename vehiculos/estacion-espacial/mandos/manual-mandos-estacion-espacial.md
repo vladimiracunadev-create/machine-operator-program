@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 5
 codigo: ESTACIONESPA-05
@@ -16,7 +16,7 @@ evidencia: "Mapa de mandos y resolución de dos estados del tablero."
 criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎛️ Mandos e instrumentos de la estación espacial
 
@@ -84,6 +84,55 @@ humano se centra en la ciencia, el mantenimiento, el acoplamiento y las EVA.
 - El control del brazo robotico exige vistas claras y movimientos suaves.
 - La interfaz debe recordar que la estación se opera en equipo con tierra.
 - La preparación de una EVA debe seguir una lista de pasos ordenada.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Vista general, Mapa de controles, Instrumentos y telemetría y Entradas de simulación** a **interpretar mandos e indicaciones durante pérdida parcial de generación durante una actividad planificada**?
+
+### Explicación razonada
+
+Un mando no se aprende memorizando su nombre, sino recorriendo el ciclo intención → acción → indicación → verificación. En Estación espacial (ISS), el operador actúa sobre paneles solares o distribución eléctrica, observa la respuesta en soporte vital y confirma el efecto en módulos y tripulación. Una indicación inesperada exige detener la secuencia mental, identificar el modo activo y evitar una segunda orden que agrave el estado.
+
+```mermaid
+flowchart LR
+    I["intención"] --> M["mando sobre paneles solares o distribución eléctrica"]
+    M --> R["respuesta de soporte vital"] --> E["efecto en módulos y tripulación"]
+    E --> V["verificar indicación"] --> I
+```
+
+Esta clase se conecta con el resto del curso mediante **equilibrio continuo de energía, atmósfera, calor y orientación orbital**. El hilo de
+seguridad consiste en reconocer a tiempo **degradación de soporte vital o energía por priorización tardía** y poder justificar la decisión
+**aislar la falla y priorizar cargas esenciales antes de recuperar la misión**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **paneles solares → distribución eléctrica → soporte vital → módulos y tripulación**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [International Space Station](https://www.nasa.gov/reference/international-space-station/) aporta módulos, órbita y soporte vital;
+[Space Law Treaties and Principles](https://www.unoosa.org/oosa/SpaceLaw/treaties.html) se usa para derecho espacial internacional. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Intención:** formula qué cambio se necesita durante **pérdida parcial de generación durante una actividad planificada**.
+2. **Mando:** identifica el control que actúa sobre **paneles solares** o **distribución eléctrica** y el modo que debe estar activo.
+3. **Lectura:** localiza la indicación que confirma la respuesta de **soporte vital** y el efecto en **módulos y tripulación**.
+4. **Verificación:** si la lectura no coincide, no acumules órdenes; estabiliza e investiga el estado.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mando inicia la respuesta y qué instrumento confirma que el modo correcto está activo?
+2. ¿Qué indicación temprana advertiría **degradación de soporte vital o energía por priorización tardía**?
+3. ¿Qué secuencia usarías si la respuesta de **módulos y tripulación** no coincide con la orden?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

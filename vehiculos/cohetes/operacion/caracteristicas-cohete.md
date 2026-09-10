@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: COHETES-02
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características funcionales del cohete
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Cohetes](../README.md) · 📋 Características
 
 Que es un cohete lanzador, que tipos existen y para que sirve cada uno. Este
-módulo da el contexto antes de abrir los sistemas del cohete (Módulo 4).
+módulo da el contexto antes de abrir los sistemas del cohete (Clase 4).
 
 ---
 
@@ -84,6 +84,48 @@ flowchart TD
 - Enviar sondas a la Luna, planetas y cuerpos menores.
 - Realizar vuelos suborbitales de ciencia con cohetes sonda.
 - Educación y simulación de la fase de lanzamiento y ascenso.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Tipos de cohete y Para qué se usa** a **elegir una configuración adecuada para ascenso educativo con cambio de etapa y viento en altura**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Cohetes, la relación entre propelentes, cámara, tobera y empuje y trayectoria determina capacidad, respuesta y límites. Por eso «cohete de combustible líquido frente a sólido» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «inestabilidad, desviación o cargas excesivas durante máxima presión dinámica».
+
+Esta clase se conecta con el resto del curso mediante **la aceleración depende de empuje menos peso y resistencia, mientras la masa disminuye**. El hilo de
+seguridad consiste en reconocer a tiempo **inestabilidad, desviación o cargas excesivas durante máxima presión dinámica** y poder justificar la decisión
+**evaluar trayectoria, estabilidad y condiciones de aborto antes del lanzamiento**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **propelentes → cámara → tobera → empuje y trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Rockets Educator Guide](https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf) aporta propulsión, estabilidad y trayectoria;
+[Space Law Treaties and Principles](https://www.unoosa.org/oosa/SpaceLaw/treaties.html) se usa para derecho espacial internacional. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «ascenso educativo con cambio de etapa y viento en altura» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **cohete de combustible líquido frente a sólido** usando esos requisitos y la cadena **propelentes → cámara → tobera → empuje y trayectoria**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **inestabilidad, desviación o cargas excesivas durante máxima presión dinámica**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **empuje y trayectoria** condiciona primero el caso «ascenso educativo con cambio de etapa y viento en altura»?
+2. ¿Qué requisito descartaría una de las alternativas **cohete de combustible líquido frente a sólido**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

@@ -9,6 +9,7 @@ vigentes del fabricante u operador prevalecen siempre en una formación real.
 | ID | Fuente | Institución | Uso en el curso | Estado |
 | --- | --- | --- | --- | --- |
 | `STARTREK-DATABASE` | [Star Trek Database](https://www.startrek.com/database) | Paramount | canon narrativo y tecnologías de ficción | Verificada 2026-09-10 |
+| `IBM-QUANTUM-TELEPORT` | [Quantum Teleportation](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation) | IBM Quantum Learning | información cuántica, entrelazamiento y teorema de no clonación | Verificada 2026-09-10 |
 | `NASA-FLIGHT` | [Beginner's Guide to Aeronautics](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/) | NASA | contraste con física y vuelo reales | Verificada 2026-09-10 |
 
 ## Criterio de uso

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: DRONES-02
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características funcionales del dron
 
 [🏠 Inicio](../../../README.md) · [🕹️ Curso: Drones](../README.md) · 📋 Características
 
-Que es un dron, que tipos existen y para que sirve cada uno. Este módulo da el
-contexto antes de abrir la mecánica (Módulo 4).
+Que es un dron, que tipos existen y para que sirve cada uno. Esta clase da el
+contexto antes de abrir la mecánica (Clase 4).
 
 ---
 
@@ -91,6 +91,48 @@ de este curso.
 - **Mapeo**: fotogrametría y modelos 3D del terreno.
 - **Reparto**: entrega de paquetes ligeros en pruebas y rutas cortas.
 - **Rescate**: búsqueda de personas y evaluación de zonas de riesgo.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Tipos de dron y Para qué se usa** a **elegir una configuración adecuada para inspección próxima a una estructura con viento y señal GNSS degradada**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Drones, la relación entre batería, controladores, motores y hélices y actitud y trayectoria determina capacidad, respuesta y límites. Por eso «multirrotor frente a ala fija» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «pérdida de enlace, deriva, impacto o invasión de espacio no autorizado».
+
+Esta clase se conecta con el resto del curso mediante **el controlador estabiliza actitud, pero autonomía, enlace y entorno limitan la misión**. El hilo de
+seguridad consiste en reconocer a tiempo **pérdida de enlace, deriva, impacto o invasión de espacio no autorizado** y poder justificar la decisión
+**definir límites de viento, batería, enlace, geocerca y retorno antes de despegar**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **batería → controladores → motores y hélices → actitud y trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Unmanned Aircraft Systems](https://www.faa.gov/uas) aporta operación y normativa RPAS;
+[Normativa aeronáutica](https://www.dgac.gob.cl/normativa/) se usa para marco aeronáutico chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «inspección próxima a una estructura con viento y señal GNSS degradada» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **multirrotor frente a ala fija** usando esos requisitos y la cadena **batería → controladores → motores y hélices → actitud y trayectoria**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **pérdida de enlace, deriva, impacto o invasión de espacio no autorizado**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **actitud y trayectoria** condiciona primero el caso «inspección próxima a una estructura con viento y señal GNSS degradada»?
+2. ¿Qué requisito descartaría una de las alternativas **multirrotor frente a ala fija**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

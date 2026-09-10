@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 10
 codigo: TRACTORES-10
@@ -16,7 +16,7 @@ evidencia: "Glosario aplicado y ficha breve de trazabilidad."
 criterio_aprobacion: "Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧰 Recursos del tractor
 
@@ -66,6 +66,48 @@ flowchart LR
 
 Registrar cada recurso nuevo con su origen y licencia, siguiendo
 [`recursos/README.md`](../../../recursos/README.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Glosario específico, Diagrama de estabilidad en pendiente, Enlaces y fuentes y Guía de estudio aplicada** a **explicar con fuentes los términos motor, transmisión, toma de fuerza y apero**?
+
+### Explicación razonada
+
+El vocabulario técnico organiza relaciones: motor, transmisión, toma de fuerza y apero nombran partes distintas de una misma cadena funcional. Una fuente se usa para sostener una afirmación concreta —principio, límite, procedimiento o contexto— y debe distinguirse del manual particular de un fabricante o de una regla narrativa.
+
+Esta clase se conecta con el resto del curso mediante **tracción a baja velocidad, transferencia de peso y estabilidad frente al vuelco**. El hilo de
+seguridad consiste en reconocer a tiempo **vuelco lateral, atrapamiento en la toma de fuerza o pérdida de dirección** y poder justificar la decisión
+**bajar el implemento, reducir velocidad y escoger una trayectoria compatible**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → toma de fuerza → apero**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Agricultural Operations: Hazards and Controls](https://www.osha.gov/agricultural-operations/hazards) aporta tractores, aperos y riesgos agrícolas;
+[Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) se usa para marco legal chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir en contexto:** explica **motor**, **transmisión**, **toma de fuerza** y **apero** por su función y relación.
+2. **Respaldar:** enlaza cada afirmación importante con una fuente identificable y declara su alcance.
+3. **Contrastar:** separa principios generales, requisitos locales, manual de fabricante y —si aplica— canon ficticio.
+4. **Reformular:** convierte una definición copiada en una explicación propia con un ejemplo de **Tractores**.
+
+### Comprueba tu comprensión
+
+1. Explica la diferencia funcional entre **transmisión** y **toma de fuerza** sin copiar una definición.
+2. ¿Qué fuente respalda el principio «tracción a baja velocidad, transferencia de peso y estabilidad frente al vuelco» y cuál es su alcance?
+3. ¿Qué dato exigiría un manual de fabricante en vez de una fuente general?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: TRACTORES-04
@@ -16,16 +16,16 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del tractor
 
 [🏠 Inicio](../../../README.md) · [🚜 Curso: Tractores](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre el tractor por dentro y es el corazón del curso. Explica cada
+Esta clase abre el tractor por dentro y es el corazón del curso. Explica cada
 sistema, como funciona y cómo se conecta con los demás, con foco en la toma de
 fuerza, el enganche de tres puntos, la hidráulica y la estabilidad. Es la base
-técnica para entender los mandos (Módulo 5) y la física del trabajo (Módulo 6).
+técnica para entender los mandos (Clase 5) y la física del trabajo (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -215,8 +215,57 @@ labor y cómo se transmite la fuerza.
 5. El **enganche** sube, baja y controla la profundidad del apero montado.
 6. El **lastre** y la conducción prudente mantienen la estabilidad en pendiente.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-tractor.md)
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-tractor.md)
 muestra como el operador acciona cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Motor diesel, Toma de fuerza (PTO), Enganche de tres puntos e hidráulica y Transmisión y tracción** a **seguir una alteración desde motor hasta apero durante trabajo transversal en pendiente con un implemento elevado**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: motor entrega o transforma energía; transmisión la adapta; toma de fuerza la transmite o gobierna; y apero produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de apero y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["motor"] --> B["transmisión"] --> C["toma de fuerza"] --> D["apero"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **tracción a baja velocidad, transferencia de peso y estabilidad frente al vuelco**. El hilo de
+seguridad consiste en reconocer a tiempo **vuelco lateral, atrapamiento en la toma de fuerza o pérdida de dirección** y poder justificar la decisión
+**bajar el implemento, reducir velocidad y escoger una trayectoria compatible**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → toma de fuerza → apero**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Agricultural Operations: Hazards and Controls](https://www.osha.gov/agricultural-operations/hazards) aporta tractores, aperos y riesgos agrícolas;
+[Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) se usa para marco legal chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **motor** durante **trabajo transversal en pendiente con un implemento elevado**.
+2. **Transformación:** explica qué hacen **transmisión** y **toma de fuerza**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **apero** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **vuelco lateral, atrapamiento en la toma de fuerza o pérdida de dirección**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **transmisión**, ¿qué efecto esperarías primero en **toma de fuerza** y después en **apero**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **motor** de una falla de **toma de fuerza**?
+3. ¿Por qué una segunda orden podría agravar **vuelco lateral, atrapamiento en la toma de fuerza o pérdida de dirección**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

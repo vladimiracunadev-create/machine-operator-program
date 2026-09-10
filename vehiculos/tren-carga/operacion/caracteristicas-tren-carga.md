@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: TRENCARGA-02
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características funcionales del tren de carga
 
 [🏠 Inicio](../../../README.md) · [🚂 Curso: Tren de carga](../README.md) · 📋 Características
 
 Que es un tren de carga, que tipos de vagón existen y para que sirve cada
-composición. Este módulo da el contexto antes de abrir la mecánica (Módulo 4).
+composición. Esta clase da el contexto antes de abrir la mecánica (Clase 4).
 
 ---
 
@@ -84,6 +84,48 @@ flowchart TD
 - Transporte de líquidos y graneles en cisterna.
 - Carga forestal e industrial en ramales.
 - Corredores de larga distancia con gran tonelaje.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Tipos de vagón y composición y Para qué se usa** a **elegir una configuración adecuada para arranque de un tren largo en rampa con holguras entre enganches**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Tren de carga, la relación entre locomotora, generador y tracción, enganches y rueda-carril determina capacidad, respuesta y límites. Por eso «carga unitaria frente a carga mixta» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «rotura de enganche, patinaje o compresión excesiva del convoy».
+
+Esta clase se conecta con el resto del curso mediante **fuerzas longitudinales del tren y propagación del freno neumático**. El hilo de
+seguridad consiste en reconocer a tiempo **rotura de enganche, patinaje o compresión excesiva del convoy** y poder justificar la decisión
+**aplicar potencia y freno de modo gradual considerando la longitud completa**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **locomotora → generador y tracción → enganches → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «arranque de un tren largo en rampa con holguras entre enganches» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **carga unitaria frente a carga mixta** usando esos requisitos y la cadena **locomotora → generador y tracción → enganches → rueda-carril**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **rotura de enganche, patinaje o compresión excesiva del convoy**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **rueda-carril** condiciona primero el caso «arranque de un tren largo en rampa con holguras entre enganches»?
+2. ¿Qué requisito descartaría una de las alternativas **carga unitaria frente a carga mixta**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

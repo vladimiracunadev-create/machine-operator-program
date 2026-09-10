@@ -17,6 +17,7 @@ flowchart TD
     C --> L[11 clases especializadas]
     L --> R[Resultado observable]
     L --> A[Actividad razonada]
+    L --> G[Guía y caso resuelto]
     L --> E[Evidencia y criterio]
     L --> S[Fuentes trazables]
     C --> X[Revisión experta futura]
@@ -58,6 +59,16 @@ sea realmente específica debe conservar, como mínimo:
 
 Compartir formato permite revisar calidad. Compartir párrafos o sustituir el
 nombre de una máquina en una plantilla no constituye especialización.
+
+Los metadatos técnicos se guardan en un comentario HTML al inicio del archivo:
+son legibles para el validador, pero no se renderizan como contenido. La lección
+visible debe desarrollar materia. Su guía aplicada recorre cinco preguntas:
+
+1. ¿Qué debe comprender el estudiante?
+2. ¿Qué mecanismo causal explica el comportamiento?
+3. ¿Cómo se usa ese mecanismo en un caso propio de la máquina?
+4. ¿Qué señal permite anticipar el riesgo?
+5. ¿Cómo se comprueba que la decisión fue correcta?
 
 ## Evaluación
 

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 1
 codigo: PORTAVIONES-01
@@ -16,7 +16,7 @@ evidencia: "Línea de tiempo comentada con cuatro hitos o más."
 criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📜 Historia del portaviones
 
@@ -37,7 +37,7 @@ timeline
 
 El portaviones nace cuando se logra operar aeronaves desde un buque. Los primeros
 despegues y aterrizajes sobre cubiertas dieron paso a buques con cubierta corrida
-disenados para ese fin. Este módulo trata solo la evolución **histórica y
+disenados para ese fin. Esta clase trata solo la evolución **histórica y
 pública** del tipo de buque.
 
 ## Línea de tiempo
@@ -75,10 +75,47 @@ El portaviones impulso enormes avances en aviación, ingeniería naval y logíst
 Hoy varios se conservan como buques museo, con gran valor educativo sobre la
 historia de la aviación naval.
 
-## Fuentes
+## 🧭 Guía de estudio aplicada
 
-- Registrar aquí las fuentes públicas consultadas.
-- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+### Pregunta guía
+
+¿Cómo ayuda **Origen, Línea de tiempo, Evolución tecnológica y Tipos representativos** a **explicar cómo la evolución hizo posibles alternativas como portaaviones CATOBAR frente a STOVL**?
+
+### Explicación razonada
+
+La evolución de Portaviones se comprende mejor como una sucesión de respuestas a problemas, no como una lista de fechas. Los cambios en planta propulsora, generación y catapulta, cubierta de vuelo y aeronave alteraron qué podía hacer la máquina, quién podía usarla y qué riesgos debían controlarse. El contraste «portaaviones CATOBAR frente a STOVL» permite observar qué decisiones de diseño permanecieron y cuáles cambiaron con la tecnología y el propósito.
+
+Esta clase se conecta con el resto del curso mediante **integración de viento relativo, movimiento del buque y secuencia segura de cubierta**. El hilo de
+seguridad consiste en reconocer a tiempo **conflicto de trayectorias, objetos extraños o envolvente de viento inadecuada** y poder justificar la decisión
+**ordenar cubierta, rumbo y velocidad antes de iniciar la recuperación**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **planta propulsora → generación y catapulta → cubierta de vuelo → aeronave**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ships](https://www.history.navy.mil/browse-by-topic/ships.html) aporta historia pública de buques militares;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Situar:** ordena los hitos que explican cómo se llegó a **portaaviones CATOBAR frente a STOVL** y describe la necesidad que impulsó cada cambio.
+2. **Relacionar:** explica qué se modificó en **planta propulsora**, **generación y catapulta**, **cubierta de vuelo** o **aeronave**; una fecha sin mecanismo no basta.
+3. **Interpretar:** vincula el cambio con una capacidad nueva y también con el riesgo **conflicto de trayectorias, objetos extraños o envolvente de viento inadecuada**.
+4. **Transferir:** usa la evolución para justificar por qué hoy conviene **ordenar cubierta, rumbo y velocidad antes de iniciar la recuperación**.
+
+### Comprueba tu comprensión
+
+1. ¿Qué necesidad histórica impulsó un cambio en **planta propulsora** o **generación y catapulta**?
+2. ¿Qué hito modificó la relación entre capacidad y **conflicto de trayectorias, objetos extraños o envolvente de viento inadecuada**?
+3. ¿Por qué **portaaviones CATOBAR frente a STOVL** no puede explicarse como una simple diferencia estética?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

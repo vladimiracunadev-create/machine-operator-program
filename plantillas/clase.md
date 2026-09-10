@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 0
 codigo: CURSO-00
@@ -16,7 +16,7 @@ evidencia: Producto o desempeño que entregará el estudiante.
 criterio_aprobacion: Condición observable para aceptar la evidencia.
 fuentes: manuales/fuentes.md
 ultima_revision: AAAA-MM-DD
----
+-->
 
 # Título de la clase
 
@@ -33,6 +33,25 @@ cuando existan tres o más componentes, estados o relaciones dependientes.
 ## Ejemplo razonado
 
 Desarrolla un caso propio de la máquina y explica cada decisión.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+Formula una pregunta que conecte el contenido con una decisión propia de la máquina.
+
+### Explicación razonada
+
+Explica la cadena sistema → variable → consecuencia → decisión y cita la fuente
+que sostiene el principio o límite utilizado.
+
+### Caso resuelto: de la observación a la decisión
+
+Resuelve el caso paso a paso: observar, explicar, anticipar y decidir.
+
+### Comprueba tu comprensión
+
+Incluye preguntas que exijan interpretar señales y justificar consecuencias.
 
 ## 🎓 Cierre de clase
 

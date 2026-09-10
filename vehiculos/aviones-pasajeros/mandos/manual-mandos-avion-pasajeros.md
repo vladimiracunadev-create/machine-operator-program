@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 5
 codigo: AVIONESPASAJ-05
@@ -16,7 +16,7 @@ evidencia: "Mapa de mandos y resolución de dos estados del tablero."
 criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎛️ Mandos e instrumentos del avión de pasajeros
 
@@ -89,6 +89,55 @@ de gestión de vuelo, y la operación se conduce con listas de verificación.
 - El panel superior debe mostrar el estado de cada sistema de forma legible.
 - La simulación debería guiar el uso de listas de verificación en cada fase.
 - Las alertas (pérdida, TCAS, GPWS) deben ser claras y priorizadas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Vista general, Mapa de controles, Instrumentos de vuelo y Entradas de simulación** a **interpretar mandos e indicaciones durante aproximación con cambio tardío de viento y una alerta de configuración**?
+
+### Explicación razonada
+
+Un mando no se aprende memorizando su nombre, sino recorriendo el ciclo intención → acción → indicación → verificación. En Aviones de pasajeros, el operador actúa sobre motor o empuje, observa la respuesta en flujo de aire y confirma el efecto en alas y controles. Una indicación inesperada exige detener la secuencia mental, identificar el modo activo y evitar una segunda orden que agrave el estado.
+
+```mermaid
+flowchart LR
+    I["intención"] --> M["mando sobre motor o empuje"]
+    M --> R["respuesta de flujo de aire"] --> E["efecto en alas y controles"]
+    E --> V["verificar indicación"] --> I
+```
+
+Esta clase se conecta con el resto del curso mediante **gestión de energía vertical y horizontal mediante actitud, empuje y configuración**. El hilo de
+seguridad consiste en reconocer a tiempo **continuar una aproximación inestable o automatizar sin comprender el modo activo** y poder justificar la decisión
+**confirmar modo, energía y configuración; frustrar si la estabilidad no se recupera**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → empuje → flujo de aire → alas y controles**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) aporta aerodinámica, sistemas y operación;
+[Normativa aeronáutica](https://www.dgac.gob.cl/normativa/) se usa para marco aeronáutico chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Intención:** formula qué cambio se necesita durante **aproximación con cambio tardío de viento y una alerta de configuración**.
+2. **Mando:** identifica el control que actúa sobre **motor** o **empuje** y el modo que debe estar activo.
+3. **Lectura:** localiza la indicación que confirma la respuesta de **flujo de aire** y el efecto en **alas y controles**.
+4. **Verificación:** si la lectura no coincide, no acumules órdenes; estabiliza e investiga el estado.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mando inicia la respuesta y qué instrumento confirma que el modo correcto está activo?
+2. ¿Qué indicación temprana advertiría **continuar una aproximación inestable o automatizar sin comprender el modo activo**?
+3. ¿Qué secuencia usarías si la respuesta de **alas y controles** no coincide con la orden?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

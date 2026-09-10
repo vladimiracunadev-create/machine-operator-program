@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: BARCOSMERCAN-04
@@ -16,15 +16,15 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del barco mercante
 
 [🏠 Inicio](../../../README.md) · [🚢 Curso: Barcos mercantes](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre el buque por dentro. Explica cada sistema, como funciona y como
-se conecta con los demás. Es la base técnica para entender los mandos (Módulo 5)
-y la física de la navegación (Módulo 6).
+Esta clase abre el buque por dentro. Explica cada sistema, como funciona y como
+se conecta con los demás. Es la base técnica para entender los mandos (Clase 5)
+y la física de la navegación (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -160,8 +160,57 @@ cargar afecta directamente la estabilidad.
 6. Los **sistemas auxiliares** dan energía y seguridad.
 
 Con esto entendido, el
-[Módulo 5: Mandos](../mandos/manual-mandos-barco-mercante.md) muestra cómo la
+[Clase 5: Mandos](../mandos/manual-mandos-barco-mercante.md) muestra cómo la
 tripulación opera cada uno de estos sistemas desde el puente.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Casco, Propulsión, Gobierno y timón y Carga, estiba y estabilidad** a **seguir una alteración desde motor principal hasta casco y timón durante entrada a canal angosto con corriente transversal y tráfico**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: motor principal entrega o transforma energía; eje la adapta; hélice la transmite o gobierna; y casco y timón produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de casco y timón y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["motor principal"] --> B["eje"] --> C["hélice"] --> D["casco y timón"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **inercia hidrodinámica: una orden de máquina o timón tarda en cambiar la trayectoria**. El hilo de
+seguridad consiste en reconocer a tiempo **abordaje o varada por decidir con referencias tardías** y poder justificar la decisión
+**planificar derrota, velocidad y punto de maniobra con margen suficiente**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor principal → eje → hélice → casco y timón**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) aporta navegación, SOLAS, COLREG y STCW;
+[Collision Regulations](https://www.imo.org/en/about/conventions/pages/colreg.aspx) se usa para prevención de abordajes. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **motor principal** durante **entrada a canal angosto con corriente transversal y tráfico**.
+2. **Transformación:** explica qué hacen **eje** y **hélice**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **casco y timón** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **abordaje o varada por decidir con referencias tardías**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **eje**, ¿qué efecto esperarías primero en **hélice** y después en **casco y timón**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **motor principal** de una falla de **hélice**?
+3. ¿Por qué una segunda orden podría agravar **abordaje o varada por decidir con referencias tardías**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

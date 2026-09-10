@@ -23,6 +23,8 @@ import re
 import sys
 from pathlib import Path
 
+from perfiles_pedagogicos import PERFILES
+
 RAIZ = Path(__file__).resolve().parent.parent
 
 # Vehiculos esperados y secciones comunes por vehiculo.
@@ -199,12 +201,19 @@ def seccion_tiene_contenido(seccion: Path) -> bool:
 
 def leer_front_matter(ruta: Path) -> tuple[dict[str, str], str]:
     texto = ruta.read_text(encoding="utf-8", errors="replace")
-    if not texto.startswith("---\n"):
+    if texto.startswith("<!-- clase-meta\n"):
+        inicio = len("<!-- clase-meta\n")
+        fin = texto.find("\n-->\n", inicio)
+        separador = 5
+    elif texto.startswith("---\n"):
+        inicio = 4
+        fin = texto.find("\n---\n", inicio)
+        separador = 5
+    else:
         return {}, texto
-    fin = texto.find("\n---\n", 4)
     if fin == -1:
         return {}, texto
-    cabecera = texto[4:fin]
+    cabecera = texto[inicio:fin]
     campos: dict[str, str] = {}
     resultados = 0
     for linea in cabecera.splitlines():
@@ -214,13 +223,23 @@ def leer_front_matter(ruta: Path) -> tuple[dict[str, str], str]:
             clave, valor = linea.split(":", 1)
             campos[clave.strip()] = valor.strip()
     campos["_resultados"] = str(resultados)
-    return campos, texto[fin + 5:]
+    return campos, texto[fin + separador:]
 
 
-def validar_clases(base: Path, curso: str, errores: list[str], codigos: set[str]) -> tuple[int, int]:
+def validar_clases(
+    base: Path,
+    curso: str,
+    errores: list[str],
+    codigos: set[str],
+    preguntas: set[str],
+) -> tuple[int, int]:
     total = 0
     minutos = 0
     numeros: set[int] = set()
+    perfil = PERFILES.get(curso)
+    if perfil is None:
+        errores.append(f"Falta perfil pedagógico específico para {curso}")
+        return total, minutos
     for esperado, patron in enumerate(PATRONES_CLASE, 1):
         rutas = list(base.glob(patron))
         if len(rutas) != 1:
@@ -259,6 +278,29 @@ def validar_clases(base: Path, curso: str, errores: list[str], codigos: set[str]
         codigos.add(codigo)
         if int(campos["_resultados"]) < 2:
             errores.append(f"Faltan dos resultados de aprendizaje en {ruta.relative_to(RAIZ).as_posix()}")
+        if ruta.read_text(encoding="utf-8", errors="replace").startswith("---\n"):
+            errores.append(f"Los metadatos se muestran al lector en {ruta.relative_to(RAIZ).as_posix()}")
+        apartados_pedagogicos = (
+            "## 🧭 Guía de estudio aplicada",
+            "### Pregunta guía",
+            "### Explicación razonada",
+            "### Caso resuelto: de la observación a la decisión",
+            "### Comprueba tu comprensión",
+        )
+        for apartado in apartados_pedagogicos:
+            if apartado not in texto:
+                errores.append(f"Falta '{apartado}' en {ruta.relative_to(RAIZ).as_posix()}")
+        pregunta = re.search(r"### Pregunta guía\n\n(.+)", texto)
+        if pregunta:
+            if pregunta.group(1) in preguntas:
+                errores.append(f"Pregunta guía repetida en {ruta.relative_to(RAIZ).as_posix()}")
+            preguntas.add(pregunta.group(1))
+        fundamentos = (perfil.principio, perfil.riesgo, perfil.decision)
+        cadena_presente = sum(componente in texto for componente in perfil.cadena)
+        if any(huella not in texto for huella in fundamentos) or cadena_presente < 2:
+            errores.append(
+                f"La guía no desarrolla el perfil propio de {curso} en {ruta.relative_to(RAIZ).as_posix()}"
+            )
         if "## 🎓 Cierre de clase" not in texto or "### Fuentes de esta clase" not in texto:
             errores.append(f"Falta cierre pedagógico o fuentes en {ruta.relative_to(RAIZ).as_posix()}")
         else:
@@ -279,6 +321,7 @@ def validar_estructura(errores: list[str]) -> tuple[int, int]:
     total_clases = 0
     total_minutos = 0
     codigos: set[str] = set()
+    preguntas: set[str] = set()
     for seccion in SECCIONES_GENERALES:
         if not (RAIZ / seccion).is_dir():
             errores.append(f"Falta la carpeta general: {seccion}/")
@@ -314,7 +357,7 @@ def validar_estructura(errores: list[str]) -> tuple[int, int]:
                     errores.append(
                         f"Seccion vacia: {raiz_rel}/{vehiculo}/{seccion}/"
                     )
-            clases, minutos = validar_clases(base, vehiculo, errores, codigos)
+            clases, minutos = validar_clases(base, vehiculo, errores, codigos, preguntas)
             total_clases += clases
             total_minutos += minutos
     return total_clases, total_minutos

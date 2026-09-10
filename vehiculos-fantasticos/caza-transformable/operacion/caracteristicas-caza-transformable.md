@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: CAZATRANSFOR-02
@@ -16,7 +16,7 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características del caza transformable
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo describe que es un caza transformable y presenta sus tres modos. La
+Esta clase describe que es un caza transformable y presenta sus tres modos. La
 idea clave es que una misma máquina adopta formas muy distintas según lo que
 necesite: cruzar el cielo a gran velocidad o moverse y manipular objetos en el
 suelo.
@@ -86,6 +86,48 @@ suelo o en contacto con estructuras.
 La gracia del concepto es no tener que elegir de forma permanente: la máquina se
 adapta a cada situación. El costo de esa flexibilidad, como veremos en el módulo
 de sistemas, es enorme en peso, mecanismos y estructura.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Los tres modos, Comparación de los modos, Para qué sirve cada modo y Guía de estudio aplicada** a **elegir una configuración adecuada para transición simulada de vuelo a modo robot durante una misión**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Caza transformable, la relación entre fuente de energía ficticia, actuadores de transformación, propulsión y configuración de vuelo o robot determina capacidad, respuesta y límites. Por eso «modo caza frente a modo robot» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «ocultar discontinuidades físicas bajo una animación sin reglas de estado».
+
+Esta clase se conecta con el resto del curso mediante **cambiar de configuración altera masa aparente, control, resistencia y función narrativa**. El hilo de
+seguridad consiste en reconocer a tiempo **ocultar discontinuidades físicas bajo una animación sin reglas de estado** y poder justificar la decisión
+**definir condiciones, costos y límites de cada transición antes de simularla**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía ficticia → actuadores de transformación → propulsión → configuración de vuelo o robot**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Robotech](https://robotech.com/) aporta referencia oficial del universo ficticio;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «transición simulada de vuelo a modo robot durante una misión» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **modo caza frente a modo robot** usando esos requisitos y la cadena **fuente de energía ficticia → actuadores de transformación → propulsión → configuración de vuelo o robot**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **ocultar discontinuidades físicas bajo una animación sin reglas de estado**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **configuración de vuelo o robot** condiciona primero el caso «transición simulada de vuelo a modo robot durante una misión»?
+2. ¿Qué requisito descartaría una de las alternativas **modo caza frente a modo robot**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

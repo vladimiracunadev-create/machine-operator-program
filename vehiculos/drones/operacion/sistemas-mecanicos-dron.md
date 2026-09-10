@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: DRONES-04
@@ -16,15 +16,15 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del dron
 
 [🏠 Inicio](../../../README.md) · [🕹️ Curso: Drones](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre el dron por dentro. Explica cada sistema, como funciona y como
-se conecta con los demás. Es la base técnica para entender los mandos (Módulo 5)
-y la física del vuelo (Módulo 6). El foco es el multirotor, el tipo más común.
+Esta clase abre el dron por dentro. Explica cada sistema, como funciona y como
+se conecta con los demás. Es la base técnica para entender los mandos (Clase 5)
+y la física del vuelo (Clase 6). El foco es el multirotor, el tipo más común.
 
 ```mermaid
 flowchart LR
@@ -241,8 +241,57 @@ El **retorno a casa (RTH)** depende del GPS: guarda el punto de despegue como
 5. El **enlace de radio** trae las ordenes y devuelve la **telemetría** y el video.
 6. El **fail-safe** protege el vuelo si falla el enlace o baja la batería.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-dron.md) muestra
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-dron.md) muestra
 como el piloto opera cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Motores brushless y ESC, Hélices y empuje, Control por variación de rpm y Batería LiPo y autonomía** a **seguir una alteración desde batería hasta actitud y trayectoria durante inspección próxima a una estructura con viento y señal GNSS degradada**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: batería entrega o transforma energía; controladores la adapta; motores y hélices la transmite o gobierna; y actitud y trayectoria produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de actitud y trayectoria y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["batería"] --> B["controladores"] --> C["motores y hélices"] --> D["actitud y trayectoria"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **el controlador estabiliza actitud, pero autonomía, enlace y entorno limitan la misión**. El hilo de
+seguridad consiste en reconocer a tiempo **pérdida de enlace, deriva, impacto o invasión de espacio no autorizado** y poder justificar la decisión
+**definir límites de viento, batería, enlace, geocerca y retorno antes de despegar**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **batería → controladores → motores y hélices → actitud y trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Unmanned Aircraft Systems](https://www.faa.gov/uas) aporta operación y normativa RPAS;
+[Normativa aeronáutica](https://www.dgac.gob.cl/normativa/) se usa para marco aeronáutico chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **batería** durante **inspección próxima a una estructura con viento y señal GNSS degradada**.
+2. **Transformación:** explica qué hacen **controladores** y **motores y hélices**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **actitud y trayectoria** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **pérdida de enlace, deriva, impacto o invasión de espacio no autorizado**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **controladores**, ¿qué efecto esperarías primero en **motores y hélices** y después en **actitud y trayectoria**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **batería** de una falla de **motores y hélices**?
+3. ¿Por qué una segunda orden podría agravar **pérdida de enlace, deriva, impacto o invasión de espacio no autorizado**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

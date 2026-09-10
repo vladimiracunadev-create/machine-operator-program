@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 5
 codigo: CAMIONES-05
@@ -16,7 +16,7 @@ evidencia: "Mapa de mandos y resolución de dos estados del tablero."
 criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎛️ Mandos e instrumentos del camión
 
@@ -87,6 +87,55 @@ tablero vigila la presión de aire, algo que en un auto no existe.
 - La cabina alta amplia la visión pero crea puntos ciegos cercanos y laterales.
 - La interfaz de simulación debería impedir circular sin presión mínima de aire y
   advertir del barrido trasero al girar con semirremolque.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Vista general, Mapa de controles, Instrumentos principales y Entradas de simulación** a **interpretar mandos e indicaciones durante descenso de montaña con carga cercana al máximo autorizado**?
+
+### Explicación razonada
+
+Un mando no se aprende memorizando su nombre, sino recorriendo el ciclo intención → acción → indicación → verificación. En Camiones, el operador actúa sobre motor o caja de cambios, observa la respuesta en árbol y diferencial y confirma el efecto en ruedas motrices. Una indicación inesperada exige detener la secuencia mental, identificar el modo activo y evitar una segunda orden que agrave el estado.
+
+```mermaid
+flowchart LR
+    I["intención"] --> M["mando sobre motor o caja de cambios"]
+    M --> R["respuesta de árbol y diferencial"] --> E["efecto en ruedas motrices"]
+    E --> V["verificar indicación"] --> I
+```
+
+Esta clase se conecta con el resto del curso mediante **relación entre masa, pendiente, energía cinética y capacidad térmica de frenado**. El hilo de
+seguridad consiste en reconocer a tiempo **embalamiento, fatiga de frenos o pérdida de estabilidad de la carga** y poder justificar la decisión
+**planificar velocidad y relación de transmisión antes de entrar en la pendiente**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → caja de cambios → árbol y diferencial → ruedas motrices**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Commercial Driver's License Manual](https://www.fmcsa.dot.gov/registration/commercial-drivers-license/cdl-manual) se usa para operación de buses y camiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Intención:** formula qué cambio se necesita durante **descenso de montaña con carga cercana al máximo autorizado**.
+2. **Mando:** identifica el control que actúa sobre **motor** o **caja de cambios** y el modo que debe estar activo.
+3. **Lectura:** localiza la indicación que confirma la respuesta de **árbol y diferencial** y el efecto en **ruedas motrices**.
+4. **Verificación:** si la lectura no coincide, no acumules órdenes; estabiliza e investiga el estado.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mando inicia la respuesta y qué instrumento confirma que el modo correcto está activo?
+2. ¿Qué indicación temprana advertiría **embalamiento, fatiga de frenos o pérdida de estabilidad de la carga**?
+3. ¿Qué secuencia usarías si la respuesta de **ruedas motrices** no coincide con la orden?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

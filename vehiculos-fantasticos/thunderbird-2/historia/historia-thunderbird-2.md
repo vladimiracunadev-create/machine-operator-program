@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 1
 codigo: THUNDERBIRD2-01
@@ -16,7 +16,7 @@ evidencia: "Línea de tiempo comentada con cuatro hitos o más."
 criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📜 Historia del Thunderbird 2
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo situa la idea del transporte pesado modular dentro de la ciencia
+Esta clase situa la idea del transporte pesado modular dentro de la ciencia
 ficción y la compara con la historia real del transporte de carga. No describe
 una nave oficial: analiza el concepto genérico de "vehículo de carga modular"
 que evoca el estilo "Thunderbirds" y lo contrasta con lo que la ingeniería
@@ -84,6 +84,48 @@ decisión artística legítima que este curso respeta y analiza.
 
 - Registrar aquí las fuentes públicas de divulgación consultadas.
 - Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **De donde viene la idea, Lo real frente a lo imaginado, Por qué la ficción eligió el vehículo modular y Que aprenderemos de todo esto** a **explicar cómo la evolución hizo posibles alternativas como configuración vacía frente a módulo pesado**?
+
+### Explicación razonada
+
+La evolución de Thunderbird 2 se comprende mejor como una sucesión de respuestas a problemas, no como una lista de fechas. Los cambios en energía ficticia, sustentación y propulsión, bahía modular y carga de rescate alteraron qué podía hacer la máquina, quién podía usarla y qué riesgos debían controlarse. El contraste «configuración vacía frente a módulo pesado» permite observar qué decisiones de diseño permanecieron y cuáles cambiaron con la tecnología y el propósito.
+
+Esta clase se conecta con el resto del curso mediante **la carga modular cambia masa, centro de gravedad, potencia y misión**. El hilo de
+seguridad consiste en reconocer a tiempo **ignorar cómo la carga modifica control, autonomía y zona de operación** y poder justificar la decisión
+**recalcular margen y seleccionar zona antes de comprometer el aterrizaje**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → sustentación y propulsión → bahía modular → carga de rescate**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Thunderbirds Vehicles](https://www.thunderbirds.com/) aporta referencia oficial de vehículos de rescate;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Situar:** ordena los hitos que explican cómo se llegó a **configuración vacía frente a módulo pesado** y describe la necesidad que impulsó cada cambio.
+2. **Relacionar:** explica qué se modificó en **energía ficticia**, **sustentación y propulsión**, **bahía modular** o **carga de rescate**; una fecha sin mecanismo no basta.
+3. **Interpretar:** vincula el cambio con una capacidad nueva y también con el riesgo **ignorar cómo la carga modifica control, autonomía y zona de operación**.
+4. **Transferir:** usa la evolución para justificar por qué hoy conviene **recalcular margen y seleccionar zona antes de comprometer el aterrizaje**.
+
+### Comprueba tu comprensión
+
+1. ¿Qué necesidad histórica impulsó un cambio en **energía ficticia** o **sustentación y propulsión**?
+2. ¿Qué hito modificó la relación entre capacidad y **ignorar cómo la carga modifica control, autonomía y zona de operación**?
+3. ¿Por qué **configuración vacía frente a módulo pesado** no puede explicarse como una simple diferencia estética?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

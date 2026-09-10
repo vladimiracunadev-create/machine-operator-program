@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: BUSES-04
@@ -16,16 +16,16 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del bus
 
 [🏠 Inicio](../../../README.md) · [🚌 Curso: Buses](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre el bus por dentro. Explica cada sistema, como funciona y como
+Esta clase abre el bus por dentro. Explica cada sistema, como funciona y como
 se conecta con los demás, con foco en el sistema neumático, los frenos y las
-puertas. Es la base técnica para entender los mandos (Módulo 5) y la operación
-con pasajeros (Módulo 6).
+puertas. Es la base técnica para entender los mandos (Clase 5) y la operación
+con pasajeros (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -255,8 +255,57 @@ apoyo.
 6. El **retardador** y el **freno motor** ayudan a frenar la gran masa.
 7. La **dirección asistida** permite girar; el conductor vigila el barrido trasero.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-bus.md) muestra
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-bus.md) muestra
 como el conductor opera cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Motor, Transmisión, Dirección y Frenos** a **seguir una alteración desde motor hasta ejes durante descenso prolongado con el vehículo cargado y una parada próxima**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: motor entrega o transforma energía; transmisión la adapta; freno de servicio y retardador la transmite o gobierna; y ejes produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de ejes y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["motor"] --> B["transmisión"] --> C["freno de servicio y retardador"] --> D["ejes"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **gestión de inercia, distancia de detención y transferencia de peso con pasajeros**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas** y poder justificar la decisión
+**seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → freno de servicio y retardador → ejes**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Commercial Driver's License Manual](https://www.fmcsa.dot.gov/registration/commercial-drivers-license/cdl-manual) se usa para operación de buses y camiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **motor** durante **descenso prolongado con el vehículo cargado y una parada próxima**.
+2. **Transformación:** explica qué hacen **transmisión** y **freno de servicio y retardador**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **ejes** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **transmisión**, ¿qué efecto esperarías primero en **freno de servicio y retardador** y después en **ejes**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **motor** de una falla de **freno de servicio y retardador**?
+3. ¿Por qué una segunda orden podría agravar **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

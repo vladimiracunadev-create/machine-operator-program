@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: THUNDERBIRD1-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación de Thunderbird 1
 
@@ -93,6 +93,55 @@ además, soporta esfuerzos distintos al subir en vertical y al volar en crucero.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md)
 para el detalle de cada nivel.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **La condición del vuelo vertical: empuje mayor que el peso, Sustentación por empuje frente a sustentación aerodinámica, Empuje vectorizado: dirigir el chorro para maniobrar y Velocidad frente a autonomía: el compromiso central** a **resolver despliegue de rescate a una pista corta con meteorología cambiante sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: una aeronave de alerta rápida prioriza tiempo de llegada sin abandonar energía ni margen de aterrizaje. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: separar crucero rápido de aproximación estabilizada y mantener alternativa.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["una aeronave de alerta rápida prioriza tiempo de llegada sin abandonar energía ni margen de aterrizaje"]
+    P --> R["riesgo: convertir velocidad narrativa en llegada segura sin plan de aproximación"]
+    R --> D["decisión: separar crucero rápido de aproximación estabilizada y mantener alternativa"]
+```
+
+Esta clase se conecta con el resto del curso mediante **una aeronave de alerta rápida prioriza tiempo de llegada sin abandonar energía ni margen de aterrizaje**. El hilo de
+seguridad consiste en reconocer a tiempo **convertir velocidad narrativa en llegada segura sin plan de aproximación** y poder justificar la decisión
+**separar crucero rápido de aproximación estabilizada y mantener alternativa**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → propulsión → superficies de control → trayectoria de respuesta**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Thunderbirds Vehicles](https://www.thunderbirds.com/) aporta referencia oficial de vehículos de rescate;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **despliegue de rescate a una pista corta con meteorología cambiante**.
+2. **Modelo:** aplica **una aeronave de alerta rápida prioriza tiempo de llegada sin abandonar energía ni margen de aterrizaje** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **convertir velocidad narrativa en llegada segura sin plan de aproximación**.
+4. **Decisión:** ejecuta mentalmente **separar crucero rápido de aproximación estabilizada y mantener alternativa** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «una aeronave de alerta rápida prioriza tiempo de llegada sin abandonar energía ni margen de aterrizaje» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **trayectoria de respuesta**?
+3. ¿Qué evidencia confirmaría que **separar crucero rápido de aproximación estabilizada y mantener alternativa** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

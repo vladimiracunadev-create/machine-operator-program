@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: FORMULA1-04
@@ -16,15 +16,15 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos de la Fórmula 1
 
 [🏠 Inicio](../../../README.md) · [🏎️ Curso: Fórmula 1](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre el monoplaza por dentro. Explica cada sistema, como funciona y
+Esta clase abre el monoplaza por dentro. Explica cada sistema, como funciona y
 como se conecta con los demás. Es la base técnica para entender los mandos
-(Módulo 5) y la física del rendimiento (Módulo 6).
+(Clase 5) y la física del rendimiento (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -182,8 +182,57 @@ Transmite la potencia a las ruedas traseras y adapta fuerza y velocidad.
 6. El **monocasco** y la **suspensión** mantienen la geometría y la seguridad.
 
 Con esto entendido, el
-[Módulo 5: Mandos](../mandos/manual-mandos-formula-1.md) muestra como el piloto
+[Clase 5: Mandos](../mandos/manual-mandos-formula-1.md) muestra como el piloto
 opera cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Unidad de potencia híbrida, Aerodinámica y carga aerodinámica, Neumáticos y Frenos de carbono** a **seguir una alteración desde unidad de potencia hasta neumáticos durante entrada y salida de una curva rápida durante una tanda con neumáticos degradados**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: unidad de potencia entrega o transforma energía; caja secuencial la adapta; diferencial la transmite o gobierna; y neumáticos produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de neumáticos y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["unidad de potencia"] --> B["caja secuencial"] --> C["diferencial"] --> D["neumáticos"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **interacción entre carga aerodinámica, temperatura del neumático y balance del monoplaza**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrepasar el agarre disponible al cambiar el balance con freno, volante o acelerador** y poder justificar la decisión
+**sacrificar velocidad de entrada para conservar estabilidad y tracción de salida**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **unidad de potencia → caja secuencial → diferencial → neumáticos**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Formula 1 Regulations](https://www.fia.com/regulations/formula-1) aporta reglamento, arquitectura y seguridad de Fórmula 1;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **unidad de potencia** durante **entrada y salida de una curva rápida durante una tanda con neumáticos degradados**.
+2. **Transformación:** explica qué hacen **caja secuencial** y **diferencial**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **neumáticos** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **sobrepasar el agarre disponible al cambiar el balance con freno, volante o acelerador**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **caja secuencial**, ¿qué efecto esperarías primero en **diferencial** y después en **neumáticos**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **unidad de potencia** de una falla de **diferencial**?
+3. ¿Por qué una segunda orden podría agravar **sobrepasar el agarre disponible al cambiar el balance con freno, volante o acelerador**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

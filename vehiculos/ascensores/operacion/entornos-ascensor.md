@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 7
 codigo: ASCENSORES-07
@@ -16,7 +16,7 @@ evidencia: "Matriz entorno–cambio–riesgo–respuesta."
 criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🌍 Entornos de trabajo del ascensor
 
@@ -74,7 +74,49 @@ mindmap
 
 Cada edificio es un escenario con su número de pisos, patrón de tráfico y tipo de
 uso. Ver cómo se modela en el
-[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-ascensor.md).
+[Clase 9: Diseño de simulación](../simulacion/diseno-simulador-ascensor.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Entornos principales, Factores del entorno, Traducción a simulación y Guía de estudio aplicada** a **adaptar viaje con carga variable seguido de una orden de parada en piso a tres condiciones ambientales distintas**?
+
+### Explicación razonada
+
+El entorno no es decoración: modifica las fuerzas, la percepción y el tiempo disponible. En el caso «viaje con carga variable seguido de una orden de parada en piso», cambia el comportamiento de cabina y contrapeso y aumenta la probabilidad de movimiento con puertas inseguras, mala nivelación o pérdida de tracción. La respuesta correcta empieza por reconocer qué variable cambió y después adaptar límites, ruta o misión.
+
+Esta clase se conecta con el resto del curso mediante **equilibrio de masas y control de aceleración, velocidad, nivelación y frenado**. El hilo de
+seguridad consiste en reconocer a tiempo **movimiento con puertas inseguras, mala nivelación o pérdida de tracción** y poder justificar la decisión
+**verificar enclavamientos y estado antes de autorizar el movimiento**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → polea tractora → cables → cabina y contrapeso**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [1917.116 Elevators and Escalators](https://www.osha.gov/laws-regs/regulations/standardnumber/1917/1917.116) aporta inspección y riesgos de transporte vertical;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Escenario base:** conserva la misión «viaje con carga variable seguido de una orden de parada en piso» para poder comparar.
+2. **Cambiar una condición:** modifica sucesivamente superficie o medio, visibilidad y perturbación externa.
+3. **Recalcular margen:** explica cómo cada cambio afecta **cabina y contrapeso** y acerca o aleja **movimiento con puertas inseguras, mala nivelación o pérdida de tracción**.
+4. **Adaptar:** cambia límite, ruta, configuración o incluso cancela; no mantengas la misma respuesta por hábito.
+
+### Comprueba tu comprensión
+
+1. ¿Cómo cambiaría **cabina y contrapeso** si empeora la perturbación externa?
+2. ¿Qué condición ambiental acerca más el escenario a **movimiento con puertas inseguras, mala nivelación o pérdida de tracción**?
+3. ¿Cuándo adaptarías la maniobra y cuándo la cancelarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

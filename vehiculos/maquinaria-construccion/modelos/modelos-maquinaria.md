@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: MAQUINARIACO-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes de la maquinaria de construcción
 
 [🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construcción](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-maquinaria.md) ya dijo qué tipos de
-máquina existen y para qué sirve cada uno. Este módulo responde a otra cosa: **no
+El [Clase 2](../operacion/caracteristicas-maquinaria.md) ya dijo qué tipos de
+máquina existen y para qué sirve cada uno. Esta clase responde a otra cosa: **no
 todas se operan igual**, y aquí la diferencia no es de matiz. Cambia qué mandos
 tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -37,10 +37,10 @@ tiene la máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-maquinaria.md) describe un puesto de mando
+El [Clase 5](../mandos/manual-mandos-maquinaria.md) describe un puesto de mando
 con dos joysticks: el izquierdo hace **giro y balancín**, el derecho hace **pluma
 y cucharón**. Y entre las entradas de simulación aparece "Girar superestructura
-(Q / E), rota 360 grados". El [Módulo 9](../simulacion/diseno-simulador-maquinaria.md)
+(Q / E), rota 360 grados". El [Clase 9](../simulacion/diseno-simulador-maquinaria.md)
 expone en coherencia con eso una variable `Giro` con rango `0-360 grados` y una
 variable `Ángulo de balancín` con rango `0..150 grados`. Los tres describen la
 misma máquina: una **excavadora**.
@@ -72,7 +72,7 @@ que no existe.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Excavadora | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Es el caso base del curso. |
+| Excavadora | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Es el caso base del curso. |
 | Cargador frontal | **Desaparecen** el giro de superestructura y el balancín. **Aparece** la dirección para conducir la máquina cargada. | El joystick izquierdo se queda sin sus dos funciones; la traslación deja de ser reposicionamiento y pasa a ser trabajo. |
 | Bulldozer | **Desaparecen** el giro, el balancín y el cucharón. **Aparecen** los mandos de altura, ángulo e inclinación de la hoja, y el escarificador. | El mando derecho deja de cerrar una carga y pasa a fijar una profundidad de corte mientras la máquina avanza. |
 | Retroexcavadora | **Se duplica** el puesto: mandos de pala frontal y mandos de brazo trasero, más los estabilizadores. | Un mismo modelo tiene dos mapas de control que no se usan a la vez. |
@@ -84,11 +84,11 @@ que no existe.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-maquinaria.md):
+[Clase 9](../simulacion/diseno-simulador-maquinaria.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Excavadora | Ninguna: es el caso base. | El del Módulo 5. |
+| Excavadora | Ninguna: es el caso base. | El del Clase 5. |
 | Cargador frontal | `Giro` y `Ángulo de balancín` **se eliminan**. `Traslación` deja de ser reposicionamiento y entra en el cálculo de la carga. `Alcance` queda casi fijo, definido por el brazo del cucharón. | Sin entrada de giro ni de balancín; con dirección. |
 | Bulldozer | `Giro`, `Ángulo de balancín` y `Llenado del cucharón` **se eliminan**. `Ángulo de pluma` **se sustituye** por altura y ángulo de la hoja. `Pendiente del terreno` y `Traslación` pasan al centro: son la fuerza de empuje. | Sin brazo articulado; hoja más avance. |
 | Retroexcavadora | Ninguna se elimina, pero `Giro` y `Alcance` **solo tienen sentido** en el frente trasero. El conjunto de variables activas cambia según el puesto. | Dos esquemas alternados en la misma máquina. |
@@ -97,7 +97,7 @@ Contrastado con las variables del
 
 `Presión hidráulica` es la única variable que ninguna variante pierde: todas
 mueven su herramienta con aceite a presión, como explica el
-[Módulo 4](../operacion/sistemas-mecanicos-maquinaria.md).
+[Clase 4](../operacion/sistemas-mecanicos-maquinaria.md).
 
 ---
 
@@ -137,14 +137,56 @@ El resto de diferencias sí caben en un mismo simulador ajustando rangos, tal co
 plantean los [niveles de realismo](../../../docs/03-niveles-de-realismo.md): en
 el nivel 1 la tarea se reduce a mover la herramienta y las variantes casi se
 tocan, y las diferencias emergen a medida que el nivel sube. El
-[Módulo 9](../simulacion/diseno-simulador-maquinaria.md) ya lo anota como
+[Clase 9](../simulacion/diseno-simulador-maquinaria.md) ya lo anota como
 pendiente: definir los valores por defecto de cada variable **por tipo de
-máquina**. Este módulo dice por qué esa tarea no es solo rellenar una tabla.
+máquina**. Esta clase dice por qué esa tarea no es solo rellenar una tabla.
 
 > ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar excavadora frente a cargador frontal frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «excavadora frente a cargador frontal» resuelven prioridades distintas. Una comparación profesional sigue la cadena motor → sistema hidráulico → implemento → suelo: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **estabilidad dependiente del centro de gravedad, apoyo y reacción del terreno**. El hilo de
+seguridad consiste en reconocer a tiempo **vuelco, colapso del borde o ingreso de terceros al radio de acción** y poder justificar la decisión
+**evaluar terreno, zona de exclusión y posición antes de accionar el implemento**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → sistema hidráulico → implemento → suelo**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Construction Industry](https://www.osha.gov/construction) aporta maquinaria y seguridad de obra;
+[Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) se usa para izaje, riesgos y controles. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **excavación próxima a un borde con material cambiante**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **motor** hasta **suelo**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **motor → sistema hidráulico → implemento → suelo** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «excavación próxima a un borde con material cambiante» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

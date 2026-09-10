@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 5
 codigo: TRACTORES-05
@@ -16,7 +16,7 @@ evidencia: "Mapa de mandos y resolución de dos estados del tablero."
 criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎛️ Mandos e instrumentos del tractor
 
@@ -86,6 +86,55 @@ cinturón, elementos de seguridad centrales.
 - El asiento con suspensión y el cinturón dentro del ROPS son claves de seguridad.
 - La interfaz de simulación debería advertir el vuelco al girar en pendiente y
   bloquear el trabajo con la PTO si alguien está en la zona de riesgo.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Vista general, Mapa de controles, Instrumentos principales y Entradas de simulación** a **interpretar mandos e indicaciones durante trabajo transversal en pendiente con un implemento elevado**?
+
+### Explicación razonada
+
+Un mando no se aprende memorizando su nombre, sino recorriendo el ciclo intención → acción → indicación → verificación. En Tractores, el operador actúa sobre motor o transmisión, observa la respuesta en toma de fuerza y confirma el efecto en apero. Una indicación inesperada exige detener la secuencia mental, identificar el modo activo y evitar una segunda orden que agrave el estado.
+
+```mermaid
+flowchart LR
+    I["intención"] --> M["mando sobre motor o transmisión"]
+    M --> R["respuesta de toma de fuerza"] --> E["efecto en apero"]
+    E --> V["verificar indicación"] --> I
+```
+
+Esta clase se conecta con el resto del curso mediante **tracción a baja velocidad, transferencia de peso y estabilidad frente al vuelco**. El hilo de
+seguridad consiste en reconocer a tiempo **vuelco lateral, atrapamiento en la toma de fuerza o pérdida de dirección** y poder justificar la decisión
+**bajar el implemento, reducir velocidad y escoger una trayectoria compatible**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → toma de fuerza → apero**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Agricultural Operations: Hazards and Controls](https://www.osha.gov/agricultural-operations/hazards) aporta tractores, aperos y riesgos agrícolas;
+[Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) se usa para marco legal chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Intención:** formula qué cambio se necesita durante **trabajo transversal en pendiente con un implemento elevado**.
+2. **Mando:** identifica el control que actúa sobre **motor** o **transmisión** y el modo que debe estar activo.
+3. **Lectura:** localiza la indicación que confirma la respuesta de **toma de fuerza** y el efecto en **apero**.
+4. **Verificación:** si la lectura no coincide, no acumules órdenes; estabiliza e investiga el estado.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mando inicia la respuesta y qué instrumento confirma que el modo correcto está activo?
+2. ¿Qué indicación temprana advertiría **vuelco lateral, atrapamiento en la toma de fuerza o pérdida de dirección**?
+3. ¿Qué secuencia usarías si la respuesta de **apero** no coincide con la orden?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

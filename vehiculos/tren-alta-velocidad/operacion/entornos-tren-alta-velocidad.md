@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 7
 codigo: TRENALTAVELO-07
@@ -16,7 +16,7 @@ evidencia: "Matriz entorno–cambio–riesgo–respuesta."
 criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🌍 Entornos de trabajo del tren de alta velocidad
 
@@ -80,7 +80,49 @@ mindmap
 
 Cada entorno es un escenario con su vía, clima y condiciones de infraestructura.
 Ver cómo se modela en el
-[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-tren-alta-velocidad.md).
+[Clase 9: Diseño de simulación](../simulacion/diseno-simulador-tren-alta-velocidad.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Entornos principales, Factores del entorno, Traducción a simulación y Guía de estudio aplicada** a **adaptar reducción de velocidad previa a una zona de viento lateral a tres condiciones ambientales distintas**?
+
+### Explicación razonada
+
+El entorno no es decoración: modifica las fuerzas, la percepción y el tiempo disponible. En el caso «reducción de velocidad previa a una zona de viento lateral», cambia el comportamiento de rueda-carril y aumenta la probabilidad de perder margen por interpretar tarde una restricción a velocidad elevada. La respuesta correcta empieza por reconocer qué variable cambió y después adaptar límites, ruta o misión.
+
+Esta clase se conecta con el resto del curso mediante **estabilidad dinámica y crecimiento de la energía con el cuadrado de la velocidad**. El hilo de
+seguridad consiste en reconocer a tiempo **perder margen por interpretar tarde una restricción a velocidad elevada** y poder justificar la decisión
+**cumplir la curva de frenado con anticipación y sin correcciones bruscas**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **catenaria → electrónica de potencia → motores distribuidos → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Escenario base:** conserva la misión «reducción de velocidad previa a una zona de viento lateral» para poder comparar.
+2. **Cambiar una condición:** modifica sucesivamente superficie o medio, visibilidad y perturbación externa.
+3. **Recalcular margen:** explica cómo cada cambio afecta **rueda-carril** y acerca o aleja **perder margen por interpretar tarde una restricción a velocidad elevada**.
+4. **Adaptar:** cambia límite, ruta, configuración o incluso cancela; no mantengas la misma respuesta por hábito.
+
+### Comprueba tu comprensión
+
+1. ¿Cómo cambiaría **rueda-carril** si empeora la perturbación externa?
+2. ¿Qué condición ambiental acerca más el escenario a **perder margen por interpretar tarde una restricción a velocidad elevada**?
+3. ¿Cuándo adaptarías la maniobra y cuándo la cancelarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

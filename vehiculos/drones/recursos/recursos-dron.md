@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 10
 codigo: DRONES-10
@@ -16,7 +16,7 @@ evidencia: "Glosario aplicado y ficha breve de trazabilidad."
 criterio_aprobacion: "Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧰 Recursos del dron
 
@@ -70,6 +70,48 @@ flowchart LR
 
 Registrar cada recurso nuevo con su origen y licencia, siguiendo
 [`recursos/README.md`](../../../recursos/README.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Glosario específico, Diagrama de control por variación de rpm, Enlaces y fuentes y Guía de estudio aplicada** a **explicar con fuentes los términos batería, controladores, motores y hélices y actitud y trayectoria**?
+
+### Explicación razonada
+
+El vocabulario técnico organiza relaciones: batería, controladores, motores y hélices y actitud y trayectoria nombran partes distintas de una misma cadena funcional. Una fuente se usa para sostener una afirmación concreta —principio, límite, procedimiento o contexto— y debe distinguirse del manual particular de un fabricante o de una regla narrativa.
+
+Esta clase se conecta con el resto del curso mediante **el controlador estabiliza actitud, pero autonomía, enlace y entorno limitan la misión**. El hilo de
+seguridad consiste en reconocer a tiempo **pérdida de enlace, deriva, impacto o invasión de espacio no autorizado** y poder justificar la decisión
+**definir límites de viento, batería, enlace, geocerca y retorno antes de despegar**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **batería → controladores → motores y hélices → actitud y trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Unmanned Aircraft Systems](https://www.faa.gov/uas) aporta operación y normativa RPAS;
+[Normativa aeronáutica](https://www.dgac.gob.cl/normativa/) se usa para marco aeronáutico chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir en contexto:** explica **batería**, **controladores**, **motores y hélices** y **actitud y trayectoria** por su función y relación.
+2. **Respaldar:** enlaza cada afirmación importante con una fuente identificable y declara su alcance.
+3. **Contrastar:** separa principios generales, requisitos locales, manual de fabricante y —si aplica— canon ficticio.
+4. **Reformular:** convierte una definición copiada en una explicación propia con un ejemplo de **Drones**.
+
+### Comprueba tu comprensión
+
+1. Explica la diferencia funcional entre **controladores** y **motores y hélices** sin copiar una definición.
+2. ¿Qué fuente respalda el principio «el controlador estabiliza actitud, pero autonomía, enlace y entorno limitan la misión» y cuál es su alcance?
+3. ¿Qué dato exigiría un manual de fabricante en vez de una fuente general?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

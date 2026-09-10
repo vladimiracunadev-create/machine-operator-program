@@ -215,8 +215,9 @@ proyecto se distribuye bajo licencia [MIT](LICENSE).
 
 - ✅ Base documental, marco legal y CI en verde.
 - ✅ **Los 41 cursos están estructurados pedagógicamente**: 451 clases con
-  duración, prerrequisitos, resultados de aprendizaje, actividad, evidencia,
-  criterio de aprobación, fuentes y navegación.
+  explicación técnica propia, pregunta guía, caso resuelto, comprobación,
+  evidencia, criterio de aprobación, fuentes y navegación. Los metadatos
+  administrativos permanecen ocultos y no se presentan como contenido lectivo.
 - 🧑‍🔧 **La revisión experta continúa**: “estructurado” no significa acreditado
   ni validado por un fabricante, una autoridad o un centro de formación.
 - 🎓 [🏍️ Motos](vehiculos/motos/README.md) sigue siendo el curso de referencia:

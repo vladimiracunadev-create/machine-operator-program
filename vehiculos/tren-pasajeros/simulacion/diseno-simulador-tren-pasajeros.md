@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 9
 codigo: TRENPASAJERO-09
@@ -16,7 +16,7 @@ evidencia: "Ficha de escenario y diagrama de estados."
 criterio_aprobacion: "El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎮 Diseño de simulación del tren de pasajeros
 
@@ -89,6 +89,59 @@ ATP, y detener el tren con precisión en el andén, de forma segura y progresiva
 - [ ] Ajustar el modelo de adherencia con riel húmedo.
 - [ ] Confirmar el ancho de vía de la red chilena en la fuente oficial.
 - [ ] Agregar fuentes técnicas públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Objetivo de la simulación, Nivel de realismo, Variables principales y Ciclo básico** a **modelar aproximación a estación con lluvia y alta ocupación como estados, variables y decisiones observables**?
+
+### Explicación razonada
+
+Una simulación de Tren de pasajeros es educativa si representa decisiones y consecuencias. Como mínimo debe modelar el estado de captación o motor, la respuesta de convertidor de tracción, la transición en motores de eje y el resultado en rueda-carril. El escenario «aproximación a estación con lluvia y alta ocupación» es valioso porque obliga a observar, formular una hipótesis, actuar y comprobar.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Preparado
+    Preparado --> Operando: orden válida
+    Operando --> Degradado: límite o falla
+    Degradado --> Seguro: decisión correctiva
+    Operando --> Completado: criterio logrado
+    Seguro --> [*]
+    Completado --> [*]
+```
+
+Esta clase se conecta con el resto del curso mediante **adherencia rueda-carril, curva de frenado y cumplimiento de señales**. El hilo de
+seguridad consiste en reconocer a tiempo **rebasar el punto de parada o comprometer la comodidad por frenar tarde** y poder justificar la decisión
+**anticipar la frenada según señal, pendiente, adherencia y carga**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **captación o motor → convertidor de tracción → motores de eje → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Estado inicial:** representa aproximación a estación con lluvia y alta ocupación con valores observables para **captación o motor**, **convertidor de tracción**, **motores de eje** y **rueda-carril**.
+2. **Decisión del estudiante:** ofrece una elección que cambie el estado, no una animación automática.
+3. **Consecuencia:** modela la tendencia hacia **rebasar el punto de parada o comprometer la comodidad por frenar tarde** y una señal previa que permita corregir.
+4. **Cierre:** evalúa la explicación de la decisión, además de si el estudiante “ganó” el escenario.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cuatro estados mínimos necesita el escenario «aproximación a estación con lluvia y alta ocupación»?
+2. ¿Qué variable anticipa **rebasar el punto de parada o comprometer la comodidad por frenar tarde** antes de llegar al estado de falla?
+3. ¿Cómo evaluarías la explicación del estudiante y no solo el resultado final?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

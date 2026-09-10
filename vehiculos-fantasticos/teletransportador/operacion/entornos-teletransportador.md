@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 7
 codigo: TELETRANSPOR-07
@@ -16,7 +16,7 @@ evidencia: "Matriz entorno–cambio–riesgo–respuesta."
 criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🌍 Entornos del teletransportador
 
@@ -81,7 +81,49 @@ Cada entorno es un escenario con su distancia, su reserva de materia y su
 presupuesto de energía. El paso de transferir estado a intentar reconstruir un
 cuerpo cambia por completo lo que es posible y es una gran lección de física.
 Ver cómo se modela en el
-[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-teletransportador.md).
+[Clase 9: Diseño de simulación](../simulacion/diseno-simulador-teletransportador.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Entornos principales, Factores del entorno, Traducción a simulación y Guía de estudio aplicada** a **adaptar transporte ficticio con señal degradada y destino parcialmente bloqueado a tres condiciones ambientales distintas**?
+
+### Explicación razonada
+
+El entorno no es decoración: modifica las fuerzas, la percepción y el tiempo disponible. En el caso «transporte ficticio con señal degradada y destino parcialmente bloqueado», cambia el comportamiento de reconstrucción y aumenta la probabilidad de presentar una ficción sin límites, fallas observables ni dilemas explícitos. La respuesta correcta empieza por reconocer qué variable cambió y después adaptar límites, ruta o misión.
+
+Esta clase se conecta con el resto del curso mediante **la tecnología narrativa plantea continuidad, información, energía y verificación de destino**. El hilo de
+seguridad consiste en reconocer a tiempo **presentar una ficción sin límites, fallas observables ni dilemas explícitos** y poder justificar la decisión
+**definir condiciones de autorización, aborto y evidencia de integridad**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **sensado ficticio → codificación → transmisión → reconstrucción**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Star Trek Database](https://www.startrek.com/database) aporta canon narrativo y tecnologías de ficción;
+[Quantum Teleportation](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation) se usa para información cuántica, entrelazamiento y teorema de no clonación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Escenario base:** conserva la misión «transporte ficticio con señal degradada y destino parcialmente bloqueado» para poder comparar.
+2. **Cambiar una condición:** modifica sucesivamente superficie o medio, visibilidad y perturbación externa.
+3. **Recalcular margen:** explica cómo cada cambio afecta **reconstrucción** y acerca o aleja **presentar una ficción sin límites, fallas observables ni dilemas explícitos**.
+4. **Adaptar:** cambia límite, ruta, configuración o incluso cancela; no mantengas la misma respuesta por hábito.
+
+### Comprueba tu comprensión
+
+1. ¿Cómo cambiaría **reconstrucción** si empeora la perturbación externa?
+2. ¿Qué condición ambiental acerca más el escenario a **presentar una ficción sin límites, fallas observables ni dilemas explícitos**?
+3. ¿Cuándo adaptarías la maniobra y cuándo la cancelarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 
@@ -93,6 +135,7 @@ Ver cómo se modela en el
 ### Fuentes de esta clase
 
 - [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [IBM-QUANTUM-TELEPORT](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation): Quantum Teleportation, IBM Quantum Learning. Uso: información cuántica, entrelazamiento y teorema de no clonación.
 - [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
 
 > Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual

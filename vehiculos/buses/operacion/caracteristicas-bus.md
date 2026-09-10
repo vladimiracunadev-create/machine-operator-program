@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: BUSES-02
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características funcionales del bus
 
 [🏠 Inicio](../../../README.md) · [🚌 Curso: Buses](../README.md) · 📋 Características
 
-Que es un bus, que tipos existen y para que sirve cada uno. Este módulo da el
-contexto antes de abrir la mecánica (Módulo 4).
+Que es un bus, que tipos existen y para que sirve cada uno. Esta clase da el
+contexto antes de abrir la mecánica (Clase 4).
 
 ---
 
@@ -86,6 +86,48 @@ flowchart TD
 - Conexión interurbana entre ciudades y regiones.
 - Transporte escolar y de personal de empresas.
 - Servicios turísticos y de acercamiento.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Tipos de bus y Para qué se usa** a **elegir una configuración adecuada para descenso prolongado con el vehículo cargado y una parada próxima**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Buses, la relación entre motor, transmisión, freno de servicio y retardador y ejes determina capacidad, respuesta y límites. Por eso «bus urbano frente a autocar interurbano» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas».
+
+Esta clase se conecta con el resto del curso mediante **gestión de inercia, distancia de detención y transferencia de peso con pasajeros**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas** y poder justificar la decisión
+**seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → freno de servicio y retardador → ejes**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Commercial Driver's License Manual](https://www.fmcsa.dot.gov/registration/commercial-drivers-license/cdl-manual) se usa para operación de buses y camiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «descenso prolongado con el vehículo cargado y una parada próxima» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **bus urbano frente a autocar interurbano** usando esos requisitos y la cadena **motor → transmisión → freno de servicio y retardador → ejes**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **ejes** condiciona primero el caso «descenso prolongado con el vehículo cargado y una parada próxima»?
+2. ¿Qué requisito descartaría una de las alternativas **bus urbano frente a autocar interurbano**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

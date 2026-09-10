@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: THUNDERBIRD3-04
@@ -16,7 +16,7 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del Thunderbird 3
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo abre el cohete de rescate por dentro. Compara la tecnología imaginaria
+Esta clase abre el cohete de rescate por dentro. Compara la tecnología imaginaria
 de la ficción con la física real que la haría funcionar (o que la desmiente).
 La regla del curso es clara: describimos conceptos con nuestras palabras, sin
 copiar planos ni especificaciones oficiales.
@@ -156,8 +156,57 @@ para posarse.
 4. El **guiado** inclina la trayectoria para ganar velocidad lateral.
 5. El **sistema de reentrada** disipa la energía para regresar con seguridad.
 
-Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-thunderbird-3.md)
+Con esto claro, el [Clase 5: Mandos](../mandos/manual-mandos-thunderbird-3.md)
 muestra cómo la tripulación operaría cada sistema.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Motores y propelente, Etapas y separación, Guiado del ascenso y Estructura y tanques** a **seguir una alteración desde propelentes ficticios hasta trayectoria espacial durante intercepción de una nave averiada con ventana temporal corta**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: propelentes ficticios entrega o transforma energía; motores la adapta; guiado la transmite o gobierna; y trayectoria espacial produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de trayectoria espacial y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["propelentes ficticios"] --> B["motores"] --> C["guiado"] --> D["trayectoria espacial"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **una misión de rescate espacial une lanzamiento, encuentro y reserva para retorno**. El hilo de
+seguridad consiste en reconocer a tiempo **consumir la reserva durante la aproximación y perder capacidad de regreso** y poder justificar la decisión
+**presupuestar combustible y criterios de aborto para cada fase**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **propelentes ficticios → motores → guiado → trayectoria espacial**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Thunderbirds Vehicles](https://www.thunderbirds.com/) aporta referencia oficial de vehículos de rescate;
+[Rockets Educator Guide](https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf) se usa para propulsión, estabilidad y trayectoria. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **propelentes ficticios** durante **intercepción de una nave averiada con ventana temporal corta**.
+2. **Transformación:** explica qué hacen **motores** y **guiado**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **trayectoria espacial** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **consumir la reserva durante la aproximación y perder capacidad de regreso**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **motores**, ¿qué efecto esperarías primero en **guiado** y después en **trayectoria espacial**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **propelentes ficticios** de una falla de **guiado**?
+3. ¿Por qué una segunda orden podría agravar **consumir la reserva durante la aproximación y perder capacidad de regreso**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

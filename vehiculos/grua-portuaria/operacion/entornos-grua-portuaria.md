@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 7
 codigo: GRUAPORTUARI-07
@@ -16,7 +16,7 @@ evidencia: "Matriz entorno–cambio–riesgo–respuesta."
 criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🌍 Entornos de trabajo de la grúa portuaria
 
@@ -77,7 +77,49 @@ mindmap
 ## 🎮 Traducción a simulación
 
 Cada entorno es un escenario con su clima, jornada y flujo de camiones. Ver como
-se modela en el [Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-grua-portuaria.md).
+se modela en el [Clase 9: Diseño de simulación](../simulacion/diseno-simulador-grua-portuaria.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Entornos principales, Factores del entorno, Traducción a simulación y Guía de estudio aplicada** a **adaptar traslado de un contenedor desde buque con ráfagas laterales a tres condiciones ambientales distintas**?
+
+### Explicación razonada
+
+El entorno no es decoración: modifica las fuerzas, la percepción y el tiempo disponible. En el caso «traslado de un contenedor desde buque con ráfagas laterales», cambia el comportamiento de spreader y contenedor y aumenta la probabilidad de oscilación, enganche incompleto o ingreso de personas al área de caída. La respuesta correcta empieza por reconocer qué variable cambió y después adaptar límites, ruta o misión.
+
+Esta clase se conecta con el resto del curso mediante **control del péndulo y productividad sin superar límites estructurales ni de viento**. El hilo de
+seguridad consiste en reconocer a tiempo **oscilación, enganche incompleto o ingreso de personas al área de caída** y poder justificar la decisión
+**detener o suavizar el ciclo según viento, señalización y estabilidad de la carga**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **alimentación → accionamientos → carro y cables → spreader y contenedor**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) aporta izaje, riesgos y controles;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Escenario base:** conserva la misión «traslado de un contenedor desde buque con ráfagas laterales» para poder comparar.
+2. **Cambiar una condición:** modifica sucesivamente superficie o medio, visibilidad y perturbación externa.
+3. **Recalcular margen:** explica cómo cada cambio afecta **spreader y contenedor** y acerca o aleja **oscilación, enganche incompleto o ingreso de personas al área de caída**.
+4. **Adaptar:** cambia límite, ruta, configuración o incluso cancela; no mantengas la misma respuesta por hábito.
+
+### Comprueba tu comprensión
+
+1. ¿Cómo cambiaría **spreader y contenedor** si empeora la perturbación externa?
+2. ¿Qué condición ambiental acerca más el escenario a **oscilación, enganche incompleto o ingreso de personas al área de caída**?
+3. ¿Cuándo adaptarías la maniobra y cuándo la cancelarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

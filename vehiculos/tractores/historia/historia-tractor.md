@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 1
 codigo: TRACTORES-01
@@ -16,7 +16,7 @@ evidencia: "Línea de tiempo comentada con cuatro hitos o más."
 criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📜 Historia del tractor
 
@@ -80,10 +80,47 @@ manejarlos con la hidráulica, se convirtió en la plataforma central de la faen
 agrícola. Su evolución actual apunta a la precisión: hacer más con menos insumos
 y con menor impacto sobre el suelo.
 
-## Fuentes
+## 🧭 Guía de estudio aplicada
 
-- Registrar aquí las fuentes públicas consultadas.
-- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+### Pregunta guía
+
+¿Cómo ayuda **Origen, Línea de tiempo, Evolución tecnológica y Tipos representativos** a **explicar cómo la evolución hizo posibles alternativas como tractor agrícola convencional frente a articulado**?
+
+### Explicación razonada
+
+La evolución de Tractores se comprende mejor como una sucesión de respuestas a problemas, no como una lista de fechas. Los cambios en motor, transmisión, toma de fuerza y apero alteraron qué podía hacer la máquina, quién podía usarla y qué riesgos debían controlarse. El contraste «tractor agrícola convencional frente a articulado» permite observar qué decisiones de diseño permanecieron y cuáles cambiaron con la tecnología y el propósito.
+
+Esta clase se conecta con el resto del curso mediante **tracción a baja velocidad, transferencia de peso y estabilidad frente al vuelco**. El hilo de
+seguridad consiste en reconocer a tiempo **vuelco lateral, atrapamiento en la toma de fuerza o pérdida de dirección** y poder justificar la decisión
+**bajar el implemento, reducir velocidad y escoger una trayectoria compatible**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → toma de fuerza → apero**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Agricultural Operations: Hazards and Controls](https://www.osha.gov/agricultural-operations/hazards) aporta tractores, aperos y riesgos agrícolas;
+[Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) se usa para marco legal chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Situar:** ordena los hitos que explican cómo se llegó a **tractor agrícola convencional frente a articulado** y describe la necesidad que impulsó cada cambio.
+2. **Relacionar:** explica qué se modificó en **motor**, **transmisión**, **toma de fuerza** o **apero**; una fecha sin mecanismo no basta.
+3. **Interpretar:** vincula el cambio con una capacidad nueva y también con el riesgo **vuelco lateral, atrapamiento en la toma de fuerza o pérdida de dirección**.
+4. **Transferir:** usa la evolución para justificar por qué hoy conviene **bajar el implemento, reducir velocidad y escoger una trayectoria compatible**.
+
+### Comprueba tu comprensión
+
+1. ¿Qué necesidad histórica impulsó un cambio en **motor** o **transmisión**?
+2. ¿Qué hito modificó la relación entre capacidad y **vuelco lateral, atrapamiento en la toma de fuerza o pérdida de dirección**?
+3. ¿Por qué **tractor agrícola convencional frente a articulado** no puede explicarse como una simple diferencia estética?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

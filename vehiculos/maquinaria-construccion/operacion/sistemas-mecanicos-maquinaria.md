@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: MAQUINARIACO-04
@@ -16,16 +16,16 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos de la maquinaria de construcción
 
 [🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construcción](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre la máquina por dentro y es el corazón del curso. Explica cada
+Esta clase abre la máquina por dentro y es el corazón del curso. Explica cada
 sistema, como funciona y cómo se conecta con los demás, con foco en la hidráulica
 de trabajo, el movimiento de tierra y la estabilidad. Es la base técnica para
-entender los mandos (Módulo 5) y la física de la operación (Módulo 6).
+entender los mandos (Clase 5) y la física de la operación (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -212,8 +212,57 @@ que la cabina cumple funciones de seguridad, no solo de confort.
 6. La cabina **ROPS/FOPS** protege al operador durante toda la faena.
 
 Con esto entendido, el
-[Módulo 5: Mandos](../mandos/manual-mandos-maquinaria.md) muestra como el
+[Clase 5: Mandos](../mandos/manual-mandos-maquinaria.md) muestra como el
 operador acciona cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Sistema hidráulico, Brazo y cucharón, Hoja empujadora y Orugas y neumáticos** a **seguir una alteración desde motor hasta suelo durante excavación próxima a un borde con material cambiante**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: motor entrega o transforma energía; sistema hidráulico la adapta; implemento la transmite o gobierna; y suelo produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de suelo y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["motor"] --> B["sistema hidráulico"] --> C["implemento"] --> D["suelo"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **estabilidad dependiente del centro de gravedad, apoyo y reacción del terreno**. El hilo de
+seguridad consiste en reconocer a tiempo **vuelco, colapso del borde o ingreso de terceros al radio de acción** y poder justificar la decisión
+**evaluar terreno, zona de exclusión y posición antes de accionar el implemento**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → sistema hidráulico → implemento → suelo**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Construction Industry](https://www.osha.gov/construction) aporta maquinaria y seguridad de obra;
+[Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) se usa para izaje, riesgos y controles. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **motor** durante **excavación próxima a un borde con material cambiante**.
+2. **Transformación:** explica qué hacen **sistema hidráulico** y **implemento**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **suelo** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **vuelco, colapso del borde o ingreso de terceros al radio de acción**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **sistema hidráulico**, ¿qué efecto esperarías primero en **implemento** y después en **suelo**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **motor** de una falla de **implemento**?
+3. ¿Por qué una segunda orden podría agravar **vuelco, colapso del borde o ingreso de terceros al radio de acción**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

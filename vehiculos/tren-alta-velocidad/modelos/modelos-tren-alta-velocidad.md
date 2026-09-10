@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: TRENALTAVELO-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del tren de alta velocidad
 
 [🏠 Inicio](../../../README.md) · [🚄 Curso: Tren de alta velocidad](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-tren-alta-velocidad.md) ya dijo qué
-configuraciones existen y cómo se distingue cada una. Este módulo responde a otra
+El [Clase 2](../operacion/caracteristicas-tren-alta-velocidad.md) ya dijo qué
+configuraciones existen y cómo se distingue cada una. Esta clase responde a otra
 cosa: **no todos se manejan igual**, y esa diferencia no es de matiz. Cambia qué
 mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -38,10 +38,10 @@ mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-tren-alta-velocidad.md) describe un puesto
+El [Clase 5](../mandos/manual-mandos-tren-alta-velocidad.md) describe un puesto
 de mando con manipulador de tracción/freno, botón de pantógrafo y un **DMI de
 ETCS** como pantalla de señalización en cabina. El
-[Módulo 9](../simulacion/diseno-simulador-tren-alta-velocidad.md) expone una
+[Clase 9](../simulacion/diseno-simulador-tren-alta-velocidad.md) expone una
 variable `Tensión de línea` que limita la tracción disponible y una `Velocidad
 objetivo` que "la marca el DMI en cabina". Ambos describen un tren **rueda-riel,
 alimentado por catenaria y supervisado por ETCS**.
@@ -79,27 +79,27 @@ explícita, no algo que el entorno resuelva solo.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Tracción distribuida (EMU) | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Es el caso base del curso. |
+| Tracción distribuida (EMU) | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Es el caso base del curso. |
 | Tracción concentrada | Ninguno: mismos controles. | Cambian los rangos útiles del manipulador, no los mandos. |
 | Rueda-riel | Ninguno: el manipulador de freno reparte entre regenerativo, dinámico, neumático y de Foucault. | El freno neumático completa siempre la detención final. |
-| Levitación magnética | **Desaparece** el botón de pantógrafo: sin contacto físico no hay brazo que roce la catenaria. **Desaparece** el freno neumático de zapatas sobre rueda, y con él la fase final de frenada por fricción. | Se cae una entrada completa del Módulo 5 (tecla P) y se vacía una parte del manipulador de freno. La fuente de energía y el frenado propios de esta variante quedan por confirmar. |
-| Señalización ETCS/ERTMS | Ninguno: el DMI del Módulo 5 es exactamente esta pantalla. | Es el caso base. |
-| Otro sistema de señalización en cabina | El DMI **se sustituye** por otra pantalla; el instrumento no desaparece, cambia de contenido y de lógica. | El vigilante y el freno de emergencia siguen, pero la regla que dispara el frenado automático deja de ser la del Módulo 5. |
+| Levitación magnética | **Desaparece** el botón de pantógrafo: sin contacto físico no hay brazo que roce la catenaria. **Desaparece** el freno neumático de zapatas sobre rueda, y con él la fase final de frenada por fricción. | Se cae una entrada completa del Clase 5 (tecla P) y se vacía una parte del manipulador de freno. La fuente de energía y el frenado propios de esta variante quedan por confirmar. |
+| Señalización ETCS/ERTMS | Ninguno: el DMI del Clase 5 es exactamente esta pantalla. | Es el caso base. |
+| Otro sistema de señalización en cabina | El DMI **se sustituye** por otra pantalla; el instrumento no desaparece, cambia de contenido y de lógica. | El vigilante y el freno de emergencia siguen, pero la regla que dispara el frenado automático deja de ser la del Clase 5. |
 
 ---
 
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-tren-alta-velocidad.md):
+[Clase 9](../simulacion/diseno-simulador-tren-alta-velocidad.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Tracción distribuida (EMU) | Ninguna: es el caso base. | El del Módulo 5. |
+| Tracción distribuida (EMU) | Ninguna: es el caso base. | El del Clase 5. |
 | Tracción concentrada | `Esfuerzo de tracción` topa antes por adherencia con menos ejes motores. `Masa del tren` deja de repartirse de forma uniforme y se concentra en cabeza. | El mismo, con menos margen antes de patinar. |
-| Rueda-riel | Ninguna: es el caso base. | El del Módulo 5. |
+| Rueda-riel | Ninguna: es el caso base. | El del Clase 5. |
 | Levitación magnética | `Tensión de línea` **deja de tener el sentido** de catenaria captada por pantógrafo. `Esfuerzo de freno` pierde el reparto que incluye el freno neumático sobre rueda. `Resistencia aerodinámica` gana peso relativo al desaparecer la resistencia de rodadura. | Sin entrada de pantógrafo; frenada sin fase final de fricción. |
-| Señalización ETCS/ERTMS | Ninguna: es el caso base. | El del Módulo 5. |
+| Señalización ETCS/ERTMS | Ninguna: es el caso base. | El del Clase 5. |
 | Otro sistema de señalización en cabina | `Velocidad objetivo` **cambia de origen**: deja de venir de las balizas y el equipo embarcado ETCS. El paso 6 del ciclo básico (supervisar y frenar solo si se excede) responde a otra regla. | El mismo, con otra pantalla y otro criterio de intervención. |
 | Sin red de alta velocidad local | `Tensión de línea` y el ancho de vía carecen de valor de referencia chileno: quedan por confirmar. | El mismo, con parámetros declarados como pendientes. |
 
@@ -118,7 +118,7 @@ flowchart TD
     Trac -- Distribuida EMU --> Rep[Esfuerzo repartido:<br/>más ejes motores]
     Trac -- Concentrada --> Con[Esfuerzo concentrado:<br/>adherencia topa antes]
     Modelo --> Senal{¿Qué señalización en cabina?}
-    Senal -- ETCS/ERTMS --> DMI[DMI del Módulo 5:<br/>velocidad objetivo por balizas]
+    Senal -- ETCS/ERTMS --> DMI[DMI del Clase 5:<br/>velocidad objetivo por balizas]
     Senal -- Otro sistema --> Otro[Otra pantalla,<br/>otra regla de supervisión]
 ```
 
@@ -148,6 +148,48 @@ línea y la supervisión ETCS entran en el modelo.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar tracción distribuida frente a cabezas tractoras frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «tracción distribuida frente a cabezas tractoras» resuelven prioridades distintas. Una comparación profesional sigue la cadena catenaria → electrónica de potencia → motores distribuidos → rueda-carril: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **estabilidad dinámica y crecimiento de la energía con el cuadrado de la velocidad**. El hilo de
+seguridad consiste en reconocer a tiempo **perder margen por interpretar tarde una restricción a velocidad elevada** y poder justificar la decisión
+**cumplir la curva de frenado con anticipación y sin correcciones bruscas**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **catenaria → electrónica de potencia → motores distribuidos → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **reducción de velocidad previa a una zona de viento lateral**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **catenaria** hasta **rueda-carril**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **catenaria → electrónica de potencia → motores distribuidos → rueda-carril** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «reducción de velocidad previa a una zona de viento lateral» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

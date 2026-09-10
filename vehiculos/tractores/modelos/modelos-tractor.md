@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: TRACTORES-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del tractor
 
 [🏠 Inicio](../../../README.md) · [🚜 Curso: Tractores](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-tractor.md) ya dijo qué tipos de
-tractor existen y para qué sirve cada uno. Este módulo responde a lo siguiente:
+El [Clase 2](../operacion/caracteristicas-tractor.md) ya dijo qué tipos de
+tractor existen y para qué sirve cada uno. Esta clase responde a lo siguiente:
 **no todos se manejan igual**, y esa diferencia no es de matiz. Cambia qué
 mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -40,19 +40,19 @@ mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-tractor.md) describe un puesto de mando con
+El [Clase 5](../mandos/manual-mandos-tractor.md) describe un puesto de mando con
 una **palanca de mando de la PTO** ("conectar la toma de fuerza", eligiendo 540 o
 1000 rpm) y una **palanca de posición del enganche de tres puntos** ("subir y
 bajar el apero"). Sus entradas de simulación las recogen como `Conectar PTO`
 (tecla T) y `Subir/bajar apero` (R / F). El
-[Módulo 9](../simulacion/diseno-simulador-tractor.md) expone la variable
+[Clase 9](../simulacion/diseno-simulador-tractor.md) expone la variable
 `Enganche` con rango `subido..bajado` y define el `Régimen del motor` como lo que
 "marca 540 o 1000 rpm de la PTO". Los tres describen un tractor **con apero
 montado y accionado**.
 
 En un tractor con remolque, esa palanca de posición no controla nada: el remolque
 recibe la fuerza "por tiro desde la barra", según el
-[Módulo 4](../operacion/sistemas-mecanicos-tractor.md), y los tres puntos van
+[Clase 4](../operacion/sistemas-mecanicos-tractor.md), y los tres puntos van
 vacíos. La variable `Enganche` sencillamente no tiene valores útiles que tomar, y
 el `Régimen del motor` deja de leerse contra las marcas de PTO del tacómetro para
 pasar a ser solo par de tiro. Si el simulador se construye sobre el esquema de
@@ -81,10 +81,10 @@ no existe.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Utilitario, Alta potencia, Frutícola / viña | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Cambian los rangos y las prioridades, no los controles. |
+| Utilitario, Alta potencia, Frutícola / viña | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Cambian los rangos y las prioridades, no los controles. |
 | Articulado | El volante **deja de orientar el eje delantero** y pasa a mandar el pliegue central del chasis. | El mismo control físico gobierna otra geometría de giro. |
 | De orugas | El **bloqueo de diferencial** y la **doble tracción** pierden su función: no hay ruedas cuyo giro igualar ni eje delantero que traccionar. | Dos botones del tablero se quedan sin sistema al que mandar. |
-| Con apero accionado por PTO | Están todos: **mando de la PTO** y **palanca del enganche** operan a la vez. | Es el caso completo del Módulo 5. |
+| Con apero accionado por PTO | Están todos: **mando de la PTO** y **palanca del enganche** operan a la vez. | Es el caso completo del Clase 5. |
 | Con apero de tiro puro (arado, rastra) | **Desaparece** el mando de la PTO: no hay cardán que conectar. Queda la palanca del enganche. | El tacómetro deja de leerse contra las marcas de 540/1000 rpm. |
 | Con remolque | **Desaparecen** el mando de la PTO y la palanca del enganche: el tiro sale de la barra baja. | El operador conduce, pero no manda ningún apero; los frenos se unen para carretera. |
 | Con pala cargadora frontal | **Aparecen** las salidas hidráulicas como mando principal de trabajo, delante. **Desaparece** el enganche trasero como control activo. | El trabajo se manda con la hidráulica, no con los tres puntos ni con la PTO. |
@@ -94,11 +94,11 @@ no existe.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-tractor.md):
+[Clase 9](../simulacion/diseno-simulador-tractor.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Utilitario | Ninguna: es el caso base. | El del Módulo 5. |
+| Utilitario | Ninguna: es el caso base. | El del Clase 5. |
 | Alta potencia | `Patinaje` y `Lastre` pesan más en el cálculo; `Marcha` usa sobre todo las relaciones cortas de trabajo. | El mismo, con más par disponible. |
 | Frutícola / viña | `Inclinación lateral` **reduce** su margen útil: la vía estrecha vuelca antes dentro del mismo rango. | El mismo. |
 | Articulado | `Velocidad` e `Inclinación lateral` se calculan sobre un chasis que se quiebra: el giro deja de depender del eje delantero. | El mismo volante, otra geometría. |
@@ -152,6 +152,48 @@ los límites de vuelco.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar tractor agrícola convencional frente a articulado frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «tractor agrícola convencional frente a articulado» resuelven prioridades distintas. Una comparación profesional sigue la cadena motor → transmisión → toma de fuerza → apero: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **tracción a baja velocidad, transferencia de peso y estabilidad frente al vuelco**. El hilo de
+seguridad consiste en reconocer a tiempo **vuelco lateral, atrapamiento en la toma de fuerza o pérdida de dirección** y poder justificar la decisión
+**bajar el implemento, reducir velocidad y escoger una trayectoria compatible**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → toma de fuerza → apero**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Agricultural Operations: Hazards and Controls](https://www.osha.gov/agricultural-operations/hazards) aporta tractores, aperos y riesgos agrícolas;
+[Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) se usa para marco legal chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **trabajo transversal en pendiente con un implemento elevado**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **motor** hasta **apero**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **motor → transmisión → toma de fuerza → apero** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «trabajo transversal en pendiente con un implemento elevado» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

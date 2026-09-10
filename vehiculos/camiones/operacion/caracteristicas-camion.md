@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: CAMIONES-02
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características funcionales del camión
 
 [🏠 Inicio](../../../README.md) · [🚛 Curso: Camiones](../README.md) · 📋 Características
 
-Que es un camión, que tipos existen y para que sirve cada uno. Este módulo da el
-contexto antes de abrir la mecánica (Módulo 4).
+Que es un camión, que tipos existen y para que sirve cada uno. Esta clase da el
+contexto antes de abrir la mecánica (Clase 4).
 
 ---
 
@@ -82,6 +82,48 @@ flowchart TD
 - Movimiento de áridos, tierra y minerales en obra y minería.
 - Transporte de combustible, quimicos y líquidos en cisterna.
 - Logística de contenedores entre puertos y centros de distribución.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Tipos de camión y Para qué se usa** a **elegir una configuración adecuada para descenso de montaña con carga cercana al máximo autorizado**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Camiones, la relación entre motor, caja de cambios, árbol y diferencial y ruedas motrices determina capacidad, respuesta y límites. Por eso «camión rígido frente a tractocamión articulado» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «embalamiento, fatiga de frenos o pérdida de estabilidad de la carga».
+
+Esta clase se conecta con el resto del curso mediante **relación entre masa, pendiente, energía cinética y capacidad térmica de frenado**. El hilo de
+seguridad consiste en reconocer a tiempo **embalamiento, fatiga de frenos o pérdida de estabilidad de la carga** y poder justificar la decisión
+**planificar velocidad y relación de transmisión antes de entrar en la pendiente**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → caja de cambios → árbol y diferencial → ruedas motrices**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Commercial Driver's License Manual](https://www.fmcsa.dot.gov/registration/commercial-drivers-license/cdl-manual) se usa para operación de buses y camiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «descenso de montaña con carga cercana al máximo autorizado» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **camión rígido frente a tractocamión articulado** usando esos requisitos y la cadena **motor → caja de cambios → árbol y diferencial → ruedas motrices**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **embalamiento, fatiga de frenos o pérdida de estabilidad de la carga**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **ruedas motrices** condiciona primero el caso «descenso de montaña con carga cercana al máximo autorizado»?
+2. ¿Qué requisito descartaría una de las alternativas **camión rígido frente a tractocamión articulado**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

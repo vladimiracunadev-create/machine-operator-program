@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 5
 codigo: DELOREAN-05
@@ -16,7 +16,7 @@ evidencia: "Mapa de mandos y resolución de dos estados del tablero."
 criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎛️ Mandos e instrumentos de la DeLorean temporal
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo describe un puesto de mando conceptual y original para la nave. No
+Esta clase describe un puesto de mando conceptual y original para la nave. No
 reproduce ningún tablero ni arte de la obra: propone controles útiles para
 enseñar los conceptos de física del curso y para alimentar un simulador.
 
@@ -102,7 +102,56 @@ flowchart TD
 - El interruptor ciencia/ficción es la pieza educativa central: en modo ciencia
   el botón de salto queda deshabilitado y se explica por qué.
 - El aviso de causalidad no castiga; informa y abre la discusión sobre
-  paradojas, que se detalla en el Módulo 8.
+  paradojas, que se detalla en el Clase 8.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Vista general del puesto de mando, Mapa de controles, Controles y su función y Instrumentos principales** a **interpretar mandos e indicaciones durante intento de alcanzar la condición temporal en una vía con espacio limitado**?
+
+### Explicación razonada
+
+Un mando no se aprende memorizando su nombre, sino recorriendo el ciclo intención → acción → indicación → verificación. En DeLorean temporal, el operador actúa sobre motor y alimentación ficticia o transmisión, observa la respuesta en ruedas y confirma el efecto en sistema temporal. Una indicación inesperada exige detener la secuencia mental, identificar el modo activo y evitar una segunda orden que agrave el estado.
+
+```mermaid
+flowchart LR
+    I["intención"] --> M["mando sobre motor y alimentación ficticia o transmisión"]
+    M --> R["respuesta de ruedas"] --> E["efecto en sistema temporal"]
+    E --> V["verificar indicación"] --> I
+```
+
+Esta clase se conecta con el resto del curso mediante **separación entre mecánica automotriz plausible y regla narrativa de velocidad y energía**. El hilo de
+seguridad consiste en reconocer a tiempo **confundir canon con física real y omitir los riesgos ordinarios del automóvil** y poder justificar la decisión
+**declarar qué regla pertenece al relato y modelar aparte movimiento, energía y seguridad reales**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor y alimentación ficticia → transmisión → ruedas → sistema temporal**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Back to the Future](https://www.universalpicturesathome.com/movies/back-to-the-future) aporta obra audiovisual primaria;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Intención:** formula qué cambio se necesita durante **intento de alcanzar la condición temporal en una vía con espacio limitado**.
+2. **Mando:** identifica el control que actúa sobre **motor y alimentación ficticia** o **transmisión** y el modo que debe estar activo.
+3. **Lectura:** localiza la indicación que confirma la respuesta de **ruedas** y el efecto en **sistema temporal**.
+4. **Verificación:** si la lectura no coincide, no acumules órdenes; estabiliza e investiga el estado.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mando inicia la respuesta y qué instrumento confirma que el modo correcto está activo?
+2. ¿Qué indicación temprana advertiría **confundir canon con física real y omitir los riesgos ordinarios del automóvil**?
+3. ¿Qué secuencia usarías si la respuesta de **sistema temporal** no coincide con la orden?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

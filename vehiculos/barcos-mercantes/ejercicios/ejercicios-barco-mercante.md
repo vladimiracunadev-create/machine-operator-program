@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: BARCOSMERCAN-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del barco mercante
 
@@ -43,7 +43,7 @@ Porque desplaza un peso de agua igual al suyo: el empuje vertical del agua
 desplazada sostiene el casco. Es el principio de Arquímedes. No depende del
 material del casco sino del volumen de agua que desaloja.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-barco-mercante.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-barco-mercante.md).
 
 </details>
 
@@ -91,7 +91,7 @@ ejes** (transmite el giro y atraviesa el casco por la bocina) → **hélice**
 ley de Newton) → **empuje**. Entre motor y eje puede haber un reductor, que no
 siempre está presente.
 
-Módulo 4:
+Clase 4:
 [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-barco-mercante.md).
 
 </details>
@@ -114,7 +114,7 @@ cierre.
 6. **Atraque**: amarrar en muelle con maniobra fina, thruster y cabos.
 7. **Cierre**: dejar segura la nave, máquina parada, amarre firme y guardias.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-barco-mercante.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-barco-mercante.md).
 
 </details>
 
@@ -130,7 +130,7 @@ La autoridad es **DIRECTEMAR** (DGTM y MM). La ley base es el **DL 2.222 de
 la OMI, que además aporta SOLAS (seguridad de la vida en el mar), MARPOL
 (prevención de la contaminación) y STCW (formación y guardia).
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-barco-mercante.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-barco-mercante.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -155,7 +155,7 @@ Lo correcto es reducir la velocidad **mucho antes** de la aproximación: toda
 maniobra se anticipa con minutos y millas de margen. La corrección de verdad
 ocurre en la fase de aproximación, no en la de atraque.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-barco-mercante.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-barco-mercante.md).
 
 </details>
 
@@ -214,7 +214,7 @@ velocidad y rumbo, así que basta con dejar ver ese desfase. El usuario ordena
 "parado" y **ve** que el buque sigue navegando: la simulación debe reflejar el
 retardo entre la orden y la respuesta.
 
-Módulo 9:
+Clase 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-barco-mercante.md).
 
 </details>
@@ -233,7 +233,7 @@ son los conceptos centrales del buque. La estabilidad, el calado, las corrientes
 y la maniobra de puerto con thruster y remolcadores son el detalle fino y llegan
 al final.
 
-Módulo 9:
+Clase 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-barco-mercante.md) y
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
@@ -253,6 +253,48 @@ Módulo 9:
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para entrada a canal angosto con corriente transversal y tráfico**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «entrada a canal angosto con corriente transversal y tráfico» hay que reconstruir la cadena motor principal → eje → hélice → casco y timón, aplicar el principio «inercia hidrodinámica: una orden de máquina o timón tarda en cambiar la trayectoria», reconocer el riesgo y defender una decisión verificable: planificar derrota, velocidad y punto de maniobra con margen suficiente.
+
+Esta clase se conecta con el resto del curso mediante **inercia hidrodinámica: una orden de máquina o timón tarda en cambiar la trayectoria**. El hilo de
+seguridad consiste en reconocer a tiempo **abordaje o varada por decidir con referencias tardías** y poder justificar la decisión
+**planificar derrota, velocidad y punto de maniobra con margen suficiente**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor principal → eje → hélice → casco y timón**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) aporta navegación, SOLAS, COLREG y STCW;
+[Collision Regulations](https://www.imo.org/en/about/conventions/pages/colreg.aspx) se usa para prevención de abordajes. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **motor principal → eje → hélice → casco y timón** ante **entrada a canal angosto con corriente transversal y tráfico**.
+2. **Explicar:** aplica **inercia hidrodinámica: una orden de máquina o timón tarda en cambiar la trayectoria** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **planificar derrota, velocidad y punto de maniobra con margen suficiente** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **portacontenedores frente a granelero**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «entrada a canal angosto con corriente transversal y tráfico»?
+2. ¿Qué alternativa a **planificar derrota, velocidad y punto de maniobra con margen suficiente** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

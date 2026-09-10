@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: AUTOMOVILES-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación del automóvil
 
@@ -77,6 +77,55 @@ principios físicos conviene representar.
   con ABS.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Principios de funcionamiento, Fases de operación, Curvas: idea general y Errores comunes que la simulación puede enseñar a evitar** a **resolver frenada de emergencia en una calzada con adherencia desigual sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: transferencia de carga y reparto del círculo de adherencia entre frenar, girar y acelerar. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: crear margen de detención y dosificar dirección y freno según la superficie.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["transferencia de carga y reparto del círculo de adherencia entre frenar, girar y acelerar"]
+    P --> R["riesgo: perder estabilidad por combinar exceso de velocidad, giro y frenado tardío"]
+    R --> D["decisión: crear margen de detención y dosificar dirección y freno según la superficie"]
+```
+
+Esta clase se conecta con el resto del curso mediante **transferencia de carga y reparto del círculo de adherencia entre frenar, girar y acelerar**. El hilo de
+seguridad consiste en reconocer a tiempo **perder estabilidad por combinar exceso de velocidad, giro y frenado tardío** y poder justificar la decisión
+**crear margen de detención y dosificar dirección y freno según la superficie**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → diferencial → ruedas motrices**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Manuales para conductores](https://www.conaset.cl/manuales/) se usa para formación vial y seguridad. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **frenada de emergencia en una calzada con adherencia desigual**.
+2. **Modelo:** aplica **transferencia de carga y reparto del círculo de adherencia entre frenar, girar y acelerar** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **perder estabilidad por combinar exceso de velocidad, giro y frenado tardío**.
+4. **Decisión:** ejecuta mentalmente **crear margen de detención y dosificar dirección y freno según la superficie** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «transferencia de carga y reparto del círculo de adherencia entre frenar, girar y acelerar» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **ruedas motrices**?
+3. ¿Qué evidencia confirmaría que **crear margen de detención y dosificar dirección y freno según la superficie** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

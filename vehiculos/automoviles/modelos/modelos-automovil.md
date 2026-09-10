@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: AUTOMOVILES-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del automóvil
 
 [🏠 Inicio](../../../README.md) · [🚗 Curso: Automóviles](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-automovil.md) ya dijo qué tipos de
-automóvil existen y para qué sirve cada uno. Este módulo responde a lo siguiente:
+El [Clase 2](../operacion/caracteristicas-automovil.md) ya dijo qué tipos de
+automóvil existen y para qué sirve cada uno. Esta clase responde a lo siguiente:
 **no todos se conducen igual**, y esa diferencia no es de matiz. Cambia qué mandos
 tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -37,10 +37,10 @@ tiene la máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-automovil.md) describe un puesto de
+El [Clase 5](../mandos/manual-mandos-automovil.md) describe un puesto de
 conducción con **embrague en el pedal del pie izquierdo** y una palanca selectora
 para elegir marcha. El propio módulo lo acota: el embrague existe "solo en
-transmisión manual". El [Módulo 9](../simulacion/diseno-simulador-automovil.md)
+transmisión manual". El [Clase 9](../simulacion/diseno-simulador-automovil.md)
 expone una variable `Marcha / modo` con rango `P,R,N,D,1..6` y una variable
 `Régimen del motor` con rango `0-7000 rpm`, ligada a la marcha. Ambos describen un
 automóvil **de combustión y transmisión manual**.
@@ -72,7 +72,7 @@ con embrague, que no existe.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Hatchback, Sedan, SUV, Deportivo | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Cambian los rangos, no los controles. |
+| Hatchback, Sedan, SUV, Deportivo | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Cambian los rangos, no los controles. |
 | Pickup / camioneta | **Aparece** la zona de carga como masa que el conductor gestiona. Puede aparecer el selector de tracción (AWD / 4x4). | La carga no es un mando, pero altera el resultado de todos los demás. |
 | Furgón / van | **Aparece** la carga variable del reparto; los espejos sustituyen a la visión trasera directa. | La referencia visual del conductor cambia de sitio. |
 | Eléctrico | **Desaparece** el pedal de embrague y **desaparece** el tramo de marchas de la palanca selectora, que queda en `P R N D`. El acelerador pasa a mandar par directo y a gestionar la regeneración al soltarlo. | El pie izquierdo deja de tener función y el tacómetro pierde sentido. |
@@ -83,11 +83,11 @@ con embrague, que no existe.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-automovil.md):
+[Clase 9](../simulacion/diseno-simulador-automovil.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Hatchback / ciudad | Ninguna: es el caso base. | El del Módulo 5. |
+| Hatchback / ciudad | Ninguna: es el caso base. | El del Clase 5. |
 | Sedan | `Peso y carga` sube algo; `Velocidad` mantiene su rango. | El mismo. |
 | SUV / crossover | `Adherencia` se resiente antes en curva por el balanceo; `Peso y carga` sube. | El mismo. |
 | Pickup / camioneta | `Peso y carga` deja de ser fijo y pasa a variar durante la partida; `Adherencia` del eje trasero depende de esa carga. | El mismo. |
@@ -135,13 +135,55 @@ El resto de modelos sí caben en un mismo simulador ajustando rangos, tal como
 plantean los [niveles de realismo](../../../docs/03-niveles-de-realismo.md): en el
 nivel 1 casi todos se comportan igual, y las diferencias emergen a medida que el
 nivel sube. No es casualidad que el
-[Módulo 6](../operacion/principios-automovil.md) sitúe el embrague y las marchas
+[Clase 6](../operacion/principios-automovil.md) sitúe el embrague y las marchas
 en el nivel 3: son justo lo que separa un esquema de control del otro.
 
 > ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar tracción delantera frente a tracción trasera frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «tracción delantera frente a tracción trasera» resuelven prioridades distintas. Una comparación profesional sigue la cadena motor → transmisión → diferencial → ruedas motrices: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **transferencia de carga y reparto del círculo de adherencia entre frenar, girar y acelerar**. El hilo de
+seguridad consiste en reconocer a tiempo **perder estabilidad por combinar exceso de velocidad, giro y frenado tardío** y poder justificar la decisión
+**crear margen de detención y dosificar dirección y freno según la superficie**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → diferencial → ruedas motrices**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Manuales para conductores](https://www.conaset.cl/manuales/) se usa para formación vial y seguridad. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **frenada de emergencia en una calzada con adherencia desigual**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **motor** hasta **ruedas motrices**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **motor → transmisión → diferencial → ruedas motrices** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «frenada de emergencia en una calzada con adherencia desigual» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

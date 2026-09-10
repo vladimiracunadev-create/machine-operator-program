@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 8
 codigo: CRUCEROS-08
@@ -16,7 +16,7 @@ evidencia: "Ficha normativa con decisión y fuente trazable."
 criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # ⚖️ Reglamentos: Cruceros (Chile)
 
@@ -75,6 +75,48 @@ Referencia educativa y de diseño de simulación. Marco general en
 - Modelar luces de navegación, prioridades COLREG y maniobras de puerto.
 - Representar el compartimentado y la estabilidad tras avería de forma didáctica.
 - Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Ámbito, Títulos y dotación, Requisitos y convenios y Reglas de seguridad** a **interrumpir la cadena que podría producir contacto con muelle o pérdida de separación por subestimar abatimiento**?
+
+### Explicación razonada
+
+La regla de seguridad debe conectarse con un mecanismo de daño. El riesgo «contacto con muelle o pérdida de separación por subestimar abatimiento» se controla mediante límites, inspección, competencia y coordinación; cada medida corta una parte de la cadena causal. En una situación real prevalecen la autoridad aplicable y el manual vigente de Cruceros.
+
+Esta clase se conecta con el resto del curso mediante **maniobrabilidad de gran masa combinada con viento lateral y efecto de aguas restringidas**. El hilo de
+seguridad consiste en reconocer a tiempo **contacto con muelle o pérdida de separación por subestimar abatimiento** y poder justificar la decisión
+**coordinar propulsión, remolcadores y límites de viento antes de aproximar**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **generación eléctrica → propulsión → hélices o pods → casco y gobierno**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) aporta navegación, SOLAS, COLREG y STCW;
+[Collision Regulations](https://www.imo.org/en/about/conventions/pages/colreg.aspx) se usa para prevención de abordajes. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Describir el daño:** explica cómo se llegaría a **contacto con muelle o pérdida de separación por subestimar abatimiento** sin usar solo la palabra “peligro”.
+2. **Localizar controles:** asocia inspección, límite, competencia o coordinación con un punto de la cadena causal.
+3. **Consultar:** distingue qué afirma la fuente pública y qué debe verificarse en normativa y manual vigentes.
+4. **Resolver:** documenta por qué **coordinar propulsión, remolcadores y límites de viento antes de aproximar** es una decisión preventiva y verificable.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mecanismo concreto conduce a **contacto con muelle o pérdida de separación por subestimar abatimiento**?
+2. ¿Qué barrera preventiva actúa antes del movimiento y cuál durante la operación?
+3. ¿Qué parte de la respuesta requiere consultar normativa o manual vigente?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

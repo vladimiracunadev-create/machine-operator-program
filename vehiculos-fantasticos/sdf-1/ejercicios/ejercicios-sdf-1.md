@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: SDF1-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del SDF-1
 
@@ -47,7 +47,7 @@ la masa por **ocho** (crece con el cubo, igual que el volumen). Esa asimetría e
 la ley del cubo-cuadrado y es el corazón del curso: agrandar no es "lo mismo
 pero más grande", porque la masa se dispara mucho más rápido que la superficie.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-sdf-1.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-sdf-1.md).
 
 </details>
 
@@ -130,7 +130,7 @@ naturaleza. Distinguirlas de la física real es el objetivo educativo del curso;
 señalarlas no es criticar la obra, sino aprender la diferencia entre lo que
 impresiona en pantalla y lo que ocurriría de verdad.
 
-Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-sdf-1.md).
+Clase 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-sdf-1.md).
 
 </details>
 
@@ -222,7 +222,7 @@ tensión sube, y entiende solo por qué agrandar no es gratis. El modo de juego
 enseña lo mismo desde la experiencia: se ordena el mismo empuje y una responde y
 la otra apenas se mueve.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-sdf-1.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-sdf-1.md).
 
 </details>
 
@@ -260,6 +260,48 @@ y [🎮 Diseño de simulación](../simulacion/diseno-simulador-sdf-1.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Distingue la física de la licencia creativa, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para transformación simulada mientras algunos sistemas están degradados**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «transformación simulada mientras algunos sistemas están degradados» hay que reconstruir la cadena energía ficticia → propulsión → transformación estructural → nave y población, aplicar el principio «una nave-ciudad combina movilidad, transformación y continuidad de servicios», reconocer el riesgo y defender una decisión verificable: secuenciar transición, aislar servicios y representar costos operativos.
+
+Esta clase se conecta con el resto del curso mediante **una nave-ciudad combina movilidad, transformación y continuidad de servicios**. El hilo de
+seguridad consiste en reconocer a tiempo **tratar la transformación como efecto visual sin impactos en energía, estructura y habitabilidad** y poder justificar la decisión
+**secuenciar transición, aislar servicios y representar costos operativos**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → propulsión → transformación estructural → nave y población**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Robotech](https://robotech.com/) aporta referencia oficial del universo ficticio;
+[Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) se usa para naves, sistemas y misiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **energía ficticia → propulsión → transformación estructural → nave y población** ante **transformación simulada mientras algunos sistemas están degradados**.
+2. **Explicar:** aplica **una nave-ciudad combina movilidad, transformación y continuidad de servicios** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **secuenciar transición, aislar servicios y representar costos operativos** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **modo crucero frente a configuración humanoide**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «transformación simulada mientras algunos sistemas están degradados»?
+2. ¿Qué alternativa a **secuenciar transición, aislar servicios y representar costos operativos** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

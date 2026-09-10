@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 9
 codigo: HALCONMILENA-09
@@ -16,7 +16,7 @@ evidencia: "Ficha de escenario y diagrama de estados."
 criterio_aprobacion: "El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎮 Diseño de simulación del Halcón Milenario
 
@@ -110,6 +110,59 @@ que la comparación sea explícita y educativa.
 - [ ] Prototipar el ciclo básico con relación empuje/masa.
 - [ ] Ajustar el descuento de delta-v por carga añadida.
 - [ ] Agregar fuentes de divulgación a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Objetivo de la simulación, Modo ciencia o ficción, Variables principales y Ciclo básico** a **modelar escape ficticio con hiperimpulsor degradado como estados, variables y decisiones observables**?
+
+### Explicación razonada
+
+Una simulación de Halcón Milenario es educativa si representa decisiones y consecuencias. Como mínimo debe modelar el estado de reactor ficticio, la respuesta de hiperimpulsor, la transición en control de actitud y el resultado en trayectoria. El escenario «escape ficticio con hiperimpulsor degradado» es valioso porque obliga a observar, formular una hipótesis, actuar y comprobar.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Preparado
+    Preparado --> Operando: orden válida
+    Operando --> Degradado: límite o falla
+    Degradado --> Seguro: decisión correctiva
+    Operando --> Completado: criterio logrado
+    Seguro --> [*]
+    Completado --> [*]
+```
+
+Esta clase se conecta con el resto del curso mediante **contraste entre prestaciones canónicas y un modelo consistente de energía, inercia y navegación**. El hilo de
+seguridad consiste en reconocer a tiempo **usar la velocidad narrativa como sustituto de decisiones y estados comprensibles** y poder justificar la decisión
+**hacer visibles prerrequisitos, fallas y consecuencias de cada modo de propulsión**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **reactor ficticio → hiperimpulsor → control de actitud → trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Millennium Falcon](https://www.starwars.com/databank/millennium-falcon) aporta canon narrativo del vehículo;
+[Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) se usa para naves, sistemas y misiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Estado inicial:** representa escape ficticio con hiperimpulsor degradado con valores observables para **reactor ficticio**, **hiperimpulsor**, **control de actitud** y **trayectoria**.
+2. **Decisión del estudiante:** ofrece una elección que cambie el estado, no una animación automática.
+3. **Consecuencia:** modela la tendencia hacia **usar la velocidad narrativa como sustituto de decisiones y estados comprensibles** y una señal previa que permita corregir.
+4. **Cierre:** evalúa la explicación de la decisión, además de si el estudiante “ganó” el escenario.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cuatro estados mínimos necesita el escenario «escape ficticio con hiperimpulsor degradado»?
+2. ¿Qué variable anticipa **usar la velocidad narrativa como sustituto de decisiones y estados comprensibles** antes de llegar al estado de falla?
+3. ¿Cómo evaluarías la explicación del estudiante y no solo el resultado final?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

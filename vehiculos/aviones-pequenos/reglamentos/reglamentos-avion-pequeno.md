@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 8
 codigo: AVIONESPEQUE-08
@@ -16,7 +16,7 @@ evidencia: "Ficha normativa con decisión y fuente trazable."
 criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # ⚖️ Reglamentos del avión pequeño (Chile)
 
@@ -67,6 +67,48 @@ Referencia educativa y de diseño de simulación. Marco general en
 - El núcleo educativo son los instrumentos de vuelo y la navegación aérea.
 - Modelar chequeos previos, plan de vuelo y comunicaciones básicas.
 - Registrar cada norma usada en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Ámbito, Licencias del personal, Requisitos y elementos y Reglas de seguridad** a **interrumpir la cadena que podría producir pérdida aerodinámica o salida de pista por velocidad y trayectoria inestables**?
+
+### Explicación razonada
+
+La regla de seguridad debe conectarse con un mecanismo de daño. El riesgo «pérdida aerodinámica o salida de pista por velocidad y trayectoria inestables» se controla mediante límites, inspección, competencia y coordinación; cada medida corta una parte de la cadena causal. En una situación real prevalecen la autoridad aplicable y el manual vigente de Aviones pequeños.
+
+Esta clase se conecta con el resto del curso mediante **balance entre sustentación, peso, empuje y resistencia dentro de una envolvente limitada**. El hilo de
+seguridad consiste en reconocer a tiempo **pérdida aerodinámica o salida de pista por velocidad y trayectoria inestables** y poder justificar la decisión
+**estabilizar aproximación y frustrar si no se cumplen criterios antes del umbral**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → hélice → flujo de aire → alas y mandos**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) aporta aerodinámica, sistemas y operación;
+[Normativa aeronáutica](https://www.dgac.gob.cl/normativa/) se usa para marco aeronáutico chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Describir el daño:** explica cómo se llegaría a **pérdida aerodinámica o salida de pista por velocidad y trayectoria inestables** sin usar solo la palabra “peligro”.
+2. **Localizar controles:** asocia inspección, límite, competencia o coordinación con un punto de la cadena causal.
+3. **Consultar:** distingue qué afirma la fuente pública y qué debe verificarse en normativa y manual vigentes.
+4. **Resolver:** documenta por qué **estabilizar aproximación y frustrar si no se cumplen criterios antes del umbral** es una decisión preventiva y verificable.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mecanismo concreto conduce a **pérdida aerodinámica o salida de pista por velocidad y trayectoria inestables**?
+2. ¿Qué barrera preventiva actúa antes del movimiento y cuál durante la operación?
+3. ¿Qué parte de la respuesta requiere consultar normativa o manual vigente?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

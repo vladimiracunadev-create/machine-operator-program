@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: ESTACIONESPA-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación de la estación espacial
 
@@ -86,6 +86,55 @@ lo que hay dentro caen juntos en la misma órbita.
 - **Nivel 3 (técnico)**: sumar acoplamiento preciso, reimpulso de órbita y EVA.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Principios de funcionamiento, La microgravedad en una idea, Fases de operación y Vida en microgravedad: idea general** a **resolver pérdida parcial de generación durante una actividad planificada sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: equilibrio continuo de energía, atmósfera, calor y orientación orbital. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: aislar la falla y priorizar cargas esenciales antes de recuperar la misión.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["equilibrio continuo de energía, atmósfera, calor y orientación orbital"]
+    P --> R["riesgo: degradación de soporte vital o energía por priorización tardía"]
+    R --> D["decisión: aislar la falla y priorizar cargas esenciales antes de recuperar la misión"]
+```
+
+Esta clase se conecta con el resto del curso mediante **equilibrio continuo de energía, atmósfera, calor y orientación orbital**. El hilo de
+seguridad consiste en reconocer a tiempo **degradación de soporte vital o energía por priorización tardía** y poder justificar la decisión
+**aislar la falla y priorizar cargas esenciales antes de recuperar la misión**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **paneles solares → distribución eléctrica → soporte vital → módulos y tripulación**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [International Space Station](https://www.nasa.gov/reference/international-space-station/) aporta módulos, órbita y soporte vital;
+[Space Law Treaties and Principles](https://www.unoosa.org/oosa/SpaceLaw/treaties.html) se usa para derecho espacial internacional. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **pérdida parcial de generación durante una actividad planificada**.
+2. **Modelo:** aplica **equilibrio continuo de energía, atmósfera, calor y orientación orbital** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **degradación de soporte vital o energía por priorización tardía**.
+4. **Decisión:** ejecuta mentalmente **aislar la falla y priorizar cargas esenciales antes de recuperar la misión** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «equilibrio continuo de energía, atmósfera, calor y orientación orbital» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **módulos y tripulación**?
+3. ¿Qué evidencia confirmaría que **aislar la falla y priorizar cargas esenciales antes de recuperar la misión** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

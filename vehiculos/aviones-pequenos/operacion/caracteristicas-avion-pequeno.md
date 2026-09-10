@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: AVIONESPEQUE-02
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características funcionales del avión pequeño
 
 [🏠 Inicio](../../../README.md) · [🛩️ Curso: Aviones pequeños](../README.md) · 📋 Características
 
-Que es un avión pequeño, que tipos existen y para que sirve cada uno. Este módulo
-da el contexto antes de abrir los sistemas de la aeronave (Módulo 4).
+Que es un avión pequeño, que tipos existen y para que sirve cada uno. Esta clase
+da el contexto antes de abrir los sistemas de la aeronave (Clase 4).
 
 ---
 
@@ -82,6 +82,48 @@ flowchart TD
 - Trabajo aéreo: fotografía, vigilancia, fumigación agrícola.
 - Deporte, turismo y vuelo recreativo.
 - Traslado sanitario y apoyo en emergencias.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Tipos de avión pequeño y Para qué se usa** a **elegir una configuración adecuada para aproximación con viento cruzado y pista corta**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Aviones pequeños, la relación entre motor, hélice, flujo de aire y alas y mandos determina capacidad, respuesta y límites. Por eso «entrenador de ala alta frente a turismo de ala baja» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «pérdida aerodinámica o salida de pista por velocidad y trayectoria inestables».
+
+Esta clase se conecta con el resto del curso mediante **balance entre sustentación, peso, empuje y resistencia dentro de una envolvente limitada**. El hilo de
+seguridad consiste en reconocer a tiempo **pérdida aerodinámica o salida de pista por velocidad y trayectoria inestables** y poder justificar la decisión
+**estabilizar aproximación y frustrar si no se cumplen criterios antes del umbral**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → hélice → flujo de aire → alas y mandos**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) aporta aerodinámica, sistemas y operación;
+[Normativa aeronáutica](https://www.dgac.gob.cl/normativa/) se usa para marco aeronáutico chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «aproximación con viento cruzado y pista corta» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **entrenador de ala alta frente a turismo de ala baja** usando esos requisitos y la cadena **motor → hélice → flujo de aire → alas y mandos**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **pérdida aerodinámica o salida de pista por velocidad y trayectoria inestables**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **alas y mandos** condiciona primero el caso «aproximación con viento cruzado y pista corta»?
+2. ¿Qué requisito descartaría una de las alternativas **entrenador de ala alta frente a turismo de ala baja**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: THUNDERBIRD2-04
@@ -16,7 +16,7 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del Thunderbird 2
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo abre el transporte pesado modular por dentro. Compara la tecnología
+Esta clase abre el transporte pesado modular por dentro. Compara la tecnología
 imaginaria de la ficción con la física real que la haría funcionar (o que la
 desmiente). La regla del curso es clara: describimos conceptos con nuestras
 palabras, sin copiar planos ni especificaciones oficiales.
@@ -150,8 +150,57 @@ impacto del contacto. Un apoyo insuficiente se hunde o se rompe.
 4. El **reparto de peso** mantiene el centro de masa en un punto estable.
 5. El **tren de aterrizaje** recibe toda la carga al posarse.
 
-Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-thunderbird-2.md)
+Con esto claro, el [Clase 5: Mandos](../mandos/manual-mandos-thunderbird-2.md)
 muestra como el piloto operaría cada sistema.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Estructura y bastidor, Sistema de anclaje de módulos, Propulsión para carga pesada y Reparto de peso y centro de masa** a **seguir una alteración desde energía ficticia hasta carga de rescate durante despegue vertical ficticio con módulo pesado de rescate**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: energía ficticia entrega o transforma energía; sustentación y propulsión la adapta; bahía modular la transmite o gobierna; y carga de rescate produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de carga de rescate y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["energía ficticia"] --> B["sustentación y propulsión"] --> C["bahía modular"] --> D["carga de rescate"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **la carga modular cambia masa, centro de gravedad, potencia y misión**. El hilo de
+seguridad consiste en reconocer a tiempo **ignorar cómo la carga modifica control, autonomía y zona de operación** y poder justificar la decisión
+**recalcular margen y seleccionar zona antes de comprometer el aterrizaje**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → sustentación y propulsión → bahía modular → carga de rescate**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Thunderbirds Vehicles](https://www.thunderbirds.com/) aporta referencia oficial de vehículos de rescate;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **energía ficticia** durante **despegue vertical ficticio con módulo pesado de rescate**.
+2. **Transformación:** explica qué hacen **sustentación y propulsión** y **bahía modular**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **carga de rescate** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **ignorar cómo la carga modifica control, autonomía y zona de operación**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **sustentación y propulsión**, ¿qué efecto esperarías primero en **bahía modular** y después en **carga de rescate**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **energía ficticia** de una falla de **bahía modular**?
+3. ¿Por qué una segunda orden podría agravar **ignorar cómo la carga modifica control, autonomía y zona de operación**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

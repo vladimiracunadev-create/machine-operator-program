@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: HALCONMILENA-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del Halcón Milenario
 
@@ -48,7 +48,7 @@ dividido por la masa total de la nave más su carga. Más empuje acelera más;
 más masa acelera menos. Un carguero "rápido" sería aquel con motores muy
 grandes para su masa, no el que tenga mejor fama o mejor forma.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-halcon-milenario.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-halcon-milenario.md).
 
 </details>
 
@@ -63,7 +63,7 @@ así que frenar exige encender los motores en sentido contrario y gastar
 propelente. La ficción hace que la nave "frene al soltar el acelerador" porque
 da a las persecuciones un ritmo de coche, pero eso no ocurriría.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-halcon-milenario.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-halcon-milenario.md).
 
 </details>
 
@@ -79,7 +79,7 @@ tonelada de carga extra lo recorta. Cuando se agota, la nave ya no puede
 acelerar, frenar ni cambiar de rumbo, aunque le sobre energía eléctrica. Por eso
 el nivel del depósito por sí solo no dice qué maniobras quedan disponibles.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-halcon-milenario.md)
+Clase 6: [🧪 Principios y operación](../operacion/principios-halcon-milenario.md)
 y módulo 9: [🧰 Recursos](../recursos/recursos-halcon-milenario.md).
 
 </details>
@@ -95,7 +95,7 @@ disponible que haya. La "planta de energía casi infinita" de la ficción es
 plausible como idea, pero no resuelve el problema real: la masa que se expulsa
 siempre se gasta.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-halcon-milenario.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-halcon-milenario.md).
 
 </details>
 
@@ -113,7 +113,7 @@ y la interfaz debe mostrar simultáneamente el indicador de orientación y el
 vector de velocidad. La masa total también debe estar siempre visible, porque es
 la que decide cuánto responde la nave.
 
-Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-halcon-milenario.md).
+Clase 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-halcon-milenario.md).
 
 </details>
 
@@ -129,7 +129,7 @@ con la física real no para criticar la obra —son licencias creativas legítim
 sino para aprender la diferencia entre lo que emociona en pantalla y lo que
 ocurriría de verdad.
 
-Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-halcon-milenario.md).
+Clase 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-halcon-milenario.md).
 
 </details>
 
@@ -178,7 +178,7 @@ principales y gastar delta-v. Además, con la bodega llena tanto iniciar el giro
 como detenerlo cuesta más. La maniobra realista es lenta y planificada con
 antelación, no brusca.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-halcon-milenario.md)
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-halcon-milenario.md)
 y módulo 7: [⚖️ Reglas del universo](../reglamentos/reglas-universo-halcon-milenario.md).
 
 </details>
@@ -226,7 +226,7 @@ más en cambiar de velocidad y que el presupuesto de maniobra se vacía antes.
 El ciclo básico ya lo soporta: calcula la masa total sumando nave más carga, y
 después la aceleración como empuje dividido por masa.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-halcon-milenario.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-halcon-milenario.md).
 
 </details>
 
@@ -267,6 +267,48 @@ Módulos 7 y 8:
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Distingue la física de la licencia creativa, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para escape ficticio con hiperimpulsor degradado**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «escape ficticio con hiperimpulsor degradado» hay que reconstruir la cadena reactor ficticio → hiperimpulsor → control de actitud → trayectoria, aplicar el principio «contraste entre prestaciones canónicas y un modelo consistente de energía, inercia y navegación», reconocer el riesgo y defender una decisión verificable: hacer visibles prerrequisitos, fallas y consecuencias de cada modo de propulsión.
+
+Esta clase se conecta con el resto del curso mediante **contraste entre prestaciones canónicas y un modelo consistente de energía, inercia y navegación**. El hilo de
+seguridad consiste en reconocer a tiempo **usar la velocidad narrativa como sustituto de decisiones y estados comprensibles** y poder justificar la decisión
+**hacer visibles prerrequisitos, fallas y consecuencias de cada modo de propulsión**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **reactor ficticio → hiperimpulsor → control de actitud → trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Millennium Falcon](https://www.starwars.com/databank/millennium-falcon) aporta canon narrativo del vehículo;
+[Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) se usa para naves, sistemas y misiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **reactor ficticio → hiperimpulsor → control de actitud → trayectoria** ante **escape ficticio con hiperimpulsor degradado**.
+2. **Explicar:** aplica **contraste entre prestaciones canónicas y un modelo consistente de energía, inercia y navegación** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **hacer visibles prerrequisitos, fallas y consecuencias de cada modo de propulsión** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **vuelo sublumínico frente a salto hiperespacial**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «escape ficticio con hiperimpulsor degradado»?
+2. ¿Qué alternativa a **hacer visibles prerrequisitos, fallas y consecuencias de cada modo de propulsión** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

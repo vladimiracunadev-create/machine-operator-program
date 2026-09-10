@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: TRENCARGA-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del tren de carga
 
@@ -46,7 +46,7 @@ sobre rieles. En la tracción eléctrica por catenaria no hay motor diesel: el
 pantógrafo toma corriente del cable aéreo y alimenta directamente los motores de
 tracción.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md).
 
 </details>
 
@@ -61,7 +61,7 @@ cuando sube. Una tubería con aire recorre todo el tren; al reducir la presión,
 cada vagón aplica su freno de forma automática y a la vez. Si el tren se parte,
 la presión cae sola y toda la composición frena sin que nadie intervenga.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md).
 
 </details>
 
@@ -77,7 +77,7 @@ adherencia limitada es la que restringe la fuerza de arranque y de frenado, así
 que el arenado permite aplicar más fuerza sin patinar, sobre todo al arrancar con
 gran tonelaje o con el riel húmedo.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md)
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md)
 y módulo 9: [🧰 Recursos](../recursos/recursos-tren-carga.md).
 
 </details>
@@ -94,7 +94,7 @@ son aplicar la tracción de forma **progresiva**, evitar mezclar tramos en tensi
 y en compresión a la vez, usar el freno dinámico para controlar la velocidad de
 forma suave, anticipar las pendientes y coordinar las locomotoras remotas.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-carga.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-tren-carga.md).
 
 </details>
 
@@ -108,7 +108,7 @@ en la locomotora y en los vagones. El **freno independiente** frena solo la
 locomotora, y por eso es útil en maniobras y en ajustes finos, como los del patio
 de maniobras.
 
-Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-tren-carga.md).
+Clase 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-tren-carga.md).
 
 </details>
 
@@ -124,7 +124,7 @@ abiertos sino sobre una vía férrea controlada. En el marco chileno, EFE figura
 como dueño de la infraestructura y operador estatal histórico, y el MTT en el rol
 regulador del sector.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-carga.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-carga.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -149,7 +149,7 @@ tracción actúan como generadores y retienen el tren convirtiendo su movimiento
 electricidad, sin gastar zapatas. Sumado a eso, gran anticipación y arenado si la
 adherencia está comprometida.
 
-Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-tren-carga.md) y
+Clase 7: [🌍 Entornos de trabajo](../operacion/entornos-tren-carga.md) y
 módulo 3: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-carga.md).
 
 </details>
@@ -170,7 +170,7 @@ enganches, que es exactamente la fuerza longitudinal que puede romperlos.
 La recomendación es tracción **progresiva**, arenado para subir la adherencia al
 arrancar, y vigilar el patinaje mientras se sube el esfuerzo.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-carga.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-tren-carga.md).
 
 </details>
 
@@ -189,7 +189,7 @@ Corresponde quedarse en la fase de carga de aire y esperar a que la presión
 llegue a toda la composición, revisando enganches y mangueras de aire como en la
 inspección previa. Solo con el aire cargado el tren pasa al estado de preparado.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-carga.md) y
+Clase 6: [🧪 Principios y operación](../operacion/principios-tren-carga.md) y
 módulo 7: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-carga.md).
 
 </details>
@@ -212,7 +212,7 @@ puede transmitir y las ruedas patinan. La interfaz debería advertir el patinaje
 sugerir arenado en los niveles de realismo más altos; al arenar, el indicador
 sube y el tren por fin avanza.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tren-carga.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tren-carga.md).
 
 </details>
 
@@ -229,7 +229,7 @@ introduce la inercia, la adherencia limitada y la distancia de frenado, que son
 los conceptos físicos centrales de la gestión de masa. Las fuerzas
 longitudinales, el distributed power y el freno dinámico llegan al final.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-carga.md) y
+Clase 6: [🧪 Principios y operación](../operacion/principios-tren-carga.md) y
 los [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
@@ -248,6 +248,48 @@ los [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para arranque de un tren largo en rampa con holguras entre enganches**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «arranque de un tren largo en rampa con holguras entre enganches» hay que reconstruir la cadena locomotora → generador y tracción → enganches → rueda-carril, aplicar el principio «fuerzas longitudinales del tren y propagación del freno neumático», reconocer el riesgo y defender una decisión verificable: aplicar potencia y freno de modo gradual considerando la longitud completa.
+
+Esta clase se conecta con el resto del curso mediante **fuerzas longitudinales del tren y propagación del freno neumático**. El hilo de
+seguridad consiste en reconocer a tiempo **rotura de enganche, patinaje o compresión excesiva del convoy** y poder justificar la decisión
+**aplicar potencia y freno de modo gradual considerando la longitud completa**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **locomotora → generador y tracción → enganches → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **locomotora → generador y tracción → enganches → rueda-carril** ante **arranque de un tren largo en rampa con holguras entre enganches**.
+2. **Explicar:** aplica **fuerzas longitudinales del tren y propagación del freno neumático** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **aplicar potencia y freno de modo gradual considerando la longitud completa** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **carga unitaria frente a carga mixta**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «arranque de un tren largo en rampa con holguras entre enganches»?
+2. ¿Qué alternativa a **aplicar potencia y freno de modo gradual considerando la longitud completa** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

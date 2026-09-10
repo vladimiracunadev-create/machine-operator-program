@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: THUNDERBIRD1-04
@@ -16,7 +16,7 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos de Thunderbird 1
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo abre Thunderbird 1 por dentro. Compara la tecnología imaginaria de
+Esta clase abre Thunderbird 1 por dentro. Compara la tecnología imaginaria de
 la ficción con la física real que la haría funcionar (o que la desmiente). La
 regla del curso es clara: describimos conceptos con nuestras palabras, sin copiar
 planos ni especificaciones oficiales.
@@ -151,8 +151,57 @@ que evacuar para no dañar la estructura.
 4. La **computadora** equilibra empuje y toberas para un vuelo estable.
 5. Los **sensores** informan de altura, velocidad y entorno.
 
-Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-thunderbird-1.md)
+Con esto claro, el [Clase 5: Mandos](../mandos/manual-mandos-thunderbird-1.md)
 muestra como el piloto operaría cada sistema.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Fuente de energía, Motor de empuje y despegue vertical, Toberas vectorizadas y empuje dirigido y Computadora de vuelo y sensores** a **seguir una alteración desde energía ficticia hasta trayectoria de respuesta durante despliegue de rescate a una pista corta con meteorología cambiante**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: energía ficticia entrega o transforma energía; propulsión la adapta; superficies de control la transmite o gobierna; y trayectoria de respuesta produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de trayectoria de respuesta y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["energía ficticia"] --> B["propulsión"] --> C["superficies de control"] --> D["trayectoria de respuesta"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **una aeronave de alerta rápida prioriza tiempo de llegada sin abandonar energía ni margen de aterrizaje**. El hilo de
+seguridad consiste en reconocer a tiempo **convertir velocidad narrativa en llegada segura sin plan de aproximación** y poder justificar la decisión
+**separar crucero rápido de aproximación estabilizada y mantener alternativa**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → propulsión → superficies de control → trayectoria de respuesta**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Thunderbirds Vehicles](https://www.thunderbirds.com/) aporta referencia oficial de vehículos de rescate;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **energía ficticia** durante **despliegue de rescate a una pista corta con meteorología cambiante**.
+2. **Transformación:** explica qué hacen **propulsión** y **superficies de control**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **trayectoria de respuesta** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **convertir velocidad narrativa en llegada segura sin plan de aproximación**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **propulsión**, ¿qué efecto esperarías primero en **superficies de control** y después en **trayectoria de respuesta**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **energía ficticia** de una falla de **superficies de control**?
+3. ¿Por qué una segunda orden podría agravar **convertir velocidad narrativa en llegada segura sin plan de aproximación**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

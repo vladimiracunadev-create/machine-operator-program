@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: DELOREAN-03
@@ -16,7 +16,7 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del DeLorean temporal
 
@@ -24,9 +24,9 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-El [Módulo 2](../operacion/caracteristicas-delorean.md) ya dijo que esta nave es
+El [Clase 2](../operacion/caracteristicas-delorean.md) ya dijo que esta nave es
 un objeto doble: un automóvil que obedece la física y una máquina imaginaria que
-la rompe para contar una historia. Este módulo responde a lo siguiente: **esa
+la rompe para contar una historia. Esta clase responde a lo siguiente: **esa
 dualidad no es un matiz de ambientación**. Cambia qué mandos tienen función y,
 por tanto, qué debe modelar el simulador.
 
@@ -41,16 +41,16 @@ por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-delorean.md) describe un puesto de mando
+El [Clase 5](../mandos/manual-mandos-delorean.md) describe un puesto de mando
 partido en dos zonas: una **zona de conducción** con acelerador, freno y
 dirección, y una **zona temporal** ficticia con selector de fecha, carga de
-energía y botón de salto. El [Módulo 9](../simulacion/diseno-simulador-delorean.md)
+energía y botón de salto. El [Clase 9](../simulacion/diseno-simulador-delorean.md)
 expone variables de ambas: `Velocidad` junto a `Energía acumulada`,
 `Fecha objetivo` y `Riesgo de paradoja`.
 
 Ninguna partida usa las dos zonas a la vez con la misma autoridad. En **modo
 carretera** solo actúa la parte real, tal como dice el
-[Módulo 4](../operacion/sistemas-mecanicos-delorean.md): motor, frenos y ruedas.
+[Clase 4](../operacion/sistemas-mecanicos-delorean.md): motor, frenos y ruedas.
 La zona temporal está ahí, visible, sin función. En **modo salto** se activa la
 parte ficticia, que no corresponde a ninguna tecnología conocida.
 
@@ -76,7 +76,7 @@ desaparecer.
 | Nivel 3 (técnico) | Se separa potencia de energía y se comentan las curvas temporales cerradas como idea teórica. |
 
 Sobre la **fuente de energía**, el curso es deliberadamente sobrio: el
-[Módulo 7](../operacion/entornos-delorean.md) reconoce una fuente potente con
+[Clase 7](../operacion/entornos-delorean.md) reconoce una fuente potente con
 carga disponible y ritmo de entrega, pero **no documenta variantes de fuente**.
 No las inventamos aquí. La escala enorme y no justificada es, precisamente, el
 rasgo educativo.
@@ -90,7 +90,7 @@ rasgo educativo.
 | Modo carretera normal | Solo la zona de conducción tiene función. La zona temporal completa (fecha, carga, salto) **queda inerte**. | Tres controles del puesto no responden: están presentes y no operan. |
 | Modo salto temporal ficticio | **Entran en juego** el selector de fecha, la carga de energía y el botón de salto. | El acelerador cambia de sentido: deja de servir para desplazarse y pasa a servir para cumplir una condición. |
 | Modo ciencia | Ningún control desaparece, pero el **botón de salto queda deshabilitado** y la carga de energía pierde su motivo. | Es el caso fuerte: un mando visible que no actúa, y esa negativa es el contenido que se enseña. |
-| Modo ficción | Ninguno desaparece: el mapa del Módulo 5 aplica entero. | Se suma el aviso de causalidad, que informa y no castiga. |
+| Modo ficción | Ninguno desaparece: el mapa del Clase 5 aplica entero. | Se suma el aviso de causalidad, que informa y no castiga. |
 | Interruptor ciencia/ficción | **Existe siempre**, en todos los modos. No es real ni ficticio: es educativo. | Es el único mando que no pertenece al vehículo, sino al curso. |
 
 ---
@@ -98,12 +98,12 @@ rasgo educativo.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-delorean.md):
+[Clase 9](../simulacion/diseno-simulador-delorean.md):
 
 | Modo o variante | Variables que cambian | Esquema de control |
 | --- | --- | --- |
 | Modo carretera normal | Solo vive `Velocidad`. `Energía acumulada`, `Fecha objetivo` y `Riesgo de paradoja` quedan sin uso. | Acelerador, freno y dirección; nada más responde. |
-| Modo salto temporal ficticio | `Umbral alcanzado` pasa a gobernar la transición de estado; `Energía acumulada` y `Fecha objetivo` se vuelven decisivas. | El del Módulo 5 completo, con la zona temporal activa. |
+| Modo salto temporal ficticio | `Umbral alcanzado` pasa a gobernar la transición de estado; `Energía acumulada` y `Fecha objetivo` se vuelven decisivas. | El del Clase 5 completo, con la zona temporal activa. |
 | Modo ciencia | `Factor de dilatación` **se resalta** como efecto real. `Energía acumulada` y `Fecha objetivo` **se congelan**: no habilitan nada. | Sin salida de salto: al llegar al umbral el estado va a `Bloqueado`. |
 | Modo ficción | `Riesgo de paradoja` **entra en el cálculo** y alimenta el aviso de causalidad. `Factor de dilatación` se ignora o simplifica. | Con salida de salto: del umbral se pasa a `Salto` y luego a `Análisis`. |
 | `Modo ciencia/ficción` | No cambia con nada: **es la variable que cambia a las demás**. | Es la entrada que reconfigura el resto del esquema. |
@@ -136,7 +136,7 @@ control es otro:
 
 - **El modo carretera frente al modo salto**: no es que la zona temporal sea
   más difícil de usar, es que **no responde**. Tres controles del puesto de
-  mando dejan de tener función y tres variables del Módulo 9 dejan de tener
+  mando dejan de tener función y tres variables del Clase 9 dejan de tener
   valores que tomar. Es un modo de control distinto, no una dificultad
   distinta.
 - **El modo ciencia frente al modo ficción**: aquí no falta ningún control, y
@@ -155,6 +155,48 @@ medida que el nivel sube. Las reglas internas que gobiernan el modo ficción se
 detallan en las
 [reglas del universo](../reglamentos/reglas-universo-delorean.md), con su aviso
 de que no son ley real.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar DeLorean de serie frente a máquina temporal ficticia frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «DeLorean de serie frente a máquina temporal ficticia» resuelven prioridades distintas. Una comparación profesional sigue la cadena motor y alimentación ficticia → transmisión → ruedas → sistema temporal: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **separación entre mecánica automotriz plausible y regla narrativa de velocidad y energía**. El hilo de
+seguridad consiste en reconocer a tiempo **confundir canon con física real y omitir los riesgos ordinarios del automóvil** y poder justificar la decisión
+**declarar qué regla pertenece al relato y modelar aparte movimiento, energía y seguridad reales**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor y alimentación ficticia → transmisión → ruedas → sistema temporal**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Back to the Future](https://www.universalpicturesathome.com/movies/back-to-the-future) aporta obra audiovisual primaria;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **intento de alcanzar la condición temporal en una vía con espacio limitado**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **motor y alimentación ficticia** hasta **sistema temporal**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **motor y alimentación ficticia → transmisión → ruedas → sistema temporal** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «intento de alcanzar la condición temporal en una vía con espacio limitado» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

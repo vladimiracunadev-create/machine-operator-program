@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: GRUAPORTUARI-04
@@ -16,17 +16,17 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos de la grúa portuaria
 
 [🏠 Inicio](../../../README.md) · [⚓ Curso: Grúa portuaria](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre la grúa pórtico por dentro y es el corazón del curso. Explica
+Esta clase abre la grúa pórtico por dentro y es el corazón del curso. Explica
 como se sostiene la estructura sobre los rieles del muelle, como el trolley lleva
 el spreader hasta el contenedor y cómo se mueve cada eje del izaje. Es la base
-técnica para entender los mandos (Módulo 5) y los principios de operación
-(Módulo 6).
+técnica para entender los mandos (Clase 5) y los principios de operación
+(Clase 6).
 
 ```mermaid
 flowchart LR
@@ -78,7 +78,7 @@ el equilibrio sobre el agua.
 ## 2. 🛤️ Traslación sobre rieles: gantry, trolley y boom
 
 La grúa tiene tres traslaciones principales, cada una en un eje distinto. Es útil
-distinguirlas porque los mandos (Módulo 5) las controlan por separado.
+distinguirlas porque los mandos (Clase 5) las controlan por separado.
 
 ```mermaid
 flowchart TD
@@ -244,8 +244,57 @@ estos pasos:
 7. Los twist-locks liberan la caja y el spreader sube vacío.
 8. La grúa repite el ciclo con el siguiente contenedor.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-grua-portuaria.md)
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-grua-portuaria.md)
 muestra como el operador acciona cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Estructura del pórtico, Traslación sobre rieles: gantry, trolley y boom, Trolley y spreader y Cabrestantes: hoist, trolley y gantry** a **seguir una alteración desde alimentación hasta spreader y contenedor durante traslado de un contenedor desde buque con ráfagas laterales**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: alimentación entrega o transforma energía; accionamientos la adapta; carro y cables la transmite o gobierna; y spreader y contenedor produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de spreader y contenedor y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["alimentación"] --> B["accionamientos"] --> C["carro y cables"] --> D["spreader y contenedor"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **control del péndulo y productividad sin superar límites estructurales ni de viento**. El hilo de
+seguridad consiste en reconocer a tiempo **oscilación, enganche incompleto o ingreso de personas al área de caída** y poder justificar la decisión
+**detener o suavizar el ciclo según viento, señalización y estabilidad de la carga**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **alimentación → accionamientos → carro y cables → spreader y contenedor**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) aporta izaje, riesgos y controles;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **alimentación** durante **traslado de un contenedor desde buque con ráfagas laterales**.
+2. **Transformación:** explica qué hacen **accionamientos** y **carro y cables**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **spreader y contenedor** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **oscilación, enganche incompleto o ingreso de personas al área de caída**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **accionamientos**, ¿qué efecto esperarías primero en **carro y cables** y después en **spreader y contenedor**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **alimentación** de una falla de **carro y cables**?
+3. ¿Por qué una segunda orden podría agravar **oscilación, enganche incompleto o ingreso de personas al área de caída**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

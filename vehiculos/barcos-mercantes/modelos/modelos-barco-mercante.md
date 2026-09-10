@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: BARCOSMERCAN-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del barco mercante
 
 [🏠 Inicio](../../../README.md) · [🚢 Curso: Barcos mercantes](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-barco-mercante.md) ya dijo qué tipos
-de buque mercante existen y para qué sirve cada uno. Este módulo responde a algo
+El [Clase 2](../operacion/caracteristicas-barco-mercante.md) ya dijo qué tipos
+de buque mercante existen y para qué sirve cada uno. Esta clase responde a algo
 distinto: **no todos se gobiernan igual**, y esa diferencia no es de matiz.
 Cambia qué mandos hay en el puente y, por tanto, qué debe modelar el simulador.
 
@@ -38,10 +38,10 @@ Cambia qué mandos hay en el puente y, por tanto, qué debe modelar el simulador
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-barco-mercante.md) describe un puente con
+El [Clase 5](../mandos/manual-mandos-barco-mercante.md) describe un puente con
 telégrafo de máquina como palanca de rango, un propulsor de proa en la consola
 lateral y un control de paso de hélice anotado como **"solo en hélice de paso
-variable"**. El [Módulo 9](../simulacion/diseno-simulador-barco-mercante.md)
+variable"**. El [Clase 9](../simulacion/diseno-simulador-barco-mercante.md)
 expone una variable `Régimen de máquina` de tipo **discreta**, con rango
 `atrás..avante toda` y la nota "escalonado por telégrafo". Ambos describen, sin
 decirlo, un buque de **hélice de paso fijo**.
@@ -49,9 +49,9 @@ decirlo, un buque de **hélice de paso fijo**.
 En un buque de paso variable ese escalonado no existe: el empuje se ordena
 variando el paso de las palas, de forma continua y sin invertir el giro del
 motor. La variable discreta deja de describir la máquina. Y el thruster tampoco
-es universal: el [Módulo 4](../operacion/sistemas-mecanicos-barco-mercante.md) lo
+es universal: el [Clase 4](../operacion/sistemas-mecanicos-barco-mercante.md) lo
 clasifica como propulsor **auxiliar**, y el
-[Módulo 6](../operacion/principios-barco-mercante.md) admite la alternativa
+[Clase 6](../operacion/principios-barco-mercante.md) admite la alternativa
 —remolcadores— para la misma maniobra. Si el simulador se construye sobre el
 esquema de paso fijo con thruster y luego se le "añaden" los demás, el resultado
 es un granelero que maniobra como no maniobra.
@@ -77,7 +77,7 @@ es un granelero que maniobra como no maniobra.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Carga general, Granelero, Petrolero (paso fijo) | Ninguno: el mapa de controles del Módulo 5 aplica tal cual, sin el control de paso. | Cambian los rangos y los tiempos, no los controles. |
+| Carga general, Granelero, Petrolero (paso fijo) | Ninguno: el mapa de controles del Clase 5 aplica tal cual, sin el control de paso. | Cambian los rangos y los tiempos, no los controles. |
 | Cualquier modelo **con hélice de paso variable** | **Aparece** el control de paso de hélice. El telégrafo **deja de ordenar el sentido**: dar atrás ya no exige invertir el motor. | Hay dos mandos para una sola magnitud (empuje): régimen y paso. El operador debe coordinarlos. |
 | Buque **sin thruster de proa** (habitual en graneleros y carga general) | **Desaparece** el propulsor de proa de la consola lateral y sus entradas A/D. | La maniobra de puerto se resuelve con remolcadores: el mando deja de estar en el puente y pasa a ser una orden a otra tripulación. |
 | Portacontenedores, Ro-Ro | Ninguno nuevo, pero los **mandos repetidos de las alas del puente** pasan de cómodos a imprescindibles: el costado no se ve desde la consola central. | El mismo control, ejercido desde otro sitio y con otra visión. |
@@ -89,12 +89,12 @@ es un granelero que maniobra como no maniobra.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-barco-mercante.md):
+[Clase 9](../simulacion/diseno-simulador-barco-mercante.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Carga general | Ninguna: es el caso base. | El del Módulo 5. |
-| Hélice de paso variable | `Régimen de máquina` **deja de ser discreta** y se desdobla: régimen continuo más una entrada de paso con sentido propio. | El del Módulo 5 **más** una entrada de paso; el telégrafo pierde el escalón de "atrás". |
+| Carga general | Ninguna: es el caso base. | El del Clase 5. |
+| Hélice de paso variable | `Régimen de máquina` **deja de ser discreta** y se desdobla: régimen continuo más una entrada de paso con sentido propio. | El del Clase 5 **más** una entrada de paso; el telégrafo pierde el escalón de "atrás". |
 | Sin thruster de proa | Ninguna variable nueva, pero **desaparece la entrada** de thruster del ciclo básico. | Sin cruceta lateral; la maniobra de puerto exige asistencia externa. |
 | Portacontenedores | `Estabilidad (GM)` baja al subir la carga; `Viento y corriente` gana peso en el cálculo por la superficie expuesta. | El mismo. |
 | Granelero | `Estabilidad (GM)` sube; `Calado` varía mucho entre viaje cargado y en lastre. | El mismo, normalmente sin thruster. |
@@ -150,6 +150,48 @@ puerto— el modelo elegido ya decide el puesto de mando.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar portacontenedores frente a granelero frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «portacontenedores frente a granelero» resuelven prioridades distintas. Una comparación profesional sigue la cadena motor principal → eje → hélice → casco y timón: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **inercia hidrodinámica: una orden de máquina o timón tarda en cambiar la trayectoria**. El hilo de
+seguridad consiste en reconocer a tiempo **abordaje o varada por decidir con referencias tardías** y poder justificar la decisión
+**planificar derrota, velocidad y punto de maniobra con margen suficiente**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor principal → eje → hélice → casco y timón**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) aporta navegación, SOLAS, COLREG y STCW;
+[Collision Regulations](https://www.imo.org/en/about/conventions/pages/colreg.aspx) se usa para prevención de abordajes. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **entrada a canal angosto con corriente transversal y tráfico**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **motor principal** hasta **casco y timón**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **motor principal → eje → hélice → casco y timón** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «entrada a canal angosto con corriente transversal y tráfico» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

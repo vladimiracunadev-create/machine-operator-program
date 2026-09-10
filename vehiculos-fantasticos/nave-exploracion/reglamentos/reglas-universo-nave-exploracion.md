@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 8
 codigo: NAVEEXPLORAC-08
@@ -16,7 +16,7 @@ evidencia: "Ficha normativa con decisión y fuente trazable."
 criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # ⚖️ Reglas del universo de la nave de exploración
 
@@ -72,6 +72,48 @@ derechos y el porque de separar ficción y realidad, ver el
 
 Con estas reglas claras, el siguiente módulo muestra como convertirlas en
 variables y modos de un simulador educativo.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Reglas internas propuestas, Por qué sirven estas reglas, Reglas inventadas frente a leyes reales y Relación con el catálogo** a **interrumpir la cadena que podría producir perder capacidad de retirada al consumir energía o confiar en un único sensor**?
+
+### Explicación razonada
+
+La regla de seguridad debe conectarse con un mecanismo de daño. El riesgo «perder capacidad de retirada al consumir energía o confiar en un único sensor» se controla mediante límites, inspección, competencia y coordinación; cada medida corta una parte de la cadena causal. En una situación real prevalecen la autoridad aplicable y el manual vigente de Nave de exploración.
+
+Esta clase se conecta con el resto del curso mediante **la exploración exige administrar incertidumbre, sensores, energía y distancia además de propulsión**. El hilo de
+seguridad consiste en reconocer a tiempo **perder capacidad de retirada al consumir energía o confiar en un único sensor** y poder justificar la decisión
+**establecer distancia de seguridad, redundancia de medición y criterio de retirada**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → propulsión → navegación → misión científica**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Star Trek Database](https://www.startrek.com/database) aporta canon narrativo y tecnologías de ficción;
+[Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) se usa para naves, sistemas y misiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Describir el daño:** explica cómo se llegaría a **perder capacidad de retirada al consumir energía o confiar en un único sensor** sin usar solo la palabra “peligro”.
+2. **Localizar controles:** asocia inspección, límite, competencia o coordinación con un punto de la cadena causal.
+3. **Consultar:** distingue qué afirma la fuente pública y qué debe verificarse en normativa y manual vigentes.
+4. **Resolver:** documenta por qué **establecer distancia de seguridad, redundancia de medición y criterio de retirada** es una decisión preventiva y verificable.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mecanismo concreto conduce a **perder capacidad de retirada al consumir energía o confiar en un único sensor**?
+2. ¿Qué barrera preventiva actúa antes del movimiento y cuál durante la operación?
+3. ¿Qué parte de la respuesta requiere consultar normativa o manual vigente?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: TRENPASAJERO-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del tren de pasajeros
 
 [🏠 Inicio](../../../README.md) · [🚆 Curso: Tren de pasajeros](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-tren-pasajeros.md) ya dijo qué tipos de
-tren de pasajeros existen y para qué sirve cada uno. Este módulo responde a lo
+El [Clase 2](../operacion/caracteristicas-tren-pasajeros.md) ya dijo qué tipos de
+tren de pasajeros existen y para qué sirve cada uno. Esta clase responde a lo
 siguiente: **no todos se manejan igual**, y esa diferencia no es de matiz. Cambia
 qué mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -37,10 +37,10 @@ qué mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-tren-pasajeros.md) describe un puesto de
+El [Clase 5](../mandos/manual-mandos-tren-pasajeros.md) describe un puesto de
 mando con **manipulador de tracción** y **manipulador de freno** en el pupitre, un
 **hombre muerto** que frena el tren si el maquinista lo suelta y un **panel ATP**
-que repite la señal. El [Módulo 9](../simulacion/diseno-simulador-tren-pasajeros.md)
+que repite la señal. El [Clase 9](../simulacion/diseno-simulador-tren-pasajeros.md)
 expone una variable `Tracción aplicada` con rango `0-100%` que el usuario dosifica.
 Ambos describen un tren **conducido por un maquinista**.
 
@@ -51,7 +51,7 @@ con maquinista y luego se le "añade" el metro automático, el resultado es un m
 automático con hombre muerto, que no existe.
 
 La segunda bisagra es dónde vive la tracción. El
-[Módulo 4](../operacion/sistemas-mecanicos-tren-pasajeros.md) explica que la
+[Clase 4](../operacion/sistemas-mecanicos-tren-pasajeros.md) explica que la
 adherencia depende del **peso por eje**: más carga sobre el eje, más agarre
 disponible. En una EMU casi todos los ejes son motrices y el peso se reparte; en un
 interurbano de locomotora más coches, toda la tracción sale de los ejes de la
@@ -77,11 +77,11 @@ del tren y pasa a ser un valor del bogie que tracciona.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Regional EMU, Suburbano, Interurbano | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Cambian los rangos y la dosificación, no los controles. |
+| Regional EMU, Suburbano, Interurbano | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Cambian los rangos y la dosificación, no los controles. |
 | Metro automático (ATC) | **Desaparecen** el manipulador de tracción, el manipulador de freno y el hombre muerto. **Queda** el mando de puertas, el freno de emergencia y la radio tren-tierra. | El usuario deja de conducir y pasa a supervisar y despachar. Es otro modo de control, no otra dificultad. |
 | Metro con maquinista | Ninguno desaparece, pero el **panel ATP** manda sobre el manipulador. | La señal deja de ser información y pasa a ser un límite duro. |
 | Tren-tram | **Aparece** la marcha a la vista junto a la señal. | El panel ATP deja de ser la única autoridad: el maquinista vuelve a mirar el camino. |
-| Regional diesel-eléctrico | **Desaparece** el indicador de tensión de línea de la catenaria. El freno dinámico deja de ser regenerativo. | Un instrumento de alta importancia del Módulo 5 queda sin señal que mostrar. |
+| Regional diesel-eléctrico | **Desaparece** el indicador de tensión de línea de la catenaria. El freno dinámico deja de ser regenerativo. | Un instrumento de alta importancia del Clase 5 queda sin señal que mostrar. |
 | Interurbano | **Sube de prioridad** el arenero: pasa de ayuda ocasional a mando de arranque. | El botón de arena entra en el ciclo normal, no solo en riel húmedo. |
 
 ---
@@ -89,11 +89,11 @@ del tren y pasa a ser un valor del bogie que tracciona.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-tren-pasajeros.md):
+[Clase 9](../simulacion/diseno-simulador-tren-pasajeros.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Regional EMU | Ninguna: es el caso base. | El del Módulo 5. |
+| Regional EMU | Ninguna: es el caso base. | El del Clase 5. |
 | Metro automático (ATC) | `Tracción aplicada` y `Freno aplicado` **dejan de ser entradas** y pasan a ser salidas calculadas contra `Estado de la señal`. | Sin manipuladores ni hombre muerto: solo puertas, emergencia y radio. |
 | Metro con maquinista | `Velocidad` **reduce** su rango útil frente a los 0-160 km/h del caso base; `Estado de la señal` gobierna el ciclo. | El mismo, con el ATP como techo permanente. |
 | Suburbano / cercanías | `Masa del tren` deja de ser `fijo + pasajeros` al empezar y pasa a variar en cada andén durante la partida. | El mismo. |
@@ -141,8 +141,8 @@ nivel 1 casi todos se comportan igual, y las diferencias de tracción distribuid
 adherencia y arenado emergen a medida que el nivel sube.
 
 Queda **por confirmar** el ancho de vía de la red chilena, tal como advierten el
-[Módulo 4](../operacion/sistemas-mecanicos-tren-pasajeros.md) y el
-[Módulo 9](../simulacion/diseno-simulador-tren-pasajeros.md). Mientras no se
+[Clase 4](../operacion/sistemas-mecanicos-tren-pasajeros.md) y el
+[Clase 9](../simulacion/diseno-simulador-tren-pasajeros.md). Mientras no se
 confirme en la fuente oficial, ningún modelo de este cuadro debería fijar valores
 por defecto de vía.
 
@@ -150,6 +150,48 @@ por defecto de vía.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar unidad eléctrica múltiple frente a tren remolcado frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «unidad eléctrica múltiple frente a tren remolcado» resuelven prioridades distintas. Una comparación profesional sigue la cadena captación o motor → convertidor de tracción → motores de eje → rueda-carril: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **adherencia rueda-carril, curva de frenado y cumplimiento de señales**. El hilo de
+seguridad consiste en reconocer a tiempo **rebasar el punto de parada o comprometer la comodidad por frenar tarde** y poder justificar la decisión
+**anticipar la frenada según señal, pendiente, adherencia y carga**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **captación o motor → convertidor de tracción → motores de eje → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **aproximación a estación con lluvia y alta ocupación**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **captación o motor** hasta **rueda-carril**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **captación o motor → convertidor de tracción → motores de eje → rueda-carril** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «aproximación a estación con lluvia y alta ocupación» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

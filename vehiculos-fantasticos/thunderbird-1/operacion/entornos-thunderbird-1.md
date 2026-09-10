@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 7
 codigo: THUNDERBIRD1-07
@@ -16,7 +16,7 @@ evidencia: "Matriz entorno–cambio–riesgo–respuesta."
 criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🌍 Entornos de Thunderbird 1
 
@@ -82,7 +82,49 @@ Cada entorno es un escenario con su densidad de aire, su altura y su espacio de
 maniobra. El paso de un despegue vertical con aire denso a un vuelo de crucero en
 altura cambia cuanto empuje hace falta y cuanto combustible se gasta, y es una
 gran lección de física. Ver cómo se modela en el
-[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-thunderbird-1.md).
+[Clase 9: Diseño de simulación](../simulacion/diseno-simulador-thunderbird-1.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Entornos principales, Factores del entorno, Traducción a simulación y Guía de estudio aplicada** a **adaptar despliegue de rescate a una pista corta con meteorología cambiante a tres condiciones ambientales distintas**?
+
+### Explicación razonada
+
+El entorno no es decoración: modifica las fuerzas, la percepción y el tiempo disponible. En el caso «despliegue de rescate a una pista corta con meteorología cambiante», cambia el comportamiento de trayectoria de respuesta y aumenta la probabilidad de convertir velocidad narrativa en llegada segura sin plan de aproximación. La respuesta correcta empieza por reconocer qué variable cambió y después adaptar límites, ruta o misión.
+
+Esta clase se conecta con el resto del curso mediante **una aeronave de alerta rápida prioriza tiempo de llegada sin abandonar energía ni margen de aterrizaje**. El hilo de
+seguridad consiste en reconocer a tiempo **convertir velocidad narrativa en llegada segura sin plan de aproximación** y poder justificar la decisión
+**separar crucero rápido de aproximación estabilizada y mantener alternativa**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → propulsión → superficies de control → trayectoria de respuesta**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Thunderbirds Vehicles](https://www.thunderbirds.com/) aporta referencia oficial de vehículos de rescate;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Escenario base:** conserva la misión «despliegue de rescate a una pista corta con meteorología cambiante» para poder comparar.
+2. **Cambiar una condición:** modifica sucesivamente superficie o medio, visibilidad y perturbación externa.
+3. **Recalcular margen:** explica cómo cada cambio afecta **trayectoria de respuesta** y acerca o aleja **convertir velocidad narrativa en llegada segura sin plan de aproximación**.
+4. **Adaptar:** cambia límite, ruta, configuración o incluso cancela; no mantengas la misma respuesta por hábito.
+
+### Comprueba tu comprensión
+
+1. ¿Cómo cambiaría **trayectoria de respuesta** si empeora la perturbación externa?
+2. ¿Qué condición ambiental acerca más el escenario a **convertir velocidad narrativa en llegada segura sin plan de aproximación**?
+3. ¿Cuándo adaptarías la maniobra y cuándo la cancelarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

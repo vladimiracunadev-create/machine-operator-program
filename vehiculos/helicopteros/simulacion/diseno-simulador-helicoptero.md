@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 9
 codigo: HELICOPTEROS-09
@@ -16,7 +16,7 @@ evidencia: "Ficha de escenario y diagrama de estados."
 criterio_aprobacion: "El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎮 Diseño de simulación del helicóptero
 
@@ -91,6 +91,59 @@ autorrotación, de forma segura y progresiva.
 - [ ] Prototipar el ciclo básico del vuelo estacionario en un motor simple.
 - [ ] Ajustar el modelo de par y anti-par con la coordinación de pedales.
 - [ ] Agregar fuentes técnicas públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Objetivo de la simulación, Nivel de realismo, Variables principales y Ciclo básico** a **modelar vuelo estacionario fuera de efecto suelo con temperatura elevada como estados, variables y decisiones observables**?
+
+### Explicación razonada
+
+Una simulación de Helicópteros es educativa si representa decisiones y consecuencias. Como mínimo debe modelar el estado de motor, la respuesta de transmisión, la transición en rotor principal y el resultado en empuje y control. El escenario «vuelo estacionario fuera de efecto suelo con temperatura elevada» es valioso porque obliga a observar, formular una hipótesis, actuar y comprobar.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Preparado
+    Preparado --> Operando: orden válida
+    Operando --> Degradado: límite o falla
+    Degradado --> Seguro: decisión correctiva
+    Operando --> Completado: criterio logrado
+    Seguro --> [*]
+    Completado --> [*]
+```
+
+Esta clase se conecta con el resto del curso mediante **sustentación del rotor condicionada por paso colectivo, cíclico, potencia y rotor de cola**. El hilo de
+seguridad consiste en reconocer a tiempo **déficit de potencia, pérdida de rpm o control de guiñada** y poder justificar la decisión
+**comprobar potencia disponible y mantener una vía de escape antes del estacionario**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → rotor principal → empuje y control**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Helicopter Flying Handbook](https://www.faa.gov/sites/faa.gov/files/helicopter_flying_handbook.pdf) aporta aerodinámica y control de helicópteros;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Estado inicial:** representa vuelo estacionario fuera de efecto suelo con temperatura elevada con valores observables para **motor**, **transmisión**, **rotor principal** y **empuje y control**.
+2. **Decisión del estudiante:** ofrece una elección que cambie el estado, no una animación automática.
+3. **Consecuencia:** modela la tendencia hacia **déficit de potencia, pérdida de rpm o control de guiñada** y una señal previa que permita corregir.
+4. **Cierre:** evalúa la explicación de la decisión, además de si el estudiante “ganó” el escenario.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cuatro estados mínimos necesita el escenario «vuelo estacionario fuera de efecto suelo con temperatura elevada»?
+2. ¿Qué variable anticipa **déficit de potencia, pérdida de rpm o control de guiñada** antes de llegar al estado de falla?
+3. ¿Cómo evaluarías la explicación del estudiante y no solo el resultado final?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

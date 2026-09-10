@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: NAVEEXPLORAC-04
@@ -16,7 +16,7 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos de la nave de exploración
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo abre la nave por dentro. Por cada sistema imaginario explicamos que
+Esta clase abre la nave por dentro. Por cada sistema imaginario explicamos que
 física real evoca, que respeta y que rompe. La regla es sencilla: describimos
 conceptos genéricos, sin planos ni datos oficiales, y comparamos siempre la
 ficción con lo que sabemos de verdad.
@@ -121,8 +121,57 @@ reciclar aire y agua, controlar temperatura y proteger de la radiación.
 4. Los **sensores** informan al puente sobre el entorno.
 5. El **soporte vital** mantiene el habitat en condiciones.
 
-El [Módulo 5: Mandos](../mandos/manual-mandos-nave-exploracion.md) muestra como
+El [Clase 5: Mandos](../mandos/manual-mandos-nave-exploracion.md) muestra como
 la tripulación opera todos estos sistemas desde el puente.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Fuente de energía, Motor subluminico, Impulso superluminico imaginario y Sensores y observación** a **seguir una alteración desde energía ficticia hasta misión científica durante aproximación a un fenómeno desconocido con lecturas contradictorias**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: energía ficticia entrega o transforma energía; propulsión la adapta; navegación la transmite o gobierna; y misión científica produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de misión científica y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["energía ficticia"] --> B["propulsión"] --> C["navegación"] --> D["misión científica"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **la exploración exige administrar incertidumbre, sensores, energía y distancia además de propulsión**. El hilo de
+seguridad consiste en reconocer a tiempo **perder capacidad de retirada al consumir energía o confiar en un único sensor** y poder justificar la decisión
+**establecer distancia de seguridad, redundancia de medición y criterio de retirada**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → propulsión → navegación → misión científica**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Star Trek Database](https://www.startrek.com/database) aporta canon narrativo y tecnologías de ficción;
+[Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) se usa para naves, sistemas y misiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **energía ficticia** durante **aproximación a un fenómeno desconocido con lecturas contradictorias**.
+2. **Transformación:** explica qué hacen **propulsión** y **navegación**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **misión científica** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **perder capacidad de retirada al consumir energía o confiar en un único sensor**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **propulsión**, ¿qué efecto esperarías primero en **navegación** y después en **misión científica**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **energía ficticia** de una falla de **navegación**?
+3. ¿Por qué una segunda orden podría agravar **perder capacidad de retirada al consumir energía o confiar en un único sensor**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

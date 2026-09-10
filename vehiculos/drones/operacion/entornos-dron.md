@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 7
 codigo: DRONES-07
@@ -16,7 +16,7 @@ evidencia: "Matriz entorno–cambio–riesgo–respuesta."
 criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🌍 Entornos de trabajo del dron
 
@@ -81,7 +81,7 @@ mindmap
 
 Volar cerca de aeropuertos y sobre aglomeraciones de personas está restringido por
 la seguridad aérea. En estos entornos la regla es no operar, no ajustar el vuelo.
-El detalle está en el [Módulo 8: Reglamentos](../reglamentos/reglamentos-dron.md).
+El detalle está en el [Clase 8: Reglamentos](../reglamentos/reglamentos-dron.md).
 
 ---
 
@@ -89,7 +89,49 @@ El detalle está en el [Módulo 8: Reglamentos](../reglamentos/reglamentos-dron.
 
 Cada entorno es un escenario con su viento, calidad de GPS, interferencia y
 obstáculos. Ver cómo se modela en el
-[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-dron.md).
+[Clase 9: Diseño de simulación](../simulacion/diseno-simulador-dron.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Entornos principales, Factores del entorno, Zonas prohibidas y Traducción a simulación** a **adaptar inspección próxima a una estructura con viento y señal GNSS degradada a tres condiciones ambientales distintas**?
+
+### Explicación razonada
+
+El entorno no es decoración: modifica las fuerzas, la percepción y el tiempo disponible. En el caso «inspección próxima a una estructura con viento y señal GNSS degradada», cambia el comportamiento de actitud y trayectoria y aumenta la probabilidad de pérdida de enlace, deriva, impacto o invasión de espacio no autorizado. La respuesta correcta empieza por reconocer qué variable cambió y después adaptar límites, ruta o misión.
+
+Esta clase se conecta con el resto del curso mediante **el controlador estabiliza actitud, pero autonomía, enlace y entorno limitan la misión**. El hilo de
+seguridad consiste en reconocer a tiempo **pérdida de enlace, deriva, impacto o invasión de espacio no autorizado** y poder justificar la decisión
+**definir límites de viento, batería, enlace, geocerca y retorno antes de despegar**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **batería → controladores → motores y hélices → actitud y trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Unmanned Aircraft Systems](https://www.faa.gov/uas) aporta operación y normativa RPAS;
+[Normativa aeronáutica](https://www.dgac.gob.cl/normativa/) se usa para marco aeronáutico chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Escenario base:** conserva la misión «inspección próxima a una estructura con viento y señal GNSS degradada» para poder comparar.
+2. **Cambiar una condición:** modifica sucesivamente superficie o medio, visibilidad y perturbación externa.
+3. **Recalcular margen:** explica cómo cada cambio afecta **actitud y trayectoria** y acerca o aleja **pérdida de enlace, deriva, impacto o invasión de espacio no autorizado**.
+4. **Adaptar:** cambia límite, ruta, configuración o incluso cancela; no mantengas la misma respuesta por hábito.
+
+### Comprueba tu comprensión
+
+1. ¿Cómo cambiaría **actitud y trayectoria** si empeora la perturbación externa?
+2. ¿Qué condición ambiental acerca más el escenario a **pérdida de enlace, deriva, impacto o invasión de espacio no autorizado**?
+3. ¿Cuándo adaptarías la maniobra y cuándo la cancelarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

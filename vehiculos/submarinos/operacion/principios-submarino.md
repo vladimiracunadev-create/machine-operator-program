@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: SUBMARINOS-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación del submarino
 
@@ -75,6 +75,55 @@ describe operación militar real, táctica o sistemas de armas.
   cota máxima.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Principios de funcionamiento, Fases de operación, Control de profundidad: idea general y Errores comunes que la simulación puede enseñar a evitar** a **resolver cambio de profundidad manteniendo rumbo y discreción sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: equilibrio entre flotabilidad, peso, profundidad, trimado y control hidrodinámico. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: coordinar velocidad, planos y lastre observando tendencia, no solo profundidad instantánea.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["equilibrio entre flotabilidad, peso, profundidad, trimado y control hidrodinámico"]
+    P --> R["riesgo: exceso de profundidad, pérdida de control o colisión por conciencia situacional limitada"]
+    R --> D["decisión: coordinar velocidad, planos y lastre observando tendencia, no solo profundidad instantánea"]
+```
+
+Esta clase se conecta con el resto del curso mediante **equilibrio entre flotabilidad, peso, profundidad, trimado y control hidrodinámico**. El hilo de
+seguridad consiste en reconocer a tiempo **exceso de profundidad, pérdida de control o colisión por conciencia situacional limitada** y poder justificar la decisión
+**coordinar velocidad, planos y lastre observando tendencia, no solo profundidad instantánea**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía → motor → hélice o propulsor → planos y tanques de lastre**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ships](https://www.history.navy.mil/browse-by-topic/ships.html) aporta historia pública de buques militares;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **cambio de profundidad manteniendo rumbo y discreción**.
+2. **Modelo:** aplica **equilibrio entre flotabilidad, peso, profundidad, trimado y control hidrodinámico** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **exceso de profundidad, pérdida de control o colisión por conciencia situacional limitada**.
+4. **Decisión:** ejecuta mentalmente **coordinar velocidad, planos y lastre observando tendencia, no solo profundidad instantánea** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «equilibrio entre flotabilidad, peso, profundidad, trimado y control hidrodinámico» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **planos y tanques de lastre**?
+3. ¿Qué evidencia confirmaría que **coordinar velocidad, planos y lastre observando tendencia, no solo profundidad instantánea** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

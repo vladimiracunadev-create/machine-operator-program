@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 8
 codigo: AVIONESCOMBA-08
@@ -16,7 +16,7 @@ evidencia: "Ficha normativa con decisión y fuente trazable."
 criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # ⚖️ Reglamentos del avión de combate (marco público)
 
@@ -53,6 +53,48 @@ general; sin táctica, sistemas de armas ni procedimientos operativos. Ver
 - Enfocar en física del vuelo, instrumentos e historia pública.
 - Distinguir claramente la simulación educativa de la operación real.
 - Registrar cada fuente pública en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Ámbito, Enfoque permitido en simulación, Restricciones de contenido y Notas para simulación** a **interrumpir la cadena que podría producir exceder envolvente, perder energía o conciencia situacional**?
+
+### Explicación razonada
+
+La regla de seguridad debe conectarse con un mecanismo de daño. El riesgo «exceder envolvente, perder energía o conciencia situacional» se controla mediante límites, inspección, competencia y coordinación; cada medida corta una parte de la cadena causal. En una situación real prevalecen la autoridad aplicable y el manual vigente de Aviones de combate.
+
+Esta clase se conecta con el resto del curso mediante **intercambio entre energía cinética, altura, carga estructural y capacidad de giro**. El hilo de
+seguridad consiste en reconocer a tiempo **exceder envolvente, perder energía o conciencia situacional** y poder justificar la decisión
+**preservar margen de energía y carga antes de ordenar una maniobra**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → tobera → flujo → superficies y control de vuelo**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) aporta aerodinámica, sistemas y operación;
+[Beginner's Guide to Aeronautics](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/) se usa para contraste con física y vuelo reales. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Describir el daño:** explica cómo se llegaría a **exceder envolvente, perder energía o conciencia situacional** sin usar solo la palabra “peligro”.
+2. **Localizar controles:** asocia inspección, límite, competencia o coordinación con un punto de la cadena causal.
+3. **Consultar:** distingue qué afirma la fuente pública y qué debe verificarse en normativa y manual vigentes.
+4. **Resolver:** documenta por qué **preservar margen de energía y carga antes de ordenar una maniobra** es una decisión preventiva y verificable.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mecanismo concreto conduce a **exceder envolvente, perder energía o conciencia situacional**?
+2. ¿Qué barrera preventiva actúa antes del movimiento y cuál durante la operación?
+3. ¿Qué parte de la respuesta requiere consultar normativa o manual vigente?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: HELICOPTEROS-04
@@ -16,15 +16,15 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del helicóptero
 
 [🏠 Inicio](../../../README.md) · [🚁 Curso: Helicópteros](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre el helicóptero por dentro. Explica cada sistema, como funciona y
+Esta clase abre el helicóptero por dentro. Explica cada sistema, como funciona y
 como se conecta con los demás. Es la base técnica para entender los mandos
-(Módulo 5) y la física del vuelo (Módulo 6).
+(Clase 5) y la física del vuelo (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -216,8 +216,57 @@ Dos fenómenos propios del ala rotatoria que todo piloto debe entender.
 5. El **rotor de cola** compensa el par y controla la guiñada con los **pedales**.
 6. La **autorrotación** protege el descenso si falta el motor.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-helicoptero.md)
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-helicoptero.md)
 muestra como el piloto opera cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Rotor principal, El par motor y su compensación, Rotor de cola y Plato cíclico (swashplate)** a **seguir una alteración desde motor hasta empuje y control durante vuelo estacionario fuera de efecto suelo con temperatura elevada**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: motor entrega o transforma energía; transmisión la adapta; rotor principal la transmite o gobierna; y empuje y control produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de empuje y control y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["motor"] --> B["transmisión"] --> C["rotor principal"] --> D["empuje y control"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **sustentación del rotor condicionada por paso colectivo, cíclico, potencia y rotor de cola**. El hilo de
+seguridad consiste en reconocer a tiempo **déficit de potencia, pérdida de rpm o control de guiñada** y poder justificar la decisión
+**comprobar potencia disponible y mantener una vía de escape antes del estacionario**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → rotor principal → empuje y control**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Helicopter Flying Handbook](https://www.faa.gov/sites/faa.gov/files/helicopter_flying_handbook.pdf) aporta aerodinámica y control de helicópteros;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **motor** durante **vuelo estacionario fuera de efecto suelo con temperatura elevada**.
+2. **Transformación:** explica qué hacen **transmisión** y **rotor principal**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **empuje y control** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **déficit de potencia, pérdida de rpm o control de guiñada**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **transmisión**, ¿qué efecto esperarías primero en **rotor principal** y después en **empuje y control**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **motor** de una falla de **rotor principal**?
+3. ¿Por qué una segunda orden podría agravar **déficit de potencia, pérdida de rpm o control de guiñada**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

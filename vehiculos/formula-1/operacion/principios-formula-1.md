@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: FORMULA1-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación de la Fórmula 1
 
@@ -75,6 +75,55 @@ monoplaza en simulación y que principios físicos conviene representar.
   ventanas de temperatura y estrategia de neumáticos.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Principios de funcionamiento, Fases de una vuelta, Una curva rápida: idea general y Errores comunes que la simulación puede enseñar a evitar** a **resolver entrada y salida de una curva rápida durante una tanda con neumáticos degradados sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: interacción entre carga aerodinámica, temperatura del neumático y balance del monoplaza. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: sacrificar velocidad de entrada para conservar estabilidad y tracción de salida.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["interacción entre carga aerodinámica, temperatura del neumático y balance del monoplaza"]
+    P --> R["riesgo: sobrepasar el agarre disponible al cambiar el balance con freno, volante o acelerador"]
+    R --> D["decisión: sacrificar velocidad de entrada para conservar estabilidad y tracción de salida"]
+```
+
+Esta clase se conecta con el resto del curso mediante **interacción entre carga aerodinámica, temperatura del neumático y balance del monoplaza**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrepasar el agarre disponible al cambiar el balance con freno, volante o acelerador** y poder justificar la decisión
+**sacrificar velocidad de entrada para conservar estabilidad y tracción de salida**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **unidad de potencia → caja secuencial → diferencial → neumáticos**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Formula 1 Regulations](https://www.fia.com/regulations/formula-1) aporta reglamento, arquitectura y seguridad de Fórmula 1;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **entrada y salida de una curva rápida durante una tanda con neumáticos degradados**.
+2. **Modelo:** aplica **interacción entre carga aerodinámica, temperatura del neumático y balance del monoplaza** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **sobrepasar el agarre disponible al cambiar el balance con freno, volante o acelerador**.
+4. **Decisión:** ejecuta mentalmente **sacrificar velocidad de entrada para conservar estabilidad y tracción de salida** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «interacción entre carga aerodinámica, temperatura del neumático y balance del monoplaza» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **neumáticos**?
+3. ¿Qué evidencia confirmaría que **sacrificar velocidad de entrada para conservar estabilidad y tracción de salida** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

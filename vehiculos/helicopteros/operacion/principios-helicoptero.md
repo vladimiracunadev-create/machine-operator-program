@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: HELICOPTEROS-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación del helicóptero
 
@@ -80,6 +80,55 @@ que principios físicos conviene representar.
   autorrotación.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Principios de funcionamiento, Fases de operación, Técnica clave: el vuelo estacionario y Errores comunes que la simulación puede enseñar a evitar** a **resolver vuelo estacionario fuera de efecto suelo con temperatura elevada sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: sustentación del rotor condicionada por paso colectivo, cíclico, potencia y rotor de cola. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: comprobar potencia disponible y mantener una vía de escape antes del estacionario.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["sustentación del rotor condicionada por paso colectivo, cíclico, potencia y rotor de cola"]
+    P --> R["riesgo: déficit de potencia, pérdida de rpm o control de guiñada"]
+    R --> D["decisión: comprobar potencia disponible y mantener una vía de escape antes del estacionario"]
+```
+
+Esta clase se conecta con el resto del curso mediante **sustentación del rotor condicionada por paso colectivo, cíclico, potencia y rotor de cola**. El hilo de
+seguridad consiste en reconocer a tiempo **déficit de potencia, pérdida de rpm o control de guiñada** y poder justificar la decisión
+**comprobar potencia disponible y mantener una vía de escape antes del estacionario**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → rotor principal → empuje y control**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Helicopter Flying Handbook](https://www.faa.gov/sites/faa.gov/files/helicopter_flying_handbook.pdf) aporta aerodinámica y control de helicópteros;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **vuelo estacionario fuera de efecto suelo con temperatura elevada**.
+2. **Modelo:** aplica **sustentación del rotor condicionada por paso colectivo, cíclico, potencia y rotor de cola** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **déficit de potencia, pérdida de rpm o control de guiñada**.
+4. **Decisión:** ejecuta mentalmente **comprobar potencia disponible y mantener una vía de escape antes del estacionario** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «sustentación del rotor condicionada por paso colectivo, cíclico, potencia y rotor de cola» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **empuje y control**?
+3. ¿Qué evidencia confirmaría que **comprobar potencia disponible y mantener una vía de escape antes del estacionario** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: TELETRANSPOR-04
@@ -16,7 +16,7 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del teletransportador
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo abre el teletransportador por dentro. Compara la tecnología
+Esta clase abre el teletransportador por dentro. Compara la tecnología
 imaginaria de la ficción con la física real que la haría funcionar (o que la
 desmiente). La regla del curso es clara: describimos conceptos con nuestras
 palabras, sin copiar planos ni especificaciones oficiales.
@@ -156,8 +156,57 @@ desconocido, así que una copia perfecta e independiente no es posible.
 4. La **energía** necesaria para todo el proceso sería colosal.
 5. El **duplicado** y la **no clonación** limitan que sea copia o traslado.
 
-Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-teletransportador.md)
+Con esto claro, el [Clase 5: Mandos](../mandos/manual-mandos-teletransportador.md)
 muestra como el operador manejaría cada sistema.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Escaneo del patrón, Transmisión de la información, Reconstrucción en destino y Energía colosal** a **seguir una alteración desde sensado ficticio hasta reconstrucción durante transporte ficticio con señal degradada y destino parcialmente bloqueado**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: sensado ficticio entrega o transforma energía; codificación la adapta; transmisión la transmite o gobierna; y reconstrucción produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de reconstrucción y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["sensado ficticio"] --> B["codificación"] --> C["transmisión"] --> D["reconstrucción"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **la tecnología narrativa plantea continuidad, información, energía y verificación de destino**. El hilo de
+seguridad consiste en reconocer a tiempo **presentar una ficción sin límites, fallas observables ni dilemas explícitos** y poder justificar la decisión
+**definir condiciones de autorización, aborto y evidencia de integridad**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **sensado ficticio → codificación → transmisión → reconstrucción**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Star Trek Database](https://www.startrek.com/database) aporta canon narrativo y tecnologías de ficción;
+[Quantum Teleportation](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation) se usa para información cuántica, entrelazamiento y teorema de no clonación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **sensado ficticio** durante **transporte ficticio con señal degradada y destino parcialmente bloqueado**.
+2. **Transformación:** explica qué hacen **codificación** y **transmisión**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **reconstrucción** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **presentar una ficción sin límites, fallas observables ni dilemas explícitos**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **codificación**, ¿qué efecto esperarías primero en **transmisión** y después en **reconstrucción**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **sensado ficticio** de una falla de **transmisión**?
+3. ¿Por qué una segunda orden podría agravar **presentar una ficción sin límites, fallas observables ni dilemas explícitos**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 
@@ -169,6 +218,7 @@ muestra como el operador manejaría cada sistema.
 ### Fuentes de esta clase
 
 - [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [IBM-QUANTUM-TELEPORT](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation): Quantum Teleportation, IBM Quantum Learning. Uso: información cuántica, entrelazamiento y teorema de no clonación.
 - [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
 
 > Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual

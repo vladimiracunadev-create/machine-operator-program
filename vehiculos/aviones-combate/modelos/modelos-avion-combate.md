@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: AVIONESCOMBA-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del avión de combate
 
 [🏠 Inicio](../../../README.md) · [✈️ Curso: Aviones de combate](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-avion-combate.md) ya dijo qué
-generaciones y qué roles generales existen. Este módulo responde a lo siguiente:
+El [Clase 2](../operacion/caracteristicas-avion-combate.md) ya dijo qué
+generaciones y qué roles generales existen. Esta clase responde a lo siguiente:
 **no todos se vuelan igual**, y esa diferencia no es de matiz. Cambia qué mandos
 tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -40,10 +40,10 @@ tiene la máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-avion-combate.md) describe un puesto de
+El [Clase 5](../mandos/manual-mandos-avion-combate.md) describe un puesto de
 mando donde la palanca "manda las superficies vía fly-by-wire" y el acelerador
 "puede tener detente de posquemador". El
-[Módulo 9](../simulacion/diseno-simulador-avion-combate.md) expone `Velocidad`
+[Clase 9](../simulacion/diseno-simulador-avion-combate.md) expone `Velocidad`
 con rango `0-2.0 Mach`, `Carga G` con rango `-3..9 G` y `Empuje del motor` con
 rango `0-100% + AB`. Los tres describen un reactor **de cuarta generación con
 posquemador**.
@@ -75,7 +75,7 @@ caza de 1945 con envolvente protegida, que no existe.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Cuarta y quinta generación | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Cambian los rangos, no los controles. |
+| Cuarta y quinta generación | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Cambian los rangos, no los controles. |
 | Primeros reactores (ala recta) | **Desaparece** el fly-by-wire entre la palanca y la superficie. **Aparece** el compensador (trim) como mando que el piloto ajusta a mano, porque no hay compensación automática que lo haga. | La palanca deja de pedir una maniobra y pasa a mover la superficie: el acelerómetro cambia de indicador informativo a límite que solo respeta el piloto. |
 | Ala en flecha subsónica alta | **Desaparece** el fly-by-wire; el mando hidráulico asiste el esfuerzo pero no recorta nada. **Se mantiene** el compensador manual. | El esfuerzo desaparece, la protección no llega: sigue siendo el piloto quien no excede los límites. |
 | Propulsión sin posquemador | **Desaparece** el detente de posquemador del acelerador. | El recorrido del acelerador termina en 100%: no hay entrada de empuje extra que asignar. |
@@ -86,11 +86,11 @@ caza de 1945 con envolvente protegida, que no existe.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-avion-combate.md):
+[Clase 9](../simulacion/diseno-simulador-avion-combate.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Cuarta generación | Ninguna: es el caso base. | El del Módulo 5. |
+| Cuarta generación | Ninguna: es el caso base. | El del Clase 5. |
 | Primeros reactores (ala recta) | `Velocidad` **reduce** su rango al régimen subsónico: los efectos de Mach salen del modelo. `Carga G` **deja de estar recortada** y pasa a ser una salida libre que puede superar el límite estructural. | Sin fly-by-wire; entrada de compensador manual; el acelerómetro es el único freno. |
 | Ala en flecha subsónica alta | `Velocidad` se acerca al régimen transónico sin superarlo del todo. `Carga G` sigue sin recorte. | Mando asistido, sin protección de envolvente; compensador manual. |
 | Ala delta (interceptor) | `Energía total` se degrada más rápido en maniobra y se recupera mejor en ascenso. | El mismo. |
@@ -148,6 +148,48 @@ variante los introduce.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar caza ligero monomotor frente a interceptor bimotor frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «caza ligero monomotor frente a interceptor bimotor» resuelven prioridades distintas. Una comparación profesional sigue la cadena motor → tobera → flujo → superficies y control de vuelo: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **intercambio entre energía cinética, altura, carga estructural y capacidad de giro**. El hilo de
+seguridad consiste en reconocer a tiempo **exceder envolvente, perder energía o conciencia situacional** y poder justificar la decisión
+**preservar margen de energía y carga antes de ordenar una maniobra**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → tobera → flujo → superficies y control de vuelo**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) aporta aerodinámica, sistemas y operación;
+[Beginner's Guide to Aeronautics](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/) se usa para contraste con física y vuelo reales. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **maniobra simulada de alta carga con combustible limitado**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **motor** hasta **superficies y control de vuelo**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **motor → tobera → flujo → superficies y control de vuelo** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «maniobra simulada de alta carga con combustible limitado» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

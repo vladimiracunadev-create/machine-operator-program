@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: ESTRELLADELA-04
@@ -16,7 +16,7 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos de la Estrella de la Muerte
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo abre la estación-mundo por dentro. Compara la tecnología imaginaria
+Esta clase abre la estación-mundo por dentro. Compara la tecnología imaginaria
 de la ficción con la física real que la haría funcionar (o que la desmiente). La
 regla del curso es clara: describimos conceptos con nuestras palabras, sin copiar
 planos ni especificaciones oficiales.
@@ -160,8 +160,57 @@ mucha potencia que tenga.
 5. La **logística y el soporte vital** mantienen viva a la población.
 
 Con esto claro, el
-[Módulo 5: Mandos](../mandos/manual-mandos-estrella-de-la-muerte.md) muestra como
+[Clase 5: Mandos](../mandos/manual-mandos-estrella-de-la-muerte.md) muestra como
 se operaría una estación de este tamaño.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Gravedad propia, Presupuesto de energía, Disipación de calor y Propulsión de una masa colosal** a **seguir una alteración desde reactor ficticio hasta estación durante falla simulada de distribución que afecta sectores distintos**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: reactor ficticio entrega o transforma energía; distribución la adapta; propulsión y control la transmite o gobierna; y estación produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de estación y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["reactor ficticio"] --> B["distribución"] --> C["propulsión y control"] --> D["estación"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **una megaestructura debe modelarse como red de subsistemas y dependencias, no como un solo vehículo**. El hilo de
+seguridad consiste en reconocer a tiempo **crear un sistema invulnerable o sin propagación comprensible de fallas** y poder justificar la decisión
+**mapear dependencias, redundancias y estados degradados antes de decidir**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **reactor ficticio → distribución → propulsión y control → estación**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Death Star](https://www.starwars.com/databank/death-star) aporta canon narrativo de la estación;
+[Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) se usa para naves, sistemas y misiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **reactor ficticio** durante **falla simulada de distribución que afecta sectores distintos**.
+2. **Transformación:** explica qué hacen **distribución** y **propulsión y control**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **estación** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **crear un sistema invulnerable o sin propagación comprensible de fallas**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **distribución**, ¿qué efecto esperarías primero en **propulsión y control** y después en **estación**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **reactor ficticio** de una falla de **propulsión y control**?
+3. ¿Por qué una segunda orden podría agravar **crear un sistema invulnerable o sin propagación comprensible de fallas**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

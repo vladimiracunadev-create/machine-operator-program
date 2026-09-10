@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 1
 codigo: NAVEEXPLORAC-01
@@ -16,7 +16,7 @@ evidencia: "Línea de tiempo comentada con cuatro hitos o más."
 criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📜 Historia de la nave de exploración
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo repasa, con nuestras palabras, como la ciencia ficción imagino el
+Esta clase repasa, con nuestras palabras, como la ciencia ficción imagino el
 viaje entre estrellas. No contamos guiones ni tramas concretas: seguimos la
 idea general de una nave de exploración que recorre la galaxia, al estilo
 "Star Trek", y la usamos para entender que ideas nacieron antes en la ciencia
@@ -88,6 +88,48 @@ hermoso, que sería cruzar el vacío entre estrellas.
 
 - Registrar aquí las fuentes públicas y divulgativas consultadas.
 - Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Origen de la idea, Línea de tiempo, De la ciencia a la ficción y de vuelta y Que aporto cada época** a **explicar cómo la evolución hizo posibles alternativas como crucero de exploración ficticio frente a sonda real**?
+
+### Explicación razonada
+
+La evolución de Nave de exploración se comprende mejor como una sucesión de respuestas a problemas, no como una lista de fechas. Los cambios en energía ficticia, propulsión, navegación y misión científica alteraron qué podía hacer la máquina, quién podía usarla y qué riesgos debían controlarse. El contraste «crucero de exploración ficticio frente a sonda real» permite observar qué decisiones de diseño permanecieron y cuáles cambiaron con la tecnología y el propósito.
+
+Esta clase se conecta con el resto del curso mediante **la exploración exige administrar incertidumbre, sensores, energía y distancia además de propulsión**. El hilo de
+seguridad consiste en reconocer a tiempo **perder capacidad de retirada al consumir energía o confiar en un único sensor** y poder justificar la decisión
+**establecer distancia de seguridad, redundancia de medición y criterio de retirada**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → propulsión → navegación → misión científica**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Star Trek Database](https://www.startrek.com/database) aporta canon narrativo y tecnologías de ficción;
+[Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) se usa para naves, sistemas y misiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Situar:** ordena los hitos que explican cómo se llegó a **crucero de exploración ficticio frente a sonda real** y describe la necesidad que impulsó cada cambio.
+2. **Relacionar:** explica qué se modificó en **energía ficticia**, **propulsión**, **navegación** o **misión científica**; una fecha sin mecanismo no basta.
+3. **Interpretar:** vincula el cambio con una capacidad nueva y también con el riesgo **perder capacidad de retirada al consumir energía o confiar en un único sensor**.
+4. **Transferir:** usa la evolución para justificar por qué hoy conviene **establecer distancia de seguridad, redundancia de medición y criterio de retirada**.
+
+### Comprueba tu comprensión
+
+1. ¿Qué necesidad histórica impulsó un cambio en **energía ficticia** o **propulsión**?
+2. ¿Qué hito modificó la relación entre capacidad y **perder capacidad de retirada al consumir energía o confiar en un único sensor**?
+3. ¿Por qué **crucero de exploración ficticio frente a sonda real** no puede explicarse como una simple diferencia estética?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

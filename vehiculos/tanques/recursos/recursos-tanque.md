@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 10
 codigo: TANQUES-10
@@ -16,7 +16,7 @@ evidencia: "Glosario aplicado y ficha breve de trazabilidad."
 criterio_aprobacion: "Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧰 Recursos del tanque (marco público)
 
@@ -65,6 +65,48 @@ flowchart LR
 
 Registrar cada recurso nuevo con su origen y licencia, siguiendo
 [`recursos/README.md`](../../../recursos/README.md). Solo fuentes públicas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Glosario específico, Diagrama de movilidad, Enlaces y fuentes y Guía de estudio aplicada** a **explicar con fuentes los términos motor, transmisión, ruedas tractoras y orugas**?
+
+### Explicación razonada
+
+El vocabulario técnico organiza relaciones: motor, transmisión, ruedas tractoras y orugas nombran partes distintas de una misma cadena funcional. Una fuente se usa para sostener una afirmación concreta —principio, límite, procedimiento o contexto— y debe distinguirse del manual particular de un fabricante o de una regla narrativa.
+
+Esta clase se conecta con el resto del curso mediante **tracción y presión sobre el terreno condicionadas por masa, reparto y resistencia al avance**. El hilo de
+seguridad consiste en reconocer a tiempo **atasco, pérdida de movilidad o exposición por elegir una ruta incompatible** y poder justificar la decisión
+**reconocer capacidad del terreno y escoger ruta, velocidad y orientación del casco**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → ruedas tractoras → orugas**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Tank Collection](https://tankmuseum.org/tank-nuts/tank-collection) aporta historia pública de vehículos blindados;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir en contexto:** explica **motor**, **transmisión**, **ruedas tractoras** y **orugas** por su función y relación.
+2. **Respaldar:** enlaza cada afirmación importante con una fuente identificable y declara su alcance.
+3. **Contrastar:** separa principios generales, requisitos locales, manual de fabricante y —si aplica— canon ficticio.
+4. **Reformular:** convierte una definición copiada en una explicación propia con un ejemplo de **Tanques**.
+
+### Comprueba tu comprensión
+
+1. Explica la diferencia funcional entre **transmisión** y **ruedas tractoras** sin copiar una definición.
+2. ¿Qué fuente respalda el principio «tracción y presión sobre el terreno condicionadas por masa, reparto y resistencia al avance» y cuál es su alcance?
+3. ¿Qué dato exigiría un manual de fabricante en vez de una fuente general?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

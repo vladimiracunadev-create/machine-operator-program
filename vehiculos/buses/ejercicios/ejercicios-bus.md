@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: BUSES-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del bus
 
@@ -46,7 +46,7 @@ inercia exige una fuerza de frenado que el aire comprimido entrega mejor que un
 circuito hidráulico. El mismo aire acciona además las puertas y la suspensión,
 así que el sistema neumático sirve a varios sistemas a la vez.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-bus.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-bus.md).
 
 </details>
 
@@ -62,7 +62,7 @@ prueba de fallos porque el freno de estacionamiento se mantiene liberado
 frenado en vez de quedarse sin frenos. Por eso, antes de mover el bus, se espera
 a que la presión suba al rango normal.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-bus.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-bus.md).
 
 </details>
 
@@ -115,7 +115,7 @@ y [🌍 Entornos de trabajo](../operacion/entornos-bus.md).
 El orden importa: la suavidad se consigue frenando antes, no frenando menos al
 final.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-bus.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-bus.md).
 
 </details>
 
@@ -130,7 +130,7 @@ Licencia profesional: clase **A-3** para buses sin límite de asientos y clase
 mayor y experiencia previa con licencia clase B (Art. 13). Es decir, la clase
 depende de la capacidad del vehículo.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-bus.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-bus.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -156,7 +156,7 @@ El error de fondo es de anticipación: en un bus la primera herramienta de
 seguridad es mirar lejos y ajustar la velocidad con antelación, no reaccionar al
 final. Con la masa de un bus, la corrección tardía siempre sale cara.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-bus.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-bus.md).
 
 </details>
 
@@ -219,7 +219,7 @@ del pasaje que penalice las maniobras bruscas, de modo que el usuario **vea**
 que la misma frenada que era aceptable con el bus vacío desestabiliza a los de
 pie con el bus lleno, y que la distancia de detención se ha alargado.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-bus.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-bus.md).
 
 </details>
 
@@ -236,7 +236,7 @@ inercia de la masa, el barrido trasero y el aforo, que son los conceptos
 centrales del bus. La presión de aire, el retardador, el enclavamiento de
 puertas y la fatiga en jornada son detalle de sistema y llegan al final.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-bus.md) y los
+Clase 6: [🧪 Principios y operación](../operacion/principios-bus.md) y los
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
@@ -255,6 +255,48 @@ Módulo 6: [🧪 Principios y operación](../operacion/principios-bus.md) y los
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para descenso prolongado con el vehículo cargado y una parada próxima**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «descenso prolongado con el vehículo cargado y una parada próxima» hay que reconstruir la cadena motor → transmisión → freno de servicio y retardador → ejes, aplicar el principio «gestión de inercia, distancia de detención y transferencia de peso con pasajeros», reconocer el riesgo y defender una decisión verificable: seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno.
+
+Esta clase se conecta con el resto del curso mediante **gestión de inercia, distancia de detención y transferencia de peso con pasajeros**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas** y poder justificar la decisión
+**seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → freno de servicio y retardador → ejes**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Commercial Driver's License Manual](https://www.fmcsa.dot.gov/registration/commercial-drivers-license/cdl-manual) se usa para operación de buses y camiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **motor → transmisión → freno de servicio y retardador → ejes** ante **descenso prolongado con el vehículo cargado y una parada próxima**.
+2. **Explicar:** aplica **gestión de inercia, distancia de detención y transferencia de peso con pasajeros** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **bus urbano frente a autocar interurbano**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «descenso prolongado con el vehículo cargado y una parada próxima»?
+2. ¿Qué alternativa a **seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

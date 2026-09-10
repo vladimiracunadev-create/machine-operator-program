@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: GRUAPORTUARI-03
@@ -16,15 +16,15 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes de la grúa portuaria
 
 [🏠 Inicio](../../../README.md) · [⚓ Curso: Grúa portuaria](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-grua-portuaria.md) ya dijo qué tipos de
+El [Clase 2](../operacion/caracteristicas-grua-portuaria.md) ya dijo qué tipos de
 grúa portuaria existen y para qué sirve cada uno: pórtico STS, móvil portuaria,
-RTG, RMG y grúa de pluma. Este módulo responde a lo siguiente: **no todas se
+RTG, RMG y grúa de pluma. Esta clase responde a lo siguiente: **no todas se
 manejan igual**, y esa diferencia no es de matiz. Cambia qué mandos tiene la
 máquina y, por tanto, qué debe modelar el simulador.
 
@@ -39,11 +39,11 @@ máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-grua-portuaria.md) describe un puesto de
+El [Clase 5](../mandos/manual-mandos-grua-portuaria.md) describe un puesto de
 mando con el **joystick izquierdo** repartido entre traslación del trolley y
 traslación del gantry, el derecho en el izaje, y una **botonera de spreader** con
 twist-locks y telescopiado. El
-[Módulo 9](../simulacion/diseno-simulador-grua-portuaria.md) expone las variables
+[Clase 9](../simulacion/diseno-simulador-grua-portuaria.md) expone las variables
 `Posición del trolley` (0-60 m), `Posición del gantry` (0-400 m) y
 `Estado de twist-locks` (trabado/libre). Ambos describen una grúa **pórtico STS
 sobre rieles, con spreader de contenedores**.
@@ -75,7 +75,7 @@ twist-locks, que no existe.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Pórtico STS | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Es el caso base contra el que se comparan los demás. |
+| Pórtico STS | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Es el caso base contra el que se comparan los demás. |
 | Grúa móvil portuaria | **Desaparecen** la traslación del gantry sobre rieles y el abatimiento de la pluma como maniobra de vano. **Aparece** el mando de desplazamiento autopropulsado. | El eje "a lo largo del muelle" deja de ser una guía y pasa a ser conducción libre. |
 | RTG | **Desaparece** el abatimiento de la pluma. La traslación del pórtico **cambia de naturaleza**: sobre neumáticos hay que guiar el rumbo, no solo avanzar por el riel. | El joystick de gantry deja de ser un eje de una dimensión. |
 | RMG | **Desaparece** el abatimiento de la pluma. El resto del mapa se conserva. | Cambian los recorridos, no los controles. |
@@ -83,7 +83,7 @@ twist-locks, que no existe.
 | Anti-sway desactivado | El botón o modo anti-sway del joystick derecho **existe pero no actúa**. | La corrección del balanceo vuelve por completo al operador. |
 
 En todos los casos se conservan la parada de emergencia, el indicador de carga y
-el anemómetro: son la base de seguridad común que el Módulo 5 exige mantener
+el anemómetro: son la base de seguridad común que el Clase 5 exige mantener
 siempre visible y accesible.
 
 ---
@@ -91,20 +91,20 @@ siempre visible y accesible.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-grua-portuaria.md):
+[Clase 9](../simulacion/diseno-simulador-grua-portuaria.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Pórtico STS | Ninguna: es el caso base. | El del Módulo 5. |
+| Pórtico STS | Ninguna: es el caso base. | El del Clase 5. |
 | Grúa móvil portuaria | `Posición del gantry` deja de ser una coordenada sobre riel y pasa a ser una posición libre en el muelle. `Viento` gana peso: sin frenos de riel ni anclaje, el límite operacional se apoya en otro sustento. | El mismo en el izaje; distinto en el desplazamiento de la máquina. |
 | RTG | `Posición del gantry` **se desdobla**: ya no basta un valor en metros a lo largo de una vía, hace falta también el rumbo sobre el patio. | El mismo, con una entrada extra de guiado. |
 | RMG | `Posición del trolley` y `Posición del gantry` **cambian de rango**: el recorrido es el del bloque de patio, no el de la viga sobre el buque. | El mismo. |
 | Grúa de pluma | `Posición del trolley` **se elimina** y se sustituye por giro más alcance. `Estado de twist-locks` **desaparece**: sin spreader no hay perno que trabar. `Peso de la carga` deja de sumar el peso propio del spreader. | Sin entradas de trolley, gantry ni spreader; con giro del brazo. |
 | Anti-sway desactivado | `Balanceo de la carga` conserva su rango, pero deja de reducirse solo: pasa a depender por completo de la suavidad de la entrada del usuario. | El mismo, con el modo anti-sway inerte. |
 
-Los rangos que el Módulo 9 declara —trolley 0-60 m, spreader 0-40 m, carga
+Los rangos que el Clase 9 declara —trolley 0-60 m, spreader 0-40 m, carga
 0-50 t, balanceo -30..30 grados, viento 0-30 m/s, gantry 0-400 m— describen la
-STS. El propio Módulo 9 deja pendiente **definir valores por defecto de cada
+STS. El propio Clase 9 deja pendiente **definir valores por defecto de cada
 variable por tipo de grúa portuaria**: este módulo dice por qué ese pendiente no
 se resuelve copiando la tabla y cambiando números.
 
@@ -140,7 +140,7 @@ control es otro:
   no una dificultad distinta.
 - **Las grúas sin vía fija** —la móvil portuaria y la RTG sobre neumáticos—
   frente a las de riel: la posición de la máquina deja de ser un número sobre una
-  guía y pasa a necesitar rumbo. La entrada de gantry del Módulo 5 no la
+  guía y pasa a necesitar rumbo. La entrada de gantry del Clase 5 no la
   representa.
 
 La STS y la RMG sí caben en un mismo simulador ajustando rangos: comparten
@@ -152,7 +152,7 @@ que el nivel sube.
 
 Queda una pregunta que este módulo **no puede cerrar**: si cada familia exige una
 habilitación distinta del operador. El
-[Módulo 8](../reglamentos/reglamentos-grua-portuaria.md) marca el detalle de la
+[Clase 8](../reglamentos/reglamentos-grua-portuaria.md) marca el detalle de la
 certificación como **(por confirmar)**, y mientras siga así, el simulador puede
 separar esquemas de control pero no afirmar qué acredita cada uno.
 
@@ -160,6 +160,48 @@ separar esquemas de control pero no afirmar qué acredita cada uno.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar grúa pórtico STS frente a grúa móvil portuaria frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «grúa pórtico STS frente a grúa móvil portuaria» resuelven prioridades distintas. Una comparación profesional sigue la cadena alimentación → accionamientos → carro y cables → spreader y contenedor: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **control del péndulo y productividad sin superar límites estructurales ni de viento**. El hilo de
+seguridad consiste en reconocer a tiempo **oscilación, enganche incompleto o ingreso de personas al área de caída** y poder justificar la decisión
+**detener o suavizar el ciclo según viento, señalización y estabilidad de la carga**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **alimentación → accionamientos → carro y cables → spreader y contenedor**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) aporta izaje, riesgos y controles;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **traslado de un contenedor desde buque con ráfagas laterales**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **alimentación** hasta **spreader y contenedor**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **alimentación → accionamientos → carro y cables → spreader y contenedor** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «traslado de un contenedor desde buque con ráfagas laterales» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

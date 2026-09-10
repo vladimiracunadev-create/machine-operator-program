@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: NAUTILUS-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del Nautilus
 
@@ -49,7 +49,7 @@ se mantiene constante, así que la nave juega con el otro lado de la balanza: lo
 tanques de lastre dejan entrar agua para pesar más y hundirse, o inyectan aire
 comprimido que expulsa esa agua para pesar menos y subir.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nautilus.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nautilus.md).
 
 </details>
 
@@ -65,7 +65,7 @@ vertical: la nave sigue avanzando con la hélice y puede derivar con las
 corrientes. Confundir ambas cosas es uno de los errores típicos que el curso
 señala.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-nautilus.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-nautilus.md).
 
 </details>
 
@@ -98,7 +98,7 @@ otro, y en la novela la nave sube periódicamente a la superficie a ventilar. La
 presión pone un techo a la profundidad, pero el aire pone un reloj a la
 inmersión completa.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nautilus.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nautilus.md).
 
 </details>
 
@@ -114,7 +114,7 @@ de que se está acercando la profundidad de aplastamiento del casco. El curso
 añade que el nivel de aire también debe estar visible, porque define la
 autonomía respirable.
 
-Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-nautilus.md).
+Clase 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-nautilus.md).
 
 </details>
 
@@ -129,7 +129,7 @@ aventura funcione dentro del relato. En el mundo real ninguna fuente de energía
 es infinita, todo casco tiene profundidad límite, el aire es finito y la
 navegación submarina está sujeta a normas y tratados internacionales.
 
-Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-nautilus.md).
+Clase 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-nautilus.md).
 
 </details>
 
@@ -213,10 +213,10 @@ cambia al activar cada modo y por qué existe esa opción?
 <details>
 <summary>Ver respuesta</summary>
 
-En **modo ciencia** se aplica la física del Módulo 6: el aire y la energía se
+En **modo ciencia** se aplica la física del Clase 6: el aire y la energía se
 agotan, la presión crece con la profundidad y el casco tiene un límite de
 aplastamiento. En **modo ficción** se aplican las reglas del universo del
-Módulo 8: la autonomía es casi ilimitada y la nave alcanza las profundidades del
+Clase 8: la autonomía es casi ilimitada y la nave alcanza las profundidades del
 relato, priorizando la aventura sobre el rigor.
 
 Existe porque el curso no quiere elegir por el usuario. La misma nave sirve para
@@ -224,7 +224,7 @@ enseñar flotabilidad y presión con rigor, o para recrear la novela; el modo
 convierte esa decisión en un interruptor explícito en vez de en una ambigüedad
 escondida en el modelo.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nautilus.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nautilus.md).
 
 </details>
 
@@ -262,6 +262,48 @@ y [🧰 Recursos](../recursos/recursos-nautilus.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Distingue la física de la licencia creativa, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para inmersión narrativa cerca de relieve submarino**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «inmersión narrativa cerca de relieve submarino» hay que reconstruir la cadena energía descrita en la obra → motor → hélice → casco y timones, aplicar el principio «lectura doble: tecnología imaginada por Verne y principios reales de flotabilidad y presión», reconocer el riesgo y defender una decisión verificable: citar el canon y contrastar cada maniobra con física y navegación reales.
+
+Esta clase se conecta con el resto del curso mediante **lectura doble: tecnología imaginada por Verne y principios reales de flotabilidad y presión**. El hilo de
+seguridad consiste en reconocer a tiempo **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real** y poder justificar la decisión
+**citar el canon y contrastar cada maniobra con física y navegación reales**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía descrita en la obra → motor → hélice → casco y timones**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Twenty Thousand Leagues under the Sea](https://www.gutenberg.org/ebooks/164) aporta obra primaria en dominio público;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **energía descrita en la obra → motor → hélice → casco y timones** ante **inmersión narrativa cerca de relieve submarino**.
+2. **Explicar:** aplica **lectura doble: tecnología imaginada por Verne y principios reales de flotabilidad y presión** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **citar el canon y contrastar cada maniobra con física y navegación reales** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **Nautilus literario frente a submarino moderno**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «inmersión narrativa cerca de relieve submarino»?
+2. ¿Qué alternativa a **citar el canon y contrastar cada maniobra con física y navegación reales** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

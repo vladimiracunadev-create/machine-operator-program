@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: TRENALTAVELO-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del tren de alta velocidad
 
@@ -84,7 +84,7 @@ vía informan al equipo embarcado, que muestra la velocidad objetivo en la
 pantalla **DMI** del pupitre. Además el sistema supervisa: si el tren excede el
 límite, aplica el freno automáticamente.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-alta-velocidad.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-alta-velocidad.md).
 
 </details>
 
@@ -104,7 +104,7 @@ velocidad, sin desgaste; el **neumático** completa la detención final. Se comb
 porque la energía cinética es enorme y el freno de fricción solo no bastaría ni
 disiparía el calor con seguridad.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-alta-velocidad.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-alta-velocidad.md).
 
 </details>
 
@@ -123,7 +123,7 @@ El orden importa: la frenada se planifica respecto a la señal objetivo, no se
 improvisa al verla. Frenar tarde es el error típico, y si se ignora el objetivo
 del DMI la supervisión frena sola.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-alta-velocidad.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-tren-alta-velocidad.md).
 
 </details>
 
@@ -141,7 +141,7 @@ regulador y EFE como operador estatal histórico; para la operación se usan com
 referencia los estándares internacionales de alta velocidad, incluida la
 señalización embarcada ETCS/ERTMS.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-alta-velocidad.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-alta-velocidad.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md), sección 1.6.
 
 </details>
@@ -166,7 +166,7 @@ e iniciar la frenada con kilómetros de anticipación, apoyándose primero en el
 freno regenerativo y dinámico. Si se llega excedido, la supervisión ETCS aplica el
 freno automático: no es una ayuda, es la señal de que la planificación falló.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-alta-velocidad.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-tren-alta-velocidad.md).
 
 </details>
 
@@ -187,7 +187,7 @@ Ahí lo que se ajusta es la velocidad y la ventilación.
 
 Mismo tren, dos entornos, dos motivos distintos para moderar la marcha.
 
-Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-tren-alta-velocidad.md).
+Clase 7: [🌍 Entornos de trabajo](../operacion/entornos-tren-alta-velocidad.md).
 
 </details>
 
@@ -233,7 +233,7 @@ y supervisa la velocidad objetivo con frenado automático al excederla: la
 supervisión saltando es la retroalimentación de que se frenó tarde. Conviene que
 sea un aviso educativo y no un castigo frustrante.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tren-alta-velocidad.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tren-alta-velocidad.md).
 
 </details>
 
@@ -269,6 +269,48 @@ Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para reducción de velocidad previa a una zona de viento lateral**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «reducción de velocidad previa a una zona de viento lateral» hay que reconstruir la cadena catenaria → electrónica de potencia → motores distribuidos → rueda-carril, aplicar el principio «estabilidad dinámica y crecimiento de la energía con el cuadrado de la velocidad», reconocer el riesgo y defender una decisión verificable: cumplir la curva de frenado con anticipación y sin correcciones bruscas.
+
+Esta clase se conecta con el resto del curso mediante **estabilidad dinámica y crecimiento de la energía con el cuadrado de la velocidad**. El hilo de
+seguridad consiste en reconocer a tiempo **perder margen por interpretar tarde una restricción a velocidad elevada** y poder justificar la decisión
+**cumplir la curva de frenado con anticipación y sin correcciones bruscas**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **catenaria → electrónica de potencia → motores distribuidos → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **catenaria → electrónica de potencia → motores distribuidos → rueda-carril** ante **reducción de velocidad previa a una zona de viento lateral**.
+2. **Explicar:** aplica **estabilidad dinámica y crecimiento de la energía con el cuadrado de la velocidad** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **cumplir la curva de frenado con anticipación y sin correcciones bruscas** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **tracción distribuida frente a cabezas tractoras**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «reducción de velocidad previa a una zona de viento lateral»?
+2. ¿Qué alternativa a **cumplir la curva de frenado con anticipación y sin correcciones bruscas** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

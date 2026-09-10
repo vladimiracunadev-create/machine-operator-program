@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: TRENCARGA-03
@@ -16,13 +16,13 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del tren de carga
 
 [🏠 Inicio](../../../README.md) · [🚂 Curso: Tren de carga](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-tren-carga.md) ya dijo qué tipos de
+El [Clase 2](../operacion/caracteristicas-tren-carga.md) ya dijo qué tipos de
 locomotora y de vagón existen y qué composiciones se arman con ellos. Este
 módulo responde a otra cosa: **no todos los trenes se conducen igual**, y esa
 diferencia no es de matiz. Cambia qué mandos tiene la cabina y, por tanto, qué
@@ -39,9 +39,9 @@ debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-tren-carga.md) describe un puesto con
+El [Clase 5](../mandos/manual-mandos-tren-carga.md) describe un puesto con
 manipulador de tracción, freno automático, freno independiente, freno dinámico,
-inversor, arenado y radio. El [Módulo 9](../simulacion/diseno-simulador-tren-carga.md)
+inversor, arenado y radio. El [Clase 9](../simulacion/diseno-simulador-tren-carga.md)
 expone variables como `Esfuerzo de tracción`, `Fuerza longitudinal` y
 `Adherencia rueda-riel`. Ambos describen, sin decirlo, un tren **diesel-eléctrico
 con locomotoras remotas**.
@@ -75,7 +75,7 @@ es justamente lo que el *distributed power* existe para evitar.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Diesel-eléctrica | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Es el caso base del curso. |
+| Diesel-eléctrica | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Es el caso base del curso. |
 | Eléctrica por catenaria | **Desaparece** el motor diesel como sistema a bordo y **aparece** el pantógrafo como condición de la tracción. El freno dinámico pasa a ser regenerativo. | El mismo gesto de freno dinámico devuelve energía a la catenaria en vez de disiparla; sin línea, el manipulador de tracción no manda nada. |
 | Tren corto (una locomotora líder) | **Desaparece** el mando de las remotas: la radio queda solo como enlace con el control. | El manipulador de tracción aplica fuerza en un único punto del tren. |
 | Tren largo con locomotoras distribuidas | La radio **se convierte** en parte del mando de tracción: replica el manipulador en las locomotoras remotas. | Un mando de comunicación pasa a ser un mando de fuerza; hay testigos de estado de remotas que vigilar. |
@@ -88,11 +88,11 @@ es justamente lo que el *distributed power* existe para evitar.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-tren-carga.md):
+[Clase 9](../simulacion/diseno-simulador-tren-carga.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Diesel-eléctrica | Ninguna: es el caso base. | El del Módulo 5. |
+| Diesel-eléctrica | Ninguna: es el caso base. | El del Clase 5. |
 | Eléctrica por catenaria | `Esfuerzo de tracción` pasa a depender de la línea disponible además de la `Adherencia rueda-riel`. La energía del freno dinámico deja de disiparse y se devuelve. | El mismo, con el pantógrafo y el tramo electrificado como condición previa. |
 | Tren corto (una locomotora líder) | `Fuerza longitudinal` **se simplifica**: un solo origen de tracción, tensión y compresión encadenadas desde el frente. | Sin entrada de mando a remotas. |
 | Tren largo con locomotoras distribuidas | `Fuerza longitudinal` **deja de ser un valor** y pasa a ser una distribución por tramos. `Masa total` se reparte entre varios puntos de tracción. | Manipulador que actúa en varios puntos vía radio; testigos de remotas. |
@@ -152,6 +152,48 @@ estos modelos dejan de ser el mismo tren.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar carga unitaria frente a carga mixta frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «carga unitaria frente a carga mixta» resuelven prioridades distintas. Una comparación profesional sigue la cadena locomotora → generador y tracción → enganches → rueda-carril: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **fuerzas longitudinales del tren y propagación del freno neumático**. El hilo de
+seguridad consiste en reconocer a tiempo **rotura de enganche, patinaje o compresión excesiva del convoy** y poder justificar la decisión
+**aplicar potencia y freno de modo gradual considerando la longitud completa**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **locomotora → generador y tracción → enganches → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **arranque de un tren largo en rampa con holguras entre enganches**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **locomotora** hasta **rueda-carril**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **locomotora → generador y tracción → enganches → rueda-carril** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «arranque de un tren largo en rampa con holguras entre enganches» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

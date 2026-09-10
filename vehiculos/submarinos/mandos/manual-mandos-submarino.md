@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 5
 codigo: SUBMARINOS-05
@@ -16,7 +16,7 @@ evidencia: "Mapa de mandos y resolución de dos estados del tablero."
 criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎛️ Mandos e instrumentos del submarino
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 ## Vista general
 
-Este módulo describe, **a nivel educativo y solo para simulación**, el puesto de
+Esta clase describe, **a nivel educativo y solo para simulación**, el puesto de
 control de un submarino. No representa operación militar real ni sistemas de
 armas: se limita a la flotabilidad, el gobierno en profundidad, la propulsión y
 los instrumentos básicos. El control se concentra en un puesto central donde la
@@ -84,6 +84,55 @@ tripulación coordina rumbo, profundidad y lastre.
 - La emersión de emergencia debe ser un control accesible y reconocible.
 - Toda la interfaz debe dejar claro que es una **simulación educativa**, no
   operación real ni entrenamiento militar.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Vista general, Mapa de controles, Instrumentos principales y Entradas de simulación** a **interpretar mandos e indicaciones durante cambio de profundidad manteniendo rumbo y discreción**?
+
+### Explicación razonada
+
+Un mando no se aprende memorizando su nombre, sino recorriendo el ciclo intención → acción → indicación → verificación. En Submarinos, el operador actúa sobre fuente de energía o motor, observa la respuesta en hélice o propulsor y confirma el efecto en planos y tanques de lastre. Una indicación inesperada exige detener la secuencia mental, identificar el modo activo y evitar una segunda orden que agrave el estado.
+
+```mermaid
+flowchart LR
+    I["intención"] --> M["mando sobre fuente de energía o motor"]
+    M --> R["respuesta de hélice o propulsor"] --> E["efecto en planos y tanques de lastre"]
+    E --> V["verificar indicación"] --> I
+```
+
+Esta clase se conecta con el resto del curso mediante **equilibrio entre flotabilidad, peso, profundidad, trimado y control hidrodinámico**. El hilo de
+seguridad consiste en reconocer a tiempo **exceso de profundidad, pérdida de control o colisión por conciencia situacional limitada** y poder justificar la decisión
+**coordinar velocidad, planos y lastre observando tendencia, no solo profundidad instantánea**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía → motor → hélice o propulsor → planos y tanques de lastre**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ships](https://www.history.navy.mil/browse-by-topic/ships.html) aporta historia pública de buques militares;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Intención:** formula qué cambio se necesita durante **cambio de profundidad manteniendo rumbo y discreción**.
+2. **Mando:** identifica el control que actúa sobre **fuente de energía** o **motor** y el modo que debe estar activo.
+3. **Lectura:** localiza la indicación que confirma la respuesta de **hélice o propulsor** y el efecto en **planos y tanques de lastre**.
+4. **Verificación:** si la lectura no coincide, no acumules órdenes; estabiliza e investiga el estado.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mando inicia la respuesta y qué instrumento confirma que el modo correcto está activo?
+2. ¿Qué indicación temprana advertiría **exceso de profundidad, pérdida de control o colisión por conciencia situacional limitada**?
+3. ¿Qué secuencia usarías si la respuesta de **planos y tanques de lastre** no coincide con la orden?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

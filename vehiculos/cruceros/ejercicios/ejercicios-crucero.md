@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: CRUCEROS-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del crucero
 
@@ -63,7 +63,7 @@ motores eléctricos acoplados a los **pods** convierten esa electricidad en giro
 bajo el casco. El cuadro principal reparte entre propulsión y hotel; es el
 corazón de la planta.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-crucero.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-crucero.md).
 
 </details>
 
@@ -94,7 +94,7 @@ frenar o girar. La respuesta llega con retardo respecto de la orden, así que la
 velocidad se reduce mucho antes de la aproximación. Subestimar la distancia de
 frenado es uno de los errores comunes que el curso señala.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-crucero.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-crucero.md).
 
 </details>
 
@@ -129,7 +129,7 @@ uno.
 En Chile la ley base es el DL 2.222 de 1978 (Ley de Navegación) y la Autoridad
 Marítima es DIRECTEMAR.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-crucero.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-crucero.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -215,7 +215,7 @@ reales; el usuario **ve** que la orden ya cambió y el buque todavía no. Añadi
 una proyección de la trayectoria y de la distancia de frenado hace visible que la
 maniobra se decide millas antes.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-crucero.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-crucero.md).
 
 </details>
 
@@ -250,6 +250,48 @@ Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para atraque con viento sobre una superestructura de gran superficie**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «atraque con viento sobre una superestructura de gran superficie» hay que reconstruir la cadena generación eléctrica → propulsión → hélices o pods → casco y gobierno, aplicar el principio «maniobrabilidad de gran masa combinada con viento lateral y efecto de aguas restringidas», reconocer el riesgo y defender una decisión verificable: coordinar propulsión, remolcadores y límites de viento antes de aproximar.
+
+Esta clase se conecta con el resto del curso mediante **maniobrabilidad de gran masa combinada con viento lateral y efecto de aguas restringidas**. El hilo de
+seguridad consiste en reconocer a tiempo **contacto con muelle o pérdida de separación por subestimar abatimiento** y poder justificar la decisión
+**coordinar propulsión, remolcadores y límites de viento antes de aproximar**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **generación eléctrica → propulsión → hélices o pods → casco y gobierno**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) aporta navegación, SOLAS, COLREG y STCW;
+[Collision Regulations](https://www.imo.org/en/about/conventions/pages/colreg.aspx) se usa para prevención de abordajes. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **generación eléctrica → propulsión → hélices o pods → casco y gobierno** ante **atraque con viento sobre una superestructura de gran superficie**.
+2. **Explicar:** aplica **maniobrabilidad de gran masa combinada con viento lateral y efecto de aguas restringidas** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **coordinar propulsión, remolcadores y límites de viento antes de aproximar** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **crucero convencional frente a buque con propulsión azimutal**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «atraque con viento sobre una superestructura de gran superficie»?
+2. ¿Qué alternativa a **coordinar propulsión, remolcadores y límites de viento antes de aproximar** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

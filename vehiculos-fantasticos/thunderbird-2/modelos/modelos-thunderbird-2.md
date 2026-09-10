@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: THUNDERBIRD2-03
@@ -16,15 +16,15 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del Thunderbird 2
 
 [🏠 Inicio](../../../README.md) · [📦 Curso: Thunderbird 2](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-thunderbird-2.md) ya dijo qué es un
+El [Clase 2](../operacion/caracteristicas-thunderbird-2.md) ya dijo qué es un
 transporte pesado modular y qué tipos conceptuales existen: portador ligero,
-portador pesado y módulo especializado. Este módulo responde a lo siguiente:
+portador pesado y módulo especializado. Esta clase responde a lo siguiente:
 **el vehículo es siempre el mismo, pero lo que lleva no**. Y esa diferencia no
 es de matiz: cambia la masa, mueve el centro de masa, cambia la misión y, por
 tanto, cambia qué debe modelar el simulador.
@@ -41,10 +41,10 @@ tanto, cambia qué debe modelar el simulador.
 
 ## 🧭 Por qué la configuración decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-thunderbird-2.md) describe un puesto de
+El [Clase 5](../mandos/manual-mandos-thunderbird-2.md) describe un puesto de
 mando con una botonera de gestión de carga para anclar y soltar el módulo, y un
 selector de reparto de peso para ajustar dónde apoya la carga. El
-[Módulo 9](../simulacion/diseno-simulador-thunderbird-2.md) expone las
+[Clase 9](../simulacion/diseno-simulador-thunderbird-2.md) expone las
 variables `Masa del módulo`, `Estado de anclajes` y `Centro de masa`. Los tres
 describen el vehículo **con cápsula**.
 
@@ -55,7 +55,7 @@ que vigilar. Si el simulador se construye sobre el esquema cargado y luego se le
 "añade" el vuelo vacío, el resultado es una nave vacía que gestiona anclajes
 inexistentes.
 
-Y al revés: el [Módulo 6](../operacion/principios-thunderbird-2.md) recuerda que
+Y al revés: el [Clase 6](../operacion/principios-thunderbird-2.md) recuerda que
 la fracción de carga útil y el margen de empuje solo aprietan cuando hay masa
 que mover. La misma nave, con otra cápsula, es otro problema de pilotaje.
 
@@ -65,7 +65,7 @@ que mover. La misma nave, con otra cápsula, es otro problema de pilotaje.
 
 | Configuración | Qué cambia al pilotarlo |
 | --- | --- |
-| Sin módulo (vacío) | La referencia mínima: poca masa, sobra margen de empuje y la palanca de vuelo responde rápido. Es el estado ágil del Módulo 5. |
+| Sin módulo (vacío) | La referencia mínima: poca masa, sobra margen de empuje y la palanca de vuelo responde rápido. Es el estado ágil del Clase 5. |
 | Cápsula ligera (portador ligero) | Prioriza rapidez sobre carga útil: la respuesta sigue siendo viva y el margen de empuje es holgado. |
 | Cápsula pesada (portador pesado) | Cabecear y virar se vuelve lento y hay que anticipar. El margen de empuje queda justo y el límite de despegue está cerca. |
 | Cápsula especializada por misión | El equipo va donde exige la misión, no donde conviene al equilibrio: el centro de masa puede quedar alto o desviado. |
@@ -78,7 +78,7 @@ que mover. La misma nave, con otra cápsula, es otro problema de pilotaje.
 
 | Configuración | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Cápsula ligera, pesada y especializada | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Cambian los rangos y los tiempos de respuesta, no los controles. |
+| Cápsula ligera, pesada y especializada | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Cambian los rangos y los tiempos de respuesta, no los controles. |
 | Sin módulo (vacío) | **Desaparecen** la botonera de gestión de carga y el selector de reparto de peso. El instrumento de estado de anclajes **se apaga**. | No hay carga que anclar ni que repartir: el piloto solo vuela. Es un modo de control distinto, no un vuelo fácil. |
 | Cápsula para ruta larga | **Aparece** el nivel de combustible como masa que el piloto gestiona en vuelo, no como cifra fija de salida. | No es un mando nuevo, pero altera el resultado del acelerador y del margen de empuje durante toda la ruta. |
 | Cápsula de descarga en destino | **Gana peso** el control de tren y el instrumento de carga en cada apoyo pasa de secundario a decisivo. | La maniobra crítica se traslada del vuelo al contacto con el suelo. |
@@ -89,11 +89,11 @@ que mover. La misma nave, con otra cápsula, es otro problema de pilotaje.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-thunderbird-2.md):
+[Clase 9](../simulacion/diseno-simulador-thunderbird-2.md):
 
 | Configuración | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Cápsula pesada (portador pesado) | Ninguna: es el caso base del curso. `Peso total` alto y `Margen de empuje` ajustado. | El del Módulo 5. |
+| Cápsula pesada (portador pesado) | Ninguna: es el caso base del curso. `Peso total` alto y `Margen de empuje` ajustado. | El del Clase 5. |
 | Sin módulo (vacío) | `Estado de anclajes` **se elimina**: no hay cierres. `Masa del módulo` vale cero y deja de influir. `Centro de masa` se desacopla de la carga y depende solo del vehículo y del combustible. | Sin entrada de gestión de carga ni de reparto de peso. |
 | Cápsula ligera (portador ligero) | `Masa del módulo` **reduce** su rango y `Margen de empuje` se aleja del cero. | El mismo, con respuesta más viva. |
 | Cápsula especializada por misión | `Centro de masa` deja de ser un valor centrado y pasa a ser una restricción de la misión. | El mismo, con el reparto de peso en primer plano. |
@@ -139,7 +139,7 @@ se duplica con él. Es la diferencia dura con el crucero, donde la sustentación
 carga con el peso y el motor solo vence la resistencia.
 
 Y hay un efecto de segundo orden que el
-[Módulo 2](../operacion/caracteristicas-thunderbird-2.md) ya insinúa al decir
+[Clase 2](../operacion/caracteristicas-thunderbird-2.md) ya insinúa al decir
 que "sostener mucho peso obliga a más estructura": el bastidor que aguanta una
 cápsula más pesada pesa a su vez, y ese peso también hay que levantarlo. Cada
 kilo de carga útil cuesta más de un kilo de empuje.
@@ -158,7 +158,7 @@ al doble de distancia, su aporte a la inercia se **cuadruplica**.
 Y como el par de control disponible no crece porque la cápsula pese más, la
 aceleración angular que consigue el piloto es ese par dividido por la inercia:
 al subir la inercia, el giro se frena en la misma proporción. El
-[Módulo 5](../mandos/manual-mandos-thunderbird-2.md) ya anota que la palanca de
+[Clase 5](../mandos/manual-mandos-thunderbird-2.md) ya anota que la palanca de
 vuelo "responde más lento con carga pesada"; esa división es el motivo.
 
 ### Centro de masa: la autoridad que se gasta en no caerse
@@ -172,7 +172,7 @@ intentar cualquier maniobra.
 Eso define una envolvente: existe un desplazamiento a partir del cual el par
 necesario para compensar agota el control disponible. Pasado ese punto no es que
 pilotar sea difícil, es que la nave no se sostiene. Por eso el selector de
-reparto de peso del [Módulo 5](../mandos/manual-mandos-thunderbird-2.md) no es
+reparto de peso del [Clase 5](../mandos/manual-mandos-thunderbird-2.md) no es
 una comodidad: es lo que devuelve el margen de mando.
 
 ### Resumen para el simulador
@@ -199,7 +199,7 @@ Dos casos no se resuelven con un ajuste de parámetros, porque su esquema de
 control es otro:
 
 - **El vuelo sin módulo** frente al resto: desaparecen dos entradas del puesto
-  de mando y una variable del Módulo 9 se queda sin valores. Es un modo de
+  de mando y una variable del Clase 9 se queda sin valores. Es un modo de
   control distinto, no una carga distinta.
 - **Las cápsulas de masa variable** (ruta larga y descarga en destino) frente a
   las de masa fija: obligan a que el peso total sea una variable viva durante la
@@ -214,6 +214,48 @@ diferencias emergen a medida que el nivel sube.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué la configuración decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar configuración vacía frente a módulo pesado frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «configuración vacía frente a módulo pesado» resuelven prioridades distintas. Una comparación profesional sigue la cadena energía ficticia → sustentación y propulsión → bahía modular → carga de rescate: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **la carga modular cambia masa, centro de gravedad, potencia y misión**. El hilo de
+seguridad consiste en reconocer a tiempo **ignorar cómo la carga modifica control, autonomía y zona de operación** y poder justificar la decisión
+**recalcular margen y seleccionar zona antes de comprometer el aterrizaje**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → sustentación y propulsión → bahía modular → carga de rescate**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Thunderbirds Vehicles](https://www.thunderbirds.com/) aporta referencia oficial de vehículos de rescate;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **despegue vertical ficticio con módulo pesado de rescate**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **energía ficticia** hasta **carga de rescate**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **energía ficticia → sustentación y propulsión → bahía modular → carga de rescate** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «despegue vertical ficticio con módulo pesado de rescate» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

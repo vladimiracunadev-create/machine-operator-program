@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: CAZAESTELAR-04
@@ -16,7 +16,7 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del caza estelar
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo abre el caza estelar por dentro. Compara la tecnología imaginaria
+Esta clase abre el caza estelar por dentro. Compara la tecnología imaginaria
 de la ficción con la física real que la haría funcionar (o que la desmiente).
 La regla del curso es clara: describimos conceptos con nuestras palabras, sin
 copiar planos ni especificaciones oficiales.
@@ -152,8 +152,57 @@ para no recalentarse.
 4. La **computadora** coordina todo respetando la conservación del momento.
 5. Los **sensores** informan a gran distancia, no por la ventanilla.
 
-Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-caza-estelar.md)
+Con esto claro, el [Clase 5: Mandos](../mandos/manual-mandos-caza-estelar.md)
 muestra como el piloto operaría cada sistema.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Fuente de energía, Propulsión principal, Propulsores de control de reacción (RCS) y Computadora de vuelo y sensores** a **seguir una alteración desde fuente de energía ficticia hasta trayectoria durante intercepción ficticia seguida de una maniobra de evasión**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: fuente de energía ficticia entrega o transforma energía; propulsión la adapta; control de actitud la transmite o gobierna; y trayectoria produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de trayectoria y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["fuente de energía ficticia"] --> B["propulsión"] --> C["control de actitud"] --> D["trayectoria"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **contraste entre maniobra mostrada en el canon y conservación del momento en el espacio**. El hilo de
+seguridad consiste en reconocer a tiempo **trasladar aerodinámica atmosférica al vacío sin justificar la licencia narrativa** y poder justificar la decisión
+**separar regla de universo, modelo físico elegido y retroalimentación al jugador**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía ficticia → propulsión → control de actitud → trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Star Wars Databank](https://www.starwars.com/databank) aporta canon narrativo y diseño visual;
+[Beginner's Guide to Aeronautics](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/) se usa para contraste con física y vuelo reales. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **fuente de energía ficticia** durante **intercepción ficticia seguida de una maniobra de evasión**.
+2. **Transformación:** explica qué hacen **propulsión** y **control de actitud**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **trayectoria** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **trasladar aerodinámica atmosférica al vacío sin justificar la licencia narrativa**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **propulsión**, ¿qué efecto esperarías primero en **control de actitud** y después en **trayectoria**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **fuente de energía ficticia** de una falla de **control de actitud**?
+3. ¿Por qué una segunda orden podría agravar **trasladar aerodinámica atmosférica al vacío sin justificar la licencia narrativa**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

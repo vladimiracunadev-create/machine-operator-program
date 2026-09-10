@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: CAZAESTELAR-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del caza estelar
 
@@ -46,7 +46,7 @@ rozamiento que la frenen, así que por la primera ley de Newton mantiene su
 velocidad indefinidamente. Frenar exige encender el motor en sentido contrario,
 y eso gasta propelente.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-caza-estelar.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-caza-estelar.md).
 
 </details>
 
@@ -61,7 +61,7 @@ en una dirección y mirar hacia atrás sin dejar de moverse igual. El rumbo solo
 empieza a cambiar cuando se enciende el motor principal en la nueva dirección,
 y eso lleva tiempo y propelente.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-caza-estelar.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-caza-estelar.md).
 
 </details>
 
@@ -76,7 +76,7 @@ opuestos la giran sobre su eje sin moverla de sitio), para **trasladarla** de
 lado sin cambiar su orientación, y para **frenar el giro**, porque una rotación
 no se detiene sola: hay que aplicar un impulso contrario.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-caza-estelar.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-caza-estelar.md).
 
 </details>
 
@@ -92,7 +92,7 @@ sobre energía eléctrica, sin masa que expulsar no hay empuje. Cada maniobra
 descuenta parte del presupuesto y, cuando se agota, la nave ya no puede
 acelerar, frenar ni cambiar de rumbo.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-caza-estelar.md)
+Clase 6: [🧪 Principios y operación](../operacion/principios-caza-estelar.md)
 y módulo 9: [🧰 Recursos](../recursos/recursos-caza-estelar.md).
 
 </details>
@@ -109,7 +109,7 @@ porque en el vacío hacia dónde apunta la nave y hacia dónde se mueve son cosa
 distintas; en un avión el aire las mantiene acopladas. Por eso los instrumentos
 muestran a la vez el vector de velocidad y el indicador de orientación.
 
-Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-caza-estelar.md).
+Clase 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-caza-estelar.md).
 
 </details>
 
@@ -125,7 +125,7 @@ en un campo de escombros no generan sustentación ni permiten virar. Si una
 superficie amplia tuviera una función útil fuera de la atmósfera sería disipar
 calor: en el vacío el calor no se va por el aire y hacen falta radiadores.
 
-Módulo 7: [🌍 Entornos](../operacion/entornos-caza-estelar.md) y módulo 3:
+Clase 7: [🌍 Entornos](../operacion/entornos-caza-estelar.md) y módulo 3:
 [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-caza-estelar.md).
 
 </details>
@@ -150,7 +150,7 @@ es imposible, porque un avión gira apoyándose en el aire con sus alas (viraje
 bancado) y en el vacío no hay nada contra qué apoyarse. Ambas convenciones
 existen porque una persecución con ritmo de coche es fácil de seguir.
 
-Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-caza-estelar.md).
+Clase 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-caza-estelar.md).
 
 </details>
 
@@ -217,7 +217,7 @@ cambiar de modo qué regla se activó o se desactivó.
 Lo que sí queda fuera de alcance es presentar la versión de ficción como si
 fuera física real sin avisarlo.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-caza-estelar.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-caza-estelar.md).
 
 </details>
 
@@ -237,7 +237,7 @@ El nivel 1 (educativo) ya basta para notar que la nave no frena sola, pero la
 conservación del momento y los RCS son el contenido del nivel 2 (simplificado).
 El delta-v, la masa y el calor esperan al nivel 3 (técnico).
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-caza-estelar.md)
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-caza-estelar.md)
 y los [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
@@ -255,6 +255,48 @@ y los [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Distingue la física de la licencia creativa, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para intercepción ficticia seguida de una maniobra de evasión**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «intercepción ficticia seguida de una maniobra de evasión» hay que reconstruir la cadena fuente de energía ficticia → propulsión → control de actitud → trayectoria, aplicar el principio «contraste entre maniobra mostrada en el canon y conservación del momento en el espacio», reconocer el riesgo y defender una decisión verificable: separar regla de universo, modelo físico elegido y retroalimentación al jugador.
+
+Esta clase se conecta con el resto del curso mediante **contraste entre maniobra mostrada en el canon y conservación del momento en el espacio**. El hilo de
+seguridad consiste en reconocer a tiempo **trasladar aerodinámica atmosférica al vacío sin justificar la licencia narrativa** y poder justificar la decisión
+**separar regla de universo, modelo físico elegido y retroalimentación al jugador**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía ficticia → propulsión → control de actitud → trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Star Wars Databank](https://www.starwars.com/databank) aporta canon narrativo y diseño visual;
+[Beginner's Guide to Aeronautics](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/) se usa para contraste con física y vuelo reales. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **fuente de energía ficticia → propulsión → control de actitud → trayectoria** ante **intercepción ficticia seguida de una maniobra de evasión**.
+2. **Explicar:** aplica **contraste entre maniobra mostrada en el canon y conservación del momento en el espacio** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **separar regla de universo, modelo físico elegido y retroalimentación al jugador** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **vuelo atmosférico frente a vuelo espacial**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «intercepción ficticia seguida de una maniobra de evasión»?
+2. ¿Qué alternativa a **separar regla de universo, modelo físico elegido y retroalimentación al jugador** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

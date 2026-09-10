@@ -140,16 +140,19 @@ flowchart TD
 
 ## 🧑‍🏫 Contrato de una clase
 
-Cada documento lectivo empieza con metadatos que permiten comprobar su identidad,
-duración, nivel, prerrequisito, competencia, resultados, evidencia, criterio de
-aprobación, fuentes y fecha de revisión. El cuerpo termina con una actividad
-específica de la máquina y fuentes visibles. La forma es común; los contenidos,
-decisiones y esquemas no deben intercambiarse entre máquinas.
+Cada documento lectivo conserva metadatos ocultos para que la automatización pueda
+comprobar identidad, duración, prerrequisito, resultados y evidencia sin mostrar
+una ficha administrativa como si fuera materia de estudio. El lector encuentra
+primero el título y el contenido. El cuerpo incorpora una pregunta guía, explicación
+causal, caso resuelto, comprobación y fuentes visibles. La forma es común; los
+sistemas, principios, decisiones y riesgos no deben intercambiarse entre máquinas.
 
 Una clase autónoma debe:
 
 - declarar qué aprenderá y cómo se demostrará;
 - explicar con claridad y profundidad proporcional al nivel;
+- conectar componentes mediante causas y consecuencias, no solo enumerarlos;
+- resolver un caso propio de la máquina paso a paso;
 - emplear tablas o Mermaid cuando una relación sea más clara visualmente;
 - proponer una tarea que obligue a razonar, no a copiar frases;
 - citar fuentes pertinentes al contenido y distinguir jurisdicciones;
@@ -182,6 +185,8 @@ Un curso alcanza el nivel **estructurado** cuando:
 - [ ] 🧰 Recursos, glosario y fuentes registradas.
 - [ ] 🎯 Ejercicios y autoevaluación con las respuestas plegadas.
 - [ ] 🧑‍🏫 Cada clase declara duración, prerrequisito, resultados y evidencia.
+- [ ] 🧭 Cada clase incluye pregunta guía, explicación razonada y caso resuelto.
+- [ ] 🔎 La comprobación exige explicar señales, mecanismos y decisiones.
 - [ ] 📏 Cada clase tiene criterio de aprobación verificable.
 - [ ] 📚 Cada clase cita fuentes y el curso mantiene `manuales/fuentes.md`.
 - [ ] 🔗 Breadcrumb y navegación anterior/siguiente en cada clase.

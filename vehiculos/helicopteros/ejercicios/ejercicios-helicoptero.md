@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: HELICOPTEROS-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del helicóptero
 
@@ -48,7 +48,7 @@ transmisión y su estado son críticos.
 Los **rotores en tándem** resuelven lo mismo de otra forma: sus dos rotores giran
 en sentidos opuestos y los pares se cancelan, así que no llevan rotor de cola.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-helicoptero.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-helicoptero.md).
 
 </details>
 
@@ -65,7 +65,7 @@ que inclina el disco rotor y traslada el helicóptero hacia donde se inclina.
 Los dos llegan a las palas a través del **plato cíclico**: el colectivo lo sube o
 baja en bloque, y el cíclico lo inclina.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-helicoptero.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-helicoptero.md).
 
 </details>
 
@@ -80,7 +80,7 @@ palas equilibra ese desnivel para que el vuelo sea estable.
 
 En vuelo estacionario no se da, porque todas las palas ven el mismo aire.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-helicoptero.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-helicoptero.md).
 
 </details>
 
@@ -115,7 +115,7 @@ qué hay que corregir de forma continua.
 Se corrige de forma continua porque los tres mandos **se influyen entre sí**: al
 subir colectivo aumenta el par, y ese par hay que compensarlo con pedal.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-helicoptero.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-helicoptero.md).
 
 </details>
 
@@ -130,7 +130,7 @@ La licencia de piloto de helicóptero y sus habilitaciones están reguladas por 
 médico aeronáutico**. Ambos los otorga la **Dirección General de Aeronáutica
 Civil (DGAC)**, bajo el marco de la Ley 18.916 (Código Aeronáutico).
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-helicoptero.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-helicoptero.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -175,7 +175,7 @@ Además se pierde una ayuda: el **efecto suelo**, que abarata el estacionario ce
 del terreno, no está disponible en un estacionario alto. Por eso la operación en
 montaña pide más potencia y márgenes amplios.
 
-Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-helicoptero.md).
+Clase 7: [🌍 Entornos de trabajo](../operacion/entornos-helicoptero.md).
 
 </details>
 
@@ -218,7 +218,7 @@ cancela.
 La interfaz debe mostrar cómo un mando afecta a los otros: es justamente lo que
 hace difícil al helicóptero.
 
-Módulo 9:
+Clase 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-helicoptero.md).
 
 </details>
@@ -257,6 +257,48 @@ Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para vuelo estacionario fuera de efecto suelo con temperatura elevada**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «vuelo estacionario fuera de efecto suelo con temperatura elevada» hay que reconstruir la cadena motor → transmisión → rotor principal → empuje y control, aplicar el principio «sustentación del rotor condicionada por paso colectivo, cíclico, potencia y rotor de cola», reconocer el riesgo y defender una decisión verificable: comprobar potencia disponible y mantener una vía de escape antes del estacionario.
+
+Esta clase se conecta con el resto del curso mediante **sustentación del rotor condicionada por paso colectivo, cíclico, potencia y rotor de cola**. El hilo de
+seguridad consiste en reconocer a tiempo **déficit de potencia, pérdida de rpm o control de guiñada** y poder justificar la decisión
+**comprobar potencia disponible y mantener una vía de escape antes del estacionario**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → rotor principal → empuje y control**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Helicopter Flying Handbook](https://www.faa.gov/sites/faa.gov/files/helicopter_flying_handbook.pdf) aporta aerodinámica y control de helicópteros;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **motor → transmisión → rotor principal → empuje y control** ante **vuelo estacionario fuera de efecto suelo con temperatura elevada**.
+2. **Explicar:** aplica **sustentación del rotor condicionada por paso colectivo, cíclico, potencia y rotor de cola** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **comprobar potencia disponible y mantener una vía de escape antes del estacionario** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **helicóptero ligero frente a helicóptero de transporte**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «vuelo estacionario fuera de efecto suelo con temperatura elevada»?
+2. ¿Qué alternativa a **comprobar potencia disponible y mantener una vía de escape antes del estacionario** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: ACORAZADOS-04
@@ -16,16 +16,16 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del acorazado
 
 [🏠 Inicio](../../../README.md) · [🛡️ Curso: Acorazados](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo describe, **solo con física pública**, como flota, avanza, gobierna y
+Esta clase describe, **solo con física pública**, como flota, avanza, gobierna y
 se mantiene estable un gran buque blindado. No incluye sistemas de armas,
-táctica ni datos sensibles. Es la base para entender los mandos (Módulo 5) y la
-física de la navegación (Módulo 6).
+táctica ni datos sensibles. Es la base para entender los mandos (Clase 5) y la
+física de la navegación (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -134,8 +134,57 @@ La estabilidad depende del equilibrio entre peso, blindaje y lastre.
 5. Todo se opera de forma coordinada por la tripulación.
 
 Con esto entendido, el
-[Módulo 5: Mandos](../mandos/manual-mandos-acorazado.md) describe, a nivel
+[Clase 5: Mandos](../mandos/manual-mandos-acorazado.md) describe, a nivel
 educativo, como se navega el buque desde el puente.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Casco y flotación, Blindaje (concepto físico), Propulsión y Gobierno y timón** a **seguir una alteración desde calderas o motores hasta casco blindado durante maniobra histórica simulada de una unidad pesada en formación**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: calderas o motores entrega o transforma energía; turbinas la adapta; ejes y hélices la transmite o gobierna; y casco blindado produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de casco blindado y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["calderas o motores"] --> B["turbinas"] --> C["ejes y hélices"] --> D["casco blindado"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **compromiso histórico entre protección, potencia, alcance, estabilidad y potencia de fuego**. El hilo de
+seguridad consiste en reconocer a tiempo **reacción lenta y exposición causada por gran radio táctico y baja aceleración** y poder justificar la decisión
+**anticipar el movimiento considerando inercia, formación y campo de observación**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **calderas o motores → turbinas → ejes y hélices → casco blindado**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ships](https://www.history.navy.mil/browse-by-topic/ships.html) aporta historia pública de buques militares;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **calderas o motores** durante **maniobra histórica simulada de una unidad pesada en formación**.
+2. **Transformación:** explica qué hacen **turbinas** y **ejes y hélices**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **casco blindado** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **reacción lenta y exposición causada por gran radio táctico y baja aceleración**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **turbinas**, ¿qué efecto esperarías primero en **ejes y hélices** y después en **casco blindado**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **calderas o motores** de una falla de **ejes y hélices**?
+3. ¿Por qué una segunda orden podría agravar **reacción lenta y exposición causada por gran radio táctico y baja aceleración**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

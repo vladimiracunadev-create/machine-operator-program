@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: AUTOMOVILES-04
@@ -16,15 +16,15 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del automóvil
 
 [🏠 Inicio](../../../README.md) · [🚗 Curso: Automóviles](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre el automóvil por dentro. Explica cada sistema, como funciona y
+Esta clase abre el automóvil por dentro. Explica cada sistema, como funciona y
 como se conecta con los demás. Es la base técnica para entender los mandos
-(Módulo 5) y la física de la conducción (Módulo 6).
+(Clase 5) y la física de la conducción (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -229,8 +229,57 @@ cuando detectan pérdida de control o riesgo de choque.
 6. Los **frenos** devuelven el control reduciendo la velocidad.
 7. El **sistema eléctrico** alimenta y las **ayudas** supervisan todo.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-automovil.md)
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-automovil.md)
 muestra como el conductor opera cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Motor, Transmisión, Dirección y Frenos** a **seguir una alteración desde motor hasta ruedas motrices durante frenada de emergencia en una calzada con adherencia desigual**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: motor entrega o transforma energía; transmisión la adapta; diferencial la transmite o gobierna; y ruedas motrices produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de ruedas motrices y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["motor"] --> B["transmisión"] --> C["diferencial"] --> D["ruedas motrices"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **transferencia de carga y reparto del círculo de adherencia entre frenar, girar y acelerar**. El hilo de
+seguridad consiste en reconocer a tiempo **perder estabilidad por combinar exceso de velocidad, giro y frenado tardío** y poder justificar la decisión
+**crear margen de detención y dosificar dirección y freno según la superficie**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → diferencial → ruedas motrices**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Manuales para conductores](https://www.conaset.cl/manuales/) se usa para formación vial y seguridad. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **motor** durante **frenada de emergencia en una calzada con adherencia desigual**.
+2. **Transformación:** explica qué hacen **transmisión** y **diferencial**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **ruedas motrices** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **perder estabilidad por combinar exceso de velocidad, giro y frenado tardío**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **transmisión**, ¿qué efecto esperarías primero en **diferencial** y después en **ruedas motrices**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **motor** de una falla de **diferencial**?
+3. ¿Por qué una segunda orden podría agravar **perder estabilidad por combinar exceso de velocidad, giro y frenado tardío**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

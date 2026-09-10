@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 1
 codigo: NAUTILUS-01
@@ -16,7 +16,7 @@ evidencia: "Línea de tiempo comentada con cuatro hitos o más."
 criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📜 Historia del Nautilus
 
@@ -81,6 +81,48 @@ bordo.
 
 - Registrar aquí las fuentes públicas consultadas sobre historia submarina.
 - Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Origen de la nave, Línea de tiempo, Lo que Verne imagino antes de tiempo y Por qué sigue vigente** a **explicar cómo la evolución hizo posibles alternativas como Nautilus literario frente a submarino moderno**?
+
+### Explicación razonada
+
+La evolución de Nautilus se comprende mejor como una sucesión de respuestas a problemas, no como una lista de fechas. Los cambios en energía descrita en la obra, motor, hélice y casco y timones alteraron qué podía hacer la máquina, quién podía usarla y qué riesgos debían controlarse. El contraste «Nautilus literario frente a submarino moderno» permite observar qué decisiones de diseño permanecieron y cuáles cambiaron con la tecnología y el propósito.
+
+Esta clase se conecta con el resto del curso mediante **lectura doble: tecnología imaginada por Verne y principios reales de flotabilidad y presión**. El hilo de
+seguridad consiste en reconocer a tiempo **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real** y poder justificar la decisión
+**citar el canon y contrastar cada maniobra con física y navegación reales**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía descrita en la obra → motor → hélice → casco y timones**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Twenty Thousand Leagues under the Sea](https://www.gutenberg.org/ebooks/164) aporta obra primaria en dominio público;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Situar:** ordena los hitos que explican cómo se llegó a **Nautilus literario frente a submarino moderno** y describe la necesidad que impulsó cada cambio.
+2. **Relacionar:** explica qué se modificó en **energía descrita en la obra**, **motor**, **hélice** o **casco y timones**; una fecha sin mecanismo no basta.
+3. **Interpretar:** vincula el cambio con una capacidad nueva y también con el riesgo **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real**.
+4. **Transferir:** usa la evolución para justificar por qué hoy conviene **citar el canon y contrastar cada maniobra con física y navegación reales**.
+
+### Comprueba tu comprensión
+
+1. ¿Qué necesidad histórica impulsó un cambio en **energía descrita en la obra** o **motor**?
+2. ¿Qué hito modificó la relación entre capacidad y **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real**?
+3. ¿Por qué **Nautilus literario frente a submarino moderno** no puede explicarse como una simple diferencia estética?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

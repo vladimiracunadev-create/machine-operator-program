@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: CAZATRANSFOR-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación del caza transformable
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo va al corazón del curso: que principios físicos serían posibles, que
+Esta clase va al corazón del curso: que principios físicos serían posibles, que
 no, y por qué. Usamos el concepto de caza transformable para entender
 aerodinámica, estabilidad y el costo real de cambiar de forma.
 
@@ -100,6 +100,55 @@ Cuanta física real incorporar es una decisión de diseño. Este curso se apoya 
 la escala descrita en [niveles de realismo](../../../docs/03-niveles-de-realismo.md):
 se puede simular la transformación como algo instantáneo y mágico, o modelar de
 verdad la energía, el tiempo y el desplazamiento del centro de masa.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Aerodinámica de un caza, Por qué un humanoide es un mal avión, El centro de masa y la estabilidad y Ficción frente a realidad** a **resolver transición simulada de vuelo a modo robot durante una misión sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: cambiar de configuración altera masa aparente, control, resistencia y función narrativa. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: definir condiciones, costos y límites de cada transición antes de simularla.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["cambiar de configuración altera masa aparente, control, resistencia y función narrativa"]
+    P --> R["riesgo: ocultar discontinuidades físicas bajo una animación sin reglas de estado"]
+    R --> D["decisión: definir condiciones, costos y límites de cada transición antes de simularla"]
+```
+
+Esta clase se conecta con el resto del curso mediante **cambiar de configuración altera masa aparente, control, resistencia y función narrativa**. El hilo de
+seguridad consiste en reconocer a tiempo **ocultar discontinuidades físicas bajo una animación sin reglas de estado** y poder justificar la decisión
+**definir condiciones, costos y límites de cada transición antes de simularla**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía ficticia → actuadores de transformación → propulsión → configuración de vuelo o robot**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Robotech](https://robotech.com/) aporta referencia oficial del universo ficticio;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **transición simulada de vuelo a modo robot durante una misión**.
+2. **Modelo:** aplica **cambiar de configuración altera masa aparente, control, resistencia y función narrativa** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **ocultar discontinuidades físicas bajo una animación sin reglas de estado**.
+4. **Decisión:** ejecuta mentalmente **definir condiciones, costos y límites de cada transición antes de simularla** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «cambiar de configuración altera masa aparente, control, resistencia y función narrativa» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **configuración de vuelo o robot**?
+3. ¿Qué evidencia confirmaría que **definir condiciones, costos y límites de cada transición antes de simularla** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

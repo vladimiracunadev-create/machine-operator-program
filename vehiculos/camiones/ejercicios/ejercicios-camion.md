@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: CAMIONES-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del camión
 
@@ -44,7 +44,7 @@ arrastrar gran masa. El diesel además no usa bujía: comprime el aire hasta que
 calienta e inyecta el combustible, que se enciende por la alta temperatura
 (encendido por compresión).
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-camion.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-camion.md).
 
 </details>
 
@@ -114,7 +114,7 @@ y [🎛️ Mandos e instrumentos](../mandos/manual-mandos-camion.md).
 El orden importa: cambiar de marcha ya dentro de la bajada es tarde, y confiar el
 descenso al freno de servicio es lo que lleva al fading.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-camion.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-camion.md).
 
 </details>
 
@@ -130,7 +130,7 @@ carga, simple o articulado, que además incluye la A-4. El tractocamion con
 semirremolque requiere **A-5**. Ambas según la Ley 18.290, Art. 12. La edad mínima
 es 18 años (Art. 13).
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-camion.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-camion.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -222,7 +222,7 @@ Complementa con el **reparto por eje** y la **adherencia**, que también afectan
 freno. En niveles de realismo, la inercia por masa y la distancia de frenado
 entran en el nivel 2.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-camion.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-camion.md).
 
 </details>
 
@@ -240,7 +240,7 @@ del camión. La caja multimarcha, el freno de motor y el retarder, la presión d
 aire, el reparto por eje y la articulación llegan al final.
 
 Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md) y el
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-camion.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-camion.md).
 
 </details>
 
@@ -258,6 +258,48 @@ Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-camion.m
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para descenso de montaña con carga cercana al máximo autorizado**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «descenso de montaña con carga cercana al máximo autorizado» hay que reconstruir la cadena motor → caja de cambios → árbol y diferencial → ruedas motrices, aplicar el principio «relación entre masa, pendiente, energía cinética y capacidad térmica de frenado», reconocer el riesgo y defender una decisión verificable: planificar velocidad y relación de transmisión antes de entrar en la pendiente.
+
+Esta clase se conecta con el resto del curso mediante **relación entre masa, pendiente, energía cinética y capacidad térmica de frenado**. El hilo de
+seguridad consiste en reconocer a tiempo **embalamiento, fatiga de frenos o pérdida de estabilidad de la carga** y poder justificar la decisión
+**planificar velocidad y relación de transmisión antes de entrar en la pendiente**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → caja de cambios → árbol y diferencial → ruedas motrices**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Commercial Driver's License Manual](https://www.fmcsa.dot.gov/registration/commercial-drivers-license/cdl-manual) se usa para operación de buses y camiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **motor → caja de cambios → árbol y diferencial → ruedas motrices** ante **descenso de montaña con carga cercana al máximo autorizado**.
+2. **Explicar:** aplica **relación entre masa, pendiente, energía cinética y capacidad térmica de frenado** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **planificar velocidad y relación de transmisión antes de entrar en la pendiente** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **camión rígido frente a tractocamión articulado**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «descenso de montaña con carga cercana al máximo autorizado»?
+2. ¿Qué alternativa a **planificar velocidad y relación de transmisión antes de entrar en la pendiente** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

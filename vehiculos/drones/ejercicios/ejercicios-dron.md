@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: DRONES-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del dron
 
@@ -45,7 +45,7 @@ de empuje: más empuje atrás y menos adelante inclina el dron y lo hace avanzar
 (cabeceo); más empuje de un lado que del otro lo desplaza de lado (alabeo). Subir
 o bajar el rpm de los cuatro rotores por igual produce ascenso o descenso.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-dron.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-dron.md).
 
 </details>
 
@@ -93,7 +93,7 @@ y [🧪 Principios](../operacion/principios-dron.md).
 Los dos sticks se coordinan de forma continua, y el modo de vuelo activo cambia
 cómo responden.
 
-Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-dron.md).
+Clase 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-dron.md).
 
 </details>
 
@@ -112,7 +112,7 @@ Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-dron.md).
 El orden importa: armar sin satélites suficientes o sin revisar la zona traslada
 el problema al aire, donde ya no se puede resolver en tierra.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-dron.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-dron.md).
 
 </details>
 
@@ -129,7 +129,7 @@ condiciones de operación, dentro del Código Aeronáutico.
 Los umbrales concretos de peso, altura máxima y distancias dependen de la edición
 vigente y en el curso se marcan como "(por confirmar)".
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-dron.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-dron.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -253,6 +253,48 @@ Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md) y el
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para inspección próxima a una estructura con viento y señal GNSS degradada**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «inspección próxima a una estructura con viento y señal GNSS degradada» hay que reconstruir la cadena batería → controladores → motores y hélices → actitud y trayectoria, aplicar el principio «el controlador estabiliza actitud, pero autonomía, enlace y entorno limitan la misión», reconocer el riesgo y defender una decisión verificable: definir límites de viento, batería, enlace, geocerca y retorno antes de despegar.
+
+Esta clase se conecta con el resto del curso mediante **el controlador estabiliza actitud, pero autonomía, enlace y entorno limitan la misión**. El hilo de
+seguridad consiste en reconocer a tiempo **pérdida de enlace, deriva, impacto o invasión de espacio no autorizado** y poder justificar la decisión
+**definir límites de viento, batería, enlace, geocerca y retorno antes de despegar**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **batería → controladores → motores y hélices → actitud y trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Unmanned Aircraft Systems](https://www.faa.gov/uas) aporta operación y normativa RPAS;
+[Normativa aeronáutica](https://www.dgac.gob.cl/normativa/) se usa para marco aeronáutico chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **batería → controladores → motores y hélices → actitud y trayectoria** ante **inspección próxima a una estructura con viento y señal GNSS degradada**.
+2. **Explicar:** aplica **el controlador estabiliza actitud, pero autonomía, enlace y entorno limitan la misión** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **definir límites de viento, batería, enlace, geocerca y retorno antes de despegar** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **multirrotor frente a ala fija**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «inspección próxima a una estructura con viento y señal GNSS degradada»?
+2. ¿Qué alternativa a **definir límites de viento, batería, enlace, geocerca y retorno antes de despegar** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

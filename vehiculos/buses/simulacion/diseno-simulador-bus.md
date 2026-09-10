@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 9
 codigo: BUSES-09
@@ -16,7 +16,7 @@ evidencia: "Ficha de escenario y diagrama de estados."
 criterio_aprobacion: "El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎮 Diseño de simulación del bus
 
@@ -92,6 +92,59 @@ transporte público.
 - [ ] Prototipar el ciclo básico con el sistema neumático simplificado.
 - [ ] Modelar el enclavamiento de puertas y el arrodillamiento.
 - [ ] Agregar fuentes técnicas públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Objetivo de la simulación, Nivel de realismo, Variables principales y Ciclo básico** a **modelar descenso prolongado con el vehículo cargado y una parada próxima como estados, variables y decisiones observables**?
+
+### Explicación razonada
+
+Una simulación de Buses es educativa si representa decisiones y consecuencias. Como mínimo debe modelar el estado de motor, la respuesta de transmisión, la transición en freno de servicio y retardador y el resultado en ejes. El escenario «descenso prolongado con el vehículo cargado y una parada próxima» es valioso porque obliga a observar, formular una hipótesis, actuar y comprobar.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Preparado
+    Preparado --> Operando: orden válida
+    Operando --> Degradado: límite o falla
+    Degradado --> Seguro: decisión correctiva
+    Operando --> Completado: criterio logrado
+    Seguro --> [*]
+    Completado --> [*]
+```
+
+Esta clase se conecta con el resto del curso mediante **gestión de inercia, distancia de detención y transferencia de peso con pasajeros**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas** y poder justificar la decisión
+**seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → freno de servicio y retardador → ejes**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Commercial Driver's License Manual](https://www.fmcsa.dot.gov/registration/commercial-drivers-license/cdl-manual) se usa para operación de buses y camiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Estado inicial:** representa descenso prolongado con el vehículo cargado y una parada próxima con valores observables para **motor**, **transmisión**, **freno de servicio y retardador** y **ejes**.
+2. **Decisión del estudiante:** ofrece una elección que cambie el estado, no una animación automática.
+3. **Consecuencia:** modela la tendencia hacia **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas** y una señal previa que permita corregir.
+4. **Cierre:** evalúa la explicación de la decisión, además de si el estudiante “ganó” el escenario.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cuatro estados mínimos necesita el escenario «descenso prolongado con el vehículo cargado y una parada próxima»?
+2. ¿Qué variable anticipa **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas** antes de llegar al estado de falla?
+3. ¿Cómo evaluarías la explicación del estudiante y no solo el resultado final?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

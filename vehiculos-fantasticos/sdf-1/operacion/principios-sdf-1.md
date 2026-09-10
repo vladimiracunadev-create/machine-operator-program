@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: SDF1-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación del SDF-1
 
@@ -92,6 +92,55 @@ del cubo-cuadrado otra vez, ahora en forma de calor.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md)
 para el detalle de cada nivel.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **La ley del cubo-cuadrado, Por qué la masa lo cambia todo, Estructura: el peso propio como enemigo y Calor: fácil de generar, difícil de expulsar** a **resolver transformación simulada mientras algunos sistemas están degradados sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: una nave-ciudad combina movilidad, transformación y continuidad de servicios. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: secuenciar transición, aislar servicios y representar costos operativos.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["una nave-ciudad combina movilidad, transformación y continuidad de servicios"]
+    P --> R["riesgo: tratar la transformación como efecto visual sin impactos en energía, estructura y habitabilidad"]
+    R --> D["decisión: secuenciar transición, aislar servicios y representar costos operativos"]
+```
+
+Esta clase se conecta con el resto del curso mediante **una nave-ciudad combina movilidad, transformación y continuidad de servicios**. El hilo de
+seguridad consiste en reconocer a tiempo **tratar la transformación como efecto visual sin impactos en energía, estructura y habitabilidad** y poder justificar la decisión
+**secuenciar transición, aislar servicios y representar costos operativos**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → propulsión → transformación estructural → nave y población**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Robotech](https://robotech.com/) aporta referencia oficial del universo ficticio;
+[Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) se usa para naves, sistemas y misiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **transformación simulada mientras algunos sistemas están degradados**.
+2. **Modelo:** aplica **una nave-ciudad combina movilidad, transformación y continuidad de servicios** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **tratar la transformación como efecto visual sin impactos en energía, estructura y habitabilidad**.
+4. **Decisión:** ejecuta mentalmente **secuenciar transición, aislar servicios y representar costos operativos** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «una nave-ciudad combina movilidad, transformación y continuidad de servicios» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **nave y población**?
+3. ¿Qué evidencia confirmaría que **secuenciar transición, aislar servicios y representar costos operativos** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 9
 codigo: TELETRANSPOR-09
@@ -16,7 +16,7 @@ evidencia: "Ficha de escenario y diagrama de estados."
 criterio_aprobacion: "El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎮 Diseño de simulación del teletransportador
 
@@ -106,6 +106,59 @@ que la comparación sea explícita y educativa.
 - [ ] Ajustar el modelo de energía colosal para que sea didáctico.
 - [ ] Agregar fuentes de divulgación a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
 
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Objetivo de la simulación, Modo ciencia o ficción, Variables principales y Ciclo básico** a **modelar transporte ficticio con señal degradada y destino parcialmente bloqueado como estados, variables y decisiones observables**?
+
+### Explicación razonada
+
+Una simulación de Teletransportador es educativa si representa decisiones y consecuencias. Como mínimo debe modelar el estado de sensado ficticio, la respuesta de codificación, la transición en transmisión y el resultado en reconstrucción. El escenario «transporte ficticio con señal degradada y destino parcialmente bloqueado» es valioso porque obliga a observar, formular una hipótesis, actuar y comprobar.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Preparado
+    Preparado --> Operando: orden válida
+    Operando --> Degradado: límite o falla
+    Degradado --> Seguro: decisión correctiva
+    Operando --> Completado: criterio logrado
+    Seguro --> [*]
+    Completado --> [*]
+```
+
+Esta clase se conecta con el resto del curso mediante **la tecnología narrativa plantea continuidad, información, energía y verificación de destino**. El hilo de
+seguridad consiste en reconocer a tiempo **presentar una ficción sin límites, fallas observables ni dilemas explícitos** y poder justificar la decisión
+**definir condiciones de autorización, aborto y evidencia de integridad**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **sensado ficticio → codificación → transmisión → reconstrucción**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Star Trek Database](https://www.startrek.com/database) aporta canon narrativo y tecnologías de ficción;
+[Quantum Teleportation](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation) se usa para información cuántica, entrelazamiento y teorema de no clonación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Estado inicial:** representa transporte ficticio con señal degradada y destino parcialmente bloqueado con valores observables para **sensado ficticio**, **codificación**, **transmisión** y **reconstrucción**.
+2. **Decisión del estudiante:** ofrece una elección que cambie el estado, no una animación automática.
+3. **Consecuencia:** modela la tendencia hacia **presentar una ficción sin límites, fallas observables ni dilemas explícitos** y una señal previa que permita corregir.
+4. **Cierre:** evalúa la explicación de la decisión, además de si el estudiante “ganó” el escenario.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cuatro estados mínimos necesita el escenario «transporte ficticio con señal degradada y destino parcialmente bloqueado»?
+2. ¿Qué variable anticipa **presentar una ficción sin límites, fallas observables ni dilemas explícitos** antes de llegar al estado de falla?
+3. ¿Cómo evaluarías la explicación del estudiante y no solo el resultado final?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
+
 ## 🎓 Cierre de clase
 
 - **Actividad:** Diseña un escenario educativo de Teletransportador basado en objetivo, variables, estados, ciclo y escenarios de simulación, con entradas, estados, variables y criterio de cierre.
@@ -116,6 +169,7 @@ que la comparación sea explícita y educativa.
 ### Fuentes de esta clase
 
 - [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [IBM-QUANTUM-TELEPORT](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation): Quantum Teleportation, IBM Quantum Learning. Uso: información cuántica, entrelazamiento y teorema de no clonación.
 - [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
 
 > Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual

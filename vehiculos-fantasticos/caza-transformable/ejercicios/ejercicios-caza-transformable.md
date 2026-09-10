@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: CAZATRANSFOR-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del caza transformable
 
@@ -52,7 +52,7 @@ aerodinámico** estables como timones o alerones.
 Por eso el modo humanoide solo tiene sentido en el suelo o en contacto con
 estructuras, no cruzando el cielo a gran velocidad.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-caza-transformable.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-caza-transformable.md).
 
 </details>
 
@@ -86,7 +86,7 @@ El precio es doble: **cada grado de libertad que añades resta rigidez y suma
 masa**. Cada junta es un punto donde la estructura es más débil y más pesada que
 una pieza continua.
 
-Módulo 4:
+Clase 4:
 [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-caza-transformable.md).
 
 </details>
@@ -104,7 +104,7 @@ alas. **Nunca aprovechas todo a la vez.**
 A eso se suma que la misma pieza cambia de función: diseñar algo que sea buena
 ala **y** buena pierna es un compromiso que empeora ambas cosas.
 
-Módulo 4:
+Clase 4:
 [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-caza-transformable.md).
 
 </details>
@@ -119,7 +119,7 @@ deja de importar. Allí lo que manda es la **masa** y la **dirección del empuje
 La ventaja del modo caza desaparece precisamente porque esa ventaja era
 aerodinámica.
 
-Módulo 7: [🌍 Entornos de operación](../operacion/entornos-caza-transformable.md).
+Clase 7: [🌍 Entornos de operación](../operacion/entornos-caza-transformable.md).
 
 </details>
 
@@ -136,7 +136,7 @@ No son normativa porque no hay legislación ni especificación técnica de una n
 que no existe. Son **convenciones narrativas plausibles** que el curso propone
 para razonar sobre el concepto, útiles solo para el aprendizaje y la simulación.
 
-Módulo 8:
+Clase 8:
 [⚖️ Reglas del universo](../reglamentos/reglas-universo-caza-transformable.md).
 
 </details>
@@ -216,7 +216,7 @@ mantenimiento, y los materiales actuales fatigan y ceden justo ahí. La lectura
 educativa del curso es que piezas sueltas del concepto existen o son plausibles,
 pero el conjunto completo, rápido y ligero pertenece por ahora a la ficción.
 
-Módulo 4:
+Clase 4:
 [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-caza-transformable.md).
 
 </details>
@@ -240,7 +240,7 @@ trampa: **lo ve**. Con las mismas entradas y el mismo escenario, la diferencia d
 comportamiento es exactamente el tamaño de la licencia creativa. La física deja de
 ser una lista de reglas y pasa a ser algo medible.
 
-Módulo 9:
+Clase 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-caza-transformable.md).
 
 </details>
@@ -288,6 +288,48 @@ Módulos 4 y 8:
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Distingue la física de la licencia creativa, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para transición simulada de vuelo a modo robot durante una misión**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «transición simulada de vuelo a modo robot durante una misión» hay que reconstruir la cadena fuente de energía ficticia → actuadores de transformación → propulsión → configuración de vuelo o robot, aplicar el principio «cambiar de configuración altera masa aparente, control, resistencia y función narrativa», reconocer el riesgo y defender una decisión verificable: definir condiciones, costos y límites de cada transición antes de simularla.
+
+Esta clase se conecta con el resto del curso mediante **cambiar de configuración altera masa aparente, control, resistencia y función narrativa**. El hilo de
+seguridad consiste en reconocer a tiempo **ocultar discontinuidades físicas bajo una animación sin reglas de estado** y poder justificar la decisión
+**definir condiciones, costos y límites de cada transición antes de simularla**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía ficticia → actuadores de transformación → propulsión → configuración de vuelo o robot**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Robotech](https://robotech.com/) aporta referencia oficial del universo ficticio;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **fuente de energía ficticia → actuadores de transformación → propulsión → configuración de vuelo o robot** ante **transición simulada de vuelo a modo robot durante una misión**.
+2. **Explicar:** aplica **cambiar de configuración altera masa aparente, control, resistencia y función narrativa** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **definir condiciones, costos y límites de cada transición antes de simularla** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **modo caza frente a modo robot**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «transición simulada de vuelo a modo robot durante una misión»?
+2. ¿Qué alternativa a **definir condiciones, costos y límites de cada transición antes de simularla** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

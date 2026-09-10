@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: ASCENSORES-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del ascensor
 
@@ -61,7 +61,7 @@ ranurada y aprovecha el agarre del cable en sus ranuras. El contrapeso no solo
 equilibra: su peso da la **tensión** que hace posible esa fricción. Sin tensión
 no hay agarre.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-ascensor.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-ascensor.md).
 
 </details>
 
@@ -78,7 +78,7 @@ vigila la velocidad y actúa si se excede la permitida en el descenso.
 
 Son sistemas **independientes**: esa redundancia es lo que evita la caída libre.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-ascensor.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-ascensor.md).
 
 </details>
 
@@ -97,7 +97,7 @@ hasta que se abre la puerta en el destino.
 6. **Frenado**: desaceleración y nivelación precisa.
 7. **Parada**: el freno del motor sostiene la cabina con la puerta abierta.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-ascensor.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-ascensor.md).
 
 </details>
 
@@ -111,7 +111,7 @@ El **freno de seguridad de Otis**: un dispositivo que detiene la cabina si el
 cable falla. Con esa seguridad el ascensor de pasajeros se volvió confiable, y
 a partir de los ascensores eléctricos (1880-1900) hizo viables los rascacielos.
 
-Módulo 1: [📜 Historia](../historia/historia-ascensor.md).
+Clase 1: [📜 Historia](../historia/historia-ascensor.md).
 
 </details>
 
@@ -128,7 +128,7 @@ personal competente de empresas autorizadas, la certificación la emite un
 organismo autorizado y la fiscalización recae en la municipalidad (Dirección de
 Obras). Los plazos exactos están por confirmar.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-ascensor.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-ascensor.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md), sección 1.8.
 
 </details>
@@ -153,7 +153,7 @@ Lo que corresponde es que salgan personas hasta que la alerta se apague. La
 carga máxima está indicada en la cabina y respetarla es una regla de seguridad,
 no una recomendación.
 
-Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-ascensor.md).
+Clase 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-ascensor.md).
 
 </details>
 
@@ -191,7 +191,7 @@ En **hospital** el problema es la carga y la urgencia: camillas y equipos piden
 cabina amplia, modo de prioridad y una nivelación exacta, porque una cabina mal
 nivelada con el piso es un obstáculo real para una camilla.
 
-Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-ascensor.md).
+Clase 7: [🌍 Entornos de trabajo](../operacion/entornos-ascensor.md).
 
 </details>
 
@@ -213,7 +213,7 @@ Así el usuario **ve** que el indicador baja casi a cero cuando cabina y
 contrapeso se equilibran, y sube cuando la carga se aleja de ese punto: entiende
 solo que el motor mueve la diferencia, no todo el peso.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-ascensor.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-ascensor.md).
 
 </details>
 
@@ -250,6 +250,48 @@ Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para viaje con carga variable seguido de una orden de parada en piso**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «viaje con carga variable seguido de una orden de parada en piso» hay que reconstruir la cadena motor → polea tractora → cables → cabina y contrapeso, aplicar el principio «equilibrio de masas y control de aceleración, velocidad, nivelación y frenado», reconocer el riesgo y defender una decisión verificable: verificar enclavamientos y estado antes de autorizar el movimiento.
+
+Esta clase se conecta con el resto del curso mediante **equilibrio de masas y control de aceleración, velocidad, nivelación y frenado**. El hilo de
+seguridad consiste en reconocer a tiempo **movimiento con puertas inseguras, mala nivelación o pérdida de tracción** y poder justificar la decisión
+**verificar enclavamientos y estado antes de autorizar el movimiento**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → polea tractora → cables → cabina y contrapeso**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [1917.116 Elevators and Escalators](https://www.osha.gov/laws-regs/regulations/standardnumber/1917/1917.116) aporta inspección y riesgos de transporte vertical;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **motor → polea tractora → cables → cabina y contrapeso** ante **viaje con carga variable seguido de una orden de parada en piso**.
+2. **Explicar:** aplica **equilibrio de masas y control de aceleración, velocidad, nivelación y frenado** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **verificar enclavamientos y estado antes de autorizar el movimiento** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **ascensor de tracción frente a ascensor hidráulico**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «viaje con carga variable seguido de una orden de parada en piso»?
+2. ¿Qué alternativa a **verificar enclavamientos y estado antes de autorizar el movimiento** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

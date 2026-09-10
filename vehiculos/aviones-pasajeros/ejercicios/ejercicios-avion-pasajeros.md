@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: AVIONESPASAJ-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del avión de pasajeros
 
@@ -45,7 +45,7 @@ Sustentación, peso, empuje y resistencia. En vuelo nivelado y estable la
 sustentación equilibra el peso y el empuje equilibra la resistencia. No son
 independientes: cambiar una fuerza obliga a reajustar las demás.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-avion-pasajeros.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-avion-pasajeros.md).
 
 </details>
 
@@ -60,7 +60,7 @@ queda corta de sustentación. Los **flaps** aumentan sustentación y resistencia
 para despegue y aterrizaje; los **slats**, en el borde de ataque, retrasan la
 entrada en pérdida a baja velocidad. Se despliegan por etapas según la fase.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pasajeros.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pasajeros.md).
 
 </details>
 
@@ -74,7 +74,7 @@ hace al turbofan eficiente y más silencioso. El compresor, la cámara de combus
 y la turbina existen para alimentar y mover ese fan; la turbina extrae energía
 para mover fan y compresor.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pasajeros.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pasajeros.md).
 
 </details>
 
@@ -110,7 +110,7 @@ La consecuencia: cada vuelo presuriza y despresuriza el fuselaje, y esos **ciclo
 de presurización** son un factor clave en la fatiga estructural y en las
 inspecciones. Ventanas y puertas son zonas críticas.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pasajeros.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-avion-pasajeros.md).
 
 </details>
 
@@ -127,7 +127,7 @@ habilitación de tipo para el modelo y certificado médico aeronáutico vigente.
 La aerolínea opera bajo un **Certificado de Operador Aéreo (AOC)** emitido por la
 DGAC, con manual de operaciones y procedimientos aprobados.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-avion-pasajeros.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-avion-pasajeros.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -152,7 +152,7 @@ La corrección de verdad ocurrió antes: el descenso se planifica con anticipaci
 según distancia y altitud, y los flaps y la velocidad se configuran por etapas
 según el procedimiento. Si no se llega estabilizado, lo razonable es no continuar.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-avion-pasajeros.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-avion-pasajeros.md).
 
 </details>
 
@@ -171,7 +171,7 @@ Además el calor y la altitud del aeropuerto afectan la densidad del aire y con 
 el rendimiento. En prevuelo esto toca combustible, meteorología y NOTAM, y la
 planificación del alternativo.
 
-Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-avion-pasajeros.md).
+Clase 7: [🌍 Entornos de trabajo](../operacion/entornos-avion-pasajeros.md).
 
 </details>
 
@@ -215,7 +215,7 @@ Así el usuario **ve** dos altitudes a la vez: la del avión sube hacia el nivel
 crucero mientras la de cabina se mantiene baja. Cuando esa separación se pierde,
 entiende solo qué significa una despresurización, sin leerlo.
 
-Módulo 9:
+Clase 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-avion-pasajeros.md).
 
 </details>
@@ -255,6 +255,48 @@ Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para aproximación con cambio tardío de viento y una alerta de configuración**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «aproximación con cambio tardío de viento y una alerta de configuración» hay que reconstruir la cadena motor → empuje → flujo de aire → alas y controles, aplicar el principio «gestión de energía vertical y horizontal mediante actitud, empuje y configuración», reconocer el riesgo y defender una decisión verificable: confirmar modo, energía y configuración; frustrar si la estabilidad no se recupera.
+
+Esta clase se conecta con el resto del curso mediante **gestión de energía vertical y horizontal mediante actitud, empuje y configuración**. El hilo de
+seguridad consiste en reconocer a tiempo **continuar una aproximación inestable o automatizar sin comprender el modo activo** y poder justificar la decisión
+**confirmar modo, energía y configuración; frustrar si la estabilidad no se recupera**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → empuje → flujo de aire → alas y controles**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) aporta aerodinámica, sistemas y operación;
+[Normativa aeronáutica](https://www.dgac.gob.cl/normativa/) se usa para marco aeronáutico chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **motor → empuje → flujo de aire → alas y controles** ante **aproximación con cambio tardío de viento y una alerta de configuración**.
+2. **Explicar:** aplica **gestión de energía vertical y horizontal mediante actitud, empuje y configuración** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **confirmar modo, energía y configuración; frustrar si la estabilidad no se recupera** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **avión de fuselaje estrecho frente a fuselaje ancho**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «aproximación con cambio tardío de viento y una alerta de configuración»?
+2. ¿Qué alternativa a **confirmar modo, energía y configuración; frustrar si la estabilidad no se recupera** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

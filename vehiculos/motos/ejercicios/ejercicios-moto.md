@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: MOTOS-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación de la moto
 
@@ -45,7 +45,7 @@ más cargada y por tanto dispone de más adherencia para frenar sin bloquearse.
 La trasera, aligerada, se bloquea antes. Por eso usar solo el freno trasero en
 una detención fuerte es uno de los errores típicos.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-moto.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-moto.md).
 
 </details>
 
@@ -60,7 +60,7 @@ de rumbo viene sobre todo de inclinar la moto, y la inclinación se inicia con e
 **contramanillar**: se empuja el manillar hacia el lado contrario al que se
 quiere ir.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-moto.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-moto.md).
 
 </details>
 
@@ -73,7 +73,7 @@ Por el efecto giroscópico de las ruedas en giro y por la geometría de la
 dirección, que tiende a autoalinearla. A muy baja velocidad esos dos efectos casi
 desaparecen y el equilibrio depende del piloto.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-moto.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-moto.md).
 
 </details>
 
@@ -107,7 +107,7 @@ y [🧪 Principios](../operacion/principios-moto.md).
 El orden importa: frenar ya dentro de la curva consume la adherencia que
 sostiene la inclinación.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-moto.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-moto.md).
 
 </details>
 
@@ -119,7 +119,7 @@ de seguridad es obligatorio?
 
 Licencia **Clase C** (vehículos motorizados de dos o tres ruedas) y casco.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-moto.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-moto.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -173,7 +173,7 @@ presupuesto de agarre hay que estirar distancias, frenar antes y más suave, e
 inclinar menos, evitando pisar esas superficies justo mientras se frena o se
 tumba.
 
-Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-moto.md).
+Clase 7: [🌍 Entornos de trabajo](../operacion/entornos-moto.md).
 
 </details>
 
@@ -193,7 +193,7 @@ restante de cada neumático. Así el usuario **ve** que al frenar la barra
 delantera crece y la trasera se vacía, y entiende solo por qué el freno trasero
 bloquea antes.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-moto.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-moto.md).
 
 </details>
 
@@ -226,6 +226,48 @@ Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para aproximación a una curva urbana mojada con visibilidad parcial**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «aproximación a una curva urbana mojada con visibilidad parcial» hay que reconstruir la cadena motor → embrague y caja → transmisión final → neumático trasero, aplicar el principio «equilibrio entre inclinación, velocidad, radio y adherencia disponible», reconocer el riesgo y defender una decisión verificable: ajustar velocidad, trayectoria y suavidad de los mandos antes de inclinar.
+
+Esta clase se conecta con el resto del curso mediante **equilibrio entre inclinación, velocidad, radio y adherencia disponible**. El hilo de
+seguridad consiste en reconocer a tiempo **agotar adherencia por frenar o acelerar bruscamente con la moto inclinada** y poder justificar la decisión
+**ajustar velocidad, trayectoria y suavidad de los mandos antes de inclinar**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → embrague y caja → transmisión final → neumático trasero**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Manuales para conductores](https://www.conaset.cl/manuales/) se usa para formación vial y seguridad. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **motor → embrague y caja → transmisión final → neumático trasero** ante **aproximación a una curva urbana mojada con visibilidad parcial**.
+2. **Explicar:** aplica **equilibrio entre inclinación, velocidad, radio y adherencia disponible** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **ajustar velocidad, trayectoria y suavidad de los mandos antes de inclinar** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **scooter urbano frente a motocicleta trail**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «aproximación a una curva urbana mojada con visibilidad parcial»?
+2. ¿Qué alternativa a **ajustar velocidad, trayectoria y suavidad de los mandos antes de inclinar** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

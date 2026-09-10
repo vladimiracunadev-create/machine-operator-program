@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: NAVESESPACIA-04
@@ -16,15 +16,15 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos de la nave espacial
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Naves espaciales](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre la nave por dentro. Explica cada sistema, como funciona y cómo se
+Esta clase abre la nave por dentro. Explica cada sistema, como funciona y cómo se
 conecta con los demás, distinguiendo ciencia real de ficción. Es la base técnica
-para entender los mandos (Módulo 5) y la física orbital (Módulo 6).
+para entender los mandos (Clase 5) y la física orbital (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -158,8 +158,57 @@ flowchart LR
 5. El **control de actitud** orienta la nave sin aire.
 6. El **escudo térmico** protege en la **reentrada**.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-nave-espacial.md)
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-nave-espacial.md)
 muestra cómo la tripulación opera estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Propulsión cohete, Etapas y separación, Soporte vital y Energía** a **seguir una alteración desde fuente de energía hasta órbita o trayectoria durante maniobra de aproximación orbital con combustible de reserva limitado**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: fuente de energía entrega o transforma energía; propulsión la adapta; navegación y control la transmite o gobierna; y órbita o trayectoria produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de órbita o trayectoria y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["fuente de energía"] --> B["propulsión"] --> C["navegación y control"] --> D["órbita o trayectoria"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **pequeños cambios de velocidad producen cambios acumulativos de órbita y ventanas de encuentro**. El hilo de
+seguridad consiste en reconocer a tiempo **colisión o imposibilidad de retirada por quemado mal orientado o tardío** y poder justificar la decisión
+**verificar marco de referencia, ventana, delta-v y opción de aborto antes del encendido**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía → propulsión → navegación y control → órbita o trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) aporta naves, sistemas y misiones;
+[Space Law Treaties and Principles](https://www.unoosa.org/oosa/SpaceLaw/treaties.html) se usa para derecho espacial internacional. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **fuente de energía** durante **maniobra de aproximación orbital con combustible de reserva limitado**.
+2. **Transformación:** explica qué hacen **propulsión** y **navegación y control**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **órbita o trayectoria** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **colisión o imposibilidad de retirada por quemado mal orientado o tardío**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **propulsión**, ¿qué efecto esperarías primero en **navegación y control** y después en **órbita o trayectoria**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **fuente de energía** de una falla de **navegación y control**?
+3. ¿Por qué una segunda orden podría agravar **colisión o imposibilidad de retirada por quemado mal orientado o tardío**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

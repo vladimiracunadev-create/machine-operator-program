@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 1
 codigo: NAVESESPACIA-01
@@ -16,7 +16,7 @@ evidencia: "Línea de tiempo comentada con cuatro hitos o más."
 criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📜 Historia de la nave espacial
 
@@ -86,10 +86,47 @@ observación de la Tierra y predicción del clima. Para países como Chile, con
 cielos ideales para la astronomía, el espacio es también ciencia, economía y
 cooperación internacional.
 
-## Fuentes
+## 🧭 Guía de estudio aplicada
 
-- Registrar aquí las fuentes públicas consultadas.
-- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+### Pregunta guía
+
+¿Cómo ayuda **Origen, Línea de tiempo, Evolución tecnológica y Tipos representativos** a **explicar cómo la evolución hizo posibles alternativas como cápsula tripulada frente a sonda robótica**?
+
+### Explicación razonada
+
+La evolución de Naves espaciales se comprende mejor como una sucesión de respuestas a problemas, no como una lista de fechas. Los cambios en fuente de energía, propulsión, navegación y control y órbita o trayectoria alteraron qué podía hacer la máquina, quién podía usarla y qué riesgos debían controlarse. El contraste «cápsula tripulada frente a sonda robótica» permite observar qué decisiones de diseño permanecieron y cuáles cambiaron con la tecnología y el propósito.
+
+Esta clase se conecta con el resto del curso mediante **pequeños cambios de velocidad producen cambios acumulativos de órbita y ventanas de encuentro**. El hilo de
+seguridad consiste en reconocer a tiempo **colisión o imposibilidad de retirada por quemado mal orientado o tardío** y poder justificar la decisión
+**verificar marco de referencia, ventana, delta-v y opción de aborto antes del encendido**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía → propulsión → navegación y control → órbita o trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) aporta naves, sistemas y misiones;
+[Space Law Treaties and Principles](https://www.unoosa.org/oosa/SpaceLaw/treaties.html) se usa para derecho espacial internacional. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Situar:** ordena los hitos que explican cómo se llegó a **cápsula tripulada frente a sonda robótica** y describe la necesidad que impulsó cada cambio.
+2. **Relacionar:** explica qué se modificó en **fuente de energía**, **propulsión**, **navegación y control** o **órbita o trayectoria**; una fecha sin mecanismo no basta.
+3. **Interpretar:** vincula el cambio con una capacidad nueva y también con el riesgo **colisión o imposibilidad de retirada por quemado mal orientado o tardío**.
+4. **Transferir:** usa la evolución para justificar por qué hoy conviene **verificar marco de referencia, ventana, delta-v y opción de aborto antes del encendido**.
+
+### Comprueba tu comprensión
+
+1. ¿Qué necesidad histórica impulsó un cambio en **fuente de energía** o **propulsión**?
+2. ¿Qué hito modificó la relación entre capacidad y **colisión o imposibilidad de retirada por quemado mal orientado o tardío**?
+3. ¿Por qué **cápsula tripulada frente a sonda robótica** no puede explicarse como una simple diferencia estética?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

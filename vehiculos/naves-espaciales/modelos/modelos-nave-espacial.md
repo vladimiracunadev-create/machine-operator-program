@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: NAVESESPACIA-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes de la nave espacial
 
 [🏠 Inicio](../../../README.md) · [🚀 Curso: Naves espaciales](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-nave-espacial.md) ya dijo qué tipos de
-nave espacial existen y para qué sirve cada uno. Este módulo responde a lo
+El [Clase 2](../operacion/caracteristicas-nave-espacial.md) ya dijo qué tipos de
+nave espacial existen y para qué sirve cada uno. Esta clase responde a lo
 siguiente: **no todas se manejan igual**, y esa diferencia no es de matiz. Cambia
 qué mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -37,16 +37,16 @@ qué mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-nave-espacial.md) describe una cabina con
+El [Clase 5](../mandos/manual-mandos-nave-espacial.md) describe una cabina con
 control de actitud, control de empuje, panel de soporte vital y una radio que
 mantiene el contacto con control. El
-[Módulo 9](../simulacion/diseno-simulador-nave-espacial.md) expone una variable
+[Clase 9](../simulacion/diseno-simulador-nave-espacial.md) expone una variable
 `Recursos vitales` que afecta a la tripulación. Ambos describen una nave
 **tripulada y en órbita terrestre**.
 
 En un satélite no hay nadie a bordo que accione esa consola: quien manda está en
 tierra, y la variable `Recursos vitales` no tiene a quién afectar. En una sonda
-interplanetaria el problema se agrava, porque la radio del Módulo 5 —la que
+interplanetaria el problema se agrava, porque la radio del Clase 5 —la que
 avisa de que hay retardo a gran distancia— deja de ser un mando de apoyo y pasa
 a ser **el único mando**, con una demora que impide corregir en tiempo real. Si
 el simulador se construye sobre el esquema tripulado y luego se le "añade" una
@@ -72,7 +72,7 @@ existe.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Cápsula tripulada | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Cambian los rangos y las fases, no los controles. |
+| Cápsula tripulada | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Cambian los rangos y las fases, no los controles. |
 | Cohete lanzador | **Desaparecen** el acoplamiento y la navegación orbital fina; el control de empuje y la separación de etapas concentran todo. | El puesto se reduce a guiar el ascenso; no hay maniobra que planificar. |
 | Estación espacial | **Desaparece** el control de empuje como maniobra habitual. El soporte vital **asciende** de lectura a mando central. | Se opera un hábitat, no un vehículo: se gestiona, no se pilota. |
 | Satélite | **Desaparecen** el soporte vital y todo el puesto de cabina. Las comunicaciones **se convierten** en el mando único, desde tierra. | Sin nadie a bordo no hay ergonomía de cabina que diseñar: hay una consola remota. |
@@ -84,11 +84,11 @@ existe.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-nave-espacial.md):
+[Clase 9](../simulacion/diseno-simulador-nave-espacial.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Cápsula tripulada | Ninguna: es el caso base. | El del Módulo 5. |
+| Cápsula tripulada | Ninguna: es el caso base. | El del Clase 5. |
 | Cohete lanzador | `Altitud orbital` y `Velocidad orbital` solo recorren el tramo de ascenso. `Propelente` se consume por etapas, no de forma continua. `Temperatura del escudo` no interviene. | El mismo, recortado: empuje y actitud, sin acoplamiento. |
 | Estación espacial | `Delta-v disponible` pierde peso: casi no maniobra. `Recursos vitales` pasa de consumo a ciclo de reciclaje y se vuelve la variable dominante. | El mismo, con el soporte vital al centro. |
 | Satélite | `Recursos vitales` **se elimina**: no hay tripulación. `Temperatura del escudo` **desaparece**: no reentra. `Actitud` y la energía disponible pasan a ser el juego entero. | Sin cabina: consola remota, sin entrada de soporte vital. |
@@ -126,7 +126,7 @@ control es otro:
   y el control se muda a una consola remota. Es un modo de control distinto, no
   una dificultad distinta.
 - **La sonda interplanetaria** frente a todo lo demás: el retardo rompe el lazo
-  entre ver y corregir. El ciclo del Módulo 9 —leer la entrada del usuario y
+  entre ver y corregir. El ciclo del Clase 9 —leer la entrada del usuario y
   actualizar el estado— deja de cerrarse en el mismo instante, y eso no es un
   parámetro: es otra arquitectura.
 - **La nave de ficción** frente a las reales: no comparte las reglas físicas, así
@@ -142,6 +142,48 @@ sube.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar cápsula tripulada frente a sonda robótica frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «cápsula tripulada frente a sonda robótica» resuelven prioridades distintas. Una comparación profesional sigue la cadena fuente de energía → propulsión → navegación y control → órbita o trayectoria: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **pequeños cambios de velocidad producen cambios acumulativos de órbita y ventanas de encuentro**. El hilo de
+seguridad consiste en reconocer a tiempo **colisión o imposibilidad de retirada por quemado mal orientado o tardío** y poder justificar la decisión
+**verificar marco de referencia, ventana, delta-v y opción de aborto antes del encendido**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía → propulsión → navegación y control → órbita o trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) aporta naves, sistemas y misiones;
+[Space Law Treaties and Principles](https://www.unoosa.org/oosa/SpaceLaw/treaties.html) se usa para derecho espacial internacional. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **maniobra de aproximación orbital con combustible de reserva limitado**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **fuente de energía** hasta **órbita o trayectoria**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **fuente de energía → propulsión → navegación y control → órbita o trayectoria** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «maniobra de aproximación orbital con combustible de reserva limitado» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

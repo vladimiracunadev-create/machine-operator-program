@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: CRUCEROS-04
@@ -16,15 +16,15 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del crucero
 
 [🏠 Inicio](../../../README.md) · [⛴️ Curso: Cruceros](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre el crucero por dentro. Explica cada sistema, como funciona y como
-se conecta con los demás. Es la base técnica para entender los mandos (Módulo 5)
-y la física de la navegación (Módulo 6). En un buque de pasaje, la cadena de
+Esta clase abre el crucero por dentro. Explica cada sistema, como funciona y como
+se conecta con los demás. Es la base técnica para entender los mandos (Clase 5)
+y la física de la navegación (Clase 6). En un buque de pasaje, la cadena de
 energía alimenta por igual a la propulsión y a la ciudad flotante que vive a bordo.
 
 ```mermaid
@@ -228,8 +228,57 @@ flowchart TD
 5. Los **servicios de hotel** sostienen la vida del pasaje.
 6. Los **sistemas de seguridad** permiten contener averías y evacuar a todos.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-crucero.md)
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-crucero.md)
 muestra cómo la tripulación opera cada uno de estos sistemas desde el puente.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Casco y compartimentado, Propulsión diesel-eléctrica y pods, Gobierno y estabilizadores y Generación y distribución eléctrica** a **seguir una alteración desde generación eléctrica hasta casco y gobierno durante atraque con viento sobre una superestructura de gran superficie**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: generación eléctrica entrega o transforma energía; propulsión la adapta; hélices o pods la transmite o gobierna; y casco y gobierno produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de casco y gobierno y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["generación eléctrica"] --> B["propulsión"] --> C["hélices o pods"] --> D["casco y gobierno"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **maniobrabilidad de gran masa combinada con viento lateral y efecto de aguas restringidas**. El hilo de
+seguridad consiste en reconocer a tiempo **contacto con muelle o pérdida de separación por subestimar abatimiento** y poder justificar la decisión
+**coordinar propulsión, remolcadores y límites de viento antes de aproximar**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **generación eléctrica → propulsión → hélices o pods → casco y gobierno**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) aporta navegación, SOLAS, COLREG y STCW;
+[Collision Regulations](https://www.imo.org/en/about/conventions/pages/colreg.aspx) se usa para prevención de abordajes. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **generación eléctrica** durante **atraque con viento sobre una superestructura de gran superficie**.
+2. **Transformación:** explica qué hacen **propulsión** y **hélices o pods**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **casco y gobierno** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **contacto con muelle o pérdida de separación por subestimar abatimiento**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **propulsión**, ¿qué efecto esperarías primero en **hélices o pods** y después en **casco y gobierno**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **generación eléctrica** de una falla de **hélices o pods**?
+3. ¿Por qué una segunda orden podría agravar **contacto con muelle o pérdida de separación por subestimar abatimiento**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

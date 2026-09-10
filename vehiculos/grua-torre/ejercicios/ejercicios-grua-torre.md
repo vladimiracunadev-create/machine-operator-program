@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: GRUATORRE-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación de la grúa torre
 
@@ -46,7 +46,7 @@ proporción inversa: con un momento máximo de 100 t·m, a radio 10 m se pueden 
 10 t, pero a radio 40 m solo 2.5 t. La tabla de carga indica cuánto se admite en
 cada radio.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-torre.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-torre.md).
 
 </details>
 
@@ -114,7 +114,7 @@ cierre.
 6. **Descenso**: bajada lenta, guiar con el señalero.
 7. **Cierre**: gancho arriba, freno de giro liberado, veleta.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-grua-torre.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-grua-torre.md).
 
 </details>
 
@@ -130,7 +130,7 @@ laboral (Ley 16.744 y D.S. 594 del MINSAL). La opera personal
 fabricante, y con un señalero (rigger) coordinando desde tierra. Los detalles de
 certificación del operador están por confirmar.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-grua-torre.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-grua-torre.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -191,7 +191,7 @@ La secuencia razonable es bajar la carga y pasar a veleta, que es el estado de
 "viento alto" previsto: alarma del anemómetro, depositar y dejar girar libre. En
 esos entornos la pluma abatible reduce la invasión del espacio vecino.
 
-Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-grua-torre.md).
+Clase 7: [🌍 Entornos de trabajo](../operacion/entornos-grua-torre.md).
 
 </details>
 
@@ -229,7 +229,7 @@ nivel 2 agrega el momento de carga, el radio y el límite de viento, que son el
 núcleo educativo de la grúa torre. El péndulo es un refinamiento del control:
 llega cuando el usuario ya entiende por qué el radio manda.
 
-Módulo 6: [🧪 Principios](../operacion/principios-grua-torre.md) y los
+Clase 6: [🧪 Principios](../operacion/principios-grua-torre.md) y los
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
@@ -249,6 +249,48 @@ Módulo 6: [🧪 Principios](../operacion/principios-grua-torre.md) y los
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para traslado de una carga desde radio corto hacia el extremo de pluma**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «traslado de una carga desde radio corto hacia el extremo de pluma» hay que reconstruir la cadena alimentación → cabrestante → carro y pluma → gancho y carga, aplicar el principio «equilibrio de momentos: el efecto de la carga crece cuando aumenta su radio», reconocer el riesgo y defender una decisión verificable: consultar tabla de carga y viento antes de autorizar cada trayectoria.
+
+Esta clase se conecta con el resto del curso mediante **equilibrio de momentos: el efecto de la carga crece cuando aumenta su radio**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrepasar capacidad, inducir péndulo o trabajar sobre una zona no aislada** y poder justificar la decisión
+**consultar tabla de carga y viento antes de autorizar cada trayectoria**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **alimentación → cabrestante → carro y pluma → gancho y carga**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) aporta izaje, riesgos y controles;
+[1926.1435 Tower Cranes](https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.1435) se usa para requisitos específicos de grúas torre. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **alimentación → cabrestante → carro y pluma → gancho y carga** ante **traslado de una carga desde radio corto hacia el extremo de pluma**.
+2. **Explicar:** aplica **equilibrio de momentos: el efecto de la carga crece cuando aumenta su radio** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **consultar tabla de carga y viento antes de autorizar cada trayectoria** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **grúa de pluma horizontal frente a pluma abatible**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «traslado de una carga desde radio corto hacia el extremo de pluma»?
+2. ¿Qué alternativa a **consultar tabla de carga y viento antes de autorizar cada trayectoria** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

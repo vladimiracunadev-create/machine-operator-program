@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: MAQUINARIACO-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación de la maquinaria de construcción
 
@@ -47,7 +47,7 @@ giro o los motores de traslación. La presión se transforma en fuerza: a mayor
 presión y área, más fuerza de excavación o empuje. El aceite vuelve al tanque
 pasando por el filtro, en circuito cerrado.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-maquinaria.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-maquinaria.md).
 
 </details>
 
@@ -139,7 +139,7 @@ y el examen práctico se rinde sobre el tipo de maquinaria a operar.
 La **ROPS** es la estructura que protege al operador si la máquina vuelca; la
 **FOPS** protege de la caída de objetos.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-maquinaria.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-maquinaria.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -165,7 +165,7 @@ Lo razonable es reposicionar la máquina sobre terreno nivelado y firme, a una
 distancia adecuada del camión y de la zanja, y trabajar con el alcance justo.
 La corrección real ocurrió antes: en el **posicionamiento**.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-maquinaria.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-maquinaria.md).
 
 </details>
 
@@ -233,7 +233,7 @@ El curso pide además advertir el acercamiento al límite de vuelco y la presenc
 de personas en el radio de giro, con avisos educativos en vez de castigos
 frustrantes.
 
-Módulo 9:
+Clase 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-maquinaria.md).
 
 </details>
@@ -267,6 +267,48 @@ Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para excavación próxima a un borde con material cambiante**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «excavación próxima a un borde con material cambiante» hay que reconstruir la cadena motor → sistema hidráulico → implemento → suelo, aplicar el principio «estabilidad dependiente del centro de gravedad, apoyo y reacción del terreno», reconocer el riesgo y defender una decisión verificable: evaluar terreno, zona de exclusión y posición antes de accionar el implemento.
+
+Esta clase se conecta con el resto del curso mediante **estabilidad dependiente del centro de gravedad, apoyo y reacción del terreno**. El hilo de
+seguridad consiste en reconocer a tiempo **vuelco, colapso del borde o ingreso de terceros al radio de acción** y poder justificar la decisión
+**evaluar terreno, zona de exclusión y posición antes de accionar el implemento**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → sistema hidráulico → implemento → suelo**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Construction Industry](https://www.osha.gov/construction) aporta maquinaria y seguridad de obra;
+[Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) se usa para izaje, riesgos y controles. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **motor → sistema hidráulico → implemento → suelo** ante **excavación próxima a un borde con material cambiante**.
+2. **Explicar:** aplica **estabilidad dependiente del centro de gravedad, apoyo y reacción del terreno** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **evaluar terreno, zona de exclusión y posición antes de accionar el implemento** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **excavadora frente a cargador frontal**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «excavación próxima a un borde con material cambiante»?
+2. ¿Qué alternativa a **evaluar terreno, zona de exclusión y posición antes de accionar el implemento** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

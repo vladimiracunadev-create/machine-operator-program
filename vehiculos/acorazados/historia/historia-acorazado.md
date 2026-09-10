@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 1
 codigo: ACORAZADOS-01
@@ -16,7 +16,7 @@ evidencia: "Línea de tiempo comentada con cuatro hitos o más."
 criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📜 Historia del acorazado
 
@@ -36,7 +36,7 @@ timeline
 ## Origen
 
 El acorazado surge en el siglo XIX cuando el casco de hierro y luego de acero
-reemplazó a la madera, permitiendo buques mucho más resistentes. Este módulo
+reemplazó a la madera, permitiendo buques mucho más resistentes. Esta clase
 trata solo la evolución **histórica y pública** del tipo de buque, sin entrar en
 táctica ni sistemas de combate.
 
@@ -75,10 +75,47 @@ El acorazado fue símbolo del poderío naval de su época y motor de avances en
 metalurgia, propulsión e ingeniería naval. Hoy varios se conservan como buques
 museo, con valor educativo e histórico.
 
-## Fuentes
+## 🧭 Guía de estudio aplicada
 
-- Registrar aquí las fuentes públicas consultadas.
-- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+### Pregunta guía
+
+¿Cómo ayuda **Origen, Línea de tiempo, Evolución tecnológica y Tipos representativos** a **explicar cómo la evolución hizo posibles alternativas como acorazado pre-dreadnought frente a dreadnought**?
+
+### Explicación razonada
+
+La evolución de Acorazados se comprende mejor como una sucesión de respuestas a problemas, no como una lista de fechas. Los cambios en calderas o motores, turbinas, ejes y hélices y casco blindado alteraron qué podía hacer la máquina, quién podía usarla y qué riesgos debían controlarse. El contraste «acorazado pre-dreadnought frente a dreadnought» permite observar qué decisiones de diseño permanecieron y cuáles cambiaron con la tecnología y el propósito.
+
+Esta clase se conecta con el resto del curso mediante **compromiso histórico entre protección, potencia, alcance, estabilidad y potencia de fuego**. El hilo de
+seguridad consiste en reconocer a tiempo **reacción lenta y exposición causada por gran radio táctico y baja aceleración** y poder justificar la decisión
+**anticipar el movimiento considerando inercia, formación y campo de observación**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **calderas o motores → turbinas → ejes y hélices → casco blindado**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ships](https://www.history.navy.mil/browse-by-topic/ships.html) aporta historia pública de buques militares;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Situar:** ordena los hitos que explican cómo se llegó a **acorazado pre-dreadnought frente a dreadnought** y describe la necesidad que impulsó cada cambio.
+2. **Relacionar:** explica qué se modificó en **calderas o motores**, **turbinas**, **ejes y hélices** o **casco blindado**; una fecha sin mecanismo no basta.
+3. **Interpretar:** vincula el cambio con una capacidad nueva y también con el riesgo **reacción lenta y exposición causada por gran radio táctico y baja aceleración**.
+4. **Transferir:** usa la evolución para justificar por qué hoy conviene **anticipar el movimiento considerando inercia, formación y campo de observación**.
+
+### Comprueba tu comprensión
+
+1. ¿Qué necesidad histórica impulsó un cambio en **calderas o motores** o **turbinas**?
+2. ¿Qué hito modificó la relación entre capacidad y **reacción lenta y exposición causada por gran radio táctico y baja aceleración**?
+3. ¿Por qué **acorazado pre-dreadnought frente a dreadnought** no puede explicarse como una simple diferencia estética?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

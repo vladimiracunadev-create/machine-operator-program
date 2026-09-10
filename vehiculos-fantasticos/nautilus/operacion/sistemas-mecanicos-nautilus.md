@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: NAUTILUS-04
@@ -16,7 +16,7 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del Nautilus
 
@@ -24,11 +24,11 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; el Nautilus de Julio Verne (1870) es de dominio público; otros derechos pertenecen a sus titulares.
 
-Este módulo abre el Nautilus por dentro. Explica cada sistema imaginado por
+Esta clase abre el Nautilus por dentro. Explica cada sistema imaginado por
 Verne y lo compara con la física real del submarino moderno. La sorpresa es que
 gran parte de lo que la novela describio coincide con la ingeniería que se
-desarrollo después. Es la base técnica para entender los mandos (Módulo 5) y la
-física de operación (Módulo 6).
+desarrollo después. Es la base técnica para entender los mandos (Clase 5) y la
+física de operación (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -183,8 +183,57 @@ sumergida.
 4. La **hélice y los timones** dan movimiento y rumbo.
 5. El **soporte vital** mantiene el aire respirable y las reservas.
 
-Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-nautilus.md)
+Con esto claro, el [Clase 5: Mandos](../mandos/manual-mandos-nautilus.md)
 muestra cómo la tripulación opera cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Flotabilidad y tanques de lastre, Casco y presión en profundidad, Energía y Propulsión y navegación** a **seguir una alteración desde energía descrita en la obra hasta casco y timones durante inmersión narrativa cerca de relieve submarino**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: energía descrita en la obra entrega o transforma energía; motor la adapta; hélice la transmite o gobierna; y casco y timones produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de casco y timones y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["energía descrita en la obra"] --> B["motor"] --> C["hélice"] --> D["casco y timones"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **lectura doble: tecnología imaginada por Verne y principios reales de flotabilidad y presión**. El hilo de
+seguridad consiste en reconocer a tiempo **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real** y poder justificar la decisión
+**citar el canon y contrastar cada maniobra con física y navegación reales**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía descrita en la obra → motor → hélice → casco y timones**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Twenty Thousand Leagues under the Sea](https://www.gutenberg.org/ebooks/164) aporta obra primaria en dominio público;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **energía descrita en la obra** durante **inmersión narrativa cerca de relieve submarino**.
+2. **Transformación:** explica qué hacen **motor** y **hélice**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **casco y timones** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **motor**, ¿qué efecto esperarías primero en **hélice** y después en **casco y timones**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **energía descrita en la obra** de una falla de **hélice**?
+3. ¿Por qué una segunda orden podría agravar **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

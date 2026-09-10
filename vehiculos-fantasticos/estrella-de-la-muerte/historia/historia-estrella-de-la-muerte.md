@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 1
 codigo: ESTRELLADELA-01
@@ -16,7 +16,7 @@ evidencia: "Línea de tiempo comentada con cuatro hitos o más."
 criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📜 Historia de la Estrella de la Muerte
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo situa la idea de la estación del tamaño de una luna dentro de la
+Esta clase situa la idea de la estación del tamaño de una luna dentro de la
 ciencia ficción y la compara con la historia real de las estaciones espaciales.
 No describe una nave oficial: analiza el concepto genérico de "estación-mundo"
 que popularizo el estilo "Star Wars" y lo contrasta con lo que la ingeniería sabe
@@ -85,6 +85,48 @@ legítima que este curso respeta y analiza.
 
 - Registrar aquí las fuentes públicas de divulgación consultadas.
 - Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **De donde viene la idea, Lo real frente a lo imaginado, Por qué la ficción eligió la estación gigante y Que aprenderemos de todo esto** a **explicar cómo la evolución hizo posibles alternativas como estación móvil ficticia frente a estación orbital real**?
+
+### Explicación razonada
+
+La evolución de Estrella de la Muerte se comprende mejor como una sucesión de respuestas a problemas, no como una lista de fechas. Los cambios en reactor ficticio, distribución, propulsión y control y estación alteraron qué podía hacer la máquina, quién podía usarla y qué riesgos debían controlarse. El contraste «estación móvil ficticia frente a estación orbital real» permite observar qué decisiones de diseño permanecieron y cuáles cambiaron con la tecnología y el propósito.
+
+Esta clase se conecta con el resto del curso mediante **una megaestructura debe modelarse como red de subsistemas y dependencias, no como un solo vehículo**. El hilo de
+seguridad consiste en reconocer a tiempo **crear un sistema invulnerable o sin propagación comprensible de fallas** y poder justificar la decisión
+**mapear dependencias, redundancias y estados degradados antes de decidir**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **reactor ficticio → distribución → propulsión y control → estación**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Death Star](https://www.starwars.com/databank/death-star) aporta canon narrativo de la estación;
+[Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) se usa para naves, sistemas y misiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Situar:** ordena los hitos que explican cómo se llegó a **estación móvil ficticia frente a estación orbital real** y describe la necesidad que impulsó cada cambio.
+2. **Relacionar:** explica qué se modificó en **reactor ficticio**, **distribución**, **propulsión y control** o **estación**; una fecha sin mecanismo no basta.
+3. **Interpretar:** vincula el cambio con una capacidad nueva y también con el riesgo **crear un sistema invulnerable o sin propagación comprensible de fallas**.
+4. **Transferir:** usa la evolución para justificar por qué hoy conviene **mapear dependencias, redundancias y estados degradados antes de decidir**.
+
+### Comprueba tu comprensión
+
+1. ¿Qué necesidad histórica impulsó un cambio en **reactor ficticio** o **distribución**?
+2. ¿Qué hito modificó la relación entre capacidad y **crear un sistema invulnerable o sin propagación comprensible de fallas**?
+3. ¿Por qué **estación móvil ficticia frente a estación orbital real** no puede explicarse como una simple diferencia estética?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

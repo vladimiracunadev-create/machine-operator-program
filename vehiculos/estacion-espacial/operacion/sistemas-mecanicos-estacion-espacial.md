@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: ESTACIONESPA-04
@@ -16,15 +16,15 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos de la estación espacial
 
 [🏠 Inicio](../../../README.md) · [🛰️ Curso: Estación espacial (ISS)](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre la estación por dentro. Explica cada sistema, como funciona y como
+Esta clase abre la estación por dentro. Explica cada sistema, como funciona y como
 se conecta con los demás. Es la base técnica para entender el centro de control
-(Módulo 5) y la física de la microgravedad (Módulo 6). Todo es **ciencia real**.
+(Clase 5) y la física de la microgravedad (Clase 6). Todo es **ciencia real**.
 
 ```mermaid
 flowchart LR
@@ -165,8 +165,57 @@ equipos, siempre con traje presurizado y sujeciones de seguridad.
 5. El **acoplamiento y las EVA** permiten reabastecer y mantener la estación.
 
 Con esto entendido, el
-[Módulo 5: Mandos](../mandos/manual-mandos-estacion-espacial.md) muestra como el
+[Clase 5: Mandos](../mandos/manual-mandos-estacion-espacial.md) muestra como el
 centro de control y la tripulación operan estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Módulos y estructura, Energía, Soporte vital de ciclo cerrado y Control térmico** a **seguir una alteración desde paneles solares hasta módulos y tripulación durante pérdida parcial de generación durante una actividad planificada**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: paneles solares entrega o transforma energía; distribución eléctrica la adapta; soporte vital la transmite o gobierna; y módulos y tripulación produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de módulos y tripulación y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["paneles solares"] --> B["distribución eléctrica"] --> C["soporte vital"] --> D["módulos y tripulación"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **equilibrio continuo de energía, atmósfera, calor y orientación orbital**. El hilo de
+seguridad consiste en reconocer a tiempo **degradación de soporte vital o energía por priorización tardía** y poder justificar la decisión
+**aislar la falla y priorizar cargas esenciales antes de recuperar la misión**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **paneles solares → distribución eléctrica → soporte vital → módulos y tripulación**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [International Space Station](https://www.nasa.gov/reference/international-space-station/) aporta módulos, órbita y soporte vital;
+[Space Law Treaties and Principles](https://www.unoosa.org/oosa/SpaceLaw/treaties.html) se usa para derecho espacial internacional. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **paneles solares** durante **pérdida parcial de generación durante una actividad planificada**.
+2. **Transformación:** explica qué hacen **distribución eléctrica** y **soporte vital**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **módulos y tripulación** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **degradación de soporte vital o energía por priorización tardía**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **distribución eléctrica**, ¿qué efecto esperarías primero en **soporte vital** y después en **módulos y tripulación**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **paneles solares** de una falla de **soporte vital**?
+3. ¿Por qué una segunda orden podría agravar **degradación de soporte vital o energía por priorización tardía**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: GRUATORRE-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes de la grúa torre
 
 [🏠 Inicio](../../../README.md) · [🗼 Curso: Grúa torre](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-grua-torre.md) ya dijo qué tipos de
-grúa torre existen y para qué sirve cada uno. Este módulo responde a lo
+El [Clase 2](../operacion/caracteristicas-grua-torre.md) ya dijo qué tipos de
+grúa torre existen y para qué sirve cada uno. Esta clase responde a lo
 siguiente: **no todas se manejan igual**, y esa diferencia no es de matiz.
 Cambia qué mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -37,10 +37,10 @@ Cambia qué mandos tiene la máquina y, por tanto, qué debe modelar el simulado
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-grua-torre.md) describe un puesto de mando
+El [Clase 5](../mandos/manual-mandos-grua-torre.md) describe un puesto de mando
 con una palanca derecha dedicada a la **traslación del carro** por la pluma, y
 una entrada de simulación asociada (teclas `R`/`F`, stick derecho vertical). El
-[Módulo 9](../simulacion/diseno-simulador-grua-torre.md) expone una variable
+[Clase 9](../simulacion/diseno-simulador-grua-torre.md) expone una variable
 `Radio del carro` con rango `3-50 m`. Ambos describen una grúa **de pluma
 horizontal** (hammerhead).
 
@@ -51,7 +51,7 @@ una posición que el operador fija directamente y pasa a ser el **resultado** de
 luego se le "añade" la pluma abatible, el resultado es una grúa abatible con
 trolley, que no existe.
 
-La segunda bisagra es el puesto: el Módulo 5 admite **cabina en lo alto o mando
+La segunda bisagra es el puesto: el Clase 5 admite **cabina en lo alto o mando
 a distancia por radio desde tierra**. Son dos máquinas distintas para el
 operador, aunque la estructura sea idéntica.
 
@@ -76,10 +76,10 @@ operador, aunque la estructura sea idéntica.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Pluma horizontal, Auto-montante, Autoestable, Arriostrada | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Cambian los rangos y los límites, no los controles. |
+| Pluma horizontal, Auto-montante, Autoestable, Arriostrada | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Cambian los rangos y los límites, no los controles. |
 | Pluma abatible | **Desaparece** la traslación del carro. **Aparece** el mando de elevación de la pluma en su lugar (misma palanca derecha, otra función). | El operador ya no fija el radio: lo obtiene como consecuencia del ángulo, y cada corrección de radio mueve la carga en vertical. |
 | De trepado | **Aparece** el mando de la jaula de trepado, fuera del ciclo normal de izaje. | Es un modo aparte: durante el trepado los mandos de izaje y giro no son la operación. |
-| Mando a distancia (botonera) | **Desaparecen** las palancas proporcionales de la cabina y la consola fija. El limitador, el anemómetro y el nivel **se mudan** a una pantalla pequeña o a avisos sonoros. | Se pierde el campo de visión único que el Módulo 5 exige para el limitador, y **aparece** la posición del propio operador como variable. |
+| Mando a distancia (botonera) | **Desaparecen** las palancas proporcionales de la cabina y la consola fija. El limitador, el anemómetro y el nivel **se mudan** a una pantalla pequeña o a avisos sonoros. | Se pierde el campo de visión único que el Clase 5 exige para el limitador, y **aparece** la posición del propio operador como variable. |
 | Todos | **Permanece** la parada de emergencia. | Es el único control que no cambia de sitio ni de función entre variantes. |
 
 ---
@@ -87,17 +87,17 @@ operador, aunque la estructura sea idéntica.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-grua-torre.md):
+[Clase 9](../simulacion/diseno-simulador-grua-torre.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Pluma horizontal | Ninguna: es el caso base. | El del Módulo 5. |
+| Pluma horizontal | Ninguna: es el caso base. | El del Clase 5. |
 | Pluma abatible | `Radio del carro` **se elimina** como entrada y pasa a calcularse desde el ángulo de la pluma. `Altura del gancho` se acopla a ese ángulo: deja de ser independiente. | Sin entrada de traslación del carro; entrada de elevación de pluma. |
 | Auto-montante | `Radio del carro` y `Altura del gancho` **reducen** su rango útil. | El mismo. |
 | De trepado | `Altura del gancho` deja de tener un techo fijo: el máximo crece durante la partida. | El mismo, más un modo de trepado sin izaje. |
 | Autoestable | `Altura del gancho` queda con techo cerrado y el nivel de la base pesa más en la validación previa. | El mismo. |
 | Arriostrada al edificio | `Ángulo de giro` deja de ser un rango libre de `0-360`: aparecen sectores vetados por el edificio. | El mismo, con giro restringido. |
-| Mando desde cabina | Ninguna: es el caso base del puesto. | El del Módulo 5. |
+| Mando desde cabina | Ninguna: es el caso base del puesto. | El del Clase 5. |
 | Mando a distancia | `Péndulo de la carga` deja de leerse desde arriba y depende de dónde está el operador. `Viento` y `Momento de carga` dejan de estar siempre a la vista. | El mismo cálculo, otra presentación: sin consola fija y con la vista del operador como parte del problema. |
 
 ---
@@ -140,6 +140,48 @@ sube.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar grúa de pluma horizontal frente a pluma abatible frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «grúa de pluma horizontal frente a pluma abatible» resuelven prioridades distintas. Una comparación profesional sigue la cadena alimentación → cabrestante → carro y pluma → gancho y carga: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **equilibrio de momentos: el efecto de la carga crece cuando aumenta su radio**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrepasar capacidad, inducir péndulo o trabajar sobre una zona no aislada** y poder justificar la decisión
+**consultar tabla de carga y viento antes de autorizar cada trayectoria**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **alimentación → cabrestante → carro y pluma → gancho y carga**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) aporta izaje, riesgos y controles;
+[1926.1435 Tower Cranes](https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.1435) se usa para requisitos específicos de grúas torre. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **traslado de una carga desde radio corto hacia el extremo de pluma**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **alimentación** hasta **gancho y carga**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **alimentación → cabrestante → carro y pluma → gancho y carga** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «traslado de una carga desde radio corto hacia el extremo de pluma» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

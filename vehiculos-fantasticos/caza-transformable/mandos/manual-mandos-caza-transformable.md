@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 5
 codigo: CAZATRANSFOR-05
@@ -16,7 +16,7 @@ evidencia: "Mapa de mandos y resolución de dos estados del tablero."
 criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎛️ Mandos e instrumentos del caza transformable
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-¿Cómo se pilota una máquina que cambia de forma? Este módulo describe, de manera
+¿Cómo se pilota una máquina que cambia de forma? Esta clase describe, de manera
 genérica y original, el puesto de mando imaginado y cómo se traduce en entradas
 de simulación. La gran diferencia con un avión normal es que hay un control más:
 el de cambio de modo.
@@ -91,6 +91,55 @@ cambio de modo.
 - No transformar en plena maniobra brusca: el centro de masa se mueve.
 - Vigilar las cargas estructurales para no forzar las juntas.
 - Usar el modo intermedio como transición controlada, no como atajo.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Puesto de mando, Controles y su función, Instrumentos del tablero y Entradas de simulación** a **interpretar mandos e indicaciones durante transición simulada de vuelo a modo robot durante una misión**?
+
+### Explicación razonada
+
+Un mando no se aprende memorizando su nombre, sino recorriendo el ciclo intención → acción → indicación → verificación. En Caza transformable, el operador actúa sobre fuente de energía ficticia o actuadores de transformación, observa la respuesta en propulsión y confirma el efecto en configuración de vuelo o robot. Una indicación inesperada exige detener la secuencia mental, identificar el modo activo y evitar una segunda orden que agrave el estado.
+
+```mermaid
+flowchart LR
+    I["intención"] --> M["mando sobre fuente de energía ficticia o actuadores de transformación"]
+    M --> R["respuesta de propulsión"] --> E["efecto en configuración de vuelo o robot"]
+    E --> V["verificar indicación"] --> I
+```
+
+Esta clase se conecta con el resto del curso mediante **cambiar de configuración altera masa aparente, control, resistencia y función narrativa**. El hilo de
+seguridad consiste en reconocer a tiempo **ocultar discontinuidades físicas bajo una animación sin reglas de estado** y poder justificar la decisión
+**definir condiciones, costos y límites de cada transición antes de simularla**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía ficticia → actuadores de transformación → propulsión → configuración de vuelo o robot**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Robotech](https://robotech.com/) aporta referencia oficial del universo ficticio;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Intención:** formula qué cambio se necesita durante **transición simulada de vuelo a modo robot durante una misión**.
+2. **Mando:** identifica el control que actúa sobre **fuente de energía ficticia** o **actuadores de transformación** y el modo que debe estar activo.
+3. **Lectura:** localiza la indicación que confirma la respuesta de **propulsión** y el efecto en **configuración de vuelo o robot**.
+4. **Verificación:** si la lectura no coincide, no acumules órdenes; estabiliza e investiga el estado.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mando inicia la respuesta y qué instrumento confirma que el modo correcto está activo?
+2. ¿Qué indicación temprana advertiría **ocultar discontinuidades físicas bajo una animación sin reglas de estado**?
+3. ¿Qué secuencia usarías si la respuesta de **configuración de vuelo o robot** no coincide con la orden?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

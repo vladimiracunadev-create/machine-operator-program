@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: GRUATORRE-04
@@ -16,17 +16,17 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos de la grúa torre
 
 [🏠 Inicio](../../../README.md) · [🗼 Curso: Grúa torre](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre la grúa torre por dentro y es el corazón del curso. Explica la
+Esta clase abre la grúa torre por dentro y es el corazón del curso. Explica la
 mecánica del izaje en altura: cómo se sostiene el mástil, como se reparte el
 momento entre carga y contrapeso, y por qué existe un límite de peso para cada
-posición del carro. Es la base técnica para entender los mandos (Módulo 5) y la
-física de la operación (Módulo 6).
+posición del carro. Es la base técnica para entender los mandos (Clase 5) y la
+física de la operación (Clase 6).
 
 ```mermaid
 flowchart TD
@@ -224,8 +224,57 @@ grúa en condición controlada.
 5. La **tabla de carga** define el límite de peso para cada radio.
 6. Los **limitadores** vigilan la carga y el momento y cortan antes del vuelco.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-grua-torre.md)
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-grua-torre.md)
 muestra como el operador acciona cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Mástil y base, Pluma, contrapluma y contrapeso, Carro (trolley) y sistema de izaje y Corona de giro (slewing)** a **seguir una alteración desde alimentación hasta gancho y carga durante traslado de una carga desde radio corto hacia el extremo de pluma**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: alimentación entrega o transforma energía; cabrestante la adapta; carro y pluma la transmite o gobierna; y gancho y carga produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de gancho y carga y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["alimentación"] --> B["cabrestante"] --> C["carro y pluma"] --> D["gancho y carga"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **equilibrio de momentos: el efecto de la carga crece cuando aumenta su radio**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrepasar capacidad, inducir péndulo o trabajar sobre una zona no aislada** y poder justificar la decisión
+**consultar tabla de carga y viento antes de autorizar cada trayectoria**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **alimentación → cabrestante → carro y pluma → gancho y carga**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) aporta izaje, riesgos y controles;
+[1926.1435 Tower Cranes](https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.1435) se usa para requisitos específicos de grúas torre. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **alimentación** durante **traslado de una carga desde radio corto hacia el extremo de pluma**.
+2. **Transformación:** explica qué hacen **cabrestante** y **carro y pluma**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **gancho y carga** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **sobrepasar capacidad, inducir péndulo o trabajar sobre una zona no aislada**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **cabrestante**, ¿qué efecto esperarías primero en **carro y pluma** y después en **gancho y carga**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **alimentación** de una falla de **carro y pluma**?
+3. ¿Por qué una segunda orden podría agravar **sobrepasar capacidad, inducir péndulo o trabajar sobre una zona no aislada**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: THUNDERBIRD2-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación del Thunderbird 2
 
@@ -85,6 +85,55 @@ carga útil. El buen diseño busca el equilibrio, no el máximo.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md)
 para el detalle de cada nivel.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **La fracción de carga útil, Empuje frente a peso en un vehículo pesado, Centro de masa y estabilidad según el módulo y El compromiso estructura frente a carga** a **resolver despegue vertical ficticio con módulo pesado de rescate sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: la carga modular cambia masa, centro de gravedad, potencia y misión. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: recalcular margen y seleccionar zona antes de comprometer el aterrizaje.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["la carga modular cambia masa, centro de gravedad, potencia y misión"]
+    P --> R["riesgo: ignorar cómo la carga modifica control, autonomía y zona de operación"]
+    R --> D["decisión: recalcular margen y seleccionar zona antes de comprometer el aterrizaje"]
+```
+
+Esta clase se conecta con el resto del curso mediante **la carga modular cambia masa, centro de gravedad, potencia y misión**. El hilo de
+seguridad consiste en reconocer a tiempo **ignorar cómo la carga modifica control, autonomía y zona de operación** y poder justificar la decisión
+**recalcular margen y seleccionar zona antes de comprometer el aterrizaje**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → sustentación y propulsión → bahía modular → carga de rescate**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Thunderbirds Vehicles](https://www.thunderbirds.com/) aporta referencia oficial de vehículos de rescate;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **despegue vertical ficticio con módulo pesado de rescate**.
+2. **Modelo:** aplica **la carga modular cambia masa, centro de gravedad, potencia y misión** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **ignorar cómo la carga modifica control, autonomía y zona de operación**.
+4. **Decisión:** ejecuta mentalmente **recalcular margen y seleccionar zona antes de comprometer el aterrizaje** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «la carga modular cambia masa, centro de gravedad, potencia y misión» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **carga de rescate**?
+3. ¿Qué evidencia confirmaría que **recalcular margen y seleccionar zona antes de comprometer el aterrizaje** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

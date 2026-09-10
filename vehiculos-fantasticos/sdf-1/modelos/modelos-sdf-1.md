@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: SDF1-03
@@ -16,7 +16,7 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del SDF-1
 
@@ -24,10 +24,10 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-El [Módulo 2](../operacion/caracteristicas-sdf-1.md) ya dijo qué es una
+El [Clase 2](../operacion/caracteristicas-sdf-1.md) ya dijo qué es una
 nave-fortaleza y qué tipos conceptuales caben bajo esa idea: refugio, astillero
 y bastión. También dejó anotado el rasgo más incómodo de todos, la
-**transformación**. Este módulo responde a lo siguiente: esas no son versiones
+**transformación**. Esta clase responde a lo siguiente: esas no son versiones
 de una misma nave, son **configuraciones**, y una nave que se reconfigura deja
 de ser una sola máquina en cuanto la miras desde el puente.
 
@@ -42,9 +42,9 @@ de ser una sola máquina en cuanto la miras desde el puente.
 
 ## 🧭 Por qué la configuración decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-sdf-1.md) describe un puente donde las
+El [Clase 5](../mandos/manual-mandos-sdf-1.md) describe un puente donde las
 órdenes de maniobra mandan y la estación de estructura vigila: la propulsión
-propone, la estructura avisa. El [Módulo 9](../simulacion/diseno-simulador-sdf-1.md)
+propone, la estructura avisa. El [Clase 9](../simulacion/diseno-simulador-sdf-1.md)
 expone ese mismo reparto en sus variables, con `Empuje de motores` como entrada
 y `Tensión estructural` como consecuencia. Ambos describen la nave **en su
 configuración de crucero**, moviéndose por el vacío como un bloque.
@@ -52,11 +52,11 @@ configuración de crucero**, moviéndose por el vacío como un bloque.
 Durante una reconfiguración ese reparto se invierte. La nave no maniobra: se
 está abriendo. `Tensión estructural` deja de ser el resultado de una orden de
 empuje y pasa a ser la variable que gobierna la partida, porque el casco está
-recorriendo estados intermedios donde el peso propio del [Módulo 6](../operacion/principios-sdf-1.md)
+recorriendo estados intermedios donde el peso propio del [Clase 6](../operacion/principios-sdf-1.md)
 no encuentra el camino para el que fue diseñado. Si el simulador se construye
 sobre el esquema de crucero y luego se le "añade" la transformación, el
 resultado es una mole que se reconfigura mientras acelera, que es exactamente la
-regla de ficción que el [Módulo 8](../reglamentos/reglas-universo-sdf-1.md)
+regla de ficción que el [Clase 8](../reglamentos/reglas-universo-sdf-1.md)
 marca como no real.
 
 ---
@@ -78,7 +78,7 @@ marca como no real.
 
 | Configuración | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Crucero (forma base) | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Cambian los márgenes, no los controles. |
+| Crucero (forma base) | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Cambian los márgenes, no los controles. |
 | Reconfiguración en curso | **Desaparecen** las órdenes de maniobra y la gestión de motores. La vigilancia de esfuerzos **deja de ser un panel y pasa a ser la consola que manda**. | La estación de estructura, que solo avisaba, dirige la nave. No se maniobra y se reconfigura a la vez. |
 | Nave-refugio | **Aparece** el control de habitabilidad como mando de primera línea, por delante del reparto de energía. | El soporte vital deja de ser una condición de fondo y compite por la energía con la propulsión. |
 | Nave-astillero | **Aparece** la coordinación con los hangares como demanda permanente sobre el puesto de comunicación interna. | La nave-ciudad se opera hacia dentro tanto como hacia fuera. |
@@ -90,18 +90,18 @@ marca como no real.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-sdf-1.md):
+[Clase 9](../simulacion/diseno-simulador-sdf-1.md):
 
 | Configuración | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Crucero (forma base) | Ninguna: es el caso base. | El del Módulo 5. |
+| Crucero (forma base) | Ninguna: es el caso base. | El del Clase 5. |
 | Reconfiguración en curso | `Empuje de motores` **se anula** durante la maniobra. `Tensión estructural` deja de ser salida y pasa a ser la variable que se pilota. | Sin entrada de empuje ni de giro; la estructura es la única entrada viva. |
 | Nave-refugio | `Masa total` sube al cubo del `Tamaño de la nave`. `Estado de soporte vital` deja de ser un indicador y pasa a consumir energía de forma continua. | El mismo, con la habitabilidad compitiendo por la energía. |
 | Nave-astillero | `Tensión estructural` **cambia de significado**: ya no mide un casco continuo, sino un casco con huecos. | El mismo, con márgenes estructurales más estrechos. |
 | Nave-bastión | `Masa total` crece sin que crezca `Empuje de motores`. `Calor acumulado` sube sobre la misma superficie. | El mismo, con respuesta aún más lenta. |
 | Atracada en astillero | `Tensión estructural` **se externaliza**: la calcula el apoyo, no la nave. `Gravedad del entorno` pasa a cargar sobre el astillero. | Sin alerta estructural propia. |
 
-Nota: la variable `Modo` del Módulo 9 no es una configuración. Atraviesa a todas:
+Nota: la variable `Modo` del Clase 9 no es una configuración. Atraviesa a todas:
 cualquiera de estas seis se puede jugar en modo ficción o en modo ciencia, y la
 diferencia entre ambos modos es justo lo que el curso quiere enseñar.
 
@@ -135,7 +135,7 @@ otro:
   calcularse a bordo. No es una nave con la alerta desactivada, es una nave que
   no tiene esa responsabilidad.
 
-Las tres siluetas conceptuales del Módulo 2 —refugio, astillero y bastión— sí
+Las tres siluetas conceptuales del Clase 2 —refugio, astillero y bastión— sí
 caben en un mismo simulador ajustando masa, superficie y reparto de energía, tal
 como plantean los [niveles de realismo](../../../docs/03-niveles-de-realismo.md):
 en el nivel 1 las tres se sienten igual de lentas, y las diferencias emergen a
@@ -145,6 +145,48 @@ medida que el nivel sube y la ley del cubo-cuadrado empieza a cobrar.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué la configuración decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar modo crucero frente a configuración humanoide frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «modo crucero frente a configuración humanoide» resuelven prioridades distintas. Una comparación profesional sigue la cadena energía ficticia → propulsión → transformación estructural → nave y población: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **una nave-ciudad combina movilidad, transformación y continuidad de servicios**. El hilo de
+seguridad consiste en reconocer a tiempo **tratar la transformación como efecto visual sin impactos en energía, estructura y habitabilidad** y poder justificar la decisión
+**secuenciar transición, aislar servicios y representar costos operativos**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → propulsión → transformación estructural → nave y población**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Robotech](https://robotech.com/) aporta referencia oficial del universo ficticio;
+[Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) se usa para naves, sistemas y misiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **transformación simulada mientras algunos sistemas están degradados**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **energía ficticia** hasta **nave y población**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **energía ficticia → propulsión → transformación estructural → nave y población** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «transformación simulada mientras algunos sistemas están degradados» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

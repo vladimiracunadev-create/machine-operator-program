@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: PORTAVIONES-04
@@ -16,16 +16,16 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del portaviones
 
 [🏠 Inicio](../../../README.md) · [🛳️ Curso: Portaviones](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo describe, **solo con física pública y a nivel divulgativo**, como
+Esta clase describe, **solo con física pública y a nivel divulgativo**, como
 flota, avanza, gobierna y opera su cubierta un portaviones. No incluye sistemas
 de armas, táctica ni datos sensibles. Es la base para entender los mandos
-(Módulo 5) y la física de la navegación (Módulo 6).
+(Clase 5) y la física de la navegación (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -134,8 +134,57 @@ logística y seguridad general, sin detalle operativo sensible.
 5. El **lastre** y la **compartimentación** cuidan la estabilidad.
 
 Con esto entendido, el
-[Módulo 5: Mandos](../mandos/manual-mandos-portaviones.md) describe, a nivel
+[Clase 5: Mandos](../mandos/manual-mandos-portaviones.md) describe, a nivel
 educativo, como se navega el buque desde el puente.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Casco y flotación, Propulsión, Gobierno y timón y Cubierta de vuelo y hangar (nivel divulgativo)** a **seguir una alteración desde planta propulsora hasta aeronave durante recuperación simulada de aeronaves con cubierta ocupada parcialmente**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: planta propulsora entrega o transforma energía; generación y catapulta la adapta; cubierta de vuelo la transmite o gobierna; y aeronave produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de aeronave y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["planta propulsora"] --> B["generación y catapulta"] --> C["cubierta de vuelo"] --> D["aeronave"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **integración de viento relativo, movimiento del buque y secuencia segura de cubierta**. El hilo de
+seguridad consiste en reconocer a tiempo **conflicto de trayectorias, objetos extraños o envolvente de viento inadecuada** y poder justificar la decisión
+**ordenar cubierta, rumbo y velocidad antes de iniciar la recuperación**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **planta propulsora → generación y catapulta → cubierta de vuelo → aeronave**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ships](https://www.history.navy.mil/browse-by-topic/ships.html) aporta historia pública de buques militares;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **planta propulsora** durante **recuperación simulada de aeronaves con cubierta ocupada parcialmente**.
+2. **Transformación:** explica qué hacen **generación y catapulta** y **cubierta de vuelo**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **aeronave** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **conflicto de trayectorias, objetos extraños o envolvente de viento inadecuada**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **generación y catapulta**, ¿qué efecto esperarías primero en **cubierta de vuelo** y después en **aeronave**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **planta propulsora** de una falla de **cubierta de vuelo**?
+3. ¿Por qué una segunda orden podría agravar **conflicto de trayectorias, objetos extraños o envolvente de viento inadecuada**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

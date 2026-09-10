@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: NAVESESPACIA-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación de la nave espacial
 
@@ -45,7 +45,7 @@ velocidad y vale la tercera ley de Newton, sin necesitar aire. Para quemar sin
 aire externo lleva su propio **oxidante** además del combustible. Un avión, en
 cambio, depende del aire de la atmósfera.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nave-espacial.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nave-espacial.md).
 
 </details>
 
@@ -61,7 +61,7 @@ superficie se curva a la misma tasa y nunca llega al suelo. Lo que se llama
 ausencia de gravedad. Creer lo contrario es uno de los errores comunes que el
 curso señala.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-nave-espacial.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-nave-espacial.md).
 
 </details>
 
@@ -91,8 +91,8 @@ Con el **control de actitud**, no con timones ni superficies aerodinámicas. Los
 **ruedas de reacción** giran masas internas para orientar sin gastar propelente.
 Los sensores de actitud (estrellas, Sol y giróscopos) indican la orientación.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nave-espacial.md)
-y Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-nave-espacial.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-nave-espacial.md)
+y Clase 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-nave-espacial.md).
 
 </details>
 
@@ -110,7 +110,7 @@ y Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-nave-espaci
 7. **Reentrada**: orientar el escudo y soportar el calor.
 8. **Aterrizaje o amerizaje**: paracaídas o descenso propulsado.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-nave-espacial.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-nave-espacial.md).
 
 </details>
 
@@ -128,7 +128,7 @@ política pública (Política Nacional Espacial, Decreto 30 del Ministerio de
 Ciencia, Tecnología, Conocimiento e Innovación) más el Sistema Nacional
 Satelital (SNSat), liderado por la FACH.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-nave-espacial.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-nave-espacial.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -153,7 +153,7 @@ que el curso quiere enseñar a evitar.
 Además, el momento importa tanto como la cantidad: dónde en la órbita se enciende
 el motor decide qué parte de la órbita cambia.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-nave-espacial.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-nave-espacial.md).
 
 </details>
 
@@ -218,7 +218,7 @@ física orbital con la gravedad siempre presente, y lo que cambia es la velocida
 Así el usuario **ve** que flotar y caer son lo mismo, y entiende solo por qué
 frenar equivale a reentrar.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md).
 
 </details>
 
@@ -237,7 +237,7 @@ la gestión de recursos son el detalle operativo y llegan al final.
 El acoplamiento, además, exige controles finos y una vista clara del objetivo:
 carga de manejo que solo tiene sentido cuando la mecánica orbital ya se entiende.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md)
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-nave-espacial.md)
 y [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
@@ -257,6 +257,48 @@ y [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para maniobra de aproximación orbital con combustible de reserva limitado**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «maniobra de aproximación orbital con combustible de reserva limitado» hay que reconstruir la cadena fuente de energía → propulsión → navegación y control → órbita o trayectoria, aplicar el principio «pequeños cambios de velocidad producen cambios acumulativos de órbita y ventanas de encuentro», reconocer el riesgo y defender una decisión verificable: verificar marco de referencia, ventana, delta-v y opción de aborto antes del encendido.
+
+Esta clase se conecta con el resto del curso mediante **pequeños cambios de velocidad producen cambios acumulativos de órbita y ventanas de encuentro**. El hilo de
+seguridad consiste en reconocer a tiempo **colisión o imposibilidad de retirada por quemado mal orientado o tardío** y poder justificar la decisión
+**verificar marco de referencia, ventana, delta-v y opción de aborto antes del encendido**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía → propulsión → navegación y control → órbita o trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) aporta naves, sistemas y misiones;
+[Space Law Treaties and Principles](https://www.unoosa.org/oosa/SpaceLaw/treaties.html) se usa para derecho espacial internacional. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **fuente de energía → propulsión → navegación y control → órbita o trayectoria** ante **maniobra de aproximación orbital con combustible de reserva limitado**.
+2. **Explicar:** aplica **pequeños cambios de velocidad producen cambios acumulativos de órbita y ventanas de encuentro** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **verificar marco de referencia, ventana, delta-v y opción de aborto antes del encendido** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **cápsula tripulada frente a sonda robótica**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «maniobra de aproximación orbital con combustible de reserva limitado»?
+2. ¿Qué alternativa a **verificar marco de referencia, ventana, delta-v y opción de aborto antes del encendido** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

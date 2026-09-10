@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: CAMIONES-04
@@ -16,16 +16,16 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del camión
 
 [🏠 Inicio](../../../README.md) · [🚛 Curso: Camiones](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre el camión por dentro y es el corazón del curso. Explica cada
+Esta clase abre el camión por dentro y es el corazón del curso. Explica cada
 sistema, como funciona y cómo se conecta con los demás, con foco en el motor
 diesel, el frenado neumático y la gestión del peso. Es la base técnica para
-entender los mandos (Módulo 5) y la física de la conducción con carga (Módulo 6).
+entender los mandos (Clase 5) y la física de la conducción con carga (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -202,7 +202,7 @@ ejes y la ley. Tres conceptos ordenan todo:
 - **Ejes motrices y de apoyo**: los motrices reciben la fuerza; los de apoyo (o
   ejes elevables) solo soportan carga y pueden subirse cuando el camión va vacío.
 - **PBV y licencia**: el PBV determina la clase de licencia y define si el camión
-  es simple o requiere configuración especial (ver Módulo 8).
+  es simple o requiere configuración especial (ver Clase 8).
 
 ---
 
@@ -246,8 +246,57 @@ flowchart LR
 6. El **freno de motor** y el **retarder** frenan sin desgaste en pendiente.
 7. En un articulado, la **quinta rueda** transmite el arrastre al semirremolque.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-camion.md)
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-camion.md)
 muestra como el conductor opera cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Motor diesel, Caja de cambios, Sistema neumático y Frenos** a **seguir una alteración desde motor hasta ruedas motrices durante descenso de montaña con carga cercana al máximo autorizado**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: motor entrega o transforma energía; caja de cambios la adapta; árbol y diferencial la transmite o gobierna; y ruedas motrices produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de ruedas motrices y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["motor"] --> B["caja de cambios"] --> C["árbol y diferencial"] --> D["ruedas motrices"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **relación entre masa, pendiente, energía cinética y capacidad térmica de frenado**. El hilo de
+seguridad consiste en reconocer a tiempo **embalamiento, fatiga de frenos o pérdida de estabilidad de la carga** y poder justificar la decisión
+**planificar velocidad y relación de transmisión antes de entrar en la pendiente**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → caja de cambios → árbol y diferencial → ruedas motrices**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Commercial Driver's License Manual](https://www.fmcsa.dot.gov/registration/commercial-drivers-license/cdl-manual) se usa para operación de buses y camiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **motor** durante **descenso de montaña con carga cercana al máximo autorizado**.
+2. **Transformación:** explica qué hacen **caja de cambios** y **árbol y diferencial**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **ruedas motrices** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **embalamiento, fatiga de frenos o pérdida de estabilidad de la carga**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **caja de cambios**, ¿qué efecto esperarías primero en **árbol y diferencial** y después en **ruedas motrices**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **motor** de una falla de **árbol y diferencial**?
+3. ¿Por qué una segunda orden podría agravar **embalamiento, fatiga de frenos o pérdida de estabilidad de la carga**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

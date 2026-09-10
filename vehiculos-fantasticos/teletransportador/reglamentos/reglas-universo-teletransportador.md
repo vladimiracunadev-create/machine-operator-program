@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 8
 codigo: TELETRANSPOR-08
@@ -16,7 +16,7 @@ evidencia: "Ficha normativa con decisión y fuente trazable."
 criterio_aprobacion: "Las decisiones citan la autoridad adecuada y no presentan el curso como habilitación profesional."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # ⚖️ Reglas del universo del teletransportador
 
@@ -25,7 +25,7 @@ ultima_revision: 2026-09-10
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
 En la ficción, un aparato no obedece la física real sino las "reglas internas"
-que la obra decide para que la historia funcione. Este módulo describe con
+que la obra decide para que la historia funcione. Esta clase describe con
 nuestras palabras esas convenciones del teletransporte genérico y, junto a cada
 una, aclara que dice la física real. No se citan textos ni especificaciones
 oficiales: es análisis original. Ver también el
@@ -67,6 +67,48 @@ en pantalla y lo que ocurriría de verdad.
 De esta forma el usuario ve, lado a lado, la versión espectacular y la versión
 realista del mismo teletransportador.
 
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Que son las reglas del universo, Convenciones típicas del género, Nota importante: no es ley real y Cómo lo usa la simulación** a **interrumpir la cadena que podría producir presentar una ficción sin límites, fallas observables ni dilemas explícitos**?
+
+### Explicación razonada
+
+La regla de seguridad debe conectarse con un mecanismo de daño. El riesgo «presentar una ficción sin límites, fallas observables ni dilemas explícitos» se controla mediante límites, inspección, competencia y coordinación; cada medida corta una parte de la cadena causal. En una situación real prevalecen la autoridad aplicable y el manual vigente de Teletransportador.
+
+Esta clase se conecta con el resto del curso mediante **la tecnología narrativa plantea continuidad, información, energía y verificación de destino**. El hilo de
+seguridad consiste en reconocer a tiempo **presentar una ficción sin límites, fallas observables ni dilemas explícitos** y poder justificar la decisión
+**definir condiciones de autorización, aborto y evidencia de integridad**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **sensado ficticio → codificación → transmisión → reconstrucción**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Star Trek Database](https://www.startrek.com/database) aporta canon narrativo y tecnologías de ficción;
+[Quantum Teleportation](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation) se usa para información cuántica, entrelazamiento y teorema de no clonación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Describir el daño:** explica cómo se llegaría a **presentar una ficción sin límites, fallas observables ni dilemas explícitos** sin usar solo la palabra “peligro”.
+2. **Localizar controles:** asocia inspección, límite, competencia o coordinación con un punto de la cadena causal.
+3. **Consultar:** distingue qué afirma la fuente pública y qué debe verificarse en normativa y manual vigentes.
+4. **Resolver:** documenta por qué **definir condiciones de autorización, aborto y evidencia de integridad** es una decisión preventiva y verificable.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mecanismo concreto conduce a **presentar una ficción sin límites, fallas observables ni dilemas explícitos**?
+2. ¿Qué barrera preventiva actúa antes del movimiento y cuál durante la operación?
+3. ¿Qué parte de la respuesta requiere consultar normativa o manual vigente?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
+
 ## 🎓 Cierre de clase
 
 - **Actividad:** Analiza dos casos de Teletransportador; localiza la fuente aplicable y separa obligación real, buena práctica y regla de simulación.
@@ -77,6 +119,7 @@ realista del mismo teletransportador.
 ### Fuentes de esta clase
 
 - [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [IBM-QUANTUM-TELEPORT](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation): Quantum Teleportation, IBM Quantum Learning. Uso: información cuántica, entrelazamiento y teorema de no clonación.
 - [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
 
 > Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual

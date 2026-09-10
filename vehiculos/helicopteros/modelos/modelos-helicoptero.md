@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: HELICOPTEROS-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del helicóptero
 
 [🏠 Inicio](../../../README.md) · [🚁 Curso: Helicópteros](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-helicoptero.md) ya dijo qué tipos de
-helicóptero existen y para qué sirve cada uno. Este módulo responde a lo
+El [Clase 2](../operacion/caracteristicas-helicoptero.md) ya dijo qué tipos de
+helicóptero existen y para qué sirve cada uno. Esta clase responde a lo
 siguiente: **no todos se pilotan igual**, y esa diferencia no es de matiz. Cambia
 qué mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -38,9 +38,9 @@ qué mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-helicoptero.md) describe un puesto de mando
+El [Clase 5](../mandos/manual-mandos-helicoptero.md) describe un puesto de mando
 donde los pedales "controlan la guiñada y el anti-par", las dos cosas a la vez con
-el mismo pie. El [Módulo 9](../simulacion/diseno-simulador-helicoptero.md) expone
+el mismo pie. El [Clase 9](../simulacion/diseno-simulador-helicoptero.md) expone
 una variable `Pedal / anti-par` que "compensa el par del rotor". Ambos describen
 un helicóptero de **rotor principal más rotor de cola**.
 
@@ -50,7 +50,7 @@ su trabajo. Si el simulador se construye sobre el esquema convencional y luego s
 le "añade" un tándem, el resultado es un tándem que exige compensar un par que no
 tiene, que no existe.
 
-El [Módulo 4](../operacion/sistemas-mecanicos-helicoptero.md) ya lo enuncia al
+El [Clase 4](../operacion/sistemas-mecanicos-helicoptero.md) ya lo enuncia al
 hablar del par: la compensación se resuelve con rotor de cola **o** con rotores en
 tándem de giros opuestos. Son dos caminos mecánicos distintos, y por eso son dos
 esquemas de control distintos.
@@ -74,7 +74,7 @@ esquemas de control distintos.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Rotor principal + rotor de cola | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Es el caso base del curso. |
+| Rotor principal + rotor de cola | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Es el caso base del curso. |
 | Rotores en tándem | **Desaparece** la función anti-par del pedal; **desaparece** el paso del rotor de cola como mando. El pedal queda solo como control de guiñada. | Los pies dejan de corregir el par al mover el colectivo. El freno de rotor y la vigilancia del rotor de cola pierden objeto. |
 | Ligero monoturbina | Ninguno nuevo. | Cambian los rangos, no los controles. |
 | Biturbina | **Se duplican** los instrumentos de motor: presión y temperatura por cada turbina. | El gas del colectivo gobierna dos plantas de potencia, no una. |
@@ -86,11 +86,11 @@ esquemas de control distintos.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-helicoptero.md):
+[Clase 9](../simulacion/diseno-simulador-helicoptero.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Rotor principal + rotor de cola | Ninguna: es el caso base. | El del Módulo 5. |
+| Rotor principal + rotor de cola | Ninguna: es el caso base. | El del Clase 5. |
 | Rotores en tándem | `Pedal / anti-par` **pierde su mitad anti-par** y pasa a ser guiñada pura. El par deja de entrar en el cálculo de fuerzas del ciclo básico. | Sin entrada de anti-par; la guiñada se obtiene de los dos rotores, no de un rotor de cola. |
 | Ligero monoturbina | `Potencia del motor` y `Peso del conjunto` reducen rango. | El mismo. |
 | Biturbina | `Potencia del motor` **deja de ser un valor único** y pasa a ser la suma de dos plantas, cada una con su propio estado. | El mismo, con fallo de un motor como escenario distinto de la autorrotación. |
@@ -126,7 +126,7 @@ control o su modelo de fuerzas es otro:
 - **El rotor en tándem** frente al convencional: falta una entrada y el par
   desaparece del cálculo de fuerzas. Es un modo de control distinto, no una
   dificultad distinta. El error común que enseña el
-  [Módulo 6](../operacion/principios-helicoptero.md) —subir colectivo sin
+  [Clase 6](../operacion/principios-helicoptero.md) —subir colectivo sin
   compensar el par con el pedal— sencillamente no se comete en un tándem.
 - **La biturbina** frente a la monoturbina: obliga a que la potencia sea dos
   estados y no uno, y abre un escenario de fallo que no termina en autorrotación.
@@ -143,6 +143,48 @@ antes de ese nivel el tándem y el convencional aún son la misma máquina.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar helicóptero ligero frente a helicóptero de transporte frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «helicóptero ligero frente a helicóptero de transporte» resuelven prioridades distintas. Una comparación profesional sigue la cadena motor → transmisión → rotor principal → empuje y control: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **sustentación del rotor condicionada por paso colectivo, cíclico, potencia y rotor de cola**. El hilo de
+seguridad consiste en reconocer a tiempo **déficit de potencia, pérdida de rpm o control de guiñada** y poder justificar la decisión
+**comprobar potencia disponible y mantener una vía de escape antes del estacionario**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → rotor principal → empuje y control**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Helicopter Flying Handbook](https://www.faa.gov/sites/faa.gov/files/helicopter_flying_handbook.pdf) aporta aerodinámica y control de helicópteros;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **vuelo estacionario fuera de efecto suelo con temperatura elevada**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **motor** hasta **empuje y control**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **motor → transmisión → rotor principal → empuje y control** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «vuelo estacionario fuera de efecto suelo con temperatura elevada» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

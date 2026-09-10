@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: TANQUES-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del tanque
 
@@ -47,7 +47,7 @@ gira hacia el lado más lento. Un giro suave reduce ligeramente una oruga
 respecto de la otra; un giro cerrado aumenta esa diferencia; y en el giro sobre
 el eje las orugas se mueven en sentido contrario, girando casi en el sitio.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tanque.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tanque.md).
 
 </details>
 
@@ -62,7 +62,7 @@ la superficie de contacto. La oruga apoya sobre una superficie mucho mayor que
 una rueda, así que a igual peso presiona menos y se hunde menos. Esa baja
 presión es lo que mantiene la movilidad en terreno blando.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tanque.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tanque.md).
 
 </details>
 
@@ -114,7 +114,7 @@ y [⚖️ Reglamentos](../reglamentos/reglamentos-tanque.md), junto a
 El ángulo importa: abordar un obstáculo de lado es uno de los errores típicos y
 puede descarrilar una oruga.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-tanque.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-tanque.md).
 
 </details>
 
@@ -129,7 +129,7 @@ institucional del Ejército de Chile, dependiente del Ministerio de Defensa
 Nacional, bajo la **Ley 18.948** (Orgánica Constitucional de las Fuerzas
 Armadas). **No** se les aplica la Ley de Tránsito ni las licencias civiles.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-tanque.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-tanque.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md), sección 1.10.
 
 </details>
@@ -194,7 +194,7 @@ velocidad; aquí el problema es llegar rápido a algo que no se vio. También
 conviene vigilar la temperatura y los niveles, porque el esfuerzo del motor
 crece.
 
-Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-tanque.md).
+Clase 7: [🌍 Entornos de trabajo](../operacion/entornos-tanque.md).
 
 </details>
 
@@ -215,7 +215,7 @@ no se orienta nada: una oruga baja y la otra no, y el vehículo se va hacia el
 lado más lento. Llevando la diferencia al extremo, las orugas se oponen y el
 giro ocurre casi sobre el eje.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tanque.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tanque.md).
 
 </details>
 
@@ -232,7 +232,7 @@ que son los conceptos físicos centrales de la movilidad. Las marchas, la relaci
 potencia/peso y la presión sobre el suelo son la capa de detalle y llegan al
 final.
 
-Módulo 6: [🧪 Principios](../operacion/principios-tanque.md) y los
+Clase 6: [🧪 Principios](../operacion/principios-tanque.md) y los
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
@@ -251,6 +251,48 @@ Módulo 6: [🧪 Principios](../operacion/principios-tanque.md) y los
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para cruce simulado de suelo blando con cambio de pendiente**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «cruce simulado de suelo blando con cambio de pendiente» hay que reconstruir la cadena motor → transmisión → ruedas tractoras → orugas, aplicar el principio «tracción y presión sobre el terreno condicionadas por masa, reparto y resistencia al avance», reconocer el riesgo y defender una decisión verificable: reconocer capacidad del terreno y escoger ruta, velocidad y orientación del casco.
+
+Esta clase se conecta con el resto del curso mediante **tracción y presión sobre el terreno condicionadas por masa, reparto y resistencia al avance**. El hilo de
+seguridad consiste en reconocer a tiempo **atasco, pérdida de movilidad o exposición por elegir una ruta incompatible** y poder justificar la decisión
+**reconocer capacidad del terreno y escoger ruta, velocidad y orientación del casco**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → ruedas tractoras → orugas**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Tank Collection](https://tankmuseum.org/tank-nuts/tank-collection) aporta historia pública de vehículos blindados;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **motor → transmisión → ruedas tractoras → orugas** ante **cruce simulado de suelo blando con cambio de pendiente**.
+2. **Explicar:** aplica **tracción y presión sobre el terreno condicionadas por masa, reparto y resistencia al avance** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **reconocer capacidad del terreno y escoger ruta, velocidad y orientación del casco** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **carro pesado frente a vehículo blindado ligero**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «cruce simulado de suelo blando con cambio de pendiente»?
+2. ¿Qué alternativa a **reconocer capacidad del terreno y escoger ruta, velocidad y orientación del casco** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

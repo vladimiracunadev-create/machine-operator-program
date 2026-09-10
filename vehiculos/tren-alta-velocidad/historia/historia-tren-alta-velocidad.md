@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 1
 codigo: TRENALTAVELO-01
@@ -16,7 +16,7 @@ evidencia: "Línea de tiempo comentada con cuatro hitos o más."
 criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📜 Historia del tren de alta velocidad
 
@@ -82,10 +82,47 @@ Impulso el desarrollo regional al acercar ciudades, aunque exige gran inversión
 en infraestructura dedicada. Es un símbolo de modernización del transporte
 público en varios países.
 
-## Fuentes
+## 🧭 Guía de estudio aplicada
 
-- Registrar aquí las fuentes públicas consultadas.
-- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+### Pregunta guía
+
+¿Cómo ayuda **Origen, Línea de tiempo, Evolución tecnológica y Tipos representativos** a **explicar cómo la evolución hizo posibles alternativas como tracción distribuida frente a cabezas tractoras**?
+
+### Explicación razonada
+
+La evolución de Tren de alta velocidad se comprende mejor como una sucesión de respuestas a problemas, no como una lista de fechas. Los cambios en catenaria, electrónica de potencia, motores distribuidos y rueda-carril alteraron qué podía hacer la máquina, quién podía usarla y qué riesgos debían controlarse. El contraste «tracción distribuida frente a cabezas tractoras» permite observar qué decisiones de diseño permanecieron y cuáles cambiaron con la tecnología y el propósito.
+
+Esta clase se conecta con el resto del curso mediante **estabilidad dinámica y crecimiento de la energía con el cuadrado de la velocidad**. El hilo de
+seguridad consiste en reconocer a tiempo **perder margen por interpretar tarde una restricción a velocidad elevada** y poder justificar la decisión
+**cumplir la curva de frenado con anticipación y sin correcciones bruscas**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **catenaria → electrónica de potencia → motores distribuidos → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Situar:** ordena los hitos que explican cómo se llegó a **tracción distribuida frente a cabezas tractoras** y describe la necesidad que impulsó cada cambio.
+2. **Relacionar:** explica qué se modificó en **catenaria**, **electrónica de potencia**, **motores distribuidos** o **rueda-carril**; una fecha sin mecanismo no basta.
+3. **Interpretar:** vincula el cambio con una capacidad nueva y también con el riesgo **perder margen por interpretar tarde una restricción a velocidad elevada**.
+4. **Transferir:** usa la evolución para justificar por qué hoy conviene **cumplir la curva de frenado con anticipación y sin correcciones bruscas**.
+
+### Comprueba tu comprensión
+
+1. ¿Qué necesidad histórica impulsó un cambio en **catenaria** o **electrónica de potencia**?
+2. ¿Qué hito modificó la relación entre capacidad y **perder margen por interpretar tarde una restricción a velocidad elevada**?
+3. ¿Por qué **tracción distribuida frente a cabezas tractoras** no puede explicarse como una simple diferencia estética?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

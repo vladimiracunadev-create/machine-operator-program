@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: ESTACIONESPA-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación de la estación espacial
 
@@ -48,7 +48,7 @@ estación en la misma órbita, y por eso parece flotar.
 Pensar que en órbita "no hay gravedad" es justamente uno de los errores comunes
 que el curso señala.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-estacion-espacial.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-estacion-espacial.md).
 
 </details>
 
@@ -78,7 +78,7 @@ paneles solares solo generan electricidad en la parte iluminada de la órbita; e
 la fase de sombra la estación vive de lo que las baterías guardaron. No es un
 respaldo ante fallas: es parte del ciclo normal, que se repite cada órbita.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-estacion-espacial.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-estacion-espacial.md).
 
 </details>
 
@@ -94,7 +94,7 @@ retira el CO2, genera oxígeno (a veces a partir del agua) y recupera agua del
 sudor, la humedad y la orina — para aprovechar al máximo lo que ya está a bordo
 y aumentar la autonomía.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-estacion-espacial.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-estacion-espacial.md).
 
 </details>
 
@@ -109,7 +109,7 @@ equipos y la tripulación, y los **radiadores** lo expulsan al espacio como
 radiación. El aislamiento reduce además el frío de la sombra y el calor del Sol.
 Importa porque sin control térmico los equipos se sobrecalientan o se congelan.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-estacion-espacial.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-estacion-espacial.md).
 
 </details>
 
@@ -125,7 +125,7 @@ registra**, es decir, cada módulo sigue siendo ante la ley un objeto espacial d
 país que lo registro, según el Convenio de Registro. A eso se suman los tratados
 espaciales del marco de UNOOSA.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-estacion-espacial.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-estacion-espacial.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md) sección 4.
 
 </details>
@@ -232,7 +232,7 @@ exigentes y llegan al final.
 Por eso mismo la estación se recomienda como vehículo avanzado: combina muchos
 sistemas a la vez y una física abstracta.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-estacion-espacial.md)
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-estacion-espacial.md)
 y [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
@@ -251,6 +251,48 @@ y [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para pérdida parcial de generación durante una actividad planificada**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «pérdida parcial de generación durante una actividad planificada» hay que reconstruir la cadena paneles solares → distribución eléctrica → soporte vital → módulos y tripulación, aplicar el principio «equilibrio continuo de energía, atmósfera, calor y orientación orbital», reconocer el riesgo y defender una decisión verificable: aislar la falla y priorizar cargas esenciales antes de recuperar la misión.
+
+Esta clase se conecta con el resto del curso mediante **equilibrio continuo de energía, atmósfera, calor y orientación orbital**. El hilo de
+seguridad consiste en reconocer a tiempo **degradación de soporte vital o energía por priorización tardía** y poder justificar la decisión
+**aislar la falla y priorizar cargas esenciales antes de recuperar la misión**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **paneles solares → distribución eléctrica → soporte vital → módulos y tripulación**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [International Space Station](https://www.nasa.gov/reference/international-space-station/) aporta módulos, órbita y soporte vital;
+[Space Law Treaties and Principles](https://www.unoosa.org/oosa/SpaceLaw/treaties.html) se usa para derecho espacial internacional. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **paneles solares → distribución eléctrica → soporte vital → módulos y tripulación** ante **pérdida parcial de generación durante una actividad planificada**.
+2. **Explicar:** aplica **equilibrio continuo de energía, atmósfera, calor y orientación orbital** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **aislar la falla y priorizar cargas esenciales antes de recuperar la misión** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **segmento presurizado frente a estructura externa**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «pérdida parcial de generación durante una actividad planificada»?
+2. ¿Qué alternativa a **aislar la falla y priorizar cargas esenciales antes de recuperar la misión** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

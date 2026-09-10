@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 5
 codigo: ACORAZADOS-05
@@ -16,7 +16,7 @@ evidencia: "Mapa de mandos y resolución de dos estados del tablero."
 criterio_aprobacion: "Reconoce los controles críticos y responde a los estados sin introducir acciones inseguras."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎛️ Mandos e instrumentos del acorazado
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 ## Vista general
 
-Este módulo describe, **a nivel educativo y solo para simulación**, el puente de
+Esta clase describe, **a nivel educativo y solo para simulación**, el puente de
 navegación de un gran buque. No representa operación militar real ni incluye
 sistemas de combate: se limita al gobierno, la propulsión y la navegación, igual
 que en cualquier buque de gran porte. El puente se ubica en alto para tener buena
@@ -82,6 +82,55 @@ visibilidad.
 - La simulación debe reflejar el gran retardo entre orden y respuesta.
 - Toda la interfaz debe dejar claro que es una **simulación educativa**, no
   operación real ni entrenamiento militar.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Vista general, Mapa de controles, Instrumentos principales y Entradas de simulación** a **interpretar mandos e indicaciones durante maniobra histórica simulada de una unidad pesada en formación**?
+
+### Explicación razonada
+
+Un mando no se aprende memorizando su nombre, sino recorriendo el ciclo intención → acción → indicación → verificación. En Acorazados, el operador actúa sobre calderas o motores o turbinas, observa la respuesta en ejes y hélices y confirma el efecto en casco blindado. Una indicación inesperada exige detener la secuencia mental, identificar el modo activo y evitar una segunda orden que agrave el estado.
+
+```mermaid
+flowchart LR
+    I["intención"] --> M["mando sobre calderas o motores o turbinas"]
+    M --> R["respuesta de ejes y hélices"] --> E["efecto en casco blindado"]
+    E --> V["verificar indicación"] --> I
+```
+
+Esta clase se conecta con el resto del curso mediante **compromiso histórico entre protección, potencia, alcance, estabilidad y potencia de fuego**. El hilo de
+seguridad consiste en reconocer a tiempo **reacción lenta y exposición causada por gran radio táctico y baja aceleración** y poder justificar la decisión
+**anticipar el movimiento considerando inercia, formación y campo de observación**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **calderas o motores → turbinas → ejes y hélices → casco blindado**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ships](https://www.history.navy.mil/browse-by-topic/ships.html) aporta historia pública de buques militares;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Intención:** formula qué cambio se necesita durante **maniobra histórica simulada de una unidad pesada en formación**.
+2. **Mando:** identifica el control que actúa sobre **calderas o motores** o **turbinas** y el modo que debe estar activo.
+3. **Lectura:** localiza la indicación que confirma la respuesta de **ejes y hélices** y el efecto en **casco blindado**.
+4. **Verificación:** si la lectura no coincide, no acumules órdenes; estabiliza e investiga el estado.
+
+### Comprueba tu comprensión
+
+1. ¿Qué mando inicia la respuesta y qué instrumento confirma que el modo correcto está activo?
+2. ¿Qué indicación temprana advertiría **reacción lenta y exposición causada por gran radio táctico y baja aceleración**?
+3. ¿Qué secuencia usarías si la respuesta de **casco blindado** no coincide con la orden?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

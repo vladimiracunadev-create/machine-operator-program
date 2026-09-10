@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: CRUCEROS-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del crucero
 
 [🏠 Inicio](../../../README.md) · [⛴️ Curso: Cruceros](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-crucero.md) ya dijo qué tipos de buque
-de pasaje existen y para qué sirve cada uno. Este módulo responde a lo siguiente:
+El [Clase 2](../operacion/caracteristicas-crucero.md) ya dijo qué tipos de buque
+de pasaje existen y para qué sirve cada uno. Esta clase responde a lo siguiente:
 **no todos se gobiernan igual**, y esa diferencia no es de matiz. Cambia qué
 mandos tiene el puente y, por tanto, qué debe modelar el simulador.
 
@@ -38,16 +38,16 @@ mandos tiene el puente y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-crucero.md) ya lo confiesa sin decirlo: en
+El [Clase 5](../mandos/manual-mandos-crucero.md) ya lo confiesa sin decirlo: en
 su tabla de entradas de simulación, la acción **Orientar pods** lleva la nota
 "solo con propulsión por pods", y el **Timón / rueda de gobierno** aparece con el
 comentario "en buques con timones clásicos". Son dos puestos de mando descritos
 como si fueran uno.
 
-El [Módulo 9](../simulacion/diseno-simulador-crucero.md) toma partido: expone
+El [Clase 9](../simulacion/diseno-simulador-crucero.md) toma partido: expone
 `Empuje de pods` y `Ángulo de pods` como variables principales, y no hay ninguna
 variable de timón. Eso describe un buque **con propulsión por pods**, tal como el
-megacrucero del Módulo 2.
+megacrucero del Clase 2.
 
 En un transatlántico de línea con hélice y timón, `Ángulo de pods` sencillamente
 no tiene valores que tomar, y falta el ángulo de pala que sí gobierna el buque.
@@ -74,7 +74,7 @@ muelle, que no es lo que hace.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Crucero clásico, Megacrucero | Ninguno: el mapa de controles del Módulo 5 aplica tal cual, con pods y joystick de maniobra. | Cambian los rangos, no los controles. |
+| Crucero clásico, Megacrucero | Ninguno: el mapa de controles del Clase 5 aplica tal cual, con pods y joystick de maniobra. | Cambian los rangos, no los controles. |
 | Transatlántico de línea | **Desaparecen** las palancas de pod y el joystick de maniobra integrado. **Aparece** la rueda de gobierno junto a un mando de empuje separado. | El empuje y el rumbo dejan de ser el mismo gesto: son dos órdenes que hay que coordinar. |
 | Ferry Ro-Ro | **Aparece** el control de rampas de carga rodada como paso obligado antes de zarpar. **Se repiten** más los mandos de las alas del puente. | No es un mando de navegación, pero condiciona cuándo el buque puede moverse. |
 | Crucero de expedición | Ninguno se añade; la **ecosonda** sube de instrumento de vigilancia a referencia constante del gobierno. | El calado deja de ser un dato de puerto y pasa a mandar la derrota. |
@@ -85,11 +85,11 @@ muelle, que no es lo que hace.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-crucero.md):
+[Clase 9](../simulacion/diseno-simulador-crucero.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Crucero clásico | Ninguna: es el caso base. | El del Módulo 5. |
+| Crucero clásico | Ninguna: es el caso base. | El del Clase 5. |
 | Megacrucero | `Viento y corriente` gana peso sobre la deriva por la obra muerta. `Pasajeros a bordo` amplía rango y alarga el muster. | El mismo: pods, thruster y joystick. |
 | Transatlántico de línea | `Ángulo de pods` **se elimina** y se sustituye por un ángulo de timón. `Empuje de pods` deja de aportar gobierno. `Rumbo` pasa a depender de la `Velocidad`: sin agua sobre la pala no hay giro. | Sin entrada de orientación de empuje; gobierno y propulsión separados. |
 | Ferry Ro-Ro | `Estabilidad (GM)` deja de ser un valor fijo de partida y varía en cada escala con la carga rodada. `Pasajeros a bordo` rota por completo varias veces. | El mismo, con maniobra de puerto continua. |
@@ -135,6 +135,48 @@ el nivel sube.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar crucero convencional frente a buque con propulsión azimutal frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «crucero convencional frente a buque con propulsión azimutal» resuelven prioridades distintas. Una comparación profesional sigue la cadena generación eléctrica → propulsión → hélices o pods → casco y gobierno: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **maniobrabilidad de gran masa combinada con viento lateral y efecto de aguas restringidas**. El hilo de
+seguridad consiste en reconocer a tiempo **contacto con muelle o pérdida de separación por subestimar abatimiento** y poder justificar la decisión
+**coordinar propulsión, remolcadores y límites de viento antes de aproximar**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **generación eléctrica → propulsión → hélices o pods → casco y gobierno**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) aporta navegación, SOLAS, COLREG y STCW;
+[Collision Regulations](https://www.imo.org/en/about/conventions/pages/colreg.aspx) se usa para prevención de abordajes. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **atraque con viento sobre una superestructura de gran superficie**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **generación eléctrica** hasta **casco y gobierno**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **generación eléctrica → propulsión → hélices o pods → casco y gobierno** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «atraque con viento sobre una superestructura de gran superficie» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

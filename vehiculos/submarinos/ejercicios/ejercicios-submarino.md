@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: SUBMARINOS-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del submarino
 
@@ -46,7 +46,7 @@ La relación entre su peso y el empuje del agua que desplaza (Arquímedes). Con
 sube o flota; con **flotabilidad negativa** (tanques con agua) pesa más y baja;
 con **flotabilidad neutra** peso y empuje se igualan y se mantiene a la cota.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-submarino.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-submarino.md).
 
 </details>
 
@@ -98,7 +98,7 @@ superficie.
 Y fuera de esa secuencia normal está la **emergencia**: falla o riesgo, con
 emersión de emergencia, achique y soporte vital.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-submarino.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-submarino.md).
 
 </details>
 
@@ -125,7 +125,7 @@ En **superficie** y **enarbolando su pabellón** (Art. 20). El submarino es un
 buque de guerra y se rige por normativa militar; en Chile, la Armada de Chile y
 la Ley 18.948, no la Ley de Navegación mercante.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-submarino.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-submarino.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -149,7 +149,7 @@ Lo razonable es corregir con los planos de inmersión mientras se ajusta el last
 para recuperar la neutralidad en la nueva densidad, vigilando el profundímetro y
 el manómetro para no acercarse a la cota máxima segura.
 
-Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-submarino.md).
+Clase 7: [🌍 Entornos de trabajo](../operacion/entornos-submarino.md).
 
 </details>
 
@@ -186,7 +186,7 @@ cota máxima segura. El margen vertical disponible se estrecha por abajo.
 El ajuste es navegar con sonda y mantener un margen de seguridad respecto del
 fondo, con la profundidad siempre visible.
 
-Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-submarino.md).
+Clase 7: [🌍 Entornos de trabajo](../operacion/entornos-submarino.md).
 
 </details>
 
@@ -210,7 +210,7 @@ una cota máxima.
 Así el usuario entiende solo la cadena lastre → peso vs empuje → inmersión, que es
 la que resume el diagrama de flotabilidad del curso.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-submarino.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-submarino.md).
 
 </details>
 
@@ -243,6 +243,48 @@ Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para cambio de profundidad manteniendo rumbo y discreción**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «cambio de profundidad manteniendo rumbo y discreción» hay que reconstruir la cadena fuente de energía → motor → hélice o propulsor → planos y tanques de lastre, aplicar el principio «equilibrio entre flotabilidad, peso, profundidad, trimado y control hidrodinámico», reconocer el riesgo y defender una decisión verificable: coordinar velocidad, planos y lastre observando tendencia, no solo profundidad instantánea.
+
+Esta clase se conecta con el resto del curso mediante **equilibrio entre flotabilidad, peso, profundidad, trimado y control hidrodinámico**. El hilo de
+seguridad consiste en reconocer a tiempo **exceso de profundidad, pérdida de control o colisión por conciencia situacional limitada** y poder justificar la decisión
+**coordinar velocidad, planos y lastre observando tendencia, no solo profundidad instantánea**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía → motor → hélice o propulsor → planos y tanques de lastre**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ships](https://www.history.navy.mil/browse-by-topic/ships.html) aporta historia pública de buques militares;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **fuente de energía → motor → hélice o propulsor → planos y tanques de lastre** ante **cambio de profundidad manteniendo rumbo y discreción**.
+2. **Explicar:** aplica **equilibrio entre flotabilidad, peso, profundidad, trimado y control hidrodinámico** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **coordinar velocidad, planos y lastre observando tendencia, no solo profundidad instantánea** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **submarino diésel-eléctrico frente a nuclear**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «cambio de profundidad manteniendo rumbo y discreción»?
+2. ¿Qué alternativa a **coordinar velocidad, planos y lastre observando tendencia, no solo profundidad instantánea** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

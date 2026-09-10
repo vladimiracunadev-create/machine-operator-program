@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: AVIONESCOMBA-02
@@ -16,15 +16,15 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características funcionales del avión de combate
 
 [🏠 Inicio](../../../README.md) · [✈️ Curso: Aviones de combate](../README.md) · 📋 Características
 
 Que es un avión de combate, que generaciones existen y que roles generales cumple,
-siempre en marco público y divulgativo. Este módulo da el contexto antes de abrir
-los sistemas de la aeronave (Módulo 4).
+siempre en marco público y divulgativo. Esta clase da el contexto antes de abrir
+los sistemas de la aeronave (Clase 4).
 
 ---
 
@@ -84,6 +84,48 @@ flowchart TD
 - Base histórica para entender la evolución de la aviación.
 
 > Los usos operativos sensibles quedan fuera de este curso por diseño.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Generaciones y roles (marco divulgativo) y Para qué se usa (enfoque general)** a **elegir una configuración adecuada para maniobra simulada de alta carga con combustible limitado**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Aviones de combate, la relación entre motor, tobera, flujo y superficies y control de vuelo determina capacidad, respuesta y límites. Por eso «caza ligero monomotor frente a interceptor bimotor» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «exceder envolvente, perder energía o conciencia situacional».
+
+Esta clase se conecta con el resto del curso mediante **intercambio entre energía cinética, altura, carga estructural y capacidad de giro**. El hilo de
+seguridad consiste en reconocer a tiempo **exceder envolvente, perder energía o conciencia situacional** y poder justificar la decisión
+**preservar margen de energía y carga antes de ordenar una maniobra**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → tobera → flujo → superficies y control de vuelo**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) aporta aerodinámica, sistemas y operación;
+[Beginner's Guide to Aeronautics](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/) se usa para contraste con física y vuelo reales. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «maniobra simulada de alta carga con combustible limitado» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **caza ligero monomotor frente a interceptor bimotor** usando esos requisitos y la cadena **motor → tobera → flujo → superficies y control de vuelo**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **exceder envolvente, perder energía o conciencia situacional**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **superficies y control de vuelo** condiciona primero el caso «maniobra simulada de alta carga con combustible limitado»?
+2. ¿Qué requisito descartaría una de las alternativas **caza ligero monomotor frente a interceptor bimotor**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

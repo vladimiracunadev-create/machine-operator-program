@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: AVIONESPASAJ-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del avión de pasajeros
 
 [🏠 Inicio](../../../README.md) · [🛫 Curso: Aviones de pasajeros](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-avion-pasajeros.md) ya dijo qué tipos
-de avión de pasajeros existen y para qué sirve cada uno. Este módulo responde a
+El [Clase 2](../operacion/caracteristicas-avion-pasajeros.md) ya dijo qué tipos
+de avión de pasajeros existen y para qué sirve cada uno. Esta clase responde a
 otra cosa: **no todos se pilotan igual**, y la diferencia no es de matiz. Cambia
 qué mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -38,7 +38,7 @@ qué mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-avion-pasajeros.md) lista una sola fila
+El [Clase 5](../mandos/manual-mandos-avion-pasajeros.md) lista una sola fila
 para el mando de cabeceo y alabeo: **«Yugo o sidestick»**. Esa «o» esconde dos
 máquinas distintas. En la columna convencional el mando está unido entre
 comandante y copiloto, se mueve solo cuando el piloto automático actúa y ordena
@@ -46,7 +46,7 @@ deflexión de superficie. En el sidestick con leyes de control, el mando ordena
 una actitud que el sistema interpreta, no lo que la superficie hará, y cada
 puesto tiene el suyo sin acoplamiento mecánico.
 
-El [Módulo 9](../simulacion/diseno-simulador-avion-pasajeros.md) declara la
+El [Clase 9](../simulacion/diseno-simulador-avion-pasajeros.md) declara la
 variable `Actitud (cabeceo/alabeo)` con rango `-30..30 grados`. Ese rango
 describe la envolvente de la aeronave, no lo que el piloto puede pedir. En la
 variante con protecciones, la entrada del piloto queda acotada por las leyes de
@@ -55,8 +55,8 @@ una capa que en la columna convencional no existe. Si el simulador se construye
 sobre el esquema convencional y luego se le «añade» un sidestick, el resultado
 es un sidestick sin protecciones, que no es lo que se quería representar.
 
-Lo mismo ocurre con la propulsión. El Módulo 5 da por hecho las **palancas de
-gases** y la **reversa de empuje** de un turbofan; el Módulo 2 admite que hay
+Lo mismo ocurre con la propulsión. El Clase 5 da por hecho las **palancas de
+gases** y la **reversa de empuje** de un turbofan; el Clase 2 admite que hay
 aviones **turbohelice**, donde el mando de motor no se agota en el empuje.
 
 ---
@@ -80,7 +80,7 @@ aviones **turbohelice**, donde el mando de motor no se agota en el empuje.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Fuselaje estrecho, ancho, reactor regional, versión ejecutiva | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Cambian los rangos y la carga de trabajo, no los controles. |
+| Fuselaje estrecho, ancho, reactor regional, versión ejecutiva | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Cambian los rangos y la carga de trabajo, no los controles. |
 | Turbohelice regional | **Aparece** un mando propio del motor de hélice junto a las palancas de gases. La **reversa de empuje** de turbofan **se sustituye** por la reversa de la hélice. | La palanca de gases deja de ser el único mando de propulsión: el pedestal cambia de forma. |
 | Carguero derivado | **Desaparece** la gestión de cabina de pasaje. **Aparece** el reparto de carga como dato previo al vuelo. | No es un mando de vuelo, pero fija el punto de partida de todos los demás. |
 | Variante con columna convencional | Yugo acoplado entre ambos puestos; el **compensador (trim)** es un mando de uso corriente en vuelo. | La fuerza en el mando y la posición del trim son información constante para los dos pilotos. |
@@ -91,17 +91,17 @@ aviones **turbohelice**, donde el mando de motor no se agota en el empuje.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-avion-pasajeros.md):
+[Clase 9](../simulacion/diseno-simulador-avion-pasajeros.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Fuselaje estrecho | Ninguna: es el caso base. | El del Módulo 5. |
+| Fuselaje estrecho | Ninguna: es el caso base. | El del Clase 5. |
 | Fuselaje ancho | `Altitud` y `Combustible` usan la parte alta de su rango durante casi toda la partida; `Velocidad` se sostiene en Mach de crucero. | El mismo, con más estado de sistemas que vigilar. |
 | Reactor regional | `Altitud` y `Combustible` **reducen** su rango útil; la partida transcurre en las fases de baja altitud. | El mismo. |
 | Turbohelice regional | `Empuje de motores` deja de ser un único porcentaje y necesita el mando de hélice. `Altitud` y `Velocidad` **reducen** su rango. `Altitud de cabina` pierde protagonismo al volar más bajo. | Pedestal distinto: propulsión con más de una entrada y reversa de hélice. |
 | Carguero derivado | `Altitud de cabina` **deja de ser** una variable de confort de pasaje. El peso y su reparto entran como condición inicial y no se tocan en vuelo. | El mismo. |
 | Versión ejecutiva | `Combustible` **amplía** su rango frente al avión del que deriva. | El mismo. |
-| Variante con columna convencional | `Actitud` responde directamente a la entrada del piloto dentro del rango declarado; `Modo de piloto automático` mueve el mando al actuar. | El del Módulo 5. |
+| Variante con columna convencional | `Actitud` responde directamente a la entrada del piloto dentro del rango declarado; `Modo de piloto automático` mueve el mando al actuar. | El del Clase 5. |
 | Variante con sidestick y leyes de control | `Actitud` **deja de ser** una consecuencia directa de la entrada: la orden pasa por las leyes de control antes de convertirse en actitud, y el rango que el piloto alcanza no es el rango de la variable. | Entrada filtrada por protecciones; dos mandos independientes que hay que resolver entre sí. |
 
 ---
@@ -150,6 +150,48 @@ el nivel 2 y es inevitable en el nivel 3.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar avión de fuselaje estrecho frente a fuselaje ancho frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «avión de fuselaje estrecho frente a fuselaje ancho» resuelven prioridades distintas. Una comparación profesional sigue la cadena motor → empuje → flujo de aire → alas y controles: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **gestión de energía vertical y horizontal mediante actitud, empuje y configuración**. El hilo de
+seguridad consiste en reconocer a tiempo **continuar una aproximación inestable o automatizar sin comprender el modo activo** y poder justificar la decisión
+**confirmar modo, energía y configuración; frustrar si la estabilidad no se recupera**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → empuje → flujo de aire → alas y controles**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) aporta aerodinámica, sistemas y operación;
+[Normativa aeronáutica](https://www.dgac.gob.cl/normativa/) se usa para marco aeronáutico chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **aproximación con cambio tardío de viento y una alerta de configuración**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **motor** hasta **alas y controles**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **motor → empuje → flujo de aire → alas y controles** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «aproximación con cambio tardío de viento y una alerta de configuración» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

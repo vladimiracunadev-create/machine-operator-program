@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: TELETRANSPOR-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación del teletransportador
 
@@ -99,6 +99,55 @@ puede fabricar un duplicado perfecto e independiente de un objeto cuántico.
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md)
 para el detalle de cada nivel.
 
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Información frente a materia, La energía colosal, El problema del duplicado y Teleportación cuántica real** a **resolver transporte ficticio con señal degradada y destino parcialmente bloqueado sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: la tecnología narrativa plantea continuidad, información, energía y verificación de destino. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: definir condiciones de autorización, aborto y evidencia de integridad.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["la tecnología narrativa plantea continuidad, información, energía y verificación de destino"]
+    P --> R["riesgo: presentar una ficción sin límites, fallas observables ni dilemas explícitos"]
+    R --> D["decisión: definir condiciones de autorización, aborto y evidencia de integridad"]
+```
+
+Esta clase se conecta con el resto del curso mediante **la tecnología narrativa plantea continuidad, información, energía y verificación de destino**. El hilo de
+seguridad consiste en reconocer a tiempo **presentar una ficción sin límites, fallas observables ni dilemas explícitos** y poder justificar la decisión
+**definir condiciones de autorización, aborto y evidencia de integridad**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **sensado ficticio → codificación → transmisión → reconstrucción**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Star Trek Database](https://www.startrek.com/database) aporta canon narrativo y tecnologías de ficción;
+[Quantum Teleportation](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation) se usa para información cuántica, entrelazamiento y teorema de no clonación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **transporte ficticio con señal degradada y destino parcialmente bloqueado**.
+2. **Modelo:** aplica **la tecnología narrativa plantea continuidad, información, energía y verificación de destino** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **presentar una ficción sin límites, fallas observables ni dilemas explícitos**.
+4. **Decisión:** ejecuta mentalmente **definir condiciones de autorización, aborto y evidencia de integridad** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «la tecnología narrativa plantea continuidad, información, energía y verificación de destino» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **reconstrucción**?
+3. ¿Qué evidencia confirmaría que **definir condiciones de autorización, aborto y evidencia de integridad** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
+
 ## 🎓 Cierre de clase
 
 - **Actividad:** Resuelve un escenario de Teletransportador explicando, paso a paso, cómo intervienen principios físicos, fases de operación, decisiones y errores frecuentes.
@@ -109,6 +158,7 @@ para el detalle de cada nivel.
 ### Fuentes de esta clase
 
 - [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [IBM-QUANTUM-TELEPORT](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation): Quantum Teleportation, IBM Quantum Learning. Uso: información cuántica, entrelazamiento y teorema de no clonación.
 - [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
 
 > Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual

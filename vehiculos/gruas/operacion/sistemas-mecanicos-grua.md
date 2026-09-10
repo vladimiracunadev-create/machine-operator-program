@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: GRUAS-04
@@ -16,16 +16,16 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos de la grúa
 
 [🏠 Inicio](../../../README.md) · [🏗️ Curso: Grúas](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre la grúa por dentro y es el corazón del curso. Explica la
+Esta clase abre la grúa por dentro y es el corazón del curso. Explica la
 mecánica del izaje: cómo se sostiene la carga, como se mantiene la estabilidad y
 por qué existe un límite de peso para cada posición. Es la base técnica para
-entender los mandos (Módulo 5) y la física de la operación (Módulo 6).
+entender los mandos (Clase 5) y la física de la operación (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -251,8 +251,57 @@ desplaza el mando.
 5. La **tabla de carga** define el límite de peso para cada radio y ángulo.
 6. El **LMI** vigila el momento de carga y evita superar el punto de vuelco.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-grua.md) muestra
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-grua.md) muestra
 como el operador acciona cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Pluma, Cabrestante y cable (winch), Estabilizadores (outriggers) y Tablas de carga (load chart)** a **seguir una alteración desde motor hasta gancho y carga durante izaje de una carga conocida cuyo destino exige aumentar el radio**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: motor entrega o transforma energía; bombas hidráulicas la adapta; cabrestante y pluma la transmite o gobierna; y gancho y carga produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de gancho y carga y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["motor"] --> B["bombas hidráulicas"] --> C["cabrestante y pluma"] --> D["gancho y carga"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **momento de vuelco igual a carga por radio, condicionado por apoyos y configuración**. El hilo de
+seguridad consiste en reconocer a tiempo **exceder la tabla de carga o perder estabilidad del apoyo** y poder justificar la decisión
+**confirmar peso, radio, configuración y suelo antes de levantar**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → bombas hidráulicas → cabrestante y pluma → gancho y carga**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) aporta izaje, riesgos y controles;
+[Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) se usa para marco legal chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **motor** durante **izaje de una carga conocida cuyo destino exige aumentar el radio**.
+2. **Transformación:** explica qué hacen **bombas hidráulicas** y **cabrestante y pluma**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **gancho y carga** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **exceder la tabla de carga o perder estabilidad del apoyo**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **bombas hidráulicas**, ¿qué efecto esperarías primero en **cabrestante y pluma** y después en **gancho y carga**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **motor** de una falla de **cabrestante y pluma**?
+3. ¿Por qué una segunda orden podría agravar **exceder la tabla de carga o perder estabilidad del apoyo**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

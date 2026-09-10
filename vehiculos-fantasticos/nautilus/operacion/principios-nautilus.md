@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: NAUTILUS-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación del Nautilus
 
@@ -93,6 +93,55 @@ de la licencia narrativa.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md)
 para el detalle de cada nivel.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Principios de funcionamiento, Que si, que no y por qué, Ficción frente a realidad y Fases de operación** a **resolver inmersión narrativa cerca de relieve submarino sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: lectura doble: tecnología imaginada por Verne y principios reales de flotabilidad y presión. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: citar el canon y contrastar cada maniobra con física y navegación reales.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["lectura doble: tecnología imaginada por Verne y principios reales de flotabilidad y presión"]
+    P --> R["riesgo: colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real"]
+    R --> D["decisión: citar el canon y contrastar cada maniobra con física y navegación reales"]
+```
+
+Esta clase se conecta con el resto del curso mediante **lectura doble: tecnología imaginada por Verne y principios reales de flotabilidad y presión**. El hilo de
+seguridad consiste en reconocer a tiempo **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real** y poder justificar la decisión
+**citar el canon y contrastar cada maniobra con física y navegación reales**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía descrita en la obra → motor → hélice → casco y timones**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Twenty Thousand Leagues under the Sea](https://www.gutenberg.org/ebooks/164) aporta obra primaria en dominio público;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **inmersión narrativa cerca de relieve submarino**.
+2. **Modelo:** aplica **lectura doble: tecnología imaginada por Verne y principios reales de flotabilidad y presión** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real**.
+4. **Decisión:** ejecuta mentalmente **citar el canon y contrastar cada maniobra con física y navegación reales** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «lectura doble: tecnología imaginada por Verne y principios reales de flotabilidad y presión» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **casco y timones**?
+3. ¿Qué evidencia confirmaría que **citar el canon y contrastar cada maniobra con física y navegación reales** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

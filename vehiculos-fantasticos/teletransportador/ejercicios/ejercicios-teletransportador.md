@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: TELETRANSPOR-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del teletransportador
 
@@ -47,7 +47,7 @@ disposición precisa de sus partículas. Teletransportarlo no sería mover sus
 **materia local** en el destino. Por eso el problema central no es de propulsión
 sino de datos.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-teletransportador.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-teletransportador.md).
 
 </details>
 
@@ -78,7 +78,7 @@ verdadero. Si borra el original justo después de copiarlo, la pregunta cambia:
 quien aparece, ¿es la misma persona o una copia que cree serlo? No es un detalle
 técnico: toca la identidad y no tiene respuesta única.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-teletransportador.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-teletransportador.md).
 
 </details>
 
@@ -94,7 +94,7 @@ partículas y, además, un canal clásico de comunicación para enviar los datos
 la medición. Ese canal clásico está limitado por la velocidad de la luz, así que
 la teleportación cuántica no es instantánea.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-teletransportador.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-teletransportador.md).
 
 </details>
 
@@ -127,7 +127,7 @@ de la naturaleza. Que el cuerpo llegue al instante o que el original se esfume
 limpio son licencias creativas legítimas; la física real sigue mandando con la
 información, la energía, el límite de la velocidad de la luz y la no clonación.
 
-Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-teletransportador.md).
+Clase 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-teletransportador.md).
 
 </details>
 
@@ -264,6 +264,48 @@ Ver también los [🎚️ niveles de realismo](../../../docs/03-niveles-de-reali
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
 
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Distingue la física de la licencia creativa, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para transporte ficticio con señal degradada y destino parcialmente bloqueado**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «transporte ficticio con señal degradada y destino parcialmente bloqueado» hay que reconstruir la cadena sensado ficticio → codificación → transmisión → reconstrucción, aplicar el principio «la tecnología narrativa plantea continuidad, información, energía y verificación de destino», reconocer el riesgo y defender una decisión verificable: definir condiciones de autorización, aborto y evidencia de integridad.
+
+Esta clase se conecta con el resto del curso mediante **la tecnología narrativa plantea continuidad, información, energía y verificación de destino**. El hilo de
+seguridad consiste en reconocer a tiempo **presentar una ficción sin límites, fallas observables ni dilemas explícitos** y poder justificar la decisión
+**definir condiciones de autorización, aborto y evidencia de integridad**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **sensado ficticio → codificación → transmisión → reconstrucción**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Star Trek Database](https://www.startrek.com/database) aporta canon narrativo y tecnologías de ficción;
+[Quantum Teleportation](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation) se usa para información cuántica, entrelazamiento y teorema de no clonación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **sensado ficticio → codificación → transmisión → reconstrucción** ante **transporte ficticio con señal degradada y destino parcialmente bloqueado**.
+2. **Explicar:** aplica **la tecnología narrativa plantea continuidad, información, energía y verificación de destino** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **definir condiciones de autorización, aborto y evidencia de integridad** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **transporte convencional frente a teletransporte narrativo**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «transporte ficticio con señal degradada y destino parcialmente bloqueado»?
+2. ¿Qué alternativa a **definir condiciones de autorización, aborto y evidencia de integridad** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
+
 ## 🎓 Cierre de clase
 
 - **Actividad:** Resuelve la autoevaluación de Teletransportador y defiende una decisión en un escenario integrador sin consultar las respuestas.
@@ -274,6 +316,7 @@ respuesta.
 ### Fuentes de esta clase
 
 - [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [IBM-QUANTUM-TELEPORT](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation): Quantum Teleportation, IBM Quantum Learning. Uso: información cuántica, entrelazamiento y teorema de no clonación.
 - [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
 
 > Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual

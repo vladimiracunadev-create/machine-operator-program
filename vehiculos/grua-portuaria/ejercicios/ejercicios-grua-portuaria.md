@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: GRUAPORTUARI-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación de la grúa portuaria
 
@@ -48,7 +48,7 @@ cada uno.
 - **Boom**: abate la pluma a vertical para liberar el gabarito del buque y la
   baja a horizontal para operar.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-portuaria.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-portuaria.md).
 
 </details>
 
@@ -117,7 +117,7 @@ Módulos 2 y 3:
 7. Los twist-locks liberan la caja y el spreader sube vacío.
 8. La grúa repite el ciclo con el siguiente contenedor.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-portuaria.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-grua-portuaria.md).
 
 </details>
 
@@ -136,7 +136,7 @@ y las mutuales, y en el recinto portuario además la Autoridad Marítima
 certificado/competente, aunque el **detalle de la certificación del operador
 está (por confirmar)** en el marco legal, sección 1.7: el curso no lo resuelve.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-grua-portuaria.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-grua-portuaria.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -226,9 +226,9 @@ indicador ya marca peso con el spreader vacío colgando, el usuario **ve** que l
 grúa arrastra ese peso antes de tomar nada, y entiende solo por qué una caja que
 "cabe" en el límite puede no caber.
 
-Módulo 9:
+Clase 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-grua-portuaria.md) y
-Módulo 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-grua-portuaria.md).
+Clase 5: [🎛️ Mandos e instrumentos](../mandos/manual-mandos-grua-portuaria.md).
 
 </details>
 
@@ -246,7 +246,7 @@ usuario sufra el balanceo antes de darle la herramienta que lo corrige. El
 anti-sway, los enclavamientos, la precisión de celda y el ciclo cronometrado
 llegan al final.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-grua-portuaria.md)
+Clase 6: [🧪 Principios y operación](../operacion/principios-grua-portuaria.md)
 y los [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
@@ -265,6 +265,48 @@ y los [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para traslado de un contenedor desde buque con ráfagas laterales**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «traslado de un contenedor desde buque con ráfagas laterales» hay que reconstruir la cadena alimentación → accionamientos → carro y cables → spreader y contenedor, aplicar el principio «control del péndulo y productividad sin superar límites estructurales ni de viento», reconocer el riesgo y defender una decisión verificable: detener o suavizar el ciclo según viento, señalización y estabilidad de la carga.
+
+Esta clase se conecta con el resto del curso mediante **control del péndulo y productividad sin superar límites estructurales ni de viento**. El hilo de
+seguridad consiste en reconocer a tiempo **oscilación, enganche incompleto o ingreso de personas al área de caída** y poder justificar la decisión
+**detener o suavizar el ciclo según viento, señalización y estabilidad de la carga**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **alimentación → accionamientos → carro y cables → spreader y contenedor**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) aporta izaje, riesgos y controles;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **alimentación → accionamientos → carro y cables → spreader y contenedor** ante **traslado de un contenedor desde buque con ráfagas laterales**.
+2. **Explicar:** aplica **control del péndulo y productividad sin superar límites estructurales ni de viento** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **detener o suavizar el ciclo según viento, señalización y estabilidad de la carga** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **grúa pórtico STS frente a grúa móvil portuaria**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «traslado de un contenedor desde buque con ráfagas laterales»?
+2. ¿Qué alternativa a **detener o suavizar el ciclo según viento, señalización y estabilidad de la carga** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

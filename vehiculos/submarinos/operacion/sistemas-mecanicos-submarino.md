@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: SUBMARINOS-04
@@ -16,16 +16,16 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del submarino
 
 [🏠 Inicio](../../../README.md) · [🌊 Curso: Submarinos](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo describe, **solo con física pública**, como flota, se sumerge, avanza
+Esta clase describe, **solo con física pública**, como flota, se sumerge, avanza
 y gobierna un submarino. No incluye sistemas de armas, táctica ni datos
-sensibles. Es la base para entender los mandos (Módulo 5) y la física de la
-inmersión (Módulo 6).
+sensibles. Es la base para entender los mandos (Clase 5) y la física de la
+inmersión (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -132,8 +132,57 @@ El submarino gobierna en tres dimensiones.
 5. El **soporte vital** mantiene el aire respirable.
 
 Con esto entendido, el
-[Módulo 5: Mandos](../mandos/manual-mandos-submarino.md) describe, a nivel
+[Clase 5: Mandos](../mandos/manual-mandos-submarino.md) describe, a nivel
 educativo, como se opera el puesto de control.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Flotabilidad y tanques de lastre, Casco resistente y presión, Propulsión y Gobierno: timón y planos de inmersión** a **seguir una alteración desde fuente de energía hasta planos y tanques de lastre durante cambio de profundidad manteniendo rumbo y discreción**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: fuente de energía entrega o transforma energía; motor la adapta; hélice o propulsor la transmite o gobierna; y planos y tanques de lastre produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de planos y tanques de lastre y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["fuente de energía"] --> B["motor"] --> C["hélice o propulsor"] --> D["planos y tanques de lastre"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **equilibrio entre flotabilidad, peso, profundidad, trimado y control hidrodinámico**. El hilo de
+seguridad consiste en reconocer a tiempo **exceso de profundidad, pérdida de control o colisión por conciencia situacional limitada** y poder justificar la decisión
+**coordinar velocidad, planos y lastre observando tendencia, no solo profundidad instantánea**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía → motor → hélice o propulsor → planos y tanques de lastre**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ships](https://www.history.navy.mil/browse-by-topic/ships.html) aporta historia pública de buques militares;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **fuente de energía** durante **cambio de profundidad manteniendo rumbo y discreción**.
+2. **Transformación:** explica qué hacen **motor** y **hélice o propulsor**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **planos y tanques de lastre** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **exceso de profundidad, pérdida de control o colisión por conciencia situacional limitada**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **motor**, ¿qué efecto esperarías primero en **hélice o propulsor** y después en **planos y tanques de lastre**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **fuente de energía** de una falla de **hélice o propulsor**?
+3. ¿Por qué una segunda orden podría agravar **exceso de profundidad, pérdida de control o colisión por conciencia situacional limitada**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

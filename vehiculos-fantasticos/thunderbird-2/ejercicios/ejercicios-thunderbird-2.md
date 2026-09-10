@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: THUNDERBIRD2-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del Thunderbird 2
 
@@ -48,7 +48,7 @@ conjunto. Todo vehículo carga primero consigo mismo: estructura, motores y
 combustible. Al agrandarlo, su propia estructura pesa más y se come la parte que
 quedaba para carga útil. Por eso crecer sin más no mejora el resultado.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-thunderbird-2.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-thunderbird-2.md).
 
 </details>
 
@@ -115,7 +115,7 @@ propio bastidor y no queda margen para carga útil. El buen diseño busca el
 equilibrio, no el máximo. Es el punto que más cuesta del curso y el más
 importante.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-thunderbird-2.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-thunderbird-2.md).
 
 </details>
 
@@ -131,7 +131,7 @@ historia, pero no son leyes de la naturaleza. Corregirlas no es un reproche a la
 obra: es el objetivo educativo, aprender la diferencia entre lo que emociona en
 pantalla y lo que ocurriría de verdad.
 
-Módulo 8:
+Clase 8:
 [⚖️ Reglas del universo](../reglamentos/reglas-universo-thunderbird-2.md).
 
 </details>
@@ -261,7 +261,7 @@ donde la lección empieza a morder. La fracción de carga útil y la gestión de
 estructura y apoyos son **nivel 3 (técnico)**: son la explicación del compromiso,
 y llegan cuando el usuario ya lo ha sentido.
 
-Módulo 9:
+Clase 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-thunderbird-2.md) y
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
@@ -280,6 +280,48 @@ Módulo 9:
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Distingue la física de la licencia creativa, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para despegue vertical ficticio con módulo pesado de rescate**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «despegue vertical ficticio con módulo pesado de rescate» hay que reconstruir la cadena energía ficticia → sustentación y propulsión → bahía modular → carga de rescate, aplicar el principio «la carga modular cambia masa, centro de gravedad, potencia y misión», reconocer el riesgo y defender una decisión verificable: recalcular margen y seleccionar zona antes de comprometer el aterrizaje.
+
+Esta clase se conecta con el resto del curso mediante **la carga modular cambia masa, centro de gravedad, potencia y misión**. El hilo de
+seguridad consiste en reconocer a tiempo **ignorar cómo la carga modifica control, autonomía y zona de operación** y poder justificar la decisión
+**recalcular margen y seleccionar zona antes de comprometer el aterrizaje**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → sustentación y propulsión → bahía modular → carga de rescate**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Thunderbirds Vehicles](https://www.thunderbirds.com/) aporta referencia oficial de vehículos de rescate;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **energía ficticia → sustentación y propulsión → bahía modular → carga de rescate** ante **despegue vertical ficticio con módulo pesado de rescate**.
+2. **Explicar:** aplica **la carga modular cambia masa, centro de gravedad, potencia y misión** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **recalcular margen y seleccionar zona antes de comprometer el aterrizaje** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **configuración vacía frente a módulo pesado**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «despegue vertical ficticio con módulo pesado de rescate»?
+2. ¿Qué alternativa a **recalcular margen y seleccionar zona antes de comprometer el aterrizaje** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

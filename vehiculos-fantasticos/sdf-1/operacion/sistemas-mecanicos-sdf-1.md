@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: SDF1-04
@@ -16,7 +16,7 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del SDF-1
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-Este módulo abre la nave-fortaleza por dentro. Compara la tecnología imaginaria
+Esta clase abre la nave-fortaleza por dentro. Compara la tecnología imaginaria
 de la ficción con la física real que la haría funcionar (o que la desmiente). La
 regla del curso es clara: describimos conceptos con nuestras palabras, sin
 copiar planos ni especificaciones oficiales.
@@ -156,8 +156,57 @@ Refrigerar un gigante es, otra vez, un problema de escala.
 4. La **energía y el soporte vital** mantienen viva a la nave-ciudad.
 5. El **calor** interno cuesta cada vez más de disipar al crecer la nave.
 
-Con esto claro, el [Módulo 5: Mandos](../mandos/manual-mandos-sdf-1.md)
+Con esto claro, el [Clase 5: Mandos](../mandos/manual-mandos-sdf-1.md)
 muestra cómo se operaría una nave de este tamaño.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Escala: la ley del cubo-cuadrado, Estructura y esfuerzos, Propulsión a escala gigante y Energía y habitabilidad** a **seguir una alteración desde energía ficticia hasta nave y población durante transformación simulada mientras algunos sistemas están degradados**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: energía ficticia entrega o transforma energía; propulsión la adapta; transformación estructural la transmite o gobierna; y nave y población produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de nave y población y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["energía ficticia"] --> B["propulsión"] --> C["transformación estructural"] --> D["nave y población"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **una nave-ciudad combina movilidad, transformación y continuidad de servicios**. El hilo de
+seguridad consiste en reconocer a tiempo **tratar la transformación como efecto visual sin impactos en energía, estructura y habitabilidad** y poder justificar la decisión
+**secuenciar transición, aislar servicios y representar costos operativos**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → propulsión → transformación estructural → nave y población**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Robotech](https://robotech.com/) aporta referencia oficial del universo ficticio;
+[Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) se usa para naves, sistemas y misiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **energía ficticia** durante **transformación simulada mientras algunos sistemas están degradados**.
+2. **Transformación:** explica qué hacen **propulsión** y **transformación estructural**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **nave y población** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **tratar la transformación como efecto visual sin impactos en energía, estructura y habitabilidad**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **propulsión**, ¿qué efecto esperarías primero en **transformación estructural** y después en **nave y población**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **energía ficticia** de una falla de **transformación estructural**?
+3. ¿Por qué una segunda orden podría agravar **tratar la transformación como efecto visual sin impactos en energía, estructura y habitabilidad**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

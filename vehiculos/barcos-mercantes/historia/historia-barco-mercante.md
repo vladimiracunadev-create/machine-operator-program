@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 1
 codigo: BARCOSMERCAN-01
@@ -16,7 +16,7 @@ evidencia: "Línea de tiempo comentada con cuatro hitos o más."
 criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📜 Historia del barco mercante
 
@@ -77,10 +77,47 @@ El buque mercante mueve la mayor parte del comercio mundial por su bajo costo po
 tonelada y kilómetro. El contenedor abarató y aceleró la logística global, y hoy
 la marina mercante es clave en cadenas de suministro, energía y alimentación.
 
-## Fuentes
+## 🧭 Guía de estudio aplicada
 
-- Registrar aquí las fuentes públicas consultadas.
-- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+### Pregunta guía
+
+¿Cómo ayuda **Origen, Línea de tiempo, Evolución tecnológica y Tipos representativos** a **explicar cómo la evolución hizo posibles alternativas como portacontenedores frente a granelero**?
+
+### Explicación razonada
+
+La evolución de Barcos mercantes se comprende mejor como una sucesión de respuestas a problemas, no como una lista de fechas. Los cambios en motor principal, eje, hélice y casco y timón alteraron qué podía hacer la máquina, quién podía usarla y qué riesgos debían controlarse. El contraste «portacontenedores frente a granelero» permite observar qué decisiones de diseño permanecieron y cuáles cambiaron con la tecnología y el propósito.
+
+Esta clase se conecta con el resto del curso mediante **inercia hidrodinámica: una orden de máquina o timón tarda en cambiar la trayectoria**. El hilo de
+seguridad consiste en reconocer a tiempo **abordaje o varada por decidir con referencias tardías** y poder justificar la decisión
+**planificar derrota, velocidad y punto de maniobra con margen suficiente**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor principal → eje → hélice → casco y timón**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) aporta navegación, SOLAS, COLREG y STCW;
+[Collision Regulations](https://www.imo.org/en/about/conventions/pages/colreg.aspx) se usa para prevención de abordajes. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Situar:** ordena los hitos que explican cómo se llegó a **portacontenedores frente a granelero** y describe la necesidad que impulsó cada cambio.
+2. **Relacionar:** explica qué se modificó en **motor principal**, **eje**, **hélice** o **casco y timón**; una fecha sin mecanismo no basta.
+3. **Interpretar:** vincula el cambio con una capacidad nueva y también con el riesgo **abordaje o varada por decidir con referencias tardías**.
+4. **Transferir:** usa la evolución para justificar por qué hoy conviene **planificar derrota, velocidad y punto de maniobra con margen suficiente**.
+
+### Comprueba tu comprensión
+
+1. ¿Qué necesidad histórica impulsó un cambio en **motor principal** o **eje**?
+2. ¿Qué hito modificó la relación entre capacidad y **abordaje o varada por decidir con referencias tardías**?
+3. ¿Por qué **portacontenedores frente a granelero** no puede explicarse como una simple diferencia estética?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

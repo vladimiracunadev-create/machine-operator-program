@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: DELOREAN-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación de la DeLorean temporal
 
@@ -93,6 +93,55 @@ empieza el guion.
 
 Ver el detalle de cada nivel en
 [📏 docs/03-niveles-de-realismo.md](../../../docs/03-niveles-de-realismo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Principios en juego, Que sería posible y que no, Ficción frente a realidad y Fases de operación en simulación** a **resolver intento de alcanzar la condición temporal en una vía con espacio limitado sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: separación entre mecánica automotriz plausible y regla narrativa de velocidad y energía. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: declarar qué regla pertenece al relato y modelar aparte movimiento, energía y seguridad reales.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["separación entre mecánica automotriz plausible y regla narrativa de velocidad y energía"]
+    P --> R["riesgo: confundir canon con física real y omitir los riesgos ordinarios del automóvil"]
+    R --> D["decisión: declarar qué regla pertenece al relato y modelar aparte movimiento, energía y seguridad reales"]
+```
+
+Esta clase se conecta con el resto del curso mediante **separación entre mecánica automotriz plausible y regla narrativa de velocidad y energía**. El hilo de
+seguridad consiste en reconocer a tiempo **confundir canon con física real y omitir los riesgos ordinarios del automóvil** y poder justificar la decisión
+**declarar qué regla pertenece al relato y modelar aparte movimiento, energía y seguridad reales**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor y alimentación ficticia → transmisión → ruedas → sistema temporal**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Back to the Future](https://www.universalpicturesathome.com/movies/back-to-the-future) aporta obra audiovisual primaria;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **intento de alcanzar la condición temporal en una vía con espacio limitado**.
+2. **Modelo:** aplica **separación entre mecánica automotriz plausible y regla narrativa de velocidad y energía** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **confundir canon con física real y omitir los riesgos ordinarios del automóvil**.
+4. **Decisión:** ejecuta mentalmente **declarar qué regla pertenece al relato y modelar aparte movimiento, energía y seguridad reales** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «separación entre mecánica automotriz plausible y regla narrativa de velocidad y energía» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **sistema temporal**?
+3. ¿Qué evidencia confirmaría que **declarar qué regla pertenece al relato y modelar aparte movimiento, energía y seguridad reales** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

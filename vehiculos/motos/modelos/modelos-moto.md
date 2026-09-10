@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: MOTOS-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes de la moto
 
 [🏠 Inicio](../../../README.md) · [🏍️ Curso: Motos](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-moto.md) ya dijo qué tipos de moto
-existen y para qué sirve cada uno. Este módulo responde a lo siguiente: **no
+El [Clase 2](../operacion/caracteristicas-moto.md) ya dijo qué tipos de moto
+existen y para qué sirve cada uno. Esta clase responde a lo siguiente: **no
 todas se pilotan igual**, y esa diferencia no es de matiz. Cambia qué mandos
 tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -37,9 +37,9 @@ tiene la máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-moto.md) describe un puesto de mando con
+El [Clase 5](../mandos/manual-mandos-moto.md) describe un puesto de mando con
 embrague en la maneta izquierda y cambio en el pie izquierdo. El
-[Módulo 9](../simulacion/diseno-simulador-moto.md) expone una variable `Marcha`
+[Clase 9](../simulacion/diseno-simulador-moto.md) expone una variable `Marcha`
 con rango `N,1..6`. Ambos describen una moto **de transmisión manual**.
 
 En un scooter esa maneta izquierda no es el embrague: es el freno trasero. Y la
@@ -67,7 +67,7 @@ es un scooter con embrague, que no existe.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Urbana / naked, Deportiva, Crucero, Trail | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Cambian los rangos, no los controles. |
+| Urbana / naked, Deportiva, Crucero, Trail | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Cambian los rangos, no los controles. |
 | Scooter | **Desaparecen** el embrague y la palanca de cambio. El freno trasero **se muda** del pedal a la maneta izquierda. | El pie izquierdo deja de tener función y ambos frenos se accionan con las manos. |
 | Eléctrica | **Desaparecen** el embrague y el cambio en la mayoría. El acelerador pasa a mandar par directo. | El tacómetro pierde sentido; el freno regenerativo se solapa con el freno trasero. |
 | Reparto / trabajo | **Aparece** el portaequipajes o el baúl como masa que el piloto gestiona. | No es un mando, pero altera el resultado de todos los demás. |
@@ -77,11 +77,11 @@ es un scooter con embrague, que no existe.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-moto.md):
+[Clase 9](../simulacion/diseno-simulador-moto.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Urbana / naked | Ninguna: es el caso base. | El del Módulo 5. |
+| Urbana / naked | Ninguna: es el caso base. | El del Clase 5. |
 | Scooter | `Marcha` **se elimina**. `Régimen del motor` se desacopla de la marcha y pasa a depender solo del acelerador. | Sin entrada de embrague ni de cambio; dos frenos en las manos. |
 | Deportiva | `Régimen` e `Inclinación` amplían rango; la transferencia de peso pesa más en el cálculo. | El mismo, con respuesta más sensible. |
 | Crucero / custom | `Inclinación` **reduce** su rango útil: toca suelo antes. | El mismo. |
@@ -127,6 +127,48 @@ el nivel sube.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar scooter urbano frente a motocicleta trail frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «scooter urbano frente a motocicleta trail» resuelven prioridades distintas. Una comparación profesional sigue la cadena motor → embrague y caja → transmisión final → neumático trasero: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **equilibrio entre inclinación, velocidad, radio y adherencia disponible**. El hilo de
+seguridad consiste en reconocer a tiempo **agotar adherencia por frenar o acelerar bruscamente con la moto inclinada** y poder justificar la decisión
+**ajustar velocidad, trayectoria y suavidad de los mandos antes de inclinar**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → embrague y caja → transmisión final → neumático trasero**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Manuales para conductores](https://www.conaset.cl/manuales/) se usa para formación vial y seguridad. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **aproximación a una curva urbana mojada con visibilidad parcial**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **motor** hasta **neumático trasero**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **motor → embrague y caja → transmisión final → neumático trasero** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «aproximación a una curva urbana mojada con visibilidad parcial» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

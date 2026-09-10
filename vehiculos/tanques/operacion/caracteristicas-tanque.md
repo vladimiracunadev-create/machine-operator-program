@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: TANQUES-02
@@ -16,7 +16,7 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características funcionales del tanque (marco público)
 
@@ -24,7 +24,7 @@ ultima_revision: 2026-09-10
 
 Que es un carro de combate como vehículo, que familias existen según su movilidad
 y para que sirve el tren de orugas. Solo enfoque público y divulgativo; sin
-armamento ni táctica. Este módulo da contexto antes de la mecánica (Módulo 4).
+armamento ni táctica. Esta clase da contexto antes de la mecánica (Clase 4).
 
 ---
 
@@ -79,6 +79,48 @@ flowchart TD
 - Estudio de la física de vehículos de orugas.
 - Contexto histórico e institucional público.
 - Simulación educativa de conducción todo terreno, sin contenido sensible.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave (aspectos públicos), Familias por movilidad y Para qué se usa (enfoque público)** a **elegir una configuración adecuada para cruce simulado de suelo blando con cambio de pendiente**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Tanques, la relación entre motor, transmisión, ruedas tractoras y orugas determina capacidad, respuesta y límites. Por eso «carro pesado frente a vehículo blindado ligero» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «atasco, pérdida de movilidad o exposición por elegir una ruta incompatible».
+
+Esta clase se conecta con el resto del curso mediante **tracción y presión sobre el terreno condicionadas por masa, reparto y resistencia al avance**. El hilo de
+seguridad consiste en reconocer a tiempo **atasco, pérdida de movilidad o exposición por elegir una ruta incompatible** y poder justificar la decisión
+**reconocer capacidad del terreno y escoger ruta, velocidad y orientación del casco**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → ruedas tractoras → orugas**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Tank Collection](https://tankmuseum.org/tank-nuts/tank-collection) aporta historia pública de vehículos blindados;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «cruce simulado de suelo blando con cambio de pendiente» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **carro pesado frente a vehículo blindado ligero** usando esos requisitos y la cadena **motor → transmisión → ruedas tractoras → orugas**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **atasco, pérdida de movilidad o exposición por elegir una ruta incompatible**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **orugas** condiciona primero el caso «cruce simulado de suelo blando con cambio de pendiente»?
+2. ¿Qué requisito descartaría una de las alternativas **carro pesado frente a vehículo blindado ligero**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

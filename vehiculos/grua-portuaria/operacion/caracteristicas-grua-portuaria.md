@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: GRUAPORTUARI-02
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características funcionales de la grúa portuaria
 
 [🏠 Inicio](../../../README.md) · [⚓ Curso: Grúa portuaria](../README.md) · 📋 Características
 
 Que es una grúa portuaria, que tipos existen y para que sirve cada uno. Este
-módulo da el contexto antes de abrir la mecánica del pórtico (Módulo 4).
+módulo da el contexto antes de abrir la mecánica del pórtico (Clase 4).
 
 ---
 
@@ -104,6 +104,48 @@ carga antes de izarla.
 - Alimentar el flujo de camiones y patio del terminal.
 - Sostener la productividad medida en contenedores por hora.
 - Mover carga estandarizada de forma segura y repetible.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Tipos de grúa portuaria y El contenedor ISO y el spreader** a **elegir una configuración adecuada para traslado de un contenedor desde buque con ráfagas laterales**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Grúa portuaria, la relación entre alimentación, accionamientos, carro y cables y spreader y contenedor determina capacidad, respuesta y límites. Por eso «grúa pórtico STS frente a grúa móvil portuaria» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «oscilación, enganche incompleto o ingreso de personas al área de caída».
+
+Esta clase se conecta con el resto del curso mediante **control del péndulo y productividad sin superar límites estructurales ni de viento**. El hilo de
+seguridad consiste en reconocer a tiempo **oscilación, enganche incompleto o ingreso de personas al área de caída** y poder justificar la decisión
+**detener o suavizar el ciclo según viento, señalización y estabilidad de la carga**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **alimentación → accionamientos → carro y cables → spreader y contenedor**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) aporta izaje, riesgos y controles;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «traslado de un contenedor desde buque con ráfagas laterales» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **grúa pórtico STS frente a grúa móvil portuaria** usando esos requisitos y la cadena **alimentación → accionamientos → carro y cables → spreader y contenedor**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **oscilación, enganche incompleto o ingreso de personas al área de caída**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **spreader y contenedor** condiciona primero el caso «traslado de un contenedor desde buque con ráfagas laterales»?
+2. ¿Qué requisito descartaría una de las alternativas **grúa pórtico STS frente a grúa móvil portuaria**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

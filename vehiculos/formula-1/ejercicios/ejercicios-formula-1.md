@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: FORMULA1-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del Fórmula 1
 
@@ -64,7 +64,7 @@ de la **frenada** y la devuelve como empuje; el MGU-H recupera **calor de los
 gases de escape** en el turbocompresor y además reduce el retardo del turbo. La
 batería guarda lo recuperado y entrega un impulso eléctrico extra por vuelta.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-formula-1.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-formula-1.md).
 
 </details>
 
@@ -79,7 +79,7 @@ todo (acelerar, frenar y girar) pasa por él. Fuera de la ventana baja la
 adherencia disponible y aparecen bloqueos y pérdidas de eje trasero. Lo mismo
 ocurre con los frenos de carbono, que también necesitan calor para frenar bien.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-formula-1.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-formula-1.md).
 
 </details>
 
@@ -97,7 +97,7 @@ Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-formula-1.
 El orden importa: frenar recto y soltar el freno de forma progresiva libera el
 agarre que hace falta para girar.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-formula-1.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-formula-1.md).
 
 </details>
 
@@ -130,7 +130,7 @@ un reglamento **deportivo** (cómo se compite) y uno **técnico** (cómo es el
 coche). No requiere licencia de conducir común, sino una **superlicencia
 deportiva** de la FIA.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-formula-1.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-formula-1.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md), sección 1.9.
 
 </details>
@@ -172,7 +172,7 @@ curvas lentas y cuidado de los frenos. En un circuito permanente, con
 escapatorias y curvas rápidas, el riesgo típico es otro: sobreexigir gomas y
 frenos buscando ritmo y trazada limpia.
 
-Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-formula-1.md).
+Clase 7: [🌍 Entornos de trabajo](../operacion/entornos-formula-1.md).
 
 </details>
 
@@ -209,7 +209,7 @@ tiempo respecto a una vuelta de referencia. Así el usuario **ve** que la barra
 se vacía al desplegar y se recupera al frenar, y relaciona por sí mismo el gasto
 con el tiempo ganado o perdido.
 
-Módulo 9:
+Clase 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-formula-1.md).
 
 </details>
@@ -227,7 +227,7 @@ adherencia, que son los conceptos físicos centrales. La gestión de ERS, el
 reparto de frenada, las ventanas de temperatura y la estrategia de neumáticos
 son la capa técnica y llegan al final.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-formula-1.md) y
+Clase 6: [🧪 Principios y operación](../operacion/principios-formula-1.md) y
 los [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
@@ -245,6 +245,48 @@ los [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para entrada y salida de una curva rápida durante una tanda con neumáticos degradados**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «entrada y salida de una curva rápida durante una tanda con neumáticos degradados» hay que reconstruir la cadena unidad de potencia → caja secuencial → diferencial → neumáticos, aplicar el principio «interacción entre carga aerodinámica, temperatura del neumático y balance del monoplaza», reconocer el riesgo y defender una decisión verificable: sacrificar velocidad de entrada para conservar estabilidad y tracción de salida.
+
+Esta clase se conecta con el resto del curso mediante **interacción entre carga aerodinámica, temperatura del neumático y balance del monoplaza**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrepasar el agarre disponible al cambiar el balance con freno, volante o acelerador** y poder justificar la decisión
+**sacrificar velocidad de entrada para conservar estabilidad y tracción de salida**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **unidad de potencia → caja secuencial → diferencial → neumáticos**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Formula 1 Regulations](https://www.fia.com/regulations/formula-1) aporta reglamento, arquitectura y seguridad de Fórmula 1;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **unidad de potencia → caja secuencial → diferencial → neumáticos** ante **entrada y salida de una curva rápida durante una tanda con neumáticos degradados**.
+2. **Explicar:** aplica **interacción entre carga aerodinámica, temperatura del neumático y balance del monoplaza** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **sacrificar velocidad de entrada para conservar estabilidad y tracción de salida** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **configuración de alta carga frente a baja carga aerodinámica**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «entrada y salida de una curva rápida durante una tanda con neumáticos degradados»?
+2. ¿Qué alternativa a **sacrificar velocidad de entrada para conservar estabilidad y tracción de salida** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

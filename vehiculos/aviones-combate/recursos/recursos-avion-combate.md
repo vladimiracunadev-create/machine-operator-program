@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 10
 codigo: AVIONESCOMBA-10
@@ -16,7 +16,7 @@ evidencia: "Glosario aplicado y ficha breve de trazabilidad."
 criterio_aprobacion: "Los términos permiten interpretar el curso y las fuentes se distinguen por autoridad, alcance y vigencia."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧰 Recursos del avión de combate
 
@@ -63,6 +63,48 @@ flowchart LR
 
 Registrar cada recurso nuevo con su origen y licencia, siguiendo
 [`recursos/README.md`](../../../recursos/README.md). Usar solo fuentes públicas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Glosario específico, Diagrama del principio de reacción, Enlaces y fuentes y Guía de estudio aplicada** a **explicar con fuentes los términos motor, tobera, flujo y superficies y control de vuelo**?
+
+### Explicación razonada
+
+El vocabulario técnico organiza relaciones: motor, tobera, flujo y superficies y control de vuelo nombran partes distintas de una misma cadena funcional. Una fuente se usa para sostener una afirmación concreta —principio, límite, procedimiento o contexto— y debe distinguirse del manual particular de un fabricante o de una regla narrativa.
+
+Esta clase se conecta con el resto del curso mediante **intercambio entre energía cinética, altura, carga estructural y capacidad de giro**. El hilo de
+seguridad consiste en reconocer a tiempo **exceder envolvente, perder energía o conciencia situacional** y poder justificar la decisión
+**preservar margen de energía y carga antes de ordenar una maniobra**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → tobera → flujo → superficies y control de vuelo**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) aporta aerodinámica, sistemas y operación;
+[Beginner's Guide to Aeronautics](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/) se usa para contraste con física y vuelo reales. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir en contexto:** explica **motor**, **tobera**, **flujo** y **superficies y control de vuelo** por su función y relación.
+2. **Respaldar:** enlaza cada afirmación importante con una fuente identificable y declara su alcance.
+3. **Contrastar:** separa principios generales, requisitos locales, manual de fabricante y —si aplica— canon ficticio.
+4. **Reformular:** convierte una definición copiada en una explicación propia con un ejemplo de **Aviones de combate**.
+
+### Comprueba tu comprensión
+
+1. Explica la diferencia funcional entre **tobera** y **flujo** sin copiar una definición.
+2. ¿Qué fuente respalda el principio «intercambio entre energía cinética, altura, carga estructural y capacidad de giro» y cuál es su alcance?
+3. ¿Qué dato exigiría un manual de fabricante en vez de una fuente general?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

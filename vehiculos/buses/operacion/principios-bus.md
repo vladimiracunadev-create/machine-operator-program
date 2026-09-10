@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: BUSES-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación del bus
 
@@ -77,6 +77,55 @@ simulación y que principios físicos conviene representar.
   puertas y gestión de la fatiga en jornada.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Principios de funcionamiento, Fases de operación, Aproximación a parada: idea general y Errores comunes que la simulación puede enseñar a evitar** a **resolver descenso prolongado con el vehículo cargado y una parada próxima sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: gestión de inercia, distancia de detención y transferencia de peso con pasajeros. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["gestión de inercia, distancia de detención y transferencia de peso con pasajeros"]
+    P --> R["riesgo: sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas"]
+    R --> D["decisión: seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno"]
+```
+
+Esta clase se conecta con el resto del curso mediante **gestión de inercia, distancia de detención y transferencia de peso con pasajeros**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas** y poder justificar la decisión
+**seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → freno de servicio y retardador → ejes**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Commercial Driver's License Manual](https://www.fmcsa.dot.gov/registration/commercial-drivers-license/cdl-manual) se usa para operación de buses y camiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **descenso prolongado con el vehículo cargado y una parada próxima**.
+2. **Modelo:** aplica **gestión de inercia, distancia de detención y transferencia de peso con pasajeros** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas**.
+4. **Decisión:** ejecuta mentalmente **seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «gestión de inercia, distancia de detención y transferencia de peso con pasajeros» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **ejes**?
+3. ¿Qué evidencia confirmaría que **seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

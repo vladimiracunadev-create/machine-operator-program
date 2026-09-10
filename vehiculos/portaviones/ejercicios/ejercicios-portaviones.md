@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: PORTAVIONES-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del portaviones
 
@@ -63,7 +63,7 @@ propia velocidad se suma a la del viento natural. Es un concepto físico públic
 útil para entender las operaciones de cubierta, y se mide a bordo con el
 **anemómetro**.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-portaviones.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-portaviones.md).
 El diagrama está en [🧰 Recursos](../recursos/recursos-portaviones.md).
 
 </details>
@@ -79,7 +79,7 @@ gravedad (G). Si G sube por encima del metacentro (M), hay riesgo de vuelco, y
 una escora excesiva es peligrosa en la propia cubierta. Se compensa con
 **lastre** —agua de ajuste de peso— y se vigila con el **inclinómetro**.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-portaviones.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-portaviones.md).
 
 </details>
 
@@ -126,7 +126,7 @@ mercante. En el plano internacional, el curso cita la **CONVEMAR**
 (D.S. RREE 1.393/1997), sobre paso inocente e inmunidad de buques de guerra
 (Arts. 17 a 32).
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-portaviones.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-portaviones.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -149,7 +149,7 @@ es uno de los errores comunes del módulo 5. Además, al reducir demasiado tarde
 llega a la maniobra sin margen y con poco gobierno, justo cuando hace falta
 gobierno fino.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-portaviones.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-portaviones.md).
 
 </details>
 
@@ -205,7 +205,7 @@ ordenado frente al real. Así **siente** el retardo entre orden y respuesta en v
 de leerlo. El ciclo básico ya lo contempla: aplicar la gran inercia al cambio de
 velocidad y rumbo antes de actualizar posición e instrumentos.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-portaviones.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-portaviones.md).
 
 </details>
 
@@ -222,7 +222,7 @@ físicos centrales de este vehículo. La estabilidad, la escora, el lastre y la
 logística de cubierta son la capa fina y llegan al final, cuando lo anterior ya
 se maneja.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-portaviones.md) y
+Clase 6: [🧪 Principios y operación](../operacion/principios-portaviones.md) y
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
@@ -241,6 +241,48 @@ Módulo 6: [🧪 Principios y operación](../operacion/principios-portaviones.md
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para recuperación simulada de aeronaves con cubierta ocupada parcialmente**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «recuperación simulada de aeronaves con cubierta ocupada parcialmente» hay que reconstruir la cadena planta propulsora → generación y catapulta → cubierta de vuelo → aeronave, aplicar el principio «integración de viento relativo, movimiento del buque y secuencia segura de cubierta», reconocer el riesgo y defender una decisión verificable: ordenar cubierta, rumbo y velocidad antes de iniciar la recuperación.
+
+Esta clase se conecta con el resto del curso mediante **integración de viento relativo, movimiento del buque y secuencia segura de cubierta**. El hilo de
+seguridad consiste en reconocer a tiempo **conflicto de trayectorias, objetos extraños o envolvente de viento inadecuada** y poder justificar la decisión
+**ordenar cubierta, rumbo y velocidad antes de iniciar la recuperación**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **planta propulsora → generación y catapulta → cubierta de vuelo → aeronave**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ships](https://www.history.navy.mil/browse-by-topic/ships.html) aporta historia pública de buques militares;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **planta propulsora → generación y catapulta → cubierta de vuelo → aeronave** ante **recuperación simulada de aeronaves con cubierta ocupada parcialmente**.
+2. **Explicar:** aplica **integración de viento relativo, movimiento del buque y secuencia segura de cubierta** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **ordenar cubierta, rumbo y velocidad antes de iniciar la recuperación** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **portaaviones CATOBAR frente a STOVL**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «recuperación simulada de aeronaves con cubierta ocupada parcialmente»?
+2. ¿Qué alternativa a **ordenar cubierta, rumbo y velocidad antes de iniciar la recuperación** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

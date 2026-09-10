@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: TELETRANSPOR-02
@@ -16,7 +16,7 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características del teletransportador
 
@@ -25,8 +25,8 @@ ultima_revision: 2026-09-10
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
 Que es un teletransportador genérico, que rasgos lo definen en la ficción y
-cuales tendrían sentido físico real. Este módulo da el contexto antes de abrir
-la tecnología por dentro en el Módulo 4.
+cuales tendrían sentido físico real. Esta clase da el contexto antes de abrir
+la tecnología por dentro en el Clase 4.
 
 ---
 
@@ -82,6 +82,48 @@ flowchart TD
 En cambio, para este curso sirve como laboratorio: cada rasgo llamativo nos
 deja preguntar si sería posible y por qué.
 
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Tipos conceptuales de teletransportador y Para qué sirve en el relato** a **elegir una configuración adecuada para transporte ficticio con señal degradada y destino parcialmente bloqueado**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Teletransportador, la relación entre sensado ficticio, codificación, transmisión y reconstrucción determina capacidad, respuesta y límites. Por eso «transporte convencional frente a teletransporte narrativo» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «presentar una ficción sin límites, fallas observables ni dilemas explícitos».
+
+Esta clase se conecta con el resto del curso mediante **la tecnología narrativa plantea continuidad, información, energía y verificación de destino**. El hilo de
+seguridad consiste en reconocer a tiempo **presentar una ficción sin límites, fallas observables ni dilemas explícitos** y poder justificar la decisión
+**definir condiciones de autorización, aborto y evidencia de integridad**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **sensado ficticio → codificación → transmisión → reconstrucción**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Star Trek Database](https://www.startrek.com/database) aporta canon narrativo y tecnologías de ficción;
+[Quantum Teleportation](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation) se usa para información cuántica, entrelazamiento y teorema de no clonación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «transporte ficticio con señal degradada y destino parcialmente bloqueado» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **transporte convencional frente a teletransporte narrativo** usando esos requisitos y la cadena **sensado ficticio → codificación → transmisión → reconstrucción**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **presentar una ficción sin límites, fallas observables ni dilemas explícitos**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **reconstrucción** condiciona primero el caso «transporte ficticio con señal degradada y destino parcialmente bloqueado»?
+2. ¿Qué requisito descartaría una de las alternativas **transporte convencional frente a teletransporte narrativo**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
+
 ## 🎓 Cierre de clase
 
 - **Actividad:** Compara variantes de Teletransportador mediante los ejes «definición, rasgos funcionales, tipos y usos» y elige una para un caso de uso razonado.
@@ -92,6 +134,7 @@ deja preguntar si sería posible y por qué.
 ### Fuentes de esta clase
 
 - [STARTREK-DATABASE](https://www.startrek.com/database): Star Trek Database, Paramount. Uso: canon narrativo y tecnologías de ficción.
+- [IBM-QUANTUM-TELEPORT](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation): Quantum Teleportation, IBM Quantum Learning. Uso: información cuántica, entrelazamiento y teorema de no clonación.
 - [NASA-FLIGHT](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/): Beginner's Guide to Aeronautics, NASA. Uso: contraste con física y vuelo reales.
 
 > Las fuentes sostienen el marco conceptual y normativo; esta clase no reemplaza el manual

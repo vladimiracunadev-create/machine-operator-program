@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: THUNDERBIRD2-02
@@ -16,7 +16,7 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características del Thunderbird 2
 
@@ -25,8 +25,8 @@ ultima_revision: 2026-09-10
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
 Que es un transporte pesado modular genérico, que rasgos lo definen en la
-ficción y cuales tendrían sentido físico real. Este módulo da el contexto antes
-de abrir la tecnología por dentro en el Módulo 4.
+ficción y cuales tendrían sentido físico real. Esta clase da el contexto antes
+de abrir la tecnología por dentro en el Clase 4.
 
 ---
 
@@ -81,6 +81,48 @@ flowchart TD
 
 En cambio, para este curso sirve como laboratorio: cada rasgo llamativo nos
 deja preguntar si sería posible y por qué.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Tipos conceptuales de transporte modular y Para qué sirve en el relato** a **elegir una configuración adecuada para despegue vertical ficticio con módulo pesado de rescate**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Thunderbird 2, la relación entre energía ficticia, sustentación y propulsión, bahía modular y carga de rescate determina capacidad, respuesta y límites. Por eso «configuración vacía frente a módulo pesado» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «ignorar cómo la carga modifica control, autonomía y zona de operación».
+
+Esta clase se conecta con el resto del curso mediante **la carga modular cambia masa, centro de gravedad, potencia y misión**. El hilo de
+seguridad consiste en reconocer a tiempo **ignorar cómo la carga modifica control, autonomía y zona de operación** y poder justificar la decisión
+**recalcular margen y seleccionar zona antes de comprometer el aterrizaje**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → sustentación y propulsión → bahía modular → carga de rescate**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Thunderbirds Vehicles](https://www.thunderbirds.com/) aporta referencia oficial de vehículos de rescate;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «despegue vertical ficticio con módulo pesado de rescate» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **configuración vacía frente a módulo pesado** usando esos requisitos y la cadena **energía ficticia → sustentación y propulsión → bahía modular → carga de rescate**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **ignorar cómo la carga modifica control, autonomía y zona de operación**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **carga de rescate** condiciona primero el caso «despegue vertical ficticio con módulo pesado de rescate»?
+2. ¿Qué requisito descartaría una de las alternativas **configuración vacía frente a módulo pesado**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 9
 codigo: NAUTILUS-09
@@ -16,7 +16,7 @@ evidencia: "Ficha de escenario y diagrama de estados."
 criterio_aprobacion: "El modelo es específico de la máquina, medible, seguro y trazable a clases anteriores."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎮 Diseño de simulación del Nautilus
 
@@ -50,10 +50,10 @@ inmersión.
 La simulación incluye una variable central, el **modo ciencia/ficción**, que
 decide cómo se comporta la nave:
 
-- **Modo ciencia**: se aplica la física real del Módulo 6. El aire y la energía
+- **Modo ciencia**: se aplica la física real del Clase 6. El aire y la energía
   se agotan, la presión crece con la profundidad y el casco tiene un límite de
   aplastamiento.
-- **Modo ficción**: se aplican las reglas del universo del Módulo 8. La
+- **Modo ficción**: se aplican las reglas del universo del Clase 8. La
   autonomía es casi ilimitada y la nave puede alcanzar profundidades propias del
   relato, priorizando la aventura sobre el rigor.
 
@@ -105,6 +105,59 @@ decide cómo se comporta la nave:
 - [ ] Prototipar el ciclo básico de flotabilidad en un motor simple.
 - [ ] Ajustar el modelo de consumo de aire y energía.
 - [ ] Agregar fuentes técnicas públicas a [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Objetivo de la simulación, Modo ciencia / ficción, Nivel de realismo y Variables principales** a **modelar inmersión narrativa cerca de relieve submarino como estados, variables y decisiones observables**?
+
+### Explicación razonada
+
+Una simulación de Nautilus es educativa si representa decisiones y consecuencias. Como mínimo debe modelar el estado de energía descrita en la obra, la respuesta de motor, la transición en hélice y el resultado en casco y timones. El escenario «inmersión narrativa cerca de relieve submarino» es valioso porque obliga a observar, formular una hipótesis, actuar y comprobar.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Preparado
+    Preparado --> Operando: orden válida
+    Operando --> Degradado: límite o falla
+    Degradado --> Seguro: decisión correctiva
+    Operando --> Completado: criterio logrado
+    Seguro --> [*]
+    Completado --> [*]
+```
+
+Esta clase se conecta con el resto del curso mediante **lectura doble: tecnología imaginada por Verne y principios reales de flotabilidad y presión**. El hilo de
+seguridad consiste en reconocer a tiempo **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real** y poder justificar la decisión
+**citar el canon y contrastar cada maniobra con física y navegación reales**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía descrita en la obra → motor → hélice → casco y timones**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Twenty Thousand Leagues under the Sea](https://www.gutenberg.org/ebooks/164) aporta obra primaria en dominio público;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Estado inicial:** representa inmersión narrativa cerca de relieve submarino con valores observables para **energía descrita en la obra**, **motor**, **hélice** y **casco y timones**.
+2. **Decisión del estudiante:** ofrece una elección que cambie el estado, no una animación automática.
+3. **Consecuencia:** modela la tendencia hacia **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real** y una señal previa que permita corregir.
+4. **Cierre:** evalúa la explicación de la decisión, además de si el estudiante “ganó” el escenario.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cuatro estados mínimos necesita el escenario «inmersión narrativa cerca de relieve submarino»?
+2. ¿Qué variable anticipa **colisión o exceso de profundidad al tomar la descripción literaria como procedimiento real** antes de llegar al estado de falla?
+3. ¿Cómo evaluarías la explicación del estudiante y no solo el resultado final?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

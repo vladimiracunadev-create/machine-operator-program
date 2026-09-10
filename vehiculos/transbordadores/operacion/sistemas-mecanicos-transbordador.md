@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: TRANSBORDADO-04
@@ -16,15 +16,15 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del transbordador
 
 [🏠 Inicio](../../../README.md) · [🛬 Curso: Transbordadores](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre el transbordador por dentro. Explica cada sistema, como funciona
+Esta clase abre el transbordador por dentro. Explica cada sistema, como funciona
 y cómo se conecta con los demás. Es la base técnica para entender los mandos
-(Módulo 5) y la física del planeo (Módulo 6). Todo es **ciencia real**.
+(Clase 5) y la física del planeo (Clase 6). Todo es **ciencia real**.
 
 ```mermaid
 flowchart LR
@@ -141,8 +141,57 @@ Mientras trabaja en órbita, el orbitador debe mantener con vida a su tripulaci�
 4. Las **alas y timones** convierten la reentrada en un planeo controlado.
 5. El **tren de aterrizaje** cierra la misión con un toque en pista.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-transbordador.md)
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-transbordador.md)
 muestra cómo la tripulación opera estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Grupo de despegue, Orbitador, Escudo térmico y Alas, timones y tren de aterrizaje** a **seguir una alteración desde motores principales hasta superficies de reentrada durante reentrada simulada con energía suficiente pero opciones de pista limitadas**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: motores principales entrega o transforma energía; propulsores sólidos la adapta; vehículo orbital la transmite o gobierna; y superficies de reentrada produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de superficies de reentrada y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["motores principales"] --> B["propulsores sólidos"] --> C["vehículo orbital"] --> D["superficies de reentrada"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **una misión combina regímenes irreversibles: ascenso propulsado, órbita y planeo sin motor**. El hilo de
+seguridad consiste en reconocer a tiempo **disipar mal la energía o salir del corredor térmico y geométrico** y poder justificar la decisión
+**administrar energía y puntos de no retorno antes de cada fase**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motores principales → propulsores sólidos → vehículo orbital → superficies de reentrada**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [The Space Shuttle](https://www.nasa.gov/reference/the-space-shuttle/) aporta arquitectura y operación del transbordador;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **motores principales** durante **reentrada simulada con energía suficiente pero opciones de pista limitadas**.
+2. **Transformación:** explica qué hacen **propulsores sólidos** y **vehículo orbital**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **superficies de reentrada** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **disipar mal la energía o salir del corredor térmico y geométrico**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **propulsores sólidos**, ¿qué efecto esperarías primero en **vehículo orbital** y después en **superficies de reentrada**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **motores principales** de una falla de **vehículo orbital**?
+3. ¿Por qué una segunda orden podría agravar **disipar mal la energía o salir del corredor térmico y geométrico**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

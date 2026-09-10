@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: GRUATORRE-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación de la grúa torre
 
@@ -74,6 +74,55 @@ y que principios físicos conviene representar.
 - **Nivel 3 (técnico)**: sumar péndulo de la carga, trepado y arriostramiento.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Principios de funcionamiento, Fases de operación, Izaje seguro: idea general y Errores comunes que la simulación puede enseñar a evitar** a **resolver traslado de una carga desde radio corto hacia el extremo de pluma sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: equilibrio de momentos: el efecto de la carga crece cuando aumenta su radio. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: consultar tabla de carga y viento antes de autorizar cada trayectoria.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["equilibrio de momentos: el efecto de la carga crece cuando aumenta su radio"]
+    P --> R["riesgo: sobrepasar capacidad, inducir péndulo o trabajar sobre una zona no aislada"]
+    R --> D["decisión: consultar tabla de carga y viento antes de autorizar cada trayectoria"]
+```
+
+Esta clase se conecta con el resto del curso mediante **equilibrio de momentos: el efecto de la carga crece cuando aumenta su radio**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrepasar capacidad, inducir péndulo o trabajar sobre una zona no aislada** y poder justificar la decisión
+**consultar tabla de carga y viento antes de autorizar cada trayectoria**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **alimentación → cabrestante → carro y pluma → gancho y carga**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) aporta izaje, riesgos y controles;
+[1926.1435 Tower Cranes](https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.1435) se usa para requisitos específicos de grúas torre. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **traslado de una carga desde radio corto hacia el extremo de pluma**.
+2. **Modelo:** aplica **equilibrio de momentos: el efecto de la carga crece cuando aumenta su radio** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **sobrepasar capacidad, inducir péndulo o trabajar sobre una zona no aislada**.
+4. **Decisión:** ejecuta mentalmente **consultar tabla de carga y viento antes de autorizar cada trayectoria** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «equilibrio de momentos: el efecto de la carga crece cuando aumenta su radio» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **gancho y carga**?
+3. ¿Qué evidencia confirmaría que **consultar tabla de carga y viento antes de autorizar cada trayectoria** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

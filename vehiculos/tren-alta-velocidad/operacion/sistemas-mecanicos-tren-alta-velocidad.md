@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: TRENALTAVELO-04
@@ -16,16 +16,16 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del tren de alta velocidad
 
 [🏠 Inicio](../../../README.md) · [🚄 Curso: Tren de alta velocidad](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre el tren de alta velocidad por dentro. Explica cada sistema, como
+Esta clase abre el tren de alta velocidad por dentro. Explica cada sistema, como
 funciona y cómo se conecta con los demás, con foco en la tracción eléctrica de
 alta potencia, el frenado de gran masa, la aerodinámica y la vía dedicada. Es la
-base técnica para entender los mandos (Módulo 5) y la física (Módulo 6).
+base técnica para entender los mandos (Clase 5) y la física (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -219,8 +219,57 @@ velocidad.
 6. El **frenado combinado** (regenerativo, dinámico, neumático y de Foucault) detiene la gran masa.
 7. La **señalización en cabina** ETCS/ERTMS informa y supervisa la velocidad objetivo.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-tren-alta-velocidad.md)
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-tren-alta-velocidad.md)
 muestra como el maquinista opera cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Tracción eléctrica de alta potencia, Bogies y ruedas de pestaña, Frenado de gran masa a alta velocidad y Aerodinámica** a **seguir una alteración desde catenaria hasta rueda-carril durante reducción de velocidad previa a una zona de viento lateral**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: catenaria entrega o transforma energía; electrónica de potencia la adapta; motores distribuidos la transmite o gobierna; y rueda-carril produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de rueda-carril y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["catenaria"] --> B["electrónica de potencia"] --> C["motores distribuidos"] --> D["rueda-carril"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **estabilidad dinámica y crecimiento de la energía con el cuadrado de la velocidad**. El hilo de
+seguridad consiste en reconocer a tiempo **perder margen por interpretar tarde una restricción a velocidad elevada** y poder justificar la decisión
+**cumplir la curva de frenado con anticipación y sin correcciones bruscas**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **catenaria → electrónica de potencia → motores distribuidos → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **catenaria** durante **reducción de velocidad previa a una zona de viento lateral**.
+2. **Transformación:** explica qué hacen **electrónica de potencia** y **motores distribuidos**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **rueda-carril** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **perder margen por interpretar tarde una restricción a velocidad elevada**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **electrónica de potencia**, ¿qué efecto esperarías primero en **motores distribuidos** y después en **rueda-carril**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **catenaria** de una falla de **motores distribuidos**?
+3. ¿Por qué una segunda orden podría agravar **perder margen por interpretar tarde una restricción a velocidad elevada**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

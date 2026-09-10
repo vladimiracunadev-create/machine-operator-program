@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: HELICOPTEROS-02
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características funcionales del helicóptero
 
 [🏠 Inicio](../../../README.md) · [🚁 Curso: Helicópteros](../README.md) · 📋 Características
 
-Que es un helicóptero, que tipos existen y para que sirve cada uno. Este módulo
-da el contexto antes de abrir la mecánica (Módulo 4).
+Que es un helicóptero, que tipos existen y para que sirve cada uno. Esta clase
+da el contexto antes de abrir la mecánica (Clase 4).
 
 ---
 
@@ -83,6 +83,48 @@ flowchart TD
 - Extinción de incendios forestales con carga externa.
 - Transporte de personas y carga a lugares aislados.
 - Trabajo aéreo: inspección de líneas, fotografía y observación.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Tipos de helicóptero y Para qué se usa** a **elegir una configuración adecuada para vuelo estacionario fuera de efecto suelo con temperatura elevada**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Helicópteros, la relación entre motor, transmisión, rotor principal y empuje y control determina capacidad, respuesta y límites. Por eso «helicóptero ligero frente a helicóptero de transporte» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «déficit de potencia, pérdida de rpm o control de guiñada».
+
+Esta clase se conecta con el resto del curso mediante **sustentación del rotor condicionada por paso colectivo, cíclico, potencia y rotor de cola**. El hilo de
+seguridad consiste en reconocer a tiempo **déficit de potencia, pérdida de rpm o control de guiñada** y poder justificar la decisión
+**comprobar potencia disponible y mantener una vía de escape antes del estacionario**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → rotor principal → empuje y control**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Helicopter Flying Handbook](https://www.faa.gov/sites/faa.gov/files/helicopter_flying_handbook.pdf) aporta aerodinámica y control de helicópteros;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «vuelo estacionario fuera de efecto suelo con temperatura elevada» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **helicóptero ligero frente a helicóptero de transporte** usando esos requisitos y la cadena **motor → transmisión → rotor principal → empuje y control**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **déficit de potencia, pérdida de rpm o control de guiñada**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **empuje y control** condiciona primero el caso «vuelo estacionario fuera de efecto suelo con temperatura elevada»?
+2. ¿Qué requisito descartaría una de las alternativas **helicóptero ligero frente a helicóptero de transporte**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: SUBMARINOS-02
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características funcionales del submarino
 
 [🏠 Inicio](../../../README.md) · [🌊 Curso: Submarinos](../README.md) · 📋 Características
 
 Que es un submarino, que tipos históricos existieron y cual fue su papel general.
-Contexto público antes de abrir la física de inmersión (Módulo 4). No se
+Contexto público antes de abrir la física de inmersión (Clase 4). No se
 documentan táctica ni sistemas de armas.
 
 ---
@@ -80,6 +80,48 @@ flowchart TD
 - Investigación científica de las profundidades (sumergibles civiles).
 - Avances en ingeniería de presión y soporte vital.
 - En este repositorio: base para simulación educativa de flotabilidad e inmersión.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Tipos históricos y Para qué se usó** a **elegir una configuración adecuada para cambio de profundidad manteniendo rumbo y discreción**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Submarinos, la relación entre fuente de energía, motor, hélice o propulsor y planos y tanques de lastre determina capacidad, respuesta y límites. Por eso «submarino diésel-eléctrico frente a nuclear» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «exceso de profundidad, pérdida de control o colisión por conciencia situacional limitada».
+
+Esta clase se conecta con el resto del curso mediante **equilibrio entre flotabilidad, peso, profundidad, trimado y control hidrodinámico**. El hilo de
+seguridad consiste en reconocer a tiempo **exceso de profundidad, pérdida de control o colisión por conciencia situacional limitada** y poder justificar la decisión
+**coordinar velocidad, planos y lastre observando tendencia, no solo profundidad instantánea**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía → motor → hélice o propulsor → planos y tanques de lastre**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ships](https://www.history.navy.mil/browse-by-topic/ships.html) aporta historia pública de buques militares;
+[Safety of Navigation](https://www.imo.org/en/ourwork/safety/pages/navigationdefault.aspx) se usa para navegación, SOLAS, COLREG y STCW. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «cambio de profundidad manteniendo rumbo y discreción» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **submarino diésel-eléctrico frente a nuclear** usando esos requisitos y la cadena **fuente de energía → motor → hélice o propulsor → planos y tanques de lastre**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **exceso de profundidad, pérdida de control o colisión por conciencia situacional limitada**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **planos y tanques de lastre** condiciona primero el caso «cambio de profundidad manteniendo rumbo y discreción»?
+2. ¿Qué requisito descartaría una de las alternativas **submarino diésel-eléctrico frente a nuclear**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

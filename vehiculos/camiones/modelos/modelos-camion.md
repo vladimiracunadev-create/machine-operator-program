@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: CAMIONES-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del camión
 
 [🏠 Inicio](../../../README.md) · [🚛 Curso: Camiones](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-camion.md) ya dijo qué tipos de camión
-existen y para qué sirve cada uno. Este módulo responde a lo siguiente: **no
+El [Clase 2](../operacion/caracteristicas-camion.md) ya dijo qué tipos de camión
+existen y para qué sirve cada uno. Esta clase responde a lo siguiente: **no
 todos se conducen igual**, y esa diferencia no es de matiz. Cambia qué mandos
 tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -37,10 +37,10 @@ tiene la máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-camion.md) describe un puesto de mando que
+El [Clase 5](../mandos/manual-mandos-camion.md) describe un puesto de mando que
 incluye, en la consola, el **mando del semirremolque**: una palanca de mano que
 frena solo el semi y sirve para estirar el conjunto. El
-[Módulo 9](../simulacion/diseno-simulador-camion.md) expone una variable
+[Clase 9](../simulacion/diseno-simulador-camion.md) expone una variable
 `Ángulo de articulación` con rango `-90..90 grados`. Ambos describen un camión
 **articulado**.
 
@@ -49,7 +49,7 @@ Y la variable `Ángulo de articulación` sencillamente no tiene valores que toma
 porque no hay perno maestro sobre el que pivotar. La diferencia no es de
 parámetros: el rígido tiene un cuerpo, el articulado tiene dos unidos por una
 junta. Es otra cinemática, y de ella salen el barrido trasero y el riesgo de
-tijera que el [Módulo 4](../operacion/sistemas-mecanicos-camion.md) describe. Si
+tijera que el [Clase 4](../operacion/sistemas-mecanicos-camion.md) describe. Si
 el simulador se construye sobre el esquema rígido y luego se le "añade" un
 tractocamion, el resultado es un semirremolque que sigue al tracto como si
 estuviera soldado, que no existe.
@@ -73,22 +73,22 @@ estuviera soldado, que no existe.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Rígido liviano, Rígido pesado | **Desaparece** el mando del semirremolque de la consola. | El mapa del Módulo 5 se reduce: no hay nada que frenar por separado ni conjunto que estirar. |
-| Volquete / tolva | **Aparece** el mando de la caja basculante, que el Módulo 5 no contempla. **Desaparece** el mando del semirremolque. | Se opera detenido, no en marcha: es un mando de trabajo, no de conducción. |
+| Rígido liviano, Rígido pesado | **Desaparece** el mando del semirremolque de la consola. | El mapa del Clase 5 se reduce: no hay nada que frenar por separado ni conjunto que estirar. |
+| Volquete / tolva | **Aparece** el mando de la caja basculante, que el Clase 5 no contempla. **Desaparece** el mando del semirremolque. | Se opera detenido, no en marcha: es un mando de trabajo, no de conducción. |
 | Tractocamion, Portacontenedores | **Aparece** el mando del semirremolque. El volante deja de orientar solo el eje delantero y pasa a gobernar dos cuerpos. | El giro exige anticipar el barrido trasero; el freno de mano del semi entra en el repertorio. |
 | Cisterna | **Aparece** el mando del semirremolque; el freno de motor y el retarder ganan peso frente al freno de servicio. | Frenar con el pedal empuja el líquido hacia delante; conviene retener sin fricción. |
-| Todos con caja automatizada | **Desaparecen** el pedal de embrague y la palanca de cambio, como ya advierte el Módulo 5. | El pie izquierdo deja de tener función y la elección de marcha sale de las manos del conductor. |
+| Todos con caja automatizada | **Desaparecen** el pedal de embrague y la palanca de cambio, como ya advierte el Clase 5. | El pie izquierdo deja de tener función y la elección de marcha sale de las manos del conductor. |
 
 ---
 
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-camion.md):
+[Clase 9](../simulacion/diseno-simulador-camion.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Rígido liviano | Ninguna: es el caso base. `Ángulo de articulación` queda fijo en 0. | El del Módulo 5 sin el mando del semirremolque. |
+| Rígido liviano | Ninguna: es el caso base. `Ángulo de articulación` queda fijo en 0. | El del Clase 5 sin el mando del semirremolque. |
 | Rígido pesado | `Carga` y `Reparto por eje` amplían rango y pesan más en el cálculo del frenado. `Ángulo de articulación` sigue fijo en 0. | El mismo. |
 | Volquete / tolva | `Carga` deja de ser fija y pasa a variar durante la partida: cae a 0 al bascular. `Reparto por eje` se recalcula al vaciar. | El mismo, más una entrada de basculado disponible solo en reposo. |
 | Tractocamion | `Ángulo de articulación` **se activa** y pasa a ser una variable viva. `Adherencia` se acopla a ella: el bloqueo del tracto dispara la tijera. | Con entrada de freno del semi; el giro necesita dos cuerpos. |
@@ -136,13 +136,55 @@ control es otro:
 El resto de diferencias sí caben en un mismo simulador ajustando rangos, tal como
 plantean los [niveles de realismo](../../../docs/03-niveles-de-realismo.md): en
 el nivel 1 casi todos se comportan igual, y las diferencias emergen a medida que
-el nivel sube. No es casual que el Módulo 9 sitúe la articulación en el nivel 3:
+el nivel sube. No es casual que el Clase 9 sitúe la articulación en el nivel 3:
 es el punto donde el modelo deja de ser un ajuste y pasa a ser otro simulador.
 
 > ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar camión rígido frente a tractocamión articulado frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «camión rígido frente a tractocamión articulado» resuelven prioridades distintas. Una comparación profesional sigue la cadena motor → caja de cambios → árbol y diferencial → ruedas motrices: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **relación entre masa, pendiente, energía cinética y capacidad térmica de frenado**. El hilo de
+seguridad consiste en reconocer a tiempo **embalamiento, fatiga de frenos o pérdida de estabilidad de la carga** y poder justificar la decisión
+**planificar velocidad y relación de transmisión antes de entrar en la pendiente**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → caja de cambios → árbol y diferencial → ruedas motrices**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Commercial Driver's License Manual](https://www.fmcsa.dot.gov/registration/commercial-drivers-license/cdl-manual) se usa para operación de buses y camiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **descenso de montaña con carga cercana al máximo autorizado**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **motor** hasta **ruedas motrices**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **motor → caja de cambios → árbol y diferencial → ruedas motrices** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «descenso de montaña con carga cercana al máximo autorizado» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

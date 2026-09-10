@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: THUNDERBIRD1-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del Thunderbird 1
 
@@ -46,7 +46,7 @@ es mayor que uno, la nave acelera hacia arriba; si es igual a uno, flota sin
 subir ni bajar; si es menor que uno, no despega. Es la regla fundamental de todo
 vehículo VTOL.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-thunderbird-1.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-thunderbird-1.md).
 
 </details>
 
@@ -96,7 +96,7 @@ segundo, y el depósito es finito. Cada decisión es un compromiso: priorizar
 velocidad y vuelo estacionario gasta mucho y acorta el alcance; priorizar el
 alcance obliga a moderar el empuje y aprovechar las alas en crucero.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-thunderbird-1.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-thunderbird-1.md).
 
 </details>
 
@@ -114,7 +114,7 @@ velocidad y autonomía. Cuando el curso "corrige" a la ficción no critica la ob
 señala la diferencia entre lo que emociona en pantalla y lo que ocurriría de
 verdad.
 
-Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-thunderbird-1.md).
+Clase 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-thunderbird-1.md).
 
 </details>
 
@@ -130,7 +130,7 @@ estrecha, el motor trabaja al límite y aparece el riesgo de perder altura. En
 aire denso ocurre lo contrario: las alas sostienen mejor y el motor puede
 aliviar el empuje.
 
-Módulo 7: [🌍 Entornos](../operacion/entornos-thunderbird-1.md).
+Clase 7: [🌍 Entornos](../operacion/entornos-thunderbird-1.md).
 
 </details>
 
@@ -262,6 +262,48 @@ Ver también los [🎚️ niveles de realismo](../../../docs/03-niveles-de-reali
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Distingue la física de la licencia creativa, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para despliegue de rescate a una pista corta con meteorología cambiante**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «despliegue de rescate a una pista corta con meteorología cambiante» hay que reconstruir la cadena energía ficticia → propulsión → superficies de control → trayectoria de respuesta, aplicar el principio «una aeronave de alerta rápida prioriza tiempo de llegada sin abandonar energía ni margen de aterrizaje», reconocer el riesgo y defender una decisión verificable: separar crucero rápido de aproximación estabilizada y mantener alternativa.
+
+Esta clase se conecta con el resto del curso mediante **una aeronave de alerta rápida prioriza tiempo de llegada sin abandonar energía ni margen de aterrizaje**. El hilo de
+seguridad consiste en reconocer a tiempo **convertir velocidad narrativa en llegada segura sin plan de aproximación** y poder justificar la decisión
+**separar crucero rápido de aproximación estabilizada y mantener alternativa**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → propulsión → superficies de control → trayectoria de respuesta**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Thunderbirds Vehicles](https://www.thunderbirds.com/) aporta referencia oficial de vehículos de rescate;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **energía ficticia → propulsión → superficies de control → trayectoria de respuesta** ante **despliegue de rescate a una pista corta con meteorología cambiante**.
+2. **Explicar:** aplica **una aeronave de alerta rápida prioriza tiempo de llegada sin abandonar energía ni margen de aterrizaje** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **separar crucero rápido de aproximación estabilizada y mantener alternativa** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **vuelo supersónico ficticio frente a jet ligero real**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «despliegue de rescate a una pista corta con meteorología cambiante»?
+2. ¿Qué alternativa a **separar crucero rápido de aproximación estabilizada y mantener alternativa** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

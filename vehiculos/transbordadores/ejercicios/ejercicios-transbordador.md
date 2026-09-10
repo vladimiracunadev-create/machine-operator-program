@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: TRANSBORDADO-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del transbordador
 
@@ -45,7 +45,7 @@ Es **cohete** en el despegue, **nave tripulada** en la órbita y **planeador** e
 el regreso. Despega vertical con propulsores y tanque externo, trabaja en órbita
 con su cabina y su bahía de carga, y vuelve planeando sin motor hasta una pista.
 
-Módulo 2: [📋 Características](../operacion/caracteristicas-transbordador.md).
+Clase 2: [📋 Características](../operacion/caracteristicas-transbordador.md).
 
 </details>
 
@@ -59,7 +59,7 @@ el aire de forma controlada**. El roce con el aire cada vez más denso genera un
 calor enorme, y para sobrevivir hace falta el escudo por delante y un ángulo
 correcto: ni muy plano ni muy pronunciado.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-transbordador.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-transbordador.md).
 
 </details>
 
@@ -91,7 +91,7 @@ pista, y se administra: gastarla demasiado pronto significa quedar corto, y no
 hay forma de acelerar en el descenso final. De ahí que cada aterrizaje sea un
 único intento.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-transbordador.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-transbordador.md).
 
 </details>
 
@@ -124,7 +124,7 @@ Responsabilidad (1972)** cubre la responsabilidad por daños de objetos
 espaciales. Chile no cuenta a la fecha con una ley espacial nacional integral: el
 marco interno es de política pública más los tratados.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-transbordador.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-transbordador.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -167,7 +167,7 @@ El resultado se decidió antes, en cómo se administró la energía de altura y
 velocidad durante todo el descenso. Es uno de los errores comunes que el curso
 señala: pensar que se puede "acelerar" cuando ya no hay con qué.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-transbordador.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-transbordador.md).
 
 </details>
 
@@ -181,13 +181,13 @@ lista del curso sigue vivo hasta el último segundo?
 Queda **desplegar el tren de aterrizaje** antes del toque, usar timón y frenos
 en la pista, y el paracaídas de frenado para reducir la velocidad tras tocar
 tierra. El error que sigue vivo es olvidar el tren a tiempo: figura entre los
-errores comunes del Módulo 6, y por eso el tren es una variable discreta del
+errores comunes del Clase 6, y por eso el tren es una variable discreta del
 simulador —recogido o desplegado— con su propia alarma.
 
 Los entornos de pista añaden lo suyo: viento cruzado y longitud de pista
 influyen en el aterrizaje.
 
-Módulo 7: [🌍 Entornos de trabajo](../operacion/entornos-transbordador.md).
+Clase 7: [🌍 Entornos de trabajo](../operacion/entornos-transbordador.md).
 
 </details>
 
@@ -207,7 +207,7 @@ se vacía a medida que se desciende, contrastado con lo que falta para llegar.
 Así el usuario **ve** que cada maniobra gasta un presupuesto que no se recarga, y
 entiende solo por qué quedar corto no tiene arreglo.
 
-Módulo 9:
+Clase 9:
 [🎮 Diseño de simulación](../simulacion/diseno-simulador-transbordador.md).
 
 </details>
@@ -241,6 +241,48 @@ Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para reentrada simulada con energía suficiente pero opciones de pista limitadas**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «reentrada simulada con energía suficiente pero opciones de pista limitadas» hay que reconstruir la cadena motores principales → propulsores sólidos → vehículo orbital → superficies de reentrada, aplicar el principio «una misión combina regímenes irreversibles: ascenso propulsado, órbita y planeo sin motor», reconocer el riesgo y defender una decisión verificable: administrar energía y puntos de no retorno antes de cada fase.
+
+Esta clase se conecta con el resto del curso mediante **una misión combina regímenes irreversibles: ascenso propulsado, órbita y planeo sin motor**. El hilo de
+seguridad consiste en reconocer a tiempo **disipar mal la energía o salir del corredor térmico y geométrico** y poder justificar la decisión
+**administrar energía y puntos de no retorno antes de cada fase**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motores principales → propulsores sólidos → vehículo orbital → superficies de reentrada**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [The Space Shuttle](https://www.nasa.gov/reference/the-space-shuttle/) aporta arquitectura y operación del transbordador;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **motores principales → propulsores sólidos → vehículo orbital → superficies de reentrada** ante **reentrada simulada con energía suficiente pero opciones de pista limitadas**.
+2. **Explicar:** aplica **una misión combina regímenes irreversibles: ascenso propulsado, órbita y planeo sin motor** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **administrar energía y puntos de no retorno antes de cada fase** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **configuración de lanzamiento frente a orbitador en planeo**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «reentrada simulada con energía suficiente pero opciones de pista limitadas»?
+2. ¿Qué alternativa a **administrar energía y puntos de no retorno antes de cada fase** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

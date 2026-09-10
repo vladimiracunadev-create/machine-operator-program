@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: MAQUINARIACO-02
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características funcionales de la maquinaria de construcción
 
 [🏠 Inicio](../../../README.md) · [🚧 Curso: Maquinaria de construcción](../README.md) · 📋 Características
 
 Que es la maquinaria de construcción, que tipos existen y para que sirve cada
-uno. Este módulo da el contexto antes de abrir la mecánica (Módulo 4).
+uno. Esta clase da el contexto antes de abrir la mecánica (Clase 4).
 
 ---
 
@@ -83,6 +83,48 @@ flowchart TD
 - Empuje y desmonte de terreno para nivelar.
 - Terminación y perfilado de caminos y explanadas.
 - Demolición y manejo de escombros con herramientas especiales.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Tipos de máquina y Para qué se usa** a **elegir una configuración adecuada para excavación próxima a un borde con material cambiante**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Maquinaria de construcción, la relación entre motor, sistema hidráulico, implemento y suelo determina capacidad, respuesta y límites. Por eso «excavadora frente a cargador frontal» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «vuelco, colapso del borde o ingreso de terceros al radio de acción».
+
+Esta clase se conecta con el resto del curso mediante **estabilidad dependiente del centro de gravedad, apoyo y reacción del terreno**. El hilo de
+seguridad consiste en reconocer a tiempo **vuelco, colapso del borde o ingreso de terceros al radio de acción** y poder justificar la decisión
+**evaluar terreno, zona de exclusión y posición antes de accionar el implemento**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → sistema hidráulico → implemento → suelo**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Construction Industry](https://www.osha.gov/construction) aporta maquinaria y seguridad de obra;
+[Crane, Derrick and Hoist Safety](https://www.osha.gov/cranes-derricks) se usa para izaje, riesgos y controles. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «excavación próxima a un borde con material cambiante» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **excavadora frente a cargador frontal** usando esos requisitos y la cadena **motor → sistema hidráulico → implemento → suelo**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **vuelco, colapso del borde o ingreso de terceros al radio de acción**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **suelo** condiciona primero el caso «excavación próxima a un borde con material cambiante»?
+2. ¿Qué requisito descartaría una de las alternativas **excavadora frente a cargador frontal**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

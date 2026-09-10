@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: ESTACIONESPA-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes de la estación espacial
 
 [🏠 Inicio](../../../README.md) · [🛰️ Curso: Estación espacial (ISS)](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-estacion-espacial.md) ya dijo qué es
-una estación espacial y de qué partes se compone. Este módulo responde a otra
+El [Clase 2](../operacion/caracteristicas-estacion-espacial.md) ya dijo qué es
+una estación espacial y de qué partes se compone. Esta clase responde a otra
 cosa: **no todas las partes se operan igual**, y esa diferencia no es de matiz.
 Cambia qué mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -39,10 +39,10 @@ Cambia qué mandos tiene la máquina y, por tanto, qué debe modelar el simulado
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-estacion-espacial.md) describe un puesto
+El [Clase 5](../mandos/manual-mandos-estacion-espacial.md) describe un puesto
 de mando con estación de brazo robótico (palancas y pantallas), esclusa de EVA,
 paneles de soporte vital y de energía, y consolas en tierra. El
-[Módulo 9](../simulacion/diseno-simulador-estacion-espacial.md) expone variables
+[Clase 9](../simulacion/diseno-simulador-estacion-espacial.md) expone variables
 como `Estado de puertos`, `Energía` y `Altitud orbital`. Ambos describen una
 estación **modular, ensamblada en órbita y operada en equipo con tierra**: la
 ISS.
@@ -54,8 +54,8 @@ valor. Si el simulador se construye sobre el esquema modular y luego se le
 brazo robótico, que no es lo que fue.
 
 Y dentro de la propia ISS pasa algo parecido en pequeño: el
-[Módulo 1](../historia/historia-estacion-espacial.md) recuerda que se ensambló
-pieza por pieza entre socios distintos, y el Módulo 5 lo confirma al hablar de
+[Clase 1](../historia/historia-estacion-espacial.md) recuerda que se ensambló
+pieza por pieza entre socios distintos, y el Clase 5 lo confirma al hablar de
 **varios centros de control por país socio**. No hay "la consola" de la
 estación. Hay consolas, en plural, y eso es una decisión de diseño, no un
 detalle.
@@ -82,8 +82,8 @@ detalle.
 
 | Modelo o segmento | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Estación modular ensamblada en órbita (ISS) | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Es el caso base del curso. |
-| Estación monolítica (una sola pieza) | **Desaparecen** la estación de brazo robótico y el control de acoplamiento múltiple. | Se pierde el puesto de mando más exigente del Módulo 5: los sticks dejan de tener función. |
+| Estación modular ensamblada en órbita (ISS) | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Es el caso base del curso. |
+| Estación monolítica (una sola pieza) | **Desaparecen** la estación de brazo robótico y el control de acoplamiento múltiple. | Se pierde el puesto de mando más exigente del Clase 5: los sticks dejan de tener función. |
 | Segmento con jurisdicción propia | **Se duplican** las comunicaciones y las consolas de tierra: no hay un interlocutor, hay varios. | Atender una alarma deja de ser pulsar un botón y pasa a ser coordinar quién la atiende. |
 | Módulo de laboratorio | **Aparecen** los mandos de experimento; el panel de soporte vital se lee pero rara vez se toca. | El día se organiza alrededor de la ciencia. |
 | Módulo habitat | **No aporta** mandos de sistema: aporta rutina y sujeciones. | No es un mando, pero consume tiempo de tripulación como si lo fuera. |
@@ -96,11 +96,11 @@ detalle.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-estacion-espacial.md):
+[Clase 9](../simulacion/diseno-simulador-estacion-espacial.md):
 
 | Modelo o segmento | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Estación modular ensamblada en órbita (ISS) | Ninguna: es el caso base. | El del Módulo 5. |
+| Estación modular ensamblada en órbita (ISS) | Ninguna: es el caso base. | El del Clase 5. |
 | Estación monolítica (una sola pieza) | `Estado de puertos` **se reduce** a un solo puerto o desaparece. La `Altitud orbital` sigue viva, pero sin nave acoplada que la eleve. | Sin entrada de brazo robótico. |
 | Segmento con jurisdicción propia | `Energía`, `Oxígeno`, `Nivel de CO2` y `Agua reciclada` dejan de ser un valor único de la estación y pasan a tener lectura por segmento. | El mismo, con un interlocutor de tierra distinto por segmento. |
 | Módulo de laboratorio | `Energía` gana un consumidor que compite con el soporte vital durante la fase de sombra. | El mismo. |
@@ -150,6 +150,48 @@ mismo simulador ajustando rangos y consumidores, tal como plantean los
 [niveles de realismo](../../../docs/03-niveles-de-realismo.md): en el nivel 1
 casi todo se comporta igual, y las diferencias emergen a medida que el nivel
 sube.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar segmento presurizado frente a estructura externa frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «segmento presurizado frente a estructura externa» resuelven prioridades distintas. Una comparación profesional sigue la cadena paneles solares → distribución eléctrica → soporte vital → módulos y tripulación: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **equilibrio continuo de energía, atmósfera, calor y orientación orbital**. El hilo de
+seguridad consiste en reconocer a tiempo **degradación de soporte vital o energía por priorización tardía** y poder justificar la decisión
+**aislar la falla y priorizar cargas esenciales antes de recuperar la misión**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **paneles solares → distribución eléctrica → soporte vital → módulos y tripulación**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [International Space Station](https://www.nasa.gov/reference/international-space-station/) aporta módulos, órbita y soporte vital;
+[Space Law Treaties and Principles](https://www.unoosa.org/oosa/SpaceLaw/treaties.html) se usa para derecho espacial internacional. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **pérdida parcial de generación durante una actividad planificada**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **paneles solares** hasta **módulos y tripulación**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **paneles solares → distribución eléctrica → soporte vital → módulos y tripulación** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «pérdida parcial de generación durante una actividad planificada» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

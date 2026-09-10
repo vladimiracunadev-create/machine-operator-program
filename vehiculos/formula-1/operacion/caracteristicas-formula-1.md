@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 2
 codigo: FORMULA1-02
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📋 Características funcionales de la Fórmula 1
 
 [🏠 Inicio](../../../README.md) · [🏎️ Curso: Fórmula 1](../README.md) · 📋 Características
 
 Que es un monoplaza de Fórmula 1, que variantes existen y para que sirve cada
-una. Este módulo da el contexto antes de abrir la mecánica (Módulo 4).
+una. Esta clase da el contexto antes de abrir la mecánica (Clase 4).
 
 ---
 
@@ -78,6 +78,48 @@ flowchart TD
 - Desarrollar y probar tecnología de motor, frenos y aerodinámica.
 - Formar pilotos e ingenieros en el límite del rendimiento.
 - Servir de vitrina técnica y deportiva para fabricantes.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Definición, Características clave, Tipos y familias de monoplaza y Para qué se usa** a **elegir una configuración adecuada para entrada y salida de una curva rápida durante una tanda con neumáticos degradados**?
+
+### Explicación razonada
+
+Una característica solo es útil cuando permite anticipar comportamiento. En Fórmula 1, la relación entre unidad de potencia, caja secuencial, diferencial y neumáticos determina capacidad, respuesta y límites. Por eso «configuración de alta carga frente a baja carga aerodinámica» no se compara por apariencia: se compara por misión, entorno, carga de trabajo y exposición al riesgo «sobrepasar el agarre disponible al cambiar el balance con freno, volante o acelerador».
+
+Esta clase se conecta con el resto del curso mediante **interacción entre carga aerodinámica, temperatura del neumático y balance del monoplaza**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrepasar el agarre disponible al cambiar el balance con freno, volante o acelerador** y poder justificar la decisión
+**sacrificar velocidad de entrada para conservar estabilidad y tracción de salida**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **unidad de potencia → caja secuencial → diferencial → neumáticos**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Formula 1 Regulations](https://www.fia.com/regulations/formula-1) aporta reglamento, arquitectura y seguridad de Fórmula 1;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Definir la necesidad:** convierte «entrada y salida de una curva rápida durante una tanda con neumáticos degradados» en requisitos de capacidad, entorno y respuesta.
+2. **Comparar:** contrasta **configuración de alta carga frente a baja carga aerodinámica** usando esos requisitos y la cadena **unidad de potencia → caja secuencial → diferencial → neumáticos**.
+3. **Descartar:** elimina la alternativa que deja menos margen frente a **sobrepasar el agarre disponible al cambiar el balance con freno, volante o acelerador**.
+4. **Elegir:** declara la variante escogida, la evidencia usada y una limitación que todavía debe respetarse.
+
+### Comprueba tu comprensión
+
+1. ¿Qué característica de **neumáticos** condiciona primero el caso «entrada y salida de una curva rápida durante una tanda con neumáticos degradados»?
+2. ¿Qué requisito descartaría una de las alternativas **configuración de alta carga frente a baja carga aerodinámica**?
+3. ¿Qué límite debe declararse junto con la variante elegida?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

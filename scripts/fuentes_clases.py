@@ -59,6 +59,7 @@ ROBOTECH = f("ROBOTECH-OFFICIAL", "Robotech", "Harmony Gold", "https://robotech.
 THUNDERBIRDS = f("THUNDERBIRDS-OFFICIAL", "Thunderbirds Vehicles", "ITV", "https://www.thunderbirds.com/", "referencia oficial de vehículos de rescate")
 BACK_FUTURE = f("UNIVERSAL-BTTF", "Back to the Future", "Universal Pictures At Home", "https://www.universalpicturesathome.com/movies/back-to-the-future", "obra audiovisual primaria")
 NASA_PHYSICS = f("NASA-FLIGHT", "Beginner's Guide to Aeronautics", "NASA", "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/", "contraste con física y vuelo reales")
+IBM_TELEPORT = f("IBM-QUANTUM-TELEPORT", "Quantum Teleportation", "IBM Quantum Learning", "https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation", "información cuántica, entrelazamiento y teorema de no clonación")
 
 
 FUENTES_POR_CURSO: dict[str, tuple[Fuente, ...]] = {
@@ -99,7 +100,7 @@ FUENTES_POR_CURSO: dict[str, tuple[Fuente, ...]] = {
     "halcon-milenario": (STARWARS_FALCON, NASA_SPACECRAFT, NASA_PHYSICS),
     "sdf-1": (ROBOTECH, NASA_SPACECRAFT, NASA_PHYSICS),
     "estrella-de-la-muerte": (STARWARS_DEATHSTAR, NASA_SPACECRAFT, NASA_PHYSICS),
-    "teletransportador": (STARTREK, NASA_PHYSICS),
+    "teletransportador": (STARTREK, IBM_TELEPORT, NASA_PHYSICS),
     "thunderbird-1": (THUNDERBIRDS, FAA, NASA_PHYSICS),
     "thunderbird-2": (THUNDERBIRDS, FAA, NASA_PHYSICS),
     "thunderbird-3": (THUNDERBIRDS, NASA_ROCKETS, NASA_PHYSICS),

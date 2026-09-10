@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: DELOREAN-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del DeLorean temporal
 
@@ -48,7 +48,7 @@ temporal** rompe la física para contar una historia. Todo el curso se apoya en
 esa separación: el mismo vehículo sirve para estudiar física comprobable y para
 identificar dónde empieza el guion.
 
-Módulo 2: [📋 Características](../operacion/caracteristicas-delorean.md).
+Clase 2: [📋 Características](../operacion/caracteristicas-delorean.md).
 
 </details>
 
@@ -67,7 +67,7 @@ entregar mucha.
 La ficción pide lo más exigente de ambas: muchísima energía entregada en un
 instante, lo que implica una potencia enorme.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-delorean.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-delorean.md).
 
 </details>
 
@@ -124,7 +124,7 @@ viajero puede contradecir lo que ya sucedió. El otro enfoque, el de la línea q
 sí se puede cambiar, acepta que el pasado se altera y el futuro se reescribe, y
 convive con la paradoja como amenaza narrativa.
 
-Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-delorean.md).
+Clase 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-delorean.md).
 
 </details>
 
@@ -144,7 +144,7 @@ pasado, no hay mecanismo conocido para retroceder, y las paradojas no son un
 problema que se resuelva con una regla de guion, sino la señal de por qué el
 viaje al pasado es problemático.
 
-Módulo 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-delorean.md).
+Clase 8: [⚖️ Reglas del universo](../reglamentos/reglas-universo-delorean.md).
 
 </details>
 
@@ -172,7 +172,7 @@ El error del argumento es confundir "a más velocidad pasan cosas relativistas"
 con "a más velocidad se accede al pasado". Lo primero es cierto y lo segundo no
 se sigue de lo primero.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-delorean.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-delorean.md).
 
 </details>
 
@@ -270,7 +270,7 @@ fijar primero. La dilatación llega cuando el usuario ya sabe qué modo está
 mirando. El nivel 3 (técnico) deja para el final lo más fino: modelar potencia
 frente a energía y comentar las curvas temporales cerradas como idea teórica.
 
-Módulo 6: [🧪 Principios](../operacion/principios-delorean.md) y
+Clase 6: [🧪 Principios](../operacion/principios-delorean.md) y
 [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
@@ -289,6 +289,48 @@ Módulo 6: [🧪 Principios](../operacion/principios-delorean.md) y
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Distingue la física de la licencia creativa, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para intento de alcanzar la condición temporal en una vía con espacio limitado**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «intento de alcanzar la condición temporal en una vía con espacio limitado» hay que reconstruir la cadena motor y alimentación ficticia → transmisión → ruedas → sistema temporal, aplicar el principio «separación entre mecánica automotriz plausible y regla narrativa de velocidad y energía», reconocer el riesgo y defender una decisión verificable: declarar qué regla pertenece al relato y modelar aparte movimiento, energía y seguridad reales.
+
+Esta clase se conecta con el resto del curso mediante **separación entre mecánica automotriz plausible y regla narrativa de velocidad y energía**. El hilo de
+seguridad consiste en reconocer a tiempo **confundir canon con física real y omitir los riesgos ordinarios del automóvil** y poder justificar la decisión
+**declarar qué regla pertenece al relato y modelar aparte movimiento, energía y seguridad reales**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor y alimentación ficticia → transmisión → ruedas → sistema temporal**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Back to the Future](https://www.universalpicturesathome.com/movies/back-to-the-future) aporta obra audiovisual primaria;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **motor y alimentación ficticia → transmisión → ruedas → sistema temporal** ante **intento de alcanzar la condición temporal en una vía con espacio limitado**.
+2. **Explicar:** aplica **separación entre mecánica automotriz plausible y regla narrativa de velocidad y energía** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **declarar qué regla pertenece al relato y modelar aparte movimiento, energía y seguridad reales** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **DeLorean de serie frente a máquina temporal ficticia**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «intento de alcanzar la condición temporal en una vía con espacio limitado»?
+2. ¿Qué alternativa a **declarar qué regla pertenece al relato y modelar aparte movimiento, energía y seguridad reales** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

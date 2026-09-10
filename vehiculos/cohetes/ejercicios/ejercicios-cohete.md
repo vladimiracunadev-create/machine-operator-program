@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: COHETES-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del cohete
 
@@ -59,7 +59,7 @@ vuelta. Para quedar en órbita baja hay que avanzar de lado a unos 7,8 km/s
 (aproximado). Por eso el ascenso no es vertical: tras despegar se inclina poco a
 poco hacia la horizontal en un **giro gravitatorio**.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-cohete.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-cohete.md).
 
 </details>
 
@@ -107,7 +107,7 @@ una vez encendido. Por eso el líquido va en las etapas que necesitan control
 fino, incluido el aterrizaje del propulsor, y el sólido se usa como refuerzo de
 despegue.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-cohete.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-cohete.md).
 
 </details>
 
@@ -122,7 +122,7 @@ responde por daños ante la comunidad internacional. Chile no cuenta a la fecha
 con una ley espacial nacional integral: su marco interno es de política pública
 más los tratados.
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-cohete.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-cohete.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md).
 
 </details>
@@ -205,7 +205,7 @@ usuario **ve** que la masa cae de golpe y que la aceleración salta sin tocar el
 acelerador. El concepto se entiende por el salto del indicador, no por la
 fórmula.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-cohete.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-cohete.md).
 
 </details>
 
@@ -222,7 +222,7 @@ velocidad orbital, que son el núcleo conceptual. El retorno añade reserva de
 aterrizaje, encendidos de reentrada y rejillas de guiado: es una misión completa
 encima de la anterior y tapa lo que se quiere enseñar si llega antes.
 
-Módulo 6 y [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
+Clase 6 y [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
 
@@ -240,6 +240,48 @@ Módulo 6 y [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.m
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para ascenso educativo con cambio de etapa y viento en altura**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «ascenso educativo con cambio de etapa y viento en altura» hay que reconstruir la cadena propelentes → cámara → tobera → empuje y trayectoria, aplicar el principio «la aceleración depende de empuje menos peso y resistencia, mientras la masa disminuye», reconocer el riesgo y defender una decisión verificable: evaluar trayectoria, estabilidad y condiciones de aborto antes del lanzamiento.
+
+Esta clase se conecta con el resto del curso mediante **la aceleración depende de empuje menos peso y resistencia, mientras la masa disminuye**. El hilo de
+seguridad consiste en reconocer a tiempo **inestabilidad, desviación o cargas excesivas durante máxima presión dinámica** y poder justificar la decisión
+**evaluar trayectoria, estabilidad y condiciones de aborto antes del lanzamiento**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **propelentes → cámara → tobera → empuje y trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Rockets Educator Guide](https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf) aporta propulsión, estabilidad y trayectoria;
+[Space Law Treaties and Principles](https://www.unoosa.org/oosa/SpaceLaw/treaties.html) se usa para derecho espacial internacional. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **propelentes → cámara → tobera → empuje y trayectoria** ante **ascenso educativo con cambio de etapa y viento en altura**.
+2. **Explicar:** aplica **la aceleración depende de empuje menos peso y resistencia, mientras la masa disminuye** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **evaluar trayectoria, estabilidad y condiciones de aborto antes del lanzamiento** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **cohete de combustible líquido frente a sólido**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «ascenso educativo con cambio de etapa y viento en altura»?
+2. ¿Qué alternativa a **evaluar trayectoria, estabilidad y condiciones de aborto antes del lanzamiento** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

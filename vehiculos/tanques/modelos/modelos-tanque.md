@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: TANQUES-03
@@ -16,15 +16,15 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del tanque
 
 [🏠 Inicio](../../../README.md) · [🪖 Curso: Tanques](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-tanque.md) ya dijo qué familias
+El [Clase 2](../operacion/caracteristicas-tanque.md) ya dijo qué familias
 existen según su movilidad: ligero, medio, pesado, y con suspensión de barras de
-torsión o hidroneumática. Este módulo responde a lo siguiente: **no todos se
+torsión o hidroneumática. Esta clase responde a lo siguiente: **no todos se
 conducen igual**, y esa diferencia no es de matiz. Cambia qué mandos tiene la
 máquina y, por tanto, qué debe modelar el simulador.
 
@@ -40,12 +40,12 @@ máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-tanque.md) describe la dirección como
+El [Clase 5](../mandos/manual-mandos-tanque.md) describe la dirección como
 "palancas o volante" y el cambio de marcha como "palanca o selector, según
 transmisión". Esa disyuntiva no está resuelta: el propio curso admite que hay
 dos puestos de conducción distintos bajo el mismo módulo.
 
-El [Módulo 9](../simulacion/diseno-simulador-tanque.md) expone la variable
+El [Clase 9](../simulacion/diseno-simulador-tanque.md) expone la variable
 `Diferencia entre orugas` con rango `-1..1`. En un vehículo de palancas esa
 diferencia **es lo que el conductor manda**: cada palanca controla una oruga y
 el conductor las combina. En un vehículo de volante, `Diferencia entre orugas`
@@ -78,11 +78,11 @@ es lo que hace un volante.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Ligero, Medio, Pesado | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Cambian los rangos y los tiempos de respuesta, no los controles. |
+| Ligero, Medio, Pesado | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Cambian los rangos y los tiempos de respuesta, no los controles. |
 | Suspensión de torsión / hidroneumática | Ninguno en la conducción básica. La hidroneumática puede **añadir** un control de altura de marcha. | Un mando más de ajuste, no una forma distinta de conducir. |
 | Dirección por palancas | La dirección son **dos** mandos: una palanca por oruga. | Ambas manos quedan ocupadas en la dirección; el conductor manda cada lado por separado. |
 | Dirección por volante | Las dos palancas **desaparecen** y se sustituyen por **un** mando único. | Una mano basta para dirigir; el reparto entre orugas deja de ser decisión del conductor. |
-| Transmisión con palanca de cambio | El cambio de marcha es un mando explícito, como declara el Módulo 5. | El conductor elige la marcha antes del obstáculo. |
+| Transmisión con palanca de cambio | El cambio de marcha es un mando explícito, como declara el Clase 5. | El conductor elige la marcha antes del obstáculo. |
 | Transmisión con selector | La elección de marcha individual **desaparece** de la mano del conductor. | El pie derecho asume lo que antes decidía la mano; el error de "marcha larga en pendiente" deja de ser posible. |
 
 ---
@@ -90,11 +90,11 @@ es lo que hace un volante.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-tanque.md):
+[Clase 9](../simulacion/diseno-simulador-tanque.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Medio | Ninguna: es el caso base. | El del Módulo 5. |
+| Medio | Ninguna: es el caso base. | El del Clase 5. |
 | Ligero | `Presión sobre el suelo` baja y deja de limitar en barro. `Velocidad` usa la parte alta del rango `0-70 km/h`. | El mismo, con respuesta más viva. |
 | Pesado | `Presión sobre el suelo` sube y condiciona el terreno transitable. `Pendiente` exige más par para el mismo grado. | El mismo, con respuesta más lenta. |
 | Suspensión de torsión | `Adherencia` se degrada en terreno irregular porque la oruga pierde apoyo a velocidad alta. | El mismo. |
@@ -139,7 +139,7 @@ de control es otro:
 - **El selector frente a la palanca de cambio**: obliga a que `Marcha` cambie de
   naturaleza. Deja de ser una entrada y pasa a ser un estado interno que el
   simulador calcula. Con ello desaparece del juego uno de los errores que el
-  [Módulo 6](../operacion/principios-tanque.md) quiere enseñar a evitar: subir
+  [Clase 6](../operacion/principios-tanque.md) quiere enseñar a evitar: subir
   una pendiente en marcha larga.
 
 El resto de modelos —ligero, medio, pesado, y las dos suspensiones— sí caben en
@@ -152,6 +152,48 @@ y potencia/peso solo emergen cuando el nivel sube.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar carro pesado frente a vehículo blindado ligero frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «carro pesado frente a vehículo blindado ligero» resuelven prioridades distintas. Una comparación profesional sigue la cadena motor → transmisión → ruedas tractoras → orugas: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **tracción y presión sobre el terreno condicionadas por masa, reparto y resistencia al avance**. El hilo de
+seguridad consiste en reconocer a tiempo **atasco, pérdida de movilidad o exposición por elegir una ruta incompatible** y poder justificar la decisión
+**reconocer capacidad del terreno y escoger ruta, velocidad y orientación del casco**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → ruedas tractoras → orugas**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Tank Collection](https://tankmuseum.org/tank-nuts/tank-collection) aporta historia pública de vehículos blindados;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **cruce simulado de suelo blando con cambio de pendiente**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **motor** hasta **orugas**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **motor → transmisión → ruedas tractoras → orugas** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «cruce simulado de suelo blando con cambio de pendiente» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

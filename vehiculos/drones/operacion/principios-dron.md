@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: DRONES-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación del dron
 
@@ -74,6 +74,55 @@ simulación y que principios físicos conviene representar.
 - **Nivel 3 (técnico)**: sumar modos de vuelo, pérdida de GPS y fail-safe.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Principios de funcionamiento, Fases de operación, Vuelo estacionario: idea general y Errores comunes que la simulación puede enseñar a evitar** a **resolver inspección próxima a una estructura con viento y señal GNSS degradada sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: el controlador estabiliza actitud, pero autonomía, enlace y entorno limitan la misión. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: definir límites de viento, batería, enlace, geocerca y retorno antes de despegar.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["el controlador estabiliza actitud, pero autonomía, enlace y entorno limitan la misión"]
+    P --> R["riesgo: pérdida de enlace, deriva, impacto o invasión de espacio no autorizado"]
+    R --> D["decisión: definir límites de viento, batería, enlace, geocerca y retorno antes de despegar"]
+```
+
+Esta clase se conecta con el resto del curso mediante **el controlador estabiliza actitud, pero autonomía, enlace y entorno limitan la misión**. El hilo de
+seguridad consiste en reconocer a tiempo **pérdida de enlace, deriva, impacto o invasión de espacio no autorizado** y poder justificar la decisión
+**definir límites de viento, batería, enlace, geocerca y retorno antes de despegar**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **batería → controladores → motores y hélices → actitud y trayectoria**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Unmanned Aircraft Systems](https://www.faa.gov/uas) aporta operación y normativa RPAS;
+[Normativa aeronáutica](https://www.dgac.gob.cl/normativa/) se usa para marco aeronáutico chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **inspección próxima a una estructura con viento y señal GNSS degradada**.
+2. **Modelo:** aplica **el controlador estabiliza actitud, pero autonomía, enlace y entorno limitan la misión** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **pérdida de enlace, deriva, impacto o invasión de espacio no autorizado**.
+4. **Decisión:** ejecuta mentalmente **definir límites de viento, batería, enlace, geocerca y retorno antes de despegar** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «el controlador estabiliza actitud, pero autonomía, enlace y entorno limitan la misión» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **actitud y trayectoria**?
+3. ¿Qué evidencia confirmaría que **definir límites de viento, batería, enlace, geocerca y retorno antes de despegar** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

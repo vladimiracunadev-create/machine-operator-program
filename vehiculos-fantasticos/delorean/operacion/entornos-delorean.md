@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 7
 codigo: DELOREAN-07
@@ -16,7 +16,7 @@ evidencia: "Matriz entorno–cambio–riesgo–respuesta."
 criterio_aprobacion: "Cada respuesta se adapta al entorno y distingue riesgos que no son intercambiables entre escenarios."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🌍 Entornos de la DeLorean temporal
 
@@ -74,7 +74,7 @@ mindmap
 | Fecha de origen | Momento desde el que parte el salto | Punto de referencia narrativo. |
 | Fecha de destino | Momento al que apunta el salto | En la realidad no es alcanzable hacia el pasado. |
 | Distancia temporal | Diferencia entre origen y destino | La ficción la trata como ajustable a voluntad. |
-| Riesgo de paradoja | Posibilidad de alterar causas | Central en el Módulo 8. |
+| Riesgo de paradoja | Posibilidad de alterar causas | Central en el Clase 8. |
 
 ---
 
@@ -94,7 +94,49 @@ mindmap
 
 Cada entorno es un escenario configurable con su superficie, clima, energía
 disponible y modo activo. El diseño completo se detalla en el
-[Módulo 9: Diseño de simulación](../simulacion/diseno-simulador-delorean.md).
+[Clase 9: Diseño de simulación](../simulacion/diseno-simulador-delorean.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Entornos y factores, Factores del entorno físico, Factores del "entorno temporal" ficticio y Cómo cambia la operación según el entorno** a **adaptar intento de alcanzar la condición temporal en una vía con espacio limitado a tres condiciones ambientales distintas**?
+
+### Explicación razonada
+
+El entorno no es decoración: modifica las fuerzas, la percepción y el tiempo disponible. En el caso «intento de alcanzar la condición temporal en una vía con espacio limitado», cambia el comportamiento de sistema temporal y aumenta la probabilidad de confundir canon con física real y omitir los riesgos ordinarios del automóvil. La respuesta correcta empieza por reconocer qué variable cambió y después adaptar límites, ruta o misión.
+
+Esta clase se conecta con el resto del curso mediante **separación entre mecánica automotriz plausible y regla narrativa de velocidad y energía**. El hilo de
+seguridad consiste en reconocer a tiempo **confundir canon con física real y omitir los riesgos ordinarios del automóvil** y poder justificar la decisión
+**declarar qué regla pertenece al relato y modelar aparte movimiento, energía y seguridad reales**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor y alimentación ficticia → transmisión → ruedas → sistema temporal**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Back to the Future](https://www.universalpicturesathome.com/movies/back-to-the-future) aporta obra audiovisual primaria;
+[Vehicle Safety](https://www.nhtsa.gov/vehicle-safety) se usa para seguridad de vehículos terrestres. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Escenario base:** conserva la misión «intento de alcanzar la condición temporal en una vía con espacio limitado» para poder comparar.
+2. **Cambiar una condición:** modifica sucesivamente superficie o medio, visibilidad y perturbación externa.
+3. **Recalcular margen:** explica cómo cada cambio afecta **sistema temporal** y acerca o aleja **confundir canon con física real y omitir los riesgos ordinarios del automóvil**.
+4. **Adaptar:** cambia límite, ruta, configuración o incluso cancela; no mantengas la misma respuesta por hábito.
+
+### Comprueba tu comprensión
+
+1. ¿Cómo cambiaría **sistema temporal** si empeora la perturbación externa?
+2. ¿Qué condición ambiental acerca más el escenario a **confundir canon con física real y omitir los riesgos ordinarios del automóvil**?
+3. ¿Cuándo adaptarías la maniobra y cuándo la cancelarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

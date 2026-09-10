@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 6
 codigo: TRENCARGA-06
@@ -16,7 +16,7 @@ evidencia: "Resolución argumentada de un escenario operacional."
 criterio_aprobacion: "Aplica los principios correctos, anticipa consecuencias y respeta los límites del curso."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧪 Principios y operación del tren de carga
 
@@ -73,6 +73,55 @@ simulación y que principios físicos conviene representar.
 - **Nivel 3 (técnico)**: sumar fuerzas longitudinales, distributed power y freno dinámico.
 
 Ver [`docs/03-niveles-de-realismo.md`](../../../docs/03-niveles-de-realismo.md) para el detalle de cada nivel.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Principios de funcionamiento, Fases de operación, Gestión de fuerzas longitudinales y Errores comunes que la simulación puede enseñar a evitar** a **resolver arranque de un tren largo en rampa con holguras entre enganches sin agotar el margen operacional**?
+
+### Explicación razonada
+
+El principio rector puede resumirse así: fuerzas longitudinales del tren y propagación del freno neumático. Esto explica por qué una misma orden produce resultados distintos cuando cambian velocidad, carga, configuración o entorno. Operar bien consiste en leer la tendencia antes de agotar el margen y tomar esta decisión: aplicar potencia y freno de modo gradual considerando la longitud completa.
+
+```mermaid
+flowchart LR
+    C["condición inicial"] --> P["fuerzas longitudinales del tren y propagación del freno neumático"]
+    P --> R["riesgo: rotura de enganche, patinaje o compresión excesiva del convoy"]
+    R --> D["decisión: aplicar potencia y freno de modo gradual considerando la longitud completa"]
+```
+
+Esta clase se conecta con el resto del curso mediante **fuerzas longitudinales del tren y propagación del freno neumático**. El hilo de
+seguridad consiste en reconocer a tiempo **rotura de enganche, patinaje o compresión excesiva del convoy** y poder justificar la decisión
+**aplicar potencia y freno de modo gradual considerando la longitud completa**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **locomotora → generador y tracción → enganches → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Datos:** reconoce condiciones, configuración y margen disponibles en **arranque de un tren largo en rampa con holguras entre enganches**.
+2. **Modelo:** aplica **fuerzas longitudinales del tren y propagación del freno neumático** para predecir una tendencia antes de actuar.
+3. **Riesgo:** explica mediante qué cadena de causas podría ocurrir **rotura de enganche, patinaje o compresión excesiva del convoy**.
+4. **Decisión:** ejecuta mentalmente **aplicar potencia y freno de modo gradual considerando la longitud completa** y define qué observación confirmaría que funcionó.
+
+### Comprueba tu comprensión
+
+1. ¿Qué variable del principio «fuerzas longitudinales del tren y propagación del freno neumático» cambia primero en el caso?
+2. ¿Cómo se propaga ese cambio hasta **rueda-carril**?
+3. ¿Qué evidencia confirmaría que **aplicar potencia y freno de modo gradual considerando la longitud completa** conservó margen operacional?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

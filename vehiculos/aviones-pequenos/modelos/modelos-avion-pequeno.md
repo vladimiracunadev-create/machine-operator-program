@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: AVIONESPEQUE-03
@@ -16,14 +16,14 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del avión pequeño
 
 [🏠 Inicio](../../../README.md) · [🛩️ Curso: Aviones pequeños](../README.md) · 🧩 Modelos
 
-El [Módulo 2](../operacion/caracteristicas-avion-pequeno.md) ya dijo qué tipos de
-avión pequeño existen y para qué sirve cada uno. Este módulo responde a lo
+El [Clase 2](../operacion/caracteristicas-avion-pequeno.md) ya dijo qué tipos de
+avión pequeño existen y para qué sirve cada uno. Esta clase responde a lo
 siguiente: **no todos se pilotan igual**, y esa diferencia no es de matiz. Cambia
 qué mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
@@ -38,18 +38,18 @@ qué mandos tiene la máquina y, por tanto, qué debe modelar el simulador.
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-avion-pequeno.md) describe una consola con
+El [Clase 5](../mandos/manual-mandos-avion-pequeno.md) describe una consola con
 tres mandos de motor: **acelerador, mezcla y flaps**. No hay palanca de hélice ni
-selector de tren. El [Módulo 9](../simulacion/diseno-simulador-avion-pequeno.md)
+selector de tren. El [Clase 9](../simulacion/diseno-simulador-avion-pequeno.md)
 expone una variable `Potencia del motor` de `0-100%` como único parámetro de
 propulsión. Ambos describen un avión de **hélice de paso fijo, tren fijo y un
-solo motor**: el monomotor de escuela del Módulo 2.
+solo motor**: el monomotor de escuela del Clase 2.
 
 En cuanto el modelo lleva hélice de paso variable, ese `0-100%` deja de bastar:
 la potencia pasa a ser un par de valores —presión de admisión y rpm— que el
 piloto ajusta con dos palancas distintas, y el tacómetro deja de seguir al
 acelerador. Y en cuanto el tren es retráctil, aparece un mando con estado propio
-que el Módulo 9 no tiene: la posición del tren no es un ajuste, es una condición
+que el Clase 9 no tiene: la posición del tren no es un ajuste, es una condición
 del aterrizaje. Si el simulador se construye sobre el esquema de escuela y luego
 se le "añade" un bimotor de turismo, el resultado es un bimotor con una sola
 palanca de gases, que no existe.
@@ -74,7 +74,7 @@ palanca de gases, que no existe.
 
 | Modelo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Monomotor de escuela, Deportivo ligero | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Cambian los rangos, no los controles. |
+| Monomotor de escuela, Deportivo ligero | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Cambian los rangos, no los controles. |
 | Ultraligero | El mando de vuelo es bastón en lugar de yugo; la consola es la más reducida del curso. | Menos que gestionar, pero cada entrada pesa más en el resultado. |
 | Turismo monomotor (paso variable) | **Aparece** la palanca de hélice, un tercer mando de consola entre acelerador y mezcla. | La potencia deja de fijarse con un solo control, y el tacómetro deja de depender del acelerador. |
 | Turismo monomotor (tren retráctil) | **Aparece** el selector de tren, con posición propia y aviso asociado. | Nuevo mando de estado: recogerlo y sacarlo son pasos obligados del despegue y la aproximación. |
@@ -87,15 +87,15 @@ palanca de gases, que no existe.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-avion-pequeno.md):
+[Clase 9](../simulacion/diseno-simulador-avion-pequeno.md):
 
 | Modelo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Monomotor de escuela | Ninguna: es el caso base. | El del Módulo 5. |
+| Monomotor de escuela | Ninguna: es el caso base. | El del Clase 5. |
 | Ultraligero | `Viento` deja de ser una corrección de rumbo y pasa a pesar en el cálculo como el resto de fuerzas. `Velocidad (IAS)` y `Altitud` reducen su rango útil. | El mismo, con bastón y consola mínima. |
 | Deportivo ligero | Ninguna estructural: `Velocidad (IAS)` y `Combustible` ajustan rango. | El mismo. |
 | Turismo monomotor (paso variable) | `Potencia del motor` **deja de ser un escalar** `0-100%`: se desdobla en potencia demandada y régimen de hélice, que el piloto fija por separado. | Tres mandos de consola; el tacómetro pasa a ser una lectura gobernada, no un reflejo del acelerador. |
-| Turismo monomotor (tren retráctil) | **Aparece** una variable de estado del tren (recogido / extendido / en tránsito) que el Módulo 9 no contempla, y que entra en `Resistencia` y en la validación del aterrizaje. | El mismo, más un mando discreto con consecuencia irreversible dentro de la partida. |
+| Turismo monomotor (tren retráctil) | **Aparece** una variable de estado del tren (recogido / extendido / en tránsito) que el Clase 9 no contempla, y que entra en `Resistencia` y en la validación del aterrizaje. | El mismo, más un mando discreto con consecuencia irreversible dentro de la partida. |
 | Bimotor ligero | `Potencia del motor` **pasa a ser una por motor**; `Combustible` se reparte por lado y el desbalance importa. La `Actitud` deja de depender solo de los mandos de vuelo: la asimetría de empuje la mueve. | Consola duplicada; la guiñada pasa de coordinación puntual a entrada sostenida. |
 | Anfibio / hidroavión | `Velocidad (IAS)` gana una fase de agua antes del despegue; el `Viento` actúa además sobre la superficie. La frenada en tierra **desaparece** del modelo cuando opera sobre flotadores. | Sin frenos de pedal en agua; con selector de tren en el anfibio. |
 | Variante de patín de cola | La guiñada en tierra deja de ser un valor estable y pasa a ser una variable que diverge sin corrección del piloto. | El mismo, con el rodaje modelado como fase activa. |
@@ -132,14 +132,14 @@ control es otro:
 - **El bimotor ligero** frente al resto: no tiene una consola más grande, tiene
   dos consolas. `Potencia del motor` deja de ser una variable y pasa a ser dos, y
   la diferencia entre ambas produce una fuerza que ningún mando de vuelo del
-  Módulo 5 estaba pensado para compensar de forma continua.
+  Clase 5 estaba pensado para compensar de forma continua.
 - **El turismo con paso variable y tren retráctil** frente al de escuela: añade
-  dos mandos que no existen en el mapa del Módulo 5 y una variable de estado que
-  no existe en el Módulo 9. Es un puesto de mando distinto, no un avión más
+  dos mandos que no existen en el mapa del Clase 5 y una variable de estado que
+  no existe en el Clase 9. Es un puesto de mando distinto, no un avión más
   rápido.
 - **El hidroavión de flotadores** frente a los de rueda: le falta una entrada
   —los frenos en las puntas de los pedales— y le sobra una fase, la del agua, que
-  el ciclo básico del Módulo 9 no recorre. En el anfibio el problema se agrava:
+  el ciclo básico del Clase 9 no recorre. En el anfibio el problema se agrava:
   el mismo mando de tren tiene la posición correcta invertida según la superficie.
 
 El resto de modelos sí caben en un mismo simulador ajustando rangos, tal como
@@ -153,6 +153,48 @@ rodaje como algo más que un traslado hasta la pista.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar entrenador de ala alta frente a turismo de ala baja frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «entrenador de ala alta frente a turismo de ala baja» resuelven prioridades distintas. Una comparación profesional sigue la cadena motor → hélice → flujo de aire → alas y mandos: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **balance entre sustentación, peso, empuje y resistencia dentro de una envolvente limitada**. El hilo de
+seguridad consiste en reconocer a tiempo **pérdida aerodinámica o salida de pista por velocidad y trayectoria inestables** y poder justificar la decisión
+**estabilizar aproximación y frustrar si no se cumplen criterios antes del umbral**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → hélice → flujo de aire → alas y mandos**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) aporta aerodinámica, sistemas y operación;
+[Normativa aeronáutica](https://www.dgac.gob.cl/normativa/) se usa para marco aeronáutico chileno. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **aproximación con viento cruzado y pista corta**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **motor** hasta **alas y mandos**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **motor → hélice → flujo de aire → alas y mandos** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «aproximación con viento cruzado y pista corta» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

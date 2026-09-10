@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: TRENCARGA-04
@@ -16,17 +16,17 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del tren de carga
 
 [🏠 Inicio](../../../README.md) · [🚂 Curso: Tren de carga](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre el tren de carga por dentro y es el corazón del curso. Explica
+Esta clase abre el tren de carga por dentro y es el corazón del curso. Explica
 cada sistema, como funciona y cómo se conecta con los demás, con foco en la
 tracción, la adherencia rueda-riel, el frenado de gran masa, la composición del
-tren y los enganches. Es la base técnica para entender los mandos (Módulo 5) y la
-física de la operación con carga (Módulo 6).
+tren y los enganches. Es la base técnica para entender los mandos (Clase 5) y la
+física de la operación con carga (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -222,8 +222,57 @@ ejes sobre la vía y como está senalizada la circulación.
 6. El **freno neumático** actua en todo el tren; el **dinámico** ahorra zapatas.
 7. El **peso por eje** y la **vía** limitan cuanto tonelaje se puede mover.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-tren-carga.md)
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-tren-carga.md)
 muestra como el maquinista opera cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Tracción diesel-eléctrica y eléctrica, Bogies, ruedas y adherencia, Frenado de gran masa y Composición del tren** a **seguir una alteración desde locomotora hasta rueda-carril durante arranque de un tren largo en rampa con holguras entre enganches**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: locomotora entrega o transforma energía; generador y tracción la adapta; enganches la transmite o gobierna; y rueda-carril produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de rueda-carril y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["locomotora"] --> B["generador y tracción"] --> C["enganches"] --> D["rueda-carril"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **fuerzas longitudinales del tren y propagación del freno neumático**. El hilo de
+seguridad consiste en reconocer a tiempo **rotura de enganche, patinaje o compresión excesiva del convoy** y poder justificar la decisión
+**aplicar potencia y freno de modo gradual considerando la longitud completa**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **locomotora → generador y tracción → enganches → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **locomotora** durante **arranque de un tren largo en rampa con holguras entre enganches**.
+2. **Transformación:** explica qué hacen **generador y tracción** y **enganches**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **rueda-carril** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **rotura de enganche, patinaje o compresión excesiva del convoy**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **generador y tracción**, ¿qué efecto esperarías primero en **enganches** y después en **rueda-carril**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **locomotora** de una falla de **enganches**?
+3. ¿Por qué una segunda orden podría agravar **rotura de enganche, patinaje o compresión excesiva del convoy**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

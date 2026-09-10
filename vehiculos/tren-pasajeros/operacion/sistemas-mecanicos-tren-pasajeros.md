@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: TRENPASAJERO-04
@@ -16,16 +16,16 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del tren de pasajeros
 
 [🏠 Inicio](../../../README.md) · [🚆 Curso: Tren de pasajeros](../README.md) · 🔧 Sistemas mecánicos
 
-Este módulo abre el tren por dentro. Explica cada sistema, como funciona y como
+Esta clase abre el tren por dentro. Explica cada sistema, como funciona y como
 se conecta con los demás, con foco en la tracción, la guía sobre rieles, la
 adherencia y el frenado de gran masa. Es la base técnica para entender los mandos
-(Módulo 5) y la operación con pasajeros (Módulo 6).
+(Clase 5) y la operación con pasajeros (Clase 6).
 
 ```mermaid
 flowchart LR
@@ -231,8 +231,57 @@ rieles. Define que trenes pueden circular por una red.
    **regenerativo**.
 7. La **señalización** y el **ATP** ordenan la circulación y protegen distancias.
 
-Con esto entendido, el [Módulo 5: Mandos](../mandos/manual-mandos-tren-pasajeros.md)
+Con esto entendido, el [Clase 5: Mandos](../mandos/manual-mandos-tren-pasajeros.md)
 muestra como el maquinista opera cada uno de estos sistemas.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Tracción eléctrica, Tracción diesel-eléctrica, Bogies y ruedas de pestaña y Adherencia rueda-riel** a **seguir una alteración desde captación o motor hasta rueda-carril durante aproximación a estación con lluvia y alta ocupación**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: captación o motor entrega o transforma energía; convertidor de tracción la adapta; motores de eje la transmite o gobierna; y rueda-carril produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de rueda-carril y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["captación o motor"] --> B["convertidor de tracción"] --> C["motores de eje"] --> D["rueda-carril"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **adherencia rueda-carril, curva de frenado y cumplimiento de señales**. El hilo de
+seguridad consiste en reconocer a tiempo **rebasar el punto de parada o comprometer la comodidad por frenar tarde** y poder justificar la decisión
+**anticipar la frenada según señal, pendiente, adherencia y carga**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **captación o motor → convertidor de tracción → motores de eje → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **captación o motor** durante **aproximación a estación con lluvia y alta ocupación**.
+2. **Transformación:** explica qué hacen **convertidor de tracción** y **motores de eje**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **rueda-carril** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **rebasar el punto de parada o comprometer la comodidad por frenar tarde**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **convertidor de tracción**, ¿qué efecto esperarías primero en **motores de eje** y después en **rueda-carril**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **captación o motor** de una falla de **motores de eje**?
+3. ¿Por qué una segunda orden podría agravar **rebasar el punto de parada o comprometer la comodidad por frenar tarde**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

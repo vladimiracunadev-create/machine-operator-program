@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 1
 codigo: BUSES-01
@@ -16,7 +16,7 @@ evidencia: "Línea de tiempo comentada con cuatro hitos o más."
 criterio_aprobacion: "Los hitos están ordenados, son pertinentes y dos relaciones de causa y efecto quedan justificadas."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 📜 Historia del bus
 
@@ -79,10 +79,47 @@ de infraestructura frente al tren o el metro. Permite movilidad masiva y equitat
 articula las ciudades y sostiene la actividad económica diaria. Su electrificación
 es hoy una palanca clave para reducir emisiones y ruido en las urbes.
 
-## Fuentes
+## 🧭 Guía de estudio aplicada
 
-- Registrar aquí las fuentes públicas consultadas.
-- Enlazar cada fuente también en [`manuales/fuentes.md`](../../../manuales/fuentes.md).
+### Pregunta guía
+
+¿Cómo ayuda **Origen, Línea de tiempo, Evolución tecnológica y Tipos representativos** a **explicar cómo la evolución hizo posibles alternativas como bus urbano frente a autocar interurbano**?
+
+### Explicación razonada
+
+La evolución de Buses se comprende mejor como una sucesión de respuestas a problemas, no como una lista de fechas. Los cambios en motor, transmisión, freno de servicio y retardador y ejes alteraron qué podía hacer la máquina, quién podía usarla y qué riesgos debían controlarse. El contraste «bus urbano frente a autocar interurbano» permite observar qué decisiones de diseño permanecieron y cuáles cambiaron con la tecnología y el propósito.
+
+Esta clase se conecta con el resto del curso mediante **gestión de inercia, distancia de detención y transferencia de peso con pasajeros**. El hilo de
+seguridad consiste en reconocer a tiempo **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas** y poder justificar la decisión
+**seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **motor → transmisión → freno de servicio y retardador → ejes**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Ley de Tránsito 18.290](https://www.bcn.cl/leychile/navegar?idNorma=29708) aporta marco legal chileno;
+[Commercial Driver's License Manual](https://www.fmcsa.dot.gov/registration/commercial-drivers-license/cdl-manual) se usa para operación de buses y camiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Situar:** ordena los hitos que explican cómo se llegó a **bus urbano frente a autocar interurbano** y describe la necesidad que impulsó cada cambio.
+2. **Relacionar:** explica qué se modificó en **motor**, **transmisión**, **freno de servicio y retardador** o **ejes**; una fecha sin mecanismo no basta.
+3. **Interpretar:** vincula el cambio con una capacidad nueva y también con el riesgo **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas**.
+4. **Transferir:** usa la evolución para justificar por qué hoy conviene **seleccionar marcha y retardador antes de que la velocidad obligue a abusar del freno**.
+
+### Comprueba tu comprensión
+
+1. ¿Qué necesidad histórica impulsó un cambio en **motor** o **transmisión**?
+2. ¿Qué hito modificó la relación entre capacidad y **sobrecalentar los frenos o provocar caídas de pasajeros con acciones bruscas**?
+3. ¿Por qué **bus urbano frente a autocar interurbano** no puede explicarse como una simple diferencia estética?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

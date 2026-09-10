@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 4
 codigo: CAZATRANSFOR-04
@@ -16,7 +16,7 @@ evidencia: "Esquema con flujos de energía, materia o información anotados."
 criterio_aprobacion: "Las conexiones esenciales son correctas y la consecuencia de la falla se propaga de manera coherente."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🔧 Sistemas mecánicos del caza transformable
 
@@ -140,6 +140,55 @@ el peso de las alas. Nunca aprovechas todo a la vez.
 La lectura educativa es clara: piezas sueltas del concepto existen o son
 plausibles, pero el conjunto completo, rápido y ligero pertenece por ahora a la
 ficción.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **La estructura que se reconfigura, Juntas, actuadores y grados de libertad, El centro de masa que se desplaza y El problema de la masa y las cargas** a **seguir una alteración desde fuente de energía ficticia hasta configuración de vuelo o robot durante transición simulada de vuelo a modo robot durante una misión**?
+
+### Explicación razonada
+
+El funcionamiento puede leerse como una cadena causal: fuente de energía ficticia entrega o transforma energía; actuadores de transformación la adapta; propulsión la transmite o gobierna; y configuración de vuelo o robot produce el efecto observable. La cadena no es lineal en sentido estricto: sensores, estructura y operador cierran el lazo. Si un eslabón se degrada, la señal importante es cómo cambia el estado de configuración de vuelo o robot y qué margen queda.
+
+```mermaid
+flowchart LR
+    A["fuente de energía ficticia"] --> B["actuadores de transformación"] --> C["propulsión"] --> D["configuración de vuelo o robot"]
+    D -. respuesta observable .-> O["operador o control"]
+    O -. orden y verificación .-> A
+```
+
+Esta clase se conecta con el resto del curso mediante **cambiar de configuración altera masa aparente, control, resistencia y función narrativa**. El hilo de
+seguridad consiste en reconocer a tiempo **ocultar discontinuidades físicas bajo una animación sin reglas de estado** y poder justificar la decisión
+**definir condiciones, costos y límites de cada transición antes de simularla**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **fuente de energía ficticia → actuadores de transformación → propulsión → configuración de vuelo o robot**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Robotech](https://robotech.com/) aporta referencia oficial del universo ficticio;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Entrada:** identifica el estado inicial de **fuente de energía ficticia** durante **transición simulada de vuelo a modo robot durante una misión**.
+2. **Transformación:** explica qué hacen **actuadores de transformación** y **propulsión**, y qué magnitud cambia en cada paso.
+3. **Salida:** comprueba el efecto esperado en **configuración de vuelo o robot** y busca una desviación temprana.
+4. **Falla razonada:** si aparece **ocultar discontinuidades físicas bajo una animación sin reglas de estado**, retrocede por la cadena antes de ordenar otra acción.
+
+### Comprueba tu comprensión
+
+1. Si se degrada **actuadores de transformación**, ¿qué efecto esperarías primero en **propulsión** y después en **configuración de vuelo o robot**?
+2. ¿Qué observación ayudaría a diferenciar una falla de **fuente de energía ficticia** de una falla de **propulsión**?
+3. ¿Por qué una segunda orden podría agravar **ocultar discontinuidades físicas bajo una animación sin reglas de estado**?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: ESTRELLADELA-03
@@ -16,7 +16,7 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes de la Estrella de la Muerte
 
@@ -24,8 +24,8 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-El [Módulo 2](../operacion/caracteristicas-estrella-de-la-muerte.md) ya dijo qué
-es una estación del tamaño de una luna y qué rasgos la definen. Este módulo
+El [Clase 2](../operacion/caracteristicas-estrella-de-la-muerte.md) ya dijo qué
+es una estación del tamaño de una luna y qué rasgos la definen. Esta clase
 empieza reconociendo un problema honesto: **aquí no hay una familia de modelos**.
 No existen la "versión turismo" y la "versión deportiva" de una estación-mundo.
 Hay una sola estación. Lo que sí cambia —y cambia el mando entero— es la
@@ -42,21 +42,21 @@ Hay una sola estación. Lo que sí cambia —y cambia el mando entero— es la
 
 ## 🧭 Por qué el modelo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-estrella-de-la-muerte.md) describe un
+El [Clase 5](../mandos/manual-mandos-estrella-de-la-muerte.md) describe un
 puesto de mando con una estación de energía que reparte el presupuesto, una
 estación térmica que vigila el calor acumulado y un instrumento de gravedad
-interior. El [Módulo 9](../simulacion/diseno-simulador-estrella-de-la-muerte.md)
+interior. El [Clase 9](../simulacion/diseno-simulador-estrella-de-la-muerte.md)
 expone variables como `Presupuesto de energía`, `Calor acumulado`, `Gravedad
 propia` y `Masa total`. Todas describen una estación **de escala lunar operada en
 modo ciencia**.
 
 Cambia la escala y esas variables se quedan sin contenido. En una estación
 orbital de escala real no hay `Gravedad propia` que leer: no hay masa suficiente
-para generarla, y el instrumento de gravedad interior del Módulo 5 no mide nada.
-Cambia el modo y ocurre algo aún más fuerte: el propio Módulo 9 define el **modo
+para generarla, y el instrumento de gravedad interior del Clase 5 no mide nada.
+Cambia el modo y ocurre algo aún más fuerte: el propio Clase 9 define el **modo
 ficción** como aquel en el que la energía es casi infinita y el calor no molesta.
 En ese modo, el reparto de potencia —la decisión central de toda la operación
-según el Módulo 5— deja de decidir nada. El mando sigue en la consola, pero ya no
+según el Clase 5— deja de decidir nada. El mando sigue en la consola, pero ya no
 manda.
 
 Si el simulador se construye sobre un solo esquema, está representando una
@@ -81,7 +81,7 @@ escala concreta y un modo concreto aunque diga representarlos todos.
 
 | Modelo o escala | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
-| Estación-mundo en modo ciencia | Ninguno: el mapa de controles del Módulo 5 aplica tal cual. | Es el caso base del curso. |
+| Estación-mundo en modo ciencia | Ninguno: el mapa de controles del Clase 5 aplica tal cual. | Es el caso base del curso. |
 | Estación-mundo en modo ficción | **Se vacían** el reparto de potencia y la alerta térmica: siguen presentes, pero con energía casi infinita y calor irrelevante no queda nada que repartir ni que recortar. | El operador deja de decidir. La estación se pilota; no se administra. |
 | Estación orbital de escala real | **Desaparece** el instrumento de gravedad interior: sin masa lunar no hay gravedad propia que leer. Las órdenes de maniobra **dejan de ser** una planificación a muy largo plazo. | Se pierde el "arriba y abajo" internos y la maniobra vuelve a ser una respuesta, no una espera. |
 | Escenario en órbita de un planeta | **Aparece** la vigilancia de esfuerzos estructurales por la gravedad externa y las mareas. | La mecánica orbital condiciona todas las demás órdenes. |
@@ -93,11 +93,11 @@ escala concreta y un modo concreto aunque diga representarlos todos.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-estrella-de-la-muerte.md):
+[Clase 9](../simulacion/diseno-simulador-estrella-de-la-muerte.md):
 
 | Modelo o escala | Variables que cambian | Esquema de control |
 | --- | --- | --- |
-| Estación-mundo en modo ciencia | Ninguna: es el caso base. `Modo` fijado en ciencia. | El del Módulo 5. |
+| Estación-mundo en modo ciencia | Ninguna: es el caso base. `Modo` fijado en ciencia. | El del Clase 5. |
 | Estación-mundo en modo ficción | `Modo` **conmuta** a ficción. `Presupuesto de energía` deja de limitar y `Calor acumulado` deja de subir con el consumo. `Masa total` deja de frenar la maniobra. | El mismo puesto, pero sin decisión de reparto ni de recorte térmico. |
 | Estación orbital de escala real | `Gravedad propia` **se elimina**: sin masa lunar no tiene valor que tomar. `Masa total` sale de la escala del curso y deja de dominar la aceleración. | Sin lectura de gravedad interior; maniobra con respuesta apreciable. |
 | Escenario en órbita de un planeta | `Gravedad propia` deja de ser el único término: se le suma la gravedad externa del planeta. | El mismo, con la estructura como límite añadido. |
@@ -138,12 +138,12 @@ otro:
   como mundo.
 - **El modo ficción** frente al modo ciencia: no es un nivel fácil. Con energía
   casi infinita y calor irrelevante, el reparto de potencia deja de ser una
-  decisión, y el puesto de mando del Módulo 5 se queda sin su función central.
+  decisión, y el puesto de mando del Clase 5 se queda sin su función central.
   Por eso las [reglas del universo](../reglamentos/reglas-universo-estrella-de-la-muerte.md)
   piden avisar en pantalla qué regla se activa o se desactiva al conmutar: no es
   un ajuste, es otro contrato con el jugador.
 
-Los escenarios de entorno del [Módulo 7](../operacion/entornos-estrella-de-la-muerte.md)
+Los escenarios de entorno del [Clase 7](../operacion/entornos-estrella-de-la-muerte.md)
 sí caben en un mismo simulador ajustando rangos, tal como plantean los
 [niveles de realismo](../../../docs/03-niveles-de-realismo.md): en el nivel 1
 basta con notar que existen gravedad propia y un límite de energía, y las
@@ -153,6 +153,48 @@ diferencias emergen a medida que el nivel sube.
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modelo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar estación móvil ficticia frente a estación orbital real frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «estación móvil ficticia frente a estación orbital real» resuelven prioridades distintas. Una comparación profesional sigue la cadena reactor ficticio → distribución → propulsión y control → estación: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **una megaestructura debe modelarse como red de subsistemas y dependencias, no como un solo vehículo**. El hilo de
+seguridad consiste en reconocer a tiempo **crear un sistema invulnerable o sin propagación comprensible de fallas** y poder justificar la decisión
+**mapear dependencias, redundancias y estados degradados antes de decidir**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **reactor ficticio → distribución → propulsión y control → estación**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Death Star](https://www.starwars.com/databank/death-star) aporta canon narrativo de la estación;
+[Spaceships and Rockets](https://www.nasa.gov/humans-in-space/spaceships-and-rockets/) se usa para naves, sistemas y misiones. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **falla simulada de distribución que afecta sectores distintos**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **reactor ficticio** hasta **estación**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **reactor ficticio → distribución → propulsión y control → estación** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «falla simulada de distribución que afecta sectores distintos» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

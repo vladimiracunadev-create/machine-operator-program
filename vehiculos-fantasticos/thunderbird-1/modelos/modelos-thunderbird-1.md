@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 3
 codigo: THUNDERBIRD1-03
@@ -16,7 +16,7 @@ evidencia: "Matriz comparativa y decisión justificada."
 criterio_aprobacion: "La elección considera función, límites, mando y efecto en la simulación; no se apoya solo en preferencias."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🧩 Modelos y variantes del Thunderbird 1
 
@@ -24,12 +24,12 @@ ultima_revision: 2026-09-10
 
 > ⚖️ Material educativo original; los derechos de las obras pertenecen a sus titulares.
 
-El [Módulo 2](../operacion/caracteristicas-thunderbird-1.md) ya dijo qué tipos
+El [Clase 2](../operacion/caracteristicas-thunderbird-1.md) ya dijo qué tipos
 conceptuales de vehículo de respuesta rápida existen —explorador ligero,
 transporte pesado, nave de transición— y qué compromiso físico acepta cada uno.
-Este módulo responde a otra cosa, y conviene decirlo sin rodeos: en esta nave el
+Esta clase responde a otra cosa, y conviene decirlo sin rodeos: en esta nave el
 eje que decide el simulador **no es el modelo, es el modo de vuelo**. Los tres
-tipos del Módulo 2 se distinguen por masa y empuje disponible, es decir, por
+tipos del Clase 2 se distinguen por masa y empuje disponible, es decir, por
 rangos. Los modos de vuelo se distinguen por qué mandos tienen sentido, que es
 otra categoría de diferencia.
 
@@ -44,18 +44,18 @@ otra categoría de diferencia.
 
 ## 🧭 Por qué el modo decide el simulador
 
-El [Módulo 5](../mandos/manual-mandos-thunderbird-1.md) no deja lugar a dudas:
+El [Clase 5](../mandos/manual-mandos-thunderbird-1.md) no deja lugar a dudas:
 entre sus controles hay un **selector de modo de vuelo** —vertical, transición o
 crucero— cuya función declarada es "cambia como responden los mandos". No cambia
 la dificultad ni los rangos: cambia la respuesta. Ese selector es la confesión de
 que hay tres máquinas debajo.
 
-La razón física está en el [Módulo 4](../operacion/sistemas-mecanicos-thunderbird-1.md)
-y en el [Módulo 6](../operacion/principios-thunderbird-1.md). En vertical, la nave
+La razón física está en el [Clase 4](../operacion/sistemas-mecanicos-thunderbird-1.md)
+y en el [Clase 6](../operacion/principios-thunderbird-1.md). En vertical, la nave
 se sostiene por empuje directo: la palanca de potencia decide si sube, flota o
 baja, y la relación empuje/peso es la variable que manda. En crucero, las alas
 sostienen y el motor rebaja el empuje: esa misma palanca ya no decide la altura
-sino la velocidad. Las alas, dice el Módulo 4, "casi no sirven al despegar". La
+sino la velocidad. Las alas, dice el Clase 4, "casi no sirven al despegar". La
 transición es el único momento en que ambos regímenes conviven, y por eso es el
 más difícil de modelar: el empuje se reparte entre sostener y avanzar.
 
@@ -71,7 +71,7 @@ más difícil de modelar: el empuje se reparte entre sostener y avanzar.
 | Crucero horizontal | Las alas sostienen y el motor solo empuja hacia adelante. Se parece a pilotar un avión: la velocidad se vuelve condición para no caer, no un lujo. |
 | Emergencia | No es un modo de vuelo sino una restricción sobre el activo: poco combustible o falla obligan a ahorrar potencia y aterrizar. |
 
-Los tipos conceptuales del Módulo 2 sí caben en un mismo esquema: el transporte
+Los tipos conceptuales del Clase 2 sí caben en un mismo esquema: el transporte
 pesado necesita más empuje para el mismo despegue y el explorador ligero acelera
 antes, pero ambos usan los mismos mandos. Es una diferencia de rango.
 
@@ -80,7 +80,7 @@ antes, pero ambos usan los mismos mandos. Es una diferencia de rango.
 ## 🎛️ Qué cambia en el mando
 
 Contrastado con el mapa de controles del
-[Módulo 5](../mandos/manual-mandos-thunderbird-1.md):
+[Clase 5](../mandos/manual-mandos-thunderbird-1.md):
 
 | Modo | Qué mando aparece o desaparece | Consecuencia |
 | --- | --- | --- |
@@ -91,7 +91,7 @@ Contrastado con el mapa de controles del
 | Emergencia | **Aparece** la gestión de energía del panel central como decisión real: repartir entre motor, sensores y servicios. | En vuelo normal es un mando de prioridad media; aquí decide si la misión termina bien. |
 
 La reasignación de la palanca de potencia es el cambio más fuerte del curso, y no
-tiene equivalente en el mapa de controles: el Módulo 5 describe un solo puesto de
+tiene equivalente en el mapa de controles: el Clase 5 describe un solo puesto de
 mando porque físicamente hay uno solo. Lo que cambia es su significado.
 
 ---
@@ -99,7 +99,7 @@ mando porque físicamente hay uno solo. Lo que cambia es su significado.
 ## 🎮 Qué cambia en el simulador
 
 Contrastado con las variables del
-[Módulo 9](../simulacion/diseno-simulador-thunderbird-1.md):
+[Clase 9](../simulacion/diseno-simulador-thunderbird-1.md):
 
 | Modo | Variables que cambian | Esquema de control |
 | --- | --- | --- |
@@ -109,7 +109,7 @@ Contrastado con las variables del
 | Crucero horizontal | `Relación empuje/peso` **deja de gobernar la altura**: la sostienen las alas vía `Velocidad horizontal`. `Densidad del aire` pasa de detalle a variable central. `Empuje del motor` puede bajar sin caer. | Esquema aerodinámico: potencia como velocidad. |
 | Emergencia | `Combustible` y `Calor del motor` dejan de ser límites de fondo y pasan a ser la restricción activa. | El del modo en curso, con la potencia acotada. |
 
-Una advertencia de nomenclatura: el Módulo 9 ya usa la variable `Modo` para el
+Una advertencia de nomenclatura: el Clase 9 ya usa la variable `Modo` para el
 interruptor **ciencia / ficción**, que es otro eje distinto. El modo de vuelo de
 este módulo necesita su propia variable; confundir ambas rompería las dos.
 
@@ -144,19 +144,61 @@ control es otro:
 - **La transición frente a los dos anteriores**: es el único régimen donde el
   empuje se reparte entre sostener y avanzar, con las alas entrando a medias.
   No es un punto intermedio entre los otros dos: tiene su propia física, y el
-  Módulo 6 insiste en que es gradual, nunca instantánea.
+  Clase 6 insiste en que es gradual, nunca instantánea.
 
-Los tipos conceptuales del Módulo 2 sí caben en un mismo simulador ajustando
-rangos, igual que el interruptor ciencia / ficción del Módulo 9 actúa sobre las
+Los tipos conceptuales del Clase 2 sí caben en un mismo simulador ajustando
+rangos, igual que el interruptor ciencia / ficción del Clase 9 actúa sobre las
 reglas sin tocar los mandos. La escala está en los
 [niveles de realismo](../../../docs/03-niveles-de-realismo.md) que recoge el
-Módulo 6: en el nivel 1 basta despegar y notar que hace falta empuje, y solo al
+Clase 6: en el nivel 1 basta despegar y notar que hace falta empuje, y solo al
 subir de nivel la transición y el crucero exigen su propio esquema.
 
 > ⚖️ **El principio detrás de todo esto.** Cuánto pesa la carga y dónde va no cambia
 > solo los números: cambia qué puede hacer el operador. La física común a todas las
 > máquinas del catálogo —sostener, girar, equilibrar y la masa que cambia en
 > marcha— está en [⚖️ carga y manejo](../../../docs/09-carga-y-manejo.md).
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Por qué el modo decide el simulador, Qué cambia en el manejo, Qué cambia en el mando y Qué cambia en el simulador** a **comparar vuelo supersónico ficticio frente a jet ligero real frente al mismo encargo**?
+
+### Explicación razonada
+
+Las variantes «vuelo supersónico ficticio frente a jet ligero real» resuelven prioridades distintas. Una comparación profesional sigue la cadena energía ficticia → propulsión → superficies de control → trayectoria de respuesta: cada cambio de arquitectura modifica mandos, respuesta, mantenimiento y variables que una simulación debe representar. Elegir un modelo significa justificar qué compromiso sirve mejor al caso, no declarar un favorito.
+
+Esta clase se conecta con el resto del curso mediante **una aeronave de alerta rápida prioriza tiempo de llegada sin abandonar energía ni margen de aterrizaje**. El hilo de
+seguridad consiste en reconocer a tiempo **convertir velocidad narrativa en llegada segura sin plan de aproximación** y poder justificar la decisión
+**separar crucero rápido de aproximación estabilizada y mantener alternativa**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **energía ficticia → propulsión → superficies de control → trayectoria de respuesta**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Thunderbirds Vehicles](https://www.thunderbirds.com/) aporta referencia oficial de vehículos de rescate;
+[Aviation Handbooks and Manuals](https://www.faa.gov/regulations_policies/handbooks_manuals) se usa para aerodinámica, sistemas y operación. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Mantener el encargo constante:** ambas variantes deben evaluarse ante **despliegue de rescate a una pista corta con meteorología cambiante**.
+2. **Trazar consecuencias:** para cada variante sigue el efecto desde **energía ficticia** hasta **trayectoria de respuesta**.
+3. **Comparar el puesto de mando:** determina qué debe percibir y controlar el operador en cada arquitectura.
+4. **Justificar:** elige una variante y explica qué sacrifica; toda selección técnica contiene un compromiso.
+
+### Comprueba tu comprensión
+
+1. ¿Qué cambia en la cadena **energía ficticia → propulsión → superficies de control → trayectoria de respuesta** entre las dos variantes?
+2. ¿Qué indicación o mando adicional necesitaría una de ellas?
+3. ¿Cuál elegirías para «despliegue de rescate a una pista corta con meteorología cambiante» y qué desventaja aceptarías?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 

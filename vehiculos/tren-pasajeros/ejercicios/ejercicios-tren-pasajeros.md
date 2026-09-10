@@ -1,4 +1,4 @@
----
+<!-- clase-meta
 tipo_documento: clase
 clase: 11
 codigo: TRENPASAJERO-11
@@ -16,7 +16,7 @@ evidencia: "Respuestas justificadas y escenario final resuelto."
 criterio_aprobacion: "Alcanza al menos 80 % de los indicadores y no incurre en errores críticos de seguridad."
 fuentes: manuales/fuentes.md
 ultima_revision: 2026-09-10
----
+-->
 
 # 🎯 Ejercicios y autoevaluación del tren de pasajeros
 
@@ -62,7 +62,7 @@ misma familia de motores que usa la tracción eléctrica pura; solo cambia de
 dónde viene la corriente. La ventaja es que no necesita catenaria y sirve en
 vías sin electrificar.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-pasajeros.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-pasajeros.md).
 
 </details>
 
@@ -80,7 +80,7 @@ demasiada tracción hace patinar, demasiado freno bloquea. La humedad, las hojas
 y la grasa lo reducen aún más; el arenado lo aumenta de forma puntual, y más
 peso por eje da más adherencia disponible.
 
-Módulo 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-pasajeros.md).
+Clase 4: [🔧 Sistemas mecánicos](../operacion/sistemas-mecanicos-tren-pasajeros.md).
 
 </details>
 
@@ -115,7 +115,7 @@ El orden importa: la gran masa obliga a decidir temprano, y el dinámico va
 primero porque ahorra desgaste de zapatas y, en su variante regenerativa,
 devuelve energía a la catenaria.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-pasajeros.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-tren-pasajeros.md).
 
 </details>
 
@@ -130,7 +130,7 @@ ferroviario, que define EFE según su normativa interna. El régimen exacto de
 habilitación de maquinistas queda por confirmar en la fuente oficial. La
 autoridad reguladora es el Ministerio de Transportes (MTT).
 
-Módulo 8: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-pasajeros.md) y el
+Clase 8: [⚖️ Reglamentos](../reglamentos/reglamentos-tren-pasajeros.md) y el
 [⚖️ marco legal](../../../docs/07-marco-legal-chile.md), sección 1.6.
 
 </details>
@@ -223,7 +223,7 @@ hasta la señal o el andén. Así el usuario **ve** que la marca de frenado pasa
 antes que el objetivo cuando decidió tarde, y entiende solo por qué hay que
 frenar mucho antes que en un vehículo de carretera.
 
-Módulo 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tren-pasajeros.md).
+Clase 9: [🎮 Diseño de simulación](../simulacion/diseno-simulador-tren-pasajeros.md).
 
 </details>
 
@@ -239,7 +239,7 @@ quiere enseñar. El nivel 2 introduce la inercia, la gran masa y la distancia de
 frenado, que son los conceptos físicos centrales del tren. La adherencia variable,
 el freno dinámico, el ATP y el arenado son el detalle técnico y llegan al final.
 
-Módulo 6: [🧪 Principios y operación](../operacion/principios-tren-pasajeros.md).
+Clase 6: [🧪 Principios y operación](../operacion/principios-tren-pasajeros.md).
 Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 </details>
@@ -258,6 +258,48 @@ Ver [🎚️ niveles de realismo](../../../docs/03-niveles-de-realismo.md).
 
 Si alguna casilla queda vacía, el módulo que la cubre está enlazado en su
 respuesta.
+
+## 🧭 Guía de estudio aplicada
+
+### Pregunta guía
+
+¿Cómo ayuda **Comprueba lo que recuerdas, Aplica: casos de operación, Lleva a la simulación y Guía de estudio aplicada** a **defender una solución integral para aproximación a estación con lluvia y alta ocupación**?
+
+### Explicación razonada
+
+La integración no consiste en repetir definiciones. Ante «aproximación a estación con lluvia y alta ocupación» hay que reconstruir la cadena captación o motor → convertidor de tracción → motores de eje → rueda-carril, aplicar el principio «adherencia rueda-carril, curva de frenado y cumplimiento de señales», reconocer el riesgo y defender una decisión verificable: anticipar la frenada según señal, pendiente, adherencia y carga.
+
+Esta clase se conecta con el resto del curso mediante **adherencia rueda-carril, curva de frenado y cumplimiento de señales**. El hilo de
+seguridad consiste en reconocer a tiempo **rebasar el punto de parada o comprometer la comodidad por frenar tarde** y poder justificar la decisión
+**anticipar la frenada según señal, pendiente, adherencia y carga**; en clases posteriores cambiará el ángulo de análisis, no esa relación causal.
+La lectura funcional común sigue **captación o motor → convertidor de tracción → motores de eje → rueda-carril**, de modo que cada concepto pueda
+ubicarse dentro del funcionamiento completo y no quede como un dato aislado.
+
+**Apoyo documental:** [Railroad Operating Practices](https://railroads.fra.dot.gov/railroad-safety/divisions/operating-practices/operating-practices-0) aporta operación, señalización y competencias ferroviarias;
+[Human Factors: Tasks and Demands](https://railroads.fra.dot.gov/human-factors/elearning-attention/tasks-demands) se usa para factores humanos y carga de trabajo. Estas fuentes
+se contrastan con el alcance de la clase y no sustituyen un manual de equipo concreto.
+
+### Caso resuelto: de la observación a la decisión
+
+1. **Diagnosticar:** reconstruye **captación o motor → convertidor de tracción → motores de eje → rueda-carril** ante **aproximación a estación con lluvia y alta ocupación**.
+2. **Explicar:** aplica **adherencia rueda-carril, curva de frenado y cumplimiento de señales** y cita el dato que sostiene la interpretación.
+3. **Decidir:** propone **anticipar la frenada según señal, pendiente, adherencia y carga** y compara una alternativa que sería menos segura o menos eficaz.
+4. **Verificar:** define evidencia de éxito, condición de abandono y aprendizaje transferible a **unidad eléctrica múltiple frente a tren remolcado**.
+
+### Comprueba tu comprensión
+
+1. ¿Cuál es tu diagnóstico causal de «aproximación a estación con lluvia y alta ocupación»?
+2. ¿Qué alternativa a **anticipar la frenada según señal, pendiente, adherencia y carga** considerarías y por qué ofrece menos margen?
+3. ¿Qué criterio observable usarías para continuar, corregir o abandonar?
+
+<details>
+<summary>Orientación para revisar tus respuestas</summary>
+
+- La primera respuesta debe relacionar el eslabón elegido con un efecto posterior, no solo nombrarlo.
+- La segunda debe proponer una señal medible u observable y explicar qué tendencia sería preocupante.
+- La tercera debe cambiar al menos una variable de capacidad, mando, entorno o margen de seguridad.
+
+</details>
 
 ## 🎓 Cierre de clase
 
