@@ -34,4 +34,6 @@ etiqueta correspondiente o contactando al responsable del repositorio. Todas las
 quejas se revisaran y responderan de forma justa y proporcional.
 
 Este código adapta el
-[Contributor Covenant](https://www.contributor-covenant.org), versión 2.1.
+[Contributor Covenant](https://www.contributor-covenant.org), versión 2.1,
+publicado bajo CC BY 4.0. Se condensó, tradujo y adaptó al alcance de este
+repositorio. Consulte [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).

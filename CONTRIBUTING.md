@@ -40,6 +40,23 @@ sensibles, roles generales de tripulación y reglas de seguridad.
 5. Valida en local antes de abrir el Pull Request (ver siguiente sección).
 6. Abre el Pull Request contra `main` y completa la plantilla.
 
+## Licencias y procedencia
+
+Al enviar una contribución declaras que tienes derecho a aportarla y aceptas
+que se distribuya según la zona modificada:
+
+- código, scripts, workflows y configuración técnica propia: [MIT](LICENSE);
+- currículo, clases, instrucciones, ejercicios y metodología propia:
+  [CC BY-NC-SA 4.0](LICENSE-CONTENT.md).
+
+Conservas la autoría de tu aporte. No copies manuales, normas, imágenes,
+fichas de fabricantes ni otros materiales ajenos sin permiso verificable.
+Cuando una fuente externa sea necesaria, enlázala, registra su titular y sus
+condiciones de uso, y sigue
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) y
+[`ASSET_LICENSES.md`](ASSET_LICENSES.md). Una fuente pública no es
+automáticamente una obra con licencia abierta.
+
 ## Validación local
 
 El repositorio incluye un validador de estructura y un linter de Markdown. Ambos

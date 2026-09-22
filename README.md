@@ -6,7 +6,8 @@
 
 [![Validar documentación](https://github.com/vladimiracunadev-create/machine-operator-program/actions/workflows/validar-documentacion.yml/badge.svg)](https://github.com/vladimiracunadev-create/machine-operator-program/actions/workflows/validar-documentacion.yml)
 [![Verificar enlaces](https://github.com/vladimiracunadev-create/machine-operator-program/actions/workflows/enlaces.yml/badge.svg)](https://github.com/vladimiracunadev-create/machine-operator-program/actions/workflows/enlaces.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Código: MIT](https://img.shields.io/badge/c%C3%B3digo-MIT-yellow.svg)](LICENSE)
+[![Contenido: CC BY-NC-SA 4.0](https://img.shields.io/badge/contenido-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE-CONTENT.md)
 ![Vehículos](https://img.shields.io/badge/vehiculos-29-blue)
 ![Ficción](https://img.shields.io/badge/naves%20de%20ficcion-12-purple)
 ![Clases](https://img.shields.io/badge/clases-451-0b7285)
@@ -185,7 +186,30 @@ Documentación orientada a **simulación, formación general e investigación
 histórica**. No sustituye entrenamiento certificado, licencias ni manuales
 oficiales vigentes. Para máquinas militares o de alto riesgo, el repositorio se
 limita a información pública, principios generales, historia e interfaz de
-simulación. Ver [`docs/04-seguridad-y-limites.md`](docs/04-seguridad-y-limites.md).
+simulación. Ver el [`SAFETY_DISCLAIMER.md`](SAFETY_DISCLAIMER.md) y
+[`docs/04-seguridad-y-limites.md`](docs/04-seguridad-y-limites.md).
+
+---
+
+## ⚖️ Matriz de licencias
+
+El repositorio sigue siendo público, pero no todo su contenido tiene la misma
+licencia:
+
+| Material | Licencia o condición |
+| --- | --- |
+| Código, scripts, workflows y configuración técnica propia | [MIT](LICENSE) |
+| Currículo, clases, instrucciones, ejercicios y metodología propia | [CC BY-NC-SA 4.0](LICENSE-CONTENT.md) |
+| Manuales, normas, fichas y material de fabricantes o terceros | Copyright o licencia original; no se relicencia |
+| Recursos independientes presentes o futuros | Registro en [ASSET_LICENSES.md](ASSET_LICENSES.md) |
+
+La atribución del material original corresponde a **Vladimir Acuña**
+([`vladimiracunadev-create`](https://github.com/vladimiracunadev-create)). La
+licencia MIT histórica se conserva y los permisos ya concedidos sobre revisiones
+anteriores no se revocan. Consulte el
+[historial de licencias](docs/LICENSING_HISTORY.md), los
+[avisos de terceros](THIRD_PARTY_NOTICES.md) y la
+[auditoría](LICENSING_AUDIT.md).
 
 ---
 
@@ -208,8 +232,10 @@ npx markdownlint-cli2 "**/*.md"
 
 Lee la [guía de contribución](CONTRIBUTING.md) y el
 [código de conducta](CODE_OF_CONDUCT.md). El historial está en
-[`CHANGELOG.md`](CHANGELOG.md); la seguridad, en [`SECURITY.md`](SECURITY.md). El
-proyecto se distribuye bajo licencia [MIT](LICENSE).
+[`CHANGELOG.md`](CHANGELOG.md); la seguridad, en [`SECURITY.md`](SECURITY.md).
+Las contribuciones técnicas se distribuyen bajo [MIT](LICENSE) y las educativas
+bajo [CC BY-NC-SA 4.0](LICENSE-CONTENT.md), con las excepciones descritas en la
+[matriz de licencias](#️-matriz-de-licencias).
 
 ## 📊 Estado del proyecto
 
